@@ -15,3 +15,12 @@ body{margin:0;min-height:100vh;padding:24px 16px 28px;overflow-x:hidden}button,i
 @media(max-width:520px){body{padding:15px 12px 24px}.app{min-height:80vh}.masthead{padding-top:12px;margin-bottom:20px}.brand{font-size:clamp(43px,11.5vw,65px)}.panel{border-radius:16px;padding:19px}.action{padding:17px}.action b{font-size:21px}.question{font-size:29px;min-height:auto}.option{font-size:14px;min-height:79px;padding:12px;gap:7px}.roomcode{font-size:48px}.formrow{grid-template-columns:1fr}.footnote{line-height:1.8}}
 @media(max-width:350px){.options{grid-template-columns:1fr}.option{min-height:57px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Keep answer feedback musical: the lyric replaces the old prose explanation. */
+.answer-note .answer-result{font:700 12px Oswald,sans-serif;letter-spacing:.15em;color:var(--mint);margin-bottom:4px}
+.answer-note .lyric-label{font:600 11px Oswald,sans-serif;letter-spacing:.18em;color:var(--gold);margin:15px 0 5px}
+.answer-note .lyric-quote{border-left:3px solid var(--gold);padding:4px 0 4px 14px;margin:0;font:italic 500 clamp(18px,4vw,23px)/1.35 Georgia,serif;color:var(--paper)}
+.answer-note .lyric-credit{margin:9px 0 12px 17px;font-size:12px;color:#b4c2b7}
+.answer-note .gain{display:block;border-top:1px solid #3b5b51;padding-top:10px;font-weight:700}
+
+.shelf-link{text-align:center;margin:18px 0}.shelf-link a{color:var(--gold);text-decoration:underline;text-underline-offset:4px;font-weight:700;font-size:13px}

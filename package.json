@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
+    "test": "node test-server.mjs && node test-ui.mjs && node test-routing.mjs",
     "deploy": "wrangler deploy"
   }
 }

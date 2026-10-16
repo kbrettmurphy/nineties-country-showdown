@@ -1,0 +1,14 @@
+# Wrangler caches and local development state
+.wrangler/
+node_modules/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.env.example

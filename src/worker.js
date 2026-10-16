@@ -1,6 +1,6 @@
 import { QUESTIONS } from './questions.js';
 
-const DURATION_MS = 20000;
+const DURATION_MS = 30000;
 const REVEAL_MS = 5500;
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
@@ -47,7 +47,13 @@ const pickQuestions = (count) => {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (!url.pathname.startsWith('/api/')) return env.ASSETS.fetch(request);
+    // Supports both the standalone workers.dev site and a path-based route such as
+    // games.murphsmitts.com/country/. This does NOT intercept the number game at /.
+    if (url.pathname === '/country') return Response.redirect(url.origin + '/country/' + url.search, 308);
+    if (url.pathname === '/country/' || url.pathname.startsWith('/country/')) {
+      url.pathname = url.pathname.slice('/country'.length) || '/';
+    }
+    if (!url.pathname.startsWith('/api/')) return env.ASSETS.fetch(new Request(url, request));
     if (request.method !== 'POST') return fail('Use POST for game actions.', 405);
     let data;
     try { data = await request.json(); } catch { return fail('Invalid request.'); }
@@ -137,7 +143,9 @@ export class GameRoom {
       ownChoice:room.answers?.[token]?.choice ?? null,
       reveal:room.phase==='reveal'?{
         correctIndex:question.a,
-        explanation:question.fact,
+        lyric:question.lyric,
+        lyricSong:question.lyricSong,
+        lyricArtist:question.lyricArtist,
         myResult:room.lastRound?.[token] || {choice:null,correct:false,points:0}
       }:null
     });

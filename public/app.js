@@ -19,6 +19,7 @@ let requestInFlight = false;
 let solo = null;
 let previousState = '';
 let pendingChoice = false;
+const countryPrefix = location.pathname === '/country' || location.pathname.startsWith('/country/') ? '/country' : '';
 const token = (() => {
   let t=localStorage.getItem('country-showdown-player-token');
   if(!t){const bytes=new Uint8Array(24); crypto.getRandomValues(bytes); t=[...bytes].map(b=>b.toString(16).padStart(2,'0')).join(''); localStorage.setItem('country-showdown-player-token',t);}
@@ -44,7 +45,7 @@ const saveName = () => { const inp = $('#player-name'); if(inp) { name = inp.val
 const pickRounds = () => { rounds = Number($('#rounds')?.value)===20 ? 20 : 10; };
 function startSolo(){
   const order=makeOrder(rounds);
-  solo={order,index:0,score:0,correct:0,phase:'question',choice:null,earned:0,endsAt:Date.now()+20000};
+  solo={order,index:0,score:0,correct:0,phase:'question',choice:null,earned:0,endsAt:Date.now()+30000};
   view='solo'; error=''; render();
 }
 function revealSolo(choice){
@@ -52,7 +53,7 @@ function revealSolo(choice){
   const question=qs[solo.order[solo.index]];
   solo.choice=choice;
   if(choice===question.a){
-    solo.earned=100+Math.max(0,Math.round(60*(solo.endsAt-Date.now())/20000));
+    solo.earned=100+Math.max(0,Math.round(60*(solo.endsAt-Date.now())/30000));
     solo.score+=solo.earned;solo.correct++;
   } else solo.earned=0;
   solo.phase='reveal'; render();
@@ -61,11 +62,11 @@ function nextSolo(){
   if(!solo||solo.phase!=='reveal')return;
   solo.index++;
   if(solo.index>=solo.order.length)view='soloDone';
-  else {solo.phase='question';solo.choice=null;solo.earned=0;solo.endsAt=Date.now()+20000;}
+  else {solo.phase='question';solo.choice=null;solo.earned=0;solo.endsAt=Date.now()+30000;}
   render();
 }
 async function api(path, payload){
-  const rsp=await fetch(path,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({...payload,token})});
+  const rsp=await fetch(countryPrefix+path,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({...payload,token})});
   const data=await rsp.json().catch(()=>({error:'Could not read the server response.'}));
   if(!rsp.ok) throw new Error(data.error || 'Something went wrong.');
   return data;
@@ -105,15 +106,16 @@ function choiceButtons(q, chosen, locked, answer){
   }).join('')}</div>`;
 }
 function clockBlock(category,number,total){
-  return `<div class="topline"><span class="count">QUESTION ${number} / ${total}</span><span class="timer" id="clock">20s</span></div><div class="track"><div id="time-fill" style="width:100%"></div></div><div class="tag">${escapeHtml(category)}</div>`;
+  return `<div class="topline"><span class="count">QUESTION ${number} / ${total}</span><span class="timer" id="clock">30s</span></div><div class="track"><div id="time-fill" style="width:100%"></div></div><div class="tag">${escapeHtml(category)}</div>`;
 }
+const gameShelf = () => countryPrefix ? '<p class="shelf-link"><a href="https://games.murphsmitts.com/">← Back to Murph’s Games</a></p>' : '';
 function drawMenu(){
-  return `${logo()}<section class="panel"><div class="eyebrow">Pull up a stool</div><h2 class="section-title">You reckon you know 90s country?</h2><p class="section-sub">53 questions. Ten-foot hearts, deep cuts, album facts, and songs you can sing in your sleep. Twenty seconds per question. Answer quicker for more points.</p>
+  return `${logo()}<section class="panel"><div class="eyebrow">Pull up a stool</div><h2 class="section-title">You reckon you know 90s country?</h2><p class="section-sub">${qs.length} questions. Ten-foot hearts, deep cuts, album facts, and songs you can sing in your sleep. Thirty seconds per question. Answer quicker for more points.</p>
   <div class="actions">
   <button class="action" data-action="open-solo"><span><b>Solo soundcheck</b><small>Warm up and see your score</small></span><span class="arrow">→</span></button>
   ${soloOnly?'':`<button class="action" data-action="open-host"><span><b>Host a showdown</b><small>Face your buddy live, anywhere</small></span><span class="arrow">→</span></button>
   <button class="action" data-action="open-join"><span><b>Join a showdown</b><small>Got a room code? Get in there.</small></span><span class="arrow">→</span></button>`}
-  </div></section><div style="height:18px"></div>${soloOnly?'':`<p class="muted" style="text-align:center">Two-player battles work after deploying the included Cloudflare Worker. Solo mode works right here.</p>`}`;
+  </div></section>${gameShelf()}<div style="height:18px"></div>${soloOnly?'':`<p class="muted" style="text-align:center">Two-player battles work after deploying the included Cloudflare Worker. Solo mode works right here.</p>`}`;
 }
 function drawSetup(){
   const isJoin=mode==='join';const isHost=mode==='host';
@@ -130,7 +132,7 @@ function drawLobby(s){
   <div class="invite"><div class="joinlabel">Share this code</div><div class="roomcode">${escapeHtml(s.code)}</div><div class="roomline">${button('Copy Invite Link','copy-link','small')}${button('Share','share','small secondary')}</div></div>
   <div class="eyebrow">Players (${s.players.length}/8)</div><div class="players">${s.players.map(p=>`<span class="chip ${p.isYou&&s.isHost?'host':''}">${escapeHtml(p.name)}${p.isYou?' (you)':''}</span>`).join('')}</div>
   ${s.isHost?button(s.players.length>=2?'Start Game →':'Waiting for a buddy…','start','block',s.players.length<2?'disabled':''):'<div class="wait"><span class="spinner"></span> Waiting for the host to start…</div>'}
-  <div id="soft-error" class="notice">${notice()}</div><p class="muted" style="margin-bottom:0">${s.rounds} questions · 20 seconds per question · +100 for correct plus a speed bonus</p></section>`;
+  <div id="soft-error" class="notice">${notice()}</div><p class="muted" style="margin-bottom:0">${s.rounds} questions · 30 seconds per question · +100 for correct plus a speed bonus</p></section>`;
 }
 function drawQuestion(kind,s){
   const local = kind==='solo';
@@ -140,13 +142,22 @@ function drawQuestion(kind,s){
   const answer = revealed ? (local ? q.a : s.reveal.correctIndex) : null;
   const ownAnswered=chosen!==null && chosen!==undefined;
   const locked=local ? revealed : revealed || ownAnswered || pendingChoice;
-  const explanation=local?q.fact:s.reveal?.explanation;
+  const lyric=local?q.lyric:s.reveal?.lyric;
+  const lyricSong=local?q.lyricSong:s.reveal?.lyricSong;
+  const lyricArtist=local?q.lyricArtist:s.reveal?.lyricArtist;
   const earned=local?s.earned:s.reveal?.myResult.points;
   return `${logo()}${back()}<section class="panel">
   ${clockBlock(q.category,s.index+1,local?s.order.length:s.total)}
   <h2 class="question">${escapeHtml(q.q)}</h2>
   ${choiceButtons(q,chosen,locked,answer)}
-  ${revealed?`<div class="answer-note"><strong>${answer===chosen?'NAILED IT.':'THE RIGHT ANSWER: '+escapeHtml(q.choices[answer])}</strong>${escapeHtml(explanation)}<br><span class="gain">${earned>0?'+'+earned+' points':'No points this round'}</span></div>`:
+  ${revealed?`<div class="answer-note">
+    <div class="answer-result">${answer===chosen?'✓ NAILED IT':'✕ NOT QUITE'}</div>
+    <strong>RIGHT ANSWER: ${escapeHtml(q.choices[answer])}</strong>
+    <div class="lyric-label">FROM THE LYRICS</div>
+    <blockquote class="lyric-quote">“${escapeHtml(lyric)}”</blockquote>
+    <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)}</div>
+    <span class="gain">${earned>0?'+'+earned+' points':'No points this round'}</span>
+  </div>`:
     ownAnswered?`<div class="wait"><span class="spinner"></span> Answer locked. ${local?'':'Waiting for the other players…'}</div>`:''}
   ${local&&revealed?button(s.index+1===s.order.length?'See Final Score →':'Next Question →','next','block'):''}
   ${!local&&revealed?`<div class="wait"><span class="spinner"></span> Next question coming up…</div>`:''}
@@ -190,7 +201,7 @@ function drawClock(){
   const seconds=Math.ceil(time/1000);
   timer.textContent=seconds+'s';
   timer.classList.toggle('warn',seconds<=5);
-  fill.style.width=(100*time/20000)+'%';
+  fill.style.width=(100*time/30000)+'%';
   if(local&&time<=0&&s.phase==='question')revealSolo(null);
 }
 app.addEventListener('click',async (evt)=>{
