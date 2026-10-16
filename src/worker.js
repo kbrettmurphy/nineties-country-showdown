@@ -47,11 +47,21 @@ const pickQuestions = (count) => {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    // Supports both the standalone workers.dev site and a path-based route such as
-    // games.murphsmitts.com/country/. This does NOT intercept the number game at /.
-    if (url.pathname === '/country') return Response.redirect(url.origin + '/country/' + url.search, 308);
-    if (url.pathname === '/country/' || url.pathname.startsWith('/country/')) {
-      url.pathname = url.pathname.slice('/country'.length) || '/';
+    // MurphsMitts games hub: / (launcher), /numbers/ (original game embedded),
+    // and /country/ (Cloudflare-backed multiplayer trivia).
+    // Keep the country API at /country/api/...; the client uses that prefix.
+    if (url.pathname === '/country' || url.pathname === '/numbers') {
+      return Response.redirect(url.origin + url.pathname + '/' + url.search, 308);
+    }
+    // Let Cloudflare's static-asset handler serve folder index pages directly.
+    // Rewriting /numbers/ to /numbers/index.html (or /country/ likewise)
+    // causes a loop: the default HTML handler canonically redirects index.html
+    // right back to the trailing-slash URL.
+    // Trivia's JS/CSS and API remain rooted at /, so only those paths are remapped.
+    if (url.pathname.startsWith('/country/') &&
+        url.pathname !== '/country/' &&
+        url.pathname !== '/country/index.html') {
+      url.pathname = url.pathname.slice('/country'.length);
     }
     if (!url.pathname.startsWith('/api/')) return env.ASSETS.fetch(new Request(url, request));
     if (request.method !== 'POST') return fail('Use POST for game actions.', 405);

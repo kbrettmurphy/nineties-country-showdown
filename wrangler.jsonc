@@ -8,11 +8,26 @@
     "binding": "ASSETS",
     "run_worker_first": true
   },
-  "routes": [{ "pattern": "games.murphsmitts.com/country*", "zone_name": "murphsmitts.com" }],
+  "routes": [
+    {
+      "pattern": "games.murphsmitts.com/*",
+      "zone_name": "murphsmitts.com"
+    }
+  ],
   "durable_objects": {
-    "bindings": [{ "name": "ROOMS", "class_name": "GameRoom" }]
+    "bindings": [
+      {
+        "name": "ROOMS",
+        "class_name": "GameRoom"
+      }
+    ]
   },
   "exports": {
-    "GameRoom": { "type": "durable-object", "storage": "sqlite" }
-  }
+    "GameRoom": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  },
+  "workers_dev": true,
+  "preview_urls": true
 }
