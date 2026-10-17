@@ -74,6 +74,11 @@ assert.doesNotMatch(
   'answered question should collapse choices instead of increasing card height',
 );
 assert.match(app.innerHTML, /Full lyrics/);
+assert.match(
+  app.innerHTML,
+  /youtube\.com\/results\?search_query=[^"]*official%20audio"[^>]*>Listen ↗<\/a>/,
+  'solo reveal links to the song on YouTube',
+);
 assert.doesNotMatch(
   app.innerHTML,
   /The heart was ten feet tall; the lettering was three feet high/,

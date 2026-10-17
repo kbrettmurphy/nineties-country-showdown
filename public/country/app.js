@@ -374,6 +374,8 @@
     const lyricArtist = local ? q.lyricArtist : s.reveal?.lyricArtist;
     const earned = local ? s.earned : s.reveal?.myResult.points;
     if (revealed) reportTarget = { id: q.id, song: lyricSong, artist: lyricArtist, live: !local };
+    // Solo only: in a matchup the reveal moves on in seconds, so leaving to listen costs the next question.
+    const listenUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent((lyricArtist || '') + ' ' + (lyricSong || '') + ' official audio')}`;
     const searchLyrics = `https://www.google.com/search?q=${encodeURIComponent((lyricArtist || '') + ' ' + (lyricSong || '') + ' lyrics')}`;
     return `${logo()}${back()}<section class="panel round-panel">
   ${clockBlock(q.category, s.index + 1, local ? s.order.length : s.total)}
@@ -386,7 +388,7 @@
     <strong>RIGHT ANSWER: ${escapeHtml(q.choices[answer])}</strong>
     <div class="lyric-label">${String(lyric).trim().split(/\s+/).length <= 3 ? 'THE SONG HOOK' : 'FROM THE LYRICS'}</div>
     <blockquote class="lyric-quote">“${escapeHtml(lyric).replaceAll(' / ', '<br>')}”</blockquote>
-    <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)} <a class="full-lyrics" href="${escapeHtml(searchLyrics)}" target="_blank" rel="noopener noreferrer">Full lyrics ↗</a></div>
+    <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)} <a class="full-lyrics" href="${escapeHtml(searchLyrics)}" target="_blank" rel="noopener noreferrer">Full lyrics ↗</a>${local ? `<a class="full-lyrics" href="${escapeHtml(listenUrl)}" target="_blank" rel="noopener noreferrer">Listen ↗</a>` : ''}</div>
     <span class="gain"><span>${earned > 0 ? '+' + earned + ' points' : 'No points this round'}</span>${soloOnly ? '' : '<button class="report-link" data-action="report">Report a question error</button>'}</span>
   </div>`
       : ownAnswered
