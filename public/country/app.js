@@ -98,10 +98,7 @@
         used.add(entry.q.topic);
       }
     };
-    const isDetail = (q) =>
-      q.category === 'LYRIC DETECTIVE' ||
-      q.category === 'DEEP CUT' ||
-      q.category === 'ALBUMS & COLLABS';
+    const isDetail = (q) => q.category !== 'WHO SINGS IT?';
     add(fresh, Math.ceil(n * 0.4), isDetail);
     add(fresh, n, () => true);
     if (chosen.length < n) add(older, n, () => true);
@@ -386,7 +383,7 @@
     <div class="answer-result">${answer === chosen ? '✓ NAILED IT' : '✕ NOT QUITE'}</div>
     <strong>RIGHT ANSWER: ${escapeHtml(q.choices[answer])}</strong>
     <div class="lyric-label">${String(lyric).trim().split(/\s+/).length <= 3 ? 'THE SONG HOOK' : 'FROM THE LYRICS'}</div>
-    <blockquote class="lyric-quote">“${escapeHtml(lyric)}”</blockquote>
+    <blockquote class="lyric-quote">“${escapeHtml(lyric).replaceAll(' / ', '<br>')}”</blockquote>
     <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)} <a class="full-lyrics" href="${escapeHtml(searchLyrics)}" target="_blank" rel="noopener noreferrer">Full lyrics ↗</a></div>
     <span class="gain">${earned > 0 ? '+' + earned + ' points' : 'No points this round'}</span>
   </div>`

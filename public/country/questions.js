@@ -11,7 +11,7 @@ window.QBANK = [
       "12 feet"
     ],
     "a": 0,
-    "lyric": "ten foot heart",
+    "lyric": "Stood on the rail and painted a ten-foot heart in John Deere green",
     "lyricSong": "John Deere Green",
     "lyricArtist": "Joe Diffie"
   },
@@ -27,7 +27,7 @@ window.QBANK = [
       "2 feet"
     ],
     "a": 0,
-    "lyric": "three foot high",
+    "lyric": "He wrote Billy Bob loves Charlene in letters three foot high",
     "lyricSong": "John Deere Green",
     "lyricArtist": "Joe Diffie"
   },
@@ -43,7 +43,7 @@ window.QBANK = [
       "80 acres"
     ],
     "a": 3,
-    "lyric": "on eighty acres",
+    "lyric": "They settled down on eighty acres, raising sweet corn, kids and tomatoes",
     "lyricSong": "John Deere Green",
     "lyricArtist": "Joe Diffie"
   },
@@ -59,7 +59,7 @@ window.QBANK = [
       "75 gallons"
     ],
     "a": 0,
-    "lyric": "a hundred gallons",
+    "lyric": "We got a hundred gallons of sweet red wine / Made from the biggest watermelons on the vine",
     "lyricSong": "Watermelon Crawl",
     "lyricArtist": "Tracy Byrd"
   },
@@ -75,7 +75,7 @@ window.QBANK = [
       "August"
     ],
     "a": 1,
-    "lyric": "in late July",
+    "lyric": "I was drivin’ through Georgia in late July / On a day hot enough to make the devil sigh",
     "lyricSong": "Watermelon Crawl",
     "lyricArtist": "Tracy Byrd"
   },
@@ -91,7 +91,7 @@ window.QBANK = [
       "Creal Williams"
     ],
     "a": 3,
-    "lyric": "Creal Williams",
+    "lyric": "Creal Williams lived down a dirt road / He made homemade wine like nobody I know",
     "lyricSong": "Dust on the Bottle",
     "lyricArtist": "David Lee Murphy"
   },
@@ -107,7 +107,7 @@ window.QBANK = [
       "The cellar"
     ],
     "a": 3,
-    "lyric": "down in the cellar",
+    "lyric": "He said I got what you need, son / As we stepped down in the cellar",
     "lyricSong": "Dust on the Bottle",
     "lyricArtist": "David Lee Murphy"
   },
@@ -123,7 +123,7 @@ window.QBANK = [
       "High blood pressure"
     ],
     "a": 0,
-    "lyric": "on a diet for high cholesterol",
+    "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol",
     "lyricSong": "Time Marches On",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -139,7 +139,7 @@ window.QBANK = [
       "A wild child"
     ],
     "a": 0,
-    "lyric": "a sexy grandma",
+    "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol",
     "lyricSong": "Time Marches On",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -155,7 +155,7 @@ window.QBANK = [
       "Second row"
     ],
     "a": 3,
-    "lyric": "the lady in the second row, she’s an eight",
+    "lyric": "I’m sold on the lady in the second row, she’s an eight, she’s a nine, she’s a ten, I know",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -171,7 +171,7 @@ window.QBANK = [
       "Blond"
     ],
     "a": 3,
-    "lyric": "ruby red lips, blond hair, blue eyes",
+    "lyric": "She’s got ruby red lips, blond hair, blue eyes, and I’m about to bid my heart goodbye",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -187,7 +187,7 @@ window.QBANK = [
       "Six"
     ],
     "a": 1,
-    "lyric": "eight years old",
+    "lyric": "Johnny’s daddy was takin’ him fishin’ when he was eight years old",
     "lyricSong": "Don’t Take the Girl",
     "lyricArtist": "Tim McGraw"
   },
@@ -203,7 +203,7 @@ window.QBANK = [
       "A belt buckle"
     ],
     "a": 0,
-    "lyric": "the watch that my grandpa gave me",
+    "lyric": "Here’s the watch that my grandpa gave me / Here’s the key to my car",
     "lyricSong": "Don’t Take the Girl",
     "lyricArtist": "Tim McGraw"
   },
@@ -219,7 +219,7 @@ window.QBANK = [
       "17"
     ],
     "a": 3,
-    "lyric": "and seventeen",
+    "lyric": "Like strawberry wine and seventeen / The hot July moon saw everything",
     "lyricSong": "Strawberry Wine",
     "lyricArtist": "Deana Carter"
   },
@@ -235,7 +235,7 @@ window.QBANK = [
       "Her grandfather’s"
     ],
     "a": 3,
-    "lyric": "on my grandpa's farm",
+    "lyric": "He was working through college on my grandpa’s farm / I was thirsting for knowledge and he had a car",
     "lyricSong": "Strawberry Wine",
     "lyricArtist": "Deana Carter"
   },
@@ -251,7 +251,7 @@ window.QBANK = [
       "October"
     ],
     "a": 2,
-    "lyric": "fear was September",
+    "lyric": "I still remember when thirty was old / My biggest fear was September when he had to go",
     "lyricSong": "Strawberry Wine",
     "lyricArtist": "Deana Carter"
   },
@@ -267,7 +267,7 @@ window.QBANK = [
       "Mark Chesnutt"
     ],
     "a": 0,
-    "lyric": "queen of my double wide trailer",
+    "lyric": "So I made her the queen of my double-wide trailer / with the polyester curtains and the redwood deck",
     "lyricSong": "Queen of My Double Wide Trailer",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -283,7 +283,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 2,
-    "lyric": "Bubba shot the jukebox last night",
+    "lyric": "Bubba shot the jukebox last night / said it played a sad song, it made him cry",
     "lyricSong": "Bubba Shot the Jukebox",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -299,7 +299,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 2,
-    "lyric": "every light in the house is on",
+    "lyric": "Every light in the house is on / The backyard’s bright as the crack of dawn",
     "lyricSong": "Every Light in the House",
     "lyricArtist": "Trace Adkins"
   },
@@ -315,7 +315,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 3,
-    "lyric": "Some girls don't like boys like me",
+    "lyric": "Some girls don’t like boys like me / aww, but some girls do",
     "lyricSong": "Some Girls Do",
     "lyricArtist": "Sawyer Brown"
   },
@@ -331,7 +331,7 @@ window.QBANK = [
       "Little Texas"
     ],
     "a": 3,
-    "lyric": "what might have been",
+    "lyric": "Try not to think about what might have been / ’cause that was then and we have taken different roads",
     "lyricSong": "What Might Have Been",
     "lyricArtist": "Little Texas"
   },
@@ -347,7 +347,7 @@ window.QBANK = [
       "Lorrie Morgan"
     ],
     "a": 0,
-    "lyric": "Maybe it was Memphis",
+    "lyric": "Maybe it was Memphis, maybe it was southern summer nights",
     "lyricSong": "Maybe It Was Memphis",
     "lyricArtist": "Pam Tillis"
   },
@@ -363,7 +363,7 @@ window.QBANK = [
       "Rick Trevino"
     ],
     "a": 1,
-    "lyric": "I'm old enough to know better",
+    "lyric": "I’m old enough to know better, but I’m still too young to care",
     "lyricSong": "Old Enough to Know Better",
     "lyricArtist": "Wade Hayes"
   },
@@ -379,7 +379,7 @@ window.QBANK = [
       "Lonestar"
     ],
     "a": 2,
-    "lyric": "She's got her daddy's money",
+    "lyric": "She’s got her daddy’s money, her mama’s good looks / more laughs than a stack of comic books",
     "lyricSong": "Daddy’s Money",
     "lyricArtist": "Ricochet"
   },
@@ -395,7 +395,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 0,
-    "lyric": "No one else on earth could ever hurt me",
+    "lyric": "No one else on Earth could ever hurt me / Break my heart the way you do",
     "lyricSong": "No One Else on Earth",
     "lyricArtist": "Wynonna"
   },
@@ -411,7 +411,7 @@ window.QBANK = [
       "Chely Wright"
     ],
     "a": 1,
-    "lyric": "I need ten thousand angels watching over me tonight",
+    "lyric": "Guide my feet and hold me tight / I need ten thousand angels watchin’ over me tonight",
     "lyricSong": "Ten Thousand Angels",
     "lyricArtist": "Mindy McCready"
   },
@@ -427,7 +427,7 @@ window.QBANK = [
       "Little Texas"
     ],
     "a": 0,
-    "lyric": "Next to you, next to me",
+    "lyric": "There ain’t no place that I’d rather be / Next to you, sittin’ next to me",
     "lyricSong": "Next to You, Next to Me",
     "lyricArtist": "Shenandoah"
   },
@@ -443,7 +443,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 0,
-    "lyric": "a thousand miles from nowhere",
+    "lyric": "I’m a thousand miles from nowhere, time don’t matter to me",
     "lyricSong": "A Thousand Miles from Nowhere",
     "lyricArtist": "Dwight Yoakam"
   },
@@ -459,7 +459,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 1,
-    "lyric": "one boy, one girl",
+    "lyric": "One boy, one girl, two hearts beating wildly / To put it mildly, it was love at first sight",
     "lyricSong": "One Boy, One Girl",
     "lyricArtist": "Collin Raye"
   },
@@ -475,7 +475,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 1,
-    "lyric": "How do you like me now",
+    "lyric": "I couldn’t make you love me, but I always dreamed about livin’ in your radio / How do you like me now?",
     "lyricSong": "How Do You Like Me Now?!",
     "lyricArtist": "Toby Keith"
   },
@@ -491,7 +491,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 0,
-    "lyric": "Seein' nothin' but the taillights",
+    "lyric": "Now I’m walkin’ in the moonlight / Seein’ nothin’ but the taillights",
     "lyricSong": "Nothin’ but the Taillights",
     "lyricArtist": "Clint Black"
   },
@@ -507,7 +507,7 @@ window.QBANK = [
       "Vince Gill"
     ],
     "a": 3,
-    "lyric": "Go rest high on that mountain",
+    "lyric": "So go rest high on that mountain / Son, your work on earth is done",
     "lyricSong": "Go Rest High on That Mountain",
     "lyricArtist": "Vince Gill"
   },
@@ -523,7 +523,7 @@ window.QBANK = [
       "The Judds"
     ],
     "a": 1,
-    "lyric": "My Maria, don't you know I have come",
+    "lyric": "My Maria, don’t you know I’ve come a long, long way",
     "lyricSong": "My Maria",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -539,7 +539,7 @@ window.QBANK = [
       "Deana Carter"
     ],
     "a": 2,
-    "lyric": "Bye-bye, love, I'll catch you later",
+    "lyric": "Bye-bye, love, I’ll catch you later, got a lead foot down on my accelerator",
     "lyricSong": "Bye Bye",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -555,7 +555,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 3,
-    "lyric": "let freedom ring, let the white dove sing",
+    "lyric": "Let freedom ring, let the white dove sing / let the whole world know that today is a day of reckoning",
     "lyricSong": "Independence Day",
     "lyricArtist": "Martina McBride"
   },
@@ -571,7 +571,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 2,
-    "lyric": "I still believe in you",
+    "lyric": "I still believe in you / With a love that will always be standin’ so strong and true",
     "lyricSong": "I Still Believe in You",
     "lyricArtist": "Vince Gill"
   },
@@ -587,7 +587,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 0,
-    "lyric": "She's got the rhythm and I got the blues",
+    "lyric": "She’s got the rhythm and I got the blues / And she’s showing me how much I had to lose",
     "lyricSong": "She’s Got the Rhythm (And I Got the Blues)",
     "lyricArtist": "Alan Jackson"
   },
@@ -603,7 +603,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 1,
-    "lyric": "The heart won't lie",
+    "lyric": "’Cause the heart won’t lie / sometimes life gets in the way, but there’s one thing that won’t change",
     "lyricSong": "The Heart Won’t Lie",
     "lyricArtist": "Reba McEntire & Vince Gill"
   },
@@ -619,7 +619,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 3,
-    "lyric": "Here in Little Rock",
+    "lyric": "I think I’m on a roll here in Little Rock / I’m solid as a stone, baby, wait and see",
     "lyricSong": "Little Rock",
     "lyricArtist": "Collin Raye"
   },
@@ -635,7 +635,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 2,
-    "lyric": "I want some more of it",
+    "lyric": "But I like it, I love it, I want some more of it / I try so hard, I can’t rise above it",
     "lyricSong": "I Like It, I Love It",
     "lyricArtist": "Tim McGraw"
   },
@@ -651,7 +651,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 1,
-    "lyric": "Whose bed have your boots been under?",
+    "lyric": "Whose bed have your boots been under? / And whose heart did you steal I wonder?",
     "lyricSong": "Whose Bed Have Your Boots Been Under?",
     "lyricArtist": "Shania Twain"
   },
@@ -667,7 +667,7 @@ window.QBANK = [
       "Pam Tillis"
     ],
     "a": 1,
-    "lyric": "Katie’s sittin’ on the old front porch",
+    "lyric": "She’s in love with the boy / And even if they have to run away, she’s gonna marry that boy someday",
     "lyricSong": "She’s in Love with the Boy",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -683,7 +683,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 0,
-    "lyric": "heads Carolina, tails California",
+    "lyric": "Heads Carolina, tails California, somewhere greener, somewhere warmer / Up in the mountains, down by the ocean",
     "lyricSong": "Heads Carolina, Tails California",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -699,7 +699,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 0,
-    "lyric": "there's something women like about a pickup man",
+    "lyric": "And I began to understand, there’s just something women like about a pickup man",
     "lyricSong": "Pickup Man",
     "lyricArtist": "Joe Diffie"
   },
@@ -715,7 +715,7 @@ window.QBANK = [
       "BlackHawk"
     ],
     "a": 0,
-    "lyric": "I'm so in love with you",
+    "lyric": "Every little thing that you do / baby, I’m amazed by you",
     "lyricSong": "Amazed",
     "lyricArtist": "Lonestar"
   },
@@ -731,7 +731,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 2,
-    "lyric": "blue, oh, so lonesome for you",
+    "lyric": "Blue, oh, so lonesome for you / Why can’t you be blue over me?",
     "lyricSong": "Blue",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -747,7 +747,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 3,
-    "lyric": "She needs wide open spaces",
+    "lyric": "She needs wide open spaces / Room to make her big mistakes",
     "lyricSong": "Wide Open Spaces",
     "lyricArtist": "Dixie Chicks"
   },
@@ -763,7 +763,7 @@ window.QBANK = [
       "It’s Your Love"
     ],
     "a": 3,
-    "lyric": "It's your love, it just does something to me",
+    "lyric": "It’s your love, it just does somethin’ to me / It sends a shock right through me, I can’t get enough",
     "lyricSong": "It’s Your Love",
     "lyricArtist": "Tim McGraw & Faith Hill"
   },
@@ -779,7 +779,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 3,
-    "lyric": "How do I live without you",
+    "lyric": "How do I live without you? I want to know / How do I breathe without you if you ever go?",
     "lyricSong": "How Do I Live",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -795,7 +795,7 @@ window.QBANK = [
       "The Bellamy Brothers"
     ],
     "a": 2,
-    "lyric": "I'm a brand new man",
+    "lyric": "By the fire in your touch and the flame in your eyes / I’m born to love again, I’m a brand new man",
     "lyricSong": "Brand New Man",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -811,7 +811,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 3,
-    "lyric": "Friday night, get right, honky tonk attitude",
+    "lyric": "Tight pants, line dance, Stetson hats and cowboy boots / They got a Friday night, get right honky tonk attitude",
     "lyricSong": "Honky Tonk Attitude",
     "lyricArtist": "Joe Diffie"
   },
@@ -827,7 +827,7 @@ window.QBANK = [
       "Deana Carter"
     ],
     "a": 3,
-    "lyric": "Did I shave my legs for this?",
+    "lyric": "As I head for the door, I turn around to be sure / Did I shave my legs for this?",
     "lyricSong": "Did I Shave My Legs for This?",
     "lyricArtist": "Deana Carter"
   },
@@ -843,7 +843,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 0,
-    "lyric": "Cowboy take me away",
+    "lyric": "Cowboy, take me away / Fly this girl as high as you can into the wild blue",
     "lyricSong": "Cowboy Take Me Away (from Fly)",
     "lyricArtist": "Dixie Chicks"
   },
@@ -859,7 +859,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "where the whiskey drowns and the beer chases",
+    "lyric": "’Cause I’ve got friends in low places, where the whiskey drowns and the beer chases my blues away",
     "lyricSong": "Friends in Low Places",
     "lyricArtist": "Garth Brooks"
   },
@@ -875,7 +875,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 2,
-    "lyric": "the thunder rolls and the lightning strikes",
+    "lyric": "The thunder rolls and the lightnin’ strikes / Another love grows cold on a sleepless night",
     "lyricSong": "The Thunder Rolls",
     "lyricArtist": "Garth Brooks"
   },
@@ -891,7 +891,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 0,
-    "lyric": "Some of God's greatest gifts are unanswered prayers",
+    "lyric": "Sometimes I thank God for unanswered prayers / Remember when you’re talkin’ to the man upstairs",
     "lyricSong": "Unanswered Prayers",
     "lyricArtist": "Garth Brooks"
   },
@@ -907,7 +907,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 0,
-    "lyric": "workin’ on a full house",
+    "lyric": "Hey, she’s my little Queen of the South / Yeah, we’re two of a kind, workin’ on a full house",
     "lyricSong": "Two of a Kind, Workin’ on a Full House",
     "lyricArtist": "Garth Brooks"
   },
@@ -923,7 +923,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 2,
-    "lyric": "It’s the rodeo",
+    "lyric": "Well, it’s bulls and blood, it’s dust and mud, it’s the roar of a Sunday crowd",
     "lyricSong": "Rodeo",
     "lyricArtist": "Garth Brooks"
   },
@@ -939,7 +939,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "I'm shameless when it comes to loving you",
+    "lyric": "I’m shameless when it comes to loving you, I’ll do anything you want me to",
     "lyricSong": "Shameless",
     "lyricArtist": "Garth Brooks"
   },
@@ -955,7 +955,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "Papa Loved Mama",
+    "lyric": "Papa loved Mama, Mama loved men / Mama’s in the graveyard, Papa’s in the pen",
     "lyricSong": "Papa Loved Mama",
     "lyricArtist": "Garth Brooks"
   },
@@ -971,7 +971,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 1,
-    "lyric": "I will sail my vessel till the river runs dry",
+    "lyric": "And I will sail my vessel ’til the river runs dry / Like a bird upon the wind, these waters are my sky",
     "lyricSong": "The River",
     "lyricArtist": "Garth Brooks"
   },
@@ -987,7 +987,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 0,
-    "lyric": "What She’s Doing Now",
+    "lyric": "’Cause what she’s doin’ now is tearin’ me apart, fillin’ up my mind and emptying my heart",
     "lyricSong": "What She’s Doing Now",
     "lyricArtist": "Garth Brooks"
   },
@@ -1003,7 +1003,7 @@ window.QBANK = [
       "Vince Gill"
     ],
     "a": 0,
-    "lyric": "somewhere other than the night",
+    "lyric": "Somewhere other than the night, she needs to hear I love you",
     "lyricSong": "Somewhere Other Than the Night",
     "lyricArtist": "Garth Brooks"
   },
@@ -1019,7 +1019,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 0,
-    "lyric": "That Summer",
+    "lyric": "She had a need to feel the thunder, to chase the lightning from the sky",
     "lyricSong": "That Summer",
     "lyricArtist": "Garth Brooks"
   },
@@ -1027,7 +1027,7 @@ window.QBANK = [
     "id": 65,
     "category": "WHO SINGS IT?",
     "topic": "hit-aintgoingdowntilthesuncomesup",
-    "q": "Who sings the 90s country favorite “Ain’t Going Down (’Til the Sun Comes Up)”?",
+    "q": "Who sings the 90s country favorite “Ain’t Goin’ Down (’Til the Sun Comes Up)”?",
     "choices": [
       "Garth Brooks",
       "Clint Black",
@@ -1035,8 +1035,8 @@ window.QBANK = [
       "Hal Ketchum"
     ],
     "a": 0,
-    "lyric": "ain’t goin’ down",
-    "lyricSong": "Ain’t Going Down (’Til the Sun Comes Up)",
+    "lyric": "Ain’t goin’ down ’til the sun comes up, ain’t givin’ in ’til they get enough",
+    "lyricSong": "Ain’t Goin’ Down (’Til the Sun Comes Up)",
     "lyricArtist": "Garth Brooks"
   },
   {
@@ -1051,7 +1051,7 @@ window.QBANK = [
       "Sammy Kershaw"
     ],
     "a": 1,
-    "lyric": "life is not tried, it is merely survived",
+    "lyric": "Life is not tried, it is merely survived if you’re standing outside the fire",
     "lyricSong": "Standing Outside the Fire",
     "lyricArtist": "Garth Brooks"
   },
@@ -1067,7 +1067,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 1,
-    "lyric": "Callin’ Baton Rouge",
+    "lyric": "Operator, won’t you put me on through? I gotta send my love down to Baton Rouge",
     "lyricSong": "Callin’ Baton Rouge",
     "lyricArtist": "Garth Brooks"
   },
@@ -1083,7 +1083,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "The Beaches of Cheyenne",
+    "lyric": "You’ll see her footprints in the sand / ’Cause every night she walks the beaches of Cheyenne",
     "lyricSong": "The Beaches of Cheyenne",
     "lyricArtist": "Garth Brooks"
   },
@@ -1099,7 +1099,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 0,
-    "lyric": "She’s Every Woman",
+    "lyric": "’Cause she’ll rage just like a river, then she’ll beg you to forgive her / She’s every woman that I’ve ever known",
     "lyricSong": "She’s Every Woman",
     "lyricArtist": "Garth Brooks"
   },
@@ -1115,7 +1115,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "The Change",
+    "lyric": "I do this so this world will know that it will not change me",
     "lyricSong": "The Change",
     "lyricArtist": "Garth Brooks"
   },
@@ -1131,7 +1131,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 0,
-    "lyric": "Longneck Bottle",
+    "lyric": "Longneck bottle, let go of my hand / Hey, jukebox, don’t start playin’ that song again",
     "lyricSong": "Longneck Bottle",
     "lyricArtist": "Garth Brooks"
   },
@@ -1147,7 +1147,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "one for each hand",
+    "lyric": "So bring me two piña coladas, one for each hand / Let’s set sail with Captain Morgan",
     "lyricSong": "Two Piña Coladas",
     "lyricArtist": "Garth Brooks"
   },
@@ -1163,7 +1163,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 2,
-    "lyric": "chasin’ that neon rainbow, livin’ that honky tonk dream",
+    "lyric": "Chasin’ that neon rainbow, livin’ that honky-tonk dream / ’Cause all I’ve ever wanted is to pick this guitar and sing",
     "lyricSong": "Chasin’ That Neon Rainbow",
     "lyricArtist": "Alan Jackson"
   },
@@ -1179,7 +1179,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 3,
-    "lyric": "Here in the real world, it’s not that easy",
+    "lyric": "But here in the real world, it’s not that easy at all / ’Cause when hearts get broken, it’s real tears that fall",
     "lyricSong": "Here in the Real World",
     "lyricArtist": "Alan Jackson"
   },
@@ -1195,7 +1195,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 1,
-    "lyric": "I wanna hear some Jones",
+    "lyric": "Don’t rock the jukebox, I wanna hear some Jones / ’Cause my heart ain’t ready for the Rolling Stones",
     "lyricSong": "Don’t Rock the Jukebox",
     "lyricArtist": "Alan Jackson"
   },
@@ -1211,7 +1211,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 2,
-    "lyric": "Someday",
+    "lyric": "And I told her someday, she said I can’t wait / ’Cause sometimes someday just never comes",
     "lyricSong": "Someday",
     "lyricArtist": "Alan Jackson"
   },
@@ -1227,7 +1227,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 3,
-    "lyric": "Midnight in Montgomery",
+    "lyric": "’Cause it’s midnight in Montgomery / Just hear that whippoorwill",
     "lyricSong": "Midnight in Montgomery",
     "lyricArtist": "Alan Jackson"
   },
@@ -1243,7 +1243,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 2,
-    "lyric": "it gets hotter than a hoochie coochie",
+    "lyric": "Way down yonder on the Chattahoochee / It gets hotter than a hoochie coochie",
     "lyricSong": "Chattahoochee",
     "lyricArtist": "Alan Jackson"
   },
@@ -1259,7 +1259,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 0,
-    "lyric": "Mercury Blues",
+    "lyric": "Crazy ’bout a Mercury / I’m gonna buy me a Mercury and cruise it up and down the road",
     "lyricSong": "Mercury Blues",
     "lyricArtist": "Alan Jackson"
   },
@@ -1275,7 +1275,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 2,
-    "lyric": "She’s gone country, look at them boots",
+    "lyric": "She’s gone country, look at them boots / She’s gone country, back to her roots",
     "lyricSong": "Gone Country",
     "lyricArtist": "Alan Jackson"
   },
@@ -1291,7 +1291,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 0,
-    "lyric": "livin’ on love, buyin’ on time",
+    "lyric": "Livin’ on love, buyin’ on time / Without somebody nothing ain’t worth a dime",
     "lyricSong": "Livin’ on Love",
     "lyricArtist": "Alan Jackson"
   },
@@ -1307,7 +1307,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 0,
-    "lyric": "Summertime Blues",
+    "lyric": "Sometimes I wonder what I’m gonna do / ’Cause there ain’t no cure for the summertime blues",
     "lyricSong": "Summertime Blues",
     "lyricArtist": "Alan Jackson"
   },
@@ -1323,7 +1323,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 1,
-    "lyric": "I don’t even know your name",
+    "lyric": "I’m in love with you, baby, and I don’t even know your name",
     "lyricSong": "I Don’t Even Know Your Name",
     "lyricArtist": "Alan Jackson"
   },
@@ -1339,7 +1339,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 0,
-    "lyric": "Tall, Tall Trees",
+    "lyric": "I’ll buy you tall, tall trees and all the waters in the seas / I’m a fool, fool, fool for you",
     "lyricSong": "Tall, Tall Trees",
     "lyricArtist": "Alan Jackson"
   },
@@ -1355,7 +1355,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 1,
-    "lyric": "it’s all right to be little bitty",
+    "lyric": "Well, it’s alright to be little bitty / A little hometown or a big old city",
     "lyricSong": "Little Bitty",
     "lyricArtist": "Alan Jackson"
   },
@@ -1371,7 +1371,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 1,
-    "lyric": "There Goes",
+    "lyric": "And there go your paralyzin’ eyes / There goes your tantalizin’ smile",
     "lyricSong": "There Goes",
     "lyricArtist": "Alan Jackson"
   },
@@ -1387,7 +1387,7 @@ window.QBANK = [
       "Dwight Yoakam"
     ],
     "a": 0,
-    "lyric": "Right on the Money",
+    "lyric": "She’s right on the money / She goes direct to my heart",
     "lyricSong": "Right on the Money",
     "lyricArtist": "Alan Jackson"
   },
@@ -1403,7 +1403,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 0,
-    "lyric": "Pop a Top",
+    "lyric": "Pop a top again / I just got time for one more round / Set ’em up, my friend",
     "lyricSong": "Pop a Top",
     "lyricArtist": "Alan Jackson"
   },
@@ -1419,7 +1419,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 2,
-    "lyric": "Daddies don't just love their children every now and then",
+    "lyric": "He said daddies don’t just love their children every now and then / It’s a love without end, amen",
     "lyricSong": "Love Without End, Amen",
     "lyricArtist": "George Strait"
   },
@@ -1435,7 +1435,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 0,
-    "lyric": "You Know Me Better Than That",
+    "lyric": "But you know me better than that, you know the me that gets lazy and fat",
     "lyricSong": "You Know Me Better Than That",
     "lyricArtist": "George Strait"
   },
@@ -1451,7 +1451,7 @@ window.QBANK = [
       "Ricky Van Shelton"
     ],
     "a": 2,
-    "lyric": "The Chill of an Early Fall",
+    "lyric": "Will blow like a cold winter squall / And I’ll begin to feel the chill of an early fall",
     "lyricSong": "The Chill of an Early Fall",
     "lyricArtist": "George Strait"
   },
@@ -1467,7 +1467,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "You'll never find a love as true as mine",
+    "lyric": "I cross my heart and promise to give all I’ve got to give to make all your dreams come true",
     "lyricSong": "I Cross My Heart",
     "lyricArtist": "George Strait"
   },
@@ -1483,7 +1483,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "The heartland",
+    "lyric": "Sing a song about the heartland, the only place I feel at home",
     "lyricSong": "Heartland",
     "lyricArtist": "George Strait"
   },
@@ -1499,7 +1499,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "Easy Come, Easy Go",
+    "lyric": "Goodbye, farewell, so long, vaya con Dios / Good luck, wish you well, take it slow",
     "lyricSong": "Easy Come, Easy Go",
     "lyricArtist": "George Strait"
   },
@@ -1515,7 +1515,7 @@ window.QBANK = [
       "Dwight Yoakam"
     ],
     "a": 0,
-    "lyric": "I’d Like to Have That One Back",
+    "lyric": "I’d like to have that one back, never known someone so true",
     "lyricSong": "I’d Like to Have That One Back",
     "lyricArtist": "George Strait"
   },
@@ -1531,7 +1531,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 1,
-    "lyric": "The Big One",
+    "lyric": "On the Richter scale of romance you hit twelve and you don’t stand a chance / This is the big one",
     "lyricSong": "The Big One",
     "lyricArtist": "George Strait"
   },
@@ -1547,7 +1547,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 1,
-    "lyric": "You Can’t Make a Heart Love Somebody",
+    "lyric": "You can’t make a heart love somebody / You can lead a heart to love, but you can’t make it fall",
     "lyricSong": "You Can’t Make a Heart Love Somebody",
     "lyricArtist": "George Strait"
   },
@@ -1563,7 +1563,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "Do you love me? Do you wanna be my friend?",
+    "lyric": "Do you love me, do you wanna be my friend? / And if you do, well then don’t be afraid",
     "lyricSong": "Check Yes or No",
     "lyricArtist": "George Strait"
   },
@@ -1579,7 +1579,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 0,
-    "lyric": "I Know She Still Loves Me",
+    "lyric": "I know she still loves me, but I don’t think she likes me anymore",
     "lyricSong": "I Know She Still Loves Me",
     "lyricArtist": "George Strait"
   },
@@ -1595,7 +1595,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "Blue Clear Sky",
+    "lyric": "Surprise, your new love has arrived out of the blue clear sky",
     "lyricSong": "Blue Clear Sky",
     "lyricArtist": "George Strait"
   },
@@ -1611,7 +1611,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 2,
-    "lyric": "Carried Away",
+    "lyric": "I get carried away by the look, by the light in your eyes",
     "lyricSong": "Carried Away",
     "lyricArtist": "George Strait"
   },
@@ -1627,7 +1627,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 1,
-    "lyric": "One Night at a Time",
+    "lyric": "All night, love all night, practice makes perfect, gonna get it right / Gonna get it right, one night at a time",
     "lyricSong": "One Night at a Time",
     "lyricArtist": "George Strait"
   },
@@ -1643,7 +1643,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 2,
-    "lyric": "I’m carrying your love with me",
+    "lyric": "’Cause I’m carrying your love with me, West Virginia down to Tennessee",
     "lyricSong": "Carrying Your Love with Me",
     "lyricArtist": "George Strait"
   },
@@ -1659,7 +1659,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 1,
-    "lyric": "Today My World Slipped Away",
+    "lyric": "’Cause today my world slipped away, we buried the plans that we made",
     "lyricSong": "Today My World Slipped Away",
     "lyricArtist": "George Strait"
   },
@@ -1675,7 +1675,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 0,
-    "lyric": "I Just Want to Dance with You",
+    "lyric": "I want to dance with you, twirl you all around the floor / That’s what they intended dancing for",
     "lyricSong": "I Just Want to Dance with You",
     "lyricArtist": "George Strait"
   },
@@ -1691,7 +1691,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 0,
-    "lyric": "True",
+    "lyric": "True like the sun comin’ up each morning, bright as a light in a baby’s smile",
     "lyricSong": "True",
     "lyricArtist": "George Strait"
   },
@@ -1707,7 +1707,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 1,
-    "lyric": "write this down, take a little note",
+    "lyric": "Baby, write this down, take a little note to remind you in case you didn’t know",
     "lyricSong": "Write This Down",
     "lyricArtist": "George Strait"
   },
@@ -1723,7 +1723,7 @@ window.QBANK = [
       "Little Texas"
     ],
     "a": 1,
-    "lyric": "They got whiskey, women, music and smoke",
+    "lyric": "Get down, turn around, go to town, boot scootin’ boogie",
     "lyricSong": "Boot Scootin’ Boogie",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1739,7 +1739,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 1,
-    "lyric": "if you lose your one and only",
+    "lyric": "To watch your broken dreams / Dance in and out of the beams of a neon moon",
     "lyricSong": "Neon Moon",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1755,7 +1755,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 2,
-    "lyric": "Lost and Found",
+    "lyric": "It’s kinda like a lost and found in a border town",
     "lyricSong": "Lost and Found",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1771,7 +1771,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 2,
-    "lyric": "I’m a hard workin’ man",
+    "lyric": "I’m a hard, hard-workin’ man / I got it all on the line for a piece of the promised land",
     "lyricSong": "Hard Workin’ Man",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1787,7 +1787,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 2,
-    "lyric": "She Used to Be Mine",
+    "lyric": "She walked out on me and tore my world apart / She used to be mine",
     "lyricSong": "She Used to Be Mine",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1803,7 +1803,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 1,
-    "lyric": "rock my world, little country girl",
+    "lyric": "Acts like Madonna but she listens to Merle / Rock my world, little country girl",
     "lyricSong": "Rock My World (Little Country Girl)",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1819,7 +1819,7 @@ window.QBANK = [
       "Ricochet"
     ],
     "a": 1,
-    "lyric": "That Ain’t No Way to Go",
+    "lyric": "That ain’t no way to go, girl, it just ain’t right / Don’t you think that I deserve to hear you say goodbye",
     "lyricSong": "That Ain’t No Way to Go",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1835,7 +1835,7 @@ window.QBANK = [
       "Brooks & Dunn"
     ],
     "a": 3,
-    "lyric": "You’re Gonna Miss Me When I’m Gone",
+    "lyric": "You’d better kiss me / ’Cause you’re gonna miss me when I’m gone",
     "lyricSong": "You’re Gonna Miss Me When I’m Gone",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1851,7 +1851,7 @@ window.QBANK = [
       "Restless Heart"
     ],
     "a": 1,
-    "lyric": "Little Miss Honky Tonk",
+    "lyric": "I’m her big cat daddy, she’s my little Miss Honky Tonk",
     "lyricSong": "Little Miss Honky Tonk",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1867,7 +1867,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 2,
-    "lyric": "A Man This Lonely",
+    "lyric": "Needs somebody with a heart that’s true / A man this lonely needs a woman like you",
     "lyricSong": "A Man This Lonely",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1883,7 +1883,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 1,
-    "lyric": "honky tonk truth",
+    "lyric": "That’s the honky tonk truth, cross my broken heart",
     "lyricSong": "Honky Tonk Truth",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1899,7 +1899,7 @@ window.QBANK = [
       "Brooks & Dunn"
     ],
     "a": 3,
-    "lyric": "Why Would I Say Goodbye",
+    "lyric": "Finally found the love of my life / Why would I say goodbye?",
     "lyricSong": "Why Would I Say Goodbye",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1915,7 +1915,7 @@ window.QBANK = [
       "BlackHawk"
     ],
     "a": 2,
-    "lyric": "Husbands and Wives",
+    "lyric": "It’s my belief pride is the chief cause in the decline / In the number of husbands and wives",
     "lyricSong": "Husbands and Wives",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1931,7 +1931,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 0,
-    "lyric": "How Long Gone",
+    "lyric": "If you’re ever gonna come back home to me / Tell me, please, how long gone are you gonna be?",
     "lyricSong": "How Long Gone",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1947,7 +1947,7 @@ window.QBANK = [
       "Little Texas"
     ],
     "a": 1,
-    "lyric": "I Can’t Get Over You",
+    "lyric": "My heart just can’t leave you alone, my mind won’t believe you’re gone / I can’t get over you",
     "lyricSong": "I Can’t Get Over You",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1963,7 +1963,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 3,
-    "lyric": "Here's your one chance, Fancy, don't let me down",
+    "lyric": "She said, here’s your one chance, Fancy, don’t let me down",
     "lyricSong": "Fancy",
     "lyricArtist": "Reba McEntire"
   },
@@ -1979,7 +1979,7 @@ window.QBANK = [
       "Chely Wright"
     ],
     "a": 0,
-    "lyric": "is there life out there",
+    "lyric": "Is there life out there, so much she hasn’t done / is there life beyond her family and her home?",
     "lyricSong": "Is There Life Out There",
     "lyricArtist": "Reba McEntire"
   },
@@ -1995,7 +1995,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 1,
-    "lyric": "the night the lights went out in Georgia",
+    "lyric": "That’s the night that the lights went out in Georgia / that’s the night that they hung an innocent man",
     "lyricSong": "The Night the Lights Went Out in Georgia",
     "lyricArtist": "Reba McEntire"
   },
@@ -2011,7 +2011,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 0,
-    "lyric": "Take It Back",
+    "lyric": "If this is how you act when you give your heart away / well, take it back",
     "lyricSong": "Take It Back",
     "lyricArtist": "Reba McEntire"
   },
@@ -2027,7 +2027,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 2,
-    "lyric": "man I never knew lived just down the hall",
+    "lyric": "The greatest man I never knew lived just down the hall / and every day we said hello but never touched at all",
     "lyricSong": "The Greatest Man I Never Knew",
     "lyricArtist": "Reba McEntire"
   },
@@ -2043,7 +2043,7 @@ window.QBANK = [
       "Chely Wright"
     ],
     "a": 2,
-    "lyric": "It’s Your Call",
+    "lyric": "It’s your call, it’s up to you / and I won’t try to stop you if you go",
     "lyricSong": "It’s Your Call",
     "lyricArtist": "Reba McEntire"
   },
@@ -2059,7 +2059,7 @@ window.QBANK = [
       "Deana Carter"
     ],
     "a": 2,
-    "lyric": "Why Haven’t I Heard from You",
+    "lyric": "So tell me why haven’t I heard from you / darlin’, honey, what is your excuse?",
     "lyricSong": "Why Haven’t I Heard from You",
     "lyricArtist": "Reba McEntire"
   },
@@ -2075,7 +2075,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 3,
-    "lyric": "Till You Love Me",
+    "lyric": "Then I’m strong enough to offer my heart and never give up ’til you love me",
     "lyricSong": "Till You Love Me",
     "lyricArtist": "Reba McEntire"
   },
@@ -2091,7 +2091,7 @@ window.QBANK = [
       "Lee Ann Womack"
     ],
     "a": 2,
-    "lyric": "The Fear of Being Alone",
+    "lyric": "You may think you do but you don’t / it’s just the fear of being alone",
     "lyricSong": "The Fear of Being Alone",
     "lyricArtist": "Reba McEntire"
   },
@@ -2107,7 +2107,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 0,
-    "lyric": "How Was I to Know",
+    "lyric": "How was I to know that I’d be OK? / Thought I’d lose it all when you walked away",
     "lyricSong": "How Was I to Know",
     "lyricArtist": "Reba McEntire"
   },
@@ -2123,7 +2123,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 3,
-    "lyric": "I’d Rather Ride Around with You",
+    "lyric": "I love her like a sister, baby, but to tell the truth / I’d rather ride around with you",
     "lyricSong": "I’d Rather Ride Around with You",
     "lyricArtist": "Reba McEntire"
   },
@@ -2139,7 +2139,7 @@ window.QBANK = [
       "Lee Ann Womack"
     ],
     "a": 2,
-    "lyric": "What If It’s You",
+    "lyric": "What if it’s you? / What if our hearts were meant to be one?",
     "lyricSong": "What If It’s You",
     "lyricArtist": "Reba McEntire"
   },
@@ -2155,7 +2155,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 3,
-    "lyric": "Forever Love",
+    "lyric": "I swear that you’ll always be my forever love / I promise you someday we’ll be together",
     "lyricSong": "Forever Love",
     "lyricArtist": "Reba McEntire"
   },
@@ -2171,7 +2171,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 0,
-    "lyric": "help me hold on",
+    "lyric": "Help me hold on to what we had / Once our love was strong, it can be again",
     "lyricSong": "Help Me Hold On",
     "lyricArtist": "Travis Tritt"
   },
@@ -2187,7 +2187,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 1,
-    "lyric": "I’m Gonna Be Somebody",
+    "lyric": "I’m gonna be somebody, one of these days I’m gonna break these chains",
     "lyricSong": "I’m Gonna Be Somebody",
     "lyricArtist": "Travis Tritt"
   },
@@ -2203,7 +2203,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 1,
-    "lyric": "Anymore",
+    "lyric": "My mind keeps recreating a life with you alone / And I’m tired of pretending I don’t love you anymore",
     "lyricSong": "Anymore",
     "lyricArtist": "Travis Tritt"
   },
@@ -2219,7 +2219,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 3,
-    "lyric": "Here's a quarter, call someone who cares",
+    "lyric": "But don’t you come around here handin’ me none of your lies / Here’s a quarter, call someone who cares",
     "lyricSong": "Here’s a Quarter (Call Someone Who Cares)",
     "lyricArtist": "Travis Tritt"
   },
@@ -2235,7 +2235,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 1,
-    "lyric": "I smell T-R-O-U-B-L-E",
+    "lyric": "Hey, good L double O-K-I-N-G / Well, I smell T-R-O-U-B-L-E",
     "lyricSong": "T-R-O-U-B-L-E",
     "lyricArtist": "Travis Tritt"
   },
@@ -2251,7 +2251,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 1,
-    "lyric": "Can I Trust You with My Heart",
+    "lyric": "So before we go much further, girl, can I trust you with my heart?",
     "lyricSong": "Can I Trust You with My Heart",
     "lyricArtist": "Travis Tritt"
   },
@@ -2267,7 +2267,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 2,
-    "lyric": "Foolish Pride",
+    "lyric": "Turn out the lights, the competition’s over / The stubborn souls are the losers here tonight",
     "lyricSong": "Foolish Pride",
     "lyricArtist": "Travis Tritt"
   },
@@ -2283,7 +2283,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 2,
-    "lyric": "Tell Me I Was Dreaming",
+    "lyric": "Tell me I was dreamin’ that you didn’t leave me here to cry",
     "lyricSong": "Tell Me I Was Dreaming",
     "lyricArtist": "Travis Tritt"
   },
@@ -2299,7 +2299,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 1,
-    "lyric": "More Than You’ll Ever Know",
+    "lyric": "More than life, more than I’ve ever loved before / It’s absurd and beyond words, I couldn’t want you more",
     "lyricSong": "More Than You’ll Ever Know",
     "lyricArtist": "Travis Tritt"
   },
@@ -2315,7 +2315,7 @@ window.QBANK = [
       "Ricky Van Shelton"
     ],
     "a": 2,
-    "lyric": "If I Lost You",
+    "lyric": "But if I lost you, there’d be no sunshine shinin’ through / I don’t know what in the world I would do",
     "lyricSong": "If I Lost You",
     "lyricArtist": "Travis Tritt"
   },
@@ -2331,7 +2331,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 1,
-    "lyric": "Put Yourself in My Shoes",
+    "lyric": "Put yourself in my shoes, walk a mile for me / I’ll put myself in your shoes, maybe then we’d see",
     "lyricSong": "Put Yourself in My Shoes",
     "lyricArtist": "Clint Black"
   },
@@ -2347,7 +2347,7 @@ window.QBANK = [
       "Aaron Tippin"
     ],
     "a": 2,
-    "lyric": "One More Payment",
+    "lyric": "Well I may not get ahead but now I won’t be far behind / I’ve got one more payment and it’s mine",
     "lyricSong": "One More Payment",
     "lyricArtist": "Clint Black"
   },
@@ -2363,7 +2363,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 1,
-    "lyric": "Where Are You Now",
+    "lyric": "You always had the answers to the ones I couldn’t find / So all I’m asking is, where are you now?",
     "lyricSong": "Where Are You Now",
     "lyricArtist": "Clint Black"
   },
@@ -2379,7 +2379,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 0,
-    "lyric": "We Tell Ourselves",
+    "lyric": "So we tell ourselves / That what we found is what we meant to find",
     "lyricSong": "We Tell Ourselves",
     "lyricArtist": "Clint Black"
   },
@@ -2395,7 +2395,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 3,
-    "lyric": "When My Ship Comes In",
+    "lyric": "It won’t be long before my ship comes in / Gonna sail right out of Colorado",
     "lyricSong": "When My Ship Comes In",
     "lyricArtist": "Clint Black"
   },
@@ -2411,7 +2411,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 1,
-    "lyric": "State of Mind",
+    "lyric": "Ain’t it funny how a melody can bring back the memory / Take you to another place in time",
     "lyricSong": "State of Mind",
     "lyricArtist": "Clint Black"
   },
@@ -2427,7 +2427,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 1,
-    "lyric": "A Good Run of Bad Luck",
+    "lyric": "I’d bet it all on a good run of bad luck / Seven come eleven and she could be mine",
     "lyricSong": "A Good Run of Bad Luck",
     "lyricArtist": "Clint Black"
   },
@@ -2443,7 +2443,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 3,
-    "lyric": "Summer’s Comin’",
+    "lyric": "And every night is a Saturday night / And everything’s right with the summer comin’",
     "lyricSong": "Summer’s Comin’",
     "lyricArtist": "Clint Black"
   },
@@ -2459,7 +2459,7 @@ window.QBANK = [
       "Aaron Tippin"
     ],
     "a": 2,
-    "lyric": "Like the Rain",
+    "lyric": "I never liked the rain until I walked through it with you",
     "lyricSong": "Like the Rain",
     "lyricArtist": "Clint Black"
   },
@@ -2475,7 +2475,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 3,
-    "lyric": "Something That We Do",
+    "lyric": "But it isn’t somethin’ that we find / It’s somethin’ that we do",
     "lyricSong": "Something That We Do",
     "lyricArtist": "Clint Black"
   },
@@ -2491,7 +2491,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 2,
-    "lyric": "sticks and stones may break my bones",
+    "lyric": "These sticks and stones may break me / But the words you said just tore my heart in two",
     "lyricSong": "Sticks and Stones",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2507,7 +2507,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 1,
-    "lyric": "Alibis",
+    "lyric": "Alibis and lying eyes and all the best lines / Lord knows she’s heard ’em all",
     "lyricSong": "Alibis",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2523,7 +2523,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 0,
-    "lyric": "Can’t Break It to My Heart",
+    "lyric": "I’ve got it through my head, I just can’t break it to my heart",
     "lyricSong": "Can’t Break It to My Heart",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2539,7 +2539,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 0,
-    "lyric": "My Second Home",
+    "lyric": "I might die from a broken heart, but I’ll never die of thirst / Now that my second home has become my first",
     "lyricSong": "My Second Home",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2555,7 +2555,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 3,
-    "lyric": "If the Good Die Young",
+    "lyric": "Mama’s little boy gonna have a lot of fun / ’Cause he’s gonna live forever if the good die young",
     "lyricSong": "If the Good Die Young",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2571,7 +2571,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 3,
-    "lyric": "Texas Tornado",
+    "lyric": "My little Texas tornado, blowin’ me away again / I swore it wouldn’t happen again",
     "lyricSong": "Texas Tornado",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2587,7 +2587,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 1,
-    "lyric": "If the World Had a Front Porch",
+    "lyric": "If the world had a front porch like we did back then / We’d still have our problems, but we’d all be friends",
     "lyricSong": "If the World Had a Front Porch",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2603,7 +2603,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 3,
-    "lyric": "Stars over Texas",
+    "lyric": "And as long as there’s stars over Texas / Darling, I’ll hang the moon for you",
     "lyricSong": "Stars over Texas",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2619,7 +2619,7 @@ window.QBANK = [
       "Hal Ketchum"
     ],
     "a": 0,
-    "lyric": "Better Man, Better Off",
+    "lyric": "I know when the hurting stops, I’ll be a better man, better off",
     "lyricSong": "Better Man, Better Off",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2635,7 +2635,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 2,
-    "lyric": "Indian Outlaw",
+    "lyric": "’Cause I’m an Indian outlaw, half Cherokee and Choctaw / My baby, she’s a Chippewa",
     "lyricSong": "Indian Outlaw",
     "lyricArtist": "Tim McGraw"
   },
@@ -2651,7 +2651,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 3,
-    "lyric": "down on the farm",
+    "lyric": "Ain’t no closing time, ain’t no cover charge / Just country boys and girls gettin’ down on the farm",
     "lyricSong": "Down on the Farm",
     "lyricArtist": "Tim McGraw"
   },
@@ -2667,7 +2667,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 1,
-    "lyric": "Not a Moment Too Soon",
+    "lyric": "And not a moment too soon, without a minute to spare / You touched my heart when I didn’t have a prayer",
     "lyricSong": "Not a Moment Too Soon",
     "lyricArtist": "Tim McGraw"
   },
@@ -2683,7 +2683,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 3,
-    "lyric": "Refried Dreams",
+    "lyric": "Down to my last dime and comin’ apart at the seams / I’m messed up in Mexico, livin’ on refried dreams",
     "lyricSong": "Refried Dreams",
     "lyricArtist": "Tim McGraw"
   },
@@ -2699,7 +2699,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 0,
-    "lyric": "All I Want Is a Life",
+    "lyric": "I’m sick of the crumbs, I want a piece of that pie / All I want is a life",
     "lyricSong": "All I Want Is a Life",
     "lyricArtist": "Tim McGraw"
   },
@@ -2715,7 +2715,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 0,
-    "lyric": "She Never Lets It Go to Her Heart",
+    "lyric": "’Cause she never lets it go to her heart / She never lets it go that far",
     "lyricSong": "She Never Lets It Go to Her Heart",
     "lyricArtist": "Tim McGraw"
   },
@@ -2731,7 +2731,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 3,
-    "lyric": "Everywhere",
+    "lyric": "No matter where you choose to be / In my heart I’ll always see you everywhere",
     "lyricSong": "Everywhere",
     "lyricArtist": "Tim McGraw"
   },
@@ -2747,7 +2747,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 1,
-    "lyric": "I'd do anything that you wanted me to",
+    "lyric": "Just to see you smile / I’d do anything that you wanted me to",
     "lyricSong": "Just to See You Smile",
     "lyricArtist": "Tim McGraw"
   },
@@ -2763,7 +2763,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 1,
-    "lyric": "I'm gonna live where the green grass grows",
+    "lyric": "I’m gonna live where the green grass grows / Watch my corn pop up in rows",
     "lyricSong": "Where the Green Grass Grows",
     "lyricArtist": "Tim McGraw"
   },
@@ -2779,7 +2779,7 @@ window.QBANK = [
       "Clint Black"
     ],
     "a": 0,
-    "lyric": "For a Little While",
+    "lyric": "She’s gone but she left with a smile / ’Cause she was mine for a little while",
     "lyricSong": "For a Little While",
     "lyricArtist": "Tim McGraw"
   },
@@ -2795,7 +2795,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 3,
-    "lyric": "Please Remember Me",
+    "lyric": "Deep as the river runs, warm as the morning sun / Please remember me",
     "lyricSong": "Please Remember Me",
     "lyricArtist": "Tim McGraw"
   },
@@ -2811,7 +2811,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "a barbecue stain on my white T-shirt",
+    "lyric": "I had a barbecue stain on my white T-shirt / She was killing me in that miniskirt",
     "lyricSong": "Something Like That",
     "lyricArtist": "Tim McGraw"
   },
@@ -2827,7 +2827,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 1,
-    "lyric": "My Best Friend",
+    "lyric": "I don’t know where I’d be without you here with me / Life with you makes perfect sense, you’re my best friend",
     "lyricSong": "My Best Friend",
     "lyricArtist": "Tim McGraw"
   },
@@ -2843,7 +2843,7 @@ window.QBANK = [
       "Mary Chapin Carpenter"
     ],
     "a": 2,
-    "lyric": "any man of mine better walk the line",
+    "lyric": "Any man of mine better walk the line / better show me a teasin’, squeezin’, pleasin’ kinda time",
     "lyricSong": "Any Man of Mine",
     "lyricArtist": "Shania Twain"
   },
@@ -2859,7 +2859,7 @@ window.QBANK = [
       "Mary Chapin Carpenter"
     ],
     "a": 0,
-    "lyric": "the woman in me",
+    "lyric": "’Cause I’m a woman in love and it’s you I run to / Yeah, the woman in me needs the man in you",
     "lyricSong": "The Woman in Me (Needs the Man in You)",
     "lyricArtist": "Shania Twain"
   },
@@ -2875,7 +2875,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 3,
-    "lyric": "I’m outta here",
+    "lyric": "Let me make it clear to you, my dear / if you’re not in it for love, I’m outta here",
     "lyricSong": "If You’re Not in It for Love (I’m Outta Here!)",
     "lyricArtist": "Shania Twain"
   },
@@ -2891,7 +2891,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 1,
-    "lyric": "You Win My Love",
+    "lyric": "You win my love, you make my motor run / You win my love, yeah, you’re number one",
     "lyricSong": "You Win My Love",
     "lyricArtist": "Shania Twain"
   },
@@ -2907,7 +2907,7 @@ window.QBANK = [
       "Deana Carter"
     ],
     "a": 1,
-    "lyric": "No One Needs to Know",
+    "lyric": "And no one needs to know right now / I’ll tell him someday, some way, somehow",
     "lyricSong": "No One Needs to Know",
     "lyricArtist": "Shania Twain"
   },
@@ -2923,7 +2923,7 @@ window.QBANK = [
       "Pam Tillis"
     ],
     "a": 0,
-    "lyric": "Love Gets Me Every Time",
+    "lyric": "Love gets me every time, my heart changed my mind / I gol’ darn gone and done it",
     "lyricSong": "Love Gets Me Every Time",
     "lyricArtist": "Shania Twain"
   },
@@ -2939,7 +2939,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 3,
-    "lyric": "don’t be stupid",
+    "lyric": "Don’t be stupid, you know I love you / don’t be ridiculous, you know I need you",
     "lyricSong": "Don’t Be Stupid (You Know I Love You)",
     "lyricArtist": "Shania Twain"
   },
@@ -2955,7 +2955,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 3,
-    "lyric": "you're still the one I run to",
+    "lyric": "You’re still the one I run to, the one that I belong to / You’re still the one I want for life",
     "lyricSong": "You’re Still the One",
     "lyricArtist": "Shania Twain"
   },
@@ -2971,7 +2971,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 0,
-    "lyric": "Honey, I’m Home",
+    "lyric": "Honey, I’m home and I had a hard day / pour me a cold one and, oh, by the way",
     "lyricSong": "Honey, I’m Home",
     "lyricArtist": "Shania Twain"
   },
@@ -2987,7 +2987,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 1,
-    "lyric": "that don't impress me much",
+    "lyric": "OK, so you’re a rocket scientist / that don’t impress me much",
     "lyricSong": "That Don’t Impress Me Much",
     "lyricArtist": "Shania Twain"
   },
@@ -3003,7 +3003,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 3,
-    "lyric": "the best thing about being a woman",
+    "lyric": "Oh, oh, oh, I wanna be free, yeah, to feel the way I feel / man! I feel like a woman!",
     "lyricSong": "Man! I Feel Like a Woman!",
     "lyricArtist": "Shania Twain"
   },
@@ -3019,7 +3019,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 2,
-    "lyric": "Come On Over",
+    "lyric": "Come on over, come on in / pull up a seat, take a load off your feet",
     "lyricSong": "Come On Over",
     "lyricArtist": "Shania Twain"
   },
@@ -3035,7 +3035,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 3,
-    "lyric": "There’s Your Trouble",
+    "lyric": "There’s your trouble, there’s your trouble / You keep seein’ double with the wrong one",
     "lyricSong": "There’s Your Trouble",
     "lyricArtist": "Dixie Chicks"
   },
@@ -3051,7 +3051,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 3,
-    "lyric": "Let ’Er Rip",
+    "lyric": "Let ’er rip, let it fly / Come on, baby, say it, do you think I’m gonna cry?",
     "lyricSong": "Let ’Er Rip",
     "lyricArtist": "Dixie Chicks"
   },
@@ -3067,7 +3067,7 @@ window.QBANK = [
       "Shenandoah"
     ],
     "a": 0,
-    "lyric": "You Were Mine",
+    "lyric": "What right does she have to take your heart away / When for so long you were mine?",
     "lyricSong": "You Were Mine",
     "lyricArtist": "Dixie Chicks"
   },
@@ -3083,7 +3083,7 @@ window.QBANK = [
       "Little Texas"
     ],
     "a": 2,
-    "lyric": "Tonight the Heartache’s on Me",
+    "lyric": "So tonight the heartache’s on me / Let’s drink a toast to the fool who couldn’t see",
     "lyricSong": "Tonight the Heartache’s on Me",
     "lyricArtist": "Dixie Chicks"
   },
@@ -3099,7 +3099,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 3,
-    "lyric": "Ready to Run",
+    "lyric": "Ready, ready, ready, ready, ready to run / All I’m ready to do is have some fun",
     "lyricSong": "Ready to Run",
     "lyricArtist": "Dixie Chicks"
   },
@@ -3115,7 +3115,7 @@ window.QBANK = [
       "Mary Chapin Carpenter"
     ],
     "a": 1,
-    "lyric": "lyin’, cheatin’, cold dead beatin’",
+    "lyric": "So blame it on your lyin’, cheatin’, cold dead-beatin’, two-timin’, double-dealin’, mean mistreatin’, lovin’ heart",
     "lyricSong": "Blame It on Your Heart",
     "lyricArtist": "Patty Loveless"
   },
@@ -3131,7 +3131,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 3,
-    "lyric": "you can feel bad",
+    "lyric": "You can feel bad if it makes you feel better / picture me cryin’ reading all your love letters",
     "lyricSong": "You Can Feel Bad",
     "lyricArtist": "Patty Loveless"
   },
@@ -3147,7 +3147,7 @@ window.QBANK = [
       "Lorrie Morgan"
     ],
     "a": 0,
-    "lyric": "I try to think about Elvis",
+    "lyric": "I try to think about Elvis, Memphis, Oprah in the afternoon",
     "lyricSong": "I Try to Think About Elvis",
     "lyricArtist": "Patty Loveless"
   },
@@ -3163,7 +3163,7 @@ window.QBANK = [
       "Jo Dee Messina"
     ],
     "a": 0,
-    "lyric": "How can I help you say goodbye?",
+    "lyric": "How can I help you to say goodbye? / It’s OK to hurt, and it’s OK to cry",
     "lyricSong": "How Can I Help You Say Goodbye",
     "lyricArtist": "Patty Loveless"
   },
@@ -3179,7 +3179,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 3,
-    "lyric": "You Don’t Even Know Who I Am",
+    "lyric": "It said, you don’t even know who I am / you left me a long time ago",
     "lyricSong": "You Don’t Even Know Who I Am",
     "lyricArtist": "Patty Loveless"
   },
@@ -3195,7 +3195,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 3,
-    "lyric": "Lonely Too Long",
+    "lyric": "We ain’t done nothin’ wrong / we’ve just been lonely too long",
     "lyricSong": "Lonely Too Long",
     "lyricArtist": "Patty Loveless"
   },
@@ -3211,7 +3211,7 @@ window.QBANK = [
       "Lorrie Morgan"
     ],
     "a": 3,
-    "lyric": "Five Minutes",
+    "lyric": "You’ve got five minutes to tell me what I’ve needed to hear",
     "lyricSong": "Five Minutes",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3227,7 +3227,7 @@ window.QBANK = [
       "Lorrie Morgan"
     ],
     "a": 3,
-    "lyric": "What part of no don’t you understand?",
+    "lyric": "What part of no don’t you understand? / To put it plain and simple, I’m not into one-night stands",
     "lyricSong": "What Part of No",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3243,7 +3243,7 @@ window.QBANK = [
       "Trisha Yearwood"
     ],
     "a": 2,
-    "lyric": "Except for Monday",
+    "lyric": "Except for Monday, which was never good anyway / Tuesday, I get a little sideways",
     "lyricSong": "Except for Monday",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3259,7 +3259,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 2,
-    "lyric": "Watch Me",
+    "lyric": "If you think I won’t go, watch me / whoa, watch me prove you wrong today",
     "lyricSong": "Watch Me",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3275,7 +3275,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 2,
-    "lyric": "I Didn’t Know My Own Strength",
+    "lyric": "I didn’t know my own strength ’til I had to pick myself up",
     "lyricSong": "I Didn’t Know My Own Strength",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3291,7 +3291,7 @@ window.QBANK = [
       "Suzy Bogguss"
     ],
     "a": 2,
-    "lyric": "Good as I Was to You",
+    "lyric": "Good as I was to you, is this the thanks I get?",
     "lyricSong": "Good as I Was to You",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3307,7 +3307,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 2,
-    "lyric": "Don’t Tell Me What to Do",
+    "lyric": "Don’t tell me what to do / you’ve already said we are through",
     "lyricSong": "Don’t Tell Me What to Do",
     "lyricArtist": "Pam Tillis"
   },
@@ -3323,7 +3323,7 @@ window.QBANK = [
       "Pam Tillis"
     ],
     "a": 3,
-    "lyric": "Shake the Sugar Tree",
+    "lyric": "I’ll shake the sugar tree ’til I feel your love falling all around me",
     "lyricSong": "Shake the Sugar Tree",
     "lyricArtist": "Pam Tillis"
   },
@@ -3339,7 +3339,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 2,
-    "lyric": "Mi Vida Loca",
+    "lyric": "Mi vida loca, over and over / destiny turns on a dime",
     "lyricSong": "Mi Vida Loca (My Crazy Life)",
     "lyricArtist": "Pam Tillis"
   },
@@ -3355,7 +3355,7 @@ window.QBANK = [
       "Pam Tillis"
     ],
     "a": 3,
-    "lyric": "Spilled Perfume",
+    "lyric": "Right now you hate yourself ’cause you knew better / but there’s no use crying over spilled perfume",
     "lyricSong": "Spilled Perfume",
     "lyricArtist": "Pam Tillis"
   },
@@ -3371,7 +3371,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 1,
-    "lyric": "In Between Dances",
+    "lyric": "But don’t be mistaking my smile / I’m only in between dances, sitting it out for a while",
     "lyricSong": "In Between Dances",
     "lyricArtist": "Pam Tillis"
   },
@@ -3387,7 +3387,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 1,
-    "lyric": "All the Good Ones Are Gone",
+    "lyric": "There’ll be guys and there’ll be come-ons, she’ll probably get hit on / but she thinks all the good ones are gone",
     "lyricSong": "All the Good Ones Are Gone",
     "lyricArtist": "Pam Tillis"
   },
@@ -3403,7 +3403,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 3,
-    "lyric": "Better Things to Do",
+    "lyric": "I don’t need to waste my time crying over you / I got better things to do",
     "lyricSong": "Better Things to Do",
     "lyricArtist": "Terri Clark"
   },
@@ -3419,7 +3419,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 3,
-    "lyric": "If I Were You",
+    "lyric": "If I were you, I’d run back home tonight / Tell him everything’s all right",
     "lyricSong": "If I Were You",
     "lyricArtist": "Terri Clark"
   },
@@ -3435,7 +3435,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 3,
-    "lyric": "Poor Poor Pitiful Me",
+    "lyric": "Poor, poor pitiful me / Oh, these boys won’t let me be, Lord, have mercy on me",
     "lyricSong": "Poor Poor Pitiful Me",
     "lyricArtist": "Terri Clark"
   },
@@ -3451,7 +3451,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 1,
-    "lyric": "Emotional Girl",
+    "lyric": "I’m an emotional girl, I can’t help myself / Sometimes I laugh, sometimes I cry",
     "lyricSong": "Emotional Girl",
     "lyricArtist": "Terri Clark"
   },
@@ -3467,7 +3467,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 1,
-    "lyric": "You’re Easy on the Eyes",
+    "lyric": "’Cause now I realize you’re easy on the eyes, hard on the heart",
     "lyricSong": "You’re Easy on the Eyes",
     "lyricArtist": "Terri Clark"
   },
@@ -3483,7 +3483,7 @@ window.QBANK = [
       "Mindy McCready"
     ],
     "a": 1,
-    "lyric": "Now That I Found You",
+    "lyric": "I see the heavens open, a heart that once was broken / Is holding nothing back now that I found you",
     "lyricSong": "Now That I Found You",
     "lyricArtist": "Terri Clark"
   },
@@ -3499,7 +3499,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 2,
-    "lyric": "she’s a wild one with an angel’s face",
+    "lyric": "She’s a wild one with an angel’s face, she’s a woman-child in a state of grace",
     "lyricSong": "Wild One",
     "lyricArtist": "Faith Hill"
   },
@@ -3515,7 +3515,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 0,
-    "lyric": "Piece of My Heart",
+    "lyric": "Come on, come on, come on and take it / Take another little piece of my heart now, baby",
     "lyricSong": "Piece of My Heart",
     "lyricArtist": "Faith Hill"
   },
@@ -3531,7 +3531,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 0,
-    "lyric": "Take Me as I Am",
+    "lyric": "From someone with a strong heart, a gentle hand, who’ll take me as I am",
     "lyricSong": "Take Me as I Am",
     "lyricArtist": "Faith Hill"
   },
@@ -3547,7 +3547,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 3,
-    "lyric": "Let’s Go to Vegas",
+    "lyric": "Hey, baby, let’s go to Vegas, kiss the single life goodbye",
     "lyricSong": "Let’s Go to Vegas",
     "lyricArtist": "Faith Hill"
   },
@@ -3563,7 +3563,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 1,
-    "lyric": "Someone Else’s Dream",
+    "lyric": "All my life I’ve been pleasin’ everyone but me / Wakin’ up in someone else’s dream",
     "lyricSong": "Someone Else’s Dream",
     "lyricArtist": "Faith Hill"
   },
@@ -3579,7 +3579,7 @@ window.QBANK = [
       "Jo Dee Messina"
     ],
     "a": 0,
-    "lyric": "it’s centrifugal motion",
+    "lyric": "It’s centrifugal motion, it’s perpetual bliss, it’s that pivotal moment, it’s, ah, impossible / This kiss, this kiss",
     "lyricSong": "This Kiss",
     "lyricArtist": "Faith Hill"
   },
@@ -3595,7 +3595,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 1,
-    "lyric": "I can feel you breathe",
+    "lyric": "’Cause I can feel you breathe, it’s washing over me / Suddenly I’m melting into you",
     "lyricSong": "Breathe",
     "lyricArtist": "Faith Hill"
   },
@@ -3611,7 +3611,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 1,
-    "lyric": "The Secret of Life",
+    "lyric": "The secret of life is a good cup of coffee / The secret of life is keep your eye on the ball",
     "lyricSong": "The Secret of Life",
     "lyricArtist": "Faith Hill"
   },
@@ -3627,7 +3627,7 @@ window.QBANK = [
       "Jo Dee Messina"
     ],
     "a": 0,
-    "lyric": "he was born to be a leaver",
+    "lyric": "And that boy’s just a walkaway Joe / Born to be a leaver, tell you from the word go",
     "lyricSong": "Walkaway Joe",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3643,7 +3643,7 @@ window.QBANK = [
       "Deana Carter"
     ],
     "a": 2,
-    "lyric": "Wrong Side of Memphis",
+    "lyric": "I’ve been livin’ on the wrong side of Memphis / I’m really breaking away this time",
     "lyricSong": "Wrong Side of Memphis",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3659,7 +3659,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 1,
-    "lyric": "the song remembers when",
+    "lyric": "After I’d forgotten all about us / The song remembers when",
     "lyricSong": "The Song Remembers When",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3675,7 +3675,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 1,
-    "lyric": "X’s and O’s",
+    "lyric": "She used to tie her hair up in ribbons and bows / Sign her letters with X’s and O’s",
     "lyricSong": "XXX’s and OOO’s (An American Girl)",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3691,7 +3691,7 @@ window.QBANK = [
       "Mary Chapin Carpenter"
     ],
     "a": 2,
-    "lyric": "Thinkin’ About You",
+    "lyric": "The sound of your voice sayin’ my name / I’ve been thinkin’ about you, just keep thinkin’ about you",
     "lyricSong": "Thinkin’ About You",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3707,7 +3707,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 0,
-    "lyric": "Believe Me Baby",
+    "lyric": "When I said I didn’t want your love and you were no one I was thinking of / Believe me baby, I lied",
     "lyricSong": "Believe Me Baby (I Lied)",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3723,7 +3723,7 @@ window.QBANK = [
       "Pam Tillis"
     ],
     "a": 0,
-    "lyric": "Everybody Knows",
+    "lyric": "Everybody knows what to do about my misery / Everybody but me",
     "lyricSong": "Everybody Knows",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3739,7 +3739,7 @@ window.QBANK = [
       "Mary Chapin Carpenter"
     ],
     "a": 2,
-    "lyric": "Perfect Love",
+    "lyric": "Yeah, this is a perfect love / We’re doin’ nothin’ but what a perfect love does",
     "lyricSong": "Perfect Love",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3755,7 +3755,7 @@ window.QBANK = [
       "Pam Tillis"
     ],
     "a": 2,
-    "lyric": "Down at the Twist and Shout",
+    "lyric": "Saturday night and the moon is out / I wanna head on over to the Twist and Shout",
     "lyricSong": "Down at the Twist and Shout",
     "lyricArtist": "Mary Chapin Carpenter"
   },
@@ -3771,7 +3771,7 @@ window.QBANK = [
       "Faith Hill"
     ],
     "a": 2,
-    "lyric": "I Feel Lucky",
+    "lyric": "I feel lucky, I feel lucky, yeah / no Professor Doom gonna stand in my way",
     "lyricSong": "I Feel Lucky",
     "lyricArtist": "Mary Chapin Carpenter"
   },
@@ -3787,7 +3787,7 @@ window.QBANK = [
       "Lee Ann Womack"
     ],
     "a": 2,
-    "lyric": "He Thinks He’ll Keep Her",
+    "lyric": "Everything runs right on time, years of practice and design / spit and polish till it shines, he thinks he’ll keep her",
     "lyricSong": "He Thinks He’ll Keep Her",
     "lyricArtist": "Mary Chapin Carpenter"
   },
@@ -3803,7 +3803,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 2,
-    "lyric": "Shut Up and Kiss Me",
+    "lyric": "It’s been so long since somebody whispered / shut up and kiss me",
     "lyricSong": "Shut Up and Kiss Me",
     "lyricArtist": "Mary Chapin Carpenter"
   },
@@ -3819,7 +3819,7 @@ window.QBANK = [
       "Patty Loveless"
     ],
     "a": 2,
-    "lyric": "Passionate Kisses",
+    "lyric": "Shouldn’t I have this, shouldn’t I have all of this, and passionate kisses",
     "lyricSong": "Passionate Kisses",
     "lyricArtist": "Mary Chapin Carpenter"
   },
@@ -3835,7 +3835,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 2,
-    "lyric": "Aces",
+    "lyric": "You can’t deal me the aces and think I wouldn’t play / Don’t let this be the reason you would walk away",
     "lyricSong": "Aces",
     "lyricArtist": "Suzy Bogguss"
   },
@@ -3851,7 +3851,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 1,
-    "lyric": "Drive South",
+    "lyric": "Now if you’re feelin’ down and out / Come on baby, drive South with the one you love",
     "lyricSong": "Drive South",
     "lyricArtist": "Suzy Bogguss"
   },
@@ -3867,7 +3867,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 1,
-    "lyric": "Hey Cinderella",
+    "lyric": "Hey, hey Cinderella, what’s the story all about? / I’ve got a funny feeling we missed a page or two somehow",
     "lyricSong": "Hey Cinderella",
     "lyricArtist": "Suzy Bogguss"
   },
@@ -3883,7 +3883,7 @@ window.QBANK = [
       "Suzy Bogguss"
     ],
     "a": 3,
-    "lyric": "Outbound Plane",
+    "lyric": "’Cause if love won’t fly on its own free will / It’s gonna catch that outbound plane",
     "lyricSong": "Outbound Plane",
     "lyricArtist": "Suzy Bogguss"
   },
@@ -3899,7 +3899,7 @@ window.QBANK = [
       "Deana Carter"
     ],
     "a": 2,
-    "lyric": "my baby loves me just the way that I am",
+    "lyric": "High heels or sneakers, he don’t give a damn / my baby loves me just the way that I am",
     "lyricSong": "My Baby Loves Me",
     "lyricArtist": "Martina McBride"
   },
@@ -3915,7 +3915,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 3,
-    "lyric": "Life #9",
+    "lyric": "You’re stealing love, living on Life #9 / breaking my heart, living on borrowed time",
     "lyricSong": "Life #9",
     "lyricArtist": "Martina McBride"
   },
@@ -3931,7 +3931,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 3,
-    "lyric": "Wild Angels",
+    "lyric": "Must’ve been wild angels, wild angels / watching over you and me",
     "lyricSong": "Wild Angels",
     "lyricArtist": "Martina McBride"
   },
@@ -3947,7 +3947,7 @@ window.QBANK = [
       "Jo Dee Messina"
     ],
     "a": 2,
-    "lyric": "with a broken wing, she still sings",
+    "lyric": "And with a broken wing she still sings / she keeps an eye on the sky",
     "lyricSong": "A Broken Wing",
     "lyricArtist": "Martina McBride"
   },
@@ -3963,7 +3963,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 1,
-    "lyric": "Happy Girl",
+    "lyric": "The sweetest thing you’ll ever see in the whole wide world is a happy girl",
     "lyricSong": "Happy Girl",
     "lyricArtist": "Martina McBride"
   },
@@ -3979,7 +3979,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 3,
-    "lyric": "Whatever You Say",
+    "lyric": "And even though I want to, I don’t hear I love you / in whatever you say",
     "lyricSong": "Whatever You Say",
     "lyricArtist": "Martina McBride"
   },
@@ -3995,7 +3995,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 2,
-    "lyric": "She Is His Only Need",
+    "lyric": "’Cause without her, where would he be? / See, it’s not for him, she is his only need",
     "lyricSong": "She Is His Only Need",
     "lyricArtist": "Wynonna"
   },
@@ -4011,7 +4011,7 @@ window.QBANK = [
       "Reba McEntire"
     ],
     "a": 1,
-    "lyric": "I Saw the Light",
+    "lyric": "I saw the light in your window tonight / I saw two shadows holdin’ each other tight",
     "lyricSong": "I Saw the Light",
     "lyricArtist": "Wynonna"
   },
@@ -4027,7 +4027,7 @@ window.QBANK = [
       "Suzy Bogguss"
     ],
     "a": 0,
-    "lyric": "Tell Me Why",
+    "lyric": "A fool in love with a fool that never cared / So won’t you tell me why I can’t say goodbye?",
     "lyricSong": "Tell Me Why",
     "lyricArtist": "Wynonna"
   },
@@ -4043,7 +4043,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 0,
-    "lyric": "Only Love",
+    "lyric": "Only love sails straight from the harbor / And only love will lead us to the other shore",
     "lyricSong": "Only Love",
     "lyricArtist": "Wynonna"
   },
@@ -4059,7 +4059,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 3,
-    "lyric": "Girls with Guitars",
+    "lyric": "Now she’s down in the cellar with the amp turned up / Girls with guitars",
     "lyricSong": "Girls with Guitars",
     "lyricArtist": "Wynonna"
   },
@@ -4075,7 +4075,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 3,
-    "lyric": "To Be Loved by You",
+    "lyric": "Baby, come what may, I’ll find a way to get through / There’s nothing that I won’t do to be loved by you",
     "lyricSong": "To Be Loved by You",
     "lyricArtist": "Wynonna"
   },
@@ -4091,7 +4091,7 @@ window.QBANK = [
       "Lee Ann Womack"
     ],
     "a": 1,
-    "lyric": "I’m Alright",
+    "lyric": "It’s a beautiful day, not a cloud in sight, so I guess I’m doing alright",
     "lyricSong": "I’m Alright",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -4107,7 +4107,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 2,
-    "lyric": "Stand Beside Me",
+    "lyric": "I want a man who stands beside me, not in front of or behind me",
     "lyricSong": "Stand Beside Me",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -4123,7 +4123,7 @@ window.QBANK = [
       "Jo Dee Messina"
     ],
     "a": 3,
-    "lyric": "Because You Love Me",
+    "lyric": "I only know that I’m alive because you love me",
     "lyricSong": "Because You Love Me",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -4139,7 +4139,7 @@ window.QBANK = [
       "Jo Dee Messina"
     ],
     "a": 3,
-    "lyric": "Lesson in Leavin’",
+    "lyric": "Somebody’s gonna give you a lesson in leavin’ / Somebody’s gonna give you back what you’ve been givin’",
     "lyricSong": "Lesson in Leavin’",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -4155,7 +4155,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 1,
-    "lyric": "Never Again, Again",
+    "lyric": "Then just like it’s always been, I’ll say never again, again",
     "lyricSong": "Never Again, Again",
     "lyricArtist": "Lee Ann Womack"
   },
@@ -4171,7 +4171,7 @@ window.QBANK = [
       "Lee Ann Womack"
     ],
     "a": 3,
-    "lyric": "The Fool",
+    "lyric": "I’m the fool in love with the fool who’s still in love with you",
     "lyricSong": "The Fool",
     "lyricArtist": "Lee Ann Womack"
   },
@@ -4187,7 +4187,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 1,
-    "lyric": "A Little Past Little Rock",
+    "lyric": "I’m a little past Little Rock, but a long way from over you",
     "lyricSong": "A Little Past Little Rock",
     "lyricArtist": "Lee Ann Womack"
   },
@@ -4203,7 +4203,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 1,
-    "lyric": "I’ll Think of a Reason Later",
+    "lyric": "A regular Nobel Peace Prize winner / But I really hate her, I’ll think of a reason later",
     "lyricSong": "I’ll Think of a Reason Later",
     "lyricArtist": "Lee Ann Womack"
   },
@@ -4211,7 +4211,7 @@ window.QBANK = [
     "id": 264,
     "category": "WHO SINGS IT?",
     "topic": "hit-nowyouseemenowyoudont",
-    "q": "Whose 1990s country single is “Now You See Me, Now You Don’t”?",
+    "q": "Whose 1990s country single is “(Now You See Me) Now You Don’t”?",
     "choices": [
       "Lee Ann Womack",
       "Terri Clark",
@@ -4219,8 +4219,8 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 0,
-    "lyric": "Now You See Me, Now You Don’t",
-    "lyricSong": "Now You See Me, Now You Don’t",
+    "lyric": "Now you see me, now you don’t / first you do but then you won’t",
+    "lyricSong": "(Now You See Me) Now You Don’t",
     "lyricArtist": "Lee Ann Womack"
   },
   {
@@ -4235,7 +4235,7 @@ window.QBANK = [
       "Mindy McCready"
     ],
     "a": 0,
-    "lyric": "we danced anyway",
+    "lyric": "And the band played songs that we had never heard / But we danced anyway",
     "lyricSong": "We Danced Anyway",
     "lyricArtist": "Deana Carter"
   },
@@ -4251,7 +4251,7 @@ window.QBANK = [
       "Lee Ann Womack"
     ],
     "a": 1,
-    "lyric": "How Do I Get There",
+    "lyric": "How do I get there from here? / How do I make you see?",
     "lyricSong": "How Do I Get There",
     "lyricArtist": "Deana Carter"
   },
@@ -4267,7 +4267,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 0,
-    "lyric": "Absence of the Heart",
+    "lyric": "But every time we kiss there’s an emptiness / An absence of the heart",
     "lyricSong": "Absence of the Heart",
     "lyricArtist": "Deana Carter"
   },
@@ -4283,7 +4283,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 3,
-    "lyric": "No Place That Far",
+    "lyric": "Always know that I would find a way to get to where you are / there’s no place that far",
     "lyricSong": "No Place That Far",
     "lyricArtist": "Sara Evans"
   },
@@ -4299,7 +4299,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 3,
-    "lyric": "Fool, I’m a Woman",
+    "lyric": "Well, fool, I’m a woman and I’m bound to change my mind",
     "lyricSong": "Fool, I’m a Woman",
     "lyricArtist": "Sara Evans"
   },
@@ -4315,7 +4315,7 @@ window.QBANK = [
       "Martina McBride"
     ],
     "a": 2,
-    "lyric": "Single White Female",
+    "lyric": "A single white female is looking for a man like you",
     "lyricSong": "Single White Female",
     "lyricArtist": "Chely Wright"
   },
@@ -4331,7 +4331,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 0,
-    "lyric": "Shut Up and Drive",
+    "lyric": "Shut up and drive / You don’t know what you’re talking about",
     "lyricSong": "Shut Up and Drive",
     "lyricArtist": "Chely Wright"
   },
@@ -4347,7 +4347,7 @@ window.QBANK = [
       "Chely Wright"
     ],
     "a": 0,
-    "lyric": "Guys Do It All the Time",
+    "lyric": "Guys do it all the time, and you expect us to understand",
     "lyricSong": "Guys Do It All the Time",
     "lyricArtist": "Mindy McCready"
   },
@@ -4363,7 +4363,7 @@ window.QBANK = [
       "Mindy McCready"
     ],
     "a": 3,
-    "lyric": "a girl’s gotta do",
+    "lyric": "A girl’s gotta do what a girl’s gotta do / and now I gotta get to gettin’ over you",
     "lyricSong": "A Girl’s Gotta Do (What a Girl’s Gotta Do)",
     "lyricArtist": "Mindy McCready"
   },
@@ -4379,7 +4379,7 @@ window.QBANK = [
       "Terri Clark"
     ],
     "a": 0,
-    "lyric": "one way ticket",
+    "lyric": "I’ll buy a one-way ticket on a westbound train to see how far I can go",
     "lyricSong": "One Way Ticket (Because I Can)",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -4395,7 +4395,7 @@ window.QBANK = [
       "Shania Twain"
     ],
     "a": 2,
-    "lyric": "The Light in Your Eyes",
+    "lyric": "Life resembles one big compromise / But don’t ever lose that light in your eyes",
     "lyricSong": "The Light in Your Eyes",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -4411,7 +4411,7 @@ window.QBANK = [
       "Wynonna"
     ],
     "a": 0,
-    "lyric": "Commitment",
+    "lyric": "Commitment, someone who’ll go the distance / I need somebody with stayin’ power that can make me go weak in the knees",
     "lyricSong": "Commitment",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -4427,7 +4427,7 @@ window.QBANK = [
       "Sara Evans"
     ],
     "a": 1,
-    "lyric": "Nothin’ New Under the Moon",
+    "lyric": "There was nothin’ new under the moon, same old dance, same old tune",
     "lyricSong": "Nothin’ New Under the Moon",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -4443,7 +4443,7 @@ window.QBANK = [
       "LeAnn Rimes"
     ],
     "a": 3,
-    "lyric": "Looking Through Your Eyes",
+    "lyric": "And love just took me by surprise, looking through your eyes",
     "lyricSong": "Looking Through Your Eyes",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -4459,7 +4459,7 @@ window.QBANK = [
       "Trisha Yearwood"
     ],
     "a": 2,
-    "lyric": "Big Deal",
+    "lyric": "Big deal, so what, who cares, you just got lucky, that’s all",
     "lyricSong": "Big Deal",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -4475,7 +4475,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 1,
-    "lyric": "I Love the Way You Love Me",
+    "lyric": "But I love the way you love me, strong and wild, slow and easy",
     "lyricSong": "I Love the Way You Love Me",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4491,7 +4491,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 3,
-    "lyric": "you learn as you go",
+    "lyric": "Life’s a dance, you learn as you go / Sometimes you lead, sometimes you follow",
     "lyricSong": "Life’s a Dance",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4507,7 +4507,7 @@ window.QBANK = [
       "Alan Jackson"
     ],
     "a": 0,
-    "lyric": "Be My Baby Tonight",
+    "lyric": "Could ya, would ya, ain’t ya gonna if I asked you / Would ya wanna be my baby tonight",
     "lyricSong": "Be My Baby Tonight",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4523,7 +4523,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 3,
-    "lyric": "I can love you like that",
+    "lyric": "I can love you like that, I would make you my world / Move heaven and earth if you were my girl",
     "lyricSong": "I Can Love You Like That",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4539,7 +4539,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 2,
-    "lyric": "Cover You in Kisses",
+    "lyric": "I’d cover you in kisses, hold you in my arms / That’s all that I can think of",
     "lyricSong": "Cover You in Kisses",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4555,7 +4555,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 1,
-    "lyric": "Hold On to Me",
+    "lyric": "Hold on to me when your world’s turnin’ cold / When it feels like your life’s spinnin’ out of control",
     "lyricSong": "Hold On to Me",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4571,7 +4571,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 1,
-    "lyric": "Fall in Love",
+    "lyric": "Don’t that make you wanna fall in love? / Don’t that look like a picture of us",
     "lyricSong": "Fall in Love",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4587,7 +4587,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 3,
-    "lyric": "All I Need to Know",
+    "lyric": "But rain or shine, you’ll be mine tonight / That’s all I need to know",
     "lyricSong": "All I Need to Know",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4603,7 +4603,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 1,
-    "lyric": "When I Close My Eyes",
+    "lyric": "When I close my eyes, you’re all I see / In the dark of night, you’re in my dreams",
     "lyricSong": "When I Close My Eyes",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4619,7 +4619,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 3,
-    "lyric": "she’s got it all",
+    "lyric": "She’s got it all, my heart, my soul, my wishes, all of my love, my hugs, my kisses",
     "lyricSong": "She’s Got It All",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4635,7 +4635,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 0,
-    "lyric": "That’s Why I’m Here",
+    "lyric": "Have another shot, just one more beer / Yeah, I’ve been there, that’s why I’m here",
     "lyricSong": "That’s Why I’m Here",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4651,7 +4651,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 2,
-    "lyric": "How Forever Feels",
+    "lyric": "Man, I’m gonna die if she really says yes / I wanna know how forever feels",
     "lyricSong": "How Forever Feels",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4667,7 +4667,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 1,
-    "lyric": "You Had Me from Hello",
+    "lyric": "You had me from hello, I felt love start to grow the moment that I looked into your eyes",
     "lyricSong": "You Had Me from Hello",
     "lyricArtist": "Kenny Chesney"
   },
@@ -4683,7 +4683,7 @@ window.QBANK = [
       "Shenandoah"
     ],
     "a": 0,
-    "lyric": "meet in the middle 'neath that old Georgia pine",
+    "lyric": "I’d start walkin’ your way, you’d start walkin’ mine / We’d meet in the middle, ’neath that old Georgia pine",
     "lyricSong": "Meet in the Middle",
     "lyricArtist": "Diamond Rio"
   },
@@ -4699,7 +4699,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 2,
-    "lyric": "Norma Jean Riley",
+    "lyric": "I say watch and see / Norma Jean Riley’s gonna notice me",
     "lyricSong": "Norma Jean Riley",
     "lyricArtist": "Diamond Rio"
   },
@@ -4715,7 +4715,7 @@ window.QBANK = [
       "Diamond Rio"
     ],
     "a": 3,
-    "lyric": "In a Week or Two",
+    "lyric": "In a week or two, I was gonna bring you diamonds / In a week or two, a long, long string of pearls",
     "lyricSong": "In a Week or Two",
     "lyricArtist": "Diamond Rio"
   },
@@ -4731,7 +4731,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 2,
-    "lyric": "Love a Little Stronger",
+    "lyric": "Love a little stronger, dig a little deeper / Go a little farther, anything to please you girl",
     "lyricSong": "Love a Little Stronger",
     "lyricArtist": "Diamond Rio"
   },
@@ -4747,7 +4747,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 2,
-    "lyric": "Walkin’ Away",
+    "lyric": "Baby, don’t go there, love don’t get nowhere walkin’ away",
     "lyricSong": "Walkin’ Away",
     "lyricArtist": "Diamond Rio"
   },
@@ -4763,7 +4763,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 2,
-    "lyric": "Unbelievable",
+    "lyric": "She’s so kissable, huggable, lovable, unbelievable / She’s a mouthful of anything and everything a man could want",
     "lyricSong": "Unbelievable",
     "lyricArtist": "Diamond Rio"
   },
@@ -4779,7 +4779,7 @@ window.QBANK = [
       "Shenandoah"
     ],
     "a": 1,
-    "lyric": "God blessed Texas",
+    "lyric": "God blessed Texas with his own hand / brought down angels from the promised land",
     "lyricSong": "God Blessed Texas",
     "lyricArtist": "Little Texas"
   },
@@ -4795,7 +4795,7 @@ window.QBANK = [
       "Restless Heart"
     ],
     "a": 0,
-    "lyric": "Kick a Little",
+    "lyric": "You got to kick a little, cause a stir / sometimes you’ve gotta make some noise to be heard",
     "lyricSong": "Kick a Little",
     "lyricArtist": "Little Texas"
   },
@@ -4811,7 +4811,7 @@ window.QBANK = [
       "Shenandoah"
     ],
     "a": 0,
-    "lyric": "My Love",
+    "lyric": "Are you ready for my love, my love / my love, my love is ready for you",
     "lyricSong": "My Love",
     "lyricArtist": "Little Texas"
   },
@@ -4827,7 +4827,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 1,
-    "lyric": "First Time for Everything",
+    "lyric": "’Cause if I’ve learned anything, there’s a first time for everything",
     "lyricSong": "First Time for Everything",
     "lyricArtist": "Little Texas"
   },
@@ -4843,7 +4843,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 2,
-    "lyric": "Amy’s Back in Austin",
+    "lyric": "I bet Amy’s back in Austin and I’m missin’ her tonight",
     "lyricSong": "Amy’s Back in Austin",
     "lyricArtist": "Little Texas"
   },
@@ -4859,7 +4859,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 2,
-    "lyric": "Goodbye Says It All",
+    "lyric": "Just a big red goodbye in lipstick on the wall / Goodbye says it all",
     "lyricSong": "Goodbye Says It All",
     "lyricArtist": "BlackHawk"
   },
@@ -4875,7 +4875,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 0,
-    "lyric": "Every Once in a While",
+    "lyric": "Just ask her if she ever still thinks about me / She’ll say every once in a while",
     "lyricSong": "Every Once in a While",
     "lyricArtist": "BlackHawk"
   },
@@ -4891,7 +4891,7 @@ window.QBANK = [
       "BlackHawk"
     ],
     "a": 3,
-    "lyric": "I Sure Can Smell the Rain",
+    "lyric": "I can’t see a single storm cloud in the sky / But I sure can smell the rain",
     "lyricSong": "I Sure Can Smell the Rain",
     "lyricArtist": "BlackHawk"
   },
@@ -4907,7 +4907,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 1,
-    "lyric": "That’s Just About Right",
+    "lyric": "And your shiniest day might come in the middle of the night / It’s just about right",
     "lyricSong": "That’s Just About Right",
     "lyricArtist": "BlackHawk"
   },
@@ -4923,7 +4923,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 1,
-    "lyric": "I’m Not Strong Enough to Say No",
+    "lyric": "So please, please, please go / I’m not strong enough to say no",
     "lyricSong": "I’m Not Strong Enough to Say No",
     "lyricArtist": "BlackHawk"
   },
@@ -4939,7 +4939,7 @@ window.QBANK = [
       "Dixie Chicks"
     ],
     "a": 0,
-    "lyric": "Sunday in the South",
+    "lyric": "Oh Lord, forgive us when we doubt / Another sacred Sunday in the South",
     "lyricSong": "Sunday in the South",
     "lyricArtist": "Shenandoah"
   },
@@ -4955,7 +4955,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 0,
-    "lyric": "I Want to Be Loved Like That",
+    "lyric": "A promise you can’t take back / If you’re gonna love me, I want to be loved like that",
     "lyricSong": "I Want to Be Loved Like That",
     "lyricArtist": "Shenandoah"
   },
@@ -4971,7 +4971,7 @@ window.QBANK = [
       "Shenandoah"
     ],
     "a": 3,
-    "lyric": "If Bubba Can Dance",
+    "lyric": "Well, everybody in the place stand back and give me some room / ’Cause if Bubba can dance I can too",
     "lyricSong": "If Bubba Can Dance (I Can Too)",
     "lyricArtist": "Shenandoah"
   },
@@ -4987,7 +4987,7 @@ window.QBANK = [
       "Dwight Yoakam"
     ],
     "a": 2,
-    "lyric": "She don't know she's beautiful",
+    "lyric": "She don’t know she’s beautiful, never crossed her mind / she don’t know she’s beautiful, no, she’s not that kind",
     "lyricSong": "She Don’t Know She’s Beautiful",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5003,7 +5003,7 @@ window.QBANK = [
       "Sammy Kershaw"
     ],
     "a": 3,
-    "lyric": "Third Rate Romance",
+    "lyric": "She said, you don’t look like my type, but I guess you’ll do / third-rate romance, low-rent rendezvous",
     "lyricSong": "Third Rate Romance",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5019,7 +5019,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 1,
-    "lyric": "National Working Woman’s Holiday",
+    "lyric": "Tell ’em you’re taking off this Friday / for the National Working Woman’s Holiday",
     "lyricSong": "National Working Woman’s Holiday",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5035,7 +5035,7 @@ window.QBANK = [
       "Sammy Kershaw"
     ],
     "a": 3,
-    "lyric": "Cadillac Style",
+    "lyric": "I get Chevrolet pay but I’ve got a big smile / ’cause my little baby loves me Cadillac style",
     "lyricSong": "Cadillac Style",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5051,7 +5051,7 @@ window.QBANK = [
       "Sammy Kershaw"
     ],
     "a": 3,
-    "lyric": "Haunted Heart",
+    "lyric": "Well, my haunted heart can’t rest in peace / it’s buried with her memory",
     "lyricSong": "Haunted Heart",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5067,7 +5067,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 2,
-    "lyric": "Vidalia",
+    "lyric": "Vidalia, Vidalia, girl, won’t you tell me why / sweet Vidalia, you always got to make me cry",
     "lyricSong": "Vidalia",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5083,7 +5083,7 @@ window.QBANK = [
       "Dwight Yoakam"
     ],
     "a": 0,
-    "lyric": "Too Cold at Home",
+    "lyric": "It’s too hot to fish, too hot for golf / and too cold at home",
     "lyricSong": "Too Cold at Home",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5099,7 +5099,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 2,
-    "lyric": "Brother Jukebox",
+    "lyric": "Brother jukebox, sister wine, mother freedom, father time / since she left me by myself",
     "lyricSong": "Brother Jukebox",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5115,7 +5115,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 0,
-    "lyric": "all my old flames have new names",
+    "lyric": "All my old flames have new names / there’s a lot of girls in town who tied the knot and settled down",
     "lyricSong": "Old Flames Have New Names",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5131,7 +5131,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 0,
-    "lyric": "It Sure Is Monday",
+    "lyric": "I had a ball Friday, Saturday and Sunday / but it’s all over now and it sure is Monday",
     "lyricSong": "It Sure Is Monday",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5147,7 +5147,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 1,
-    "lyric": "I Just Wanted You to Know",
+    "lyric": "I just wanted you to know / sometimes drivin’ home at night I let your memory take control",
     "lyricSong": "I Just Wanted You to Know",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5163,7 +5163,7 @@ window.QBANK = [
       "Mark Chesnutt"
     ],
     "a": 3,
-    "lyric": "Almost Goodbye",
+    "lyric": "But to walk away from love was more than we could do / it was almost goodbye",
     "lyricSong": "Almost Goodbye",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5179,7 +5179,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 0,
-    "lyric": "Goin’ Through the Big D",
+    "lyric": "I’m goin’ through the big D, and don’t mean Dallas / I can’t believe what the judge had to tell us",
     "lyricSong": "Goin’ Through the Big D",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5195,7 +5195,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "It’s a Little Too Late",
+    "lyric": "But it’s a little too late, she’s a little too gone / she’s a little too right, I’m a little too wrong",
     "lyricSong": "It’s a Little Too Late",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5211,7 +5211,7 @@ window.QBANK = [
       "Mark Chesnutt"
     ],
     "a": 2,
-    "lyric": "Holdin’ Heaven",
+    "lyric": "I’m holdin’ heaven in my arms tonight / Everything about you is so perfectly right",
     "lyricSong": "Holdin’ Heaven",
     "lyricArtist": "Tracy Byrd"
   },
@@ -5227,7 +5227,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 3,
-    "lyric": "keeper of the stars",
+    "lyric": "I tip my hat to the keeper of the stars / He sure knew what he was doin’",
     "lyricSong": "The Keeper of the Stars",
     "lyricArtist": "Tracy Byrd"
   },
@@ -5243,7 +5243,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 1,
-    "lyric": "The First Step",
+    "lyric": "She said the first step is the two-step, I’m here to dance and nothing more",
     "lyricSong": "The First Step",
     "lyricArtist": "Tracy Byrd"
   },
@@ -5259,7 +5259,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 1,
-    "lyric": "Lifestyles of the Not So Rich and Famous",
+    "lyric": "They’re gonna put us on Lifestyles of the Not So Rich and Famous",
     "lyricSong": "Lifestyles of the Not So Rich and Famous",
     "lyricArtist": "Tracy Byrd"
   },
@@ -5275,7 +5275,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 0,
-    "lyric": "I’m from the Country",
+    "lyric": "Yeah, we know how to work and we know how to play / We’re from the country and we like it that way",
     "lyricSong": "I’m from the Country",
     "lyricArtist": "Tracy Byrd"
   },
@@ -5291,7 +5291,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 2,
-    "lyric": "prop me up beside the jukebox if I die",
+    "lyric": "Prop me up beside the jukebox if I die / Lord, I wanna go to heaven, but I don’t wanna go tonight",
     "lyricSong": "Prop Me Up Beside the Jukebox (If I Die)",
     "lyricArtist": "Joe Diffie"
   },
@@ -5307,7 +5307,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 0,
-    "lyric": "third rock from the sun",
+    "lyric": "When you’re spinnin’ ’round, things come undone / Welcome to Earth, third rock from the sun",
     "lyricSong": "Third Rock from the Sun",
     "lyricArtist": "Joe Diffie"
   },
@@ -5323,7 +5323,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 0,
-    "lyric": "Bigger Than the Beatles",
+    "lyric": "They got a love bigger than the Beatles, wild and free like a Rollin’ Stone",
     "lyricSong": "Bigger Than the Beatles",
     "lyricArtist": "Joe Diffie"
   },
@@ -5339,7 +5339,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 0,
-    "lyric": "Ships That Don’t Come In",
+    "lyric": "And those who wait forever for ships that don’t come in",
     "lyricSong": "Ships That Don’t Come In",
     "lyricArtist": "Joe Diffie"
   },
@@ -5355,7 +5355,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 2,
-    "lyric": "Is It Cold in Here",
+    "lyric": "Or did the temperature just drop a notch or two? / Is it cold in here or is it just you?",
     "lyricSong": "Is It Cold in Here",
     "lyricArtist": "Joe Diffie"
   },
@@ -5371,7 +5371,7 @@ window.QBANK = [
       "Joe Diffie"
     ],
     "a": 3,
-    "lyric": "Home",
+    "lyric": "My footsteps carry me away, but in my mind I’m always going home",
     "lyricSong": "Home",
     "lyricArtist": "Joe Diffie"
   },
@@ -5387,7 +5387,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 1,
-    "lyric": "So Help Me Girl",
+    "lyric": "So help me, girl, you’ve gone too far, it’s way too late to save my heart",
     "lyricSong": "So Help Me Girl",
     "lyricArtist": "Joe Diffie"
   },
@@ -5403,7 +5403,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 1,
-    "lyric": "Should’ve Been a Cowboy",
+    "lyric": "I should’ve been a cowboy, I should’ve learned to rope and ride",
     "lyricSong": "Should’ve Been a Cowboy",
     "lyricArtist": "Toby Keith"
   },
@@ -5419,7 +5419,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 1,
-    "lyric": "He Ain’t Worth Missing",
+    "lyric": "Oh, he ain’t worth missing, oh, we should be kissing / Stop all this foolish wishing, that boy ain’t worth missing",
     "lyricSong": "He Ain’t Worth Missing",
     "lyricArtist": "Toby Keith"
   },
@@ -5435,7 +5435,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 0,
-    "lyric": "Wish I Didn’t Know Now",
+    "lyric": "I wish I didn’t know now what I didn’t know then / I wish I could start this whole thing over again",
     "lyricSong": "Wish I Didn’t Know Now",
     "lyricArtist": "Toby Keith"
   },
@@ -5451,7 +5451,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 1,
-    "lyric": "Who’s That Man",
+    "lyric": "There’s my kids and that’s my wife / But who’s that man runnin’ my life?",
     "lyricSong": "Who’s That Man",
     "lyricArtist": "Toby Keith"
   },
@@ -5467,7 +5467,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 0,
-    "lyric": "You Ain’t Much Fun",
+    "lyric": "I sobered up and I got to thinkin’ / You ain’t much fun since I quit drinkin’",
     "lyricSong": "You Ain’t Much Fun",
     "lyricArtist": "Toby Keith"
   },
@@ -5483,7 +5483,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 2,
-    "lyric": "Me Too",
+    "lyric": "When those three little words come so easy to you / I hope you know what I mean when I say me too",
     "lyricSong": "Me Too",
     "lyricArtist": "Toby Keith"
   },
@@ -5499,7 +5499,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 0,
-    "lyric": "We Were in Love",
+    "lyric": "When I was all yours and you were all mine / And we were in love, yeah, we were in love",
     "lyricSong": "We Were in Love",
     "lyricArtist": "Toby Keith"
   },
@@ -5515,7 +5515,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 2,
-    "lyric": "Dream Walkin’",
+    "lyric": "Dream walkin’, pillow talkin’, she’s callin’ my name again / Day’s breakin’, I ain’t wakin’ up, I’m sleepin’ in",
     "lyricSong": "Dream Walkin’",
     "lyricArtist": "Toby Keith"
   },
@@ -5531,7 +5531,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 2,
-    "lyric": "Getcha Some",
+    "lyric": "Ooh, gotta getcha some, gotta getcha some, gotta getcha some",
     "lyricSong": "Getcha Some",
     "lyricArtist": "Toby Keith"
   },
@@ -5547,7 +5547,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 1,
-    "lyric": "What’s It to You",
+    "lyric": "Talk to me, baby, tell me what you’re feelin’ / I know what love is, what’s it to you?",
     "lyricSong": "What’s It to You",
     "lyricArtist": "Clay Walker"
   },
@@ -5563,7 +5563,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "Live Until I Die",
+    "lyric": "I don’t have to beg, steal, or borrow / I just wanna live until I die",
     "lyricSong": "Live Until I Die",
     "lyricArtist": "Clay Walker"
   },
@@ -5579,7 +5579,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 1,
-    "lyric": "Dreaming with My Eyes Open",
+    "lyric": "Gonna do my dreaming with my eyes wide open / I’ll do my looking back with my eyes closed",
     "lyricSong": "Dreaming with My Eyes Open",
     "lyricArtist": "Clay Walker"
   },
@@ -5595,7 +5595,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 3,
-    "lyric": "This Woman and This Man",
+    "lyric": "There was this woman and there was this man / There was this moment they had a chance",
     "lyricSong": "This Woman and This Man",
     "lyricArtist": "Clay Walker"
   },
@@ -5611,7 +5611,7 @@ window.QBANK = [
       "George Strait"
     ],
     "a": 0,
-    "lyric": "If I Could Make a Living",
+    "lyric": "If I could make a livin’ out of lovin’ you / I’d be a millionaire in a week or two",
     "lyricSong": "If I Could Make a Living",
     "lyricArtist": "Clay Walker"
   },
@@ -5627,7 +5627,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 3,
-    "lyric": "Hypnotize the Moon",
+    "lyric": "She shines like a diamond when she walks into a room / She could charm the stars, hypnotize the moon",
     "lyricSong": "Hypnotize the Moon",
     "lyricArtist": "Clay Walker"
   },
@@ -5643,7 +5643,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 3,
-    "lyric": "Rumor Has It",
+    "lyric": "They say where there’s smoke there’s fire, well I hope it’s true / ’Cause rumor has it you love me too",
     "lyricSong": "Rumor Has It",
     "lyricArtist": "Clay Walker"
   },
@@ -5659,7 +5659,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 3,
-    "lyric": "Love, Me",
+    "lyric": "And between now and then, till I see you again / I’ll be loving you, Love, me",
     "lyricSong": "Love, Me",
     "lyricArtist": "Collin Raye"
   },
@@ -5675,7 +5675,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 2,
-    "lyric": "In This Life",
+    "lyric": "The only dream that mattered had come true / In this life I was loved by you",
     "lyricSong": "In This Life",
     "lyricArtist": "Collin Raye"
   },
@@ -5691,7 +5691,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 2,
-    "lyric": "That’s My Story",
+    "lyric": "Well, I ain’t got a witness, and I can’t prove it / But that’s my story and I’m stickin’ to it",
     "lyricSong": "That’s My Story",
     "lyricArtist": "Collin Raye"
   },
@@ -5707,7 +5707,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 3,
-    "lyric": "My Kind of Girl",
+    "lyric": "I said how ’bout some music, you said, you got any Merle? / That’s when I knew you were my kind of girl",
     "lyricSong": "My Kind of Girl",
     "lyricArtist": "Collin Raye"
   },
@@ -5723,7 +5723,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 3,
-    "lyric": "Not That Different",
+    "lyric": "I laugh, I love, I hope, I try / I hurt, I need, I fear, I cry",
     "lyricSong": "Not That Different",
     "lyricArtist": "Collin Raye"
   },
@@ -5739,7 +5739,7 @@ window.QBANK = [
       "Tim McGraw"
     ],
     "a": 1,
-    "lyric": "I Think About You",
+    "lyric": "I think about you, eight years old / Big blue eyes and a heart of gold",
     "lyricSong": "I Think About You",
     "lyricArtist": "Collin Raye"
   },
@@ -5755,7 +5755,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 0,
-    "lyric": "On the Verge",
+    "lyric": "I got no chance, if I’m not in love, I’m on the verge",
     "lyricSong": "On the Verge",
     "lyricArtist": "Collin Raye"
   },
@@ -5771,7 +5771,7 @@ window.QBANK = [
       "Garth Brooks"
     ],
     "a": 0,
-    "lyric": "Little Red Rodeo",
+    "lyric": "Oh, how fast can I go, gotta catch that little red Rodeo",
     "lyricSong": "Little Red Rodeo",
     "lyricArtist": "Collin Raye"
   },
@@ -5787,7 +5787,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 1,
-    "lyric": "No Doubt About It",
+    "lyric": "We were meant to be together, no doubt about it",
     "lyricSong": "No Doubt About It",
     "lyricArtist": "Neal McCoy"
   },
@@ -5803,7 +5803,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 2,
-    "lyric": "Wink",
+    "lyric": "Don’t need to psychoanalyze or have a stiff drink / all she’s gotta do is just give me that wink",
     "lyricSong": "Wink",
     "lyricArtist": "Neal McCoy"
   },
@@ -5819,7 +5819,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 3,
-    "lyric": "The City Put the Country Back in Me",
+    "lyric": "I think I found what paradise might be / the city put the country back in me",
     "lyricSong": "The City Put the Country Back in Me",
     "lyricArtist": "Neal McCoy"
   },
@@ -5835,7 +5835,7 @@ window.QBANK = [
       "Vince Gill"
     ],
     "a": 1,
-    "lyric": "For a Change",
+    "lyric": "For a change, I can see a little sunlight shinin’ through the pourin’ rain",
     "lyricSong": "For a Change",
     "lyricArtist": "Neal McCoy"
   },
@@ -5851,7 +5851,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 1,
-    "lyric": "They’re Playin’ Our Song",
+    "lyric": "A million watts of love power comin’ on strong / dance with me, darlin’, they’re playin’ our song",
     "lyricSong": "They’re Playin’ Our Song",
     "lyricArtist": "Neal McCoy"
   },
@@ -5867,7 +5867,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 0,
-    "lyric": "Fast as You",
+    "lyric": "Maybe I’ll be fast as you, maybe I’ll break hearts too",
     "lyricSong": "Fast as You",
     "lyricArtist": "Dwight Yoakam"
   },
@@ -5883,7 +5883,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "Pocket of a Clown",
+    "lyric": "Inside the pocket of a clown is a sad place to hang around",
     "lyricSong": "Pocket of a Clown",
     "lyricArtist": "Dwight Yoakam"
   },
@@ -5899,7 +5899,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 0,
-    "lyric": "Nothing",
+    "lyric": "Nothing but sorrow, nothing but pain, nothing but memories that whisper your name",
     "lyricSong": "Nothing",
     "lyricArtist": "Dwight Yoakam"
   },
@@ -5907,7 +5907,7 @@ window.QBANK = [
     "id": 370,
     "category": "WHO SINGS IT?",
     "topic": "hit-sorryyouasked",
-    "q": "Whose 1990s country single is “Sorry You Asked”?",
+    "q": "Whose 1990s country single is “Sorry You Asked?”",
     "choices": [
       "Kenny Chesney",
       "Dwight Yoakam",
@@ -5915,8 +5915,8 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 1,
-    "lyric": "Sorry You Asked",
-    "lyricSong": "Sorry You Asked",
+    "lyric": "You’ll be sorry you asked me the reason that she’s not here with me tonight",
+    "lyricSong": "Sorry You Asked?",
     "lyricArtist": "Dwight Yoakam"
   },
   {
@@ -5931,7 +5931,7 @@ window.QBANK = [
       "Dwight Yoakam"
     ],
     "a": 3,
-    "lyric": "It Only Hurts When I Cry",
+    "lyric": "I tell the truth ’cept when I lie / It only hurts me when I cry",
     "lyricSong": "It Only Hurts When I Cry",
     "lyricArtist": "Dwight Yoakam"
   },
@@ -5947,7 +5947,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 0,
-    "lyric": "Lucy’s got her lipstick on a little too bright",
+    "lyric": "We’re gonna howl at the moon, shoot out the light / It’s a small town Saturday night",
     "lyricSong": "Small Town Saturday Night",
     "lyricArtist": "Hal Ketchum"
   },
@@ -5963,7 +5963,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 1,
-    "lyric": "past the point of rescue",
+    "lyric": "But I do, and I wonder if I’m past the point of rescue",
     "lyricSong": "Past the Point of Rescue",
     "lyricArtist": "Hal Ketchum"
   },
@@ -5979,7 +5979,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 2,
-    "lyric": "Sure Love",
+    "lyric": "Every heartache I was given / Tip my hat and walk through fire to find sure love",
     "lyricSong": "Sure Love",
     "lyricArtist": "Hal Ketchum"
   },
@@ -5995,7 +5995,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 1,
-    "lyric": "Hearts Are Gonna Roll",
+    "lyric": "Hearts are gonna roll, heads are gonna turn, tears are gonna fall, a bridge is gonna burn",
     "lyricSong": "Hearts Are Gonna Roll",
     "lyricArtist": "Hal Ketchum"
   },
@@ -6011,7 +6011,7 @@ window.QBANK = [
       "Hal Ketchum"
     ],
     "a": 3,
-    "lyric": "Stay Forever",
+    "lyric": "If you could only see how much you matter to me / Maybe you would stay forever",
     "lyricSong": "Stay Forever",
     "lyricArtist": "Hal Ketchum"
   },
@@ -6027,7 +6027,7 @@ window.QBANK = [
       "Ricky Van Shelton"
     ],
     "a": 3,
-    "lyric": "cried my last tear for you",
+    "lyric": "I’ve cried my last tear for you, wasted my last year on you",
     "lyricSong": "I’ve Cried My Last Tear for You",
     "lyricArtist": "Ricky Van Shelton"
   },
@@ -6043,7 +6043,7 @@ window.QBANK = [
       "Ricky Van Shelton"
     ],
     "a": 3,
-    "lyric": "Keep It Between the Lines",
+    "lyric": "Keep your hands on the wheel, believe in the things that are real / take your time and keep it between the lines",
     "lyricSong": "Keep It Between the Lines",
     "lyricArtist": "Ricky Van Shelton"
   },
@@ -6059,7 +6059,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 0,
-    "lyric": "my achy breaky heart",
+    "lyric": "But don’t tell my heart, my achy breaky heart / I just don’t think he’d understand",
     "lyricSong": "Achy Breaky Heart",
     "lyricArtist": "Billy Ray Cyrus"
   },
@@ -6075,7 +6075,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 3,
-    "lyric": "Could’ve Been Me",
+    "lyric": "It could’ve been me standing there with you / It could’ve been me and my dreams coming true",
     "lyricSong": "Could’ve Been Me",
     "lyricArtist": "Billy Ray Cyrus"
   },
@@ -6091,7 +6091,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 3,
-    "lyric": "Some Gave All",
+    "lyric": "All gave some and some gave all / Some stood through for the red, white, and blue",
     "lyricSong": "Some Gave All",
     "lyricArtist": "Billy Ray Cyrus"
   },
@@ -6107,7 +6107,7 @@ window.QBANK = [
       "Mark Chesnutt"
     ],
     "a": 1,
-    "lyric": "in the heart of a woman",
+    "lyric": "The secret to the treasures of heaven in the heart of a woman",
     "lyricSong": "In the Heart of a Woman",
     "lyricArtist": "Billy Ray Cyrus"
   },
@@ -6123,7 +6123,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "She’s Not Cryin’ Anymore",
+    "lyric": "She’s not cryin’ anymore / And she ain’t lonely any longer",
     "lyricSong": "She’s Not Cryin’ Anymore",
     "lyricArtist": "Billy Ray Cyrus"
   },
@@ -6139,7 +6139,7 @@ window.QBANK = [
       "Brooks & Dunn"
     ],
     "a": 1,
-    "lyric": "the walk",
+    "lyric": "’Cause I took this walk you’re walking now / boy, I’ve been in your shoes",
     "lyricSong": "The Walk",
     "lyricArtist": "Sawyer Brown"
   },
@@ -6155,7 +6155,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 2,
-    "lyric": "Thank God for You",
+    "lyric": "I got to give credit when credit is due / I thank the bank for the money, thank God for you",
     "lyricSong": "Thank God for You",
     "lyricArtist": "Sawyer Brown"
   },
@@ -6171,7 +6171,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 1,
-    "lyric": "This Time",
+    "lyric": "But this time I’m gonna see you comin’, ain’t gonna be surprised",
     "lyricSong": "This Time",
     "lyricArtist": "Sawyer Brown"
   },
@@ -6187,7 +6187,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 3,
-    "lyric": "Cafe on the Corner",
+    "lyric": "At the cafe down on the corner with a lost look on his face",
     "lyricSong": "Cafe on the Corner",
     "lyricArtist": "Sawyer Brown"
   },
@@ -6203,7 +6203,7 @@ window.QBANK = [
       "Diamond Rio"
     ],
     "a": 0,
-    "lyric": "Fast Movin’ Train",
+    "lyric": "And I’ve been hit by another fast movin’ train",
     "lyricSong": "Fast Movin’ Train",
     "lyricArtist": "Restless Heart"
   },
@@ -6219,7 +6219,7 @@ window.QBANK = [
       "Little Texas"
     ],
     "a": 0,
-    "lyric": "When She Cries",
+    "lyric": "When she cries at night and she doesn’t think that I can hear her",
     "lyricSong": "When She Cries",
     "lyricArtist": "Restless Heart"
   },
@@ -6235,7 +6235,7 @@ window.QBANK = [
       "Restless Heart"
     ],
     "a": 3,
-    "lyric": "Tell Me What You Dream",
+    "lyric": "Tell me what you dream at night while you’re sleeping / tell me what you see at night in your dreams",
     "lyricSong": "Tell Me What You Dream",
     "lyricArtist": "Restless Heart"
   },
@@ -6251,7 +6251,7 @@ window.QBANK = [
       "Ricky Van Shelton"
     ],
     "a": 0,
-    "lyric": "a jukebox with a country song",
+    "lyric": "I guess I’m somewhere that I don’t belong / I need a jukebox with a country song",
     "lyricSong": "A Jukebox with a Country Song",
     "lyricArtist": "Doug Stone"
   },
@@ -6267,7 +6267,7 @@ window.QBANK = [
       "Vince Gill"
     ],
     "a": 0,
-    "lyric": "I’d be better off",
+    "lyric": "I’d be better off in a pine box on a slow train back to Georgia",
     "lyricSong": "I’d Be Better Off (In a Pine Box)",
     "lyricArtist": "Doug Stone"
   },
@@ -6283,7 +6283,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 3,
-    "lyric": "Too Busy Being in Love",
+    "lyric": "My only excuse for not doing enough / I was too busy being in love",
     "lyricSong": "Too Busy Being in Love",
     "lyricArtist": "Doug Stone"
   },
@@ -6299,7 +6299,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 1,
-    "lyric": "Why Didn’t I Think of That",
+    "lyric": "He says he needs her, tells her he loves her / Why didn’t I think of that?",
     "lyricSong": "Why Didn’t I Think of That",
     "lyricArtist": "Doug Stone"
   },
@@ -6315,7 +6315,7 @@ window.QBANK = [
       "Ricky Van Shelton"
     ],
     "a": 0,
-    "lyric": "In a Different Light",
+    "lyric": "I see you in a different light, just the way I saw you last night",
     "lyricSong": "In a Different Light",
     "lyricArtist": "Doug Stone"
   },
@@ -6331,7 +6331,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 0,
-    "lyric": "I’m Still Dancin’ with You",
+    "lyric": "’Cause I’m still dancin’ with you / I know we said we were through, but I keep holdin’ on",
     "lyricSong": "I’m Still Dancin’ with You",
     "lyricArtist": "Wade Hayes"
   },
@@ -6347,7 +6347,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 3,
-    "lyric": "the day that she left Tulsa",
+    "lyric": "In a Chevy, in a hurry, in the pourin’ down rain / With the caution lights flashin’ in the passin’ lane",
     "lyricSong": "The Day That She Left Tulsa (In a Chevy)",
     "lyricArtist": "Wade Hayes"
   },
@@ -6363,7 +6363,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 3,
-    "lyric": "On a Good Night",
+    "lyric": "But on a real good night I meet a woman like you",
     "lyricSong": "On a Good Night",
     "lyricArtist": "Wade Hayes"
   },
@@ -6379,7 +6379,7 @@ window.QBANK = [
       "Dwight Yoakam"
     ],
     "a": 2,
-    "lyric": "Party Crowd",
+    "lyric": "Tonight, I’m lookin’ for a party crowd / Slammin’ ’em back and laughing out loud",
     "lyricSong": "Party Crowd",
     "lyricArtist": "David Lee Murphy"
   },
@@ -6395,7 +6395,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 1,
-    "lyric": "Every Time I Get Around You",
+    "lyric": "I forget about everything every time I get around you",
     "lyricSong": "Every Time I Get Around You",
     "lyricArtist": "David Lee Murphy"
   },
@@ -6411,7 +6411,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 3,
-    "lyric": "The Road You Leave Behind",
+    "lyric": "You see the road you leave behind you / Is another road you’re gonna have to come back down",
     "lyricSong": "The Road You Leave Behind",
     "lyricArtist": "David Lee Murphy"
   },
@@ -6427,7 +6427,7 @@ window.QBANK = [
       "Wade Hayes"
     ],
     "a": 2,
-    "lyric": "Someone Else’s Star",
+    "lyric": "I guess I must be wishing on someone else’s star",
     "lyricSong": "Someone Else’s Star",
     "lyricArtist": "Bryan White"
   },
@@ -6443,7 +6443,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 0,
-    "lyric": "Rebecca Lynn",
+    "lyric": "Ring around the rosie, pocket full of dreams and posies",
     "lyricSong": "Rebecca Lynn",
     "lyricArtist": "Bryan White"
   },
@@ -6459,7 +6459,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 3,
-    "lyric": "So Much for Pretending",
+    "lyric": "And I was looking forward to a happy ending / So much for pretending",
     "lyricSong": "So Much for Pretending",
     "lyricArtist": "Bryan White"
   },
@@ -6475,7 +6475,7 @@ window.QBANK = [
       "Bryan White"
     ],
     "a": 3,
-    "lyric": "Sittin’ on Go",
+    "lyric": "Ooh, baby, come and get me / My heart’s sittin’ on go",
     "lyricSong": "Sittin’ on Go",
     "lyricArtist": "Bryan White"
   },
@@ -6491,7 +6491,7 @@ window.QBANK = [
       "Vince Gill"
     ],
     "a": 2,
-    "lyric": "Hard Rock Bottom of Your Heart",
+    "lyric": "And I feel like a stone you have picked up and thrown / to the hard rock bottom of your heart",
     "lyricSong": "Hard Rock Bottom of Your Heart",
     "lyricArtist": "Randy Travis"
   },
@@ -6507,7 +6507,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 3,
-    "lyric": "Look Heart, No Hands",
+    "lyric": "No chains, no strings, no fences, no wall / no net, just you to catch me when I fall / look heart, no hands",
     "lyricSong": "Look Heart, No Hands",
     "lyricArtist": "Randy Travis"
   },
@@ -6523,7 +6523,7 @@ window.QBANK = [
       "Doug Stone"
     ],
     "a": 1,
-    "lyric": "Liza Jane",
+    "lyric": "You’ve got my number, you’ve got my name / So why don’t you call me little Liza Jane",
     "lyricSong": "Liza Jane",
     "lyricArtist": "Vince Gill"
   },
@@ -6539,7 +6539,7 @@ window.QBANK = [
       "Vince Gill"
     ],
     "a": 3,
-    "lyric": "Look at Us",
+    "lyric": "Look at us, after all these years together / Look at us, after all that we’ve been through",
     "lyricSong": "Look at Us",
     "lyricArtist": "Vince Gill"
   },
@@ -6555,7 +6555,7 @@ window.QBANK = [
       "Mark Chesnutt"
     ],
     "a": 0,
-    "lyric": "Don’t Let Our Love Start Slippin’ Away",
+    "lyric": "Don’t let our love start slippin’, love start slippin’ away",
     "lyricSong": "Don’t Let Our Love Start Slippin’ Away",
     "lyricArtist": "Vince Gill"
   },
@@ -6571,7 +6571,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 1,
-    "lyric": "One More Last Chance",
+    "lyric": "Give me just one more last chance before you say we’re through",
     "lyricSong": "One More Last Chance",
     "lyricArtist": "Vince Gill"
   },
@@ -6587,7 +6587,7 @@ window.QBANK = [
       "Radney Foster"
     ],
     "a": 0,
-    "lyric": "Whenever You Come Around",
+    "lyric": "And when you smile that smile, the world turns upside down / Whenever you come around",
     "lyricSong": "Whenever You Come Around",
     "lyricArtist": "Vince Gill"
   },
@@ -6603,7 +6603,7 @@ window.QBANK = [
       "Tracy Lawrence"
     ],
     "a": 1,
-    "lyric": "What the Cowgirls Do",
+    "lyric": "You know I’m a sucker, baby, for what the cowgirls do",
     "lyricSong": "What the Cowgirls Do",
     "lyricArtist": "Vince Gill"
   },
@@ -6619,7 +6619,7 @@ window.QBANK = [
       "Randy Travis"
     ],
     "a": 1,
-    "lyric": "High Lonesome Sound",
+    "lyric": "I wanna hear that high lonesome sound / ’Cause my sweet baby ain’t around",
     "lyricSong": "High Lonesome Sound",
     "lyricArtist": "Vince Gill"
   },
@@ -6635,7 +6635,7 @@ window.QBANK = [
       "John Michael Montgomery"
     ],
     "a": 1,
-    "lyric": "Pretty Little Adriana",
+    "lyric": "Oh, my pretty little Adriana / Are you lonesome tonight?",
     "lyricSong": "Pretty Little Adriana",
     "lyricArtist": "Vince Gill"
   },
@@ -6651,7 +6651,7 @@ window.QBANK = [
       "Travis Tritt"
     ],
     "a": 0,
-    "lyric": "Just Call Me Lonesome",
+    "lyric": "Just call me lonesome, heartbroke and then some / ’cause I ain’t got no one since you’ve been gone",
     "lyricSong": "Just Call Me Lonesome",
     "lyricArtist": "Radney Foster"
   },
@@ -6667,7 +6667,7 @@ window.QBANK = [
       "Billy Ray Cyrus"
     ],
     "a": 2,
-    "lyric": "Nobody Wins",
+    "lyric": "’Cause nobody wins, we both lose / hearts get broken and love gets bruised",
     "lyricSong": "Nobody Wins",
     "lyricArtist": "Radney Foster"
   },
@@ -6683,7 +6683,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 0,
-    "lyric": "Easier Said Than Done",
+    "lyric": "You see it’s easier said than done / words can’t rebuild all the trust my lies killed",
     "lyricSong": "Easier Said Than Done",
     "lyricArtist": "Radney Foster"
   },
@@ -6699,7 +6699,7 @@ window.QBANK = [
       "Neal McCoy"
     ],
     "a": 1,
-    "lyric": "There Ain’t Nothin’ Wrong with the Radio",
+    "lyric": "She ain’t a Cadillac and she ain’t a Rolls / But there ain’t nothin’ wrong with the radio",
     "lyricSong": "There Ain’t Nothin’ Wrong with the Radio",
     "lyricArtist": "Aaron Tippin"
   },
@@ -6715,7 +6715,7 @@ window.QBANK = [
       "Kenny Chesney"
     ],
     "a": 2,
-    "lyric": "My Blue Angel",
+    "lyric": "If you see my blue angel / Tell her that heaven without her feels like hell tonight",
     "lyricSong": "My Blue Angel",
     "lyricArtist": "Aaron Tippin"
   },
@@ -6731,7 +6731,7 @@ window.QBANK = [
       "Hal Ketchum"
     ],
     "a": 0,
-    "lyric": "Working Man’s Ph.D.",
+    "lyric": "And if you want a cram course in reality / You get yourself a working man’s Ph.D.",
     "lyricSong": "Working Man’s Ph.D.",
     "lyricArtist": "Aaron Tippin"
   },
@@ -6747,7 +6747,7 @@ window.QBANK = [
       "David Kersh"
     ],
     "a": 0,
-    "lyric": "that’s as close as I’ll get",
+    "lyric": "That’s as close as I’ll get to loving you / Even though there’s nothing else I’d rather do",
     "lyricSong": "That’s as Close as I’ll Get to Loving You",
     "lyricArtist": "Aaron Tippin"
   },
@@ -6763,7 +6763,7 @@ window.QBANK = [
       "Tracy Byrd"
     ],
     "a": 2,
-    "lyric": "Straight Tequila Night",
+    "lyric": "But don’t ask her on a straight tequila night / She’ll start thinking about him, then she’s ready to fight",
     "lyricSong": "Straight Tequila Night",
     "lyricArtist": "John Anderson"
   },
@@ -6779,7 +6779,7 @@ window.QBANK = [
       "David Lee Murphy"
     ],
     "a": 2,
-    "lyric": "Seminole wind",
+    "lyric": "So blow, blow, Seminole wind, blow like you’re never gonna blow again",
     "lyricSong": "Seminole Wind",
     "lyricArtist": "John Anderson"
   },
@@ -6795,7 +6795,7 @@ window.QBANK = [
       "Collin Raye"
     ],
     "a": 2,
-    "lyric": "Money in the Bank",
+    "lyric": "Got my paycheck in my pocket and gas in the tank / Honey, your love’s better than money in the bank",
     "lyricSong": "Money in the Bank",
     "lyricArtist": "John Anderson"
   },
@@ -6811,7 +6811,7 @@ window.QBANK = [
       "Clay Walker"
     ],
     "a": 0,
-    "lyric": "I Wish I Could Have Been There",
+    "lyric": "It was a happy day, but kinda sad / I wish I could’ve been there",
     "lyricSong": "I Wish I Could Have Been There",
     "lyricArtist": "John Anderson"
   },
@@ -6827,7 +6827,7 @@ window.QBANK = [
       "John Anderson"
     ],
     "a": 3,
-    "lyric": "Bend It Until It Breaks",
+    "lyric": "How much more can this poor heart take? You bend it until it breaks",
     "lyricSong": "Bend It Until It Breaks",
     "lyricArtist": "John Anderson"
   },
@@ -6843,7 +6843,7 @@ window.QBANK = [
       "The Mavericks"
     ],
     "a": 3,
-    "lyric": "What a Crying Shame",
+    "lyric": "Ooh baby, ooh what a crying shame / To let it all slip away and call it yesterday",
     "lyricSong": "What a Crying Shame",
     "lyricArtist": "The Mavericks"
   },
@@ -6859,7 +6859,7 @@ window.QBANK = [
       "BlackHawk"
     ],
     "a": 0,
-    "lyric": "All You Ever Do Is Bring Me Down",
+    "lyric": "All you ever do is bring me down / Making me a fool all over town",
     "lyricSong": "All You Ever Do Is Bring Me Down",
     "lyricArtist": "The Mavericks"
   },
@@ -6875,7 +6875,7 @@ window.QBANK = [
       "Ricochet"
     ],
     "a": 1,
-    "lyric": "There Goes My Heart",
+    "lyric": "There goes my heart, breaking in two / There go my eyes, crying over you",
     "lyricSong": "There Goes My Heart",
     "lyricArtist": "The Mavericks"
   },
@@ -6891,7 +6891,7 @@ window.QBANK = [
       "Restless Heart"
     ],
     "a": 0,
-    "lyric": "What Do I Know",
+    "lyric": "But hey, hey, what do I know? / I’m just a lonely fool that let you go",
     "lyricSong": "What Do I Know",
     "lyricArtist": "Ricochet"
   },
@@ -6907,7 +6907,7 @@ window.QBANK = [
       "Ricochet"
     ],
     "a": 3,
-    "lyric": "Love Is Stronger Than Pride",
+    "lyric": "If I’ve gotta beg and plead to make you see I need you in my life / well, love is stronger than pride",
     "lyricSong": "Love Is Stronger Than Pride",
     "lyricArtist": "Ricochet"
   },
@@ -6923,7 +6923,7 @@ window.QBANK = [
       "The Kinleys"
     ],
     "a": 3,
-    "lyric": "I'll stand and fight or get down on my knees",
+    "lyric": "If we can fix what’s wrong and just go on in love forever / Baby, I’ll be beggin’ please",
     "lyricSong": "Please",
     "lyricArtist": "The Kinleys"
   },
@@ -6939,7 +6939,7 @@ window.QBANK = [
       "Sawyer Brown"
     ],
     "a": 1,
-    "lyric": "Just Between You and Me",
+    "lyric": "And when we touch, it’s too much, it’s electricity / Just between you and me",
     "lyricSong": "Just Between You and Me",
     "lyricArtist": "The Kinleys"
   },
@@ -6955,7 +6955,7 @@ window.QBANK = [
       "Keith Whitley"
     ],
     "a": 0,
-    "lyric": "Goodnight Sweetheart",
+    "lyric": "Goodnight, sweetheart, sleep tight, wherever you are / God hold you in his arms while we’re apart",
     "lyricSong": "Goodnight Sweetheart",
     "lyricArtist": "David Kersh"
   },
@@ -6971,7 +6971,7 @@ window.QBANK = [
       "Toby Keith"
     ],
     "a": 1,
-    "lyric": "Another You",
+    "lyric": "I’ll find another love / But there will never be another you",
     "lyricSong": "Another You",
     "lyricArtist": "David Kersh"
   },
@@ -6987,7 +6987,7 @@ window.QBANK = [
       "Boots"
     ],
     "a": 3,
-    "lyric": "showed up in boots",
+    "lyric": "Blame it all on my roots, I showed up in boots and ruined your black-tie affair",
     "lyricSong": "Friends in Low Places",
     "lyricArtist": "Garth Brooks"
   },
@@ -7003,7 +7003,7 @@ window.QBANK = [
       "2:15 a.m."
     ],
     "a": 2,
-    "lyric": "three thirty in the morning",
+    "lyric": "Three thirty in the mornin’, not a soul in sight, the city’s lookin’ like a ghost town",
     "lyricSong": "The Thunder Rolls",
     "lyricArtist": "Garth Brooks"
   },
@@ -7019,7 +7019,7 @@ window.QBANK = [
       "A football game"
     ],
     "a": 3,
-    "lyric": "a hometown football game",
+    "lyric": "Just the other night at a hometown football game, my wife and I ran into my old high school flame",
     "lyricSong": "Unanswered Prayers",
     "lyricArtist": "Garth Brooks"
   },
@@ -7035,7 +7035,7 @@ window.QBANK = [
       "Truck driver"
     ],
     "a": 3,
-    "lyric": "Papa was a trucker",
+    "lyric": "Papa drove a truck nearly all his life, you know it drove Mama crazy being a trucker’s wife",
     "lyricSong": "Papa Loved Mama",
     "lyricArtist": "Garth Brooks"
   },
@@ -7051,7 +7051,7 @@ window.QBANK = [
       "Corn"
     ],
     "a": 2,
-    "lyric": "every time I pass a wheat field",
+    "lyric": "And every time I pass a wheat field and watch it dancing with the wind",
     "lyricSong": "That Summer",
     "lyricArtist": "Garth Brooks"
   },
@@ -7067,7 +7067,7 @@ window.QBANK = [
       "George Jones"
     ],
     "a": 3,
-    "lyric": "I wanna hear some Jones",
+    "lyric": "Don’t rock the jukebox, I wanna hear George Jones / ’Cause my heart ain’t ready for the Rolling Stones",
     "lyricSong": "Don’t Rock the Jukebox",
     "lyricArtist": "Alan Jackson"
   },
@@ -7083,7 +7083,7 @@ window.QBANK = [
       "Fourth grade"
     ],
     "a": 0,
-    "lyric": "way back in third grade",
+    "lyric": "It started way back in third grade, I used to sit beside Emmylou Hayes",
     "lyricSong": "Check Yes or No",
     "lyricArtist": "George Strait"
   },
@@ -7091,7 +7091,7 @@ window.QBANK = [
     "id": 444,
     "category": "LYRIC DETECTIVE",
     "topic": "hit-neonmoon",
-    "q": "What runs beside the bar where the singer spends his nights in “Neon Moon”?",
+    "q": "What is the rundown bar across from in “Neon Moon”?",
     "choices": [
       "A river",
       "A dirt road",
@@ -7099,7 +7099,7 @@ window.QBANK = [
       "Railroad tracks"
     ],
     "a": 3,
-    "lyric": "cross the railroad tracks",
+    "lyric": "There’s a rundown bar ’cross the railroad tracks / I’ve got a table for two, way in the back",
     "lyricSong": "Neon Moon",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -7115,7 +7115,7 @@ window.QBANK = [
       "Satin"
     ],
     "a": 3,
-    "lyric": "a satin dancing dress",
+    "lyric": "Then I stepped into a satin dancin’ dress that had a split on the side clean up to my hip",
     "lyricSong": "Fancy",
     "lyricArtist": "Reba McEntire"
   },
@@ -7131,7 +7131,7 @@ window.QBANK = [
       "17"
     ],
     "a": 1,
-    "lyric": "she married when she was twenty",
+    "lyric": "She married when she was twenty, she thought she was ready, now she’s not so sure",
     "lyricSong": "Is There Life Out There",
     "lyricArtist": "Reba McEntire"
   },
@@ -7147,7 +7147,7 @@ window.QBANK = [
       "Creek and Chickasaw"
     ],
     "a": 2,
-    "lyric": "half Cherokee and Choctaw",
+    "lyric": "I’m an Indian outlaw, half Cherokee and Choctaw / My baby, she’s a Chippewa",
     "lyricSong": "Indian Outlaw",
     "lyricArtist": "Tim McGraw"
   },
@@ -7155,7 +7155,7 @@ window.QBANK = [
     "id": 448,
     "category": "LYRIC DETECTIVE",
     "topic": "hit-thatdontimpressmemuch",
-    "q": "Which Hollywood actor is named in “That Don’t Impress Me Much”?",
+    "q": "Finish Shania’s put-down in “That Don’t Impress Me Much”: “OK, so you’re ___”",
     "choices": [
       "Brad Pitt",
       "George Clooney",
@@ -7163,7 +7163,7 @@ window.QBANK = [
       "Tom Cruise"
     ],
     "a": 0,
-    "lyric": "Brad Pitt",
+    "lyric": "OK, so you’re Brad Pitt / that don’t impress me much",
     "lyricSong": "That Don’t Impress Me Much",
     "lyricArtist": "Shania Twain"
   },
@@ -7179,7 +7179,7 @@ window.QBANK = [
       "Soda"
     ],
     "a": 1,
-    "lyric": "a barbecue stain on my white t-shirt",
+    "lyric": "I had a barbecue stain on my white T-shirt / She was killing me in that miniskirt",
     "lyricSong": "Something Like That",
     "lyricArtist": "Tim McGraw"
   },
@@ -7195,7 +7195,7 @@ window.QBANK = [
       "Katie"
     ],
     "a": 3,
-    "lyric": "Katie’s sittin’ on the old front porch",
+    "lyric": "Katie’s sittin’ on the old front porch / Watchin’ the chickens peck the ground",
     "lyricSong": "She’s in Love with the Boy",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -7211,7 +7211,7 @@ window.QBANK = [
       "A promise bracelet"
     ],
     "a": 0,
-    "lyric": "my high school ring will have to do",
+    "lyric": "He says, my high school ring will have to do ’til I can buy a weddin’ band",
     "lyricSong": "She’s in Love with the Boy",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -7227,7 +7227,7 @@ window.QBANK = [
       "Both over ice in a pitcher"
     ],
     "a": 1,
-    "lyric": "one for each hand",
+    "lyric": "So bring me two piña coladas, one for each hand / Let’s set sail with Captain Morgan",
     "lyricSong": "Two Piña Coladas",
     "lyricArtist": "Garth Brooks"
   },
@@ -7243,7 +7243,7 @@ window.QBANK = [
       "Velvet"
     ],
     "a": 1,
-    "lyric": "polyester curtains",
+    "lyric": "So I made her the queen of my double-wide trailer / with the polyester curtains and the redwood deck",
     "lyricSong": "Queen of My Double Wide Trailer",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -7259,8 +7259,7768 @@ window.QBANK = [
       "Katie"
     ],
     "a": 1,
-    "lyric": "Lucy’s got her lipstick on a little too bright",
+    "lyric": "Lucy’s got her lipstick on a little too bright, Bobby’s gettin’ drunk and lookin’ for a fight",
     "lyricSong": "Small Town Saturday Night",
     "lyricArtist": "Hal Ketchum"
+  },
+  {
+    "id": 455,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-jukeboxinmymind",
+    "q": "Whose 1990s country single is “Jukebox in My Mind”?",
+    "choices": [
+      "Alabama",
+      "Sawyer Brown",
+      "The Mavericks",
+      "Montgomery Gentry"
+    ],
+    "a": 0,
+    "lyric": "In the corner of my mind stands a jukebox / It’s playin’ all my favorite memories",
+    "lyricSong": "Jukebox in My Mind",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 456,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-foreversasfarasillgo",
+    "q": "Finish the lyric from Alabama’s “Forever’s as Far as I’ll Go”: “I will give you my heart, faithful and true / And all the love it can hold …”",
+    "choices": [
+      "that’s all I can do",
+      "forever to you",
+      "and I’ll always be true",
+      "until my life is through"
+    ],
+    "a": 0,
+    "lyric": "And it’s only fair that you know / Forever’s as far as I’ll go",
+    "lyricSong": "Forever’s as Far as I’ll Go",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 457,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-downhome",
+    "q": "In Alabama’s “Down Home,” along with a man’s good word, what else is all you need?",
+    "choices": [
+      "A cash deposit",
+      "A handshake",
+      "A signed contract",
+      "A co-signer"
+    ],
+    "a": 1,
+    "lyric": "Down home / A man’s good word and a handshake are all you need",
+    "lyricSong": "Down Home",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 458,
+    "category": "NAME THAT SONG",
+    "topic": "hit-hereweare",
+    "q": "Which 90s country hit includes the line “Baby, you and me could write a book about love”?",
+    "choices": [
+      "Down Home",
+      "Forever’s as Far as I’ll Go",
+      "Here We Are",
+      "Born Country"
+    ],
+    "a": 2,
+    "lyric": "Here we are, once again / Stronger now than we have ever been",
+    "lyricSong": "Here We Are",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 459,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-borncountry",
+    "q": "Who recorded the 90s country hit “Born Country”?",
+    "choices": [
+      "The Mavericks",
+      "Restless Heart",
+      "Alabama",
+      "The Kentucky Headhunters"
+    ],
+    "a": 2,
+    "lyric": "I was born country, and that’s what I’ll always be / Like the rivers and the woodlands, wild and free",
+    "lyricSong": "Born Country",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 460,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-takealittletrip",
+    "q": "Which artist had a 1990s country hit with “Take a Little Trip”?",
+    "choices": [
+      "Restless Heart",
+      "BlackHawk",
+      "The Judds",
+      "Alabama"
+    ],
+    "a": 3,
+    "lyric": "Take a little trip, take a little trip / Take a little trip up to heaven tonight",
+    "lyricSong": "Take a Little Trip",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 461,
+    "category": "NAME THAT SONG",
+    "topic": "hit-iminahurryanddontknowwhy",
+    "q": "Which 90s country hit includes the line “All I really gotta do is live and die”?",
+    "choices": [
+      "Born Country",
+      "Once Upon a Lifetime",
+      "I’m in a Hurry (And Don’t Know Why)",
+      "Take a Little Trip"
+    ],
+    "a": 2,
+    "lyric": "I’m in a hurry to get things done / Oh, I rush and rush until life’s no fun",
+    "lyricSong": "I’m in a Hurry (And Don’t Know Why)",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 462,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-onceuponalifetime",
+    "q": "In Alabama’s “Once Upon a Lifetime,” which playing card do you hold once upon a lifetime?",
+    "choices": [
+      "The Ace of Spades",
+      "The King of Diamonds",
+      "The Jack of Hearts",
+      "The Queen of Hearts"
+    ],
+    "a": 3,
+    "lyric": "And once upon a lifetime you hold the Queen of Hearts",
+    "lyricSong": "Once Upon a Lifetime",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 463,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-reckless",
+    "q": "Which artist had a 1990s country hit with “Reckless”?",
+    "choices": [
+      "Alabama",
+      "Dixie Chicks",
+      "The Judds",
+      "McBride & the Ride"
+    ],
+    "a": 0,
+    "lyric": "I could care less where it leads us / Love is reckless, let’s get reckless tonight",
+    "lyricSong": "Reckless",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 464,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-tlcasap",
+    "q": "Finish the lyric from Alabama’s “T.L.C. A.S.A.P.”: “A little R&R for you and me / A guaranteed …”",
+    "choices": [
+      "cure for misery",
+      "rat race remedy",
+      "weekend getaway",
+      "Friday night jubilee"
+    ],
+    "a": 1,
+    "lyric": "A little T.L.C. A.S.A.P. / A little R&R for you and me",
+    "lyricSong": "T.L.C. A.S.A.P.",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 465,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-wecantlovelikethisanymore",
+    "q": "Who recorded the 90s country hit “We Can’t Love Like This Anymore”?",
+    "choices": [
+      "Pirates of the Mississippi",
+      "Alabama",
+      "The Kentucky Headhunters",
+      "The Judds"
+    ],
+    "a": 1,
+    "lyric": "And I can’t unlock the door / And we can’t love like this anymore",
+    "lyricSong": "We Can’t Love Like This Anymore",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 466,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-givemeonemoreshot",
+    "q": "Finish the lyric from Alabama’s “Give Me One More Shot”: “Give me one more chance, I’ll learn to …”",
+    "choices": [
+      "walk the line",
+      "dance the dance",
+      "play the part",
+      "take a stand"
+    ],
+    "a": 1,
+    "lyric": "So give me one more shot, I’ll give it all I’ve got",
+    "lyricSong": "Give Me One More Shot",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 467,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-sheaintyourordinarygirl",
+    "q": "Who recorded the 90s country hit “She Ain’t Your Ordinary Girl”?",
+    "choices": [
+      "The Kinleys",
+      "Alabama",
+      "Pirates of the Mississippi",
+      "McBride & the Ride"
+    ],
+    "a": 1,
+    "lyric": "She ain’t your ordinary, no she’s not / She ain’t your ordinary girl",
+    "lyricSong": "She Ain’t Your Ordinary Girl",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 468,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-inpictures",
+    "q": "In Alabama’s “In Pictures,” what words does the father say he seldom hears from his daughter?",
+    "choices": [
+      "“Come home, Daddy”",
+      "“I love you, Daddy”",
+      "“Happy birthday, Daddy”",
+      "“Goodnight, Daddy”"
+    ],
+    "a": 1,
+    "lyric": "I missed her first steps, her first words / “I love you, Daddy” is something I seldom hear",
+    "lyricSong": "In Pictures",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 469,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-sadlookinmoon",
+    "q": "Who recorded the 90s country hit “Sad Lookin’ Moon”?",
+    "choices": [
+      "BlackHawk",
+      "Alabama",
+      "Lonestar",
+      "The Mavericks"
+    ],
+    "a": 1,
+    "lyric": "Now there’s a sad lookin’ moon shinin’ down on me / There’s a sad lookin’ sky as far as I can see",
+    "lyricSong": "Sad Lookin’ Moon",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 470,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-dancinshagginontheboulevard",
+    "q": "Which artist had a 1990s country hit with “Dancin’, Shaggin’ on the Boulevard”?",
+    "choices": [
+      "Ricochet",
+      "Shenandoah",
+      "Alabama",
+      "The Judds"
+    ],
+    "a": 2,
+    "lyric": "They’re dancin’, shaggin’ on the boulevard / Dancin’, shaggin’ on the boulevard",
+    "lyricSong": "Dancin’, Shaggin’ on the Boulevard",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 471,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-howdoyoufallinlove",
+    "q": "Who recorded the 90s country hit “How Do You Fall in Love”?",
+    "choices": [
+      "Shenandoah",
+      "Alabama",
+      "The Kentucky Headhunters",
+      "Little Texas"
+    ],
+    "a": 1,
+    "lyric": "How do you fall in love / And when do you say “I do",
+    "lyricSong": "How Do You Fall in Love",
+    "lyricArtist": "Alabama"
+  },
+  {
+    "id": 472,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-pointoflight",
+    "q": "Whose 1990s country single is “Point of Light”?",
+    "choices": [
+      "Mark Chesnutt",
+      "Vince Gill",
+      "John Berry",
+      "Randy Travis"
+    ],
+    "a": 3,
+    "lyric": "All it takes is a point of light / A ray of hope in the darkest night",
+    "lyricSong": "Point of Light",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 473,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-betterclassoflosers",
+    "q": "In Randy Travis’s “Better Class of Losers,” what does she find disgraceful that his friends drink?",
+    "choices": [
+      "Three-dollar wine",
+      "Cheap canned beer",
+      "Moonshine from a jar",
+      "Two-dollar whiskey"
+    ],
+    "a": 0,
+    "lyric": "You think it’s disgraceful that they drink three dollar wine / But a better class of losers suits me fine",
+    "lyricSong": "Better Class of Losers",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 474,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-whispermyname",
+    "q": "In Randy Travis’s “Whisper My Name,” what hymn does he hear a woman sing?",
+    "choices": [
+      "The Old Rugged Cross",
+      "Amazing Grace",
+      "How Great Thou Art",
+      "I’ll Fly Away"
+    ],
+    "a": 1,
+    "lyric": "I heard a freight train out across the way / I heard a woman sing Amazing Grace",
+    "lyricSong": "Whisper My Name",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 475,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thisisme",
+    "q": "Which artist had a 1990s country hit with “This Is Me”?",
+    "choices": [
+      "John Michael Montgomery",
+      "Doug Stone",
+      "Randy Travis",
+      "Mark Wills"
+    ],
+    "a": 2,
+    "lyric": "This is me you’re not talking to / This is me, the one who knows you inside out",
+    "lyricSong": "This Is Me",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 476,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-thebox",
+    "q": "In Randy Travis’s “The Box,” what did the family think their father’s heart was made of?",
+    "choices": [
+      "Iron",
+      "Solid rock",
+      "Ice",
+      "Cold steel"
+    ],
+    "a": 1,
+    "lyric": "We all thought his heart was made of solid rock / But that was long before we found the box",
+    "lyricSong": "The Box",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 477,
+    "category": "NAME THAT SONG",
+    "topic": "hit-beforeyoukillusall",
+    "q": "Which 90s country hit includes the line “But the goldfish are floating at the top of the bowl”?",
+    "choices": [
+      "Before You Kill Us All",
+      "Whisper My Name",
+      "This Is Me",
+      "The Box"
+    ],
+    "a": 0,
+    "lyric": "And I know I had it coming, and it’s all my fault / But baby, come back before you kill us all",
+    "lyricSong": "Before You Kill Us All",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 478,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-areweintroublenow",
+    "q": "Whose 1990s country single is “Are We in Trouble Now”?",
+    "choices": [
+      "Billy Ray Cyrus",
+      "George Strait",
+      "Michael Peterson",
+      "Randy Travis"
+    ],
+    "a": 3,
+    "lyric": "And I was falling, and I fell for you and how / Darling, are we in trouble now?",
+    "lyricSong": "Are We in Trouble Now",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 479,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-outofmybones",
+    "q": "In Randy Travis’s “Out of My Bones,” where does he carry her picture?",
+    "choices": [
+      "In my shoe",
+      "In my wallet",
+      "In my hatband",
+      "In my shirt pocket"
+    ],
+    "a": 0,
+    "lyric": "Bury your jacket in my backyard / Carry your picture in my shoe",
+    "lyricSong": "Out of My Bones",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 480,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-spiritofaboywisdomofaman",
+    "q": "Whose 1990s country single is “Spirit of a Boy, Wisdom of a Man”?",
+    "choices": [
+      "Lee Roy Parnell",
+      "Clint Black",
+      "Travis Tritt",
+      "Randy Travis"
+    ],
+    "a": 3,
+    "lyric": "With so much riding on the choice at hand / The spirit of a boy or the wisdom of a man",
+    "lyricSong": "Spirit of a Boy, Wisdom of a Man",
+    "lyricArtist": "Randy Travis"
+  },
+  {
+    "id": 481,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-neverknewlonely",
+    "q": "Whose 1990s country single is “Never Knew Lonely”?",
+    "choices": [
+      "Vince Gill",
+      "Tracy Lawrence",
+      "Marty Stuart",
+      "Billy Dean"
+    ],
+    "a": 0,
+    "lyric": "Never knew lonely could be so blue / Never knew lonely could tear you in two",
+    "lyricSong": "Never Knew Lonely",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 482,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-pocketfullofgold",
+    "q": "Finish the lyric from Vince Gill’s “Pocket Full of Gold”: “He slipped the ring off his finger / When he …”",
+    "choices": [
+      "hit the dance floor",
+      "pulled into town",
+      "sat down at the bar",
+      "walked in the room"
+    ],
+    "a": 3,
+    "lyric": "How many lies you must have told / You think you’re a rich man with your pocket full of gold",
+    "lyricSong": "Pocket Full of Gold",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 483,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-takeyourmemorywithyou",
+    "q": "Finish the lyric from Vince Gill’s “Take Your Memory with You”: “So I won’t have to think about / The lonely nights …”",
+    "choices": [
+      "that lie ahead",
+      "I’ll be without",
+      "we used to share",
+      "I spent with you"
+    ],
+    "a": 1,
+    "lyric": "Someone to hold me when the cold wind blows / Take your memory with you when you go",
+    "lyricSong": "Take Your Memory with You",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 484,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-tryintogetoveryou",
+    "q": "Finish the lyric from Vince Gill’s “Tryin’ to Get Over You”: “I’ve been tryin’ to get over you / But it’ll take …”",
+    "choices": [
+      "a lifetime to get it through",
+      "forever and a day",
+      "a miracle to see it through",
+      "dyin’ to get it done"
+    ],
+    "a": 3,
+    "lyric": "I’ve been tryin’ to get over you / But it’ll take dyin’ to get it done",
+    "lyricSong": "Tryin’ to Get Over You",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 485,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whenlovefindsyou",
+    "q": "Who sings the 90s country favorite “When Love Finds You”?",
+    "choices": [
+      "Mark Collie",
+      "Ricky Van Shelton",
+      "Radney Foster",
+      "Vince Gill"
+    ],
+    "a": 3,
+    "lyric": "You’ll find out it’s true / Baby, someday when love finds you",
+    "lyricSong": "When Love Finds You",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 486,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whichbridgetocrosswhichbridgetoburn",
+    "q": "Finish the lyric from Vince Gill’s “Which Bridge to Cross (Which Bridge to Burn)”: “I can’t sleep at night, I toss and turn / I keep losing sight of …”",
+    "choices": [
+      "the pages I’ve turned",
+      "lessons I’ve learned",
+      "the way to return",
+      "the love that I’ve earned"
+    ],
+    "a": 1,
+    "lyric": "I’m standing at the crossroads with just one concern / Which bridge to cross and which bridge to burn",
+    "lyricSong": "Which Bridge to Cross (Which Bridge to Burn)",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 487,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-youbetterthinktwice",
+    "q": "Finish the lyric from Vince Gill’s “You Better Think Twice”: “So you better think twice / Before you …”",
+    "choices": [
+      "take advice",
+      "pay the price",
+      "walk on ice",
+      "roll the dice"
+    ],
+    "a": 3,
+    "lyric": "So you better think twice before you roll the dice / You better think twice before you give your heart away",
+    "lyricSong": "You Better Think Twice",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 488,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-alittlemorelove",
+    "q": "Whose 1990s country single is “A Little More Love”?",
+    "choices": [
+      "Clint Black",
+      "George Ducas",
+      "Tracy Byrd",
+      "Vince Gill"
+    ],
+    "a": 3,
+    "lyric": "We need a little more love to get us through the night / Just a little more love",
+    "lyricSong": "A Little More Love",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 489,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ifyoueverhaveforeverinmind",
+    "q": "Which 90s country hit includes the line “You’re climbing mountains, I’m on a hill / You’re always running, I’m standing still”?",
+    "choices": [
+      "Pocket Full of Gold",
+      "When Love Finds You",
+      "Worlds Apart",
+      "If You Ever Have Forever in Mind"
+    ],
+    "a": 3,
+    "lyric": "If you ever have forever in mind / I’ll be here and easy to find",
+    "lyricSong": "If You Ever Have Forever in Mind",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 490,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-worldsapart",
+    "q": "Which artist had a 1990s country hit with “Worlds Apart”?",
+    "choices": [
+      "Chad Brock",
+      "Vince Gill",
+      "Bryan White",
+      "David Kersh"
+    ],
+    "a": 1,
+    "lyric": "Love is still the answer, it’s the only place to start / Why do you and me have to be worlds apart?",
+    "lyricSong": "Worlds Apart",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 491,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whenicallyourname",
+    "q": "Finish the lyric from Vince Gill’s “When I Call Your Name”: “Oh, the lonely sound of my voice callin’ / Is …”",
+    "choices": [
+      "breakin’ my heart in two",
+      "echoin’ down the hall",
+      "drivin’ me insane",
+      "all that still remains"
+    ],
+    "a": 2,
+    "lyric": "And just like rain, the tears keep fallin’ / But nobody answers when I call your name",
+    "lyricSong": "When I Call Your Name",
+    "lyricArtist": "Vince Gill"
+  },
+  {
+    "id": 492,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-walkon",
+    "q": "Who recorded the 90s country hit “Walk On”?",
+    "choices": [
+      "Reba McEntire",
+      "Shania Twain",
+      "Lorrie Morgan",
+      "Suzy Bogguss"
+    ],
+    "a": 0,
+    "lyric": "Walk on, walk on / Nothing ever stays wrong that long",
+    "lyricSong": "Walk On",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 493,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-formybrokenheart",
+    "q": "Finish the lyric from Reba McEntire’s “For My Broken Heart”: “Last night I prayed the Lord my soul to keep / Then I …”",
+    "choices": [
+      "prayed you’d come back to me",
+      "turned out the light",
+      "lay awake till dawn",
+      "cried myself to sleep"
+    ],
+    "a": 3,
+    "lyric": "Last night I prayed the Lord my soul to keep / Then I cried myself to sleep",
+    "lyricSong": "For My Broken Heart",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 494,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-shethinkshisnamewasjohn",
+    "q": "Who sings the 90s country favorite “She Thinks His Name Was John”?",
+    "choices": [
+      "Reba McEntire",
+      "Lorrie Morgan",
+      "LeAnn Rimes",
+      "Pam Tillis"
+    ],
+    "a": 0,
+    "lyric": "But too much wine and she left his bed at dawn / And she thinks his name was John",
+    "lyricSong": "She Thinks His Name Was John",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 495,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-theheartisalonelyhunter",
+    "q": "Whose 1990s country single is “The Heart Is a Lonely Hunter”?",
+    "choices": [
+      "Tanya Tucker",
+      "Reba McEntire",
+      "Terri Clark",
+      "Carlene Carter"
+    ],
+    "a": 1,
+    "lyric": "And the heart is a lonely hunter / With only one desire",
+    "lyricSong": "The Heart Is a Lonely Hunter",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 496,
+    "category": "NAME THAT SONG",
+    "topic": "hit-andstill",
+    "q": "Which 90s country hit includes the line “Thousands of people live in this town”?",
+    "choices": [
+      "And Still",
+      "The Heart Is a Lonely Hunter",
+      "Does He Love You",
+      "Till You Love Me"
+    ],
+    "a": 0,
+    "lyric": "And all I could feel was this aching in my heart / Saying I loved him still",
+    "lyricSong": "And Still",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 497,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-whatdoyousay",
+    "q": "In Reba’s “What Do You Say,” what does the young son ask his dad about outside an adult bookstore?",
+    "choices": [
+      "The covered windows",
+      "The neon sign",
+      "All those X’s",
+      "The flashing lights"
+    ],
+    "a": 2,
+    "lyric": "Stuck at a red light outside an adult bookstore / His son said, “Daddy, what are all those X’s for?",
+    "lyricSong": "What Do You Say",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 498,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-onehonestheart",
+    "q": "Who sings the 90s country favorite “One Honest Heart”?",
+    "choices": [
+      "LeAnn Rimes",
+      "Suzy Bogguss",
+      "Michelle Wright",
+      "Reba McEntire"
+    ],
+    "a": 3,
+    "lyric": "One honest heart that I can believe in / Two loving arms that will never let me go",
+    "lyricSong": "One Honest Heart",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 499,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-wrongnight",
+    "q": "Finish the lyric from Reba McEntire’s “Wrong Night”: “Suddenly I heard love songs …”",
+    "choices": [
+      "coming through the radio",
+      "playing real soft on the jukebox",
+      "drifting in from the dance floor",
+      "floating out across the bar"
+    ],
+    "a": 1,
+    "lyric": "Looks like I picked the wrong night not to fall in love with you",
+    "lyricSong": "Wrong Night",
+    "lyricArtist": "Reba McEntire"
+  },
+  {
+    "id": 500,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-whereveyoubeen",
+    "q": "In Kathy Mattea’s “Where’ve You Been,” how long does Claire say she has looked for Edwin?",
+    "choices": [
+      "Since the day we met",
+      "All my life",
+      "Forever and a day",
+      "A thousand years"
+    ],
+    "a": 2,
+    "lyric": "Where’ve you been? / I’ve looked for you forever and a day",
+    "lyricSong": "Where’ve You Been",
+    "lyricArtist": "Kathy Mattea"
+  },
+  {
+    "id": 501,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-shecamefromfortworth",
+    "q": "In Kathy Mattea’s “She Came from Fort Worth,” her dreams were bigger than what?",
+    "choices": [
+      "The open road",
+      "The Lone Star State",
+      "The Rocky Mountains",
+      "The Texas sky"
+    ],
+    "a": 3,
+    "lyric": "She came from Fort Worth, Fort Worth couldn’t hold her / Her dreams were bigger than the Texas sky",
+    "lyricSong": "She Came from Fort Worth",
+    "lyricArtist": "Kathy Mattea"
+  },
+  {
+    "id": 502,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-timepassesby",
+    "q": "Who sings the 90s country favorite “Time Passes By”?",
+    "choices": [
+      "Lee Ann Womack",
+      "Chely Wright",
+      "Mary Chapin Carpenter",
+      "Kathy Mattea"
+    ],
+    "a": 3,
+    "lyric": "Let’s do what we dare, do what we like / And love while we’re here before time passes by",
+    "lyricSong": "Time Passes By",
+    "lyricArtist": "Kathy Mattea"
+  },
+  {
+    "id": 503,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-lonesomestandardtime",
+    "q": "Finish the lyric from Kathy Mattea’s “Lonesome Standard Time”: “Do you swear a crying fiddle has …”",
+    "choices": [
+      "the sweetest sound on earth",
+      "the power to make you cry",
+      "a story all its own",
+      "a voice just like your own"
+    ],
+    "a": 0,
+    "lyric": "You don’t need a watch to tell you you’re on lonesome standard time",
+    "lyricSong": "Lonesome Standard Time",
+    "lyricArtist": "Kathy Mattea"
+  },
+  {
+    "id": 504,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-walkingawayawinner",
+    "q": "Finish the lyric from Kathy Mattea’s “Walking Away a Winner”: “With my pride intact and …”",
+    "choices": [
+      "my heart still whole",
+      "my bags all packed",
+      "my head held high",
+      "my vision back"
+    ],
+    "a": 3,
+    "lyric": "I’m walking away a winner / I’m walking away from a losing game",
+    "lyricSong": "Walking Away a Winner",
+    "lyricArtist": "Kathy Mattea"
+  },
+  {
+    "id": 505,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-clowninyourrodeo",
+    "q": "In Kathy Mattea’s “Clown in Your Rodeo,” besides the clown in your rodeo, what else won’t she be?",
+    "choices": [
+      "The bull in your ring",
+      "The prize at your fair",
+      "The queen of your ball",
+      "The freak in your fair"
+    ],
+    "a": 3,
+    "lyric": "I ain’t gonna be the clown in your rodeo / I ain’t gonna be the freak in your fair",
+    "lyricSong": "Clown in Your Rodeo",
+    "lyricArtist": "Kathy Mattea"
+  },
+  {
+    "id": 506,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-itakemychances",
+    "q": "Finish the lyric from Mary Chapin Carpenter’s “I Take My Chances”: “I take my chances / I don’t mind working …”",
+    "choices": [
+      "on a tightrope",
+      "without a net",
+      "all night long",
+      "the graveyard shift"
+    ],
+    "a": 1,
+    "lyric": "I take my chances / I take my chances every chance I get",
+    "lyricSong": "I Take My Chances",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 507,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thebug",
+    "q": "Finish the lyric from Mary Chapin Carpenter’s “The Bug”: “Sometimes you’re the Louisville Slugger, baby / Sometimes you’re …”",
+    "choices": [
+      "the ball",
+      "the glove",
+      "the bat",
+      "the catcher"
+    ],
+    "a": 0,
+    "lyric": "Sometimes you’re the windshield / Sometimes you’re the bug",
+    "lyricSong": "The Bug",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 508,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-goingouttonight",
+    "q": "Who recorded the 90s country hit “Going Out Tonight”?",
+    "choices": [
+      "Tanya Tucker",
+      "Kathy Mattea",
+      "Mary Chapin Carpenter",
+      "Lila McCann"
+    ],
+    "a": 2,
+    "lyric": "I’m going out tonight to find myself a friend",
+    "lyricSong": "Going Out Tonight",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 509,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-quittintime",
+    "q": "Who sings the 90s country favorite “Quittin’ Time”?",
+    "choices": [
+      "LeAnn Rimes",
+      "Lari White",
+      "Mary Chapin Carpenter",
+      "Reba McEntire"
+    ],
+    "a": 2,
+    "lyric": "And though we should be at an end / It’s so hard admittin’ when it’s quittin’ time",
+    "lyricSong": "Quittin’ Time",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 510,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-tenderwheniwanttobe",
+    "q": "Who sings the 90s country favorite “Tender When I Want to Be”?",
+    "choices": [
+      "Carlene Carter",
+      "Lari White",
+      "Kathy Mattea",
+      "Mary Chapin Carpenter"
+    ],
+    "a": 3,
+    "lyric": "You said everyone can be a rock and / Roll like a river too",
+    "lyricSong": "Tender When I Want to Be",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 511,
+    "category": "NAME THAT SONG",
+    "topic": "hit-letmeintoyourheart",
+    "q": "Which 90s country hit includes the line “You’re like a cool breeze to a hot spell”?",
+    "choices": [
+      "Passionate Kisses",
+      "Shut Up and Kiss Me",
+      "He Thinks He’ll Keep Her",
+      "Let Me into Your Heart"
+    ],
+    "a": 3,
+    "lyric": "I would not need even one more drop / If you’d just let me into your heart",
+    "lyricSong": "Let Me into Your Heart",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 512,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-almosthome",
+    "q": "Whose 1990s country single is “Almost Home”?",
+    "choices": [
+      "Chely Wright",
+      "Kathy Mattea",
+      "Mary Chapin Carpenter",
+      "Martina McBride"
+    ],
+    "a": 2,
+    "lyric": "I’m just resting in the arms of the great wide open / Gonna pull my soul in",
+    "lyricSong": "Almost Home",
+    "lyricArtist": "Mary Chapin Carpenter"
+  },
+  {
+    "id": 513,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-chains",
+    "q": "Finish the lyric from Patty Loveless’s “Chains”: “These love-taking, heartbreaking / Cold, hard, …”",
+    "choices": [
+      "heart-aching chains",
+      "never-ending chains",
+      "lonely-making chains",
+      "soul-shaking chains"
+    ],
+    "a": 2,
+    "lyric": "Chains, chains, shackles and chains / No matter what it takes, someday I’m gonna break these",
+    "lyricSong": "Chains",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 514,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-imthatkindofgirl",
+    "q": "In Patty Loveless’s “I’m That Kind of Girl,” she ain’t the girl next door, and she ain’t the woman in what color?",
+    "choices": [
+      "Red",
+      "Blue",
+      "White",
+      "Black"
+    ],
+    "a": 0,
+    "lyric": "I ain’t the woman in red, I ain’t the girl next door",
+    "lyricSong": "I’m That Kind of Girl",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 515,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-nothinbutthewheel",
+    "q": "Whose 1990s country single is “Nothin’ but the Wheel”?",
+    "choices": [
+      "Lila McCann",
+      "Pam Tillis",
+      "Patty Loveless",
+      "Mindy McCready"
+    ],
+    "a": 2,
+    "lyric": "Leaving all I know back there, rushing through the cold night air / And holding on to nothin’ but the wheel",
+    "lyricSong": "Nothin’ but the Wheel",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 516,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-youwill",
+    "q": "Who recorded the 90s country hit “You Will”?",
+    "choices": [
+      "Patty Loveless",
+      "Shania Twain",
+      "Tanya Tucker",
+      "Kathy Mattea"
+    ],
+    "a": 0,
+    "lyric": "When she lies, and she will / When all is said and done",
+    "lyricSong": "You Will",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 517,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-halfwaydown",
+    "q": "Which artist had a 1990s country hit with “Halfway Down”?",
+    "choices": [
+      "LeAnn Rimes",
+      "Tanya Tucker",
+      "Patty Loveless",
+      "Mindy McCready"
+    ],
+    "a": 2,
+    "lyric": "Halfway down, just a-gettin’ started / Yes, I’m beginnin’ on my journey now",
+    "lyricSong": "Halfway Down",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 518,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-hereiam",
+    "q": "In Patty Loveless’s “Here I Am,” where does she say she’s waiting for him?",
+    "choices": [
+      "On the back porch swing",
+      "Down at the station",
+      "At the bottom of your glass",
+      "At the end of the bar"
+    ],
+    "a": 2,
+    "lyric": "’Cause honey, I’m right there waitin’ on you / At the bottom of your glass",
+    "lyricSong": "Here I Am",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 519,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-shedrewabrokenheart",
+    "q": "In Patty Loveless’s “She Drew a Broken Heart,” what did she put inside the broken heart?",
+    "choices": [
+      "A goodbye note",
+      "Your name",
+      "Her wedding ring",
+      "Cupid’s arrow"
+    ],
+    "a": 1,
+    "lyric": "Torn right down the middle in a red jagged line / She drew a broken heart and put your name inside",
+    "lyricSong": "She Drew a Broken Heart",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 520,
+    "category": "NAME THAT SONG",
+    "topic": "hit-athousandtimesaday",
+    "q": "Which 90s country hit includes the line “I gave up cigarettes, I haven’t had to light one yet”?",
+    "choices": [
+      "Blame It on Your Heart",
+      "You Can Feel Bad",
+      "Lonely Too Long",
+      "A Thousand Times a Day"
+    ],
+    "a": 3,
+    "lyric": "Forgetting you is not that hard to do / I’ve done it a thousand times a day",
+    "lyricSong": "A Thousand Times a Day",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 521,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thetroublewiththetruth",
+    "q": "Who recorded the 90s country hit “The Trouble with the Truth”?",
+    "choices": [
+      "Patty Loveless",
+      "K.T. Oslin",
+      "Carlene Carter",
+      "Deana Carter"
+    ],
+    "a": 0,
+    "lyric": "Oh, the trouble with the truth / Is it’s always the same ol’ thing",
+    "lyricSong": "The Trouble with the Truth",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 522,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-tohaveyoubackagain",
+    "q": "Finish the lyric from Patty Loveless’s “To Have You Back Again”: “I’d stand in the rain, no place to hide / Drown in my shame, …”",
+    "choices": [
+      "swallow my pride",
+      "give up the fight",
+      "cry through the night",
+      "beg on my knees"
+    ],
+    "a": 0,
+    "lyric": "I’d stand in the rain, no place to hide / Drown in my shame, swallow my pride",
+    "lyricSong": "To Have You Back Again",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 523,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hurtmebadinarealgoodway",
+    "q": "Who recorded the 90s country hit “Hurt Me Bad (In a Real Good Way)”?",
+    "choices": [
+      "Suzy Bogguss",
+      "Mindy McCready",
+      "LeAnn Rimes",
+      "Patty Loveless"
+    ],
+    "a": 3,
+    "lyric": "I would’ve never found you if he had wanted to stay / Oh, he hurt me bad in a real good way",
+    "lyricSong": "Hurt Me Bad (In a Real Good Way)",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 524,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-jealousbone",
+    "q": "Which artist had a 1990s country hit with “Jealous Bone”?",
+    "choices": [
+      "Suzy Bogguss",
+      "Jo Dee Messina",
+      "Lee Ann Womack",
+      "Patty Loveless"
+    ],
+    "a": 3,
+    "lyric": "But oh, you make me lose control / I was born with a jealous bone",
+    "lyricSong": "Jealous Bone",
+    "lyricArtist": "Patty Loveless"
+  },
+  {
+    "id": 525,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-leavehimoutofthis",
+    "q": "Who recorded the 90s country hit “Leave Him Out of This”?",
+    "choices": [
+      "David Kersh",
+      "Paul Brandt",
+      "Steve Wariner",
+      "Jeff Carson"
+    ],
+    "a": 2,
+    "lyric": "Make love to me tonight and leave him out of this",
+    "lyricSong": "Leave Him Out of This",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 526,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thetipsofmyfingers",
+    "q": "Finish the lyric from Steve Wariner’s “The Tips of My Fingers”: “I held you right on the tips of my fingers / But I let you …”",
+    "choices": [
+      "slip right through my hands",
+      "fall right through the cracks",
+      "walk right out the door",
+      "go without a fight"
+    ],
+    "a": 0,
+    "lyric": "I held your love on the tips of my fingers / But that was as close as I came",
+    "lyricSong": "The Tips of My Fingers",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 527,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-awomanloves",
+    "q": "Finish the lyric from Steve Wariner’s “A Woman Loves”: “Her eyes refuse to see the danger / As she walks …”",
+    "choices": [
+      "into the night",
+      "down that lonely road",
+      "right through the fire",
+      "right out the door"
+    ],
+    "a": 2,
+    "lyric": "A woman loves beyond her questions / And dreams beyond her doubts",
+    "lyricSong": "A Woman Loves",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 528,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-likearivertothesea",
+    "q": "Who recorded the 90s country hit “Like a River to the Sea”?",
+    "choices": [
+      "Ty England",
+      "Steve Wariner",
+      "Collin Raye",
+      "Sammy Kershaw"
+    ],
+    "a": 1,
+    "lyric": "Just like a mighty river runs to the sea / My love for you keeps growing",
+    "lyricSong": "Like a River to the Sea",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 529,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-drive",
+    "q": "Whose 1990s country single is “Drive”?",
+    "choices": [
+      "John Berry",
+      "Steve Wariner",
+      "Radney Foster",
+      "Chad Brock"
+    ],
+    "a": 1,
+    "lyric": "I gotta drive, keep on rolling / I gotta cover some ground tonight",
+    "lyricSong": "Drive",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 530,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-holesinthefloorofheaven",
+    "q": "In Steve Wariner’s “Holes in the Floor of Heaven,” what is pouring down through the holes?",
+    "choices": [
+      "Rose petals",
+      "Her tears",
+      "Rays of sunlight",
+      "Grandma’s prayers"
+    ],
+    "a": 1,
+    "lyric": "’Cause there’s holes in the floor of heaven / And her tears are pourin’ down",
+    "lyricSong": "Holes in the Floor of Heaven",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 531,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-twoteardrops",
+    "q": "In Steve Wariner’s “Two Teardrops,” what is a little bit bigger tonight?",
+    "choices": [
+      "The world",
+      "The ocean",
+      "The moon",
+      "The river"
+    ],
+    "a": 1,
+    "lyric": "Oh, the ocean’s a little bit bigger tonight / Two more teardrops somebody cried",
+    "lyricSong": "Two Teardrops",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 532,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-imalreadytaken",
+    "q": "Finish the lyric from Steve Wariner’s “I’m Already Taken”: “I’m already taken, you spoke up too late / I love somebody else, so you’ll …”",
+    "choices": [
+      "just have to wait",
+      "just walk away",
+      "never be mine",
+      "have to move on"
+    ],
+    "a": 0,
+    "lyric": "I’m already taken, you spoke up too late / I love somebody else, so you’ll just have to wait",
+    "lyricSong": "I’m Already Taken",
+    "lyricArtist": "Steve Wariner"
+  },
+  {
+    "id": 533,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatifisaid",
+    "q": "Which artist had a 1990s country hit with “What If I Said”?",
+    "choices": [
+      "Tim McGraw & Faith Hill",
+      "Brooks & Dunn & Reba McEntire",
+      "Reba McEntire with Linda Davis",
+      "Anita Cochran with Steve Wariner"
+    ],
+    "a": 3,
+    "lyric": "What if I said that I love you / How would you feel, what would you think, what would we do?",
+    "lyricSong": "What If I Said",
+    "lyricArtist": "Anita Cochran with Steve Wariner"
+  },
+  {
+    "id": 534,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-walkingshoes",
+    "q": "Who sings the 90s country favorite “Walking Shoes”?",
+    "choices": [
+      "Trisha Yearwood",
+      "Lee Ann Womack",
+      "Tanya Tucker",
+      "Suzy Bogguss"
+    ],
+    "a": 2,
+    "lyric": "I’m gonna put on my walking shoes tonight / Well, I’m a-leavin’ here ’cause you don’t treat me right",
+    "lyricSong": "Walking Shoes",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 535,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-itwontbeme",
+    "q": "Who sings the 90s country favorite “It Won’t Be Me”?",
+    "choices": [
+      "Tanya Tucker",
+      "Terri Clark",
+      "Trisha Yearwood",
+      "Lila McCann"
+    ],
+    "a": 0,
+    "lyric": "Somebody oughta tell that girl she’s livin’ in a dreamer’s world",
+    "lyricSong": "It Won’t Be Me",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 536,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-downtomylastteardrop",
+    "q": "Finish the lyric from Tanya Tucker’s “Down to My Last Teardrop”: “I’ve been rearranging chairs …”",
+    "choices": [
+      "in a house that’s fallin’ down",
+      "on a sinkin’ ship tonight",
+      "on a ship that’s goin’ down",
+      "in a room with no one there"
+    ],
+    "a": 2,
+    "lyric": "Oh, but baby, I’m down to my last teardrop this time",
+    "lyricSong": "Down to My Last Teardrop",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 537,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-withoutyouwhatdoidowithme",
+    "q": "Which artist had a 1990s country hit with “(Without You) What Do I Do with Me”?",
+    "choices": [
+      "Tanya Tucker",
+      "Kathy Mattea",
+      "Carlene Carter",
+      "Deana Carter"
+    ],
+    "a": 0,
+    "lyric": "I’ve been asking myself, is this how it’s gonna be? / Without you, what do I do with me?",
+    "lyricSong": "(Without You) What Do I Do with Me",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 538,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-somekindoftrouble",
+    "q": "In Tanya Tucker’s “Some Kind of Trouble,” who knocks on her door late one night?",
+    "choices": [
+      "Her ex-husband",
+      "Her boss",
+      "The sheriff",
+      "Her landlord"
+    ],
+    "a": 3,
+    "lyric": "Late one night, I heard a knock on my door / To no surprise, it was my landlord",
+    "lyricSong": "Some Kind of Trouble",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 539,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ifyourheartaintbusytonight",
+    "q": "Finish the lyric from Tanya Tucker’s “If Your Heart Ain’t Busy Tonight”: “If your heart ain’t busy tonight / I could keep it …”",
+    "choices": [
+      "busy till the break of day",
+      "safe and warm until the dawn",
+      "company until the morning light",
+      "occupied for a long, long time"
+    ],
+    "a": 3,
+    "lyric": "If your heart ain’t busy tonight / Maybe it would like to get with mine",
+    "lyricSong": "If Your Heart Ain’t Busy Tonight",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 540,
+    "category": "NAME THAT SONG",
+    "topic": "hit-twosparrowsinahurricane",
+    "q": "Which 90s country hit includes the line “The world says they’ll never make it, love says they will”?",
+    "choices": [
+      "Soon",
+      "It’s a Little Too Late",
+      "Some Kind of Trouble",
+      "Two Sparrows in a Hurricane"
+    ],
+    "a": 3,
+    "lyric": "Like two sparrows in a hurricane / Trying to find their way",
+    "lyricSong": "Two Sparrows in a Hurricane",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 541,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-soon",
+    "q": "Whose 1990s country single is “Soon”?",
+    "choices": [
+      "Tanya Tucker",
+      "Pam Tillis",
+      "Lari White",
+      "Mary Chapin Carpenter"
+    ],
+    "a": 0,
+    "lyric": "She believed when she heard him say / Soon, I’ll be free to be with you",
+    "lyricSong": "Soon",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 542,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-wedonthavetodothis",
+    "q": "Finish the lyric from Tanya Tucker’s “We Don’t Have to Do This”: “We don’t have to do this / It’s not …”",
+    "choices": [
+      "written in the stars",
+      "carved in stone",
+      "too late to try",
+      "the only way"
+    ],
+    "a": 1,
+    "lyric": "We don’t have to do this / We don’t have to say goodbye",
+    "lyricSong": "We Don’t Have to Do This",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 543,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hanginin",
+    "q": "Who recorded the 90s country hit “Hangin’ In”?",
+    "choices": [
+      "Tanya Tucker",
+      "Lari White",
+      "Wynonna",
+      "Reba McEntire"
+    ],
+    "a": 0,
+    "lyric": "It’s lonely, but I’m hangin’ in / Hangin’ out till I’m with you again",
+    "lyricSong": "Hangin’ In",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 544,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-betweenthetwoofthem",
+    "q": "In Tanya Tucker’s “Between the Two of Them,” what does the narrator place between their names at the graveyard?",
+    "choices": [
+      "A letter",
+      "A photograph",
+      "A wedding ring",
+      "A rose"
+    ],
+    "a": 3,
+    "lyric": "Today I braved the graveyard rain / And placed a rose between their names",
+    "lyricSong": "Between the Two of Them",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 545,
+    "category": "NAME THAT SONG",
+    "topic": "hit-findoutwhatshappenin",
+    "q": "Which 90s country hit includes the line “Before I say farewell, I’ll give you just another day”?",
+    "choices": [
+      "Find Out What’s Happenin’",
+      "Hangin’ In",
+      "Some Kind of Trouble",
+      "Walking Shoes"
+    ],
+    "a": 0,
+    "lyric": "If you don’t find out what’s happenin’ / You’re gonna find out that I’m gone",
+    "lyricSong": "Find Out What’s Happenin’",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 546,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-littlethings",
+    "q": "Whose 1990s country single is “Little Things”?",
+    "choices": [
+      "Terri Clark",
+      "Tanya Tucker",
+      "LeAnn Rimes",
+      "Lee Ann Womack"
+    ],
+    "a": 1,
+    "lyric": "Rub my back, make me laugh / Hold me while I dream",
+    "lyricSong": "Little Things",
+    "lyricArtist": "Tanya Tucker"
+  },
+  {
+    "id": 547,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hetalkstome",
+    "q": "Who recorded the 90s country hit “He Talks to Me”?",
+    "choices": [
+      "Tanya Tucker",
+      "Lari White",
+      "Lorrie Morgan",
+      "Lee Ann Womack"
+    ],
+    "a": 2,
+    "lyric": "He talks to me / It does my heart good to hear him talk to me",
+    "lyricSong": "He Talks to Me",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 548,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-webothwalk",
+    "q": "Finish the lyric from Lorrie Morgan’s “We Both Walk”: “When you go, we both walk / You walk away and I …”",
+    "choices": [
+      "walk the floor",
+      "walk the line",
+      "cry some more",
+      "lock the door"
+    ],
+    "a": 0,
+    "lyric": "When you go, we both walk / You walk away and I walk the floor",
+    "lyricSong": "We Both Walk",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 549,
+    "category": "NAME THAT SONG",
+    "topic": "hit-somethinginred",
+    "q": "Which 90s country hit includes the line “Something real tiny, the baby’s brand new”?",
+    "choices": [
+      "What Part of No",
+      "Watch Me",
+      "Something in Red",
+      "Five Minutes"
+    ],
+    "a": 2,
+    "lyric": "I’m looking for something in red / Something that’s shocking to turn someone’s head",
+    "lyricSong": "Something in Red",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 550,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-iguessyouhadtobethere",
+    "q": "Who sings the 90s country favorite “I Guess You Had to Be There”?",
+    "choices": [
+      "Suzy Bogguss",
+      "Lorrie Morgan",
+      "Sara Evans",
+      "Tanya Tucker"
+    ],
+    "a": 1,
+    "lyric": "Well, I guess you had to be there / You really had to be there",
+    "lyricSong": "I Guess You Had to Be There",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 551,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-halfenough",
+    "q": "Finish the lyric from Lorrie Morgan’s “Half Enough”: “And I knew nothing I could say or do / Would come close to …”",
+    "choices": [
+      "showing you how much I care",
+      "the way you make me feel",
+      "what you’ve given me",
+      "thanking you for your love"
+    ],
+    "a": 3,
+    "lyric": "And I could try for the rest of my life / But that wouldn’t be half enough",
+    "lyricSong": "Half Enough",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 552,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-mynighttohowl",
+    "q": "Who sings the 90s country favorite “My Night to Howl”?",
+    "choices": [
+      "LeAnn Rimes",
+      "Martina McBride",
+      "Lorrie Morgan",
+      "Mary Chapin Carpenter"
+    ],
+    "a": 2,
+    "lyric": "I’m gonna dress up, gonna let my hair down / Like a wildcat on the prowl",
+    "lyricSong": "My Night to Howl",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 553,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-backinyourarmsagain",
+    "q": "Which artist had a 1990s country hit with “Back in Your Arms Again”?",
+    "choices": [
+      "Reba McEntire",
+      "Lorrie Morgan",
+      "Lee Ann Womack",
+      "Sara Evans"
+    ],
+    "a": 1,
+    "lyric": "Oh baby, if I could be back in your arms again",
+    "lyricSong": "Back in Your Arms Again",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 554,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-goaway",
+    "q": "Finish the lyric from Lorrie Morgan’s “Go Away”: “Go away, no, wait a minute …”",
+    "choices": [
+      "I think I’m gonna miss it",
+      "my heart just won’t admit it",
+      "I’m not sure I’m finished with it",
+      "I want out, then I want in it"
+    ],
+    "a": 3,
+    "lyric": "Go away, no, wait a minute / I want out, then I want in it",
+    "lyricSong": "Go Away",
+    "lyricArtist": "Lorrie Morgan"
+  },
+  {
+    "id": 555,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-somedaysoon",
+    "q": "Whose 1990s country single is “Someday Soon”?",
+    "choices": [
+      "Suzy Bogguss",
+      "Pam Tillis",
+      "Mary Chapin Carpenter",
+      "Faith Hill"
+    ],
+    "a": 0,
+    "lyric": "Someday soon, goin’ with him someday soon",
+    "lyricSong": "Someday Soon",
+    "lyricArtist": "Suzy Bogguss"
+  },
+  {
+    "id": 556,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-lettinggo",
+    "q": "In Suzy Bogguss’s “Letting Go,” how many years has the daughter had to get ready for leaving home?",
+    "choices": [
+      "Eighteen",
+      "Sixteen",
+      "Twenty-one",
+      "Seventeen"
+    ],
+    "a": 0,
+    "lyric": "She’s had eighteen years to get ready for this day / She should be past the tears",
+    "lyricSong": "Letting Go",
+    "lyricArtist": "Suzy Bogguss"
+  },
+  {
+    "id": 557,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-justliketheweather",
+    "q": "Finish the lyric from Suzy Bogguss’s “Just Like the Weather”: “You change just like the weather, but the weather, you know …”",
+    "choices": [
+      "comes and goes like you",
+      "will always change",
+      "can turn on a dime",
+      "won’t ever stay the same"
+    ],
+    "a": 1,
+    "lyric": "You change just like the weather / But the weather, you know, will always change",
+    "lyricSong": "Just Like the Weather",
+    "lyricArtist": "Suzy Bogguss"
+  },
+  {
+    "id": 558,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-likeweneverhadabrokenheart",
+    "q": "Whose 1990s country single is “Like We Never Had a Broken Heart”?",
+    "choices": [
+      "Lari White",
+      "Trisha Yearwood",
+      "Terri Clark",
+      "Patty Loveless"
+    ],
+    "a": 1,
+    "lyric": "Let’s make love tonight like we never had a broken heart",
+    "lyricSong": "Like We Never Had a Broken Heart",
+    "lyricArtist": "Trisha Yearwood"
+  },
+  {
+    "id": 559,
+    "category": "NAME THAT SONG",
+    "topic": "hit-thatswhatilikeaboutyou",
+    "q": "Which 90s country hit includes the line “I like a man who’s crazy about me, I like a man who can live without me too”?",
+    "choices": [
+      "That’s What I Like About You",
+      "Wrong Side of Memphis",
+      "The Woman Before Me",
+      "She’s in Love with the Boy"
+    ],
+    "a": 0,
+    "lyric": "I like a man who’s crazy about me / I like a man who can live without me too",
+    "lyricSong": "That’s What I Like About You",
+    "lyricArtist": "Trisha Yearwood"
+  },
+  {
+    "id": 560,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thewomanbeforeme",
+    "q": "Whose 1990s country single is “The Woman Before Me”?",
+    "choices": [
+      "Pam Tillis",
+      "Michelle Wright",
+      "Trisha Yearwood",
+      "Wynonna"
+    ],
+    "a": 2,
+    "lyric": "The woman before me must have been hard on you",
+    "lyricSong": "The Woman Before Me",
+    "lyricArtist": "Trisha Yearwood"
+  },
+  {
+    "id": 561,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-inanotherseyes",
+    "q": "Who recorded the 90s country hit “In Another’s Eyes”?",
+    "choices": [
+      "Trisha Yearwood & Garth Brooks",
+      "Travis Tritt & Marty Stuart",
+      "Steve Wariner with Garth Brooks",
+      "Reba McEntire with Linda Davis"
+    ],
+    "a": 0,
+    "lyric": "In another’s eyes I can do no wrong / He believes in me and his faith is strong",
+    "lyricSong": "In Another’s Eyes",
+    "lyricArtist": "Trisha Yearwood & Garth Brooks"
+  },
+  {
+    "id": 562,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-theregoesmybaby",
+    "q": "Finish the lyric from Trisha Yearwood’s “There Goes My Baby”: “There goes my baby, like the sun fallin’ …”",
+    "choices": [
+      "out of the clear blue sky",
+      "into the ocean wide",
+      "behind the mountainside",
+      "down on a summer night"
+    ],
+    "a": 0,
+    "lyric": "There goes my baby, like the sun fallin’ out of the clear blue sky",
+    "lyricSong": "There Goes My Baby",
+    "lyricArtist": "Trisha Yearwood"
+  },
+  {
+    "id": 563,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-powerfulthing",
+    "q": "In Trisha Yearwood’s “Powerful Thing,” love is “more than three words and” what?",
+    "choices": [
+      "A wedding band",
+      "A diamond ring",
+      "A golden chain",
+      "A dozen roses"
+    ],
+    "a": 1,
+    "lyric": "It’s a powerful thing / More than three words and a diamond ring",
+    "lyricSong": "Powerful Thing",
+    "lyricArtist": "Trisha Yearwood"
+  },
+  {
+    "id": 564,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whereyourroadleads",
+    "q": "Who recorded the 90s country hit “Where Your Road Leads”?",
+    "choices": [
+      "Tim McGraw & Faith Hill",
+      "Reba McEntire & Vince Gill",
+      "Trisha Yearwood & Garth Brooks",
+      "Reba McEntire with Linda Davis"
+    ],
+    "a": 2,
+    "lyric": "Where your road leads, I will follow / When your heart bleeds, I’ll be there for you",
+    "lyricSong": "Where Your Road Leads",
+    "lyricArtist": "Trisha Yearwood & Garth Brooks"
+  },
+  {
+    "id": 565,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-illstillloveyoumore",
+    "q": "Who recorded the 90s country hit “I’ll Still Love You More”?",
+    "choices": [
+      "Trisha Yearwood",
+      "Mary Chapin Carpenter",
+      "Chely Wright",
+      "Patty Loveless"
+    ],
+    "a": 0,
+    "lyric": "As much as you love me, baby, I’ll still love you more",
+    "lyricSong": "I’ll Still Love You More",
+    "lyricArtist": "Trisha Yearwood"
+  },
+  {
+    "id": 566,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-mystrongestweakness",
+    "q": "Finish the lyric from Wynonna’s “My Strongest Weakness”: “He was my strongest weakness …”",
+    "choices": [
+      "and I loved him all the same",
+      "I gave him all I had",
+      "I surrendered heart and soul",
+      "I never stood a chance"
+    ],
+    "a": 2,
+    "lyric": "He was my strongest weakness / I surrendered heart and soul",
+    "lyricSong": "My Strongest Weakness",
+    "lyricArtist": "Wynonna"
+  },
+  {
+    "id": 567,
+    "category": "NAME THAT SONG",
+    "topic": "hit-isitoveryet",
+    "q": "Which 90s country hit includes the line “A taxi’s waiting in the driveway for you”?",
+    "choices": [
+      "Is It Over Yet",
+      "Only Love",
+      "Tell Me Why",
+      "No One Else on Earth"
+    ],
+    "a": 0,
+    "lyric": "But I’m not up to being strong, so I’ll wait until you’re gone / Is it over yet?",
+    "lyricSong": "Is It Over Yet",
+    "lyricArtist": "Wynonna"
+  },
+  {
+    "id": 568,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-rockbottom",
+    "q": "Finish the lyric from Wynonna’s “Rock Bottom”: “I was born naked but I’m glory bound, and a dead end street …”",
+    "choices": [
+      "is no place to settle down",
+      "is where the lost are found",
+      "will never hold me down",
+      "is just a place to turn around"
+    ],
+    "a": 3,
+    "lyric": "I was born naked but I’m glory bound / And a dead end street is just a place to turn around",
+    "lyricSong": "Rock Bottom",
+    "lyricArtist": "Wynonna"
+  },
+  {
+    "id": 569,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-cantnobodyloveyoulikeido",
+    "q": "Who sings the 90s country favorite “Can’t Nobody Love You (Like I Do)”?",
+    "choices": [
+      "Trisha Yearwood",
+      "Reba McEntire",
+      "Lee Ann Womack",
+      "Wynonna"
+    ],
+    "a": 3,
+    "lyric": "Can’t nobody love you like I do / Can’t nobody hold you quite this close",
+    "lyricSong": "Can’t Nobody Love You (Like I Do)",
+    "lyricArtist": "Wynonna"
+  },
+  {
+    "id": 570,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whenlovestartstalkin",
+    "q": "Finish the lyric from Wynonna’s “When Love Starts Talkin’”: “When love starts talkin’, you got no choice …”",
+    "choices": [
+      "but to follow along",
+      "but to give it your heart",
+      "but to shut up and listen",
+      "but to let it lead you on"
+    ],
+    "a": 2,
+    "lyric": "When love starts talkin’, you got no choice but to shut up and listen",
+    "lyricSong": "When Love Starts Talkin’",
+    "lyricArtist": "Wynonna"
+  },
+  {
+    "id": 571,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-lovecanbuildabridge",
+    "q": "Finish the lyric from The Judds’s “Love Can Build a Bridge”: “Love can build a bridge between your heart and mine …”",
+    "choices": [
+      "so let’s take it one more time",
+      "and leave the past behind",
+      "don’t you think it’s time?",
+      "if we just cross that line"
+    ],
+    "a": 2,
+    "lyric": "Love can build a bridge between your heart and mine / Don’t you think it’s time?",
+    "lyricSong": "Love Can Build a Bridge",
+    "lyricArtist": "The Judds"
+  },
+  {
+    "id": 572,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-borntobeblue",
+    "q": "Whose 1990s country single is “Born to Be Blue”?",
+    "choices": [
+      "Ricochet",
+      "Confederate Railroad",
+      "The Judds",
+      "Brooks & Dunn"
+    ],
+    "a": 2,
+    "lyric": "Maybe it’s true, I was just born to be blue",
+    "lyricSong": "Born to Be Blue",
+    "lyricArtist": "The Judds"
+  },
+  {
+    "id": 573,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-dumaswalker",
+    "q": "In The Kentucky Headhunters’ “Dumas Walker,” what game is being played in the back of the store?",
+    "choices": [
+      "Dominoes",
+      "Marbles",
+      "Poker",
+      "Pool"
+    ],
+    "a": 1,
+    "lyric": "They’ll be shootin’ marbles in the back of the store",
+    "lyricSong": "Dumas Walker",
+    "lyricArtist": "The Kentucky Headhunters"
+  },
+  {
+    "id": 574,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-ohlonesomeme",
+    "q": "Which artist had a 1990s country hit with “Oh Lonesome Me”?",
+    "choices": [
+      "McBride & the Ride",
+      "Sawyer Brown",
+      "Shenandoah",
+      "The Kentucky Headhunters"
+    ],
+    "a": 3,
+    "lyric": "Everybody’s goin’ out and havin’ fun / I’m just a fool for stayin’ home and havin’ none",
+    "lyricSong": "Oh Lonesome Me",
+    "lyricArtist": "The Kentucky Headhunters"
+  },
+  {
+    "id": 575,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-jesusandmama",
+    "q": "Whose 1990s country single is “Jesus and Mama”?",
+    "choices": [
+      "Confederate Railroad",
+      "Lonestar",
+      "The Kentucky Headhunters",
+      "Brooks & Dunn"
+    ],
+    "a": 0,
+    "lyric": "But Jesus and Mama always loved me / Even when the Devil took control",
+    "lyricSong": "Jesus and Mama",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 576,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-queenofmemphis",
+    "q": "In Confederate Railroad’s “Queen of Memphis,” which Elvis song does the narrator hear?",
+    "choices": [
+      "Hound Dog",
+      "Blue Suede Shoes",
+      "Jailhouse Rock",
+      "Love Me Tender"
+    ],
+    "a": 1,
+    "lyric": "I saw stars dancing on the water / I heard Elvis singing Blue Suede Shoes",
+    "lyricSong": "Queen of Memphis",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 577,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-trashywomen",
+    "q": "In Confederate Railroad’s “Trashy Women,” the narrator’s prom date is a cocktail waitress in whose wig?",
+    "choices": [
+      "Tammy Wynette’s",
+      "Loretta Lynn’s",
+      "Dolly Parton’s",
+      "Reba McEntire’s"
+    ],
+    "a": 2,
+    "lyric": "That’s a cocktail waitress in a Dolly Parton wig",
+    "lyricSong": "Trashy Women",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 578,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whenyouleavethatwayyoucannevergoback",
+    "q": "Finish the lyric from Confederate Railroad’s “When You Leave That Way You Can Never Go Back”: “When you leave that way you can never go back …”",
+    "choices": [
+      "a train won’t run on a torn-up track",
+      "a river won’t run back up the hill",
+      "the road back home is a long dirt track",
+      "a bridge once burned won’t carry you back"
+    ],
+    "a": 0,
+    "lyric": "When you leave that way you can never go back / A train won’t run on a torn-up track",
+    "lyricSong": "When You Leave That Way You Can Never Go Back",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 579,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-daddyneverwasthecadillackind",
+    "q": "Which artist had a 1990s country hit with “Daddy Never Was the Cadillac Kind”?",
+    "choices": [
+      "Restless Heart",
+      "Shenandoah",
+      "Montgomery Gentry",
+      "Confederate Railroad"
+    ],
+    "a": 3,
+    "lyric": "Daddy never was the Cadillac kind / He said some things just glitter and shine",
+    "lyricSong": "Daddy Never Was the Cadillac Kind",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 580,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-elvisandandy",
+    "q": "In Confederate Railroad’s “Elvis and Andy,” she’s the number one fan of Graceland and which TV town?",
+    "choices": [
+      "Mayberry RFD",
+      "Green Acres",
+      "Petticoat Junction",
+      "Hooterville"
+    ],
+    "a": 0,
+    "lyric": "She’s the number one fan of both Graceland and Mayberry RFD",
+    "lyricSong": "Elvis and Andy",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 581,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-summerindixie",
+    "q": "Whose 1990s country single is “Summer in Dixie”?",
+    "choices": [
+      "Little Texas",
+      "Dixie Chicks",
+      "Restless Heart",
+      "Confederate Railroad"
+    ],
+    "a": 3,
+    "lyric": "Summer in Dixie, sure been cold",
+    "lyricSong": "Summer in Dixie",
+    "lyricArtist": "Confederate Railroad"
+  },
+  {
+    "id": 582,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-ifyouwantmeto",
+    "q": "Which artist had a 1990s country hit with “If You Want Me To”?",
+    "choices": [
+      "Joe Diffie",
+      "Tim McGraw",
+      "Dwight Yoakam",
+      "Bryan White"
+    ],
+    "a": 0,
+    "lyric": "There’s nothin’ I wouldn’t do if you want me to",
+    "lyricSong": "If You Want Me To",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 583,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ifthedevildancedinemptypockets",
+    "q": "Finish the lyric from Joe Diffie’s “If the Devil Danced (In Empty Pockets)”: “If the devil danced in empty pockets …”",
+    "choices": [
+      "he’d never leave my side",
+      "he’d be dancin’ all the time",
+      "he’d be a friend of mine",
+      "he’d have a ball in mine"
+    ],
+    "a": 3,
+    "lyric": "If the devil danced in empty pockets, he’d have a ball in mine",
+    "lyricSong": "If the Devil Danced (In Empty Pockets)",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 584,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-newwaytolightupanoldflame",
+    "q": "Who sings the 90s country favorite “New Way (To Light Up an Old Flame)”?",
+    "choices": [
+      "Tim McGraw",
+      "Lee Roy Parnell",
+      "Joe Diffie",
+      "George Jones"
+    ],
+    "a": 2,
+    "lyric": "I’m gonna find me a new way to light up an old flame",
+    "lyricSong": "New Way (To Light Up an Old Flame)",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 585,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-thatroadnottaken",
+    "q": "In Joe Diffie’s “That Road Not Taken,” what store was he driving to when he missed his exit?",
+    "choices": [
+      "Kmart",
+      "Sears",
+      "JCPenney",
+      "Walmart"
+    ],
+    "a": 1,
+    "lyric": "Yesterday I missed my exit on my way to Sears",
+    "lyricSong": "That Road Not Taken",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 586,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-country",
+    "q": "In Joe Diffie’s “C-O-U-N-T-R-Y,” what does he say he’s never hauled in the trunk of his car?",
+    "choices": [
+      "Firewood",
+      "Hay",
+      "A huntin’ dog",
+      "Feed sacks"
+    ],
+    "a": 1,
+    "lyric": "I ain’t never hauled hay in the trunk of my car / But I drunk a little shine from a mason jar",
+    "lyricSong": "C-O-U-N-T-R-Y",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 587,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-texassizeheartache",
+    "q": "In Joe Diffie’s “Texas Size Heartache,” where did she leave him?",
+    "choices": [
+      "El Paso",
+      "Amarillo",
+      "Abilene",
+      "Lubbock"
+    ],
+    "a": 1,
+    "lyric": "The night she left me in Amarillo, I cried crocodile tears in my pillow",
+    "lyricSong": "Texas Size Heartache",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 588,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-anighttoremember",
+    "q": "Finish the lyric from Joe Diffie’s “A Night to Remember”: “Dim the lights, lock the door …”",
+    "choices": [
+      "pour a drink and pace the floor",
+      "play our old song one time more",
+      "spread your pictures on the floor",
+      "turn the music up some more"
+    ],
+    "a": 2,
+    "lyric": "Dim the lights, lock the door, spread your pictures on the floor",
+    "lyricSong": "A Night to Remember",
+    "lyricArtist": "Joe Diffie"
+  },
+  {
+    "id": 589,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-todayslonelyfool",
+    "q": "Whose 1990s country single is “Today’s Lonely Fool”?",
+    "choices": [
+      "Doug Supernaw",
+      "Tracy Lawrence",
+      "Garth Brooks",
+      "Tim McGraw"
+    ],
+    "a": 1,
+    "lyric": "I’ll be living proof that yesterday’s jealous man is today’s lonely fool",
+    "lyricSong": "Today’s Lonely Fool",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 590,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-runninbehind",
+    "q": "In Tracy Lawrence’s “Runnin’ Behind,” he works a fifty-hour week for how many hours of pay?",
+    "choices": [
+      "Thirty-five",
+      "Forty",
+      "Forty-five",
+      "Thirty"
+    ],
+    "a": 1,
+    "lyric": "Work, work, work day after day / Fifty hour week, forty hour pay",
+    "lyricSong": "Runnin’ Behind",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 591,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-renegadesrebelsandrogues",
+    "q": "Which artist had a 1990s country hit with “Renegades, Rebels and Rogues”?",
+    "choices": [
+      "Kevin Sharp",
+      "Garth Brooks",
+      "Tracy Lawrence",
+      "Ken Mellons"
+    ],
+    "a": 2,
+    "lyric": "Renegades, rebels and rogues / Eyes of fire, hearts of gold",
+    "lyricSong": "Renegades, Rebels and Rogues",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 592,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-iseeitnow",
+    "q": "Finish the lyric from Tracy Lawrence’s “I See It Now”: “Oh, I never saw that look in your eyes, and I never had …”",
+    "choices": [
+      "you stay through the night",
+      "you love me so right",
+      "you smile so bright",
+      "you hold me that tight"
+    ],
+    "a": 3,
+    "lyric": "Oh, I never saw that look in your eyes / And I never had you hold me that tight",
+    "lyricSong": "I See It Now",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 593,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-asanyfoolcansee",
+    "q": "Who recorded the 90s country hit “As Any Fool Can See”?",
+    "choices": [
+      "Tracy Lawrence",
+      "Billy Dean",
+      "Collin Raye",
+      "David Lee Murphy"
+    ],
+    "a": 0,
+    "lyric": "She’s gonna cross that line, she’s got leavin’ on her mind",
+    "lyricSong": "As Any Fool Can See",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 594,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-ifyoulovedme",
+    "q": "Which artist had a 1990s country hit with “If You Loved Me”?",
+    "choices": [
+      "Steve Wariner",
+      "Clay Walker",
+      "Ty Herndon",
+      "Tracy Lawrence"
+    ],
+    "a": 3,
+    "lyric": "I swear I’ll never let forever end / If you loved me, if you loved me again",
+    "lyricSong": "If You Loved Me",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 595,
+    "category": "NAME THAT SONG",
+    "topic": "hit-isthatatear",
+    "q": "Which 90s country hit includes the line “But when I came home this evening, there it was on my machine”?",
+    "choices": [
+      "Is That a Tear",
+      "Better Man, Better Off",
+      "If You Loved Me",
+      "Alibis"
+    ],
+    "a": 0,
+    "lyric": "Something makes me wonder, is she happy with her choice / Or is that a tear I hear in her voice",
+    "lyricSong": "Is That a Tear",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 596,
+    "category": "NAME THAT SONG",
+    "topic": "hit-onestepaheadofthestorm",
+    "q": "Which 90s country hit includes the line “Broke down on the interstate just outside of Wichita”?",
+    "choices": [
+      "Can’t Break It to My Heart",
+      "One Step Ahead of the Storm",
+      "Time Marches On",
+      "Sticks and Stones"
+    ],
+    "a": 1,
+    "lyric": "But in the arms of love we stayed safe and warm / One step ahead of the storm",
+    "lyricSong": "One Step Ahead of the Storm",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 597,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-howacowgirlsaysgoodbye",
+    "q": "Which artist had a 1990s country hit with “How a Cowgirl Says Goodbye”?",
+    "choices": [
+      "Daryle Singletary",
+      "Rhett Akins",
+      "John Michael Montgomery",
+      "Tracy Lawrence"
+    ],
+    "a": 3,
+    "lyric": "She didn’t even stop to cry / That’s how a cowgirl says goodbye",
+    "lyricSong": "How a Cowgirl Says Goodbye",
+    "lyricArtist": "Tracy Lawrence"
+  },
+  {
+    "id": 598,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-blameitontexas",
+    "q": "Whose 1990s country single is “Blame It on Texas”?",
+    "choices": [
+      "Trace Adkins",
+      "Ty Herndon",
+      "Mark Chesnutt",
+      "Billy Dean"
+    ],
+    "a": 2,
+    "lyric": "Blame it on Texas, don’t blame it on me / I am what I am and that’s what I’m gonna be",
+    "lyricSong": "Blame It on Texas",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 599,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-yourloveisamiracle",
+    "q": "Finish the lyric from Mark Chesnutt’s “Your Love Is a Miracle”: “Your love is a miracle, it’s visible …”",
+    "choices": [
+      "shinin’ like a light all the time",
+      "even to a heart that’s blind like mine",
+      "in a world that’s cold and unkind",
+      "like a star in the dark night sky"
+    ],
+    "a": 1,
+    "lyric": "Your love is a miracle, it’s visible / Even to a heart that’s blind like mine",
+    "lyricSong": "Your Love Is a Miracle",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 600,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-illthinkofsomething",
+    "q": "Who sings the 90s country favorite “I’ll Think of Something”?",
+    "choices": [
+      "Collin Raye",
+      "Ty Herndon",
+      "Michael Peterson",
+      "Mark Chesnutt"
+    ],
+    "a": 3,
+    "lyric": "I don’t know how I’ll get her off my mind / But give me time and I’ll think of something",
+    "lyricSong": "I’ll Think of Something",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 601,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-olcountry",
+    "q": "Who sings the 90s country favorite “Ol’ Country”?",
+    "choices": [
+      "Mark Chesnutt",
+      "Ricky Van Shelton",
+      "Sammy Kershaw",
+      "Tracy Lawrence"
+    ],
+    "a": 0,
+    "lyric": "She’d never really been loved at all / Not until ol’ country came to town",
+    "lyricSong": "Ol’ Country",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 602,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-womansensuouswoman",
+    "q": "Who sings the 90s country favorite “Woman, Sensuous Woman”?",
+    "choices": [
+      "Toby Keith",
+      "George Jones",
+      "Mark Chesnutt",
+      "Keith Whitley"
+    ],
+    "a": 2,
+    "lyric": "Woman, sensuous woman / You control the world I’m living in",
+    "lyricSong": "Woman, Sensuous Woman",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 603,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-gonnagetalife",
+    "q": "Finish the lyric from Mark Chesnutt’s “Gonna Get a Life”: “I’m gonna get a life …”",
+    "choices": [
+      "and get you off my mind",
+      "and leave you far behind",
+      "and start my life anew",
+      "that’s what I’m gonna do"
+    ],
+    "a": 3,
+    "lyric": "I’m gonna get a life, that’s what I’m gonna do / So startin’ now you can find one too",
+    "lyricSong": "Gonna Get a Life",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 604,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-itwouldnthurttohavewings",
+    "q": "Who sings the 90s country favorite “It Wouldn’t Hurt to Have Wings”?",
+    "choices": [
+      "Lee Roy Parnell",
+      "Travis Tritt",
+      "Mark Chesnutt",
+      "Clay Walker"
+    ],
+    "a": 2,
+    "lyric": "But it wouldn’t hurt to have wings / To lift me above all the pain of the past",
+    "lyricSong": "It Wouldn’t Hurt to Have Wings",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 605,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-letitrain",
+    "q": "Who sings the 90s country favorite “Let It Rain”?",
+    "choices": [
+      "Mark Chesnutt",
+      "Paul Brandt",
+      "Keith Whitley",
+      "Kevin Sharp"
+    ],
+    "a": 0,
+    "lyric": "Let it rain / Let your love come down, all around, let it fill my heart",
+    "lyricSong": "Let It Rain",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 606,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-thankgodforbelievers",
+    "q": "In Mark Chesnutt’s “Thank God for Believers,” what does she do after wiping her tears away?",
+    "choices": [
+      "Calls her mother",
+      "Locks the door",
+      "Puts some coffee on",
+      "Packs her bags"
+    ],
+    "a": 2,
+    "lyric": "But she just wiped her tears away and put some coffee on",
+    "lyricSong": "Thank God for Believers",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 607,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-idontwanttomissathing",
+    "q": "Whose 1990s country single is “I Don’t Want to Miss a Thing”?",
+    "choices": [
+      "Ty England",
+      "Chris LeDoux",
+      "Keith Whitley",
+      "Mark Chesnutt"
+    ],
+    "a": 3,
+    "lyric": "I don’t wanna close my eyes, I don’t wanna fall asleep",
+    "lyricSong": "I Don’t Want to Miss a Thing",
+    "lyricArtist": "Mark Chesnutt"
+  },
+  {
+    "id": 608,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-dontgonearthewater",
+    "q": "Whose 1990s country single is “Don’t Go Near the Water”?",
+    "choices": [
+      "Chris LeDoux",
+      "Sammy Kershaw",
+      "Doug Stone",
+      "Clint Black"
+    ],
+    "a": 1,
+    "lyric": "I can still hear your mama calling, don’t go near the water",
+    "lyricSong": "Don’t Go Near the Water",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 609,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-yardsale",
+    "q": "In Sammy Kershaw’s “Yard Sale,” what does the real estate sign say?",
+    "choices": [
+      "Sold",
+      "For Sale",
+      "For Rent",
+      "Foreclosure"
+    ],
+    "a": 0,
+    "lyric": "Cardboard sign says yard sale, real estate sign says sold",
+    "lyricSong": "Yard Sale",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 610,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-anywherebuthere",
+    "q": "In Sammy Kershaw’s “Anywhere but Here,” what city does he hear is cold, but not colder than their bedroom?",
+    "choices": [
+      "Minneapolis",
+      "Saskatoon",
+      "Winnipeg",
+      "Anchorage"
+    ],
+    "a": 1,
+    "lyric": "Oh, I hear it’s cold up in Saskatoon / But it couldn’t be colder than our bedroom",
+    "lyricSong": "Anywhere but Here",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 611,
+    "category": "NAME THAT SONG",
+    "topic": "hit-icantreachheranymore",
+    "q": "Which 90s country hit includes the line “It ain’t long till I hear that old cold dial tone”?",
+    "choices": [
+      "I Can’t Reach Her Anymore",
+      "Queen of My Double Wide Trailer",
+      "National Working Woman’s Holiday",
+      "Third Rate Romance"
+    ],
+    "a": 0,
+    "lyric": "I still got her number but I can’t reach her anymore",
+    "lyricSong": "I Can’t Reach Her Anymore",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 612,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-yourtattoo",
+    "q": "In Sammy Kershaw’s “Your Tattoo,” what is the girl in the tattoo wearing besides her birthday suit?",
+    "choices": [
+      "A wedding veil",
+      "A grass skirt and a lei",
+      "A bikini and high heels",
+      "A cowboy hat and cowboy boots"
+    ],
+    "a": 3,
+    "lyric": "It’s just a picture of a girl in her birthday suit / With her cowboy hat and her cowboy boots",
+    "lyricSong": "Your Tattoo",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 613,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-loveofmylife",
+    "q": "Who recorded the 90s country hit “Love of My Life”?",
+    "choices": [
+      "Sammy Kershaw",
+      "Rick Trevino",
+      "Brad Paisley",
+      "Ty England"
+    ],
+    "a": 0,
+    "lyric": "You are the love of my life / And you are the reason I’m alive",
+    "lyricSong": "Love of My Life",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 614,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-matches",
+    "q": "In Sammy Kershaw’s “Matches,” where did the couple first meet?",
+    "choices": [
+      "Gilley’s",
+      "The Wagon Wheel",
+      "The Broken Spoke",
+      "The Silver Dollar"
+    ],
+    "a": 2,
+    "lyric": "We met at the Broken Spoke Restaurant and Lounge / I lit your cigarette, then you wrote your number down",
+    "lyricSong": "Matches",
+    "lyricArtist": "Sammy Kershaw"
+  },
+  {
+    "id": 615,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-youvegottostandforsomething",
+    "q": "Finish the lyric from Aaron Tippin’s “You’ve Got to Stand for Something”: “You’ve got to stand for something …”",
+    "choices": [
+      "and never let ’em see you bend",
+      "’cause that’s what makes a man",
+      "or you’ll fall for anything",
+      "or you’ll stand for nothin’ at all"
+    ],
+    "a": 2,
+    "lyric": "You’ve got to stand for something or you’ll fall for anything",
+    "lyricSong": "You’ve Got to Stand for Something",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 616,
+    "category": "NAME THAT SONG",
+    "topic": "hit-iwonderhowfaritisoveryou",
+    "q": "Which 90s country hit includes the line “I parked my car beside the highway and I didn’t lock the doors”?",
+    "choices": [
+      "There Ain’t Nothin’ Wrong with the Radio",
+      "My Blue Angel",
+      "You’ve Got to Stand for Something",
+      "I Wonder How Far It Is Over You"
+    ],
+    "a": 3,
+    "lyric": "I wonder just how far it is over you / Is there no place I go that you don’t come too",
+    "lyricSong": "I Wonder How Far It Is Over You",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 617,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-iwasbornwithabrokenheart",
+    "q": "Finish the lyric from Aaron Tippin’s “I Was Born with a Broken Heart”: “I was born with a broken heart …”",
+    "choices": [
+      "and a hard-luck lonesome start",
+      "born to lose right from the start",
+      "and I knew it from the start",
+      "torn and tattered from the start"
+    ],
+    "a": 1,
+    "lyric": "I was born with a broken heart / Born to lose right from the start",
+    "lyricSong": "I Was Born with a Broken Heart",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 618,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-igotithonest",
+    "q": "Whose 1990s country single is “I Got It Honest”?",
+    "choices": [
+      "George Jones",
+      "Aaron Tippin",
+      "Hal Ketchum",
+      "Lee Roy Parnell"
+    ],
+    "a": 1,
+    "lyric": "’Cause buddy if I didn’t earn it, I don’t want it / That way I can always say, I got it honest",
+    "lyricSong": "I Got It Honest",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 619,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-wholelottaloveontheline",
+    "q": "Which artist had a 1990s country hit with “Whole Lotta Love on the Line”?",
+    "choices": [
+      "Aaron Tippin",
+      "Mark Collie",
+      "Tracy Byrd",
+      "Kenny Chesney"
+    ],
+    "a": 0,
+    "lyric": "’Cause there’s a whole lotta love on the line / And all I need is a chance to change your mind",
+    "lyricSong": "Whole Lotta Love on the Line",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 620,
+    "category": "NAME THAT SONG",
+    "topic": "hit-everythingiown",
+    "q": "Which 90s country hit includes the line “I can’t shower you with pearls and diamond rings, all I can give are dances in the rain”?",
+    "choices": [
+      "Everything I Own",
+      "That’s as Close as I’ll Get to Loving You",
+      "My Kind of Town",
+      "Working Man’s Ph.D."
+    ],
+    "a": 0,
+    "lyric": "All I have is one true heart that beats for you and you alone / You can have everything I own",
+    "lyricSong": "Everything I Own",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 621,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-foryouiwill",
+    "q": "Finish the lyric from Aaron Tippin’s “For You I Will”: “And I don’t wish on falling stars or easily give away my heart …”",
+    "choices": [
+      "but I’d wish on one for you",
+      "but darlin’, you’re the one",
+      "but girl, for you I will",
+      "but girl, I’m falling still"
+    ],
+    "a": 2,
+    "lyric": "And I don’t wish on falling stars or easily give away my heart / But girl, for you I will",
+    "lyricSong": "For You I Will",
+    "lyricArtist": "Aaron Tippin"
+  },
+  {
+    "id": 622,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-driftofftodream",
+    "q": "In Travis Tritt’s “Drift Off to Dream,” where does he want to hold hands under the moon?",
+    "choices": [
+      "On the tailgate",
+      "In the hayloft",
+      "Down by the river",
+      "On the porch swing"
+    ],
+    "a": 3,
+    "lyric": "Let’s hold hands on the porch swing under the moon / While the wind through the willows plays us a tune",
+    "lyricSong": "Drift Off to Dream",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 623,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-nothingshortofdying",
+    "q": "Finish the lyric from Travis Tritt’s “Nothing Short of Dying”: “’Cause there ain’t nothin’ short of dyin’ …”",
+    "choices": [
+      "that hurts more than lovin’ you",
+      "that could make me let you go",
+      "that’s worse than bein’ left alone",
+      "that’s colder than an empty home"
+    ],
+    "a": 2,
+    "lyric": "’Cause there ain’t nothin’ short of dyin’ / That’s worse than bein’ left alone",
+    "lyricSong": "Nothing Short of Dying",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 624,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-lordhavemercyontheworkingman",
+    "q": "Finish the lyric from Travis Tritt’s “Lord Have Mercy on the Working Man”: “Why’s the rich man busy dancin’ …”",
+    "choices": [
+      "while the poor man takes the stand",
+      "while the poor man works the land",
+      "while the poor man pays the band",
+      "while the poor man walks the line"
+    ],
+    "a": 2,
+    "lyric": "Why’s the rich man busy dancin’ while the poor man pays the band",
+    "lyricSong": "Lord Have Mercy on the Working Man",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 625,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lookingoutfornumberone",
+    "q": "Who sings the 90s country favorite “Looking Out for Number One”?",
+    "choices": [
+      "Marty Stuart",
+      "Trace Adkins",
+      "Travis Tritt",
+      "Chris LeDoux"
+    ],
+    "a": 2,
+    "lyric": "So here’s a message you can give your mama / Starting now, I’m looking out for number one",
+    "lyricSong": "Looking Out for Number One",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 626,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-wortheverymile",
+    "q": "Who sings the 90s country favorite “Worth Every Mile”?",
+    "choices": [
+      "John Berry",
+      "Clay Walker",
+      "Ty England",
+      "Travis Tritt"
+    ],
+    "a": 3,
+    "lyric": "But just between you and me, darlin’, it was worth every mile",
+    "lyricSong": "Worth Every Mile",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 627,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-tenfeettallandbulletproof",
+    "q": "In Travis Tritt’s “Ten Feet Tall and Bulletproof,” what does he find his opponent is holding?",
+    "choices": [
+      "A pool cue",
+      "Brass knuckles",
+      "A broken bottle",
+      "Kryptonite"
+    ],
+    "a": 3,
+    "lyric": "Well, I start to feel like Superman, then I pick a fight / Only to find that my opponent’s holding kryptonite",
+    "lyricSong": "Ten Feet Tall and Bulletproof",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 628,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-sometimessheforgets",
+    "q": "Which artist had a 1990s country hit with “Sometimes She Forgets”?",
+    "choices": [
+      "Daryle Singletary",
+      "Travis Tritt",
+      "Kevin Sharp",
+      "Gary Allan"
+    ],
+    "a": 1,
+    "lyric": "That’s what she says, but sometimes she forgets",
+    "lyricSong": "Sometimes She Forgets",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 629,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-wherecorndontgrow",
+    "q": "Finish the lyric from Travis Tritt’s “Where Corn Don’t Grow”: “Hard times are real, there’s dusty fields …”",
+    "choices": [
+      "from here to Mexico",
+      "wherever the four winds blow",
+      "no matter where you go",
+      "all down that old dirt road"
+    ],
+    "a": 2,
+    "lyric": "Hard times are real, there’s dusty fields no matter where you go",
+    "lyricSong": "Where Corn Don’t Grow",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 630,
+    "category": "NAME THAT SONG",
+    "topic": "hit-putsomedriveinyourcountry",
+    "q": "Which 90s country hit includes the line “Damn, I miss Duane Allman, I wish he was still around”?",
+    "choices": [
+      "Anymore",
+      "Put Some Drive in Your Country",
+      "Help Me Hold On",
+      "I’m Gonna Be Somebody"
+    ],
+    "a": 1,
+    "lyric": "Yeah, put some drive in your country / Keep country drivin’ on",
+    "lyricSong": "Put Some Drive in Your Country",
+    "lyricArtist": "Travis Tritt"
+  },
+  {
+    "id": 631,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hillbillyrock",
+    "q": "Which artist had a 1990s country hit with “Hillbilly Rock”?",
+    "choices": [
+      "Andy Griggs",
+      "Vince Gill",
+      "Bryan White",
+      "Marty Stuart"
+    ],
+    "a": 3,
+    "lyric": "It’s the hillbilly rock, beat it with a drum / Playin’ them guitars like shootin’ from a gun",
+    "lyricSong": "Hillbilly Rock",
+    "lyricArtist": "Marty Stuart"
+  },
+  {
+    "id": 632,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-tempted",
+    "q": "Who sings the 90s country favorite “Tempted”?",
+    "choices": [
+      "John Michael Montgomery",
+      "Hal Ketchum",
+      "Ty Herndon",
+      "Marty Stuart"
+    ],
+    "a": 3,
+    "lyric": "There’s a girl trying to steal my heart and I’m tempted",
+    "lyricSong": "Tempted",
+    "lyricArtist": "Marty Stuart"
+  },
+  {
+    "id": 633,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-burnmedown",
+    "q": "Whose 1990s country single is “Burn Me Down”?",
+    "choices": [
+      "Collin Raye",
+      "Marty Stuart",
+      "Jeff Carson",
+      "George Strait"
+    ],
+    "a": 1,
+    "lyric": "Your kind of love could burn a town / Touch me, turn me on, and burn me down",
+    "lyricSong": "Burn Me Down",
+    "lyricArtist": "Marty Stuart"
+  },
+  {
+    "id": 634,
+    "category": "NAME THAT SONG",
+    "topic": "hit-thisonesgonnahurtyouforalonglongtime",
+    "q": "Which 90s country hit includes the line “Baby, close that suitcase, let’s turn this thing around”?",
+    "choices": [
+      "The Whiskey Ain’t Workin’",
+      "Tempted",
+      "This One’s Gonna Hurt You (For a Long, Long Time)",
+      "Burn Me Down"
+    ],
+    "a": 2,
+    "lyric": "Oh, this one’s gonna hurt you for a long, long time",
+    "lyricSong": "This One’s Gonna Hurt You (For a Long, Long Time)",
+    "lyricArtist": "Marty Stuart & Travis Tritt"
+  },
+  {
+    "id": 635,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-nothingsnews",
+    "q": "In Clint Black’s “Nothing’s News,” whose icehouse does he head to when the whistle blows at five?",
+    "choices": [
+      "Gilley’s",
+      "Billy Bob’s",
+      "Floore’s",
+      "Ernie’s"
+    ],
+    "a": 3,
+    "lyric": "Down at Ernie’s icehouse liftin’ longnecks to that good old country sound",
+    "lyricSong": "Nothing’s News",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 636,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lovingblind",
+    "q": "Who recorded the 90s country hit “Loving Blind”?",
+    "choices": [
+      "Ricky Van Shelton",
+      "Doug Supernaw",
+      "Clint Black",
+      "Vince Gill"
+    ],
+    "a": 2,
+    "lyric": "And I’ve been loving blind / Loving every heart I could call mine",
+    "lyricSong": "Loving Blind",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 637,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-burnonedown",
+    "q": "Which artist had a 1990s country hit with “Burn One Down”?",
+    "choices": [
+      "Gary Allan",
+      "Clint Black",
+      "John Anderson",
+      "Michael Peterson"
+    ],
+    "a": 1,
+    "lyric": "When you find another friend who’ll light your candle up again / You can burn one down for me",
+    "lyricSong": "Burn One Down",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 638,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-abadgoodbye",
+    "q": "Who sings the 90s country favorite “A Bad Goodbye”?",
+    "choices": [
+      "Clint Black with Wynonna",
+      "Anita Cochran with Steve Wariner",
+      "Reba McEntire & Vince Gill",
+      "Marty Stuart & Travis Tritt"
+    ],
+    "a": 0,
+    "lyric": "Goodbye, easier said than done / Goodbye, there’s no good when you’re the one",
+    "lyricSong": "A Bad Goodbye",
+    "lyricArtist": "Clint Black with Wynonna"
+  },
+  {
+    "id": 639,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-notimetokill",
+    "q": "Finish the lyric from Clint Black’s “No Time to Kill”: “There’s no time to kill …”",
+    "choices": [
+      "when you’re livin’ on the run",
+      "while you’re waitin’ on the train",
+      "between the cradle and the grave",
+      "on the road to yesterday"
+    ],
+    "a": 2,
+    "lyric": "There’s no time to kill between the cradle and the grave",
+    "lyricSong": "No Time to Kill",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 640,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-untanglinmymind",
+    "q": "Finish the lyric from Clint Black’s “Untanglin’ My Mind”: “Tell ’em I won’t be ridin’, I’ll be walkin’, ’cause I don’t think …”",
+    "choices": [
+      "a crazy man should drive",
+      "I could stand to be inside",
+      "that old truck will make the drive",
+      "I’d make it there alive"
+    ],
+    "a": 0,
+    "lyric": "Tell ’em I won’t be ridin’, I’ll be walkin’ / ’Cause I don’t think a crazy man should drive",
+    "lyricSong": "Untanglin’ My Mind",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 641,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-oneemotion",
+    "q": "Whose 1990s country single is “One Emotion”?",
+    "choices": [
+      "Lee Roy Parnell",
+      "Paul Brandt",
+      "Michael Peterson",
+      "Clint Black"
+    ],
+    "a": 3,
+    "lyric": "One emotion wrapped around me / One emotion I can hold on to",
+    "lyricSong": "One Emotion",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 642,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whereveryougo",
+    "q": "Finish the lyric from Clint Black’s “Wherever You Go”: “Wherever you go, there you are, you can run from yourself …”",
+    "choices": [
+      "but you won’t get far",
+      "but you can’t outrun your heart",
+      "but you can’t hide the scars",
+      "but it’s a long way to the stars"
+    ],
+    "a": 0,
+    "lyric": "Wherever you go, there you are / You can run from yourself but you won’t get far",
+    "lyricSong": "Wherever You Go",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 643,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-lifegetsaway",
+    "q": "Finish the lyric from Clint Black’s “Life Gets Away”: “No matter how hard we try …”",
+    "choices": [
+      "we’ll never have it all",
+      "the years just slip away",
+      "we can’t turn back the clock at all",
+      "life gets away from us all"
+    ],
+    "a": 3,
+    "lyric": "No matter how hard we try / Life gets away from us all",
+    "lyricSong": "Life Gets Away",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 644,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-halfwayup",
+    "q": "Finish the lyric from Clint Black’s “Half Way Up”: “One man’s half way up …”",
+    "choices": [
+      "is just another way around",
+      "is another man’s solid ground",
+      "is another man’s lost and found",
+      "is another man’s half way down"
+    ],
+    "a": 3,
+    "lyric": "Two ways you can go, you can ask anybody around / One man’s half way up is another man’s half way down",
+    "lyricSong": "Half Way Up",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 645,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-theshoesyourewearing",
+    "q": "Who recorded the 90s country hit “The Shoes You’re Wearing”?",
+    "choices": [
+      "Neal McCoy",
+      "Toby Keith",
+      "Ty Herndon",
+      "Clint Black"
+    ],
+    "a": 3,
+    "lyric": "No matter what kind of shoes he’s wearing / The shoes he’s wearing, they don’t make the man",
+    "lyricSong": "The Shoes You’re Wearing",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 646,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-youdontneedmenow",
+    "q": "Whose 1990s country single is “You Don’t Need Me Now”?",
+    "choices": [
+      "Clint Black",
+      "Collin Raye",
+      "Billy Dean",
+      "Billy Ray Cyrus"
+    ],
+    "a": 0,
+    "lyric": "Someday I’ll need you the way you don’t need me now",
+    "lyricSong": "You Don’t Need Me Now",
+    "lyricArtist": "Clint Black"
+  },
+  {
+    "id": 647,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-fourteenminutesold",
+    "q": "Which artist had a 1990s country hit with “Fourteen Minutes Old”?",
+    "choices": [
+      "Rhett Akins",
+      "Tracy Lawrence",
+      "Doug Stone",
+      "Travis Tritt"
+    ],
+    "a": 2,
+    "lyric": "There’s still some coffee in her cup, and it’s not even cold / And her memory’s only fourteen minutes old",
+    "lyricSong": "Fourteen Minutes Old",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 648,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-theselipsdontknowhowtosaygoodbye",
+    "q": "Whose 1990s country single is “These Lips Don’t Know How to Say Goodbye”?",
+    "choices": [
+      "George Ducas",
+      "Travis Tritt",
+      "Radney Foster",
+      "Doug Stone"
+    ],
+    "a": 3,
+    "lyric": "For these lips don’t know how to say goodbye / And my heart doesn’t even wanna try",
+    "lyricSong": "These Lips Don’t Know How to Say Goodbye",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 649,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-comeinoutofthepain",
+    "q": "In Doug Stone’s “Come In Out of the Pain,” the other man has been gone for days. How long has the narrator loved her?",
+    "choices": [
+      "For years",
+      "For weeks",
+      "For months",
+      "Since high school"
+    ],
+    "a": 0,
+    "lyric": "Come in out of the pain, let me dry your tears / He’s been gone for days and I’ve loved you for years",
+    "lyricSong": "Come In Out of the Pain",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 650,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-warninglabels",
+    "q": "In Doug Stone’s “Warning Labels,” which two singers are hardest on his heart?",
+    "choices": [
+      "Hank and Lefty",
+      "Willie and Waylon",
+      "Haggard and Jones",
+      "Cash and Twitty"
+    ],
+    "a": 2,
+    "lyric": "There’s nothing harder on my heart than ol’ Haggard and Jones",
+    "lyricSong": "Warning Labels",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 651,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ineverknewlove",
+    "q": "Which 90s country hit includes the line “’Til I pulled into that old dirt drive after bein’ gone too long”?",
+    "choices": [
+      "In a Different Light",
+      "I Never Knew Love",
+      "Fourteen Minutes Old",
+      "Too Busy Being in Love"
+    ],
+    "a": 1,
+    "lyric": "I never knew love, no, I mean real love",
+    "lyricSong": "I Never Knew Love",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 652,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-addictedtoadollar",
+    "q": "Finish the lyric from Doug Stone’s “Addicted to a Dollar”: “I’m addicted to a dollar …”",
+    "choices": [
+      "that I can’t hold on to",
+      "that ain’t worth a dime",
+      "that was never mine",
+      "and I can’t get enough"
+    ],
+    "a": 1,
+    "lyric": "I’m addicted to a dollar that ain’t worth a dime",
+    "lyricSong": "Addicted to a Dollar",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 653,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-littlehouses",
+    "q": "In Doug Stone’s “Little Houses,” what are the newlyweds’ names?",
+    "choices": [
+      "Tom and Mary",
+      "Joe and Kate",
+      "Jim and Ann",
+      "Bill and Sue"
+    ],
+    "a": 3,
+    "lyric": "Became a home for Bill and Sue / Two newlyweds who did the best that they could do",
+    "lyricSong": "Little Houses",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 654,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-faithinmefaithinyou",
+    "q": "In Doug Stone’s “Faith in Me, Faith in You,” where does the mother drop her kids off on her way to work?",
+    "choices": [
+      "At church",
+      "At the daycare",
+      "At school",
+      "At Grandma’s house"
+    ],
+    "a": 2,
+    "lyric": "And on her way to work, she drops ’em off at school / And tells them, faith in me, faith in you",
+    "lyricSong": "Faith in Me, Faith in You",
+    "lyricArtist": "Doug Stone"
+  },
+  {
+    "id": 655,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-allicanbeisasweetmemory",
+    "q": "Whose 1990s country single is “All I Can Be (Is a Sweet Memory)”?",
+    "choices": [
+      "Alan Jackson",
+      "Lee Roy Parnell",
+      "Collin Raye",
+      "Daryle Singletary"
+    ],
+    "a": 2,
+    "lyric": "All I can be is a sweet memory",
+    "lyricSong": "All I Can Be (Is a Sweet Memory)",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 656,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-everysecond",
+    "q": "Finish the lyric from Collin Raye’s “Every Second”: “’Cause every second you’re not here with me …”",
+    "choices": [
+      "my heart breaks in two",
+      "I count the days",
+      "I think of you",
+      "I’m missing you"
+    ],
+    "a": 2,
+    "lyric": "’Cause every second you’re not here with me I think of you",
+    "lyricSong": "Every Second",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 657,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-iwantyoubadandthataintgood",
+    "q": "Whose 1990s country single is “I Want You Bad (And That Ain’t Good)”?",
+    "choices": [
+      "Gary Allan",
+      "Doug Stone",
+      "Hal Ketchum",
+      "Collin Raye"
+    ],
+    "a": 3,
+    "lyric": "Darlin’ if I could / But I want you bad and that ain’t good",
+    "lyricSong": "I Want You Bad (And That Ain’t Good)",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 658,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thatwasariver",
+    "q": "Finish the lyric from Collin Raye’s “That Was a River”: “That was a river, …”",
+    "choices": [
+      "this is the ocean",
+      "this is a storm",
+      "this is the rain",
+      "this is a stream"
+    ],
+    "a": 0,
+    "lyric": "That was a river, this is the ocean",
+    "lyricSong": "That Was a River",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 659,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-manofmyword",
+    "q": "Who recorded the 90s country hit “Man of My Word”?",
+    "choices": [
+      "Rhett Akins",
+      "Toby Keith",
+      "Billy Ray Cyrus",
+      "Collin Raye"
+    ],
+    "a": 3,
+    "lyric": "I’m a man of my word / I mean what I say",
+    "lyricSong": "Man of My Word",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 660,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatifjesuscomesbacklikethat",
+    "q": "Who recorded the 90s country hit “What If Jesus Comes Back Like That”?",
+    "choices": [
+      "Kenny Chesney",
+      "Randy Travis",
+      "Collin Raye",
+      "Wade Hayes"
+    ],
+    "a": 2,
+    "lyric": "Hey, what if Jesus comes back like that",
+    "lyricSong": "What If Jesus Comes Back Like That",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 661,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-someoneyouusedtoknow",
+    "q": "Whose 1990s country single is “Someone You Used to Know”?",
+    "choices": [
+      "Toby Keith",
+      "Ty Herndon",
+      "Doug Supernaw",
+      "Collin Raye"
+    ],
+    "a": 3,
+    "lyric": "’Cause I still need you so / But to you I’m just someone you used to know",
+    "lyricSong": "Someone You Used to Know",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 662,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-anyoneelse",
+    "q": "Who sings the 90s country favorite “Anyone Else”?",
+    "choices": [
+      "Brad Paisley",
+      "Ricky Van Shelton",
+      "Aaron Tippin",
+      "Collin Raye"
+    ],
+    "a": 3,
+    "lyric": "When anyone else would’ve been long gone / Packed it up and headed back home",
+    "lyricSong": "Anyone Else",
+    "lyricArtist": "Collin Raye"
+  },
+  {
+    "id": 663,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-mirrormirror",
+    "q": "Finish the lyric from Diamond Rio’s “Mirror, Mirror”: “Mirror, mirror, on my wall / Tell me, who is …”",
+    "choices": [
+      "the loneliest fool of them all",
+      "the saddest heart of them all",
+      "the fairest one of them all",
+      "the biggest fool in this town"
+    ],
+    "a": 0,
+    "lyric": "Mirror, mirror, on my wall / Tell me, who is the loneliest fool of them all",
+    "lyricSong": "Mirror, Mirror",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 664,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-mamadontforgettoprayforme",
+    "q": "Finish the lyric from Diamond Rio’s “Mama Don’t Forget to Pray for Me”: “Sometimes I think the devil …”",
+    "choices": [
+      "has got me by the sleeve",
+      "is riding on my back",
+      "has got me on the run",
+      "is knocking at my door"
+    ],
+    "a": 0,
+    "lyric": "Sometimes I think the devil has got me by the sleeve / Oh, Mama, don’t forget to pray for me",
+    "lyricSong": "Mama Don’t Forget to Pray for Me",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 665,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ohmeohmysweetbaby",
+    "q": "Finish the lyric from Diamond Rio’s “Oh Me, Oh My, Sweet Baby”: “Oh me, oh my, sweet baby …”",
+    "choices": [
+      "where’d you go",
+      "made me cry",
+      "came home tonight",
+      "said goodbye"
+    ],
+    "a": 3,
+    "lyric": "Oh me, oh my, sweet baby said goodbye",
+    "lyricSong": "Oh Me, Oh My, Sweet Baby",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 666,
+    "category": "NAME THAT SONG",
+    "topic": "hit-nightisfallininmyheart",
+    "q": "Which 90s country hit includes the line “You see, she used to be my sunshine”?",
+    "choices": [
+      "Night Is Fallin’ in My Heart",
+      "Love a Little Stronger",
+      "Oh Me, Oh My, Sweet Baby",
+      "Mirror, Mirror"
+    ],
+    "a": 0,
+    "lyric": "Now we’re far apart / Night is fallin’ in my heart",
+    "lyricSong": "Night Is Fallin’ in My Heart",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 667,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-bubbahyde",
+    "q": "In Diamond Rio’s “Bubba Hyde,” what is the man called before he transforms into Bubba Hyde?",
+    "choices": [
+      "Bernie Jekyll",
+      "Billy Jekyll",
+      "Barney Fife",
+      "Barney Jekyll"
+    ],
+    "a": 3,
+    "lyric": "You ought to see him metamorphosize / From Barney Jekyll into Bubba Hyde",
+    "lyricSong": "Bubba Hyde",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 668,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thatswhatigetforlovinyou",
+    "q": "Which artist had a 1990s country hit with “That’s What I Get for Lovin’ You”?",
+    "choices": [
+      "Dixie Chicks",
+      "Pirates of the Mississippi",
+      "Diamond Rio",
+      "Sons of the Desert"
+    ],
+    "a": 2,
+    "lyric": "That’s what I get for lovin’ you / Heaven’s right here in my hands",
+    "lyricSong": "That’s What I Get for Lovin’ You",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 669,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-imaginethat",
+    "q": "Which artist had a 1990s country hit with “Imagine That”?",
+    "choices": [
+      "Diamond Rio",
+      "Confederate Railroad",
+      "Pirates of the Mississippi",
+      "Alabama"
+    ],
+    "a": 0,
+    "lyric": "Imagine that / A love that lasts forever",
+    "lyricSong": "Imagine That",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 670,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-howyourlovemakesmefeel",
+    "q": "In Diamond Rio’s “How Your Love Makes Me Feel,” what do they buy to see how far they can drive before it melts?",
+    "choices": [
+      "A popsicle",
+      "An ice cream",
+      "A snow cone",
+      "A milkshake"
+    ],
+    "a": 1,
+    "lyric": "Buy an ice cream and see how far / We can drive before it melts kinda feelin’",
+    "lyricSong": "How Your Love Makes Me Feel",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 671,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-holdin",
+    "q": "Whose 1990s country single is “Holdin’”?",
+    "choices": [
+      "Restless Heart",
+      "The Kinleys",
+      "Diamond Rio",
+      "Sons of the Desert"
+    ],
+    "a": 2,
+    "lyric": "They’re holdin’, dreamin’, goin’, knowin’, believin’ / Nothing matters like this love they’re holdin’",
+    "lyricSong": "Holdin’",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 672,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-youregone",
+    "q": "Which artist had a 1990s country hit with “You’re Gone”?",
+    "choices": [
+      "Diamond Rio",
+      "Ricochet",
+      "Sawyer Brown",
+      "Alison Krauss & Union Station"
+    ],
+    "a": 0,
+    "lyric": "And the good news is I’m better for the time we spent together / And the bad news is you’re gone",
+    "lyricSong": "You’re Gone",
+    "lyricArtist": "Diamond Rio"
+  },
+  {
+    "id": 673,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-mynextbrokenheart",
+    "q": "Who recorded the 90s country hit “My Next Broken Heart”?",
+    "choices": [
+      "Brooks & Dunn",
+      "Sawyer Brown",
+      "Little Texas",
+      "Pirates of the Mississippi"
+    ],
+    "a": 0,
+    "lyric": "I’m headed down that road again / I’m working on my next broken heart",
+    "lyricSong": "My Next Broken Heart",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 674,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-wellburnthatbridge",
+    "q": "Finish the lyric from Brooks & Dunn’s “We’ll Burn That Bridge”: “We’ll burn that bridge …”",
+    "choices": [
+      "when we get there",
+      "if we ever get there",
+      "once we cross it",
+      "before we get there"
+    ],
+    "a": 0,
+    "lyric": "And you think you still care / We’ll burn that bridge when we get there",
+    "lyricSong": "We’ll Burn That Bridge",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 675,
+    "category": "NAME THAT SONG",
+    "topic": "hit-shesnotthecheatinkind",
+    "q": "Which 90s country hit includes the line “She’s been cheated one too many times”?",
+    "choices": [
+      "Little Miss Honky Tonk",
+      "We’ll Burn That Bridge",
+      "Neon Moon",
+      "She’s Not the Cheatin’ Kind"
+    ],
+    "a": 3,
+    "lyric": "She’s not the cheatin’ kind / She’s been cheated one too many times",
+    "lyricSong": "She’s Not the Cheatin’ Kind",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 676,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-illneverforgivemyheart",
+    "q": "Which artist had a 1990s country hit with “I’ll Never Forgive My Heart”?",
+    "choices": [
+      "Brooks & Dunn",
+      "Sons of the Desert",
+      "The Kentucky Headhunters",
+      "The Judds"
+    ],
+    "a": 0,
+    "lyric": "I can’t blame love, but I’ll never forgive my heart",
+    "lyricSong": "I’ll Never Forgive My Heart",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 677,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whiskeyunderthebridge",
+    "q": "Who sings the 90s country favorite “Whiskey Under the Bridge”?",
+    "choices": [
+      "The Kentucky Headhunters",
+      "Brooks & Dunn",
+      "The Judds",
+      "Ricochet"
+    ],
+    "a": 1,
+    "lyric": "Ain’t no big deal / It’s just whiskey under the bridge",
+    "lyricSong": "Whiskey Under the Bridge",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 678,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-iamthatman",
+    "q": "Finish the lyric from Brooks & Dunn’s “I Am That Man”: “I am that man you’re trying to find / I am that man …”",
+    "choices": [
+      "you’ll never find",
+      "you left behind",
+      "you had in mind",
+      "who lost his mind"
+    ],
+    "a": 2,
+    "lyric": "I am that man you’re trying to find / I am that man you had in mind",
+    "lyricSong": "I Am That Man",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 679,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hesgotyou",
+    "q": "Whose 1990s country single is “He’s Got You”?",
+    "choices": [
+      "Dixie Chicks",
+      "Lonestar",
+      "Brooks & Dunn",
+      "Diamond Rio"
+    ],
+    "a": 2,
+    "lyric": "The one thing I thought I’d never lose / He’s got you",
+    "lyricSong": "He’s Got You",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 680,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-missingyou",
+    "q": "Whose 1990s country single is “Missing You”?",
+    "choices": [
+      "Confederate Railroad",
+      "BlackHawk",
+      "Montgomery Gentry",
+      "Brooks & Dunn"
+    ],
+    "a": 3,
+    "lyric": "I ain’t missing you / No matter what I might say",
+    "lyricSong": "Missing You",
+    "lyricArtist": "Brooks & Dunn"
+  },
+  {
+    "id": 681,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-wanted",
+    "q": "In Alan Jackson’s “Wanted,” what kind of woman is his ad looking for?",
+    "choices": [
+      "One true-blue woman",
+      "One good-hearted woman",
+      "One hard-working woman",
+      "One honky-tonk woman"
+    ],
+    "a": 1,
+    "lyric": "Wanted: one good-hearted woman / To forgive imperfections in the man that she loves",
+    "lyricSong": "Wanted",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 682,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-idloveyoualloveragain",
+    "q": "In Alan Jackson’s “I’d Love You All Over Again,” how long has it been since the couple said “I do”?",
+    "choices": [
+      "Five years",
+      "Twenty years",
+      "Ten years",
+      "Twenty-five years"
+    ],
+    "a": 2,
+    "lyric": "Has it been ten years since we said “I do”?",
+    "lyricSong": "I’d Love You All Over Again",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 683,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-dallas",
+    "q": "In Alan Jackson’s “Dallas,” where does he wish Dallas was?",
+    "choices": [
+      "In Louisiana",
+      "In Kentucky",
+      "In Tennessee",
+      "In Oklahoma"
+    ],
+    "a": 2,
+    "lyric": "Then nothin’ else would come between the two of us / If Dallas was in Tennessee",
+    "lyricSong": "Dallas",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 684,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lovesgotaholdonyou",
+    "q": "Who recorded the 90s country hit “Love’s Got a Hold on You”?",
+    "choices": [
+      "Ty Herndon",
+      "Alan Jackson",
+      "Chris LeDoux",
+      "John Anderson"
+    ],
+    "a": 1,
+    "lyric": "It’s turning me every way but loose / He said it sounds like love’s got a hold on you",
+    "lyricSong": "Love’s Got a Hold on You",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 685,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whosaysyoucanthaveitall",
+    "q": "Finish the lyric from Alan Jackson’s “(Who Says) You Can’t Have It All”: “I’ve got a ceiling, a floor …”",
+    "choices": [
+      "and an empty bed",
+      "and four walls",
+      "and a broken heart",
+      "and a telephone"
+    ],
+    "a": 1,
+    "lyric": "I’ve got a ceiling, a floor and four walls / Who says you can’t have it all",
+    "lyricSong": "(Who Says) You Can’t Have It All",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 686,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whoscheatinwho",
+    "q": "Who sings the 90s country favorite “Who’s Cheatin’ Who”?",
+    "choices": [
+      "Keith Whitley",
+      "Alan Jackson",
+      "John Anderson",
+      "Neal McCoy"
+    ],
+    "a": 1,
+    "lyric": "But still you wonder / Who’s cheatin’ who",
+    "lyricSong": "Who’s Cheatin’ Who",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 687,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-betweenthedevilandme",
+    "q": "Finish the lyric from Alan Jackson’s “Between the Devil and Me”: “The flesh is weak, but …”",
+    "choices": [
+      "love is strong",
+      "my heart is wrong",
+      "the spirit’s strong",
+      "the night is long"
+    ],
+    "a": 0,
+    "lyric": "The flesh is weak, but love is strong / And she’s all I see between the devil and me",
+    "lyricSong": "Between the Devil and Me",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 688,
+    "category": "NAME THAT SONG",
+    "topic": "hit-illgoonlovingyou",
+    "q": "Which 90s country hit includes the line “Long after the pleasures of the flesh”?",
+    "choices": [
+      "Right on the Money",
+      "Little Man",
+      "I’ll Go On Loving You",
+      "Gone Crazy"
+    ],
+    "a": 2,
+    "lyric": "Long after the pleasures of the flesh / An’ I’ll go on loving you",
+    "lyricSong": "I’ll Go On Loving You",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 689,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-littleman",
+    "q": "In Alan Jackson’s “Little Man,” what shut down the small-town stores?",
+    "choices": [
+      "A flood",
+      "The interstate",
+      "The big money",
+      "The railroad"
+    ],
+    "a": 2,
+    "lyric": "Before the big money shut ’em down / And killed the little man",
+    "lyricSong": "Little Man",
+    "lyricArtist": "Alan Jackson"
+  },
+  {
+    "id": 690,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-notcountingyou",
+    "q": "Whose 1990s country single is “Not Counting You”?",
+    "choices": [
+      "Collin Raye",
+      "George Strait",
+      "Daryle Singletary",
+      "Garth Brooks"
+    ],
+    "a": 3,
+    "lyric": "I’ve never lost at love, not counting you",
+    "lyricSong": "Not Counting You",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 691,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-weshallbefree",
+    "q": "Finish the lyric from Garth Brooks’s “We Shall Be Free”: “When the last thing we notice is …”",
+    "choices": [
+      "the clothes that we’re in",
+      "the size of our homes",
+      "the color of skin",
+      "the place that we’re from"
+    ],
+    "a": 2,
+    "lyric": "When the last thing we notice is the color of skin",
+    "lyricSong": "We Shall Be Free",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 692,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-learningtoliveagain",
+    "q": "Who recorded the 90s country hit “Learning to Live Again”?",
+    "choices": [
+      "Bryan White",
+      "Garth Brooks",
+      "Trace Adkins",
+      "Paul Brandt"
+    ],
+    "a": 1,
+    "lyric": "Look into her eyes and pray that she don’t see / This learning to live again is killing me",
+    "lyricSong": "Learning to Live Again",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 693,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-americanhonkytonkbarassociation",
+    "q": "Who recorded the 90s country hit “American Honky-Tonk Bar Association”?",
+    "choices": [
+      "Toby Keith",
+      "Paul Brandt",
+      "Garth Brooks",
+      "Collin Raye"
+    ],
+    "a": 2,
+    "lyric": "Contact your American Honky-Tonk Bar Association",
+    "lyricSong": "American Honky-Tonk Bar Association",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 694,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-theredstrokes",
+    "q": "Which artist had a 1990s country hit with “The Red Strokes”?",
+    "choices": [
+      "Hal Ketchum",
+      "Garth Brooks",
+      "Brad Paisley",
+      "Vince Gill"
+    ],
+    "a": 1,
+    "lyric": "Oh, the red strokes / Passions uncaged",
+    "lyricSong": "The Red Strokes",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 695,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-itsmidnightcinderella",
+    "q": "In Garth Brooks’s “It’s Midnight Cinderella,” what nursery-rhyme character does the singer say he is?",
+    "choices": [
+      "Little Jack Horner",
+      "Peter Peter the Pumpkin Eater",
+      "Old King Cole",
+      "Georgie Porgie"
+    ],
+    "a": 1,
+    "lyric": "It’s midnight, Cinderella, but don’t you worry none / ’Cause I’m Peter Peter the Pumpkin Eater and the party’s just begun",
+    "lyricSong": "It’s Midnight Cinderella",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 696,
+    "category": "NAME THAT SONG",
+    "topic": "hit-tomakeyoufeelmylove",
+    "q": "Which 90s country hit includes the line “I could hold you for a million years”?",
+    "choices": [
+      "She’s Gonna Make It",
+      "To Make You Feel My Love",
+      "In Another’s Eyes",
+      "Two Piña Coladas"
+    ],
+    "a": 1,
+    "lyric": "I could hold you for a million years / To make you feel my love",
+    "lyricSong": "To Make You Feel My Love",
+    "lyricArtist": "Garth Brooks"
+  },
+  {
+    "id": 697,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ifiknowme",
+    "q": "Which 90s country hit includes the line “I’ll turn this car around / I won’t get halfway through town”?",
+    "choices": [
+      "Love Without End, Amen",
+      "If I Know Me",
+      "I’ve Come to Expect It from You",
+      "You Know Me Better Than That"
+    ],
+    "a": 1,
+    "lyric": "But if I know me / I’ll turn this car around",
+    "lyricSong": "If I Know Me",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 698,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-lovesickblues",
+    "q": "Finish the lyric from George Strait’s “Lovesick Blues”: “I got a feeling called the blues, oh Lord …”",
+    "choices": [
+      "since my baby said goodbye",
+      "since my darlin’ went away",
+      "ever since she said we’re through",
+      "since you left me all alone"
+    ],
+    "a": 0,
+    "lyric": "I got a feeling called the blues, oh Lord, since my baby said goodbye",
+    "lyricSong": "Lovesick Blues",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 699,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-goneasagirlcanget",
+    "q": "Who sings the 90s country favorite “Gone as a Girl Can Get”?",
+    "choices": [
+      "George Jones",
+      "George Strait",
+      "Neal McCoy",
+      "Tim McGraw"
+    ],
+    "a": 1,
+    "lyric": "But I’d say she’s about as gone as a girl can get",
+    "lyricSong": "Gone as a Girl Can Get",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 700,
+    "category": "NAME THAT SONG",
+    "topic": "hit-somuchlikemydad",
+    "q": "Which 90s country hit includes the line “So tell me word for word what he said that always made you stay”?",
+    "choices": [
+      "Love Without End, Amen",
+      "So Much Like My Dad",
+      "You Know Me Better Than That",
+      "I Cross My Heart"
+    ],
+    "a": 1,
+    "lyric": "So tell me word for word what he said that always made you stay",
+    "lyricSong": "So Much Like My Dad",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 701,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-leadon",
+    "q": "Whose 1990s country single is “Lead On”?",
+    "choices": [
+      "Ty England",
+      "George Strait",
+      "Alan Jackson",
+      "Tracy Byrd"
+    ],
+    "a": 1,
+    "lyric": "Why don’t we take this matter somewhere else / and get to know this feelin’ that’s so strong, lead on",
+    "lyricSong": "Lead On",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 702,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-roundaboutway",
+    "q": "Which artist had a 1990s country hit with “Round About Way”?",
+    "choices": [
+      "George Strait",
+      "John Berry",
+      "Billy Ray Cyrus",
+      "Wade Hayes"
+    ],
+    "a": 0,
+    "lyric": "For the most part I’m okay / but I still miss her in a round about way",
+    "lyricSong": "Round About Way",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 703,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-wereallyshouldntbedoingthis",
+    "q": "Who sings the 90s country favorite “We Really Shouldn’t Be Doing This”?",
+    "choices": [
+      "Brad Paisley",
+      "David Lee Murphy",
+      "George Strait",
+      "Michael Peterson"
+    ],
+    "a": 2,
+    "lyric": "We really shouldn’t be doing this and we both know why",
+    "lyricSong": "We Really Shouldn’t Be Doing This",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 704,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-meanwhile",
+    "q": "Finish the lyric from George Strait’s “Meanwhile”: “Meanwhile, back in the back of my mem’ry …”",
+    "choices": [
+      "you’re still dancing with me",
+      "we’re still young and free",
+      "you’re still lovin’ me",
+      "you’re still holding on to me"
+    ],
+    "a": 0,
+    "lyric": "Meanwhile, back in the back of my mem’ry / you’re still dancing with me",
+    "lyricSong": "Meanwhile",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 705,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatdoyousaytothat",
+    "q": "Who recorded the 90s country hit “What Do You Say to That”?",
+    "choices": [
+      "Neal McCoy",
+      "Ty England",
+      "George Jones",
+      "George Strait"
+    ],
+    "a": 3,
+    "lyric": "I’ve fallen for you and that’s a fact / what do you say to that?",
+    "lyricSong": "What Do You Say to That",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 706,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ivecometoexpectitfromyou",
+    "q": "Finish the lyric from George Strait’s “I’ve Come to Expect It from You”: “I wouldn’t treat a dog …”",
+    "choices": [
+      "the way you did me wrong",
+      "the way you left me cold",
+      "the way you treated me",
+      "like you’ve been treatin’ me"
+    ],
+    "a": 2,
+    "lyric": "I wouldn’t treat a dog the way you treated me / but that’s what I get",
+    "lyricSong": "I’ve Come to Expect It from You",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 707,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-adalida",
+    "q": "In George Strait’s “Adalida,” Adalida is a “pretty little” what?",
+    "choices": [
+      "Texas rose",
+      "Cajun queen",
+      "Creole belle",
+      "Delta darling"
+    ],
+    "a": 1,
+    "lyric": "Adalida, pretty little Cajun queen / sweet Dixie flower, the Belle of the Bayou",
+    "lyricSong": "Adalida",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 708,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-kingofthemountain",
+    "q": "Finish the lyric from George Strait’s “King of the Mountain”: “I thought I was king of the mountain …”",
+    "choices": [
+      "but the mountain came tumbling down",
+      "but I was standing on shaky ground",
+      "but I was only a fool on the hill",
+      "but I was only a man on my knees"
+    ],
+    "a": 2,
+    "lyric": "I thought I was king of the mountain / but I was only a fool on the hill",
+    "lyricSong": "King of the Mountain",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 709,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-icanstillmakecheyenne",
+    "q": "Which artist had a 1990s country hit with “I Can Still Make Cheyenne”?",
+    "choices": [
+      "Wade Hayes",
+      "David Kersh",
+      "Dwight Yoakam",
+      "George Strait"
+    ],
+    "a": 3,
+    "lyric": "But it’s all right baby, if I hurry I can still make Cheyenne",
+    "lyricSong": "I Can Still Make Cheyenne",
+    "lyricArtist": "George Strait"
+  },
+  {
+    "id": 710,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-alittlelesstalkandalotmoreaction",
+    "q": "Which artist had a 1990s country hit with “A Little Less Talk and a Lot More Action”?",
+    "choices": [
+      "Toby Keith",
+      "George Ducas",
+      "Gary Allan",
+      "Steve Wariner"
+    ],
+    "a": 0,
+    "lyric": "It looked like a place to find some satisfaction / with a little less talk and a lot more action",
+    "lyricSong": "A Little Less Talk and a Lot More Action",
+    "lyricArtist": "Toby Keith"
+  },
+  {
+    "id": 711,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-upstairsdowntown",
+    "q": "Finish the lyric from Toby Keith’s “Upstairs Downtown”: “Moving upstairs, downtown …”",
+    "choices": [
+      "chasing the lights of a brand new town",
+      "life’s too short to be hanging around",
+      "she ain’t never comin’ back around",
+      "leaving this one-horse town behind"
+    ],
+    "a": 1,
+    "lyric": "Moving upstairs, downtown / life’s too short to be hanging around",
+    "lyricSong": "Upstairs Downtown",
+    "lyricArtist": "Toby Keith"
+  },
+  {
+    "id": 712,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-bigoltruck",
+    "q": "Who sings the 90s country favorite “Big Ol’ Truck”?",
+    "choices": [
+      "John Berry",
+      "Wade Hayes",
+      "Toby Keith",
+      "Marty Stuart"
+    ],
+    "a": 2,
+    "lyric": "Someday soon I’m gonna climb right up / and take a little ride in her big ol’ truck",
+    "lyricSong": "Big Ol’ Truck",
+    "lyricArtist": "Toby Keith"
+  },
+  {
+    "id": 713,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-doesthatbluemoonevershineonyou",
+    "q": "Who sings the 90s country favorite “Does That Blue Moon Ever Shine on You”?",
+    "choices": [
+      "Toby Keith",
+      "Doug Stone",
+      "Alan Jackson",
+      "Gary Allan"
+    ],
+    "a": 0,
+    "lyric": "I’m finding I’m still missing you, and I just got to know / does that blue moon ever shine on you",
+    "lyricSong": "Does That Blue Moon Ever Shine on You",
+    "lyricArtist": "Toby Keith"
+  },
+  {
+    "id": 714,
+    "category": "NAME THAT SONG",
+    "topic": "hit-awomanstouch",
+    "q": "Which 90s country hit includes the line “Just an empty space surrounded by the pieces of a badly broken heart”?",
+    "choices": [
+      "Who’s That Man",
+      "We Were in Love",
+      "A Woman’s Touch",
+      "Me Too"
+    ],
+    "a": 2,
+    "lyric": "A badly broken heart that’s forgotten how to love / what my heart needs is a woman’s touch",
+    "lyricSong": "A Woman’s Touch",
+    "lyricArtist": "Toby Keith"
+  },
+  {
+    "id": 715,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whenlovefades",
+    "q": "Who sings the 90s country favorite “When Love Fades”?",
+    "choices": [
+      "Toby Keith",
+      "Ken Mellons",
+      "Marty Stuart",
+      "Travis Tritt"
+    ],
+    "a": 0,
+    "lyric": "Who’ll be the one to say goodbye / and who’ll be the one to stay when love fades",
+    "lyricSong": "When Love Fades",
+    "lyricArtist": "Toby Keith"
+  },
+  {
+    "id": 716,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-welcometotheclub",
+    "q": "Who recorded the 90s country hit “Welcome to the Club”?",
+    "choices": [
+      "John Anderson",
+      "Tracy Lawrence",
+      "Randy Travis",
+      "Tim McGraw"
+    ],
+    "a": 3,
+    "lyric": "You’re just one of many broken hearted / wonderin’ what went wrong / welcome to the club",
+    "lyricSong": "Welcome to the Club",
+    "lyricArtist": "Tim McGraw"
+  },
+  {
+    "id": 717,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-cantbereallygone",
+    "q": "In Tim McGraw’s “Can’t Be Really Gone,” where did she buy the hat that’s still hanging by the door?",
+    "choices": [
+      "Santa Fe",
+      "New Orleans",
+      "Mexico",
+      "San Antonio"
+    ],
+    "a": 2,
+    "lyric": "Her hat is hanging by the door / the one she bought in Mexico",
+    "lyricSong": "Can’t Be Really Gone",
+    "lyricArtist": "Tim McGraw"
+  },
+  {
+    "id": 718,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-maybeweshouldjustsleeponit",
+    "q": "Whose 1990s country single is “Maybe We Should Just Sleep on It”?",
+    "choices": [
+      "Tim McGraw",
+      "Clay Walker",
+      "Dwight Yoakam",
+      "Ricky Van Shelton"
+    ],
+    "a": 0,
+    "lyric": "Baby, maybe we should just sleep on it tonight",
+    "lyricSong": "Maybe We Should Just Sleep on It",
+    "lyricArtist": "Tim McGraw"
+  },
+  {
+    "id": 719,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-oneofthesedays",
+    "q": "Which artist had a 1990s country hit with “One of These Days”?",
+    "choices": [
+      "Tim McGraw",
+      "Rick Trevino",
+      "Kevin Sharp",
+      "Doug Stone"
+    ],
+    "a": 0,
+    "lyric": "One of these days you’re gonna love me / you’ll sit down by yourself and think",
+    "lyricSong": "One of These Days",
+    "lyricArtist": "Tim McGraw"
+  },
+  {
+    "id": 720,
+    "category": "NAME THAT SONG",
+    "topic": "hit-butiwill",
+    "q": "Which 90s country hit includes the line “I’d just let you break my heart again”?",
+    "choices": [
+      "Piece of My Heart",
+      "But I Will",
+      "Take Me as I Am",
+      "Wild One"
+    ],
+    "a": 1,
+    "lyric": "I don’t want to stop lovin’ you, but I will",
+    "lyricSong": "But I Will",
+    "lyricArtist": "Faith Hill"
+  },
+  {
+    "id": 721,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-youcantloseme",
+    "q": "Finish the lyric from Faith Hill’s “You Can’t Lose Me”: “You’re gonna lose the race …”",
+    "choices": [
+      "once or twice in life",
+      "from time to time",
+      "more times than you’ll win",
+      "every now and then"
+    ],
+    "a": 1,
+    "lyric": "You’re gonna lose the race from time to time / but you’re always gonna find / you can’t lose me",
+    "lyricSong": "You Can’t Lose Me",
+    "lyricArtist": "Faith Hill"
+  },
+  {
+    "id": 722,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-itmatterstome",
+    "q": "Who sings the 90s country favorite “It Matters to Me”?",
+    "choices": [
+      "Suzy Bogguss",
+      "Faith Hill",
+      "Terri Clark",
+      "Sara Evans"
+    ],
+    "a": 1,
+    "lyric": "When it doesn’t feel like we’re even in love / it matters to me",
+    "lyricSong": "It Matters to Me",
+    "lyricArtist": "Faith Hill"
+  },
+  {
+    "id": 723,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-letmeletgo",
+    "q": "Who sings the 90s country favorite “Let Me Let Go”?",
+    "choices": [
+      "LeAnn Rimes",
+      "Suzy Bogguss",
+      "Faith Hill",
+      "Deana Carter"
+    ],
+    "a": 2,
+    "lyric": "Let me let go, baby / let me let go",
+    "lyricSong": "Let Me Let Go",
+    "lyricArtist": "Faith Hill"
+  },
+  {
+    "id": 724,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-justtohearyousaythatyouloveme",
+    "q": "In Faith Hill and Tim McGraw’s “Just to Hear You Say That You Love Me,” what would the singer go and capture?",
+    "choices": [
+      "The moon",
+      "The wind",
+      "The sun",
+      "A falling star"
+    ],
+    "a": 0,
+    "lyric": "I’d go and capture the moon, that’s what I would do / just to hear you say that you love me",
+    "lyricSong": "Just to Hear You Say That You Love Me",
+    "lyricArtist": "Faith Hill with Tim McGraw"
+  },
+  {
+    "id": 725,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-loveaintlikethat",
+    "q": "Finish the lyric from Faith Hill’s “Love Ain’t Like That”: “You can’t buy it at the store, try it on for size …”",
+    "choices": [
+      "trade it in when it don’t fit right",
+      "put it back up on the shelf tonight",
+      "wear it out and throw it aside",
+      "bring it back if it don’t feel right"
+    ],
+    "a": 3,
+    "lyric": "You can’t buy it at the store, try it on for size / bring it back if it don’t feel right",
+    "lyricSong": "Love Ain’t Like That",
+    "lyricArtist": "Faith Hill"
+  },
+  {
+    "id": 726,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-whatmadeyousaythat",
+    "q": "In Shania Twain’s “What Made You Say That,” what words does she finally choose to say?",
+    "choices": [
+      "I love you",
+      "Stay with me",
+      "Kiss me",
+      "I need you"
+    ],
+    "a": 0,
+    "lyric": "The one I finally choose is simply ‘I love you’ / as the words came out I heard a voice inside me say",
+    "lyricSong": "What Made You Say That",
+    "lyricArtist": "Shania Twain"
+  },
+  {
+    "id": 727,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-dancewiththeonethatbroughtyou",
+    "q": "Finish the lyric from Shania Twain’s “Dance with the One That Brought You”: “You got to dance with the one that brought you …”",
+    "choices": [
+      "never let your partner go",
+      "till the band stops playin’ for you",
+      "hold on to the one that needs you",
+      "stay with the one that wants you"
+    ],
+    "a": 3,
+    "lyric": "You got to dance with the one that brought you / stay with the one that wants you",
+    "lyricSong": "Dance with the One That Brought You",
+    "lyricArtist": "Shania Twain"
+  },
+  {
+    "id": 728,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-godblessthechild",
+    "q": "In Shania Twain’s “God Bless the Child,” besides the child who suffers, who else does she ask God to bless?",
+    "choices": [
+      "The poor and the hungry",
+      "The lost and forgotten",
+      "The old and the lonely",
+      "The young without mothers"
+    ],
+    "a": 3,
+    "lyric": "God bless the child who suffers / hallelujah, hallelujah / God bless the young without mothers",
+    "lyricSong": "God Bless the Child",
+    "lyricArtist": "Shania Twain"
+  },
+  {
+    "id": 729,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-fromthismomenton",
+    "q": "Finish the lyric from Shania Twain’s “From This Moment On”: “From this moment, life has begun …”",
+    "choices": [
+      "from this moment, I’ll never be done",
+      "from this moment, our hearts beat as one",
+      "from this moment, you are the one",
+      "from this moment, we’ve only just begun"
+    ],
+    "a": 2,
+    "lyric": "From this moment, life has begun / from this moment, you are the one",
+    "lyricSong": "From This Moment On",
+    "lyricArtist": "Shania Twain"
+  },
+  {
+    "id": 730,
+    "category": "NAME THAT SONG",
+    "topic": "hit-youvegotaway",
+    "q": "Which 90s country hit includes the line “Somehow you got me to believe”?",
+    "choices": [
+      "You’ve Got a Way",
+      "Love Gets Me Every Time",
+      "You’re Still the One",
+      "Don’t Be Stupid (You Know I Love You)"
+    ],
+    "a": 0,
+    "lyric": "You’ve got a way with me / somehow you got me to believe",
+    "lyricSong": "You’ve Got a Way",
+    "lyricArtist": "Shania Twain"
+  },
+  {
+    "id": 731,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thetinman",
+    "q": "Whose 1990s country single is “The Tin Man”?",
+    "choices": [
+      "Garth Brooks",
+      "Ty Herndon",
+      "Kenny Chesney",
+      "Toby Keith"
+    ],
+    "a": 2,
+    "lyric": "It’s times like these / I wish I were a tin man",
+    "lyricSong": "The Tin Man",
+    "lyricArtist": "Kenny Chesney"
+  },
+  {
+    "id": 732,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-meandyou",
+    "q": "Whose 1990s country single is “Me and You”?",
+    "choices": [
+      "Mark Collie",
+      "Kenny Chesney",
+      "Clint Black",
+      "Collin Raye"
+    ],
+    "a": 1,
+    "lyric": "Common destiny / we were meant to be / me and you",
+    "lyricSong": "Me and You",
+    "lyricArtist": "Kenny Chesney"
+  },
+  {
+    "id": 733,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-achance",
+    "q": "Who recorded the 90s country hit “A Chance”?",
+    "choices": [
+      "Kenny Chesney",
+      "Alan Jackson",
+      "Clint Black",
+      "Andy Griggs"
+    ],
+    "a": 0,
+    "lyric": "A chance to tell you how I feel about you",
+    "lyricSong": "A Chance",
+    "lyricArtist": "Kenny Chesney"
+  },
+  {
+    "id": 734,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-shethinksmytractorssexy",
+    "q": "Finish the lyric from Kenny Chesney’s “She Thinks My Tractor’s Sexy”: “She’s always starin’ at me …”",
+    "choices": [
+      "when I’m plowin’ the field",
+      "while I’m bailin’ the hay",
+      "while I’m chuggin’ along",
+      "every time I drive by"
+    ],
+    "a": 2,
+    "lyric": "She thinks my tractor’s sexy, it really turns her on / she’s always starin’ at me while I’m chuggin’ along",
+    "lyricSong": "She Thinks My Tractor’s Sexy",
+    "lyricArtist": "Kenny Chesney"
+  },
+  {
+    "id": 735,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-beerandbones",
+    "q": "In John Michael Montgomery’s “Beer and Bones,” what hasn’t the singer done since he lost her?",
+    "choices": [
+      "Left the house",
+      "Eaten a bite",
+      "Shed a tear",
+      "Slept a wink"
+    ],
+    "a": 1,
+    "lyric": "Honey since I lost you, I ain’t ate a bite",
+    "lyricSong": "Beer and Bones",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 736,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ropethemoon",
+    "q": "Which 90s country hit includes the line “Some may say that dreaming’s just for fools”?",
+    "choices": [
+      "I Swear",
+      "Rope the Moon",
+      "Sold (The Grundy County Auction Incident)",
+      "Be My Baby Tonight"
+    ],
+    "a": 1,
+    "lyric": "And there are times I thought that might be true / but she thinks I could rope the moon",
+    "lyricSong": "Rope the Moon",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 737,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-ifyouvegotlove",
+    "q": "Whose 1990s country single is “If You’ve Got Love”?",
+    "choices": [
+      "Gary Allan",
+      "Collin Raye",
+      "Mark Chesnutt",
+      "John Michael Montgomery"
+    ],
+    "a": 3,
+    "lyric": "If you’ve got love, you can move a mountain, little bit further down the line",
+    "lyricSong": "If You’ve Got Love",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 738,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-nomansland",
+    "q": "Who recorded the 90s country hit “No Man’s Land”?",
+    "choices": [
+      "Paul Brandt",
+      "Daryle Singletary",
+      "John Michael Montgomery",
+      "Randy Travis"
+    ],
+    "a": 2,
+    "lyric": "She’s gonna be okay, gonna find a way / livin’ in no man’s land",
+    "lyricSong": "No Man’s Land",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 739,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-cowboylove",
+    "q": "Who sings the 90s country favorite “Cowboy Love”?",
+    "choices": [
+      "John Michael Montgomery",
+      "Trace Adkins",
+      "Hal Ketchum",
+      "Collin Raye"
+    ],
+    "a": 0,
+    "lyric": "But I ain’t givin’ up / I’m gonna show you darlin’ a little cowboy love",
+    "lyricSong": "Cowboy Love",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 740,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-aintgotnothinonus",
+    "q": "In John Michael Montgomery’s “Ain’t Got Nothin’ on Us,” which landmark is “just a big ditch” next to the couple?",
+    "choices": [
+      "Niagara Falls",
+      "The Rio Grande",
+      "The Mississippi River",
+      "The Grand Canyon"
+    ],
+    "a": 3,
+    "lyric": "Well they say the Grand Canyon is a sight to see / but it’s just a big ditch next to you and me",
+    "lyricSong": "Ain’t Got Nothin’ on Us",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 741,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-imissyoualittle",
+    "q": "Finish the lyric from John Michael Montgomery’s “I Miss You a Little”: “I miss you a little, I guess you could say …”",
+    "choices": [
+      "a little more every day",
+      "a little too long, a little too late",
+      "a little more than I let on",
+      "a little too much, a little too often"
+    ],
+    "a": 3,
+    "lyric": "I miss you a little, I guess you could say / a little too much, a little too often",
+    "lyricSong": "I Miss You a Little",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 742,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-angelinmyeyes",
+    "q": "Who sings the 90s country favorite “Angel in My Eyes”?",
+    "choices": [
+      "Brad Paisley",
+      "Neal McCoy",
+      "John Michael Montgomery",
+      "Mark Chesnutt"
+    ],
+    "a": 2,
+    "lyric": "She’s the closest to heaven I’ll ever see / she’ll always be an angel in my eyes",
+    "lyricSong": "Angel in My Eyes",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 743,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hometoyou",
+    "q": "Whose 1990s country single is “Home to You”?",
+    "choices": [
+      "Doug Supernaw",
+      "John Anderson",
+      "John Michael Montgomery",
+      "Collin Raye"
+    ],
+    "a": 2,
+    "lyric": "It might rain but that’s okay / I get to come home to you",
+    "lyricSong": "Home to You",
+    "lyricArtist": "John Michael Montgomery"
+  },
+  {
+    "id": 744,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whoneedsyoubaby",
+    "q": "Whose 1990s country single is “Who Needs You Baby”?",
+    "choices": [
+      "Rick Trevino",
+      "Tim McGraw",
+      "John Michael Montgomery",
+      "Clay Walker"
+    ],
+    "a": 3,
+    "lyric": "Who needs a woman to make him blue / who needs you baby, I do",
+    "lyricSong": "Who Needs You Baby",
+    "lyricArtist": "Clay Walker"
+  },
+  {
+    "id": 745,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-onlyondaysthatendiny",
+    "q": "Whose 1990s country single is “Only on Days That End in \"Y\"”?",
+    "choices": [
+      "Randy Travis",
+      "Keith Whitley",
+      "Clay Walker",
+      "Doug Supernaw"
+    ],
+    "a": 2,
+    "lyric": "Only when I laugh, only when I cry / And only on days that end in “Y",
+    "lyricSong": "Only on Days That End in \"Y\"",
+    "lyricArtist": "Clay Walker"
+  },
+  {
+    "id": 746,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-onetwoiloveyou",
+    "q": "Which artist had a 1990s country hit with “One, Two, I Love You”?",
+    "choices": [
+      "Doug Supernaw",
+      "Keith Whitley",
+      "Clay Walker",
+      "Billy Dean"
+    ],
+    "a": 2,
+    "lyric": "One, two, I love you / Three, four, let’s have one more",
+    "lyricSong": "One, Two, I Love You",
+    "lyricArtist": "Clay Walker"
+  },
+  {
+    "id": 747,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thenwhat",
+    "q": "Finish the lyric from Clay Walker’s “Then What?”: “When the new wears off and …”",
+    "choices": [
+      "the fire burns out",
+      "the cold sets in",
+      "the old shines through",
+      "the truth comes through"
+    ],
+    "a": 2,
+    "lyric": "Then what, what you gonna do / When the new wears off and the old shines through",
+    "lyricSong": "Then What?",
+    "lyricArtist": "Clay Walker"
+  },
+  {
+    "id": 748,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-yourebeginningtogettome",
+    "q": "Who recorded the 90s country hit “You’re Beginning to Get to Me”?",
+    "choices": [
+      "Marty Stuart",
+      "Tracy Byrd",
+      "George Ducas",
+      "Clay Walker"
+    ],
+    "a": 3,
+    "lyric": "I’m just saying I believe / You’re beginning to get to me",
+    "lyricSong": "You’re Beginning to Get to Me",
+    "lyricArtist": "Clay Walker"
+  },
+  {
+    "id": 749,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-livelaughlove",
+    "q": "Finish the lyric from Clay Walker’s “Live, Laugh, Love”: “Gonna drink every drop of happiness …”",
+    "choices": [
+      "till the well runs dry",
+      "till the night is done",
+      "till the sun comes up",
+      "till they cover me up"
+    ],
+    "a": 3,
+    "lyric": "Gonna drink every drop of happiness till they cover me up / I’m gonna live, gonna laugh, gonna love",
+    "lyricSong": "Live, Laugh, Love",
+    "lyricArtist": "Clay Walker"
+  },
+  {
+    "id": 750,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-yougottalovethat",
+    "q": "In Neal McCoy’s “You Gotta Love That,” what does she drive when she rolls into town?",
+    "choices": [
+      "A red Camaro",
+      "A blue Pontiac",
+      "A green Chevy pickup",
+      "A white Mustang"
+    ],
+    "a": 1,
+    "lyric": "She rolled into town, dreams in a sack / Old guitar in a blue Pontiac",
+    "lyricSong": "You Gotta Love That",
+    "lyricArtist": "Neal McCoy"
+  },
+  {
+    "id": 751,
+    "category": "NAME THAT SONG",
+    "topic": "hit-thenyoucantellmegoodbye",
+    "q": "Which 90s country hit includes the line “Kiss me each morning for a million years”?",
+    "choices": [
+      "Wink",
+      "No Doubt About It",
+      "Then You Can Tell Me Goodbye",
+      "They’re Playin’ Our Song"
+    ],
+    "a": 2,
+    "lyric": "Tell me you love me for a million years / Then if it don’t work out, then you can tell me goodbye",
+    "lyricSong": "Then You Can Tell Me Goodbye",
+    "lyricArtist": "Neal McCoy"
+  },
+  {
+    "id": 752,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-goinggoinggone",
+    "q": "Which artist had a 1990s country hit with “Going, Going, Gone”?",
+    "choices": [
+      "Travis Tritt",
+      "Neal McCoy",
+      "Garth Brooks",
+      "George Strait"
+    ],
+    "a": 1,
+    "lyric": "Before I knew what was going on / I was going, going, gone",
+    "lyricSong": "Going, Going, Gone",
+    "lyricArtist": "Neal McCoy"
+  },
+  {
+    "id": 753,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-trailoftears",
+    "q": "Whose 1990s country single is “Trail of Tears”?",
+    "choices": [
+      "Garth Brooks",
+      "Billy Ray Cyrus",
+      "Randy Travis",
+      "Sammy Kershaw"
+    ],
+    "a": 1,
+    "lyric": "And let them soar like eagles / Across the Trail of Tears",
+    "lyricSong": "Trail of Tears",
+    "lyricArtist": "Billy Ray Cyrus"
+  },
+  {
+    "id": 754,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-stormintheheartland",
+    "q": "Who sings the 90s country favorite “Storm in the Heartland”?",
+    "choices": [
+      "Billy Ray Cyrus",
+      "Dwight Yoakam",
+      "Bryan White",
+      "Ty England"
+    ],
+    "a": 0,
+    "lyric": "Run for shelter if you can / There’s a storm in the heartland",
+    "lyricSong": "Storm in the Heartland",
+    "lyricArtist": "Billy Ray Cyrus"
+  },
+  {
+    "id": 755,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-busyman",
+    "q": "Finish the lyric from Billy Ray Cyrus’s “Busy Man”: “And when you say that time’s a-wasting …”",
+    "choices": [
+      "you’re wasting more than time",
+      "you never stop to think",
+      "you don’t know how right you are",
+      "the clock just ticks away"
+    ],
+    "a": 2,
+    "lyric": "And when you say that time’s a-wasting / You don’t know how right you are",
+    "lyricSong": "Busy Man",
+    "lyricArtist": "Billy Ray Cyrus"
+  },
+  {
+    "id": 756,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lovelessons",
+    "q": "Who sings the 90s country favorite “Love Lessons”?",
+    "choices": [
+      "Aaron Tippin",
+      "Clint Black",
+      "Chris LeDoux",
+      "Tracy Byrd"
+    ],
+    "a": 3,
+    "lyric": "I wanna take love lessons, baby, from you / Whatever it is you want, I want to please you",
+    "lyricSong": "Love Lessons",
+    "lyricArtist": "Tracy Byrd"
+  },
+  {
+    "id": 757,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-heaveninmywomanseyes",
+    "q": "Which artist had a 1990s country hit with “Heaven in My Woman’s Eyes”?",
+    "choices": [
+      "Jeff Carson",
+      "Clay Walker",
+      "Tracy Byrd",
+      "Aaron Tippin"
+    ],
+    "a": 2,
+    "lyric": "Life on earth would sure be hell without the heaven in my woman’s eyes",
+    "lyricSong": "Heaven in My Woman’s Eyes",
+    "lyricArtist": "Tracy Byrd"
+  },
+  {
+    "id": 758,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-biglove",
+    "q": "Who sings the 90s country favorite “Big Love”?",
+    "choices": [
+      "John Michael Montgomery",
+      "Tracy Lawrence",
+      "Tracy Byrd",
+      "Ty England"
+    ],
+    "a": 2,
+    "lyric": "I’ve got a big love, wild and free / Room to grow, as big as your dreams",
+    "lyricSong": "Big Love",
+    "lyricArtist": "Tracy Byrd"
+  },
+  {
+    "id": 759,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-dontlovemakeadiamondshine",
+    "q": "In Tracy Byrd’s “Don’t Love Make a Diamond Shine,” what are the names of the young couple at the jewelry store?",
+    "choices": [
+      "Bobby and Jenny",
+      "Tommy and Janey",
+      "Jack and Diane",
+      "Billy and Sue"
+    ],
+    "a": 1,
+    "lyric": "Tommy and Janey, hardly eighteen / Holdin’ hands at the jewelry store",
+    "lyricSong": "Don’t Love Make a Diamond Shine",
+    "lyricArtist": "Tracy Byrd"
+  },
+  {
+    "id": 760,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-putyourhandinmine",
+    "q": "In Tracy Byrd’s “Put Your Hand in Mine,” what does his young son hand him as he packs to leave?",
+    "choices": [
+      "A school photo",
+      "A tracing of his hand",
+      "His baseball glove",
+      "A drawing of their house"
+    ],
+    "a": 1,
+    "lyric": "Then he handed me a tracing of his hand / On the back of a piece of paper",
+    "lyricSong": "Put Your Hand in Mine",
+    "lyricArtist": "Tracy Byrd"
+  },
+  {
+    "id": 761,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-oneofthosethings",
+    "q": "Who sings the 90s country favorite “One of Those Things”?",
+    "choices": [
+      "Michelle Wright",
+      "Jo Dee Messina",
+      "Tanya Tucker",
+      "Pam Tillis"
+    ],
+    "a": 3,
+    "lyric": "It’s just one of those things that I can’t do nothing about",
+    "lyricSong": "One of Those Things",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 762,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-letthatponyrun",
+    "q": "In Pam Tillis’s “Let That Pony Run,” where does Mary move after her husband confesses?",
+    "choices": [
+      "Tennessee",
+      "Kentucky",
+      "West Virginia",
+      "North Carolina"
+    ],
+    "a": 2,
+    "lyric": "Mary moved to West Virginia after the shock wore off / She got a divorce and a chestnut horse",
+    "lyricSong": "Let That Pony Run",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 763,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-cleopatraqueenofdenial",
+    "q": "Whose 1990s country single is “Cleopatra, Queen of Denial”?",
+    "choices": [
+      "Lorrie Morgan",
+      "Lari White",
+      "Pam Tillis",
+      "Michelle Wright"
+    ],
+    "a": 2,
+    "lyric": "Just call me Cleopatra, everybody, ’cause I’m the queen of denial",
+    "lyricSong": "Cleopatra, Queen of Denial",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 764,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whenyouwalkintheroom",
+    "q": "Who sings the 90s country favorite “When You Walk in the Room”?",
+    "choices": [
+      "Pam Tillis",
+      "Lari White",
+      "Kathy Mattea",
+      "Shania Twain"
+    ],
+    "a": 0,
+    "lyric": "I can hear the guitars playing lovely tunes / Every time that you walk in the room",
+    "lyricSong": "When You Walk in the Room",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 765,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-deepdown",
+    "q": "Finish the lyric from Pam Tillis’s “Deep Down”: “I got the bleeding stopped …”",
+    "choices": [
+      "but the hurt is here to stay",
+      "but my heart is still in pieces",
+      "but there’s gonna be a scar",
+      "but the tears keep falling down"
+    ],
+    "a": 2,
+    "lyric": "I got the bleeding stopped but there’s gonna be a scar",
+    "lyricSong": "Deep Down",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 766,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-landoftheliving",
+    "q": "Finish the lyric from Pam Tillis’s “Land of the Living”: “The world is turning in the land of the living / Take a deep breath, …”",
+    "choices": [
+      "life goes on, life goes on",
+      "it’s all right, it’s all right",
+      "let it go, let it go",
+      "start again, start again"
+    ],
+    "a": 0,
+    "lyric": "The world is turning in the land of the living / Take a deep breath, life goes on",
+    "lyricSong": "Land of the Living",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 767,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-itslonelyoutthere",
+    "q": "Who recorded the 90s country hit “It’s Lonely Out There”?",
+    "choices": [
+      "Mindy McCready",
+      "Pam Tillis",
+      "Chely Wright",
+      "Lorrie Morgan"
+    ],
+    "a": 1,
+    "lyric": "Go on and get your share / But believe me, baby, it’s lonely out there",
+    "lyricSong": "It’s Lonely Out There",
+    "lyricArtist": "Pam Tillis"
+  },
+  {
+    "id": 768,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thetimehascome",
+    "q": "Who sings the 90s country favorite “The Time Has Come”?",
+    "choices": [
+      "Martina McBride",
+      "Trisha Yearwood",
+      "Mindy McCready",
+      "Pam Tillis"
+    ],
+    "a": 0,
+    "lyric": "The time has come to let you go / My tears will run and they’ll keep me afloat",
+    "lyricSong": "The Time Has Come",
+    "lyricArtist": "Martina McBride"
+  },
+  {
+    "id": 769,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-safeinthearmsoflove",
+    "q": "Whose 1990s country single is “Safe in the Arms of Love”?",
+    "choices": [
+      "Martina McBride",
+      "Jo Dee Messina",
+      "LeAnn Rimes",
+      "Shania Twain"
+    ],
+    "a": 0,
+    "lyric": "I want arms that know how to rock me / Safe in the arms of love",
+    "lyricSong": "Safe in the Arms of Love",
+    "lyricArtist": "Martina McBride"
+  },
+  {
+    "id": 770,
+    "category": "NAME THAT SONG",
+    "topic": "hit-valentine",
+    "q": "Which 90s country hit includes the line “If there were no words, no way to speak, I would still hear you”?",
+    "choices": [
+      "Wrong Again",
+      "Valentine",
+      "A Broken Wing",
+      "Safe in the Arms of Love"
+    ],
+    "a": 1,
+    "lyric": "You would still have my heart until the end of time / You’re all I need, my love, my Valentine",
+    "lyricSong": "Valentine",
+    "lyricArtist": "Jim Brickman with Martina McBride"
+  },
+  {
+    "id": 771,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-wrongagain",
+    "q": "Who sings the 90s country favorite “Wrong Again”?",
+    "choices": [
+      "Carlene Carter",
+      "Sara Evans",
+      "Martina McBride",
+      "Suzy Bogguss"
+    ],
+    "a": 2,
+    "lyric": "I knew that it was safe with you / And what we had would never end, wrong again",
+    "lyricSong": "Wrong Again",
+    "lyricArtist": "Martina McBride"
+  },
+  {
+    "id": 772,
+    "category": "NAME THAT SONG",
+    "topic": "hit-iloveyou",
+    "q": "Which 90s country hit includes the line “I’ve known you just a week or two, but baby, I’m so into you”?",
+    "choices": [
+      "I Love You",
+      "Wild Angels",
+      "Happy Girl",
+      "Whatever You Say"
+    ],
+    "a": 0,
+    "lyric": "Sure as the sky is blue / Baby, I love you",
+    "lyricSong": "I Love You",
+    "lyricArtist": "Martina McBride"
+  },
+  {
+    "id": 773,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-lovestheonlyhouse",
+    "q": "In Martina McBride’s “Love’s the Only House,” where is she standing when the song begins?",
+    "choices": [
+      "At a laundromat",
+      "In a church parking lot",
+      "In the grocery store express line",
+      "At a bus stop"
+    ],
+    "a": 2,
+    "lyric": "I was standing in the grocery store line / The one they marked express",
+    "lyricSong": "Love’s the Only House",
+    "lyricArtist": "Martina McBride"
+  },
+  {
+    "id": 774,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-icanloveyoubetter",
+    "q": "Finish the lyric from the Dixie Chicks’s “I Can Love You Better”: “All I’m askin’ is …”",
+    "choices": [
+      "for one more dance",
+      "for you to take my hand",
+      "for one more try",
+      "for one little chance"
+    ],
+    "a": 3,
+    "lyric": "I can love you better than that / I know how to make you forget her",
+    "lyricSong": "I Can Love You Better",
+    "lyricArtist": "Dixie Chicks"
+  },
+  {
+    "id": 775,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-goodbyeearl",
+    "q": "In the Dixie Chicks’ “Goodbye Earl,” what dish do Mary Anne and Wanda poison Earl with?",
+    "choices": [
+      "Cornbread",
+      "Collard greens",
+      "Black-eyed peas",
+      "Chicken and dumplings"
+    ],
+    "a": 2,
+    "lyric": "Goodbye, Earl / Those black-eyed peas, they tasted all right to me, Earl",
+    "lyricSong": "Goodbye Earl",
+    "lyricArtist": "Dixie Chicks"
+  },
+  {
+    "id": 776,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hurtme",
+    "q": "Who recorded the 90s country hit “Hurt Me”?",
+    "choices": [
+      "Patty Loveless",
+      "LeAnn Rimes",
+      "Lee Ann Womack",
+      "Suzy Bogguss"
+    ],
+    "a": 1,
+    "lyric": "Hurt me, why in the world did you hurt me",
+    "lyricSong": "Hurt Me",
+    "lyricArtist": "LeAnn Rimes"
+  },
+  {
+    "id": 777,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-unchainedmelody",
+    "q": "Who sings the 90s country favorite “Unchained Melody”?",
+    "choices": [
+      "Kathy Mattea",
+      "Wynonna",
+      "LeAnn Rimes",
+      "Terri Clark"
+    ],
+    "a": 2,
+    "lyric": "Lonely rivers flow to the sea, to the sea / To the open arms of the sea",
+    "lyricSong": "Unchained Melody",
+    "lyricArtist": "LeAnn Rimes"
+  },
+  {
+    "id": 778,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-countmein",
+    "q": "Who recorded the 90s country hit “Count Me In”?",
+    "choices": [
+      "Tanya Tucker",
+      "Deana Carter",
+      "Reba McEntire",
+      "Sara Evans"
+    ],
+    "a": 1,
+    "lyric": "But if you’re talking about a game I can win / You can count me in",
+    "lyricSong": "Count Me In",
+    "lyricArtist": "Deana Carter"
+  },
+  {
+    "id": 779,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-youstillshakeme",
+    "q": "Finish the lyric from Deana Carter’s “You Still Shake Me”: “I ain’t your chick, I ain’t your squeeze …”",
+    "choices": [
+      "I ain’t the fool you thought you’d keep",
+      "I ain’t your honey, can’t you see",
+      "I ain’t the one you used to see",
+      "I ain’t the girl I used to be"
+    ],
+    "a": 3,
+    "lyric": "I ain’t your chick, I ain’t your squeeze / I ain’t the girl I used to be",
+    "lyricSong": "You Still Shake Me",
+    "lyricArtist": "Deana Carter"
+  },
+  {
+    "id": 780,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-maybehellnoticehernow",
+    "q": "In Mindy McCready’s “Maybe He’ll Notice Her Now,” what does the woman compare herself to in her goodbye note?",
+    "choices": [
+      "A photograph in a drawer",
+      "A painting collecting dust on the wall",
+      "A mirror nobody looks into",
+      "A calendar nobody reads"
+    ],
+    "a": 1,
+    "lyric": "I feel just like that painting, collecting dust on the wall",
+    "lyricSong": "Maybe He’ll Notice Her Now",
+    "lyricArtist": "Mindy McCready with Richie McDonald"
+  },
+  {
+    "id": 781,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whatifido",
+    "q": "Finish the lyric from Mindy McCready’s “What If I Do”: “What if I don’t …”",
+    "choices": [
+      "will he find somebody new",
+      "will he still want me more",
+      "will he walk out the door",
+      "will he love me anymore"
+    ],
+    "a": 2,
+    "lyric": "What if I do, will he love me more / What if I don’t, will he walk out the door",
+    "lyricSong": "What If I Do",
+    "lyricArtist": "Mindy McCready"
+  },
+  {
+    "id": 782,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-yourenotinkansasanymore",
+    "q": "In Jo Dee Messina’s “You’re Not in Kansas Anymore,” which Kansas city did the guy grow up near?",
+    "choices": [
+      "Dodge City",
+      "Wichita",
+      "Abilene",
+      "Topeka"
+    ],
+    "a": 1,
+    "lyric": "I grew up near Wichita in a Mayberry kind of town",
+    "lyricSong": "You’re Not in Kansas Anymore",
+    "lyricArtist": "Jo Dee Messina"
+  },
+  {
+    "id": 783,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-doyouwannamakesomethingofit",
+    "q": "Which artist had a 1990s country hit with “Do You Wanna Make Something of It”?",
+    "choices": [
+      "LeAnn Rimes",
+      "Trisha Yearwood",
+      "Suzy Bogguss",
+      "Jo Dee Messina"
+    ],
+    "a": 3,
+    "lyric": "There’s a little bitty flame burnin’ deep in my heart / You wanna make something of it?",
+    "lyricSong": "Do You Wanna Make Something of It",
+    "lyricArtist": "Jo Dee Messina"
+  },
+  {
+    "id": 784,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-youvegottotalktome",
+    "q": "Which artist had a 1990s country hit with “You’ve Got to Talk to Me”?",
+    "choices": [
+      "Shania Twain",
+      "Lee Ann Womack",
+      "Sara Evans",
+      "Mary Chapin Carpenter"
+    ],
+    "a": 1,
+    "lyric": "Have a little faith in me / Baby, can’t you see, you’ve got to talk to me",
+    "lyricSong": "You’ve Got to Talk to Me",
+    "lyricArtist": "Lee Ann Womack"
+  },
+  {
+    "id": 785,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-buckaroo",
+    "q": "Finish the lyric from Lee Ann Womack’s “Buckaroo”: “I need a man who can tame …”",
+    "choices": [
+      "a raging bull",
+      "a wild mustang",
+      "a lonesome heart",
+      "a bucking bronco"
+    ],
+    "a": 1,
+    "lyric": "I need a man who can tame a wild mustang",
+    "lyricSong": "Buckaroo",
+    "lyricArtist": "Lee Ann Womack"
+  },
+  {
+    "id": 786,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whenboymeetsgirl",
+    "q": "Who sings the 90s country favorite “When Boy Meets Girl”?",
+    "choices": [
+      "Lorrie Morgan",
+      "Lee Ann Womack",
+      "Suzy Bogguss",
+      "Terri Clark"
+    ],
+    "a": 3,
+    "lyric": "And he’ll be living in a different world / When boy meets girl",
+    "lyricSong": "When Boy Meets Girl",
+    "lyricArtist": "Terri Clark"
+  },
+  {
+    "id": 787,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-justthesame",
+    "q": "Which artist had a 1990s country hit with “Just the Same”?",
+    "choices": [
+      "Terri Clark",
+      "LeAnn Rimes",
+      "Martina McBride",
+      "Kathy Mattea"
+    ],
+    "a": 0,
+    "lyric": "I would’ve found you, I would’ve found you just the same",
+    "lyricSong": "Just the Same",
+    "lyricArtist": "Terri Clark"
+  },
+  {
+    "id": 788,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-everytimeicry",
+    "q": "Which artist had a 1990s country hit with “Everytime I Cry”?",
+    "choices": [
+      "Faith Hill",
+      "Lari White",
+      "Terri Clark",
+      "Jo Dee Messina"
+    ],
+    "a": 2,
+    "lyric": "Every time I do, every time you lie, every time I cry",
+    "lyricSong": "Everytime I Cry",
+    "lyricArtist": "Terri Clark"
+  },
+  {
+    "id": 789,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-threechordsandthetruth",
+    "q": "Finish the lyric from Sara Evans’s “Three Chords and the Truth”: “But with his songs he turned my life …”",
+    "choices": [
+      "upside down",
+      "back to you again",
+      "into a country song",
+      "and this old car around"
+    ],
+    "a": 3,
+    "lyric": "But with his songs he turned my life and this old car around",
+    "lyricSong": "Three Chords and the Truth",
+    "lyricArtist": "Sara Evans"
+  },
+  {
+    "id": 790,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-shameaboutthat",
+    "q": "Finish the lyric from Sara Evans’s “Shame About That”: “’Cause I wouldn’t touch you …”",
+    "choices": [
+      "if you paid me twice",
+      "with a ten foot pole",
+      "with a borrowed glove",
+      "for a pot of gold"
+    ],
+    "a": 1,
+    "lyric": "So don’t bother knockin’ on my door / ’Cause I wouldn’t touch you with a ten foot pole",
+    "lyricSong": "Shame About That",
+    "lyricArtist": "Sara Evans"
+  },
+  {
+    "id": 791,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-cryingame",
+    "q": "Whose 1990s country single is “Cryin’ Game”?",
+    "choices": [
+      "Lorrie Morgan",
+      "Faith Hill",
+      "Sara Evans",
+      "Carlene Carter"
+    ],
+    "a": 2,
+    "lyric": "I know where to find the door / Ain’t gonna play the cryin’ game no more",
+    "lyricSong": "Cryin’ Game",
+    "lyricArtist": "Sara Evans"
+  },
+  {
+    "id": 792,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-itwas",
+    "q": "Who recorded the 90s country hit “It Was”?",
+    "choices": [
+      "Mindy McCready",
+      "Lee Ann Womack",
+      "Chely Wright",
+      "LeAnn Rimes"
+    ],
+    "a": 2,
+    "lyric": "It was real, it was magic, it was calm, it was savage",
+    "lyricSong": "It Was",
+    "lyricArtist": "Chely Wright"
+  },
+  {
+    "id": 793,
+    "category": "NAME THAT SONG",
+    "topic": "hit-tequilatalkin",
+    "q": "Which 90s country hit includes the line “And that tear in my eye was the salt and the lime”?",
+    "choices": [
+      "No News",
+      "Come Cryin’ to Me",
+      "Tequila Talkin’",
+      "Amazed"
+    ],
+    "a": 2,
+    "lyric": "If I said I’m still in love with you / It was just the tequila talkin’",
+    "lyricSong": "Tequila Talkin’",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 794,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-nonews",
+    "q": "Finish the lyric from Lonestar’s “No News”: “She could telephone, tell a friend …”",
+    "choices": [
+      "tell a lie ’bout where she’s been",
+      "tell me why she’s gone again",
+      "call me up and say the end",
+      "send a card from where she’s been"
+    ],
+    "a": 0,
+    "lyric": "She could telephone, tell a friend / Tell a lie ’bout where she’s been",
+    "lyricSong": "No News",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 795,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-comecryintome",
+    "q": "Who recorded the 90s country hit “Come Cryin’ to Me”?",
+    "choices": [
+      "Sons of the Desert",
+      "Lonestar",
+      "Shenandoah",
+      "Alison Krauss & Union Station"
+    ],
+    "a": 1,
+    "lyric": "When you’re tired of it all and tears need to fall / Your back’s to the wall, come cryin’ to me",
+    "lyricSong": "Come Cryin’ to Me",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 796,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-youwalkedin",
+    "q": "Finish the lyric from Lonestar’s “You Walked In”: “You walked in with legs …”",
+    "choices": [
+      "that went on for days",
+      "up to your neck",
+      "in a little black dress",
+      "like a supermodel"
+    ],
+    "a": 1,
+    "lyric": "You walked in with legs up to your neck / You walked in, I’m a physical wreck",
+    "lyricSong": "You Walked In",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 797,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-saywhen",
+    "q": "Which artist had a 1990s country hit with “Say When”?",
+    "choices": [
+      "Lonestar",
+      "Little Texas",
+      "Restless Heart",
+      "Alison Krauss & Union Station"
+    ],
+    "a": 0,
+    "lyric": "Say when, I’ll be there by your side / For a day, for a year, for the rest of my life",
+    "lyricSong": "Say When",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 798,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-everythingschanged",
+    "q": "In Lonestar’s “Everything’s Changed,” what has the old drive-in become?",
+    "choices": [
+      "A Wal-Mart",
+      "A church",
+      "A gas station",
+      "A parking garage"
+    ],
+    "a": 0,
+    "lyric": "They put up a plant where we used to park / That old drive-in’s a new Wal-Mart",
+    "lyricSong": "Everything’s Changed",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 799,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-smile",
+    "q": "Finish the lyric from Lonestar’s “Smile”: “I’m gonna smile ’cause I want to …”",
+    "choices": [
+      "make you happy",
+      "make it through",
+      "hide my pain",
+      "see you shine"
+    ],
+    "a": 0,
+    "lyric": "I’m gonna smile ’cause I want to make you happy / Laugh so you can’t see me cry",
+    "lyricSong": "Smile",
+    "lyricArtist": "Lonestar"
+  },
+  {
+    "id": 800,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-theresagirlintexas",
+    "q": "Who recorded the 90s country hit “There’s a Girl in Texas”?",
+    "choices": [
+      "Doug Stone",
+      "Tim McGraw",
+      "Paul Brandt",
+      "Trace Adkins"
+    ],
+    "a": 3,
+    "lyric": "Not sure I know who I am anymore, but / There’s a girl in Texas that does",
+    "lyricSong": "There’s a Girl in Texas",
+    "lyricArtist": "Trace Adkins"
+  },
+  {
+    "id": 801,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ileftsomethingturnedonathome",
+    "q": "Finish the lyric from Trace Adkins’s “I Left Something Turned On at Home”: “It ain’t the stove, …”",
+    "choices": [
+      "it ain’t the porch light",
+      "it ain’t the TV",
+      "it ain’t the coffee pot",
+      "it ain’t the heater"
+    ],
+    "a": 3,
+    "lyric": "It ain’t the stove, it ain’t the heater / She’s hotter and a whole lot sweeter",
+    "lyricSong": "I Left Something Turned On at Home",
+    "lyricArtist": "Trace Adkins"
+  },
+  {
+    "id": 802,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thisaintnothinkinthing",
+    "q": "Finish the lyric from Trace Adkins’s “(This Ain’t) No Thinkin’ Thing”: “It’s a chemical, physical, …”",
+    "choices": [
+      "natural emotion",
+      "emotional devotion",
+      "magical potion",
+      "mental notion"
+    ],
+    "a": 1,
+    "lyric": "This ain’t no thinkin’ thing, right brain, left brain / It goes a little deeper than that",
+    "lyricSong": "(This Ain’t) No Thinkin’ Thing",
+    "lyricArtist": "Trace Adkins"
+  },
+  {
+    "id": 803,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lonelywontleavemealone",
+    "q": "Who recorded the 90s country hit “Lonely Won’t Leave Me Alone”?",
+    "choices": [
+      "George Jones",
+      "Ty England",
+      "Trace Adkins",
+      "Dwight Yoakam"
+    ],
+    "a": 2,
+    "lyric": "Blue-eyed gypsy, you’re still with me everywhere I go / Lonely won’t leave me alone",
+    "lyricSong": "Lonely Won’t Leave Me Alone",
+    "lyricArtist": "Trace Adkins"
+  },
+  {
+    "id": 804,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-bigtime",
+    "q": "Who recorded the 90s country hit “Big Time”?",
+    "choices": [
+      "Mark Collie",
+      "Garth Brooks",
+      "Trace Adkins",
+      "Marty Stuart"
+    ],
+    "a": 2,
+    "lyric": "Big time, we’re gonna have one / Big time, we’re gonna grab some",
+    "lyricSong": "Big Time",
+    "lyricArtist": "Trace Adkins"
+  },
+  {
+    "id": 805,
+    "category": "NAME THAT SONG",
+    "topic": "hit-therestofmine",
+    "q": "Which 90s country hit includes the line “Till my last breath, till I’m called on high”?",
+    "choices": [
+      "Lonely Won’t Leave Me Alone",
+      "The Rest of Mine",
+      "There’s a Girl in Texas",
+      "Every Light in the House"
+    ],
+    "a": 1,
+    "lyric": "But I swear I’ll love you for the rest of mine",
+    "lyricSong": "The Rest of Mine",
+    "lyricArtist": "Trace Adkins"
+  },
+  {
+    "id": 806,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-jacobsladder",
+    "q": "In Mark Wills’s “Jacob’s Ladder,” whose room does Jacob climb the ladder to reach?",
+    "choices": [
+      "Mary’s, the banker’s daughter",
+      "Rachel’s, the land baron’s daughter",
+      "Sarah’s, the preacher’s daughter",
+      "Ruth’s, the sheriff’s daughter"
+    ],
+    "a": 1,
+    "lyric": "So late one night by the harvest moon / Jacob climbed a ladder up to Rachel’s room",
+    "lyricSong": "Jacob’s Ladder",
+    "lyricArtist": "Mark Wills"
+  },
+  {
+    "id": 807,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-placesiveneverbeen",
+    "q": "Finish the lyric from Mark Wills’s “Places I’ve Never Been”: “I travel the world …”",
+    "choices": [
+      "on the wings of a dove",
+      "every time that we kiss",
+      "in your arms and back again",
+      "in the blink of an eye"
+    ],
+    "a": 2,
+    "lyric": "’Cause you take me places I’ve never been / I travel the world in your arms and back again",
+    "lyricSong": "Places I’ve Never Been",
+    "lyricArtist": "Mark Wills"
+  },
+  {
+    "id": 808,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-idocherishyou",
+    "q": "Who sings the 90s country favorite “I Do (Cherish You)”?",
+    "choices": [
+      "Mark Wills",
+      "Doug Stone",
+      "Radney Foster",
+      "Bryan White"
+    ],
+    "a": 0,
+    "lyric": "I do cherish you / For the rest of my life, you don’t have to think twice",
+    "lyricSong": "I Do (Cherish You)",
+    "lyricArtist": "Mark Wills"
+  },
+  {
+    "id": 809,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-dontlaughatme",
+    "q": "In Mark Wills’s “Don’t Laugh at Me,” why does the little girl never smile?",
+    "choices": [
+      "She lost her front teeth",
+      "She wears thick glasses",
+      "She has a scar on her lip",
+      "She has braces on her teeth"
+    ],
+    "a": 3,
+    "lyric": "A little girl who never smiles / ’Cause I’ve got braces on my teeth",
+    "lyricSong": "Don’t Laugh at Me",
+    "lyricArtist": "Mark Wills"
+  },
+  {
+    "id": 810,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-wishyouwerehere",
+    "q": "In Mark Wills’s “Wish You Were Here,” what single word is printed on the front of the postcard?",
+    "choices": [
+      "Aloha",
+      "Hawaii",
+      "Heaven",
+      "Paradise"
+    ],
+    "a": 2,
+    "lyric": "He bought a postcard, on the front it just said “Heaven” / With a picture of the ocean and beach",
+    "lyricSong": "Wish You Were Here",
+    "lyricArtist": "Mark Wills"
+  },
+  {
+    "id": 811,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-shesinlove",
+    "q": "Who recorded the 90s country hit “She’s in Love”?",
+    "choices": [
+      "Trace Adkins",
+      "Ty Herndon",
+      "Lee Roy Parnell",
+      "Mark Wills"
+    ],
+    "a": 3,
+    "lyric": "She’s in love, she’s got that fire in her eyes",
+    "lyricSong": "She’s in Love",
+    "lyricArtist": "Mark Wills"
+  },
+  {
+    "id": 812,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hillbillyshoes",
+    "q": "Who sings the 90s country favorite “Hillbilly Shoes”?",
+    "choices": [
+      "Shenandoah",
+      "Pirates of the Mississippi",
+      "The Judds",
+      "Montgomery Gentry"
+    ],
+    "a": 3,
+    "lyric": "Till you walk a while, a country mile / In my hillbilly shoes",
+    "lyricSong": "Hillbilly Shoes",
+    "lyricArtist": "Montgomery Gentry"
+  },
+  {
+    "id": 813,
+    "category": "NAME THAT SONG",
+    "topic": "hit-lonelyandgone",
+    "q": "Which 90s country hit includes the line “Never heard a house sound so loud with memories”?",
+    "choices": [
+      "Little Rock",
+      "Lonely Too Long",
+      "Hillbilly Shoes",
+      "Lonely and Gone"
+    ],
+    "a": 3,
+    "lyric": "Coulda heard a teardrop, coulda heard a heartbreak / Never saw the flood come, even though I felt the rain",
+    "lyricSong": "Lonely and Gone",
+    "lyricArtist": "Montgomery Gentry"
+  },
+  {
+    "id": 814,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-whoneedspictures",
+    "q": "In Brad Paisley’s “Who Needs Pictures,” what does he find in his dresser drawer?",
+    "choices": [
+      "A stack of love letters",
+      "A box of old photographs",
+      "An old Kodak camera",
+      "Her wedding ring"
+    ],
+    "a": 2,
+    "lyric": "There’s an old Kodak camera in my dresser drawer / I ran across it just this afternoon",
+    "lyricSong": "Who Needs Pictures",
+    "lyricArtist": "Brad Paisley"
+  },
+  {
+    "id": 815,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-hedidnthavetobe",
+    "q": "In Brad Paisley’s “He Didn’t Have to Be,” how old was the narrator when he met the man he calls his dad?",
+    "choices": [
+      "Seven",
+      "Ten",
+      "Three",
+      "Five"
+    ],
+    "a": 3,
+    "lyric": "I met the man I call my dad when I was five years old",
+    "lyricSong": "He Didn’t Have to Be",
+    "lyricArtist": "Brad Paisley"
+  },
+  {
+    "id": 816,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-herman",
+    "q": "Finish the lyric from Gary Allan’s “Her Man”: “’Cause I’ve been a wildcatter …”",
+    "choices": [
+      "and a midnight rambler",
+      "and a go-go getter",
+      "and a rolling stone",
+      "and a honky-tonker"
+    ],
+    "a": 1,
+    "lyric": "’Cause I’ve been a wildcatter and a go-go getter / Been an S.O.B. right down to the letter",
+    "lyricSong": "Her Man",
+    "lyricArtist": "Gary Allan"
+  },
+  {
+    "id": 817,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-livinginahousefulloflove",
+    "q": "Which artist had a 1990s country hit with “Living in a House Full of Love”?",
+    "choices": [
+      "Toby Keith",
+      "Dwight Yoakam",
+      "David Kersh",
+      "Gary Allan"
+    ],
+    "a": 3,
+    "lyric": "Love is pourin’ through the windows, comin’ through the door",
+    "lyricSong": "Living in a House Full of Love",
+    "lyricArtist": "Gary Allan"
+  },
+  {
+    "id": 818,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-itwouldbeyou",
+    "q": "Finish the lyric from Gary Allan’s “It Would Be You”: “If it was a color, …”",
+    "choices": [
+      "it would be a fire-engine red",
+      "it would be a midnight black",
+      "it would be a deep, deep blue",
+      "it would be a stormy gray"
+    ],
+    "a": 2,
+    "lyric": "If it was a color, it would be a deep, deep blue",
+    "lyricSong": "It Would Be You",
+    "lyricArtist": "Gary Allan"
+  },
+  {
+    "id": 819,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-smokeringsinthedark",
+    "q": "Which artist had a 1990s country hit with “Smoke Rings in the Dark”?",
+    "choices": [
+      "Andy Griggs",
+      "Kenny Chesney",
+      "Dwight Yoakam",
+      "Gary Allan"
+    ],
+    "a": 3,
+    "lyric": "As I sit here on the front steps / Blowing smoke rings in the dark",
+    "lyricSong": "Smoke Rings in the Dark",
+    "lyricArtist": "Gary Allan"
+  },
+  {
+    "id": 820,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-youwonteverbelonely",
+    "q": "Whose 1990s country single is “You Won’t Ever Be Lonely”?",
+    "choices": [
+      "Andy Griggs",
+      "Keith Whitley",
+      "Ty England",
+      "Chris LeDoux"
+    ],
+    "a": 0,
+    "lyric": "And I promise you now / You won’t ever be lonely",
+    "lyricSong": "You Won’t Ever Be Lonely",
+    "lyricArtist": "Andy Griggs"
+  },
+  {
+    "id": 821,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-illgocrazy",
+    "q": "Who recorded the 90s country hit “I’ll Go Crazy”?",
+    "choices": [
+      "Sammy Kershaw",
+      "Andy Griggs",
+      "Bryan White",
+      "Hal Ketchum"
+    ],
+    "a": 1,
+    "lyric": "I’ll go quietly, I’ll go silently / But I’ll go crazy without you",
+    "lyricSong": "I’ll Go Crazy",
+    "lyricArtist": "Andy Griggs"
+  },
+  {
+    "id": 822,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-nobodyknows",
+    "q": "Finish the lyric from Kevin Sharp’s “Nobody Knows”: “The nights are lonely, …”",
+    "choices": [
+      "the mornings are cold",
+      "the days are so sad",
+      "the stars have gone out",
+      "the hours are long"
+    ],
+    "a": 1,
+    "lyric": "The nights are lonely, the days are so sad / And I just keep thinkin’ about the love that we had",
+    "lyricSong": "Nobody Knows",
+    "lyricArtist": "Kevin Sharp"
+  },
+  {
+    "id": 823,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-shessuretakingitwell",
+    "q": "Who sings the 90s country favorite “She’s Sure Taking It Well”?",
+    "choices": [
+      "Gary Allan",
+      "Mark Collie",
+      "Randy Travis",
+      "Kevin Sharp"
+    ],
+    "a": 3,
+    "lyric": "My heart’s breaking and she’s sure taking it well",
+    "lyricSong": "She’s Sure Taking It Well",
+    "lyricArtist": "Kevin Sharp"
+  },
+  {
+    "id": 824,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-ifyoulovesomebody",
+    "q": "In Kevin Sharp’s “If You Love Somebody,” which mountain does he offer to climb?",
+    "choices": [
+      "Mount Everest",
+      "Pikes Peak",
+      "Mount Kilimanjaro",
+      "Mount McKinley"
+    ],
+    "a": 0,
+    "lyric": "Mount Everest, I’ll climb it, no problem, just say when / Mississippi, I’ll swim it",
+    "lyricSong": "If You Love Somebody",
+    "lyricArtist": "Kevin Sharp"
+  },
+  {
+    "id": 825,
+    "category": "NAME THAT SONG",
+    "topic": "hit-whatmatteredmost",
+    "q": "Which 90s country hit includes the line “I knew her books, her car, her clothes”?",
+    "choices": [
+      "What Mattered Most",
+      "I Want My Goodbye Back",
+      "Loved Too Much",
+      "Living in a Moment"
+    ],
+    "a": 0,
+    "lyric": "I knew her books, her car, her clothes / But I paid no attention to what mattered most",
+    "lyricSong": "What Mattered Most",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 826,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-iwantmygoodbyeback",
+    "q": "Finish the lyric from Ty Herndon’s “I Want My Goodbye Back”: “I had a momentary, temporary …”",
+    "choices": [
+      "lack of self control",
+      "change of heart and soul",
+      "loss of rock and roll",
+      "fit of jealous rage"
+    ],
+    "a": 0,
+    "lyric": "I had a momentary, temporary lack of self control",
+    "lyricSong": "I Want My Goodbye Back",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 827,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-livinginamoment",
+    "q": "Which artist had a 1990s country hit with “Living in a Moment”?",
+    "choices": [
+      "Doug Stone",
+      "Ty Herndon",
+      "Jeff Carson",
+      "George Ducas"
+    ],
+    "a": 1,
+    "lyric": "Who could ask for more / Than to be living in a moment you would die for",
+    "lyricSong": "Living in a Moment",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 828,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-itmustbelove",
+    "q": "Who sings the 90s country favorite “It Must Be Love”?",
+    "choices": [
+      "Rhett Akins",
+      "Ken Mellons",
+      "Randy Travis",
+      "Ty Herndon"
+    ],
+    "a": 3,
+    "lyric": "Oh, I don’t know but something tells me / It must be love",
+    "lyricSong": "It Must Be Love",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 829,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-lovedtoomuch",
+    "q": "Finish the lyric from Ty Herndon’s “Loved Too Much”: “I need to be loved too much / I need to be …”",
+    "choices": [
+      "home tonight",
+      "kissed goodnight",
+      "told I’m right",
+      "held too tight"
+    ],
+    "a": 3,
+    "lyric": "I need to be loved too much / I need to be held too tight",
+    "lyricSong": "Loved Too Much",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 830,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-amanholdinontoawomanlettingo",
+    "q": "In Ty Herndon’s “A Man Holdin’ On (To a Woman Lettin’ Go),” how many years has the father watched his daughter grow before walking her down the aisle?",
+    "choices": [
+      "Twenty-one",
+      "Twenty-two",
+      "Twenty-five",
+      "Eighteen"
+    ],
+    "a": 1,
+    "lyric": "For twenty-two years he’s watched her grow / A man holdin’ on to a woman lettin’ go",
+    "lyricSong": "A Man Holdin’ On (To a Woman Lettin’ Go)",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 831,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-steam",
+    "q": "In Ty Herndon’s “Steam,” what temperature does the bank sign show?",
+    "choices": [
+      "Ninety-eight",
+      "A hundred and two",
+      "A hundred and five",
+      "A hundred and ten"
+    ],
+    "a": 1,
+    "lyric": "Bank sign says a hundred and two / But that ain’t nothin’ when I’m next to you",
+    "lyricSong": "Steam",
+    "lyricArtist": "Ty Herndon"
+  },
+  {
+    "id": 832,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lookatmenow",
+    "q": "Whose 1990s country single is “Look at Me Now”?",
+    "choices": [
+      "Bryan White",
+      "John Berry",
+      "Clay Walker",
+      "Lee Roy Parnell"
+    ],
+    "a": 0,
+    "lyric": "Look at me now / Nothing but a whole lot of time on my hands",
+    "lyricSong": "Look at Me Now",
+    "lyricArtist": "Bryan White"
+  },
+  {
+    "id": 833,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-imnotsupposedtoloveyouanymore",
+    "q": "In Bryan White’s “I’m Not Supposed to Love You Anymore,” where does he put his gold ring?",
+    "choices": [
+      "On the dresser",
+      "In the river",
+      "In the drawer",
+      "In his pocket"
+    ],
+    "a": 2,
+    "lyric": "Put your picture in the shoebox and my gold ring in the drawer / I’m not supposed to love you anymore",
+    "lyricSong": "I’m Not Supposed to Love You Anymore",
+    "lyricArtist": "Bryan White"
+  },
+  {
+    "id": 834,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-onesmallmiracle",
+    "q": "Finish the lyric from Bryan White’s “One Small Miracle”: “One small miracle nobody needs, …”",
+    "choices": [
+      "send it my way",
+      "bring it on home",
+      "send it on down",
+      "pass it along"
+    ],
+    "a": 2,
+    "lyric": "Please don’t you have a miracle just lying around / One small miracle nobody needs, send it on down",
+    "lyricSong": "One Small Miracle",
+    "lyricArtist": "Bryan White"
+  },
+  {
+    "id": 835,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-loveistherightplace",
+    "q": "Who sings the 90s country favorite “Love Is the Right Place”?",
+    "choices": [
+      "Bryan White",
+      "Lee Roy Parnell",
+      "Hal Ketchum",
+      "John Michael Montgomery"
+    ],
+    "a": 0,
+    "lyric": "And every day of my life I realize love is the right place",
+    "lyricSong": "Love Is the Right Place",
+    "lyricArtist": "Bryan White"
+  },
+  {
+    "id": 836,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-godgavemeyou",
+    "q": "Who recorded the 90s country hit “God Gave Me You”?",
+    "choices": [
+      "Ty England",
+      "Tim McGraw",
+      "Mark Wills",
+      "Bryan White"
+    ],
+    "a": 3,
+    "lyric": "God gave me you to show me what’s real / There’s more to life than just how I feel",
+    "lyricSong": "God Gave Me You",
+    "lyricArtist": "Bryan White"
+  },
+  {
+    "id": 837,
+    "category": "NAME THAT SONG",
+    "topic": "hit-yourloveamazesme",
+    "q": "Which 90s country hit includes the line “I’ve seen the seven wonders of the world”?",
+    "choices": [
+      "Standing on the Edge of Goodbye",
+      "Your Love Amazes Me",
+      "I Think About It All the Time",
+      "She’s Taken a Shine"
+    ],
+    "a": 1,
+    "lyric": "But they mean nothing, baby / Your love amazes me",
+    "lyricSong": "Your Love Amazes Me",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 838,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatsinitforme",
+    "q": "Who sings the 90s country favorite “What’s in It for Me”?",
+    "choices": [
+      "Ricky Van Shelton",
+      "Alan Jackson",
+      "John Berry",
+      "Joe Diffie"
+    ],
+    "a": 2,
+    "lyric": "What’s in it for me, I’ve got to ask / If it’s only more tears, then I’ll have to pass",
+    "lyricSong": "What’s in It for Me",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 839,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ithinkaboutitallthetime",
+    "q": "Which 90s country hit includes the line “The way that you smile without meaning to”?",
+    "choices": [
+      "You and Only You",
+      "Change My Mind",
+      "Your Love Amazes Me",
+      "I Think About It All the Time"
+    ],
+    "a": 3,
+    "lyric": "The way you look me in the eye / I think about it all the time",
+    "lyricSong": "I Think About It All the Time",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 840,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-youandonlyyou",
+    "q": "Finish the lyric from John Berry’s “You and Only You”: “You hold the power in your hands / You and only you can …”",
+    "choices": [
+      "make these broken dreams come true",
+      "make the sun come shining through",
+      "mend this heart of mine",
+      "bring me back to life again"
+    ],
+    "a": 0,
+    "lyric": "You and only you can make these broken dreams come true",
+    "lyricSong": "You and Only You",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 841,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-standingontheedgeofgoodbye",
+    "q": "Finish the lyric from John Berry’s “Standing on the Edge of Goodbye”: “I can’t sleep and I can’t eat …”",
+    "choices": [
+      "sometimes I hear you calling me",
+      "sometimes I can’t remember why",
+      "sometimes I can’t stop the tears",
+      "sometimes I find it hard to breathe"
+    ],
+    "a": 3,
+    "lyric": "I can’t sleep and I can’t eat / Sometimes I find it hard to breathe",
+    "lyricSong": "Standing on the Edge of Goodbye",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 842,
+    "category": "NAME THAT SONG",
+    "topic": "hit-changemymind",
+    "q": "Which 90s country hit includes the line “Pack my bags, take the midnight train unless you say I’m wrong”?",
+    "choices": [
+      "Standing on the Edge of Goodbye",
+      "Change My Mind",
+      "She’s Taken a Shine",
+      "What’s in It for Me"
+    ],
+    "a": 1,
+    "lyric": "Change my mind, say you couldn’t live without me / Say you’re crazy about me",
+    "lyricSong": "Change My Mind",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 843,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-shestakenashine",
+    "q": "In John Berry’s “She’s Taken a Shine,” who has been coming to the diner to see Rosie?",
+    "choices": [
+      "Joey",
+      "Jesse",
+      "Jimmy",
+      "Johnny"
+    ],
+    "a": 1,
+    "lyric": "Since that Jesse’s been comin’ to the diner / Folks are sayin’ that she’s never looked finer",
+    "lyricSong": "She’s Taken a Shine",
+    "lyricArtist": "John Berry"
+  },
+  {
+    "id": 844,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-thataintmytruck",
+    "q": "In Rhett Akins’s “That Ain’t My Truck,” what kind of truck is parked in her drive?",
+    "choices": [
+      "A Dodge Ram",
+      "A GMC pickup",
+      "A Ford F-150",
+      "A Chevy four-by-four"
+    ],
+    "a": 3,
+    "lyric": "That Chevy four-by-four says it all, sittin’ in my place",
+    "lyricSong": "That Ain’t My Truck",
+    "lyricArtist": "Rhett Akins"
+  },
+  {
+    "id": 845,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-shesaidyes",
+    "q": "Which artist had a 1990s country hit with “She Said Yes”?",
+    "choices": [
+      "Rick Trevino",
+      "Rhett Akins",
+      "Ricky Van Shelton",
+      "Tim McGraw"
+    ],
+    "a": 1,
+    "lyric": "They lit a flame with the match God had made when she said yes",
+    "lyricSong": "She Said Yes",
+    "lyricArtist": "Rhett Akins"
+  },
+  {
+    "id": 846,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-dontgetmestarted",
+    "q": "Finish the lyric from Rhett Akins’s “Don’t Get Me Started”: “No, don’t get me started, I’m warnin’ you / Unless you got an extra …”",
+    "choices": [
+      "night or so",
+      "dime or two",
+      "hour or two",
+      "week or two"
+    ],
+    "a": 3,
+    "lyric": "Hey darlin’ if you don’t wanna hear how the waters parted / Then don’t get me started",
+    "lyricSong": "Don’t Get Me Started",
+    "lyricArtist": "Rhett Akins"
+  },
+  {
+    "id": 847,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-loveyouback",
+    "q": "In Rhett Akins’s “Love You Back,” what is the name of the girl who set his dreams on fire at seventeen?",
+    "choices": [
+      "Mary Ellen Parker",
+      "Sara Beth Walker",
+      "Kara Leigh Baker",
+      "Annie Lee Tucker"
+    ],
+    "a": 2,
+    "lyric": "Seventeen, Kara Leigh Baker was settin’ my dreams on fire",
+    "lyricSong": "Love You Back",
+    "lyricArtist": "Rhett Akins"
+  },
+  {
+    "id": 848,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-imlivinguptoherlowexpectations",
+    "q": "Finish the lyric from Daryle Singletary’s “I’m Living Up to Her Low Expectations”: “’Cause her low expectations are …”",
+    "choices": [
+      "more than I can be",
+      "all that’s left of me",
+      "high enough for me",
+      "just what I need"
+    ],
+    "a": 2,
+    "lyric": "I’m living up to her low expectations / I’m becoming everything she said I’d be",
+    "lyricSong": "I’m Living Up to Her Low Expectations",
+    "lyricArtist": "Daryle Singletary"
+  },
+  {
+    "id": 849,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-toomuchfun",
+    "q": "Finish the lyric from Daryle Singletary’s “Too Much Fun”: “It’s like a girl too pretty with …”",
+    "choices": [
+      "a heart of gold",
+      "eyes too blue",
+      "too much class",
+      "a temper too fast"
+    ],
+    "a": 2,
+    "lyric": "Too much fun, what’s that mean? / It’s like too much money, there’s no such thing",
+    "lyricSong": "Too Much Fun",
+    "lyricArtist": "Daryle Singletary"
+  },
+  {
+    "id": 850,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-amenkindoflove",
+    "q": "Who recorded the 90s country hit “Amen Kind of Love”?",
+    "choices": [
+      "Dwight Yoakam",
+      "Michael Peterson",
+      "Alan Jackson",
+      "Daryle Singletary"
+    ],
+    "a": 3,
+    "lyric": "I found an amen kind of love / The kind that makes you fall down on your knees",
+    "lyricSong": "Amen Kind of Love",
+    "lyricArtist": "Daryle Singletary"
+  },
+  {
+    "id": 851,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thenote",
+    "q": "Who sings the 90s country favorite “The Note”?",
+    "choices": [
+      "Rick Trevino",
+      "Neal McCoy",
+      "Daryle Singletary",
+      "George Jones"
+    ],
+    "a": 2,
+    "lyric": "By the hand that held the pen / That wrote the words that broke the heart",
+    "lyricSong": "The Note",
+    "lyricArtist": "Daryle Singletary"
+  },
+  {
+    "id": 852,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-jukeboxjunkie",
+    "q": "Finish the lyric from Ken Mellons’s “Jukebox Junkie”: “Feedin’ this habit with …”",
+    "choices": [
+      "rock and roll",
+      "a pocket full of quarters",
+      "hardcore country",
+      "cheap Kentucky whiskey"
+    ],
+    "a": 2,
+    "lyric": "I’m just an ole jukebox junkie / Spendin’ my time, spendin’ my money",
+    "lyricSong": "Jukebox Junkie",
+    "lyricArtist": "Ken Mellons"
+  },
+  {
+    "id": 853,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-ifineverstoplovingyou",
+    "q": "Who sings the 90s country favorite “If I Never Stop Loving You”?",
+    "choices": [
+      "Daryle Singletary",
+      "Travis Tritt",
+      "David Kersh",
+      "John Berry"
+    ],
+    "a": 2,
+    "lyric": "If I never stop loving you / Will you never start wantin’ me to",
+    "lyricSong": "If I Never Stop Loving You",
+    "lyricArtist": "David Kersh"
+  },
+  {
+    "id": 854,
+    "category": "NAME THAT SONG",
+    "topic": "hit-myhearthasahistory",
+    "q": "Which 90s country hit includes the line “Before you get too close to me I think you oughta know”?",
+    "choices": [
+      "I Meant to Do That",
+      "My Heart Has a History",
+      "Take It from Me",
+      "I Do"
+    ],
+    "a": 1,
+    "lyric": "While other loves are growin’ strong / My heart has a history of lettin’ go",
+    "lyricSong": "My Heart Has a History",
+    "lyricArtist": "Paul Brandt"
+  },
+  {
+    "id": 855,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-iwannafallinlove",
+    "q": "Who sings the 90s country favorite “I Wanna Fall in Love”?",
+    "choices": [
+      "Lila McCann",
+      "K.T. Oslin",
+      "Trisha Yearwood",
+      "Carlene Carter"
+    ],
+    "a": 0,
+    "lyric": "I wanna fall in love, I wanna feel that rush / Running into my heart, shaking up my soul",
+    "lyricSong": "I Wanna Fall in Love",
+    "lyricArtist": "Lila McCann"
+  },
+  {
+    "id": 856,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-withyou",
+    "q": "Which artist had a 1990s country hit with “With You”?",
+    "choices": [
+      "Lila McCann",
+      "Martina McBride",
+      "Mindy McCready",
+      "Lee Ann Womack"
+    ],
+    "a": 0,
+    "lyric": "I would go anywhere, do anything, no, I don’t care / Long as I know I’ll always go with you",
+    "lyricSong": "With You",
+    "lyricArtist": "Lila McCann"
+  },
+  {
+    "id": 857,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-littlegoodbyes",
+    "q": "In SHeDAISY’s “Little Good-Byes,” whose records does she take with her when she leaves?",
+    "choices": [
+      "The Beatles",
+      "The Rolling Stones",
+      "Elton John",
+      "The Eagles"
+    ],
+    "a": 0,
+    "lyric": "Unpaid bills by the kitchen phone / I took the Beatles, left Billy Joel",
+    "lyricSong": "Little Good-Byes",
+    "lyricArtist": "SHeDAISY"
+  },
+  {
+    "id": 858,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatevercomesfirst",
+    "q": "Whose 1990s country single is “Whatever Comes First”?",
+    "choices": [
+      "Sons of the Desert",
+      "The Kentucky Headhunters",
+      "Ricochet",
+      "Shenandoah"
+    ],
+    "a": 0,
+    "lyric": "I’m ready for a change of any kind for / Better or worse, I’ll take whatever comes first",
+    "lyricSong": "Whatever Comes First",
+    "lyricArtist": "Sons of the Desert"
+  },
+  {
+    "id": 859,
+    "category": "NAME THAT SONG",
+    "topic": "hit-someguyshaveallthelove",
+    "q": "Which 90s country hit includes the line “No matter how good my plan is, it always seems to come undone”?",
+    "choices": [
+      "Some Guys Have All the Love",
+      "God Blessed Texas",
+      "My Love",
+      "What Might Have Been"
+    ],
+    "a": 0,
+    "lyric": "That I’ve got you and that’s enough / Some guys have all the love",
+    "lyricSong": "Some Guys Have All the Love",
+    "lyricArtist": "Little Texas"
+  },
+  {
+    "id": 860,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-youandforeverandme",
+    "q": "Who sings the 90s country favorite “You and Forever and Me”?",
+    "choices": [
+      "Little Texas",
+      "Restless Heart",
+      "BlackHawk",
+      "The Kinleys"
+    ],
+    "a": 0,
+    "lyric": "And ooh, it was a restless kinda free / When it was you and forever and me",
+    "lyricSong": "You and Forever and Me",
+    "lyricArtist": "Little Texas"
+  },
+  {
+    "id": 861,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-countrycrazy",
+    "q": "In Little Texas’s “Country Crazy,” what was her favorite song back when she was a rock ’n’ roll baby?",
+    "choices": [
+      "“Satisfaction”",
+      "“Brown Sugar”",
+      "“It’s Only Rock ’n’ Roll”",
+      "“Start Me Up”"
+    ],
+    "a": 2,
+    "lyric": "She cut her teeth on the Rollin’ Stones / ‘It’s Only Rock ’n’ Roll’ was her favorite song",
+    "lyricSong": "Country Crazy",
+    "lyricArtist": "Little Texas"
+  },
+  {
+    "id": 862,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-downinflames",
+    "q": "Whose 1990s country single is “Down in Flames”?",
+    "choices": [
+      "The Kentucky Headhunters",
+      "Sawyer Brown",
+      "BlackHawk",
+      "Little Texas"
+    ],
+    "a": 2,
+    "lyric": "They say love this hot can be a dangerous thing / Come on darlin’, let’s go down in flames",
+    "lyricSong": "Down in Flames",
+    "lyricArtist": "BlackHawk"
+  },
+  {
+    "id": 863,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-likethereaintnoyesterday",
+    "q": "Finish the lyric from BlackHawk’s “Like There Ain’t No Yesterday”: “Back in the saddle and I’m …”",
+    "choices": [
+      "riding again",
+      "back in the game",
+      "feeling no pain",
+      "holding the reins"
+    ],
+    "a": 3,
+    "lyric": "Gonna find someone and love her / Like there ain’t no yesterday",
+    "lyricSong": "Like There Ain’t No Yesterday",
+    "lyricArtist": "BlackHawk"
+  },
+  {
+    "id": 864,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thereyouhaveit",
+    "q": "Who sings the 90s country favorite “There You Have It”?",
+    "choices": [
+      "SHeDAISY",
+      "Dixie Chicks",
+      "BlackHawk",
+      "The Kentucky Headhunters"
+    ],
+    "a": 2,
+    "lyric": "There I’ve done it and there I’ve said it / There you have it, I don’t regret it",
+    "lyricSong": "There You Have It",
+    "lyricArtist": "BlackHawk"
+  },
+  {
+    "id": 865,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-almostamemorynow",
+    "q": "Whose 1990s country single is “Almost a Memory Now”?",
+    "choices": [
+      "BlackHawk",
+      "Diamond Rio",
+      "The Mavericks",
+      "SHeDAISY"
+    ],
+    "a": 0,
+    "lyric": "I feel so alone and she’s not even gone / She’s almost a memory now",
+    "lyricSong": "Almost a Memory Now",
+    "lyricArtist": "BlackHawk"
+  },
+  {
+    "id": 866,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ghostinthishouse",
+    "q": "Finish the lyric from Shenandoah’s “Ghost in This House”: “As quietly as a mouse I …”",
+    "choices": [
+      "climb these stairs",
+      "haunt these halls",
+      "walk these floors",
+      "roam these rooms"
+    ],
+    "a": 1,
+    "lyric": "I’m just a ghost in this house / I’m just a shadow upon these walls",
+    "lyricSong": "Ghost in This House",
+    "lyricArtist": "Shenandoah"
+  },
+  {
+    "id": 867,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-igotyou",
+    "q": "In Shenandoah’s “I Got You,” where is the millionaire she could’ve married from?",
+    "choices": [
+      "Kentucky",
+      "Georgia",
+      "Texas",
+      "Ohio"
+    ],
+    "a": 3,
+    "lyric": "You could’ve had that boy you used to know / He’s a millionaire from Ohio",
+    "lyricSong": "I Got You",
+    "lyricArtist": "Shenandoah"
+  },
+  {
+    "id": 868,
+    "category": "NAME THAT SONG",
+    "topic": "hit-themoonovergeorgia",
+    "q": "Which 90s country hit includes the line “She’d rather have a million stars in the sky than a gold mine”?",
+    "choices": [
+      "The Moon Over Georgia",
+      "Ghost in This House",
+      "Next to You, Next to Me",
+      "Two Dozen Roses"
+    ],
+    "a": 0,
+    "lyric": "She took the moon over Georgia / When it came down to his world or mine",
+    "lyricSong": "The Moon Over Georgia",
+    "lyricArtist": "Shenandoah"
+  },
+  {
+    "id": 869,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-rockmybaby",
+    "q": "In Shenandoah’s “Rock My Baby,” where do he and the boys usually go after work?",
+    "choices": [
+      "Gilley’s",
+      "Killey’s",
+      "Billy Bob’s",
+      "Tootsie’s"
+    ],
+    "a": 1,
+    "lyric": "After work, me and the boys / Go down to Killey’s and we make some noise",
+    "lyricSong": "Rock My Baby",
+    "lyricArtist": "Shenandoah"
+  },
+  {
+    "id": 870,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-somewhereinthevicinityoftheheart",
+    "q": "Which artist had a 1990s country hit with “Somewhere in the Vicinity of the Heart”?",
+    "choices": [
+      "Trisha Yearwood & Garth Brooks",
+      "Shenandoah with Alison Krauss",
+      "Reba McEntire & Vince Gill",
+      "Chris LeDoux with Garth Brooks"
+    ],
+    "a": 1,
+    "lyric": "Somewhere in the vicinity of the heart / I feel somethin’ hittin’ me awful hard",
+    "lyricSong": "Somewhere in the Vicinity of the Heart",
+    "lyricArtist": "Shenandoah with Alison Krauss"
+  },
+  {
+    "id": 871,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thedirtroad",
+    "q": "Who sings the 90s country favorite “The Dirt Road”?",
+    "choices": [
+      "Sons of the Desert",
+      "Sawyer Brown",
+      "SHeDAISY",
+      "Confederate Railroad"
+    ],
+    "a": 1,
+    "lyric": "I’ll take the dirt road, it’s all I know / I’ve been a-walkin’ it for years",
+    "lyricSong": "The Dirt Road",
+    "lyricArtist": "Sawyer Brown"
+  },
+  {
+    "id": 872,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-theboysandme",
+    "q": "In Sawyer Brown’s “The Boys and Me,” how old are he and the boys he knew in school?",
+    "choices": [
+      "Thirty",
+      "Fifty",
+      "Twenty-one",
+      "Forty"
+    ],
+    "a": 0,
+    "lyric": "Me and the boys that I knew in school / Are thirty years old and stubborn as a herd of mules",
+    "lyricSong": "The Boys and Me",
+    "lyricArtist": "Sawyer Brown"
+  },
+  {
+    "id": 873,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-idontbelieveingoodbye",
+    "q": "Who recorded the 90s country hit “I Don’t Believe in Goodbye”?",
+    "choices": [
+      "Sawyer Brown",
+      "BlackHawk",
+      "Brooks & Dunn",
+      "Shenandoah"
+    ],
+    "a": 0,
+    "lyric": "’Cause I don’t believe in goodbye / And I believe it takes time",
+    "lyricSong": "I Don’t Believe in Goodbye",
+    "lyricArtist": "Sawyer Brown"
+  },
+  {
+    "id": 874,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-hardtosay",
+    "q": "Which artist had a 1990s country hit with “Hard to Say”?",
+    "choices": [
+      "Sawyer Brown",
+      "Brooks & Dunn",
+      "Diamond Rio",
+      "Shenandoah"
+    ],
+    "a": 0,
+    "lyric": "Is this bad luck or just bad timin’ / Or is it the lies I told? It’s hard to say",
+    "lyricSong": "Hard to Say",
+    "lyricArtist": "Sawyer Brown"
+  },
+  {
+    "id": 875,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-treatherright",
+    "q": "Finish the lyric from Sawyer Brown’s “Treat Her Right”: “Tell her that you need her / Like the desert …”",
+    "choices": [
+      "needs the sun",
+      "needs the moon",
+      "needs the wind",
+      "needs the rain"
+    ],
+    "a": 3,
+    "lyric": "You’ve got to treat her right, understand / That she’s your woman and you’re her man",
+    "lyricSong": "Treat Her Right",
+    "lyricArtist": "Sawyer Brown"
+  },
+  {
+    "id": 876,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-drivemewild",
+    "q": "In Sawyer Brown’s “Drive Me Wild,” what car does she pull over in?",
+    "choices": [
+      "A little red Corvette",
+      "A pink Cadillac",
+      "A little red Mercedes-Benz",
+      "A black Camaro"
+    ],
+    "a": 2,
+    "lyric": "You pull over and I jump in / To your little red Mercedes-Benz",
+    "lyricSong": "Drive Me Wild",
+    "lyricArtist": "Sawyer Brown"
+  },
+  {
+    "id": 877,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-fiveoclockworld",
+    "q": "Who recorded the 90s country hit “Five O’Clock World”?",
+    "choices": [
+      "David Kersh",
+      "Tracy Lawrence",
+      "Hal Ketchum",
+      "Ty England"
+    ],
+    "a": 2,
+    "lyric": "But it’s a five o’clock world when the whistle blows / No one owns a piece of my time",
+    "lyricSong": "Five O’Clock World",
+    "lyricArtist": "Hal Ketchum"
+  },
+  {
+    "id": 878,
+    "category": "NAME THAT SONG",
+    "topic": "hit-mamaknowsthehighway",
+    "q": "Which 90s country hit includes the line “She can tell Wyoming by the wind”?",
+    "choices": [
+      "Mama Knows the Highway",
+      "Small Town Saturday Night",
+      "Past the Point of Rescue",
+      "Sure Love"
+    ],
+    "a": 0,
+    "lyric": "Mama knows the highway now by heart / She can see the rain before it starts",
+    "lyricSong": "Mama Knows the Highway",
+    "lyricArtist": "Hal Ketchum"
+  },
+  {
+    "id": 879,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-iknowwherelovelives",
+    "q": "In Hal Ketchum’s “I Know Where Love Lives,” what color are her eyes?",
+    "choices": [
+      "Steel gray",
+      "Hazel brown",
+      "Sea green",
+      "Sky blue"
+    ],
+    "a": 2,
+    "lyric": "She’s sitting on the back step in the evening air / Sea green eyes and her chestnut hair",
+    "lyricSong": "I Know Where Love Lives",
+    "lyricArtist": "Hal Ketchum"
+  },
+  {
+    "id": 880,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-turnitonturnitupturnmeloose",
+    "q": "Finish the lyric from Dwight Yoakam’s “Turn It On, Turn It Up, Turn Me Loose”: “It helps me forget her so …”",
+    "choices": [
+      "the longer the better",
+      "pour me another",
+      "I’ll drink till it’s over",
+      "the louder the better"
+    ],
+    "a": 3,
+    "lyric": "So turn it on, turn it up, turn me loose / From her memory that’s driving me lonely, crazy and blue",
+    "lyricSong": "Turn It On, Turn It Up, Turn Me Loose",
+    "lyricArtist": "Dwight Yoakam"
+  },
+  {
+    "id": 881,
+    "category": "NAME THAT SONG",
+    "topic": "hit-aintthatlonelyyet",
+    "q": "Which 90s country hit includes the line “Once there was this spider in my bed, I got caught up in her web”?",
+    "choices": [
+      "Fast as You",
+      "A Thousand Miles from Nowhere",
+      "Pocket of a Clown",
+      "Ain’t That Lonely Yet"
+    ],
+    "a": 3,
+    "lyric": "No, I ain’t that lonely yet / After what you put me through",
+    "lyricSong": "Ain’t That Lonely Yet",
+    "lyricArtist": "Dwight Yoakam"
+  },
+  {
+    "id": 882,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-trynottolooksopretty",
+    "q": "Which artist had a 1990s country hit with “Try Not to Look So Pretty”?",
+    "choices": [
+      "Dwight Yoakam",
+      "Clint Black",
+      "Billy Dean",
+      "Gary Allan"
+    ],
+    "a": 0,
+    "lyric": "Try not to look so pretty / And I’ll try not to be your fool",
+    "lyricSong": "Try Not to Look So Pretty",
+    "lyricArtist": "Dwight Yoakam"
+  },
+  {
+    "id": 883,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-thingschange",
+    "q": "Which artist had a 1990s country hit with “Things Change”?",
+    "choices": [
+      "Garth Brooks",
+      "Daryle Singletary",
+      "Dwight Yoakam",
+      "Vince Gill"
+    ],
+    "a": 2,
+    "lyric": "She said, baby things change / I said, but I feel the same",
+    "lyricSong": "Things Change",
+    "lyricArtist": "Dwight Yoakam"
+  },
+  {
+    "id": 884,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-gonethatllbeme",
+    "q": "Who sings the 90s country favorite “Gone (That’ll Be Me)”?",
+    "choices": [
+      "Radney Foster",
+      "Doug Supernaw",
+      "Lee Roy Parnell",
+      "Dwight Yoakam"
+    ],
+    "a": 3,
+    "lyric": "That’ll be me you’ll see walking away / That’ll be me you’ll see for the last time today",
+    "lyricSong": "Gone (That’ll Be Me)",
+    "lyricArtist": "Dwight Yoakam"
+  },
+  {
+    "id": 885,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-crazylittlethingcalledlove",
+    "q": "Who recorded the 90s country hit “Crazy Little Thing Called Love”?",
+    "choices": [
+      "Mark Wills",
+      "Dwight Yoakam",
+      "Collin Raye",
+      "Neal McCoy"
+    ],
+    "a": 1,
+    "lyric": "This thing called love, I just can’t handle it / This thing called love, I must get ’round to it",
+    "lyricSong": "Crazy Little Thing Called Love",
+    "lyricArtist": "Dwight Yoakam"
+  },
+  {
+    "id": 886,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whenitcomestoyou",
+    "q": "Who sings the 90s country favorite “When It Comes to You”?",
+    "choices": [
+      "Aaron Tippin",
+      "John Anderson",
+      "Hal Ketchum",
+      "George Ducas"
+    ],
+    "a": 1,
+    "lyric": "How come I always get a hard time / Honey, when it comes to you",
+    "lyricSong": "When It Comes to You",
+    "lyricArtist": "John Anderson"
+  },
+  {
+    "id": 887,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-ivegotitmade",
+    "q": "Finish the lyric from John Anderson’s “I’ve Got It Made”: “I’ve got a few good friends and …”",
+    "choices": [
+      "my bills are paid",
+      "a cold lemonade",
+      "an old dog that stayed",
+      "a little shade"
+    ],
+    "a": 0,
+    "lyric": "I got the moon and stars above, yeah, I’ve got it made",
+    "lyricSong": "I’ve Got It Made",
+    "lyricArtist": "John Anderson"
+  },
+  {
+    "id": 888,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-backroads",
+    "q": "Finish the lyric from Ricky Van Shelton’s “Backroads”: “And I’m cruisin’ these backroads …”",
+    "choices": [
+      "with my baby by my side",
+      "down to the county line",
+      "on the outskirts of town",
+      "on a Saturday night"
+    ],
+    "a": 2,
+    "lyric": "I’ve got the radio blastin’ / I’ve got the windows rolled down",
+    "lyricSong": "Backroads",
+    "lyricArtist": "Ricky Van Shelton"
+  },
+  {
+    "id": 889,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-iamasimpleman",
+    "q": "Finish the lyric from Ricky Van Shelton’s “I Am a Simple Man”: “I want a job and a piece of land / Three squares in …”",
+    "choices": [
+      "a coffee can",
+      "my frying pan",
+      "a rusty pan",
+      "my pickup van"
+    ],
+    "a": 1,
+    "lyric": "I am a simple man / I want a job and a piece of land",
+    "lyricSong": "I Am a Simple Man",
+    "lyricArtist": "Ricky Van Shelton"
+  },
+  {
+    "id": 890,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-dontstop",
+    "q": "Who sings the 90s country favorite “Don’t Stop”?",
+    "choices": [
+      "Toby Keith",
+      "Tracy Lawrence",
+      "Wade Hayes",
+      "Ken Mellons"
+    ],
+    "a": 2,
+    "lyric": "Now don’t stop, don’t stop / Don’t stop doing what you’re doing to me",
+    "lyricSong": "Don’t Stop",
+    "lyricArtist": "Wade Hayes"
+  },
+  {
+    "id": 891,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatimeanttosay",
+    "q": "Who recorded the 90s country hit “What I Meant to Say”?",
+    "choices": [
+      "Hal Ketchum",
+      "Wade Hayes",
+      "Mark Collie",
+      "David Lee Murphy"
+    ],
+    "a": 1,
+    "lyric": "What I meant to say was I love you / What’s been killin’ me is I hurt you",
+    "lyricSong": "What I Meant to Say",
+    "lyricArtist": "Wade Hayes"
+  },
+  {
+    "id": 892,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-outwithabang",
+    "q": "Finish the lyric from David Lee Murphy’s “Out with a Bang”: “If you’re gonna run with the big dogs, hon / You gotta …”",
+    "choices": [
+      "learn how to bark",
+      "run with the pack",
+      "stay out all night",
+      "get off the porch"
+    ],
+    "a": 3,
+    "lyric": "Out with a bang, kickin’ up dust / Honey, tonight I’m all wound up",
+    "lyricSong": "Out with a Bang",
+    "lyricArtist": "David Lee Murphy"
+  },
+  {
+    "id": 893,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-herecomestherain",
+    "q": "Who recorded the 90s country hit “Here Comes the Rain”?",
+    "choices": [
+      "Brooks & Dunn",
+      "The Kentucky Headhunters",
+      "Pirates of the Mississippi",
+      "The Mavericks"
+    ],
+    "a": 3,
+    "lyric": "Here comes the rain falling down on me / I’m showered in pain",
+    "lyricSong": "Here Comes the Rain",
+    "lyricArtist": "The Mavericks"
+  },
+  {
+    "id": 894,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-dancethenightaway",
+    "q": "Finish the lyric from The Mavericks’ “Dance the Night Away”: “And if she should tell you that she wants me back / Tell her …”",
+    "choices": [
+      "I’m on my way",
+      "to call me later",
+      "I’ll think it over",
+      "no, I gotta go"
+    ],
+    "a": 3,
+    "lyric": "I just want to dance the night away / With señoritas who can sway",
+    "lyricSong": "Dance the Night Away",
+    "lyricArtist": "The Mavericks"
+  },
+  {
+    "id": 895,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-eventhemaninthemooniscryin",
+    "q": "In Mark Collie’s “Even the Man in the Moon Is Cryin’,” in what city does he walk her to the plane?",
+    "choices": [
+      "Tucson",
+      "Phoenix",
+      "Dallas",
+      "Albuquerque"
+    ],
+    "a": 1,
+    "lyric": "I walked her to the plane in Phoenix / I said say hello to your mama",
+    "lyricSong": "Even the Man in the Moon Is Cryin’",
+    "lyricArtist": "Mark Collie"
+  },
+  {
+    "id": 896,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-borntoloveyou",
+    "q": "Whose 1990s country single is “Born to Love You”?",
+    "choices": [
+      "Aaron Tippin",
+      "Mark Collie",
+      "Randy Travis",
+      "Tracy Lawrence"
+    ],
+    "a": 1,
+    "lyric": "I was born to love you / Till the day I die",
+    "lyricSong": "Born to Love You",
+    "lyricArtist": "Mark Collie"
+  },
+  {
+    "id": 897,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-shameshameshameshame",
+    "q": "Finish the lyric from Mark Collie’s “Shame Shame Shame Shame”: “But deep inside I realize / You’re just …”",
+    "choices": [
+      "too good to be true",
+      "a devil in disguise",
+      "a heartbreak in the making",
+      "a fire I can’t tame"
+    ],
+    "a": 1,
+    "lyric": "Shame, shame, shame, shame / You’re stirring up that old flame",
+    "lyricSong": "Shame Shame Shame Shame",
+    "lyricArtist": "Mark Collie"
+  },
+  {
+    "id": 898,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-onlyhereforalittlewhile",
+    "q": "Finish the lyric from Billy Dean’s “Only Here for a Little While”: “Gonna hold who needs holdin’ / Mend what needs mendin’ / Walk what needs walkin’ …”",
+    "choices": [
+      "even if it takes a while",
+      "till the end of the line",
+      "though it means an extra mile",
+      "down a long and lonesome road"
+    ],
+    "a": 2,
+    "lyric": "Pray what needs prayin’, say what needs sayin’ / ’Cause we’re only here for a little while",
+    "lyricSong": "Only Here for a Little While",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 899,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-somewhereinmybrokenheart",
+    "q": "Who sings the 90s country favorite “Somewhere in My Broken Heart”?",
+    "choices": [
+      "Billy Dean",
+      "Randy Travis",
+      "Radney Foster",
+      "Tim McGraw"
+    ],
+    "a": 0,
+    "lyric": "And I, I will keep my love unspoken / Somewhere in my broken heart",
+    "lyricSong": "Somewhere in My Broken Heart",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 900,
+    "category": "NAME THAT SONG",
+    "topic": "hit-youdontcountthecost",
+    "q": "Which 90s country hit includes the line “If you ever doubt it just think about the cross”?",
+    "choices": [
+      "You Don’t Count the Cost",
+      "Only Here for a Little While",
+      "Somewhere in My Broken Heart",
+      "If There Hadn’t Been You"
+    ],
+    "a": 0,
+    "lyric": "It doesn’t really matter what is gained or what is lost / When it comes to love, no you don’t count the cost",
+    "lyricSong": "You Don’t Count the Cost",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 901,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-billythekid",
+    "q": "In Billy Dean’s “Billy the Kid,” what kind of grips do his two Colt .45s have?",
+    "choices": [
+      "White plastic",
+      "Pearl handles",
+      "Black rubber",
+      "Carved ivory"
+    ],
+    "a": 0,
+    "lyric": "Strapped on my holster low across my hips / Two Colt .45s with white plastic grips",
+    "lyricSong": "Billy the Kid",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 902,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-iftherehadntbeenyou",
+    "q": "Which artist had a 1990s country hit with “If There Hadn’t Been You”?",
+    "choices": [
+      "Billy Dean",
+      "Michael Peterson",
+      "Trace Adkins",
+      "Chad Brock"
+    ],
+    "a": 0,
+    "lyric": "If there hadn’t been you, where would I be / If there hadn’t been you here for me",
+    "lyricSong": "If There Hadn’t Been You",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 903,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-tryintohideafireinthedark",
+    "q": "Which artist had a 1990s country hit with “Tryin’ to Hide a Fire in the Dark”?",
+    "choices": [
+      "Steve Wariner",
+      "Billy Dean",
+      "Neal McCoy",
+      "Clint Black"
+    ],
+    "a": 1,
+    "lyric": "It’s like tryin’ to hide a fire in the dark / Carryin’ around this torch in my heart",
+    "lyricSong": "Tryin’ to Hide a Fire in the Dark",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 904,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-wejustdisagree",
+    "q": "Which artist had a 1990s country hit with “We Just Disagree”?",
+    "choices": [
+      "Tim McGraw",
+      "Tracy Byrd",
+      "Keith Whitley",
+      "Billy Dean"
+    ],
+    "a": 3,
+    "lyric": "There ain’t no good guys, there ain’t no bad guys / There’s only you and me and we just disagree",
+    "lyricSong": "We Just Disagree",
+    "lyricArtist": "Billy Dean"
+  },
+  {
+    "id": 905,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-reno",
+    "q": "Finish the lyric from Doug Supernaw’s “Reno”: “Couldn’t roll me a seven / If you gave me …”",
+    "choices": [
+      "a second chance",
+      "a lucky charm",
+      "loaded dice",
+      "a dollar bill"
+    ],
+    "a": 2,
+    "lyric": "You know the lady’s a lot like Reno / She ain’t got a heart",
+    "lyricSong": "Reno",
+    "lyricArtist": "Doug Supernaw"
+  },
+  {
+    "id": 906,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-idontcallhimdaddy",
+    "q": "In Doug Supernaw’s “I Don’t Call Him Daddy,” on what day does the father pick up his son?",
+    "choices": [
+      "Friday",
+      "Saturday",
+      "Monday",
+      "Sunday"
+    ],
+    "a": 0,
+    "lyric": "When you pick me up on Friday, are you gonna bring me anything?",
+    "lyricSong": "I Don’t Call Him Daddy",
+    "lyricArtist": "Doug Supernaw"
+  },
+  {
+    "id": 907,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-notenoughhoursinthenight",
+    "q": "Finish the lyric from Doug Supernaw’s “Not Enough Hours in the Night”: “I wish that I could set that clock / To …”",
+    "choices": [
+      "a quarter past midnight",
+      "forever and a day",
+      "daylight saving time",
+      "moonlight saving time"
+    ],
+    "a": 3,
+    "lyric": "There’s not enough hours in the night / Not enough time to hold you tight",
+    "lyricSong": "Not Enough Hours in the Night",
+    "lyricArtist": "Doug Supernaw"
+  },
+  {
+    "id": 908,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ifellinlove",
+    "q": "Which 90s country hit includes the line “But you burned me up like a chicken at a barbecue”?",
+    "choices": [
+      "Every Little Thing",
+      "Unbreakable Heart",
+      "I Fell in Love",
+      "Come On Back"
+    ],
+    "a": 2,
+    "lyric": "Took me by surprise, put me on the floor / Right between the eyes with a two by four",
+    "lyricSong": "I Fell in Love",
+    "lyricArtist": "Carlene Carter"
+  },
+  {
+    "id": 909,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-everylittlething",
+    "q": "Whose 1990s country single is “Every Little Thing”?",
+    "choices": [
+      "Mindy McCready",
+      "Wynonna",
+      "Lorrie Morgan",
+      "Carlene Carter"
+    ],
+    "a": 3,
+    "lyric": "Every little dream I dream about you / Every little thought I think about you",
+    "lyricSong": "Every Little Thing",
+    "lyricArtist": "Carlene Carter"
+  },
+  {
+    "id": 910,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thatsmybaby",
+    "q": "Finish the lyric from Lari White’s “That’s My Baby”: “Snakeskin boots and a …”",
+    "choices": [
+      "leather jacket",
+      "rodeo buckle",
+      "cowboy hat",
+      "baseball cap"
+    ],
+    "a": 3,
+    "lyric": "That’s my diamond in the rough / But I can make him shine with my sweet love",
+    "lyricSong": "That’s My Baby",
+    "lyricArtist": "Lari White"
+  },
+  {
+    "id": 911,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-nowiknow",
+    "q": "Whose 1990s country single is “Now I Know”?",
+    "choices": [
+      "Lari White",
+      "Michelle Wright",
+      "Wynonna",
+      "Reba McEntire"
+    ],
+    "a": 0,
+    "lyric": "I always wondered how I’d live without you / Now I know",
+    "lyricSong": "Now I Know",
+    "lyricArtist": "Lari White"
+  },
+  {
+    "id": 912,
+    "category": "NAME THAT SONG",
+    "topic": "hit-takeitlikeaman",
+    "q": "Which 90s country hit includes the line “He’s got a wife he forgot to mention”?",
+    "choices": [
+      "Guitar Talk",
+      "He Would Be Sixteen",
+      "One Time Around",
+      "Take It Like a Man"
+    ],
+    "a": 3,
+    "lyric": "Can take it like a man, steady and strong / Not a lot of fuss and carrying on",
+    "lyricSong": "Take It Like a Man",
+    "lyricArtist": "Michelle Wright"
+  },
+  {
+    "id": 913,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-cadillacranch",
+    "q": "In Chris LeDoux’s “Cadillac Ranch,” where are folks parking their cars?",
+    "choices": [
+      "Out in the hayfield",
+      "In the old bean patch",
+      "In the cow pasture",
+      "Down by the creek"
+    ],
+    "a": 1,
+    "lyric": "They’re parking cars in the old bean patch / There’s a bar in the barn and the place stays packed",
+    "lyricSong": "Cadillac Ranch",
+    "lyricArtist": "Chris LeDoux"
+  },
+  {
+    "id": 914,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-shouldveaskedherfaster",
+    "q": "In Ty England’s “Should’ve Asked Her Faster,” where is the little dance hall where he sees her?",
+    "choices": [
+      "Down in San Antone",
+      "Just outside of Austin",
+      "Just outside of Dallas",
+      "Just outside of Tulsa"
+    ],
+    "a": 2,
+    "lyric": "In a little dance hall just outside of Dallas / I dropped my drink when she came walking by",
+    "lyricSong": "Should’ve Asked Her Faster",
+    "lyricArtist": "Ty England"
+  },
+  {
+    "id": 915,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-feedjake",
+    "q": "In Pirates of the Mississippi’s “Feed Jake,” who is Jake?",
+    "choices": [
+      "His little brother",
+      "His horse",
+      "His dog",
+      "His cat"
+    ],
+    "a": 2,
+    "lyric": "If I die before I wake, feed Jake, he’s been a good dog",
+    "lyricSong": "Feed Jake",
+    "lyricArtist": "Pirates of the Mississippi"
+  },
+  {
+    "id": 916,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-sacredground",
+    "q": "Whose 1990s country single is “Sacred Ground”?",
+    "choices": [
+      "McBride & the Ride",
+      "Confederate Railroad",
+      "Lonestar",
+      "Little Texas"
+    ],
+    "a": 0,
+    "lyric": "Why don’t you leave her alone / You’re treadin’ on sacred ground",
+    "lyricSong": "Sacred Ground",
+    "lyricArtist": "McBride & the Ride"
+  },
+  {
+    "id": 917,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-goingoutofmymind",
+    "q": "Whose 1990s country single is “Going Out of My Mind”?",
+    "choices": [
+      "Dixie Chicks",
+      "McBride & the Ride",
+      "Ricochet",
+      "Pirates of the Mississippi"
+    ],
+    "a": 1,
+    "lyric": "I can’t stand the thought of you / Going out of my mind",
+    "lyricSong": "Going Out of My Mind",
+    "lyricArtist": "McBride & the Ride"
+  },
+  {
+    "id": 918,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-loveonthelooseheartontherun",
+    "q": "Who recorded the 90s country hit “Love on the Loose, Heart on the Run”?",
+    "choices": [
+      "McBride & the Ride",
+      "Restless Heart",
+      "Sons of the Desert",
+      "Brooks & Dunn"
+    ],
+    "a": 0,
+    "lyric": "Like a fast movin’ train or a slow settin’ sun / She’s a love on the loose with a heart on the run",
+    "lyricSong": "Love on the Loose, Heart on the Run",
+    "lyricArtist": "McBride & the Ride"
+  },
+  {
+    "id": 919,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whatkindoffooldoyouthinkiam",
+    "q": "Finish the lyric from Lee Roy Parnell’s “What Kind of Fool Do You Think I Am”: “Do you really think I’m crazy enough / To go throwin’ my good heart …”",
+    "choices": [
+      "after bad love",
+      "into the fire",
+      "out the door",
+      "away again"
+    ],
+    "a": 0,
+    "lyric": "What kind of fool do you think I am / I ain’t fallin’ for you all over again",
+    "lyricSong": "What Kind of Fool Do You Think I Am",
+    "lyricArtist": "Lee Roy Parnell"
+  },
+  {
+    "id": 920,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-tendermoment",
+    "q": "Which artist had a 1990s country hit with “Tender Moment”?",
+    "choices": [
+      "Daryle Singletary",
+      "George Jones",
+      "Lee Roy Parnell",
+      "David Lee Murphy"
+    ],
+    "a": 2,
+    "lyric": "All it takes is a tender moment / A loving word or the touch of your hand",
+    "lyricSong": "Tender Moment",
+    "lyricArtist": "Lee Roy Parnell"
+  },
+  {
+    "id": 921,
+    "category": "NAME THAT SONG",
+    "topic": "hit-ontheroad",
+    "q": "Which 90s country hit includes the line “So she packs up that ol’ Ford Fairlane”?",
+    "choices": [
+      "Tender Moment",
+      "A Little Bit of You",
+      "I’m Holding My Own",
+      "On the Road"
+    ],
+    "a": 3,
+    "lyric": "On the road where the night is black / On the road where you don’t look back",
+    "lyricSong": "On the Road",
+    "lyricArtist": "Lee Roy Parnell"
+  },
+  {
+    "id": 922,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-alittlebitofyou",
+    "q": "Who recorded the 90s country hit “A Little Bit of You”?",
+    "choices": [
+      "David Lee Murphy",
+      "Lee Roy Parnell",
+      "Brad Paisley",
+      "Joe Diffie"
+    ],
+    "a": 1,
+    "lyric": "No matter what the problem, you know how to solve ’em / Ain’t nothin’ that a little bit of you can’t cure",
+    "lyricSong": "A Little Bit of You",
+    "lyricArtist": "Lee Roy Parnell"
+  },
+  {
+    "id": 923,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-heartsdesire",
+    "q": "Who recorded the 90s country hit “Heart’s Desire”?",
+    "choices": [
+      "Lee Roy Parnell",
+      "Randy Travis",
+      "George Strait",
+      "Radney Foster"
+    ],
+    "a": 0,
+    "lyric": "You’re my heart’s desire, always thinking of you / Heart’s desire, girl I want you so bad",
+    "lyricSong": "Heart’s Desire",
+    "lyricArtist": "Lee Roy Parnell"
+  },
+  {
+    "id": 924,
+    "category": "NAME THAT SONG",
+    "topic": "hit-weallgetluckysometimes",
+    "q": "Which 90s country hit includes the line “And I’m always at the airport when my ship is coming in”?",
+    "choices": [
+      "Tender Moment",
+      "We All Get Lucky Sometimes",
+      "Heart’s Desire",
+      "A Little Bit of You"
+    ],
+    "a": 1,
+    "lyric": "I can’t believe you’re mine / Guess we all get lucky sometimes",
+    "lyricSong": "We All Get Lucky Sometimes",
+    "lyricArtist": "Lee Roy Parnell"
+  },
+  {
+    "id": 925,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-whenyousaynothingatall",
+    "q": "Finish the lyric from Alison Krauss & Union Station’s “When You Say Nothing at All”: “Old Mr. Webster could never define …”",
+    "choices": [
+      "the words that you whisper at night",
+      "the love that I see in your eyes",
+      "what’s being said between your heart and mine",
+      "the way that you make me feel inside"
+    ],
+    "a": 2,
+    "lyric": "You say it best when you say nothing at all",
+    "lyricSong": "When You Say Nothing at All",
+    "lyricArtist": "Alison Krauss & Union Station"
+  },
+  {
+    "id": 926,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-ordinarylife",
+    "q": "In Chad Brock’s “Ordinary Life,” what is the name of the wife at the kitchen table?",
+    "choices": [
+      "Shelly",
+      "Katie",
+      "Annie",
+      "Sarah"
+    ],
+    "a": 0,
+    "lyric": "Shelly’s at the kitchen table, cup of coffee, the morning paper",
+    "lyricSong": "Ordinary Life",
+    "lyricArtist": "Chad Brock"
+  },
+  {
+    "id": 927,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-drinkswearsteallie",
+    "q": "Finish the lyric from Michael Peterson’s “Drink, Swear, Steal & Lie”: “Last night I threw away your …”",
+    "choices": [
+      "last love letter",
+      "old address book",
+      "twelve step book",
+      "little black book"
+    ],
+    "a": 2,
+    "lyric": "Darlin’ you’re the reason why / I drink, swear, steal and lie",
+    "lyricSong": "Drink, Swear, Steal & Lie",
+    "lyricArtist": "Michael Peterson"
+  },
+  {
+    "id": 928,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-fromheretoeternity",
+    "q": "In Michael Peterson’s “From Here to Eternity,” how long did he save up for the ring?",
+    "choices": [
+      "A month",
+      "Two years",
+      "A year",
+      "Six months"
+    ],
+    "a": 2,
+    "lyric": "I saved a year for this ring, I can’t wait to see / How it looks on your hand",
+    "lyricSong": "From Here to Eternity",
+    "lyricArtist": "Michael Peterson"
+  },
+  {
+    "id": 929,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-notonyourlove",
+    "q": "Which artist had a 1990s country hit with “Not on Your Love”?",
+    "choices": [
+      "Rhett Akins",
+      "Doug Supernaw",
+      "Jeff Carson",
+      "Paul Brandt"
+    ],
+    "a": 2,
+    "lyric": "Not on your love, not in this life / Could I ever leave, I wouldn’t think twice",
+    "lyricSong": "Not on Your Love",
+    "lyricArtist": "Jeff Carson"
+  },
+  {
+    "id": 930,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-thecar",
+    "q": "In Jeff Carson’s “The Car,” what does the son find inside his late father’s note?",
+    "choices": [
+      "A set of keys",
+      "A lottery ticket",
+      "An old photograph",
+      "A hundred-dollar bill"
+    ],
+    "a": 0,
+    "lyric": "I opened up the note and found a set of keys / Here’s your car, son, I hope it flies",
+    "lyricSong": "The Car",
+    "lyricArtist": "Jeff Carson"
+  },
+  {
+    "id": 931,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-lipstickpromises",
+    "q": "Whose 1990s country single is “Lipstick Promises”?",
+    "choices": [
+      "George Ducas",
+      "Dwight Yoakam",
+      "Michael Peterson",
+      "Paul Brandt"
+    ],
+    "a": 0,
+    "lyric": "Every single word you said, every drop dead shade of red / Were just lipstick promises",
+    "lyricSong": "Lipstick Promises",
+    "lyricArtist": "George Ducas"
+  },
+  {
+    "id": 932,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-idontneedyourrockinchair",
+    "q": "In George Jones’s “I Don’t Need Your Rockin’ Chair,” besides the rockin’ chair, what two things does he say he doesn’t need?",
+    "choices": [
+      "Social Security and a nursing home",
+      "A cane and a hearing aid",
+      "Geritol and Medicare",
+      "Bifocals and a walker"
+    ],
+    "a": 2,
+    "lyric": "I don’t need your rockin’ chair / Your Geritol or your Medicare",
+    "lyricSong": "I Don’t Need Your Rockin’ Chair",
+    "lyricArtist": "George Jones"
+  },
+  {
+    "id": 933,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-comenextmonday",
+    "q": "Who sings the 90s country favorite “Come Next Monday”?",
+    "choices": [
+      "Mary Chapin Carpenter",
+      "Terri Clark",
+      "K.T. Oslin",
+      "Wynonna"
+    ],
+    "a": 2,
+    "lyric": "Come next Monday, I’m gonna give up on you",
+    "lyricSong": "Come Next Monday",
+    "lyricArtist": "K.T. Oslin"
+  },
+  {
+    "id": 934,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-runningoutofreasonstorun",
+    "q": "Who recorded the 90s country hit “Running Out of Reasons to Run”?",
+    "choices": [
+      "Ty England",
+      "Keith Whitley",
+      "Rick Trevino",
+      "John Anderson"
+    ],
+    "a": 2,
+    "lyric": "When you hold me, I feel no need to chase that setting sun / I’m runnin’ out of reasons to run",
+    "lyricSong": "Running Out of Reasons to Run",
+    "lyricArtist": "Rick Trevino"
+  },
+  {
+    "id": 935,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-bobbieannmason",
+    "q": "Finish the lyric from Rick Trevino’s “Bobbie Ann Mason”: “Well the years have taught me the basics of math / Divorce divides, …”",
+    "choices": [
+      "money adds",
+      "love multiplies",
+      "time subtracts",
+      "heartache remains"
+    ],
+    "a": 2,
+    "lyric": "How was I gonna get an education / Sittin’ right in back of Bobbie Ann Mason",
+    "lyricSong": "Bobbie Ann Mason",
+    "lyricArtist": "Rick Trevino"
+  },
+  {
+    "id": 936,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-doesheloveyou",
+    "q": "Finish the lyric from Reba McEntire and Linda Davis’s “Does He Love You”: “You have his mornings, his daytimes / And sometimes …”",
+    "choices": [
+      "he dreams of me",
+      "I have his heart",
+      "I have his nights",
+      "he calls my name"
+    ],
+    "a": 2,
+    "lyric": "Does he love you like he loves me / Does he think of you when he’s holding me",
+    "lyricSong": "Does He Love You",
+    "lyricArtist": "Reba McEntire with Linda Davis"
+  },
+  {
+    "id": 937,
+    "category": "FINISH THE LYRIC",
+    "topic": "hit-thewhiskeyaintworkin",
+    "q": "Finish the lyric from Travis Tritt and Marty Stuart’s “The Whiskey Ain’t Workin’”: “I need one good honky-tonk angel / To …”",
+    "choices": [
+      "turn my life around",
+      "drive me home tonight",
+      "pour me one more round",
+      "dance with me all night"
+    ],
+    "a": 0,
+    "lyric": "A woman warm and willin’, that’s what I’m lookin’ for / ’Cause the whiskey ain’t workin’ anymore",
+    "lyricSong": "The Whiskey Ain’t Workin’",
+    "lyricArtist": "Travis Tritt & Marty Stuart"
+  },
+  {
+    "id": 938,
+    "category": "WHO SINGS IT?",
+    "topic": "hit-whatchagonnadowithacowboy",
+    "q": "Who sings the 90s country favorite “Whatcha Gonna Do with a Cowboy”?",
+    "choices": [
+      "Anita Cochran with Steve Wariner",
+      "Chris LeDoux with Garth Brooks",
+      "Tim McGraw & Faith Hill",
+      "Trisha Yearwood & Garth Brooks"
+    ],
+    "a": 1,
+    "lyric": "’Cause whatcha gonna do with a cowboy / When that old rooster crows at dawn",
+    "lyricSong": "Whatcha Gonna Do with a Cowboy",
+    "lyricArtist": "Chris LeDoux with Garth Brooks"
+  },
+  {
+    "id": 939,
+    "category": "LYRIC DETECTIVE",
+    "topic": "hit-burnintheroadhousedown",
+    "q": "In Steve Wariner and Garth Brooks’s “Burnin’ the Roadhouse Down,” one spark from what could set the place on fire?",
+    "choices": [
+      "The jukebox",
+      "The steel guitar",
+      "That fiddle bow",
+      "A cigarette"
+    ],
+    "a": 2,
+    "lyric": "One spark from that fiddle bow could set this place on fire",
+    "lyricSong": "Burnin’ the Roadhouse Down",
+    "lyricArtist": "Steve Wariner with Garth Brooks"
   }
 ];

@@ -62,7 +62,8 @@ const pickQuestions = (count, recentTopics = []) => {
       used.add(entry.q.topic);
     }
   };
-  const details = (q) => ['LYRIC DETECTIVE', 'DEEP CUT', 'ALBUMS & COLLABS'].includes(q.category);
+  // Lyric-driven questions (everything except plain “who sings it”) get up to 40% of a game.
+  const details = (q) => q.category !== 'WHO SINGS IT?';
   add(fresh, Math.ceil(count * 0.4), details);
   add(fresh, count, () => true);
   if (selected.length < count) add(older, count, () => true);

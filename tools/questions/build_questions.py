@@ -120,14 +120,56 @@ for item in items:
     if item['id']==11:
         item['lyric']='ruby red lips, blond hair, blue eyes'
 
+# Full sung lines for the reveal, replacing the original title-only hooks. Keyed by question id,
+# which never changes because new questions are only appended below.
+for qid,lyric in json.loads((DATA_DIR/'snippets.json').read_text()).items():
+    items[int(qid)-1]['lyric']=lyric
+for qid,fix in json.loads((DATA_DIR/'question_fixes.json').read_text()).items():
+    items[int(qid)-1].update(fix)
+
+# Songs added after the original bank. Each keeps its own topic so players' played-song
+# history (stored by topic) carries over untouched.
+existing_topics={q['topic'] for q in items}
+FEMALE_MORE={'Kathy Mattea','Tanya Tucker','Carlene Carter','Lari White','Michelle Wright','K.T. Oslin','Lila McCann','Sara Evans','Chely Wright','Mindy McCready'}
+GROUPS_MORE={'Alabama','The Judds','The Kentucky Headhunters','Confederate Railroad','Lonestar','Montgomery Gentry','SHeDAISY','Sons of the Desert','Pirates of the Mississippi','McBride & the Ride','Alison Krauss & Union Station','Little Texas','BlackHawk','Ricochet'}
+new_songs=json.loads((DATA_DIR/'new_songs.json').read_text())
+all_artists=set(HITS)|{x['artist'] for x in new_songs}
+female_all=(female|FEMALE_MORE)&all_artists
+groups_all=(groups|GROUPS_MORE)&all_artists
+duets={a for a in all_artists if any(k in a for k in (' & ',' with ',' and ')) and a not in groups_all}|{'Reba McEntire & Vince Gill','Tim McGraw & Faith Hill','Brooks & Dunn & Reba McEntire'}
+male_all=all_artists-female_all-groups_all-duets
+LABEL={'who':'WHO SINGS IT?','finish':'FINISH THE LYRIC','name':'NAME THAT SONG','detail':'LYRIC DETECTIVE'}
+for x in new_songs:
+    topic='hit-'+norm(x['song'])
+    assert topic not in existing_topics, x['song']
+    existing_topics.add(topic)
+    if x['type']=='who':
+        artist=x['artist']
+        pool=next(p for p in (female_all,groups_all,duets,male_all) if artist in p)
+        choices=[artist]+random.sample(sorted(pool-{artist}),3)
+        random.shuffle(choices)
+        q=random.choice([
+          'Who recorded the 90s country hit “{}”?',
+          'Which artist had a 1990s country hit with “{}”?',
+          'Who sings the 90s country favorite “{}”?',
+          'Whose 1990s country single is “{}”?',
+        ]).format(x['song'])
+        correct=artist
+    else:
+        choices=[x['correct']]+x['wrong']
+        random.shuffle(choices)
+        q,correct=x['q'],x['correct']
+    items.append(dict(id=len(items)+1,category=LABEL[x['type']],topic=topic,q=q,choices=choices,
+        a=choices.index(correct),lyric=x['snippet'],lyricSong=x['song'],lyricArtist=x['artist']))
+
 # Validate answer parity, unique ids, 1 unambiguous key per question, and lyric cap.
 assert len({q['id'] for q in items})==len(items)
 assert len({q['topic'] for q in items[len(base):len(base)+len(all_hits)]})==len(all_hits)
 for q in items:
     assert len(q['choices'])==4 and len(set(q['choices']))==4
     assert 0<=q['a']<4 and q['choices'][q['a']]
-    assert q['lyric'] and len(q['lyric'].split())<=10
+    assert q['lyric'] and len(q['lyric'].replace(' / ',' ').split())<=25, q['lyric']
     assert q['lyricSong'] and q['lyricArtist']
 (ROOT/'src/country/questions.js').write_text('export const QUESTIONS = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
 (ROOT/'public/country/questions.js').write_text('window.QBANK = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
-print(f'{len(base)} original + {len(all_hits)} artist + {len(DETAILS)} lyric = {len(items)} trivia questions')
+print(f'{len(base)} original + {len(all_hits)} artist + {len(DETAILS)} lyric + {len(new_songs)} added = {len(items)} trivia questions')
