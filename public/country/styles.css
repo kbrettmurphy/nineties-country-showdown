@@ -1023,9 +1023,14 @@ body.in-round .footnote {
     max-width: 800px;
     width: 100%;
     min-height: 0;
+    height: 100%;
     max-height: 100%;
     display: flex;
     flex-direction: column;
+    /* Size the card to its content instead of stretching it to fill the window. Anchored near the
+       top (not centered) so it doesn't jump when the taller answer reveal appears. */
+    justify-content: flex-start;
+    padding-top: clamp(0px, 6vh, 64px);
   }
   body.in-round .masthead,
   body.in-results .masthead {
@@ -1064,14 +1069,13 @@ body.in-round .footnote {
     font-size: 11px;
   }
   body.in-round .round-panel {
-    flex: 1;
+    flex: 0 1 auto;
     min-height: 0;
     overflow: hidden;
-    padding: clamp(10px, 1.6vh, 16px) clamp(15px, 2vw, 25px);
+    padding: clamp(12px, 2vh, 22px) clamp(15px, 2vw, 25px);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: clamp(2px, 0.4vh, 7px);
+    gap: clamp(6px, 1.2vh, 13px);
   }
   body.in-round .topline {
     margin: 0;
@@ -1139,13 +1143,13 @@ body.in-round .footnote {
     flex-direction: column;
   }
   body.in-results .results {
-    flex: 1;
+    flex: 0 1 auto;
     min-height: 0;
+    overflow: hidden;
     padding: clamp(11px, 2vh, 23px) clamp(15px, 3vw, 30px);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: clamp(2px, 0.75vh, 10px);
+    gap: clamp(6px, 1.2vh, 13px);
   }
   body.in-results .results .eyebrow {
     margin: 0;
@@ -1178,6 +1182,9 @@ body.in-round .footnote {
   }
   body.in-results .results > .muted {
     margin: 0;
+  }
+  body.in-results .results > .notice:empty {
+    display: none;
   }
   body.in-results .footnote {
     display: none;
