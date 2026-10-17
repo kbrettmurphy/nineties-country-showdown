@@ -7,8 +7,9 @@ from pathlib import Path
 import json,random,re,unicodedata
 from extra_hits import HITS,HOOKS
 from extra_details import DETAILS
-ROOT=Path(__file__).resolve().parent
-base=json.loads((ROOT/'base_questions.json').read_text())
+DATA_DIR = Path(__file__).resolve().parent
+ROOT = DATA_DIR.parents[1]
+base = json.loads((DATA_DIR / 'base_questions.json').read_text())
 
 OMIT={
     # Outside 1990–1999, or questionable as a 90s hit
@@ -110,7 +111,7 @@ for song, artist, stem, correct, wrong, snippet in DETAILS:
 
 # Verified, fuller hooks for songs where a mere title sounded like a placeholder.
 # Applied after generating IDs so subsequent rebuilds retain the edits.
-upgrades=json.loads((ROOT/'lyric_upgrades.json').read_text())
+upgrades=json.loads((DATA_DIR/'lyric_upgrades.json').read_text())
 for item in items:
     if item['category']=='WHO SINGS IT?' and item['lyricSong'] in upgrades:
         item['lyric']=upgrades[item['lyricSong']]
@@ -127,6 +128,6 @@ for q in items:
     assert 0<=q['a']<4 and q['choices'][q['a']]
     assert q['lyric'] and len(q['lyric'].split())<=10
     assert q['lyricSong'] and q['lyricArtist']
-(ROOT/'src/questions.js').write_text('export const QUESTIONS = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
-(ROOT/'public/questions.js').write_text('window.QBANK = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
+(ROOT/'src/country/questions.js').write_text('export const QUESTIONS = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
+(ROOT/'public/country/questions.js').write_text('window.QBANK = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
 print(f'{len(base)} original + {len(all_hits)} artist + {len(DETAILS)} lyric = {len(items)} trivia questions')

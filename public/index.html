@@ -1,31 +1,60 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#092f4d"><meta name="description" content="MurphsMitts Games — family game room."><title>MurphsMitts Games — Family Game Room</title>
-<style>
-:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:dark;--cream:#dacab1;--navy:#092f4d;--red:#921a24;--ink:#020b12}
-*{box-sizing:border-box}body{margin:0;min-height:100dvh;background:radial-gradient(ellipse at 30% 5%,#163c57 0%,#092438 40%,#020b12 95%);color:#f5f1e9}a{color:inherit}
-header{border-bottom:1px solid #ffffff1a;padding:20px clamp(18px,5vw,65px);display:flex;align-items:center;justify-content:space-between;gap:10px}header b{letter-spacing:.08em;font-size:1.12rem}header span{color:var(--cream)}.small{font-size:.78rem;color:#bcc9d3;letter-spacing:.12em;text-transform:uppercase}
-main{max-width:1100px;margin:0 auto;padding:clamp(40px,7vw,90px) 20px 60px}.eyebrow{color:var(--cream);font-weight:750;letter-spacing:.18em;font-size:.75rem;text-transform:uppercase}h1{font-size:clamp(2.6rem,7vw,5.5rem);line-height:1.01;letter-spacing:-.05em;margin:12px 0 18px}p.lead{max-width:600px;color:#becad0;font-size:1.12rem;line-height:1.55;margin:0 0 36px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.card{display:flex;flex-direction:column;min-height:290px;position:relative;padding:clamp(26px,4vw,40px);border:1px solid #ffffff38;border-radius:22px;text-decoration:none;overflow:hidden;transition:transform .15s,border-color .15s;background:#ffffff0b}.card:hover,.card:focus-visible{transform:translateY(-3px);border-color:var(--cream);outline:none}.card.country{background:linear-gradient(150deg,#361019,#671b26 75%,#270c13)}
-.card.numbers{background:linear-gradient(150deg,#123b58,#0b2740 75%,#071929);display:grid;grid-template-columns:minmax(140px,.8fr) minmax(0,1.2fr);gap:16px;align-items:center}
-.numbers-art{position:relative;min-width:0;aspect-ratio:1;display:grid;place-items:center;isolation:isolate}
-.numbers-art::before,.numbers-art::after{content:"";position:absolute;inset:1%;border:1px solid #ffffff38;border-radius:50%;pointer-events:none}
-.numbers-art::after{inset:20%;border-radius:50%;transform:scaleX(1.2) rotate(-24deg)}
-.numbers-tile{width:min(155px,83%);aspect-ratio:1;display:grid;grid-template-columns:1fr 1fr;border-radius:32%;overflow:hidden;box-shadow:0 18px 35px #0007;transform:rotate(-4deg);position:relative;z-index:1}
-.numbers-tile b{display:grid;place-items:center;font-size:clamp(3.5rem,6.4vw,5rem);font-weight:850;background:#1789aa;color:white;line-height:1}
-.numbers-tile b+b{background:#50a9c0}
-.number-info{min-width:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
-.number-info .status{font-size:.71rem;color:#b9e9dc;letter-spacing:.14em;font-weight:850;margin-bottom:14px}
-.number-info h2{margin:0 0 8px}
-.number-info .go{margin-top:14px}
-@media(max-width:900px){.card.numbers{grid-template-columns:1fr;gap:0}.numbers-art{aspect-ratio:auto;height:150px}.numbers-tile{width:115px}.numbers-tile b{font-size:3.4rem}.number-info{margin-top:12px}}
-@media(max-width:660px){.card.numbers{grid-template-columns:minmax(90px,.42fr) minmax(0,1fr);gap:16px}.numbers-art{height:auto;aspect-ratio:1}.numbers-tile{width:min(100%,112px)}.numbers-tile b{font-size:clamp(2.7rem,9vw,3.5rem)}.number-info{margin:0}.number-info .status{margin-bottom:8px}.number-info .go{margin-top:14px}}
-@media(max-width:385px){.card.numbers{grid-template-columns:1fr}.numbers-art{height:140px}.numbers-tile{width:112px}}
-.art{font-size:2.1rem;font-weight:800;margin-bottom:auto;letter-spacing:-.07em;opacity:.76}.card h2{font-size:clamp(1.5rem,3vw,2.1rem);letter-spacing:-.04em;margin:20px 0 8px}.card p{margin:0 0 22px;color:#e3e6e9;line-height:1.55}.go{font-size:.9rem;color:var(--cream);font-weight:800;letter-spacing:.03em}footer{margin-top:36px;font-size:.83rem;color:#93a3b0}@media(max-width:660px){.cards{grid-template-columns:1fr}.card{min-height:265px}header .small{display:none}}
-</style></head><body>
-<header><b>MurphsMitts <span>GAMES</span></b><div class="small">Family game room</div></header>
-<main><div class="eyebrow">Pick a game</div><h1>Game night<br>starts here.</h1><p class="lead">Play, compete, and settle family arguments the civilized way: with a scoreboard.</p>
-<section class="cards" aria-label="Choose a game">
-<a class="card numbers" href="/numbers/"><span class="numbers-art" aria-hidden="true"><span class="numbers-tile"><b>1</b><b>9</b></span></span><span class="number-info"><span class="status">● PLAY NOW</span><h2>Number Match</h2><p>Match equal numbers or make ten. Chase stamps, clear islands, climb the family leaderboard.</p><span class="go">PLAY NUMBER MATCH →</span></span></a>
-<a class="card country" href="/country/"><div class="art" aria-hidden="true">♪ 1990—1999</div><h2>Honky Tonk Showdown</h2><p>454 questions. Thirty seconds. Lyrics, deep cuts, and live head-to-head 90s country trivia.</p><span class="go">PLAY COUNTRY TRIVIA →</span></a>
-</section><footer>Made for the Murphys · No ads, just bragging rights.</footer></main></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport" />
+    <meta content="#092f4d" name="theme-color" />
+    <meta content="MurphsMitts Games — family game room." name="description" />
+    <title>MurphsMitts Games — Family Game Room</title>
+    <link href="/hub.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <b>
+        MurphsMitts
+        <span> GAMES </span>
+      </b>
+      <div class="small">Family game room</div>
+    </header>
+    <main>
+      <div class="eyebrow">Pick a game</div>
+      <h1>
+        Game night
+        <br />
+        starts here.
+      </h1>
+      <p class="lead">
+        Play, compete, and settle family arguments the civilized way: with a scoreboard.
+      </p>
+      <section aria-label="Choose a game" class="cards">
+        <a class="card numbers" href="/numbers/">
+          <span aria-hidden="true" class="numbers-art">
+            <span class="numbers-tile">
+              <b> 1 </b>
+              <b> 9 </b>
+            </span>
+          </span>
+          <span class="number-info">
+            <span class="status"> ● PLAY NOW </span>
+            <h2>Number Match</h2>
+            <p>
+              Match equal numbers or make ten. Chase stamps, clear islands, climb the family
+              leaderboard.
+            </p>
+            <span class="go"> PLAY NUMBER MATCH → </span>
+          </span>
+        </a>
+        <a class="card country" href="/country/">
+          <div aria-hidden="true" class="art">♪ 1990—1999</div>
+          <h2>Honky Tonk Showdown</h2>
+          <p>
+            454 questions. Thirty seconds. Lyrics, deep cuts, and live head-to-head 90s country
+            trivia.
+          </p>
+          <span class="go"> PLAY COUNTRY TRIVIA → </span>
+        </a>
+      </section>
+      <footer>Made for the Murphys · No ads, just bragging rights.</footer>
+    </main>
+  </body>
+</html>

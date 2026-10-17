@@ -12,3 +12,8 @@ __pycache__/
 .dev.vars
 .dev.vars.*
 !.env.example
+
+# Local test snapshots
+playwright-report/
+test-results/
+.DS_Store

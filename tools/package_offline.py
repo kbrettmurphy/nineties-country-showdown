@@ -2,11 +2,11 @@
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
-root = Path(__file__).resolve().parent
+root = Path(__file__).resolve().parent.parent
 out = root.parent
-css = (root / 'public/styles.css').read_text()
-questions = (root / 'public/questions.js').read_text()
-app = (root / 'public/app.js').read_text()
+css = (root / 'public/country/styles.css').read_text()
+questions = (root / 'public/country/questions.js').read_text()
+app = (root / 'public/country/app.js').read_text()
 solo = '''<!doctype html>
 <html lang="en">
 <head>

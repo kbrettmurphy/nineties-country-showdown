@@ -1,0 +1,6 @@
+# Generated from tools/questions/build_questions.py; edit source material instead.
+public/country/questions.js
+src/country/questions.js
+# External and local artifacts
+node_modules/
+.wrangler/

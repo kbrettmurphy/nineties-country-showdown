@@ -1,0 +1,189 @@
+import { DURATION_MS, questionById, asJson, fail, shortName, isToken } from './shared.js';
+
+export class CountryLeaderboard {
+  constructor(ctx, env) {
+    this.ctx = ctx;
+    this.env = env;
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS matches (
+      match_id TEXT PRIMARY KEY, finished_at INTEGER NOT NULL
+    )`);
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS scores (
+      name_key TEXT NOT NULL, rounds INTEGER NOT NULL, display_name TEXT NOT NULL,
+      best_score INTEGER NOT NULL, best_correct INTEGER NOT NULL, games INTEGER NOT NULL,
+      first_seen INTEGER NOT NULL, last_seen INTEGER NOT NULL,
+      PRIMARY KEY(name_key, rounds)
+    )`);
+  }
+  recordMatch(match) {
+    const { matchId, rounds, players } = match;
+    if (
+      typeof matchId !== 'string' ||
+      matchId.length > 120 ||
+      ![10, 20].includes(rounds) ||
+      !Array.isArray(players) ||
+      players.length < 1 ||
+      players.length > 8
+    )
+      return false;
+    const valid = players.every(
+      (p) =>
+        shortName(p.name) &&
+        Number.isInteger(p.score) &&
+        p.score >= 0 &&
+        p.score <= rounds * 160 &&
+        Number.isInteger(p.correct) &&
+        p.correct >= 0 &&
+        p.correct <= rounds,
+    );
+    if (!valid) return false;
+    const sql = this.ctx.storage.sql;
+    const timestamp = Date.now();
+    this.ctx.storage.transactionSync(() => {
+      if ([...sql.exec('SELECT match_id FROM matches WHERE match_id=?', matchId)].length) return;
+      sql.exec('INSERT INTO matches (match_id,finished_at) VALUES (?,?)', matchId, timestamp);
+      for (const player of players) {
+        const display = shortName(player.name);
+        const key = display.toLocaleLowerCase('en-US');
+        const current = [
+          ...sql.exec(
+            'SELECT best_score,best_correct FROM scores WHERE name_key=? AND rounds=?',
+            key,
+            rounds,
+          ),
+        ][0];
+        const better = !current || player.score > current.best_score;
+        sql.exec(
+          `INSERT INTO scores (name_key,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
+          VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(name_key,rounds) DO UPDATE SET
+          display_name=excluded.display_name, best_score=excluded.best_score,
+          best_correct=excluded.best_correct, games=scores.games+1, last_seen=excluded.last_seen`,
+          key,
+          rounds,
+          display,
+          better ? player.score : current.best_score,
+          better ? player.correct : current.best_correct,
+          1,
+          timestamp,
+          timestamp,
+        );
+      }
+    });
+    return true;
+  }
+  async fetch(request) {
+    const url = new URL(request.url);
+    const action = url.pathname;
+    if (action === '/list') {
+      const rounds = url.searchParams.get('rounds') === '20' ? 20 : 10;
+      const rows = [
+        ...this.ctx.storage.sql.exec(
+          'SELECT display_name,best_score,best_correct,games,last_seen FROM scores WHERE rounds=? ORDER BY best_score DESC,best_correct DESC,last_seen ASC LIMIT 100',
+          rounds,
+        ),
+      ];
+      const stats = [
+        ...this.ctx.storage.sql.exec(
+          'SELECT COUNT(*) AS players,COALESCE(SUM(games),0) AS games FROM scores WHERE rounds=?',
+          rounds,
+        ),
+      ][0];
+      return asJson({ rounds, rows, stats });
+    }
+    if (request.method !== 'POST') return fail('Use POST', 405);
+    let d;
+    try {
+      d = await request.json();
+    } catch {
+      return fail('Invalid request.');
+    }
+    if (action === '/record')
+      return this.recordMatch(d) ? asJson({ ok: true }) : fail('Invalid result');
+    if (!action.startsWith('/solo/')) return fail('Unknown action', 404);
+    if (!isToken(d.token)) return fail('Player session missing', 401);
+    if (action === '/solo/start') {
+      const nick = shortName(d.name);
+      const ids = d.questionIds;
+      if (
+        !nick ||
+        !Array.isArray(ids) ||
+        ![10, 20].includes(ids.length) ||
+        !ids.every(Number.isInteger)
+      )
+        return fail('Invalid solo game');
+      if (
+        new Set(ids).size !== ids.length ||
+        new Set(ids.map((id) => questionById.get(id)?.topic)).size !== ids.length ||
+        ids.some((id) => !questionById.has(id))
+      )
+        return fail('Invalid question selection');
+      const id = crypto.randomUUID();
+      const now = Date.now();
+      const session = {
+        id,
+        token: d.token,
+        name: nick,
+        ids,
+        index: 0,
+        score: 0,
+        correct: 0,
+        endsAt: now + DURATION_MS,
+        createdAt: now,
+        answered: false,
+        lastResult: null,
+      };
+      await this.ctx.storage.put('solo:' + id, session);
+      return asJson({ sessionId: id, endsAt: session.endsAt });
+    }
+    if (typeof d.sessionId !== 'string' || !/^[-0-9a-f]{36}$/.test(d.sessionId))
+      return fail('Invalid solo session');
+    const key = 'solo:' + d.sessionId;
+    const session = await this.ctx.storage.get(key);
+    if (!session || session.token !== d.token || Date.now() - session.createdAt > 90 * 60000)
+      return fail('Solo session expired', 404);
+    if (action === '/solo/answer') {
+      if (session.answered) return asJson(session.lastResult);
+      const question = questionById.get(session.ids[session.index]);
+      if (
+        !question ||
+        d.questionId !== question.id ||
+        !(d.choice === null || (Number.isInteger(d.choice) && d.choice >= 0 && d.choice <= 3))
+      )
+        return fail('Unexpected question');
+      const now = Date.now();
+      const correct = d.choice === question.a && now <= session.endsAt + 1200;
+      const points = correct
+        ? 100 + Math.max(0, Math.round((60 * (session.endsAt - now)) / DURATION_MS))
+        : 0;
+      session.score += points;
+      if (correct) session.correct++;
+      session.answered = true;
+      session.lastResult = {
+        points,
+        score: session.score,
+        correct: session.correct,
+        finished: session.index === session.ids.length - 1,
+      };
+      await this.ctx.storage.put(key, session);
+      if (session.lastResult.finished) {
+        this.recordMatch({
+          matchId: 'solo-' + session.id,
+          rounds: session.ids.length,
+          mode: 'solo',
+          players: [{ name: session.name, score: session.score, correct: session.correct }],
+        });
+      }
+      return asJson(session.lastResult);
+    }
+    if (action === '/solo/next') {
+      if (!session.answered || session.index >= session.ids.length - 1)
+        return fail('Answer this round first.');
+      session.index++;
+      session.answered = false;
+      session.lastResult = null;
+      session.endsAt = Date.now() + DURATION_MS;
+      await this.ctx.storage.put(key, session);
+      return asJson({ endsAt: session.endsAt });
+    }
+    return fail('Unknown action', 404);
+  }
+}
