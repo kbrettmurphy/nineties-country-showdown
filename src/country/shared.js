@@ -24,8 +24,9 @@ const randomCode = () => {
   crypto.getRandomValues(bytes);
   return [...bytes].map((n) => ALPHABET[n % ALPHABET.length]).join('');
 };
-const TOPIC_HISTORY_LIMIT = 340;
 const validTopics = new Set(QUESTIONS.map((q) => q.topic));
+// Remember every song, so the whole bank is played before anything repeats.
+const TOPIC_HISTORY_LIMIT = validTopics.size;
 const cleanHistory = (value) =>
   Array.isArray(value)
     ? [

@@ -26,14 +26,15 @@
   let solo = null;
   let previousState = '';
   let pendingChoice = false;
+  let refreshing = null;
   let leaderboard = null;
   let boardRounds = 10;
   let boardLoading = false;
   const countryPrefix =
     location.pathname === '/country' || location.pathname.startsWith('/country/') ? '/country' : '';
   const HISTORY_KEY = 'honky-tonk-played-topics-v3';
-  const HISTORY_LIMIT = 340;
   const validTopics = new Set(qs.map((q) => q.topic));
+  const HISTORY_LIMIT = validTopics.size;
   function readHistory() {
     try {
       const saved = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
@@ -118,20 +119,29 @@
     rounds = Number($('#rounds')?.value) === 20 ? 20 : 10;
   };
   async function startSolo() {
-    const order = makeOrder(rounds);
-    let sessionId = null,
+    let order = null,
+      sessionId = null,
       endsAt = Date.now() + 30000;
     if (!soloOnly) {
       try {
+        // The server picks from everything this nickname has played, on any device.
         const response = await api('/api/solo/start', {
           name,
-          questionIds: order.map((i) => qs[i].id),
+          rounds,
+          recentTopics: readHistory(),
         });
+        const indexById = new Map(qs.map((q, i) => [q.id, i]));
+        order = response.questionIds.map((id) => indexById.get(id));
         sessionId = response.sessionId;
         endsAt = response.endsAt;
       } catch (e) {
+        order = null;
         error = 'Leaderboard connection unavailable; playing unranked. ' + e.message;
       }
+    }
+    if (!order || order.some((i) => i === undefined)) {
+      order = makeOrder(rounds);
+      sessionId = null;
     }
     solo = {
       order,
@@ -236,6 +246,8 @@
     }
   }
   async function runAction(action, payload = {}) {
+    // A background poll may be mid-flight; wait for it rather than dropping the tap.
+    while (refreshing) await refreshing;
     if (requestInFlight) return;
     requestInFlight = true;
     error = '';
@@ -262,9 +274,13 @@
       requestInFlight = false;
     }
   }
-  async function refresh() {
+  function refresh() {
     if (view !== 'room' || !code || requestInFlight) return;
     requestInFlight = true;
+    refreshing = poll();
+    return refreshing;
+  }
+  async function poll() {
     try {
       const result = await api('/api/room/' + code + '/state', {});
       const str = JSON.stringify(result);
@@ -279,6 +295,7 @@
       if (view === 'room') showSoftError(error);
     } finally {
       requestInFlight = false;
+      refreshing = null;
     }
   }
   function showSoftError(s) {

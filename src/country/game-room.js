@@ -17,6 +17,32 @@ export class GameRoom {
     this.env = env;
   }
 
+  leaderboard(path, body) {
+    return this.env.LEADERBOARD.get(this.env.LEADERBOARD.idFromName('country-global')).fetch(
+      'https://leaderboard.internal' + path,
+      { method: 'POST', body: JSON.stringify(body) },
+    );
+  }
+
+  // Every song any player in the room has been asked under their nickname, on any device.
+  async nameHistory(token, data) {
+    const room = await this.ctx.storage.get('room');
+    if (!room) return [];
+    try {
+      const response = await this.leaderboard('/history/merge', {
+        players: room.players.map((p) => ({
+          name: p.name,
+          topics: p.token === token ? data.recentTopics : room.recentByPlayer?.[p.token],
+        })),
+      });
+      const { histories } = await response.json();
+      return Array.isArray(histories) ? cleanHistory(histories.flat()) : [];
+    } catch (e) {
+      console.error('Could not load player history:', e);
+      return [];
+    }
+  }
+
   progress(room) {
     const now = Date.now();
     if (
@@ -123,6 +149,10 @@ export class GameRoom {
     }
     const token = data?.token;
     if (!isToken(token)) return fail('Player session missing.', 401);
+    // Fetched before the room is read: awaiting another object here would let other requests
+    // change the room underneath us.
+    const nameHistory =
+      action === 'start' || action === 'rematch' ? await this.nameHistory(token, data) : [];
     let room = await this.ctx.storage.get('room');
     const now = Date.now();
     if (action === 'create') {
@@ -167,6 +197,7 @@ export class GameRoom {
     }
     if (!room.players.some((p) => p.token === token))
       return fail('Rejoin with your name to enter this room.', 403);
+    const phaseBefore = room.phase;
     let changed = this.progress(room);
     if (action === 'start' || action === 'rematch') {
       if (room.host !== token) return fail('Only the host can start the game.', 403);
@@ -177,6 +208,7 @@ export class GameRoom {
       room.recentByPlayer ||= {};
       room.recentByPlayer[token] = cleanHistory(data.recentTopics);
       const allRecent = [
+        ...nameHistory,
         ...Object.values(room.recentByPlayer).flat(),
         ...(room.playedTopics || []),
       ];
@@ -211,23 +243,28 @@ export class GameRoom {
       }
     } else if (action !== 'state') return fail('Unknown room action.', 404);
     if (changed) await this.ctx.storage.put('room', room);
+    if (phaseBefore === 'question' && room.phase === 'reveal') {
+      try {
+        await this.leaderboard('/history/seen', {
+          names: room.players.map((p) => p.name),
+          topic: QUESTIONS[room.order[room.index]].topic,
+        });
+      } catch (e) {
+        console.error('Could not record seen song:', e);
+      }
+    }
     // Results are reported from the authoritative multiplayer room, never from a browser-supplied score.
     if (room.phase === 'finished' && !room.reported) {
       try {
-        const result = await this.env.LEADERBOARD.get(
-          this.env.LEADERBOARD.idFromName('country-global'),
-        ).fetch('https://leaderboard.internal/record', {
-          method: 'POST',
-          body: JSON.stringify({
-            matchId: `room-${room.code}-${room.createdAt}-${room.matchNumber || 1}`,
-            rounds: room.rounds,
-            mode: 'multiplayer',
-            players: room.players.map((p) => ({
-              name: p.name,
-              score: p.score,
-              correct: p.correct,
-            })),
-          }),
+        const result = await this.leaderboard('/record', {
+          matchId: `room-${room.code}-${room.createdAt}-${room.matchNumber || 1}`,
+          rounds: room.rounds,
+          mode: 'multiplayer',
+          players: room.players.map((p) => ({
+            name: p.name,
+            score: p.score,
+            correct: p.correct,
+          })),
         });
         if (result.ok) {
           room.reported = true;

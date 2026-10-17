@@ -1,4 +1,14 @@
-import { DURATION_MS, questionById, asJson, fail, shortName, isToken } from './shared.js';
+import {
+  DURATION_MS,
+  QUESTIONS,
+  questionById,
+  asJson,
+  fail,
+  shortName,
+  isToken,
+  cleanHistory,
+  pickQuestions,
+} from './shared.js';
 
 export class CountryLeaderboard {
   constructor(ctx, env) {
@@ -12,6 +22,11 @@ export class CountryLeaderboard {
       best_score INTEGER NOT NULL, best_correct INTEGER NOT NULL, games INTEGER NOT NULL,
       first_seen INTEGER NOT NULL, last_seen INTEGER NOT NULL,
       PRIMARY KEY(name_key, rounds)
+    )`);
+    // Songs each nickname has already been asked, so repeats are avoided across devices and browsers.
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS seen (
+      name_key TEXT NOT NULL, topic TEXT NOT NULL, seen_at INTEGER NOT NULL,
+      PRIMARY KEY(name_key, topic)
     )`);
     this.renamePlayer('gay', 'Russ');
   }
@@ -40,6 +55,44 @@ export class CountryLeaderboard {
         sql.exec('DELETE FROM scores WHERE name_key=? AND rounds=?', fromKey, old.rounds);
       }
     });
+  }
+  // Adds a browser's local history (older than anything recorded here) and returns the
+  // nickname's full history, oldest first.
+  mergeHistory(name, topics) {
+    const display = shortName(name);
+    if (!display) return cleanHistory(topics);
+    const key = display.toLocaleLowerCase('en-US');
+    const sql = this.ctx.storage.sql;
+    const local = cleanHistory(topics);
+    this.ctx.storage.transactionSync(() => {
+      local.forEach((topic, i) =>
+        sql.exec(
+          'INSERT OR IGNORE INTO seen (name_key,topic,seen_at) VALUES (?,?,?)',
+          key,
+          topic,
+          i,
+        ),
+      );
+    });
+    return [...sql.exec('SELECT topic FROM seen WHERE name_key=? ORDER BY seen_at ASC', key)].map(
+      (r) => r.topic,
+    );
+  }
+  markSeen(names, topic) {
+    if (!Array.isArray(names) || !cleanHistory([topic]).length) return;
+    const sql = this.ctx.storage.sql;
+    const now = Date.now();
+    for (const name of names.slice(0, 8)) {
+      const display = shortName(name);
+      if (!display) continue;
+      sql.exec(
+        `INSERT INTO seen (name_key,topic,seen_at) VALUES (?,?,?)
+        ON CONFLICT(name_key,topic) DO UPDATE SET seen_at=excluded.seen_at`,
+        display.toLocaleLowerCase('en-US'),
+        topic,
+        now,
+      );
+    }
   }
   recordMatch(match) {
     const { matchId, rounds, players } = match;
@@ -125,11 +178,26 @@ export class CountryLeaderboard {
     }
     if (action === '/record')
       return this.recordMatch(d) ? asJson({ ok: true }) : fail('Invalid result');
+    if (action === '/history/merge') {
+      const players = Array.isArray(d.players) ? d.players.slice(0, 8) : [];
+      return asJson({ histories: players.map((p) => this.mergeHistory(p?.name, p?.topics)) });
+    }
+    if (action === '/history/seen') {
+      this.markSeen(d.names, d.topic);
+      return asJson({ ok: true });
+    }
     if (!action.startsWith('/solo/')) return fail('Unknown action', 404);
     if (!isToken(d.token)) return fail('Player session missing', 401);
     if (action === '/solo/start') {
       const nick = shortName(d.name);
-      const ids = d.questionIds;
+      // Current clients let the server pick from the nickname's history; older cached clients send ids.
+      const ids = Array.isArray(d.questionIds)
+        ? d.questionIds
+        : [10, 20].includes(d.rounds)
+          ? pickQuestions(d.rounds, this.mergeHistory(nick, d.recentTopics)).map(
+              (i) => QUESTIONS[i].id,
+            )
+          : null;
       if (
         !nick ||
         !Array.isArray(ids) ||
@@ -159,7 +227,7 @@ export class CountryLeaderboard {
         lastResult: null,
       };
       await this.ctx.storage.put('solo:' + id, session);
-      return asJson({ sessionId: id, endsAt: session.endsAt });
+      return asJson({ sessionId: id, endsAt: session.endsAt, questionIds: ids });
     }
     if (typeof d.sessionId !== 'string' || !/^[-0-9a-f]{36}$/.test(d.sessionId))
       return fail('Invalid solo session');
@@ -184,6 +252,7 @@ export class CountryLeaderboard {
       session.score += points;
       if (correct) session.correct++;
       session.answered = true;
+      this.markSeen([session.name], question.topic);
       session.lastResult = {
         points,
         score: session.score,

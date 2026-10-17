@@ -405,9 +405,13 @@ button:disabled {
     700 16px Oswald,
     sans-serif;
 }
-.option:hover:not(:disabled) {
-  background: #344e4d;
-  border-color: var(--gold);
+/* Touchscreens keep :hover on whatever was last tapped, which would make the button in the same
+   spot on the next question look pre-selected. Only real pointers get the hover style. */
+@media (hover: hover) {
+  .option:hover:not(:disabled) {
+    background: #344e4d;
+    border-color: var(--gold);
+  }
 }
 .option:disabled {
   opacity: 0.85;
