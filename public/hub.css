@@ -100,12 +100,14 @@ p.lead {
 }
 .card.numbers {
   background: linear-gradient(150deg, #123b58, #0b2740 75%, #071929);
+}
+.card.split {
   display: grid;
   grid-template-columns: minmax(140px, 0.8fr) minmax(0, 1.2fr);
   gap: 16px;
   align-items: center;
 }
-.numbers-art {
+.game-art {
   position: relative;
   min-width: 0;
   aspect-ratio: 1;
@@ -113,8 +115,8 @@ p.lead {
   place-items: center;
   isolation: isolate;
 }
-.numbers-art::before,
-.numbers-art::after {
+.game-art::before,
+.game-art::after {
   content: '';
   position: absolute;
   inset: 1%;
@@ -122,12 +124,12 @@ p.lead {
   border-radius: 50%;
   pointer-events: none;
 }
-.numbers-art::after {
+.game-art::after {
   inset: 20%;
   border-radius: 50%;
   transform: scaleX(1.2) rotate(-24deg);
 }
-.numbers-tile {
+.tile {
   width: min(155px, 83%);
   aspect-ratio: 1;
   display: grid;
@@ -138,6 +140,16 @@ p.lead {
   transform: rotate(-4deg);
   position: relative;
   z-index: 1;
+}
+.country-tile {
+  display: block;
+  transform: rotate(4deg);
+  background: linear-gradient(150deg, #eabf6d, #c98f3e);
+}
+.country-tile svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .numbers-tile b {
   display: grid;
@@ -151,87 +163,80 @@ p.lead {
 .numbers-tile b + b {
   background: #50a9c0;
 }
-.number-info {
+.game-info {
   min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.number-info .status {
+.game-info .status {
   font-size: 0.71rem;
   color: #b9e9dc;
   letter-spacing: 0.14em;
   font-weight: 850;
   margin-bottom: 14px;
 }
-.number-info h2 {
+.game-info h2 {
   margin: 0 0 8px;
 }
-.number-info .go {
+.game-info .go {
   margin-top: 14px;
 }
 @media (max-width: 900px) {
-  .card.numbers {
+  .card.split {
     grid-template-columns: 1fr;
     gap: 0;
   }
-  .numbers-art {
+  .game-art {
     aspect-ratio: auto;
     height: 150px;
   }
-  .numbers-tile {
+  .tile {
     width: 115px;
   }
   .numbers-tile b {
     font-size: 3.4rem;
   }
-  .number-info {
+  .game-info {
     margin-top: 12px;
   }
 }
 @media (max-width: 660px) {
-  .card.numbers {
+  .card.split {
     grid-template-columns: minmax(90px, 0.42fr) minmax(0, 1fr);
     gap: 16px;
   }
-  .numbers-art {
+  .game-art {
     height: auto;
     aspect-ratio: 1;
   }
-  .numbers-tile {
+  .tile {
     width: min(100%, 112px);
   }
   .numbers-tile b {
     font-size: clamp(2.7rem, 9vw, 3.5rem);
   }
-  .number-info {
+  .game-info {
     margin: 0;
   }
-  .number-info .status {
+  .game-info .status {
     margin-bottom: 8px;
   }
-  .number-info .go {
+  .game-info .go {
     margin-top: 14px;
   }
 }
 @media (max-width: 385px) {
-  .card.numbers {
+  .card.split {
     grid-template-columns: 1fr;
   }
-  .numbers-art {
+  .game-art {
     height: 140px;
   }
-  .numbers-tile {
+  .tile {
     width: 112px;
   }
-}
-.art {
-  font-size: 2.1rem;
-  font-weight: 800;
-  margin-bottom: auto;
-  letter-spacing: -0.07em;
-  opacity: 0.76;
 }
 .card h2 {
   font-size: clamp(1.5rem, 3vw, 2.1rem);

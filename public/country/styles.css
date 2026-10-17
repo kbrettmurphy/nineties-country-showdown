@@ -614,6 +614,9 @@ button:disabled {
   text-align: left;
   margin: 20px 0;
 }
+.results .button + .button {
+  margin-top: 10px;
+}
 .podiumrow {
   display: flex;
   align-items: center;
@@ -1273,6 +1276,9 @@ body.in-round .footnote {
     min-height: 37px;
     padding: 7px 14px;
   }
+  body.in-results .results .button + .button {
+    margin-top: 0;
+  }
   body.in-results .results > .muted {
     margin: 0;
   }
@@ -1440,9 +1446,6 @@ body.in-round .footnote {
     700 25px Oswald,
     sans-serif;
   color: var(--gold);
-}
-.board-note {
-  margin-top: 18px;
 }
 @media (min-width: 760px) and (min-height: 590px) {
   body.in-menu,

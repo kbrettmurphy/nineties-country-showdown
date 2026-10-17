@@ -422,7 +422,7 @@
     const stats = leaderboard?.stats || { players: 0, games: 0 };
     return `${logo()}${back()}<section class="panel leaderboard-panel">
     <div class="eyebrow">The all-time jukebox</div><h2 class="section-title">High Score Hall of Fame</h2>
-    <p class="section-sub">Highest completed score per name. Both solo and multiplayer count. Names are public; no login is required.</p>
+    <p class="section-sub">Highest completed score per name. Solo and multiplayer both count. No login, just the honor system: playing under someone else’s name adds to their record.</p>
     <div class="board-tabs"><button data-action="board10" class="${boardRounds === 10 ? 'active' : ''}" aria-pressed="${boardRounds === 10}">10 questions</button><button data-action="board20" class="${boardRounds === 20 ? 'active' : ''}" aria-pressed="${boardRounds === 20}">20 questions</button></div>
     ${
       boardLoading
@@ -433,7 +433,6 @@
     <div class="board-stats"><span><b>${Number(stats.players) || 0}</b> players</span><span><b>${Number(stats.games) || 0}</b> completed games</span></div>
     <div class="leader-rows">${rows.length ? rows.map((p, i) => `<div class="leader-row"><span class="leader-rank">${i + 1}</span><div class="leader-person"><b>${escapeHtml(p.display_name)}</b><small>${Number(p.games)} ${p.games === 1 ? 'game' : 'games'} · ${Number(p.best_correct)} correct · last played ${new Date(Number(p.last_seen)).toLocaleDateString()}</small></div><strong>${Number(p.best_score)}</strong></div>`).join('') : '<p class="muted">No scores yet. Finish a game to claim the first spot.</p>'}</div>`
     }
-    <p class="muted board-note">High scores begin with this leaderboard update; past games cannot be recovered automatically. Reusing someone else's nickname merges records, so this is a friendly honor-system leaderboard.</p>
   </section>`;
   }
   const REPORT_REASONS = [
