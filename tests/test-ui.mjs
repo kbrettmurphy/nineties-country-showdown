@@ -67,7 +67,7 @@ await click('choose', 0);
 assert.match(app.innerHTML, /Next Question/);
 assert.match(app.innerHTML, /FROM THE LYRICS|THE SONG HOOK/);
 assert.match(app.innerHTML, /class="lyric-quote"/);
-assert.match(app.innerHTML, /class="answered-summary"/);
+assert.match(app.innerHTML, /class="answered-summary (right|wrong)"/);
 assert.doesNotMatch(
   app.innerHTML,
   /class="options"/,

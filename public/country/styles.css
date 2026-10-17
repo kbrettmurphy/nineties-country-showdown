@@ -491,6 +491,50 @@ button:disabled {
   color: #92a297;
   font-size: 11px;
 }
+.score.right {
+  border-color: #87c498;
+  background: #2d5344;
+}
+.score.wrong {
+  border-color: #dd7871;
+  background: #5a3435;
+}
+.score .pick {
+  display: block;
+  margin-top: 3px;
+  font:
+    600 11px Oswald,
+    sans-serif;
+  letter-spacing: 0.04em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.score.right .pick {
+  color: #a9dcb6;
+}
+.score.wrong .pick {
+  color: #f0a29c;
+}
+.answered-summary.right {
+  border-color: #87c498;
+  background: #2d5344;
+}
+.answered-summary.wrong {
+  border-color: #dd7871;
+  background: #5a3435;
+}
+.answered-summary.right > span:last-child,
+.answer-note.right .answer-result {
+  color: #a9dcb6;
+}
+.answered-summary.wrong > span:last-child,
+.answer-note.wrong .answer-result {
+  color: #f0a29c;
+}
+.answer-note.wrong {
+  border-color: #8a4a48;
+}
 .roomcode {
   font:
     700 56px Oswald,

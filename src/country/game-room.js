@@ -83,6 +83,10 @@ export class GameRoom {
           correct: p.correct,
           isYou: p.token === token,
           answered: Boolean(room.answers?.[p.token]),
+          result:
+            room.phase === 'reveal'
+              ? room.lastRound?.[p.token] || { choice: null, correct: false, points: 0 }
+              : null,
         }))
         .sort((a, b) => b.score - a.score),
       question: question

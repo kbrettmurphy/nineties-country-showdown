@@ -285,8 +285,16 @@
     const el = $('#soft-error');
     if (el) el.textContent = s;
   }
-  function scoreboard(players) {
-    return `<div class="scoreboard">${players.map((p) => `<div class="score ${p.isYou ? 'you' : ''}"><div class="name"><span>${escapeHtml(p.name)}${p.isYou ? ' (you)' : ''}</span><span>${p.answered ? '✓' : ''}</span></div><b>${p.score}</b><small>${p.correct} right</small></div>`).join('')}</div>`;
+  function scoreboard(players, q) {
+    return `<div class="scoreboard">${players
+      .map((p) => {
+        const r = q && p.result;
+        const pick = r
+          ? `<span class="pick">${r.correct ? '✓' : '✕'} ${escapeHtml(r.choice === null ? 'No answer' : q.choices[r.choice])}</span>`
+          : '';
+        return `<div class="score ${p.isYou ? 'you' : ''} ${r ? (r.correct ? 'right' : 'wrong') : ''}"><div class="name"><span>${escapeHtml(p.name)}${p.isYou ? ' (you)' : ''}</span><span>${p.answered && !r ? '✓' : ''}</span></div><b>${p.score}</b><small>${p.correct} right</small>${pick}</div>`;
+      })
+      .join('')}</div>`;
   }
   function choiceButtons(q, chosen, locked, answer) {
     return `<div class="options">${q.choices
@@ -354,10 +362,10 @@
     return `${logo()}${back()}<section class="panel round-panel">
   ${clockBlock(q.category, s.index + 1, local ? s.order.length : s.total)}
   <h2 class="question">${escapeHtml(q.q)}</h2>
-  ${revealed ? `<div class="answered-summary"><span>YOUR PICK: <b>${escapeHtml(chosen === null || chosen === undefined ? 'No answer' : q.choices[chosen])}</b></span><span>${answer === chosen ? '✓ CORRECT' : '✕ MISSED'}</span></div>` : choiceButtons(q, chosen, locked, answer)}
+  ${revealed ? `<div class="answered-summary ${answer === chosen ? 'right' : 'wrong'}"><span>YOUR PICK: <b>${escapeHtml(chosen === null || chosen === undefined ? 'No answer' : q.choices[chosen])}</b></span><span>${answer === chosen ? '✓ CORRECT' : '✕ MISSED'}</span></div>` : choiceButtons(q, chosen, locked, answer)}
   ${
     revealed
-      ? `<div class="answer-note">
+      ? `<div class="answer-note ${answer === chosen ? 'right' : 'wrong'}">
     <div class="answer-result">${answer === chosen ? '✓ NAILED IT' : '✕ NOT QUITE'}</div>
     <strong>RIGHT ANSWER: ${escapeHtml(q.choices[answer])}</strong>
     <div class="lyric-label">${String(lyric).trim().split(/\s+/).length <= 3 ? 'THE SONG HOOK' : 'FROM THE LYRICS'}</div>
@@ -371,7 +379,7 @@
   }
   ${local && revealed ? button(s.index + 1 === s.order.length ? 'See Final Score →' : 'Next Question →', 'next', 'block', s.submitting ? 'disabled' : '') : ''}
   ${!local && revealed ? `<div class="wait"><span class="spinner"></span> Next question coming up…</div>` : ''}
-  ${!local ? scoreboard(s.players) : `<div class="scoreboard"><div class="score you"><div class="name">Your points</div><b>${s.score}</b><small>${s.correct} correct</small></div></div>`}
+  ${!local ? scoreboard(s.players, revealed ? q : null) : `<div class="scoreboard"><div class="score you"><div class="name">Your points</div><b>${s.score}</b><small>${s.correct} correct</small></div></div>`}
   <div id="soft-error" class="notice">${notice()}${local && s.rankingError ? escapeHtml(s.rankingError) : ''}</div></section>`;
   }
   function drawFinish(s, local) {

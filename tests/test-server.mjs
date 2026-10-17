@@ -46,6 +46,10 @@ const q = QUESTIONS[first.order[0]];
 state = await call('answer', { token: a, choice: q.a });
 assert.equal(state.phase, 'question');
 assert.equal(state.ownChoice, q.a);
+assert.ok(
+  state.players.every((p) => p.result === null),
+  'other players picks stay hidden until reveal',
+);
 state = await call('answer', { token: b, choice: (q.a + 1) % 4 });
 assert.equal(state.phase, 'reveal');
 assert.equal(state.reveal.correctIndex, q.a);
@@ -53,6 +57,14 @@ assert.equal(state.reveal.lyric, q.lyric);
 assert.equal(state.reveal.lyricSong, q.lyricSong);
 assert.equal(state.reveal.lyricArtist, q.lyricArtist);
 assert.equal(state.reveal.explanation, undefined, 'old prose explanation is gone');
+assert.deepEqual(
+  state.players.map((p) => [p.name, p.result.choice, p.result.correct]).sort(),
+  [
+    ['NC', q.a, true],
+    ['Texas', (q.a + 1) % 4, false],
+  ],
+  'everyone sees every pick at reveal',
+);
 assert.equal(state.players.find((p) => p.isYou).score, 0);
 state = await call('state', { token: a });
 assert(state.players.find((p) => p.isYou).score >= 100);
