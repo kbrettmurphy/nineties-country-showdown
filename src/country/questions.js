@@ -13059,7 +13059,7 @@ export const QUESTIONS = [
     "id": 817,
     "category": "WHO SINGS IT?",
     "topic": "hit-livinginahousefulloflove",
-    "q": "Which artist had a 1990s country hit with “Living in a House Full of Love”?",
+    "q": "Which artist had a 1990s country hit with “Living in a House of Love”?",
     "choices": [
       "Toby Keith",
       "Dwight Yoakam",
@@ -13068,7 +13068,7 @@ export const QUESTIONS = [
     ],
     "a": 3,
     "lyric": "Love is pourin’ through the windows, comin’ through the door",
-    "lyricSong": "Living in a House Full of Love",
+    "lyricSong": "Living in a House of Love",
     "lyricArtist": "Gary Allan"
   },
   {

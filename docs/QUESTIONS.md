@@ -19,7 +19,8 @@ Don't hand-edit just one copy. Instead:
 **Never remove, reorder or retitle a released song.** Players' no-repeat history is stored
 by song topic (derived from the title), and `tests/fixtures/question-topics.json` fails the
 build if a released question's id or topic changes. Add new songs to the end of
-`new_songs.json`.
+`new_songs.json`. To correct a released song's title, keep its old topic with a
+`"topic"` field on that entry (see “Living in a House of Love”).
 
 Keep songs strictly to 1990–1999 singles and check artist, credit and year. The reveal
 lyric should be the line people sing along to — the full line, as sung, so reading it plays

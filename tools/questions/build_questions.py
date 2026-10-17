@@ -140,7 +140,8 @@ duets={a for a in all_artists if any(k in a for k in (' & ',' with ',' and ')) a
 male_all=all_artists-female_all-groups_all-duets
 LABEL={'who':'WHO SINGS IT?','finish':'FINISH THE LYRIC','name':'NAME THAT SONG','detail':'LYRIC DETECTIVE'}
 for x in new_songs:
-    topic='hit-'+norm(x['song'])
+    # A released song keeps its original topic even if its title is later corrected.
+    topic=x.get('topic') or 'hit-'+norm(x['song'])
     assert topic not in existing_topics, x['song']
     existing_topics.add(topic)
     if x['type']=='who':
