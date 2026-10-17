@@ -387,7 +387,7 @@
     <div class="lyric-label">${String(lyric).trim().split(/\s+/).length <= 3 ? 'THE SONG HOOK' : 'FROM THE LYRICS'}</div>
     <blockquote class="lyric-quote">“${escapeHtml(lyric).replaceAll(' / ', '<br>')}”</blockquote>
     <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)} <a class="full-lyrics" href="${escapeHtml(searchLyrics)}" target="_blank" rel="noopener noreferrer">Full lyrics ↗</a></div>
-    <span class="gain"><span>${earned > 0 ? '+' + earned + ' points' : 'No points this round'}</span>${soloOnly ? '' : '<button class="report-link" data-action="report">Report a problem</button>'}</span>
+    <span class="gain"><span>${earned > 0 ? '+' + earned + ' points' : 'No points this round'}</span>${soloOnly ? '' : '<button class="report-link" data-action="report">Report a question error</button>'}</span>
   </div>`
       : ownAnswered
         ? `<div class="wait"><span class="spinner"></span> Answer locked. ${local ? '' : 'Waiting for the other players…'}</div>`
