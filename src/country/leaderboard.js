@@ -10,6 +10,8 @@ import {
   pickQuestions,
 } from './shared.js';
 
+const REPORT_REASONS = ['lyric', 'title', 'artist', 'answer', 'year', 'other'];
+
 export class CountryLeaderboard {
   constructor(ctx, env) {
     this.ctx = ctx;
@@ -27,6 +29,12 @@ export class CountryLeaderboard {
     this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS seen (
       name_key TEXT NOT NULL, topic TEXT NOT NULL, seen_at INTEGER NOT NULL,
       PRIMARY KEY(name_key, topic)
+    )`);
+    // Players' reports of wrong lyrics, titles, artists or answers, reviewed on the reports page.
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS reports (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, question_id INTEGER NOT NULL, reason TEXT NOT NULL,
+      note TEXT NOT NULL, name TEXT NOT NULL, token TEXT NOT NULL, created_at INTEGER NOT NULL,
+      status TEXT NOT NULL DEFAULT 'open', UNIQUE(token, question_id)
     )`);
     this.renamePlayer('gay', 'Russ');
   }
@@ -93,6 +101,56 @@ export class CountryLeaderboard {
         now,
       );
     }
+  }
+  report(d) {
+    const question = questionById.get(d.questionId);
+    if (!question) return fail('Unknown question.');
+    if (!REPORT_REASONS.includes(d.reason)) return fail('Pick what’s wrong.');
+    const note = typeof d.note === 'string' ? d.note.trim().slice(0, 500) : '';
+    const sql = this.ctx.storage.sql;
+    const now = Date.now();
+    const recent = [
+      ...sql.exec(
+        'SELECT COUNT(*) AS n FROM reports WHERE token=? AND created_at>?',
+        d.token,
+        now - 86400000,
+      ),
+    ][0].n;
+    if (recent >= 40) return fail('Thanks — that’s plenty of reports for today.', 429);
+    // One report per player per question; sending again updates it and reopens it.
+    sql.exec(
+      `INSERT INTO reports (question_id,reason,note,name,token,created_at) VALUES (?,?,?,?,?,?)
+      ON CONFLICT(token,question_id) DO UPDATE SET reason=excluded.reason, note=excluded.note,
+      name=excluded.name, created_at=excluded.created_at, status='open'`,
+      question.id,
+      d.reason,
+      note,
+      shortName(d.name) || 'Anonymous',
+      d.token,
+      now,
+    );
+    return asJson({ ok: true });
+  }
+  listReports(status) {
+    const rows = [
+      ...this.ctx.storage.sql.exec(
+        `SELECT id,question_id,reason,note,name,created_at,status FROM reports
+        WHERE status=? ORDER BY created_at DESC LIMIT 500`,
+        status === 'fixed' ? 'fixed' : 'open',
+      ),
+    ];
+    return rows.map((r) => {
+      const q = questionById.get(r.question_id);
+      return {
+        ...r,
+        category: q?.category,
+        question: q?.q,
+        answer: q?.choices[q.a],
+        lyric: q?.lyric,
+        song: q?.lyricSong,
+        artist: q?.lyricArtist,
+      };
+    });
   }
   recordMatch(match) {
     const { matchId, rounds, players } = match;
@@ -181,6 +239,20 @@ export class CountryLeaderboard {
     if (action === '/history/merge') {
       const players = Array.isArray(d.players) ? d.players.slice(0, 8) : [];
       return asJson({ histories: players.map((p) => this.mergeHistory(p?.name, p?.topics)) });
+    }
+    if (action === '/report') {
+      if (!isToken(d.token)) return fail('Player session missing', 401);
+      return this.report(d);
+    }
+    if (action === '/reports/list') return asJson({ reports: this.listReports(d.status) });
+    if (action === '/reports/resolve') {
+      if (!Number.isInteger(d.id)) return fail('Missing report id.');
+      this.ctx.storage.sql.exec(
+        'UPDATE reports SET status=? WHERE id=?',
+        d.status === 'open' ? 'open' : 'fixed',
+        d.id,
+      );
+      return asJson({ ok: true });
     }
     if (action === '/history/seen') {
       this.markSeen(d.names, d.topic);

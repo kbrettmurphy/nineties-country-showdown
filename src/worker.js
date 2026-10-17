@@ -52,6 +52,23 @@ export default {
           },
         );
       }
+      const board = () => env.LEADERBOARD.get(env.LEADERBOARD.idFromName('country-global'));
+      if (path.length === 2 && path[1] === 'report') {
+        return board().fetch('https://leaderboard.internal/report', {
+          method: 'POST',
+          body: JSON.stringify(data),
+        });
+      }
+      // Reports page (public/country/reports/): reading and resolving needs the REPORTS_KEY secret.
+      if (path[1] === 'reports' && ['list', 'resolve'].includes(path[2]) && path.length === 3) {
+        if (!env.REPORTS_KEY) return fail('Reports key is not configured.', 503);
+        if (typeof data.key !== 'string' || data.key !== env.REPORTS_KEY)
+          return fail('Wrong reports key.', 403);
+        return board().fetch('https://leaderboard.internal/reports/' + path[2], {
+          method: 'POST',
+          body: JSON.stringify(data),
+        });
+      }
       if (path.length === 2 && path[1] === 'create') {
         if (!shortName(data.name) || !isToken(data.token)) return fail('Enter a name to play.');
         for (let attempt = 0; attempt < 8; attempt++) {

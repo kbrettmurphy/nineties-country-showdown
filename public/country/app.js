@@ -27,6 +27,7 @@
   let previousState = '';
   let pendingChoice = false;
   let refreshing = null;
+  let reportTarget = null;
   let leaderboard = null;
   let boardRounds = 10;
   let boardLoading = false;
@@ -372,6 +373,7 @@
     const lyricSong = local ? q.lyricSong : s.reveal?.lyricSong;
     const lyricArtist = local ? q.lyricArtist : s.reveal?.lyricArtist;
     const earned = local ? s.earned : s.reveal?.myResult.points;
+    if (revealed) reportTarget = { id: q.id, song: lyricSong, artist: lyricArtist, live: !local };
     const searchLyrics = `https://www.google.com/search?q=${encodeURIComponent((lyricArtist || '') + ' ' + (lyricSong || '') + ' lyrics')}`;
     return `${logo()}${back()}<section class="panel round-panel">
   ${clockBlock(q.category, s.index + 1, local ? s.order.length : s.total)}
@@ -385,7 +387,7 @@
     <div class="lyric-label">${String(lyric).trim().split(/\s+/).length <= 3 ? 'THE SONG HOOK' : 'FROM THE LYRICS'}</div>
     <blockquote class="lyric-quote">“${escapeHtml(lyric).replaceAll(' / ', '<br>')}”</blockquote>
     <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)} <a class="full-lyrics" href="${escapeHtml(searchLyrics)}" target="_blank" rel="noopener noreferrer">Full lyrics ↗</a></div>
-    <span class="gain">${earned > 0 ? '+' + earned + ' points' : 'No points this round'}</span>
+    <span class="gain"><span>${earned > 0 ? '+' + earned + ' points' : 'No points this round'}</span>${soloOnly ? '' : '<button class="report-link" data-action="report">Report a problem</button>'}</span>
   </div>`
       : ownAnswered
         ? `<div class="wait"><span class="spinner"></span> Answer locked. ${local ? '' : 'Waiting for the other players…'}</div>`
@@ -431,6 +433,69 @@
     }
     <p class="muted board-note">High scores begin with this leaderboard update; past games cannot be recovered automatically. Reusing someone else's nickname merges records, so this is a friendly honor-system leaderboard.</p>
   </section>`;
+  }
+  const REPORT_REASONS = [
+    ['lyric', 'Lyric is wrong'],
+    ['title', 'Song title is wrong'],
+    ['artist', 'Artist is wrong'],
+    ['answer', 'Answer is wrong'],
+    ['year', 'Not a 90s song'],
+    ['other', 'Something else'],
+  ];
+  // Lives outside #app so a multiplayer round moving on doesn't wipe it mid-report.
+  function openReport(target) {
+    document.querySelector('.report-backdrop')?.remove();
+    const wrap = document.createElement('div');
+    wrap.className = 'report-backdrop';
+    wrap.innerHTML = `<div class="report-dialog" role="dialog" aria-modal="true" aria-labelledby="report-title">
+  <div class="eyebrow">Report a problem</div>
+  <h3 id="report-title">What’s wrong with this one?</h3>
+  <p class="report-song">“${escapeHtml(target.song)}” · ${escapeHtml(target.artist)}</p>
+  <div class="report-reasons">${REPORT_REASONS.map(([key, label]) => `<button type="button" class="report-reason" data-reason="${key}" aria-pressed="false">${label}</button>`).join('')}</div>
+  <label class="field"><span>Details (optional)</span><textarea class="textinput report-note" maxlength="500" rows="3" placeholder="What should it say?"></textarea></label>
+  <p class="report-status" role="status">${target.live ? 'The game keeps going behind this.' : ''}</p>
+  <div class="report-actions"><button type="button" class="button secondary small" data-report="cancel">Cancel</button><button type="button" class="button small" data-report="send" disabled>Send report</button></div>
+</div>`;
+    let reason = null;
+    const close = () => {
+      wrap.remove();
+      document.removeEventListener('keydown', onKey);
+    };
+    const onKey = (e) => e.key === 'Escape' && close();
+    document.addEventListener('keydown', onKey);
+    wrap.addEventListener('click', async (e) => {
+      if (e.target === wrap) return close();
+      const pick = e.target.closest('[data-reason]');
+      if (pick) {
+        reason = pick.dataset.reason;
+        wrap
+          .querySelectorAll('[data-reason]')
+          .forEach((b) => b.setAttribute('aria-pressed', String(b === pick)));
+        wrap.querySelector('[data-report="send"]').disabled = false;
+        return;
+      }
+      const act = e.target.closest('[data-report]')?.dataset.report;
+      if (act === 'cancel') return close();
+      if (act !== 'send' || !reason) return;
+      const send = wrap.querySelector('[data-report="send"]');
+      const status = wrap.querySelector('.report-status');
+      send.disabled = true;
+      try {
+        await api('/api/report', {
+          questionId: target.id,
+          reason,
+          note: wrap.querySelector('.report-note').value,
+          name,
+        });
+        status.textContent = 'Thanks — report sent.';
+        setTimeout(close, 1200);
+      } catch (err) {
+        status.textContent = err.message || 'Could not send. Try again.';
+        send.disabled = false;
+      }
+    });
+    document.body.appendChild(wrap);
+    wrap.querySelector('[data-reason]').focus();
   }
   function render() {
     let html = '';
@@ -550,6 +615,10 @@
         await runAction('answer', { choice });
         pendingChoice = false;
       }
+      return;
+    }
+    if (action === 'report') {
+      if (reportTarget) openReport({ ...reportTarget });
       return;
     }
     if (action === 'next') {

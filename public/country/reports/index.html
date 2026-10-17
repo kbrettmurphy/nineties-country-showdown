@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Question Reports</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=DM+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #0f1a1e;
+        --card: #16262b;
+        --line: #33463f;
+        --paper: #f3ead3;
+        --muted: #a7b6b0;
+        --gold: #eabf6d;
+        --green: #87c498;
+        --red: #e08a84;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--paper);
+        font:
+          15px/1.45 'DM Sans',
+          system-ui,
+          sans-serif;
+        padding: 24px 16px 48px;
+      }
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+      }
+      h1 {
+        font:
+          700 30px/1.1 Oswald,
+          sans-serif;
+        letter-spacing: 0.02em;
+        margin: 0 0 4px;
+      }
+      .sub {
+        color: var(--muted);
+        margin: 0 0 18px;
+      }
+      .bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      input {
+        flex: 1 1 220px;
+        min-width: 0;
+        padding: 9px 11px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: #0b1417;
+        color: var(--paper);
+        font: inherit;
+      }
+      button {
+        padding: 9px 13px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: #1d3035;
+        color: var(--paper);
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button.primary {
+        border-color: var(--gold);
+        background: var(--gold);
+        color: #1a1408;
+      }
+      button[aria-pressed='true'] {
+        border-color: var(--gold);
+        color: var(--gold);
+      }
+      .status {
+        color: var(--muted);
+        min-height: 20px;
+      }
+      .report {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin-bottom: 10px;
+      }
+      .top {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 12px;
+        align-items: baseline;
+        justify-content: space-between;
+      }
+      .reason {
+        font:
+          700 13px Oswald,
+          sans-serif;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--gold);
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .note {
+        margin: 8px 0;
+        padding: 8px 10px;
+        border-left: 3px solid var(--gold);
+        background: #0f1d21;
+        overflow-wrap: anywhere;
+      }
+      dl {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 3px 12px;
+        margin: 8px 0 10px;
+        font-size: 13px;
+      }
+      dt {
+        color: var(--muted);
+      }
+      dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+      .empty {
+        color: var(--muted);
+        padding: 30px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Question reports</h1>
+      <p class="sub">Problems players flagged from the Honky Tonk Showdown answer reveal.</p>
+      <form class="bar" id="keyform">
+        <input id="key" type="password" placeholder="Reports key" autocomplete="current-password" />
+        <button class="primary" type="submit">Load</button>
+        <button type="button" data-status="open" aria-pressed="true">Open</button>
+        <button type="button" data-status="fixed" aria-pressed="false">Fixed</button>
+      </form>
+      <div class="status" id="status" role="status"></div>
+      <div id="list"></div>
+    </main>
+    <script>
+      (() => {
+        const REASONS = {
+          lyric: 'Lyric is wrong',
+          title: 'Song title is wrong',
+          artist: 'Artist is wrong',
+          answer: 'Answer is wrong',
+          year: 'Not a 90s song',
+          other: 'Something else',
+        };
+        const $ = (s) => document.querySelector(s);
+        const esc = (s) =>
+          String(s ?? '').replace(
+            /[&<>"']/g,
+            (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
+          );
+        let status = 'open';
+        try {
+          $('#key').value = localStorage.getItem('country-reports-key') || '';
+        } catch {}
+        const call = async (path, body) => {
+          const res = await fetch('/country/api/reports/' + path, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ ...body, key: $('#key').value.trim() }),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok) throw new Error(data.error || 'Request failed.');
+          return data;
+        };
+        async function load() {
+          if (!$('#key').value.trim()) return ($('#status').textContent = 'Enter the reports key.');
+          $('#status').textContent = 'Loading…';
+          try {
+            const { reports } = await call('list', { status });
+            try {
+              localStorage.setItem('country-reports-key', $('#key').value.trim());
+            } catch {}
+            $('#status').textContent =
+              `${reports.length} ${status} report${reports.length === 1 ? '' : 's'}`;
+            $('#list').innerHTML = reports.length
+              ? reports
+                  .map(
+                    (r) => `<article class="report">
+  <div class="top"><span class="reason">${esc(REASONS[r.reason] || r.reason)}</span>
+  <span class="meta">${esc(r.name)} · ${new Date(r.created_at).toLocaleString()} · question #${r.question_id}</span></div>
+  ${r.note ? `<div class="note">${esc(r.note)}</div>` : ''}
+  <dl><dt>Song</dt><dd>${esc(r.song)} — ${esc(r.artist)}</dd>
+  <dt>Question</dt><dd>${esc(r.question)}</dd>
+  <dt>Answer</dt><dd>${esc(r.answer)}</dd>
+  <dt>Lyric</dt><dd>${esc(r.lyric)}</dd></dl>
+  <button data-id="${r.id}" data-to="${status === 'open' ? 'fixed' : 'open'}">${status === 'open' ? 'Mark fixed' : 'Reopen'}</button>
+</article>`,
+                  )
+                  .join('')
+              : `<p class="empty">No ${status} reports.</p>`;
+          } catch (e) {
+            $('#status').textContent = e.message;
+            $('#list').innerHTML = '';
+          }
+        }
+        $('#keyform').addEventListener('submit', (e) => {
+          e.preventDefault();
+          load();
+        });
+        document.querySelectorAll('[data-status]').forEach((b) =>
+          b.addEventListener('click', () => {
+            status = b.dataset.status;
+            document
+              .querySelectorAll('[data-status]')
+              .forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+            load();
+          }),
+        );
+        $('#list').addEventListener('click', async (e) => {
+          const b = e.target.closest('[data-id]');
+          if (!b) return;
+          b.disabled = true;
+          try {
+            await call('resolve', { id: Number(b.dataset.id), status: b.dataset.to });
+            load();
+          } catch (err) {
+            $('#status').textContent = err.message;
+            b.disabled = false;
+          }
+        });
+        if ($('#key').value) load();
+      })();
+    </script>
+  </body>
+</html>
