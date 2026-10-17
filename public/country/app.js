@@ -422,7 +422,7 @@
     const stats = leaderboard?.stats || { players: 0, games: 0 };
     return `${logo()}${back()}<section class="panel leaderboard-panel">
     <div class="eyebrow">The all-time jukebox</div><h2 class="section-title">High Score Hall of Fame</h2>
-    <p class="section-sub">Highest completed score per name. Solo and multiplayer both count. No login, just the honor system: playing under someone else’s name adds to their record.</p>
+    <p class="section-sub">Highest completed score per name. Solo and multiplayer both count.</p>
     <div class="board-tabs"><button data-action="board10" class="${boardRounds === 10 ? 'active' : ''}" aria-pressed="${boardRounds === 10}">10 questions</button><button data-action="board20" class="${boardRounds === 20 ? 'active' : ''}" aria-pressed="${boardRounds === 20}">20 questions</button></div>
     ${
       boardLoading
