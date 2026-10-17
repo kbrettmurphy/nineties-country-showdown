@@ -1,3 +1,47 @@
+# MurphsMitts Games — 90s Country Showdown UI + Rotation Update
+
+Includes the existing multi-game Cloudflare Worker and Number Match iframe integration. The `games.murphsmitts.com` DNS and the ChatGPT Sites Number Match project are unchanged.
+
+## What's new
+
+- End-of-game trophy star is centered with SVG geometry rather than a font glyph.
+- On a question, the header, options, answer summary, lyric snippet, and scoreboard are sized for a `100dvh` screen. On exceptionally small/zoomed viewports the question panel can scroll internally.
+- After answering, the four large options collapse into a short "Your pick" summary. Solo play keeps the Next Question button underneath the lyric reveal.
+- Improved short lyric hooks on **70** artist-question songs and two additional lyric-detail reveals, including The Kinleys' "Please" and John Michael Montgomery's "Sold" row question. Snippets are short; a "Full lyrics" link on every reveal searches for the complete song text without copying whole copyrighted verses into the game. Unverified lyrics are not invented, and some original short hooks remain.
+- Songs and questions you recently played are stored locally in your browser, for solo and multiplayer. Host and guest histories are combined before room questions are picked; rematches avoid the room's preceding questions. When a history covers most of the bank, older questions can return.
+- Kept all **454** questions, 30-second timer, 10/20-question matches, multiplayer rooms, scores, and Number Match progress/leaderboard on its existing origin.
+
+## Install from Mac
+
+Download ZIP and unzip it over the existing `~/Downloads/90s-country-showdown` folder. From Terminal:
+
+```bash
+cd ~/Downloads
+unzip -o MurphsMitts_Games_Trivia_Polish.zip
+cd 90s-country-showdown
+npm test
+npx wrangler@latest deploy
+# The connected GitHub main branch also needs the same files:
+git add .
+git commit -m "Improve country lyric reveals, layout and repeat rotation"
+git push
+```
+
+For automatic Cloudflare Builds, the `git push` may trigger a second deployment; that is fine. If the push automatically deploys, manual deployment may be skipped.
+
+## Verify
+
+- `https://games.murphsmitts.com/` — main games hub
+- `/numbers/` — embedded Number Match with original saved-name restore
+- `/country/` — play 10 rounds; Next Question should remain visible on a common phone viewport
+- Complete another game/rematch; previously played recordings should be avoided until fresh options are exhausted
+
+Because the game history is browser-local, switching browsers/devices or clearing site data resets a particular player's recent-history list. Both multiplayer players send their recent histories when they join; the session's own round history lives in the Durable Object room.
+
+All five automated tests pass. They exercise API routing, song-rotation history, multiplayer scoring, the UI markup, and Cloudflare folder routing. They do not replace a live mobile browser check.
+
+---
+
 # MurphsMitts Games — staging integration (original Number Match artwork)
 
 ## Goal
@@ -56,3 +100,26 @@ To recover server-synced island and stage, enter the **same existing leaderboard
 The stage/test environment retains the original game inside an iframe to preserve its existing backend and avoid creating an empty leaderboard DB. Do not switch DNS before verifying the impact on progress and leaderboard.
 
 The games homepage preserves the original blue split **1 | 9** Number Match mark (CSS recreation from the user's original GamesHub source) against the new dark-blue background.
+
+
+## Country trivia Hall of Fame (new)
+
+- Cloudflare `CountryLeaderboard` SQLite-backed Durable Object holds shared high scores.
+- The **10-question** and **20-question** boards are independent. Each nickname appears once per board with its best completed score, total completed games, and correct count for the personal best.
+- Score submissions from live rooms are sent by `GameRoom`, not players' browsers. Ranked solo games start timed server sessions and submit each answer in order.
+- It is a casual, **public nickname** leaderboard without accounts. Duplicate names merge. Do not enter private names. A determined player could still reverse-engineer the publicly downloadable question bank.
+- Existing matches cannot be imported; scores start when this release reaches production. Clicking the link without completing a game doesn't create an entry.
+- Browser game history and Number Match progress are separate and unchanged. Number Match remains hosted on ChatGPT Sites, embedded in `/numbers/`.
+
+## Repository layout
+
+This is presently a single **games-hub Worker repository**, despite its historic name `nineties-country-showdown`:
+
+- `public/index.html`: two-game homepage
+- `public/country/index.html`: trivia page shell; `public/app.js`, `public/questions.js`, `public/styles.css`: actual trivia UI
+- `public/numbers/index.html`: Number Match iframe wrapper only (its actual game and database still live on ChatGPT Sites)
+- `src/worker.js`: routing, multiplayer rooms, and persistent leaderboards
+- `src/questions.js`: server-side trivia bank
+- `wrangler.jsonc`: Cloudflare Worker name, domain route, Durable Object bindings
+
+The project uses GitHub's `main` branch as the **Cloudflare automatic deployment source** after Workers Builds is connected. To prevent live changes being overwritten by the next build, update `main` and let Cloudflare deploy; don't make a manual Wrangler deployment without a matching commit. The deployed Worker is still named `nineties-country-showdown`; a repository rename is optional but should be a separate, planned change.

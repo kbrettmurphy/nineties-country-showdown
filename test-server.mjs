@@ -3,7 +3,7 @@ import { GameRoom } from './src/worker.js';
 import { QUESTIONS } from './src/questions.js';
 const store=new Map();
 const ctx={storage:{get:async key=>store.get(key),put:async (key,val)=>store.set(key,structuredClone(val))}};
-const room=new GameRoom(ctx,{});
+const room=new GameRoom(ctx,{LEADERBOARD:{idFromName:()=> 'leaderboard', get:()=>({fetch:async()=>Response.json({ok:true})})}});
 const request=(action, data)=>room.fetch(new Request('https://internal/'+action,{method:'POST',body:JSON.stringify(data)}));
 const call=async (action, data)=>{const response=await request(action,data);const body=await response.json(); if(!response.ok)throw Error(`${action}: ${JSON.stringify(body)}`);return body;};
 const a='a'.repeat(32),b='b'.repeat(32);
@@ -16,6 +16,7 @@ assert.equal(state.phase,'question');assert.equal(state.total,10);assert.equal(s
 assert.equal(state.reveal,null,'no lyric should be revealed before answers lock');
 const first=store.get('room');
 assert.equal(new Set(first.order.map(i=>QUESTIONS[i].topic)).size,10,'must not repeat song/topic in a game');
+const firstTopics=new Set(first.order.map(i=>QUESTIONS[i].topic));
 const q=QUESTIONS[first.order[0]];
 state=await call('answer',{token:a,choice:q.a});
 assert.equal(state.phase,'question');assert.equal(state.ownChoice,q.a);
@@ -37,5 +38,7 @@ for(let n=1;n<10;n++){
 let curr=store.get('room');curr.revealAt=Date.now()-1;store.set('room',curr);
 state=await call('state',{token:b});assert.equal(state.phase,'finished');
 state=await call('rematch',{token:a});assert.equal(state.phase,'question');
+const second=store.get('room');
+assert(second.order.every(i=>!firstTopics.has(QUESTIONS[i].topic)),'rematch must prefer songs not played in previous rounds');
 state=await call('join',{token:b});assert.equal(state.phase,'question','returning player should reconnect');
 console.log('PASS: create, join, privacy, start, answers, scoring, all 10 rounds, finish, rematch, reconnect.');

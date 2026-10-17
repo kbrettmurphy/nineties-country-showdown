@@ -19,11 +19,19 @@
       {
         "name": "ROOMS",
         "class_name": "GameRoom"
+      },
+      {
+        "name": "LEADERBOARD",
+        "class_name": "CountryLeaderboard"
       }
     ]
   },
   "exports": {
     "GameRoom": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    },
+    "CountryLeaderboard": {
       "type": "durable-object",
       "storage": "sqlite"
     }

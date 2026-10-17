@@ -25,8 +25,11 @@ const click=async (action,choice=0)=>{await app.handlers.click({target:{closest:
 await click('open-solo');assert.match(app.innerHTML,/Your name/);
 await click('solo');assert.match(app.innerHTML,/QUESTION 1 \/ 10/);assert.match(app.innerHTML,/class="options"/);
 await click('choose',0);assert.match(app.innerHTML,/Next Question/);
-assert.match(app.innerHTML,/FROM THE LYRICS/);
+assert.match(app.innerHTML,/FROM THE LYRICS|THE SONG HOOK/);
 assert.match(app.innerHTML,/class="lyric-quote"/);
+assert.match(app.innerHTML,/class="answered-summary"/);
+assert.doesNotMatch(app.innerHTML,/class="options"/,'answered question should collapse choices instead of increasing card height');
+assert.match(app.innerHTML,/Full lyrics/);
 assert.doesNotMatch(app.innerHTML,/The heart was ten feet tall; the lettering was three feet high/);
 await click('next');assert.match(app.innerHTML,/QUESTION 2 \/ 10/);
 console.log('PASS: UI renders menu, setup, selectable answers, reveal and next question.');

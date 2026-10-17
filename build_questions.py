@@ -108,6 +108,17 @@ for song, artist, stem, correct, wrong, snippet in DETAILS:
         topic='hit-'+norm(song),q=stem,choices=choices,a=choices.index(correct),
         lyric=snippet,lyricSong=song,lyricArtist=artist))
 
+# Verified, fuller hooks for songs where a mere title sounded like a placeholder.
+# Applied after generating IDs so subsequent rebuilds retain the edits.
+upgrades=json.loads((ROOT/'lyric_upgrades.json').read_text())
+for item in items:
+    if item['category']=='WHO SINGS IT?' and item['lyricSong'] in upgrades:
+        item['lyric']=upgrades[item['lyricSong']]
+    if item['id']==10:
+        item['lyric']='the lady in the second row, she’s an eight'
+    if item['id']==11:
+        item['lyric']='ruby red lips, blond hair, blue eyes'
+
 # Validate answer parity, unique ids, 1 unambiguous key per question, and lyric cap.
 assert len({q['id'] for q in items})==len(items)
 assert len({q['topic'] for q in items[len(base):len(base)+len(all_hits)]})==len(all_hits)

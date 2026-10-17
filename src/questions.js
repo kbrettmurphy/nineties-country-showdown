@@ -155,7 +155,7 @@ export const QUESTIONS = [
       "Second row"
     ],
     "a": 3,
-    "lyric": "the second row",
+    "lyric": "the lady in the second row, she’s an eight",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -171,7 +171,7 @@ export const QUESTIONS = [
       "Blond"
     ],
     "a": 3,
-    "lyric": "blond hair, blue eyes",
+    "lyric": "ruby red lips, blond hair, blue eyes",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -267,7 +267,7 @@ export const QUESTIONS = [
       "Mark Chesnutt"
     ],
     "a": 0,
-    "lyric": "queen of my double-wide trailer",
+    "lyric": "queen of my double wide trailer",
     "lyricSong": "Queen of My Double Wide Trailer",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -299,7 +299,7 @@ export const QUESTIONS = [
       "Travis Tritt"
     ],
     "a": 2,
-    "lyric": "Every light in the house is on",
+    "lyric": "every light in the house is on",
     "lyricSong": "Every Light in the House",
     "lyricArtist": "Trace Adkins"
   },
@@ -443,7 +443,7 @@ export const QUESTIONS = [
       "Clint Black"
     ],
     "a": 0,
-    "lyric": "A thousand miles from nowhere",
+    "lyric": "a thousand miles from nowhere",
     "lyricSong": "A Thousand Miles from Nowhere",
     "lyricArtist": "Dwight Yoakam"
   },
@@ -555,7 +555,7 @@ export const QUESTIONS = [
       "Martina McBride"
     ],
     "a": 3,
-    "lyric": "Let freedom ring, let the white dove sing",
+    "lyric": "let freedom ring, let the white dove sing",
     "lyricSong": "Independence Day",
     "lyricArtist": "Martina McBride"
   },
@@ -635,7 +635,7 @@ export const QUESTIONS = [
       "Kenny Chesney"
     ],
     "a": 2,
-    "lyric": "I like it, I love it",
+    "lyric": "I want some more of it",
     "lyricSong": "I Like It, I Love It",
     "lyricArtist": "Tim McGraw"
   },
@@ -667,7 +667,7 @@ export const QUESTIONS = [
       "Pam Tillis"
     ],
     "a": 1,
-    "lyric": "She's in love with the boy",
+    "lyric": "Katie’s sittin’ on the old front porch",
     "lyricSong": "She’s in Love with the Boy",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -683,7 +683,7 @@ export const QUESTIONS = [
       "Faith Hill"
     ],
     "a": 0,
-    "lyric": "Heads Carolina, tails California",
+    "lyric": "heads Carolina, tails California",
     "lyricSong": "Heads Carolina, Tails California",
     "lyricArtist": "Jo Dee Messina"
   },
@@ -715,7 +715,7 @@ export const QUESTIONS = [
       "BlackHawk"
     ],
     "a": 0,
-    "lyric": "I'm amazed by you",
+    "lyric": "I'm so in love with you",
     "lyricSong": "Amazed",
     "lyricArtist": "Lonestar"
   },
@@ -731,7 +731,7 @@ export const QUESTIONS = [
       "Faith Hill"
     ],
     "a": 2,
-    "lyric": "Blue, oh, so lonesome for you",
+    "lyric": "blue, oh, so lonesome for you",
     "lyricSong": "Blue",
     "lyricArtist": "LeAnn Rimes"
   },
@@ -859,7 +859,7 @@ export const QUESTIONS = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "friends in low places",
+    "lyric": "where the whiskey drowns and the beer chases",
     "lyricSong": "Friends in Low Places",
     "lyricArtist": "Garth Brooks"
   },
@@ -875,7 +875,7 @@ export const QUESTIONS = [
       "Joe Diffie"
     ],
     "a": 2,
-    "lyric": "The thunder rolls",
+    "lyric": "the thunder rolls and the lightning strikes",
     "lyricSong": "The Thunder Rolls",
     "lyricArtist": "Garth Brooks"
   },
@@ -891,7 +891,7 @@ export const QUESTIONS = [
       "Radney Foster"
     ],
     "a": 0,
-    "lyric": "Unanswered Prayers",
+    "lyric": "Some of God's greatest gifts are unanswered prayers",
     "lyricSong": "Unanswered Prayers",
     "lyricArtist": "Garth Brooks"
   },
@@ -939,7 +939,7 @@ export const QUESTIONS = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "I’m shameless",
+    "lyric": "I'm shameless when it comes to loving you",
     "lyricSong": "Shameless",
     "lyricArtist": "Garth Brooks"
   },
@@ -971,7 +971,7 @@ export const QUESTIONS = [
       "Joe Diffie"
     ],
     "a": 1,
-    "lyric": "I will sail my vessel",
+    "lyric": "I will sail my vessel till the river runs dry",
     "lyricSong": "The River",
     "lyricArtist": "Garth Brooks"
   },
@@ -1051,7 +1051,7 @@ export const QUESTIONS = [
       "Sammy Kershaw"
     ],
     "a": 1,
-    "lyric": "Standing Outside the Fire",
+    "lyric": "life is not tried, it is merely survived",
     "lyricSong": "Standing Outside the Fire",
     "lyricArtist": "Garth Brooks"
   },
@@ -1147,7 +1147,7 @@ export const QUESTIONS = [
       "Garth Brooks"
     ],
     "a": 3,
-    "lyric": "Two Piña Coladas",
+    "lyric": "one for each hand",
     "lyricSong": "Two Piña Coladas",
     "lyricArtist": "Garth Brooks"
   },
@@ -1163,7 +1163,7 @@ export const QUESTIONS = [
       "Tracy Lawrence"
     ],
     "a": 2,
-    "lyric": "Chasin’ That Neon Rainbow",
+    "lyric": "chasin’ that neon rainbow, livin’ that honky tonk dream",
     "lyricSong": "Chasin’ That Neon Rainbow",
     "lyricArtist": "Alan Jackson"
   },
@@ -1179,7 +1179,7 @@ export const QUESTIONS = [
       "Alan Jackson"
     ],
     "a": 3,
-    "lyric": "Here in the Real World",
+    "lyric": "Here in the real world, it’s not that easy",
     "lyricSong": "Here in the Real World",
     "lyricArtist": "Alan Jackson"
   },
@@ -1195,7 +1195,7 @@ export const QUESTIONS = [
       "Toby Keith"
     ],
     "a": 1,
-    "lyric": "Don’t Rock the Jukebox",
+    "lyric": "I wanna hear some Jones",
     "lyricSong": "Don’t Rock the Jukebox",
     "lyricArtist": "Alan Jackson"
   },
@@ -1243,7 +1243,7 @@ export const QUESTIONS = [
       "Clay Walker"
     ],
     "a": 2,
-    "lyric": "way down yonder on the Chattahoochee",
+    "lyric": "it gets hotter than a hoochie coochie",
     "lyricSong": "Chattahoochee",
     "lyricArtist": "Alan Jackson"
   },
@@ -1275,7 +1275,7 @@ export const QUESTIONS = [
       "Randy Travis"
     ],
     "a": 2,
-    "lyric": "Gone Country",
+    "lyric": "She’s gone country, look at them boots",
     "lyricSong": "Gone Country",
     "lyricArtist": "Alan Jackson"
   },
@@ -1291,7 +1291,7 @@ export const QUESTIONS = [
       "Billy Ray Cyrus"
     ],
     "a": 0,
-    "lyric": "Livin’ on Love",
+    "lyric": "livin’ on love, buyin’ on time",
     "lyricSong": "Livin’ on Love",
     "lyricArtist": "Alan Jackson"
   },
@@ -1323,7 +1323,7 @@ export const QUESTIONS = [
       "Randy Travis"
     ],
     "a": 1,
-    "lyric": "I Don’t Even Know Your Name",
+    "lyric": "I don’t even know your name",
     "lyricSong": "I Don’t Even Know Your Name",
     "lyricArtist": "Alan Jackson"
   },
@@ -1355,7 +1355,7 @@ export const QUESTIONS = [
       "Tim McGraw"
     ],
     "a": 1,
-    "lyric": "Little Bitty",
+    "lyric": "it’s all right to be little bitty",
     "lyricSong": "Little Bitty",
     "lyricArtist": "Alan Jackson"
   },
@@ -1419,7 +1419,7 @@ export const QUESTIONS = [
       "Radney Foster"
     ],
     "a": 2,
-    "lyric": "Love Without End, Amen",
+    "lyric": "Daddies don't just love their children every now and then",
     "lyricSong": "Love Without End, Amen",
     "lyricArtist": "George Strait"
   },
@@ -1467,7 +1467,7 @@ export const QUESTIONS = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "I cross my heart",
+    "lyric": "You'll never find a love as true as mine",
     "lyricSong": "I Cross My Heart",
     "lyricArtist": "George Strait"
   },
@@ -1563,7 +1563,7 @@ export const QUESTIONS = [
       "George Strait"
     ],
     "a": 3,
-    "lyric": "check yes or no",
+    "lyric": "Do you love me? Do you wanna be my friend?",
     "lyricSong": "Check Yes or No",
     "lyricArtist": "George Strait"
   },
@@ -1643,7 +1643,7 @@ export const QUESTIONS = [
       "Tracy Byrd"
     ],
     "a": 2,
-    "lyric": "Carrying Your Love with Me",
+    "lyric": "I’m carrying your love with me",
     "lyricSong": "Carrying Your Love with Me",
     "lyricArtist": "George Strait"
   },
@@ -1707,7 +1707,7 @@ export const QUESTIONS = [
       "Billy Ray Cyrus"
     ],
     "a": 1,
-    "lyric": "Write This Down",
+    "lyric": "write this down, take a little note",
     "lyricSong": "Write This Down",
     "lyricArtist": "George Strait"
   },
@@ -1723,7 +1723,7 @@ export const QUESTIONS = [
       "Little Texas"
     ],
     "a": 1,
-    "lyric": "boot scootin’ boogie",
+    "lyric": "They got whiskey, women, music and smoke",
     "lyricSong": "Boot Scootin’ Boogie",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1739,7 +1739,7 @@ export const QUESTIONS = [
       "The Mavericks"
     ],
     "a": 1,
-    "lyric": "underneath the neon moon",
+    "lyric": "if you lose your one and only",
     "lyricSong": "Neon Moon",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1771,7 +1771,7 @@ export const QUESTIONS = [
       "The Mavericks"
     ],
     "a": 2,
-    "lyric": "Hard Workin’ Man",
+    "lyric": "I’m a hard workin’ man",
     "lyricSong": "Hard Workin’ Man",
     "lyricArtist": "Brooks & Dunn"
   },
@@ -1963,7 +1963,7 @@ export const QUESTIONS = [
       "Reba McEntire"
     ],
     "a": 3,
-    "lyric": "Here’s your one chance, Fancy",
+    "lyric": "Here's your one chance, Fancy, don't let me down",
     "lyricSong": "Fancy",
     "lyricArtist": "Reba McEntire"
   },
@@ -1979,7 +1979,7 @@ export const QUESTIONS = [
       "Chely Wright"
     ],
     "a": 0,
-    "lyric": "Is There Life Out There",
+    "lyric": "is there life out there",
     "lyricSong": "Is There Life Out There",
     "lyricArtist": "Reba McEntire"
   },
@@ -2027,7 +2027,7 @@ export const QUESTIONS = [
       "LeAnn Rimes"
     ],
     "a": 2,
-    "lyric": "the greatest man I never knew",
+    "lyric": "man I never knew lived just down the hall",
     "lyricSong": "The Greatest Man I Never Knew",
     "lyricArtist": "Reba McEntire"
   },
@@ -2219,7 +2219,7 @@ export const QUESTIONS = [
       "Travis Tritt"
     ],
     "a": 3,
-    "lyric": "here’s a quarter",
+    "lyric": "Here's a quarter, call someone who cares",
     "lyricSong": "Here’s a Quarter (Call Someone Who Cares)",
     "lyricArtist": "Travis Tritt"
   },
@@ -2235,7 +2235,7 @@ export const QUESTIONS = [
       "Doug Stone"
     ],
     "a": 1,
-    "lyric": "T-R-O-U-B-L-E",
+    "lyric": "I smell T-R-O-U-B-L-E",
     "lyricSong": "T-R-O-U-B-L-E",
     "lyricArtist": "Travis Tritt"
   },
@@ -2491,7 +2491,7 @@ export const QUESTIONS = [
       "Randy Travis"
     ],
     "a": 2,
-    "lyric": "Sticks and Stones",
+    "lyric": "sticks and stones may break my bones",
     "lyricSong": "Sticks and Stones",
     "lyricArtist": "Tracy Lawrence"
   },
@@ -2651,7 +2651,7 @@ export const QUESTIONS = [
       "Tim McGraw"
     ],
     "a": 3,
-    "lyric": "Down on the Farm",
+    "lyric": "down on the farm",
     "lyricSong": "Down on the Farm",
     "lyricArtist": "Tim McGraw"
   },
@@ -2747,7 +2747,7 @@ export const QUESTIONS = [
       "Keith Whitley"
     ],
     "a": 1,
-    "lyric": "Just to See You Smile",
+    "lyric": "I'd do anything that you wanted me to",
     "lyricSong": "Just to See You Smile",
     "lyricArtist": "Tim McGraw"
   },
@@ -2763,7 +2763,7 @@ export const QUESTIONS = [
       "Radney Foster"
     ],
     "a": 1,
-    "lyric": "Where the Green Grass Grows",
+    "lyric": "I'm gonna live where the green grass grows",
     "lyricSong": "Where the Green Grass Grows",
     "lyricArtist": "Tim McGraw"
   },
@@ -2811,7 +2811,7 @@ export const QUESTIONS = [
       "John Anderson"
     ],
     "a": 2,
-    "lyric": "something like that",
+    "lyric": "a barbecue stain on my white T-shirt",
     "lyricSong": "Something Like That",
     "lyricArtist": "Tim McGraw"
   },
@@ -2843,7 +2843,7 @@ export const QUESTIONS = [
       "Mary Chapin Carpenter"
     ],
     "a": 2,
-    "lyric": "Any Man of Mine",
+    "lyric": "any man of mine better walk the line",
     "lyricSong": "Any Man of Mine",
     "lyricArtist": "Shania Twain"
   },
@@ -2955,7 +2955,7 @@ export const QUESTIONS = [
       "Shania Twain"
     ],
     "a": 3,
-    "lyric": "you’re still the one",
+    "lyric": "you're still the one I run to",
     "lyricSong": "You’re Still the One",
     "lyricArtist": "Shania Twain"
   },
@@ -2987,7 +2987,7 @@ export const QUESTIONS = [
       "Wynonna"
     ],
     "a": 1,
-    "lyric": "that don’t impress me much",
+    "lyric": "that don't impress me much",
     "lyricSong": "That Don’t Impress Me Much",
     "lyricArtist": "Shania Twain"
   },
@@ -3003,7 +3003,7 @@ export const QUESTIONS = [
       "Shania Twain"
     ],
     "a": 3,
-    "lyric": "man, I feel like a woman",
+    "lyric": "the best thing about being a woman",
     "lyricSong": "Man! I Feel Like a Woman!",
     "lyricArtist": "Shania Twain"
   },
@@ -3115,7 +3115,7 @@ export const QUESTIONS = [
       "Mary Chapin Carpenter"
     ],
     "a": 1,
-    "lyric": "Blame It on Your Heart",
+    "lyric": "lyin’, cheatin’, cold dead beatin’",
     "lyricSong": "Blame It on Your Heart",
     "lyricArtist": "Patty Loveless"
   },
@@ -3147,7 +3147,7 @@ export const QUESTIONS = [
       "Lorrie Morgan"
     ],
     "a": 0,
-    "lyric": "I Try to Think About Elvis",
+    "lyric": "I try to think about Elvis",
     "lyricSong": "I Try to Think About Elvis",
     "lyricArtist": "Patty Loveless"
   },
@@ -3163,7 +3163,7 @@ export const QUESTIONS = [
       "Jo Dee Messina"
     ],
     "a": 0,
-    "lyric": "How Can I Help You Say Goodbye",
+    "lyric": "How can I help you say goodbye?",
     "lyricSong": "How Can I Help You Say Goodbye",
     "lyricArtist": "Patty Loveless"
   },
@@ -3227,7 +3227,7 @@ export const QUESTIONS = [
       "Lorrie Morgan"
     ],
     "a": 3,
-    "lyric": "What Part of No",
+    "lyric": "What part of no don’t you understand?",
     "lyricSong": "What Part of No",
     "lyricArtist": "Lorrie Morgan"
   },
@@ -3499,7 +3499,7 @@ export const QUESTIONS = [
       "Wynonna"
     ],
     "a": 2,
-    "lyric": "she’s a wild one",
+    "lyric": "she’s a wild one with an angel’s face",
     "lyricSong": "Wild One",
     "lyricArtist": "Faith Hill"
   },
@@ -3579,7 +3579,7 @@ export const QUESTIONS = [
       "Jo Dee Messina"
     ],
     "a": 0,
-    "lyric": "this kiss",
+    "lyric": "it’s centrifugal motion",
     "lyricSong": "This Kiss",
     "lyricArtist": "Faith Hill"
   },
@@ -3595,7 +3595,7 @@ export const QUESTIONS = [
       "Terri Clark"
     ],
     "a": 1,
-    "lyric": "just breathe",
+    "lyric": "I can feel you breathe",
     "lyricSong": "Breathe",
     "lyricArtist": "Faith Hill"
   },
@@ -3627,7 +3627,7 @@ export const QUESTIONS = [
       "Jo Dee Messina"
     ],
     "a": 0,
-    "lyric": "Walkaway Joe",
+    "lyric": "he was born to be a leaver",
     "lyricSong": "Walkaway Joe",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3659,7 +3659,7 @@ export const QUESTIONS = [
       "Terri Clark"
     ],
     "a": 1,
-    "lyric": "The Song Remembers When",
+    "lyric": "the song remembers when",
     "lyricSong": "The Song Remembers When",
     "lyricArtist": "Trisha Yearwood"
   },
@@ -3899,7 +3899,7 @@ export const QUESTIONS = [
       "Deana Carter"
     ],
     "a": 2,
-    "lyric": "my baby loves me",
+    "lyric": "my baby loves me just the way that I am",
     "lyricSong": "My Baby Loves Me",
     "lyricArtist": "Martina McBride"
   },
@@ -3947,7 +3947,7 @@ export const QUESTIONS = [
       "Jo Dee Messina"
     ],
     "a": 2,
-    "lyric": "A Broken Wing",
+    "lyric": "with a broken wing, she still sings",
     "lyricSong": "A Broken Wing",
     "lyricArtist": "Martina McBride"
   },
@@ -4491,7 +4491,7 @@ export const QUESTIONS = [
       "John Michael Montgomery"
     ],
     "a": 3,
-    "lyric": "Life’s a Dance",
+    "lyric": "you learn as you go",
     "lyricSong": "Life’s a Dance",
     "lyricArtist": "John Michael Montgomery"
   },
@@ -4683,7 +4683,7 @@ export const QUESTIONS = [
       "Shenandoah"
     ],
     "a": 0,
-    "lyric": "Meet in the Middle",
+    "lyric": "meet in the middle 'neath that old Georgia pine",
     "lyricSong": "Meet in the Middle",
     "lyricArtist": "Diamond Rio"
   },
@@ -4987,7 +4987,7 @@ export const QUESTIONS = [
       "Dwight Yoakam"
     ],
     "a": 2,
-    "lyric": "she don’t know she’s beautiful",
+    "lyric": "She don't know she's beautiful",
     "lyricSong": "She Don’t Know She’s Beautiful",
     "lyricArtist": "Sammy Kershaw"
   },
@@ -5115,7 +5115,7 @@ export const QUESTIONS = [
       "Tracy Byrd"
     ],
     "a": 0,
-    "lyric": "Old Flames Have New Names",
+    "lyric": "all my old flames have new names",
     "lyricSong": "Old Flames Have New Names",
     "lyricArtist": "Mark Chesnutt"
   },
@@ -5291,7 +5291,7 @@ export const QUESTIONS = [
       "David Lee Murphy"
     ],
     "a": 2,
-    "lyric": "Prop Me Up Beside the Jukebox",
+    "lyric": "prop me up beside the jukebox if I die",
     "lyricSong": "Prop Me Up Beside the Jukebox (If I Die)",
     "lyricArtist": "Joe Diffie"
   },
@@ -5307,7 +5307,7 @@ export const QUESTIONS = [
       "Neal McCoy"
     ],
     "a": 0,
-    "lyric": "Third Rock from the Sun",
+    "lyric": "third rock from the sun",
     "lyricSong": "Third Rock from the Sun",
     "lyricArtist": "Joe Diffie"
   },
@@ -5947,7 +5947,7 @@ export const QUESTIONS = [
       "Travis Tritt"
     ],
     "a": 0,
-    "lyric": "Small Town Saturday Night",
+    "lyric": "Lucy’s got her lipstick on a little too bright",
     "lyricSong": "Small Town Saturday Night",
     "lyricArtist": "Hal Ketchum"
   },
@@ -6923,7 +6923,7 @@ export const QUESTIONS = [
       "The Kinleys"
     ],
     "a": 3,
-    "lyric": "Please",
+    "lyric": "I'll stand and fight or get down on my knees",
     "lyricSong": "Please",
     "lyricArtist": "The Kinleys"
   },
