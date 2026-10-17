@@ -13,6 +13,33 @@ export class CountryLeaderboard {
       first_seen INTEGER NOT NULL, last_seen INTEGER NOT NULL,
       PRIMARY KEY(name_key, rounds)
     )`);
+    this.renamePlayer('gay', 'Russ');
+  }
+  // One-off moderation rename; merges into an existing entry for the new name if there is one.
+  renamePlayer(from, to) {
+    const sql = this.ctx.storage.sql;
+    const fromKey = from.toLocaleLowerCase('en-US');
+    const toKey = to.toLocaleLowerCase('en-US');
+    this.ctx.storage.transactionSync(() => {
+      for (const old of [...sql.exec('SELECT * FROM scores WHERE name_key=?', fromKey)]) {
+        sql.exec(
+          `INSERT INTO scores (name_key,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
+          VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(name_key,rounds) DO UPDATE SET
+          best_correct=CASE WHEN excluded.best_score>scores.best_score THEN excluded.best_correct ELSE scores.best_correct END,
+          best_score=MAX(scores.best_score,excluded.best_score), games=scores.games+excluded.games,
+          first_seen=MIN(scores.first_seen,excluded.first_seen), last_seen=MAX(scores.last_seen,excluded.last_seen)`,
+          toKey,
+          old.rounds,
+          to,
+          old.best_score,
+          old.best_correct,
+          old.games,
+          old.first_seen,
+          old.last_seen,
+        );
+        sql.exec('DELETE FROM scores WHERE name_key=? AND rounds=?', fromKey, old.rounds);
+      }
+    });
   }
   recordMatch(match) {
     const { matchId, rounds, players } = match;

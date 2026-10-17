@@ -101,3 +101,32 @@ assert.notEqual(wrongToken.status, 200);
 console.log(
   'PASS: persistent 10/20 leaderboard, solo verification, multiplayer records, duplicate prevention, private tokens, high score and play counts.',
 );
+{
+  const t = Date.now();
+  board.recordMatch({
+    matchId: 'rename-a',
+    rounds: 20,
+    players: [{ name: 'gay', score: 393, correct: 3 }],
+  });
+  board.recordMatch({
+    matchId: 'rename-b',
+    rounds: 20,
+    players: [{ name: 'Russ', score: 300, correct: 2 }],
+  });
+  board.recordMatch({
+    matchId: 'rename-c',
+    rounds: 20,
+    players: [{ name: 'Russ', score: 250, correct: 2 }],
+  });
+  board.renamePlayer('gay', 'Russ');
+  const rows = db
+    .prepare('SELECT * FROM scores WHERE rounds=20 AND name_key IN (?,?)')
+    .all('gay', 'russ');
+  assert.equal(rows.length, 1, 'renamed entry merges into the existing one');
+  assert.equal(rows[0].display_name, 'Russ');
+  assert.equal(rows[0].best_score, 393);
+  assert.equal(rows[0].best_correct, 3);
+  assert.equal(rows[0].games, 3);
+  assert.ok(rows[0].last_seen >= t);
+  console.log('PASS: moderation rename merges leaderboard entries.');
+}
