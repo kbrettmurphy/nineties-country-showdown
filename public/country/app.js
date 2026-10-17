@@ -448,7 +448,7 @@
     const wrap = document.createElement('div');
     wrap.className = 'report-backdrop';
     wrap.innerHTML = `<div class="report-dialog" role="dialog" aria-modal="true" aria-labelledby="report-title">
-  <div class="eyebrow">Report a problem</div>
+  <div class="eyebrow">Report a question error</div>
   <h3 id="report-title">What’s wrong with this one?</h3>
   <p class="report-song">“${escapeHtml(target.song)}” · ${escapeHtml(target.artist)}</p>
   <div class="report-reasons">${REPORT_REASONS.map(([key, label]) => `<button type="button" class="report-reason" data-reason="${key}" aria-pressed="false">${label}</button>`).join('')}</div>
