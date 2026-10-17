@@ -60,7 +60,11 @@ export default {
         });
       }
       // Reports page (public/country/reports/): reading and resolving needs the REPORTS_KEY secret.
-      if (path[1] === 'reports' && ['list', 'resolve'].includes(path[2]) && path.length === 3) {
+      if (
+        path[1] === 'reports' &&
+        ['list', 'resolve', 'stats'].includes(path[2]) &&
+        path.length === 3
+      ) {
         if (!env.REPORTS_KEY) return fail('Reports key is not configured.', 503);
         if (typeof data.key !== 'string' || data.key !== env.REPORTS_KEY)
           return fail('Wrong reports key.', 403);

@@ -245,12 +245,19 @@ export class GameRoom {
     if (changed) await this.ctx.storage.put('room', room);
     if (phaseBefore === 'question' && room.phase === 'reveal') {
       try {
-        await this.leaderboard('/history/seen', {
+        const question = QUESTIONS[room.order[room.index]];
+        const askedAt = room.endsAt - DURATION_MS;
+        await this.leaderboard('/round', {
           names: room.players.map((p) => p.name),
-          topic: QUESTIONS[room.order[room.index]].topic,
+          topic: question.topic,
+          questionId: question.id,
+          answers: room.players.map((p) => {
+            const a = room.answers[p.token];
+            return a ? { choice: a.choice, ms: a.at - askedAt } : { choice: null };
+          }),
         });
       } catch (e) {
-        console.error('Could not record seen song:', e);
+        console.error('Could not record the revealed question:', e);
       }
     }
     // Results are reported from the authoritative multiplayer room, never from a browser-supplied score.

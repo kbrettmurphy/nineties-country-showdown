@@ -136,6 +136,52 @@
         margin: 0;
         overflow-wrap: anywhere;
       }
+      .summary {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 14px;
+      }
+      .summary span {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 13px;
+      }
+      .summary b {
+        color: var(--gold);
+      }
+      .sorts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+      .stat {
+        display: grid;
+        grid-template-columns: 64px 1fr;
+        gap: 12px;
+        align-items: start;
+      }
+      .pct {
+        font:
+          700 26px/1 Oswald,
+          sans-serif;
+        color: var(--gold);
+        text-align: right;
+      }
+      .pct small {
+        display: block;
+        margin-top: 4px;
+        font:
+          600 11px 'DM Sans',
+          sans-serif;
+        color: var(--muted);
+      }
+      .q {
+        margin: 0 0 4px;
+      }
       .empty {
         color: var(--muted);
         padding: 30px 0;
@@ -152,6 +198,7 @@
         <button class="primary" type="submit">Load</button>
         <button type="button" data-status="open" aria-pressed="true">Open</button>
         <button type="button" data-status="fixed" aria-pressed="false">Fixed</button>
+        <button type="button" data-status="stats" aria-pressed="false">Answer stats</button>
       </form>
       <div class="status" id="status" role="status"></div>
       <div id="list"></div>
@@ -173,6 +220,68 @@
             (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
           );
         let status = 'open';
+        let stats = null;
+        let sort = 'hardest';
+        const MIN_PLAYS = 3;
+        const pct = (a, b) => (b ? Math.round((100 * a) / b) : 0);
+        function drawStats() {
+          const shown = stats.reduce((n, x) => n + x.shown, 0);
+          const correct = stats.reduce((n, x) => n + x.correct, 0);
+          const byType = {};
+          for (const x of stats) {
+            const t = (byType[x.category] ||= { shown: 0, correct: 0 });
+            t.shown += x.shown;
+            t.correct += x.correct;
+          }
+          const ranked = stats.filter((x) => sort === 'played' || x.shown >= MIN_PLAYS);
+          const order = {
+            hardest: (a, b) => a.correct / a.shown - b.correct / b.shown || b.shown - a.shown,
+            easiest: (a, b) => b.correct / b.shown - a.correct / a.shown || b.shown - a.shown,
+            slowest: (a, b) => (b.avg_ms ?? 0) - (a.avg_ms ?? 0),
+            played: (a, b) => b.shown - a.shown,
+          }[sort];
+          ranked.sort(order);
+          $('#status').textContent = `${stats.length} questions played so far`;
+          $('#list').innerHTML =
+            `<div class="summary"><span><b>${shown}</b> answers</span><span><b>${pct(correct, shown)}%</b> right overall</span>${Object.entries(
+              byType,
+            )
+              .map(
+                ([t, v]) =>
+                  `<span>${esc(t)}: <b>${pct(v.correct, v.shown)}%</b> of ${v.shown}</span>`,
+              )
+              .join('')}</div>
+  <div class="sorts">${[
+    ['hardest', 'Hardest'],
+    ['easiest', 'Easiest'],
+    ['slowest', 'Slowest'],
+    ['played', 'Most played'],
+  ]
+    .map(
+      ([k, l]) =>
+        `<button type="button" data-sort="${k}" aria-pressed="${k === sort}">${l}</button>`,
+    )
+    .join('')}</div>
+  ${
+    ranked.length
+      ? ranked
+          .slice(0, 100)
+          .map((x) => {
+            const wrong = Object.entries(x.picks)
+              .filter(([c]) => c !== x.answer)
+              .sort((a, b) => b[1] - a[1])[0];
+            return `<article class="report stat"><div class="pct">${pct(x.correct, x.shown)}%<small>${x.correct}/${x.shown} right</small></div>
+  <div><p class="q">${esc(x.question)}</p>
+  <div class="meta">${esc(x.song)} — ${esc(x.artist)} · ${esc(x.category)} · #${x.question_id}</div>
+  <dl><dt>Answer</dt><dd>${esc(x.answer)}</dd>
+  ${wrong ? `<dt>Top wrong pick</dt><dd>${esc(wrong[0])} (${wrong[1]})</dd>` : ''}
+  <dt>No answer</dt><dd>${x.shown - x.answered}</dd>
+  <dt>Avg time</dt><dd>${x.avg_ms == null ? '—' : (x.avg_ms / 1000).toFixed(1) + 's'}</dd></dl></div></article>`;
+          })
+          .join('')
+      : `<p class="empty">No question has been played ${MIN_PLAYS}+ times yet.</p>`
+  }`;
+        }
         try {
           $('#key').value = localStorage.getItem('country-reports-key') || '';
         } catch {}
@@ -190,6 +299,13 @@
           if (!$('#key').value.trim()) return ($('#status').textContent = 'Enter the reports key.');
           $('#status').textContent = 'Loading…';
           try {
+            if (status === 'stats') {
+              stats = (await call('stats', {})).stats;
+              try {
+                localStorage.setItem('country-reports-key', $('#key').value.trim());
+              } catch {}
+              return drawStats();
+            }
             const { reports } = await call('list', { status });
             try {
               localStorage.setItem('country-reports-key', $('#key').value.trim());
@@ -231,6 +347,11 @@
           }),
         );
         $('#list').addEventListener('click', async (e) => {
+          const s = e.target.closest('[data-sort]');
+          if (s) {
+            sort = s.dataset.sort;
+            return drawStats();
+          }
           const b = e.target.closest('[data-id]');
           if (!b) return;
           b.disabled = true;

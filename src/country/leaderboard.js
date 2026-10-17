@@ -36,6 +36,18 @@ export class CountryLeaderboard {
       note TEXT NOT NULL, name TEXT NOT NULL, token TEXT NOT NULL, created_at INTEGER NOT NULL,
       status TEXT NOT NULL DEFAULT 'open', UNIQUE(token, question_id)
     )`);
+    // How each question plays in real games: times asked, answered, right, time taken, and
+    // which choices people pick. Totals only, no player names. Picks are keyed by choice text so
+    // they stay correct even if a rebuild reorders a question's choices.
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS question_stats (
+      question_id INTEGER PRIMARY KEY, shown INTEGER NOT NULL DEFAULT 0,
+      answered INTEGER NOT NULL DEFAULT 0, correct INTEGER NOT NULL DEFAULT 0,
+      total_ms INTEGER NOT NULL DEFAULT 0
+    )`);
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS question_picks (
+      question_id INTEGER NOT NULL, choice TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 0,
+      PRIMARY KEY(question_id, choice)
+    )`);
     this.renamePlayer('gay', 'Russ');
   }
   // One-off moderation rename; merges into an existing entry for the new name if there is one.
@@ -130,6 +142,58 @@ export class CountryLeaderboard {
       now,
     );
     return asJson({ ok: true });
+  }
+  // answers: one { choice: 0-3 | null (no answer), ms: time taken } per player who saw it.
+  recordAnswers(questionId, answers) {
+    const question = questionById.get(questionId);
+    if (!question || !Array.isArray(answers)) return;
+    const sql = this.ctx.storage.sql;
+    this.ctx.storage.transactionSync(() => {
+      for (const a of answers.slice(0, 8)) {
+        const picked = Number.isInteger(a?.choice) && a.choice >= 0 && a.choice <= 3;
+        const ms = picked ? Math.max(0, Math.min(DURATION_MS, Math.round(Number(a.ms) || 0))) : 0;
+        sql.exec(
+          `INSERT INTO question_stats (question_id,shown,answered,correct,total_ms) VALUES (?,1,?,?,?)
+          ON CONFLICT(question_id) DO UPDATE SET shown=shown+1, answered=answered+excluded.answered,
+          correct=correct+excluded.correct, total_ms=total_ms+excluded.total_ms`,
+          question.id,
+          picked ? 1 : 0,
+          picked && a.choice === question.a ? 1 : 0,
+          ms,
+        );
+        if (picked)
+          sql.exec(
+            `INSERT INTO question_picks (question_id,choice,n) VALUES (?,?,1)
+            ON CONFLICT(question_id,choice) DO UPDATE SET n=n+1`,
+            question.id,
+            question.choices[a.choice],
+          );
+      }
+    });
+  }
+  listStats() {
+    const sql = this.ctx.storage.sql;
+    const picks = new Map();
+    for (const p of sql.exec('SELECT question_id,choice,n FROM question_picks')) {
+      if (!picks.has(p.question_id)) picks.set(p.question_id, {});
+      picks.get(p.question_id)[p.choice] = p.n;
+    }
+    return [...sql.exec('SELECT * FROM question_stats ORDER BY shown DESC')].map((r) => {
+      const q = questionById.get(r.question_id);
+      return {
+        question_id: r.question_id,
+        shown: r.shown,
+        answered: r.answered,
+        correct: r.correct,
+        avg_ms: r.answered ? Math.round(r.total_ms / r.answered) : null,
+        picks: picks.get(r.question_id) || {},
+        category: q?.category,
+        question: q?.q,
+        answer: q?.choices[q.a],
+        song: q?.lyricSong,
+        artist: q?.lyricArtist,
+      };
+    });
   }
   listReports(status) {
     const rows = [
@@ -254,6 +318,13 @@ export class CountryLeaderboard {
       );
       return asJson({ ok: true });
     }
+    if (action === '/reports/stats') return asJson({ stats: this.listStats() });
+    // Called by a GameRoom when a multiplayer question is revealed.
+    if (action === '/round') {
+      this.markSeen(d.names, d.topic);
+      this.recordAnswers(d.questionId, d.answers);
+      return asJson({ ok: true });
+    }
     if (action === '/history/seen') {
       this.markSeen(d.names, d.topic);
       return asJson({ ok: true });
@@ -325,6 +396,11 @@ export class CountryLeaderboard {
       if (correct) session.correct++;
       session.answered = true;
       this.markSeen([session.name], question.topic);
+      // A late answer scored as a miss counts as no answer.
+      const onTime = d.choice !== null && now <= session.endsAt + 1200;
+      this.recordAnswers(question.id, [
+        { choice: onTime ? d.choice : null, ms: DURATION_MS - (session.endsAt - now) },
+      ]);
       session.lastResult = {
         points,
         score: session.score,

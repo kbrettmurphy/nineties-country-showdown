@@ -99,6 +99,15 @@ assert.ok(
 );
 await post(room, '/answer', { token: host, choice: 0 });
 state = await post(room, '/answer', { token: guest, choice: 1 });
+// The reveal also records how the question played: both players, one pick each.
+const roomQ = QUESTIONS[store.get('room').order[0]];
+const roomStats = board.listStats().find((x) => x.question_id === roomQ.id);
+assert.equal(roomStats.shown, 2);
+assert.equal(roomStats.answered, 2);
+assert.equal(roomStats.correct, [0, 1].filter((c) => c === roomQ.a).length);
+assert.equal(roomStats.picks[roomQ.choices[0]], 1);
+assert.equal(roomStats.picks[roomQ.choices[1]], 1);
+assert.ok(roomStats.avg_ms >= 0 && roomStats.avg_ms <= 30000);
 assert.equal(state.phase, 'reveal');
 const russ = await post(board, '/history/merge', { players: [{ name: 'Russ', topics: [] }] });
 assert.deepEqual(
@@ -118,6 +127,15 @@ while (all.size + 10 <= total) {
     all.add(t);
   }
 }
+// Every solo answer was recorded too, once per question asked.
+const stats = board.listStats();
+const shown = stats.reduce((n, x) => n + x.shown, 0);
+assert.equal(shown, all.size - 1 + 2, 'one stat per solo question plus two players in the room');
+assert.ok(stats.every((x) => x.correct <= x.answered && x.answered <= x.shown));
+assert.ok(
+  stats.every((x) => x.question && x.answer),
+  'stats carry the question text',
+);
 console.log(
-  `PASS: song history follows the nickname across devices and solo/multiplayer; ${all.size} of ${total} songs before any repeat.`,
+  `PASS: song history follows the nickname across devices and solo/multiplayer, answer stats recorded; ${all.size} of ${total} songs before any repeat.`,
 );

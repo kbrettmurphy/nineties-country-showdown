@@ -86,6 +86,10 @@ assert.equal(
   1,
 );
 r = await post('reports/list', { key: 'test-key' });
+assert.equal((await post('reports/stats', {})).status, 403, 'answer stats need the key');
+r = await post('reports/stats', { key: 'test-key' });
+assert.equal(r.status, 200);
+assert.deepEqual(r.data.stats, []);
 const noKeyEnv = { ...env, REPORTS_KEY: undefined };
 const res = await worker.fetch(
   new Request('https://games.murphsmitts.com/country/api/reports/list', {
