@@ -586,6 +586,28 @@ button:disabled {
   font-size: 13px;
   font-weight: 700;
 }
+.chip.new {
+  border-color: var(--gold);
+  background: #59472d;
+  animation: chip-pop 0.5s ease-out;
+}
+.chip.new:after {
+  content: ' joined!';
+  color: var(--gold);
+}
+@keyframes chip-pop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .chip.host:before {
   content: '★ ';
   color: var(--gold);

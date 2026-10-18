@@ -29,6 +29,18 @@
   let refreshing = null;
   let reportTarget = null;
   let leaderboard = null;
+  // Lobby arrivals: when each player was first seen, so a new chip can pop for a few seconds.
+  const arrivals = new Map();
+  function justJoined(roomCode, p) {
+    const key = roomCode + ':' + p.name;
+    const firstLoad = ![...arrivals.keys()].some((k) => k.startsWith(roomCode + ':'));
+    if (!arrivals.has(key)) {
+      arrivals.set(key, firstLoad || p.isYou ? 0 : Date.now());
+      // Redraw once the highlight expires; the lobby only re-renders when the room changes.
+      if (arrivals.get(key)) setTimeout(() => view === 'room' && render(), 4100);
+    }
+    return Date.now() - arrivals.get(key) < 4000;
+  }
   let boardRounds = 10;
   let boardLoading = false;
   const countryPrefix =
@@ -337,7 +349,7 @@
   ${
     soloOnly
       ? ''
-      : `<button class="action" data-action="open-host"><span><b>Host a showdown</b><small>Face your buddy live, anywhere</small></span><span class="arrow">→</span></button>
+      : `<button class="action" data-action="open-host"><span><b>Host a showdown</b><small>Face up to 7 friends live, anywhere</small></span><span class="arrow">→</span></button>
   <button class="action" data-action="open-join"><span><b>Join a showdown</b><small>Got a room code? Get in there.</small></span><span class="arrow">→</span></button>
   <button class="action" data-action="leaderboard"><span><b>Leaderboard</b><small>See who's playing and the all-time high scores</small></span><span class="arrow">→</span></button>`
   }
@@ -351,14 +363,14 @@
   <label class="field"><span>Your name</span><input class="textinput" id="player-name" placeholder="Your nickname" maxlength="24" value="${escapeHtml(name)}" autocomplete="nickname"></label>
   ${isJoin ? `<label class="field"><span>Room code</span><input class="textinput" id="room-code" placeholder="ABC123" maxlength="6" value="${escapeHtml(inviteCode)}" autocapitalize="characters" style="text-transform:uppercase;letter-spacing:.22em;font-weight:800"></label>` : `<label class="field"><span>Round length</span><select class="select" id="rounds"><option value="10" ${rounds === 10 ? 'selected' : ''}>10 questions — Quick Draw</option><option value="20" ${rounds === 20 ? 'selected' : ''}>20 questions — Full Set</option></select></label>`}
   ${button(isJoin ? 'Join Room →' : isHost ? 'Create Room →' : 'Play Solo →', isJoin ? 'join' : isHost ? 'create' : 'solo', 'block')}
-  <div class="notice">${notice()}</div><p class="muted">${isJoin ? 'Your friend needs to start the game once you join.' : isHost ? 'Share the code with your friend, then hit Start Game.' : 'All the questions are about country music released in the 1990s.'}</p></section>`;
+  <div class="notice">${notice()}</div><p class="muted">${isJoin ? 'The host starts the game once everyone’s in.' : isHost ? 'Share the code with up to 7 friends, then hit Start Game.' : 'All the questions are about country music released in the 1990s.'}</p></section>`;
   }
   function drawLobby(s) {
     const roomUrl = `${location.origin}${location.pathname}?room=${s.code}`;
     return `${logo()}${back()}<section class="panel"><div class="eyebrow">${s.isHost ? 'Your room is ready' : 'You made it'}</div><h2 class="section-title">The Honky Tonk Lobby</h2>
   <div class="invite"><div class="joinlabel">Share this code</div><div class="roomcode">${escapeHtml(s.code)}</div><div class="roomline">${button('Copy Invite Link', 'copy-link', 'small')}${button('Share', 'share', 'small secondary')}</div></div>
-  <div class="eyebrow">Players (${s.players.length}/8)</div><div class="players">${s.players.map((p) => `<span class="chip ${p.isYou && s.isHost ? 'host' : ''}">${escapeHtml(p.name)}${p.isYou ? ' (you)' : ''}</span>`).join('')}</div>
-  ${s.isHost ? button(s.players.length >= 2 ? 'Start Game →' : 'Waiting for a buddy…', 'start', 'block', s.players.length < 2 ? 'disabled' : '') : '<div class="wait"><span class="spinner"></span> Waiting for the host to start…</div>'}
+  <div class="eyebrow">Players (${s.players.length}/8)</div><div class="players">${s.players.map((p) => `<span class="chip ${p.isYou && s.isHost ? 'host' : ''} ${justJoined(s.code, p) ? 'new' : ''}">${escapeHtml(p.name)}${p.isYou ? ' (you)' : ''}</span>`).join('')}</div>
+  ${s.isHost ? button(s.players.length >= 2 ? `Start Game · ${s.players.length} players →` : 'Waiting for players to join…', 'start', 'block', s.players.length < 2 ? 'disabled' : '') : '<div class="wait"><span class="spinner"></span> Waiting for the host to start…</div>'}
   <div id="soft-error" class="notice">${notice()}</div><p class="muted" style="margin-bottom:0">${s.rounds} questions · 30 seconds per question · +100 for correct plus a speed bonus</p></section>`;
   }
   function drawQuestion(kind, s) {
@@ -415,7 +427,7 @@
   ${local ? button('Play Again →', 'restart', 'block') : s.isHost ? button('Rematch →', 'rematch', 'block') : '<div class="wait">Waiting for the host to call a rematch…</div>'}
   ${soloOnly ? '' : button('View leaderboard →', 'leaderboard', 'block secondary')}
 
-  <div id="soft-error" class="notice">${notice()}</div><p class="muted">${local ? (soloOnly ? 'Offline solo round complete.' : 'Challenge your buddy using Host a Showdown on the home screen.') : 'New questions are picked for every rematch.'}</p>${soloOnly ? '' : '<a class="tip-link" href="/tip/">Enjoying the Showdown? Tip the jukebox →</a>'}</section>`;
+  <div id="soft-error" class="notice">${notice()}</div><p class="muted">${local ? (soloOnly ? 'Offline solo round complete.' : 'Challenge your friends with Host a Showdown on the home screen.') : 'New questions are picked for every rematch.'}</p>${soloOnly ? '' : '<a class="tip-link" href="/tip/">Enjoying the Showdown? Tip the jukebox →</a>'}</section>`;
   }
   function drawLeaderboard() {
     const rows = leaderboard?.rows || [];
