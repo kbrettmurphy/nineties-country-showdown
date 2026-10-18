@@ -163,17 +163,6 @@ for x in new_songs:
     items.append(dict(id=len(items)+1,category=LABEL[x['type']],topic=topic,q=q,choices=choices,
         a=choices.index(correct),lyric=x['snippet'],lyricSong=x['song'],lyricArtist=x['artist']))
 
-# The reveal must show the line the question quoted. Finish the Lyric reveals the completed
-# line; Name That Song reveals the quoted line. Keep a stored snippet only if it already has it.
-for q in items:
-    if q['category'] not in ('FINISH THE LYRIC','NAME THAT SONG'):
-        continue
-    quote=re.findall(r'“([^”]*)”',q['q'])[-1].replace('…','').strip()
-    if q['category']=='FINISH THE LYRIC':
-        quote=quote+' '+q['choices'][q['a']]
-    if norm(quote) not in norm(q['lyric']):
-        q['lyric']=quote
-
 # Validate answer parity, unique ids, 1 unambiguous key per question, and lyric cap.
 assert len({q['id'] for q in items})==len(items)
 assert len({q['topic'] for q in items[len(base):len(base)+len(all_hits)]})==len(all_hits)
