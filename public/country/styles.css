@@ -252,6 +252,8 @@ button:disabled {
   width: 100%;
 }
 .back {
+  /* Several screens lay out as a flex column; keep the link at the card's left edge on all of them. */
+  align-self: flex-start;
   border: 0;
   background: transparent;
   color: #b8c5bc;
