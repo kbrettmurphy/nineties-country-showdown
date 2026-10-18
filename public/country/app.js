@@ -631,13 +631,13 @@
     return `${logo()}${back()}<section class="panel leaderboard-panel">
     <div class="eyebrow">The all-time jukebox</div><h2 class="section-title">High Score Hall of Fame</h2>
     <p class="section-sub">Highest completed score per name. Solo and multiplayer both count.</p>
-    <div class="board-tabs">${Object.entries(LEVEL_LABELS)
+    <div class="board-filters"><div class="board-tabs">${Object.entries(LEVEL_LABELS)
       .map(
         ([key, label]) =>
           `<button data-action="board-level" data-level="${key}" class="${boardLevel === key ? 'active' : ''}" aria-pressed="${boardLevel === key}">${label}</button>`,
       )
       .join('')}</div>
-    <div class="board-tabs"><button data-action="board10" class="${boardRounds === 10 ? 'active' : ''}" aria-pressed="${boardRounds === 10}">10 questions</button><button data-action="board20" class="${boardRounds === 20 ? 'active' : ''}" aria-pressed="${boardRounds === 20}">20 questions</button></div>
+    <div class="board-tabs"><button data-action="board10" class="${boardRounds === 10 ? 'active' : ''}" aria-pressed="${boardRounds === 10}">10 questions</button><button data-action="board20" class="${boardRounds === 20 ? 'active' : ''}" aria-pressed="${boardRounds === 20}">20 questions</button></div></div>
     ${
       boardLoading
         ? '<p class="muted">Loading scores…</p>'

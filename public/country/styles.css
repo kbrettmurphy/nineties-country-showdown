@@ -1402,26 +1402,45 @@ body.in-round .footnote {
   }
 }
 /* Hall of Fame */
-.board-tabs {
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: column;
+.leaderboard-panel .section-title {
+  /* One line on any phone: shrink with the screen instead of wrapping. */
+  font-size: clamp(18px, calc((100vw - 72px) / 11.6), 31px);
+  white-space: nowrap;
+}
+.board-filters {
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin: 14px 0;
 }
-.board-tabs button {
-  border-radius: 10px;
-  padding: 12px 9px;
-  background: #17282e;
+.board-tabs {
+  display: flex;
+  flex: 3 1 260px;
   border: 1px solid #566861;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.board-tabs + .board-tabs {
+  flex: 2 1 180px;
+}
+.board-tabs button {
+  flex: 1;
+  border: 0;
+  border-right: 1px solid #566861;
+  padding: 7px 6px;
+  background: #17282e;
   color: var(--paper);
   font:
-    600 16px Oswald,
+    600 13px Oswald,
     sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.board-tabs button:last-child {
+  border-right: 0;
 }
 .board-tabs button.active {
   background: var(--gold);
-  border-color: var(--gold);
   color: var(--ink);
 }
 .board-stats {
