@@ -7749,7 +7749,7 @@ export const QUESTIONS = [
     "lyric": "And it’s only fair that you know / Forever’s as far as I’ll go",
     "lyricSong": "Forever’s as Far as I’ll Go",
     "lyricArtist": "Alabama",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 457,
@@ -7783,7 +7783,7 @@ export const QUESTIONS = [
     "lyric": "Here we are, once again / Stronger now than we have ever been",
     "lyricSong": "Here We Are",
     "lyricArtist": "Alabama",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 459,
@@ -7834,7 +7834,7 @@ export const QUESTIONS = [
     "lyric": "I’m in a hurry to get things done / Oh, I rush and rush until life’s no fun",
     "lyricSong": "I’m in a Hurry (And Don’t Know Why)",
     "lyricArtist": "Alabama",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 462,
@@ -7919,7 +7919,7 @@ export const QUESTIONS = [
     "lyric": "So give me one more shot, I’ll give it all I’ve got",
     "lyricSong": "Give Me One More Shot",
     "lyricArtist": "Alabama",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 467,
@@ -8106,7 +8106,7 @@ export const QUESTIONS = [
     "lyric": "And I know I had it coming, and it’s all my fault / But baby, come back before you kill us all",
     "lyricSong": "Before You Kill Us All",
     "lyricArtist": "Randy Travis",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 478,
@@ -8191,7 +8191,7 @@ export const QUESTIONS = [
     "lyric": "How many lies you must have told / You think you’re a rich man with your pocket full of gold",
     "lyricSong": "Pocket Full of Gold",
     "lyricArtist": "Vince Gill",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 483,
@@ -8208,7 +8208,7 @@ export const QUESTIONS = [
     "lyric": "Someone to hold me when the cold wind blows / Take your memory with you when you go",
     "lyricSong": "Take Your Memory with You",
     "lyricArtist": "Vince Gill",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 484,
@@ -8225,7 +8225,7 @@ export const QUESTIONS = [
     "lyric": "I’ve been tryin’ to get over you / But it’ll take dyin’ to get it done",
     "lyricSong": "Tryin’ to Get Over You",
     "lyricArtist": "Vince Gill",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 485,
@@ -8259,7 +8259,7 @@ export const QUESTIONS = [
     "lyric": "I’m standing at the crossroads with just one concern / Which bridge to cross and which bridge to burn",
     "lyricSong": "Which Bridge to Cross (Which Bridge to Burn)",
     "lyricArtist": "Vince Gill",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 487,
@@ -8276,7 +8276,7 @@ export const QUESTIONS = [
     "lyric": "So you better think twice before you roll the dice / You better think twice before you give your heart away",
     "lyricSong": "You Better Think Twice",
     "lyricArtist": "Vince Gill",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 488,
@@ -8310,7 +8310,7 @@ export const QUESTIONS = [
     "lyric": "If you ever have forever in mind / I’ll be here and easy to find",
     "lyricSong": "If You Ever Have Forever in Mind",
     "lyricArtist": "Vince Gill",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 490,
@@ -8344,7 +8344,7 @@ export const QUESTIONS = [
     "lyric": "And just like rain, the tears keep fallin’ / But nobody answers when I call your name",
     "lyricSong": "When I Call Your Name",
     "lyricArtist": "Vince Gill",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 492,
@@ -8378,7 +8378,7 @@ export const QUESTIONS = [
     "lyric": "Last night I prayed the Lord my soul to keep / Then I cried myself to sleep",
     "lyricSong": "For My Broken Heart",
     "lyricArtist": "Reba McEntire",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 494,
@@ -8429,7 +8429,7 @@ export const QUESTIONS = [
     "lyric": "And all I could feel was this aching in my heart / Saying I loved him still",
     "lyricSong": "And Still",
     "lyricArtist": "Reba McEntire",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 497,
@@ -8480,7 +8480,7 @@ export const QUESTIONS = [
     "lyric": "Looks like I picked the wrong night not to fall in love with you",
     "lyricSong": "Wrong Night",
     "lyricArtist": "Reba McEntire",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 500,
@@ -8565,7 +8565,7 @@ export const QUESTIONS = [
     "lyric": "I’m walking away a winner / I’m walking away from a losing game",
     "lyricSong": "Walking Away a Winner",
     "lyricArtist": "Kathy Mattea",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 505,
@@ -8599,7 +8599,7 @@ export const QUESTIONS = [
     "lyric": "I take my chances / I take my chances every chance I get",
     "lyricSong": "I Take My Chances",
     "lyricArtist": "Mary Chapin Carpenter",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 507,
@@ -8718,7 +8718,7 @@ export const QUESTIONS = [
     "lyric": "Chains, chains, shackles and chains / No matter what it takes, someday I’m gonna break these",
     "lyricSong": "Chains",
     "lyricArtist": "Patty Loveless",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 514,
@@ -8939,7 +8939,7 @@ export const QUESTIONS = [
     "lyric": "I held your love on the tips of my fingers / But that was as close as I came",
     "lyricSong": "The Tips of My Fingers",
     "lyricArtist": "Steve Wariner",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 527,
@@ -9041,7 +9041,7 @@ export const QUESTIONS = [
     "lyric": "I’m already taken, you spoke up too late / I love somebody else, so you’ll just have to wait",
     "lyricSong": "I’m Already Taken",
     "lyricArtist": "Steve Wariner",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 533,
@@ -9109,7 +9109,7 @@ export const QUESTIONS = [
     "lyric": "Oh, but baby, I’m down to my last teardrop this time",
     "lyricSong": "Down to My Last Teardrop",
     "lyricArtist": "Tanya Tucker",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 537,
@@ -9177,7 +9177,7 @@ export const QUESTIONS = [
     "lyric": "Like two sparrows in a hurricane / Trying to find their way",
     "lyricSong": "Two Sparrows in a Hurricane",
     "lyricArtist": "Tanya Tucker",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 541,
@@ -9313,7 +9313,7 @@ export const QUESTIONS = [
     "lyric": "When you go, we both walk / You walk away and I walk the floor",
     "lyricSong": "We Both Walk",
     "lyricArtist": "Lorrie Morgan",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 549,
@@ -9330,7 +9330,7 @@ export const QUESTIONS = [
     "lyric": "I’m looking for something in red / Something that’s shocking to turn someone’s head",
     "lyricSong": "Something in Red",
     "lyricArtist": "Lorrie Morgan",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 550,
@@ -9415,7 +9415,7 @@ export const QUESTIONS = [
     "lyric": "Go away, no, wait a minute / I want out, then I want in it",
     "lyricSong": "Go Away",
     "lyricArtist": "Lorrie Morgan",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 555,
@@ -9466,7 +9466,7 @@ export const QUESTIONS = [
     "lyric": "You change just like the weather / But the weather, you know, will always change",
     "lyricSong": "Just Like the Weather",
     "lyricArtist": "Suzy Bogguss",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 558,
@@ -9500,7 +9500,7 @@ export const QUESTIONS = [
     "lyric": "I like a man who’s crazy about me / I like a man who can live without me too",
     "lyricSong": "That’s What I Like About You",
     "lyricArtist": "Trisha Yearwood",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 560,
@@ -9551,7 +9551,7 @@ export const QUESTIONS = [
     "lyric": "There goes my baby, like the sun fallin’ out of the clear blue sky",
     "lyricSong": "There Goes My Baby",
     "lyricArtist": "Trisha Yearwood",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 563,
@@ -9619,7 +9619,7 @@ export const QUESTIONS = [
     "lyric": "He was my strongest weakness / I surrendered heart and soul",
     "lyricSong": "My Strongest Weakness",
     "lyricArtist": "Wynonna",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 567,
@@ -9653,7 +9653,7 @@ export const QUESTIONS = [
     "lyric": "I was born naked but I’m glory bound / And a dead end street is just a place to turn around",
     "lyricSong": "Rock Bottom",
     "lyricArtist": "Wynonna",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 569,
@@ -9704,7 +9704,7 @@ export const QUESTIONS = [
     "lyric": "Love can build a bridge between your heart and mine / Don’t you think it’s time?",
     "lyricSong": "Love Can Build a Bridge",
     "lyricArtist": "The Judds",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 572,
@@ -9908,7 +9908,7 @@ export const QUESTIONS = [
     "lyric": "If the devil danced in empty pockets, he’d have a ball in mine",
     "lyricSong": "If the Devil Danced (In Empty Pockets)",
     "lyricArtist": "Joe Diffie",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 584,
@@ -10061,7 +10061,7 @@ export const QUESTIONS = [
     "lyric": "Oh, I never saw that look in your eyes / And I never had you hold me that tight",
     "lyricSong": "I See It Now",
     "lyricArtist": "Tracy Lawrence",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 593,
@@ -10112,7 +10112,7 @@ export const QUESTIONS = [
     "lyric": "Something makes me wonder, is she happy with her choice / Or is that a tear I hear in her voice",
     "lyricSong": "Is That a Tear",
     "lyricArtist": "Tracy Lawrence",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 596,
@@ -10248,7 +10248,7 @@ export const QUESTIONS = [
     "lyric": "I’m gonna get a life, that’s what I’m gonna do / So startin’ now you can find one too",
     "lyricSong": "Gonna Get a Life",
     "lyricArtist": "Mark Chesnutt",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 604,
@@ -10384,7 +10384,7 @@ export const QUESTIONS = [
     "lyric": "I still got her number but I can’t reach her anymore",
     "lyricSong": "I Can’t Reach Her Anymore",
     "lyricArtist": "Sammy Kershaw",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 612,
@@ -10452,7 +10452,7 @@ export const QUESTIONS = [
     "lyric": "You’ve got to stand for something or you’ll fall for anything",
     "lyricSong": "You’ve Got to Stand for Something",
     "lyricArtist": "Aaron Tippin",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 616,
@@ -10605,7 +10605,7 @@ export const QUESTIONS = [
     "lyric": "Why’s the rich man busy dancin’ while the poor man pays the band",
     "lyricSong": "Lord Have Mercy on the Working Man",
     "lyricArtist": "Travis Tritt",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 625,
@@ -10775,7 +10775,7 @@ export const QUESTIONS = [
     "lyric": "Oh, this one’s gonna hurt you for a long, long time",
     "lyricSong": "This One’s Gonna Hurt You (For a Long, Long Time)",
     "lyricArtist": "Marty Stuart & Travis Tritt",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 635,
@@ -11064,7 +11064,7 @@ export const QUESTIONS = [
     "lyric": "I never knew love, no, I mean real love",
     "lyricSong": "I Never Knew Love",
     "lyricArtist": "Doug Stone",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 652,
@@ -11183,7 +11183,7 @@ export const QUESTIONS = [
     "lyric": "That was a river, this is the ocean",
     "lyricSong": "That Was a River",
     "lyricArtist": "Collin Raye",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 659,
@@ -11268,7 +11268,7 @@ export const QUESTIONS = [
     "lyric": "Mirror, mirror, on my wall / Tell me, who is the loneliest fool of them all",
     "lyricSong": "Mirror, Mirror",
     "lyricArtist": "Diamond Rio",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 664,
@@ -11285,7 +11285,7 @@ export const QUESTIONS = [
     "lyric": "Sometimes I think the devil has got me by the sleeve / Oh, Mama, don’t forget to pray for me",
     "lyricSong": "Mama Don’t Forget to Pray for Me",
     "lyricArtist": "Diamond Rio",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 665,
@@ -11455,7 +11455,7 @@ export const QUESTIONS = [
     "lyric": "And you think you still care / We’ll burn that bridge when we get there",
     "lyricSong": "We’ll Burn That Bridge",
     "lyricArtist": "Brooks & Dunn",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 675,
@@ -11472,7 +11472,7 @@ export const QUESTIONS = [
     "lyric": "She’s not the cheatin’ kind / She’s been cheated one too many times",
     "lyricSong": "She’s Not the Cheatin’ Kind",
     "lyricArtist": "Brooks & Dunn",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 676,
@@ -11642,7 +11642,7 @@ export const QUESTIONS = [
     "lyric": "I’ve got a ceiling, a floor and four walls / Who says you can’t have it all",
     "lyricSong": "(Who Says) You Can’t Have It All",
     "lyricArtist": "Alan Jackson",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 686,
@@ -11676,7 +11676,7 @@ export const QUESTIONS = [
     "lyric": "The flesh is weak, but love is strong / And she’s all I see between the devil and me",
     "lyricSong": "Between the Devil and Me",
     "lyricArtist": "Alan Jackson",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 688,
@@ -11693,7 +11693,7 @@ export const QUESTIONS = [
     "lyric": "Long after the pleasures of the flesh / An’ I’ll go on loving you",
     "lyricSong": "I’ll Go On Loving You",
     "lyricArtist": "Alan Jackson",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 689,
@@ -11744,7 +11744,7 @@ export const QUESTIONS = [
     "lyric": "When the last thing we notice is the color of skin",
     "lyricSong": "We Shall Be Free",
     "lyricArtist": "Garth Brooks",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 692,
@@ -11829,7 +11829,7 @@ export const QUESTIONS = [
     "lyric": "I could hold you for a million years / To make you feel my love",
     "lyricSong": "To Make You Feel My Love",
     "lyricArtist": "Garth Brooks",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 697,
@@ -11846,7 +11846,7 @@ export const QUESTIONS = [
     "lyric": "But if I know me / I’ll turn this car around",
     "lyricSong": "If I Know Me",
     "lyricArtist": "George Strait",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 698,
@@ -11863,7 +11863,7 @@ export const QUESTIONS = [
     "lyric": "I got a feeling called the blues, oh Lord, since my baby said goodbye",
     "lyricSong": "Lovesick Blues",
     "lyricArtist": "George Strait",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 699,
@@ -11897,7 +11897,7 @@ export const QUESTIONS = [
     "lyric": "So tell me word for word what he said that always made you stay",
     "lyricSong": "So Much Like My Dad",
     "lyricArtist": "George Strait",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 701,
@@ -11965,7 +11965,7 @@ export const QUESTIONS = [
     "lyric": "Meanwhile, back in the back of my mem’ry / you’re still dancing with me",
     "lyricSong": "Meanwhile",
     "lyricArtist": "George Strait",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 705,
@@ -11999,7 +11999,7 @@ export const QUESTIONS = [
     "lyric": "I wouldn’t treat a dog the way you treated me / but that’s what I get",
     "lyricSong": "I’ve Come to Expect It from You",
     "lyricArtist": "George Strait",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 707,
@@ -12135,7 +12135,7 @@ export const QUESTIONS = [
     "lyric": "A badly broken heart that’s forgotten how to love / what my heart needs is a woman’s touch",
     "lyricSong": "A Woman’s Touch",
     "lyricArtist": "Toby Keith",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 715,
@@ -12390,7 +12390,7 @@ export const QUESTIONS = [
     "lyric": "From this moment, life has begun / from this moment, you are the one",
     "lyricSong": "From This Moment On",
     "lyricArtist": "Shania Twain",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 730,
@@ -12407,7 +12407,7 @@ export const QUESTIONS = [
     "lyric": "You’ve got a way with me / somehow you got me to believe",
     "lyricSong": "You’ve Got a Way",
     "lyricArtist": "Shania Twain",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 731,
@@ -12475,7 +12475,7 @@ export const QUESTIONS = [
     "lyric": "She thinks my tractor’s sexy, it really turns her on / she’s always starin’ at me while I’m chuggin’ along",
     "lyricSong": "She Thinks My Tractor’s Sexy",
     "lyricArtist": "Kenny Chesney",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 735,
@@ -12509,7 +12509,7 @@ export const QUESTIONS = [
     "lyric": "And there are times I thought that might be true / but she thinks I could rope the moon",
     "lyricSong": "Rope the Moon",
     "lyricArtist": "John Michael Montgomery",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 737,
@@ -12594,7 +12594,7 @@ export const QUESTIONS = [
     "lyric": "I miss you a little, I guess you could say / a little too much, a little too often",
     "lyricSong": "I Miss You a Little",
     "lyricArtist": "John Michael Montgomery",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 742,
@@ -12696,7 +12696,7 @@ export const QUESTIONS = [
     "lyric": "Then what, what you gonna do / When the new wears off and the old shines through",
     "lyricSong": "Then What?",
     "lyricArtist": "Clay Walker",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 748,
@@ -12730,7 +12730,7 @@ export const QUESTIONS = [
     "lyric": "Gonna drink every drop of happiness till they cover me up / I’m gonna live, gonna laugh, gonna love",
     "lyricSong": "Live, Laugh, Love",
     "lyricArtist": "Clay Walker",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 750,
@@ -12764,7 +12764,7 @@ export const QUESTIONS = [
     "lyric": "Tell me you love me for a million years / Then if it don’t work out, then you can tell me goodbye",
     "lyricSong": "Then You Can Tell Me Goodbye",
     "lyricArtist": "Neal McCoy",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 752,
@@ -13002,7 +13002,7 @@ export const QUESTIONS = [
     "lyric": "I got the bleeding stopped but there’s gonna be a scar",
     "lyricSong": "Deep Down",
     "lyricArtist": "Pam Tillis",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 766,
@@ -13019,7 +13019,7 @@ export const QUESTIONS = [
     "lyric": "The world is turning in the land of the living / Take a deep breath, life goes on",
     "lyricSong": "Land of the Living",
     "lyricArtist": "Pam Tillis",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 767,
@@ -13087,7 +13087,7 @@ export const QUESTIONS = [
     "lyric": "You would still have my heart until the end of time / You’re all I need, my love, my Valentine",
     "lyricSong": "Valentine",
     "lyricArtist": "Jim Brickman with Martina McBride",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 771,
@@ -13121,7 +13121,7 @@ export const QUESTIONS = [
     "lyric": "Sure as the sky is blue / Baby, I love you",
     "lyricSong": "I Love You",
     "lyricArtist": "Martina McBride",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 773,
@@ -13155,7 +13155,7 @@ export const QUESTIONS = [
     "lyric": "I can love you better than that / I know how to make you forget her",
     "lyricSong": "I Can Love You Better",
     "lyricArtist": "Dixie Chicks",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 775,
@@ -13478,7 +13478,7 @@ export const QUESTIONS = [
     "lyric": "If I said I’m still in love with you / It was just the tequila talkin’",
     "lyricSong": "Tequila Talkin’",
     "lyricArtist": "Lonestar",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 794,
@@ -13495,7 +13495,7 @@ export const QUESTIONS = [
     "lyric": "She could telephone, tell a friend / Tell a lie ’bout where she’s been",
     "lyricSong": "No News",
     "lyricArtist": "Lonestar",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 795,
@@ -13529,7 +13529,7 @@ export const QUESTIONS = [
     "lyric": "You walked in with legs up to your neck / You walked in, I’m a physical wreck",
     "lyricSong": "You Walked In",
     "lyricArtist": "Lonestar",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 797,
@@ -13580,7 +13580,7 @@ export const QUESTIONS = [
     "lyric": "I’m gonna smile ’cause I want to make you happy / Laugh so you can’t see me cry",
     "lyricSong": "Smile",
     "lyricArtist": "Lonestar",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 800,
@@ -13614,7 +13614,7 @@ export const QUESTIONS = [
     "lyric": "It ain’t the stove, it ain’t the heater / She’s hotter and a whole lot sweeter",
     "lyricSong": "I Left Something Turned On at Home",
     "lyricArtist": "Trace Adkins",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 802,
@@ -13631,7 +13631,7 @@ export const QUESTIONS = [
     "lyric": "This ain’t no thinkin’ thing, right brain, left brain / It goes a little deeper than that",
     "lyricSong": "(This Ain’t) No Thinkin’ Thing",
     "lyricArtist": "Trace Adkins",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 803,
@@ -13682,7 +13682,7 @@ export const QUESTIONS = [
     "lyric": "But I swear I’ll love you for the rest of mine",
     "lyricSong": "The Rest of Mine",
     "lyricArtist": "Trace Adkins",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 806,
@@ -13716,7 +13716,7 @@ export const QUESTIONS = [
     "lyric": "’Cause you take me places I’ve never been / I travel the world in your arms and back again",
     "lyricSong": "Places I’ve Never Been",
     "lyricArtist": "Mark Wills",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 808,
@@ -13818,7 +13818,7 @@ export const QUESTIONS = [
     "lyric": "Coulda heard a teardrop, coulda heard a heartbreak / Never saw the flood come, even though I felt the rain",
     "lyricSong": "Lonely and Gone",
     "lyricArtist": "Montgomery Gentry",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 814,
@@ -13869,7 +13869,7 @@ export const QUESTIONS = [
     "lyric": "’Cause I’ve been a wildcatter and a go-go getter / Been an S.O.B. right down to the letter",
     "lyricSong": "Her Man",
     "lyricArtist": "Gary Allan",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 817,
@@ -13971,7 +13971,7 @@ export const QUESTIONS = [
     "lyric": "The nights are lonely, the days are so sad / And I just keep thinkin’ about the love that we had",
     "lyricSong": "Nobody Knows",
     "lyricArtist": "Kevin Sharp",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 823,
@@ -14022,7 +14022,7 @@ export const QUESTIONS = [
     "lyric": "I knew her books, her car, her clothes / But I paid no attention to what mattered most",
     "lyricSong": "What Mattered Most",
     "lyricArtist": "Ty Herndon",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 826,
@@ -14226,7 +14226,7 @@ export const QUESTIONS = [
     "lyric": "But they mean nothing, baby / Your love amazes me",
     "lyricSong": "Your Love Amazes Me",
     "lyricArtist": "John Berry",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 838,
@@ -14294,7 +14294,7 @@ export const QUESTIONS = [
     "lyric": "I can’t sleep and I can’t eat / Sometimes I find it hard to breathe",
     "lyricSong": "Standing on the Edge of Goodbye",
     "lyricArtist": "John Berry",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 842,
@@ -14379,7 +14379,7 @@ export const QUESTIONS = [
     "lyric": "Hey darlin’ if you don’t wanna hear how the waters parted / Then don’t get me started",
     "lyricSong": "Don’t Get Me Started",
     "lyricArtist": "Rhett Akins",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 847,
@@ -14430,7 +14430,7 @@ export const QUESTIONS = [
     "lyric": "Too much fun, what’s that mean? / It’s like too much money, there’s no such thing",
     "lyricSong": "Too Much Fun",
     "lyricArtist": "Daryle Singletary",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 850,
@@ -14974,7 +14974,7 @@ export const QUESTIONS = [
     "lyric": "No, I ain’t that lonely yet / After what you put me through",
     "lyricSong": "Ain’t That Lonely Yet",
     "lyricArtist": "Dwight Yoakam",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 882,
@@ -15195,7 +15195,7 @@ export const QUESTIONS = [
     "lyric": "I just want to dance the night away / With señoritas who can sway",
     "lyricSong": "Dance the Night Away",
     "lyricArtist": "The Mavericks",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 895,
@@ -15722,7 +15722,7 @@ export const QUESTIONS = [
     "lyric": "You say it best when you say nothing at all",
     "lyricSong": "When You Say Nothing at All",
     "lyricArtist": "Alison Krauss & Union Station",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 926,
@@ -15909,7 +15909,7 @@ export const QUESTIONS = [
     "lyric": "Does he love you like he loves me / Does he think of you when he’s holding me",
     "lyricSong": "Does He Love You",
     "lyricArtist": "Reba McEntire with Linda Davis",
-    "tier": 1
+    "tier": 2
   },
   {
     "id": 937,
@@ -15926,7 +15926,7 @@ export const QUESTIONS = [
     "lyric": "A woman warm and willin’, that’s what I’m lookin’ for / ’Cause the whiskey ain’t workin’ anymore",
     "lyricSong": "The Whiskey Ain’t Workin’",
     "lyricArtist": "Travis Tritt & Marty Stuart",
-    "tier": 2
+    "tier": 3
   },
   {
     "id": 938,

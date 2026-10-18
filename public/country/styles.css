@@ -961,8 +961,9 @@ body.in-round .stars {
 }
 body.in-round .back {
   flex: none;
-  padding: 3px 0 5px;
-  font-size: 11px;
+  align-self: flex-start;
+  padding: 4px 0 7px;
+  font-size: 12px;
 }
 body.in-round .round-panel {
   min-height: 0;
@@ -1194,8 +1195,10 @@ body.in-round .footnote {
   body.in-round .back,
   body.in-results .back {
     flex: none;
-    padding: 3px 0 5px;
-    font-size: 11px;
+    /* Sit at the card's left edge like every other screen, not stretched and centered. */
+    align-self: flex-start;
+    padding: 4px 0 7px;
+    font-size: 12px;
   }
   body.in-round .round-panel {
     flex: 0 1 auto;

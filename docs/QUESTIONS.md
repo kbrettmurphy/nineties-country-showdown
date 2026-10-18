@@ -36,12 +36,16 @@ lyrics source; song titles and paraphrases are not a substitute.
 ## Difficulty
 
 Each question gets a starting tier (1 easy, 2 medium, 3 hard) from its song's fame and its
-type: artist and title questions follow the fame, lyric questions too, and story-detail
-questions sit one step harder. In the game, once a question has 10 real answers its share
-answered right takes over: 70% or more is easy, under 40% is hard
-(`public/country/picker.js`).
+type: artist and title questions follow the fame, and lyric and story-detail questions start
+one step harder (players got lyric questions right only ~35% of the time even on huge hits).
+
+Real answers adjust tiers from the first one (`public/country/picker.js`): the starting tier
+counts as six imaginary answers at its typical rate (80% / 50% / 25%), and each real answer
+pulls the blend toward what players actually do. Two misses drop an easy question to medium;
+two right answers lift a medium one to easy; no single answer flips a tier.
 
 Beginner games are 7 easy + 3 medium, Mixed 4 easy + 4 medium + 2 hard, Expert 3 medium +
-7 hard (doubled for 20 questions), played easiest first. Games prefer songs a player has
-never heard, then new questions on songs heard longest ago, and repeat a question only once
-everything else is used up. When a tier runs dry, the nearest tier fills in.
+7 hard (doubled for 20 questions), played easiest first. Up to 40% are lyric-driven, placed
+in the harder slots. Games prefer songs a player has never heard, then new questions on songs
+heard longest ago, and repeat a question only once everything else is used up. When a tier
+runs dry, the nearest tier fills in.

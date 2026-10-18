@@ -179,7 +179,9 @@ for x in json.loads((DATA_DIR/'extra_questions.json').read_text()):
 # 1 huge, 2 solid hit, 3 deep cut) and the question type. Real answer rates take over in-game
 # once a question has enough plays, so this only has to be a sensible first guess.
 FAME=json.loads((DATA_DIR/'song_fame.json').read_text())
-TIER_BY_TYPE={'who':(1,2,3),'lyric':(1,2,3),'detail':(2,3,3)}
+# Lyric questions run harder than the song's fame suggests: players got them right about 35% of the
+# time even on huge hits, versus 70% for who-sings-it on the same songs.
+TIER_BY_TYPE={'who':(1,2,3),'lyric':(2,3,3),'detail':(2,3,3)}
 for q in items:
     kind='who' if q['category'] in ('WHO SINGS IT?','PICK THE HIT','FILL IN THE TITLE') else 'lyric' if q['category'] in ('FINISH THE LYRIC','NAME THAT SONG') else 'detail'
     q['tier']=q.get('tier') or TIER_BY_TYPE[kind][FAME.get(q['topic'],2)-1]

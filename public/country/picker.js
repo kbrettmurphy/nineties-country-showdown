@@ -13,19 +13,25 @@
         expert: { 2: 3, 3: 7 },
       };
       const DEFAULT_LEVEL = 'mixed';
+      const questionById = new Map(QUESTIONS.map((q) => [q.id, q]));
       const ARTIST_OR_TITLE = new Set(['WHO SINGS IT?', 'PICK THE HIT', 'FILL IN THE TITLE']);
       const cleanLevel = (level) => (Object.hasOwn(LEVELS, level) ? level : DEFAULT_LEVEL);
-      // Once a question has enough real answers, its share answered right replaces the starting
-      // estimate baked into the question bank.
-      const MIN_ANSWERS = 10;
-      const EASY_AT = 0.7;
-      const HARD_BELOW = 0.4;
+      // Real answers adjust each question's tier from the first one. The starting tier counts as
+      // PRIOR_WEIGHT imaginary answers at its typical rate, and every real answer pulls the blend
+      // toward what players actually do: two misses drop an easy question to medium, two right
+      // answers lift a medium one to easy, and no single answer flips anything.
+      const PRIOR_RATE = { 1: 0.8, 2: 0.5, 3: 0.25 };
+      const PRIOR_WEIGHT = 6;
+      const EASY_AT = 0.62;
+      const HARD_BELOW = 0.38;
       const measuredTiers = (rows) => {
         const tiers = new Map();
         for (const r of rows || []) {
-          if (!(r.answered >= MIN_ANSWERS)) continue;
-          const rate = r.correct / r.answered;
-          tiers.set(r.question_id, rate >= EASY_AT ? 1 : rate < HARD_BELOW ? 3 : 2);
+          const q = questionById.get(r.question_id);
+          if (!q || !(r.answered > 0)) continue;
+          const rate =
+            (PRIOR_RATE[q.tier || 2] * PRIOR_WEIGHT + r.correct) / (PRIOR_WEIGHT + r.answered);
+          tiers.set(q.id, rate >= EASY_AT ? 1 : rate < HARD_BELOW ? 3 : 2);
         }
         return tiers;
       };
@@ -33,7 +39,6 @@
       // Play history is a list of question ids, oldest first. Every question is remembered, so the
       // whole bank is played before anything repeats.
       const validIds = new Set(QUESTIONS.map((q) => q.id));
-      const questionById = new Map(QUESTIONS.map((q) => [q.id, q]));
       const HISTORY_LIMIT = QUESTIONS.length;
       const cleanHistory = (value) =>
         Array.isArray(value)
@@ -106,6 +111,8 @@
               Math.abs(a - tier) - Math.abs(b - tier) || (level === 'expert' ? b - a : a - b),
           );
         // Lyric-driven questions (everything but the artist/title ones) get up to 40% of a game.
+        // Slots fill hardest first so those harder question types land in the later questions,
+        // not the warm-up; the game is sorted easiest first afterwards.
         const detailQuota = Math.ceil(count * 0.4);
         const picked = [],
           usedSongs = new Set();
@@ -120,7 +127,7 @@
             open[0]
           );
         };
-        for (const target of levelSlots(level, count)) {
+        for (const target of levelSlots(level, count).reverse()) {
           let choice = null;
           for (const tier of nearest(target)) {
             for (const priority of [0, 1]) choice ||= take(buckets[priority][tier]);

@@ -37,16 +37,19 @@ assert.deepEqual(
   [1, 1, 1, 1, 2, 2, 2, 2, 3, 3],
 );
 
-// Real results take over once a question has enough answers.
-const sample = QUESTIONS.find((q) => q.tier === 3);
-const measured = measuredTiers([
-  { question_id: sample.id, answered: 20, correct: 19 },
-  { question_id: QUESTIONS[0].id, answered: 4, correct: 0 }, // too few answers: ignored
-]);
-assert.equal(measured.get(sample.id), 1);
-assert.equal(measured.has(QUESTIONS[0].id), false);
-assert.equal(measuredTiers([{ question_id: 5, answered: 10, correct: 5 }]).get(5), 2);
-assert.equal(measuredTiers([{ question_id: 5, answered: 10, correct: 3 }]).get(5), 3);
+// Real answers move a question from the first one, but no single answer flips it.
+const ofTier = (t) => QUESTIONS.find((q) => q.tier === t).id;
+const liveTier = (id, answered, correct) =>
+  measuredTiers([{ question_id: id, answered, correct }]).get(id);
+const [easyQ, mediumQ, hardQ] = [ofTier(1), ofTier(2), ofTier(3)];
+assert.equal(liveTier(easyQ, 1, 0), 1, 'one miss keeps an easy question easy');
+assert.equal(liveTier(easyQ, 2, 0), 2, 'two misses drop it to medium');
+assert.equal(liveTier(mediumQ, 1, 1), 2, 'one right answer keeps medium');
+assert.equal(liveTier(mediumQ, 2, 2), 1, 'two right answers lift medium to easy');
+assert.equal(liveTier(mediumQ, 2, 0), 3, 'two misses drop medium to hard');
+assert.equal(liveTier(hardQ, 1, 1), 3, 'one right answer keeps hard');
+assert.equal(liveTier(hardQ, 20, 19), 1, 'lots of evidence wins');
+assert.equal(measuredTiers([{ question_id: easyQ, answered: 0, correct: 0 }]).has(easyQ), false);
 
 // When a tier's fresh questions run out, borrow from the nearest tier instead of repeating.
 const easy = QUESTIONS.filter((q) => q.tier === 1).map((q) => q.id);
