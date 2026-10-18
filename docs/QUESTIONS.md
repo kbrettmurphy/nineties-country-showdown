@@ -1,6 +1,6 @@
 # Country question bank
 
-The game has 1,320 questions over 933 songs at this revision. There are **two generated copies**:
+The game has 2,489 questions over 1,102 songs at this revision. There are **two generated copies**:
 `src/country/questions.js` for server validation, and
 `public/country/questions.js` for the solo browser interface.
 
