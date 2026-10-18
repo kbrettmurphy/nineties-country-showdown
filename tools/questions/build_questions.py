@@ -163,13 +163,25 @@ for x in new_songs:
     items.append(dict(id=len(items)+1,category=LABEL[x['type']],topic=topic,q=q,choices=choices,
         a=choices.index(correct),lyric=x['snippet'],lyricSong=x['song'],lyricArtist=x['artist']))
 
+# Extra questions: more ways to ask about songs already in the game (who sings it, pick the hit,
+# fill in the title) plus later-added songs. Choices are stored, never generated here, so a
+# released question never changes. Each question shuffles its choices with its own seed, so
+# appending to the file never reshuffles earlier questions. Append only.
+EXTRA_LABEL={'who':'WHO SINGS IT?','pick':'PICK THE HIT','title':'FILL IN THE TITLE'}
+for x in json.loads((DATA_DIR/'extra_questions.json').read_text()):
+    existing_topics.add(x['topic'])
+    choices=[x['correct']]+x['wrong']
+    random.Random(x['topic']+'|'+x['type']).shuffle(choices)
+    items.append(dict(id=len(items)+1,category=EXTRA_LABEL[x['type']],topic=x['topic'],q=x['q'],
+        choices=choices,a=choices.index(x['correct']),lyric=x['lyric'],lyricSong=x['song'],lyricArtist=x['artist']))
+
 # Starting difficulty tier (1 easy, 2 medium, 3 hard) from how big the song was (song_fame.json:
 # 1 huge, 2 solid hit, 3 deep cut) and the question type. Real answer rates take over in-game
 # once a question has enough plays, so this only has to be a sensible first guess.
 FAME=json.loads((DATA_DIR/'song_fame.json').read_text())
 TIER_BY_TYPE={'who':(1,2,3),'lyric':(1,2,3),'detail':(2,3,3)}
 for q in items:
-    kind='who' if q['category']=='WHO SINGS IT?' else 'lyric' if q['category'] in ('FINISH THE LYRIC','NAME THAT SONG') else 'detail'
+    kind='who' if q['category'] in ('WHO SINGS IT?','PICK THE HIT','FILL IN THE TITLE') else 'lyric' if q['category'] in ('FINISH THE LYRIC','NAME THAT SONG') else 'detail'
     q['tier']=q.get('tier') or TIER_BY_TYPE[kind][FAME.get(q['topic'],2)-1]
 
 # Validate answer parity, unique ids, 1 unambiguous key per question, and lyric cap.
@@ -182,4 +194,4 @@ for q in items:
     assert q['lyricSong'] and q['lyricArtist']
 (ROOT/'src/country/questions.js').write_text('export const QUESTIONS = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
 (ROOT/'public/country/questions.js').write_text('window.QBANK = '+json.dumps(items,ensure_ascii=False,indent=2)+';\n')
-print(f'{len(base)} original + {len(all_hits)} artist + {len(DETAILS)} lyric + {len(new_songs)} added = {len(items)} trivia questions')
+print(f'{len(base)} original + {len(all_hits)} artist + {len(DETAILS)} lyric + {len(new_songs)} added + {len(items)-len(base)-len(all_hits)-len(DETAILS)-len(new_songs)} extra = {len(items)} trivia questions')

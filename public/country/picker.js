@@ -13,6 +13,7 @@
         expert: { 2: 3, 3: 7 },
       };
       const DEFAULT_LEVEL = 'mixed';
+      const ARTIST_OR_TITLE = new Set(['WHO SINGS IT?', 'PICK THE HIT', 'FILL IN THE TITLE']);
       const cleanLevel = (level) => (Object.hasOwn(LEVELS, level) ? level : DEFAULT_LEVEL);
       // Once a question has enough real answers, its share answered right replaces the starting
       // estimate baked into the question bank.
@@ -104,7 +105,7 @@
             (a, b) =>
               Math.abs(a - tier) - Math.abs(b - tier) || (level === 'expert' ? b - a : a - b),
           );
-        // Lyric-driven questions (everything except plain “who sings it”) get up to 40% of a game.
+        // Lyric-driven questions (everything but the artist/title ones) get up to 40% of a game.
         const detailQuota = Math.ceil(count * 0.4);
         const picked = [],
           usedSongs = new Set();
@@ -112,7 +113,7 @@
         const take = (list) => {
           const open = list.filter((x) => !usedSongs.has(x.q.topic));
           if (!open.length) return null;
-          const isDetail = (x) => x.q.category !== 'WHO SINGS IT?';
+          const isDetail = (x) => !ARTIST_OR_TITLE.has(x.q.category);
           return (
             (details < detailQuota && open.find(isDetail)) ||
             open.find((x) => !isDetail(x)) ||
@@ -128,7 +129,7 @@
           for (const tier of nearest(target)) choice ||= take(buckets[2][tier]);
           if (!choice) break;
           usedSongs.add(choice.q.topic);
-          if (choice.q.category !== 'WHO SINGS IT?') details++;
+          if (!ARTIST_OR_TITLE.has(choice.q.category)) details++;
           picked.push({ ...choice, tier: tiers.get(choice.q.id) || choice.q.tier || 2 });
         }
         return shuffle(picked)

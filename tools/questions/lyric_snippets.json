@@ -9,7 +9,11 @@
   "8": ["on a diet for high cholesterol", "Time Marches On", "Tracy Lawrence"],
   "9": ["a sexy grandma", "Time Marches On", "Tracy Lawrence"],
   "10": ["the second row", "Sold (The Grundy County Auction Incident)", "John Michael Montgomery"],
-  "11": ["blond hair, blue eyes", "Sold (The Grundy County Auction Incident)", "John Michael Montgomery"],
+  "11": [
+    "blond hair, blue eyes",
+    "Sold (The Grundy County Auction Incident)",
+    "John Michael Montgomery"
+  ],
   "12": ["eight years old", "Don’t Take the Girl", "Tim McGraw"],
   "13": ["the watch that my grandpa gave me", "Don’t Take the Girl", "Tim McGraw"],
   "14": ["and seventeen", "Strawberry Wine", "Deana Carter"],
@@ -24,7 +28,11 @@
   "23": ["I'm old enough to know better", "Old Enough to Know Better", "Wade Hayes"],
   "24": ["She's got her daddy's money", "Daddy’s Money", "Ricochet"],
   "25": ["No one else on earth could ever hurt me", "No One Else on Earth", "Wynonna"],
-  "26": ["I need ten thousand angels watching over me tonight", "Ten Thousand Angels", "Mindy McCready"],
+  "26": [
+    "I need ten thousand angels watching over me tonight",
+    "Ten Thousand Angels",
+    "Mindy McCready"
+  ],
   "27": ["Next to you, next to me", "Next to You, Next to Me", "Shenandoah"],
   "28": ["A thousand miles from nowhere", "A Thousand Miles from Nowhere", "Dwight Yoakam"],
   "29": ["one boy, one girl", "One Boy, One Girl", "Collin Raye"],
@@ -35,18 +43,30 @@
   "34": ["Bye-bye, love, I'll catch you later", "Bye Bye", "Jo Dee Messina"],
   "35": ["Let freedom ring, let the white dove sing", "Independence Day", "Martina McBride"],
   "36": ["I still believe in you", "I Still Believe in You", "Vince Gill"],
-  "37": ["She's got the rhythm and I got the blues", "She’s Got the Rhythm (And I Got the Blues)", "Alan Jackson"],
+  "37": [
+    "She's got the rhythm and I got the blues",
+    "She’s Got the Rhythm (And I Got the Blues)",
+    "Alan Jackson"
+  ],
   "38": ["The heart won't lie", "The Heart Won’t Lie", "Reba McEntire & Vince Gill"],
   "39": ["Here in Little Rock", "Little Rock", "Collin Raye"],
   "40": ["I like it, I love it", "I Like It, I Love It", "Tim McGraw"],
-  "41": ["Whose bed have your boots been under?", "Whose Bed Have Your Boots Been Under?", "Shania Twain"],
+  "41": [
+    "Whose bed have your boots been under?",
+    "Whose Bed Have Your Boots Been Under?",
+    "Shania Twain"
+  ],
   "42": ["She's in love with the boy", "She’s in Love with the Boy", "Trisha Yearwood"],
   "43": ["Heads Carolina, tails California", "Heads Carolina, Tails California", "Jo Dee Messina"],
   "44": ["there's something women like about a pickup man", "Pickup Man", "Joe Diffie"],
   "45": ["I'm amazed by you", "Amazed", "Lonestar"],
   "46": ["Blue, oh, so lonesome for you", "Blue", "LeAnn Rimes"],
   "47": ["She needs wide open spaces", "Wide Open Spaces", "Dixie Chicks"],
-  "48": ["It's your love, it just does something to me", "It’s Your Love", "Tim McGraw & Faith Hill"],
+  "48": [
+    "It's your love, it just does something to me",
+    "It’s Your Love",
+    "Tim McGraw & Faith Hill"
+  ],
   "49": ["How do I live without you", "How Do I Live", "LeAnn Rimes"],
   "50": ["I'm a brand new man", "Brand New Man", "Brooks & Dunn"],
   "51": ["Friday night, get right, honky tonk attitude", "Honky Tonk Attitude", "Joe Diffie"],

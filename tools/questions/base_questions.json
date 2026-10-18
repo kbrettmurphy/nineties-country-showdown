@@ -4,12 +4,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "john-deere-green",
     "q": "In Joe Diffie’s “John Deere Green,” how tall was the heart painted on the water tower?",
-    "choices": [
-      "10 feet",
-      "6 feet",
-      "3 feet",
-      "12 feet"
-    ],
+    "choices": ["10 feet", "6 feet", "3 feet", "12 feet"],
     "a": 0,
     "lyric": "ten foot heart",
     "lyricSong": "John Deere Green",
@@ -20,12 +15,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "john-deere-green",
     "q": "In “John Deere Green,” how tall were the letters spelling out Billy Bob’s message?",
-    "choices": [
-      "3 feet",
-      "10 feet",
-      "6 feet",
-      "2 feet"
-    ],
+    "choices": ["3 feet", "10 feet", "6 feet", "2 feet"],
     "a": 0,
     "lyric": "three foot high",
     "lyricSong": "John Deere Green",
@@ -36,12 +26,7 @@
     "category": "DEEP CUT",
     "topic": "john-deere-green",
     "q": "In “John Deere Green,” how many acres did Billy Bob and Charlene settle on?",
-    "choices": [
-      "100 acres",
-      "40 acres",
-      "60 acres",
-      "80 acres"
-    ],
+    "choices": ["100 acres", "40 acres", "60 acres", "80 acres"],
     "a": 3,
     "lyric": "on eighty acres",
     "lyricSong": "John Deere Green",
@@ -52,12 +37,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "watermelon-crawl",
     "q": "How many gallons of watermelon wine does the mayor brag about in “Watermelon Crawl”?",
-    "choices": [
-      "100 gallons",
-      "50 gallons",
-      "200 gallons",
-      "75 gallons"
-    ],
+    "choices": ["100 gallons", "50 gallons", "200 gallons", "75 gallons"],
     "a": 0,
     "lyric": "a hundred gallons",
     "lyricSong": "Watermelon Crawl",
@@ -68,12 +48,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "watermelon-crawl",
     "q": "What month is it when the narrator finds the festival in “Watermelon Crawl”?",
-    "choices": [
-      "May",
-      "July",
-      "June",
-      "August"
-    ],
+    "choices": ["May", "July", "June", "August"],
     "a": 1,
     "lyric": "in late July",
     "lyricSong": "Watermelon Crawl",
@@ -84,12 +59,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "dust-on-the-bottle",
     "q": "Who makes the homemade wine in David Lee Murphy’s “Dust on the Bottle”?",
-    "choices": [
-      "Carl Wilson",
-      "Earl Williams",
-      "Billy Williams",
-      "Creal Williams"
-    ],
+    "choices": ["Carl Wilson", "Earl Williams", "Billy Williams", "Creal Williams"],
     "a": 3,
     "lyric": "Creal Williams",
     "lyricSong": "Dust on the Bottle",
@@ -100,12 +70,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "dust-on-the-bottle",
     "q": "Where does Creal retrieve the wine in “Dust on the Bottle”?",
-    "choices": [
-      "The truck bed",
-      "The kitchen cabinet",
-      "The barn loft",
-      "The cellar"
-    ],
+    "choices": ["The truck bed", "The kitchen cabinet", "The barn loft", "The cellar"],
     "a": 3,
     "lyric": "down in the cellar",
     "lyricSong": "Dust on the Bottle",
@@ -116,12 +81,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "time-marches-on",
     "q": "In Tracy Lawrence’s “Time Marches On,” what health concern puts the brother on a diet?",
-    "choices": [
-      "High cholesterol",
-      "Diabetes",
-      "A bad back",
-      "High blood pressure"
-    ],
+    "choices": ["High cholesterol", "Diabetes", "A bad back", "High blood pressure"],
     "a": 0,
     "lyric": "on a diet for high cholesterol",
     "lyricSong": "Time Marches On",
@@ -132,12 +92,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "time-marches-on",
     "q": "In “Time Marches On,” what does the sister call herself later in life?",
-    "choices": [
-      "A sexy grandma",
-      "An old soul",
-      "A country queen",
-      "A wild child"
-    ],
+    "choices": ["A sexy grandma", "An old soul", "A country queen", "A wild child"],
     "a": 0,
     "lyric": "a sexy grandma",
     "lyricSong": "Time Marches On",
@@ -148,12 +103,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "sold",
     "q": "In John Michael Montgomery’s “Sold,” which row is the lady in?",
-    "choices": [
-      "Fourth row",
-      "First row",
-      "Third row",
-      "Second row"
-    ],
+    "choices": ["Fourth row", "First row", "Third row", "Second row"],
     "a": 3,
     "lyric": "the second row",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
@@ -164,12 +114,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "sold",
     "q": "What hair color does the woman have in “Sold (The Grundy County Auction Incident)”?",
-    "choices": [
-      "Auburn",
-      "Black",
-      "Brunette",
-      "Blond"
-    ],
+    "choices": ["Auburn", "Black", "Brunette", "Blond"],
     "a": 3,
     "lyric": "blond hair, blue eyes",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
@@ -180,12 +125,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "don’t-take-the-girl",
     "q": "How old is Johnny at the start of Tim McGraw’s “Don’t Take the Girl”?",
-    "choices": [
-      "Ten",
-      "Eight",
-      "Twelve",
-      "Six"
-    ],
+    "choices": ["Ten", "Eight", "Twelve", "Six"],
     "a": 1,
     "lyric": "eight years old",
     "lyricSong": "Don’t Take the Girl",
@@ -196,12 +136,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "don’t-take-the-girl",
     "q": "In “Don’t Take the Girl,” what does Johnny offer the robber that belonged to his grandfather?",
-    "choices": [
-      "A watch",
-      "A pocketknife",
-      "A ring",
-      "A belt buckle"
-    ],
+    "choices": ["A watch", "A pocketknife", "A ring", "A belt buckle"],
     "a": 0,
     "lyric": "the watch that my grandpa gave me",
     "lyricSong": "Don’t Take the Girl",
@@ -212,12 +147,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "strawberry-wine",
     "q": "How old is the narrator during the summer romance in “Strawberry Wine”?",
-    "choices": [
-      "18",
-      "15",
-      "16",
-      "17"
-    ],
+    "choices": ["18", "15", "16", "17"],
     "a": 3,
     "lyric": "and seventeen",
     "lyricSong": "Strawberry Wine",
@@ -228,12 +158,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "strawberry-wine",
     "q": "On whose farm is the young man working in “Strawberry Wine”?",
-    "choices": [
-      "Her neighbor’s",
-      "Her uncle’s",
-      "His father’s",
-      "Her grandfather’s"
-    ],
+    "choices": ["Her neighbor’s", "Her uncle’s", "His father’s", "Her grandfather’s"],
     "a": 3,
     "lyric": "on my grandpa's farm",
     "lyricSong": "Strawberry Wine",
@@ -244,12 +169,7 @@
     "category": "LYRIC DETECTIVE",
     "topic": "strawberry-wine",
     "q": "Which month is the narrator dreading in “Strawberry Wine”?",
-    "choices": [
-      "December",
-      "August",
-      "September",
-      "October"
-    ],
+    "choices": ["December", "August", "September", "October"],
     "a": 2,
     "lyric": "fear was September",
     "lyricSong": "Strawberry Wine",
@@ -260,12 +180,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-16",
     "q": "Who had the 90s hit “Queen of My Double Wide Trailer”?",
-    "choices": [
-      "Sammy Kershaw",
-      "Doug Stone",
-      "Joe Diffie",
-      "Mark Chesnutt"
-    ],
+    "choices": ["Sammy Kershaw", "Doug Stone", "Joe Diffie", "Mark Chesnutt"],
     "a": 0,
     "lyric": "queen of my double-wide trailer",
     "lyricSong": "Queen of My Double Wide Trailer",
@@ -276,12 +191,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-17",
     "q": "Who released “Bubba Shot the Jukebox” in the 90s?",
-    "choices": [
-      "Sammy Kershaw",
-      "Clint Black",
-      "Mark Chesnutt",
-      "Tracy Byrd"
-    ],
+    "choices": ["Sammy Kershaw", "Clint Black", "Mark Chesnutt", "Tracy Byrd"],
     "a": 2,
     "lyric": "Bubba shot the jukebox last night",
     "lyricSong": "Bubba Shot the Jukebox",
@@ -292,12 +202,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-18",
     "q": "Who sings “Every Light in the House”?",
-    "choices": [
-      "Clay Walker",
-      "Collin Raye",
-      "Trace Adkins",
-      "Travis Tritt"
-    ],
+    "choices": ["Clay Walker", "Collin Raye", "Trace Adkins", "Travis Tritt"],
     "a": 2,
     "lyric": "Every light in the house is on",
     "lyricSong": "Every Light in the House",
@@ -308,12 +213,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-19",
     "q": "Who sings “Some Girls Do”?",
-    "choices": [
-      "Shenandoah",
-      "Diamond Rio",
-      "Little Texas",
-      "Sawyer Brown"
-    ],
+    "choices": ["Shenandoah", "Diamond Rio", "Little Texas", "Sawyer Brown"],
     "a": 3,
     "lyric": "Some girls don't like boys like me",
     "lyricSong": "Some Girls Do",
@@ -324,12 +224,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-20",
     "q": "Which band recorded “What Might Have Been”?",
-    "choices": [
-      "Diamond Rio",
-      "Restless Heart",
-      "BlackHawk",
-      "Little Texas"
-    ],
+    "choices": ["Diamond Rio", "Restless Heart", "BlackHawk", "Little Texas"],
     "a": 3,
     "lyric": "what might have been",
     "lyricSong": "What Might Have Been",
@@ -340,12 +235,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-21",
     "q": "Who had the 1991 hit “Maybe It Was Memphis”?",
-    "choices": [
-      "Pam Tillis",
-      "Patty Loveless",
-      "Suzy Bogguss",
-      "Lorrie Morgan"
-    ],
+    "choices": ["Pam Tillis", "Patty Loveless", "Suzy Bogguss", "Lorrie Morgan"],
     "a": 0,
     "lyric": "Maybe it was Memphis",
     "lyricSong": "Maybe It Was Memphis",
@@ -356,12 +246,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-22",
     "q": "Who recorded “Old Enough to Know Better”?",
-    "choices": [
-      "David Kersh",
-      "Wade Hayes",
-      "Bryan White",
-      "Rick Trevino"
-    ],
+    "choices": ["David Kersh", "Wade Hayes", "Bryan White", "Rick Trevino"],
     "a": 1,
     "lyric": "I'm old enough to know better",
     "lyricSong": "Old Enough to Know Better",
@@ -372,12 +257,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-23",
     "q": "Which group had a hit with “Daddy’s Money” in 1996?",
-    "choices": [
-      "Shenandoah",
-      "BlackHawk",
-      "Ricochet",
-      "Lonestar"
-    ],
+    "choices": ["Shenandoah", "BlackHawk", "Ricochet", "Lonestar"],
     "a": 2,
     "lyric": "She's got her daddy's money",
     "lyricSong": "Daddy’s Money",
@@ -388,12 +268,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-24",
     "q": "Who sings “No One Else on Earth”?",
-    "choices": [
-      "Wynonna",
-      "Patty Loveless",
-      "Martina McBride",
-      "Faith Hill"
-    ],
+    "choices": ["Wynonna", "Patty Loveless", "Martina McBride", "Faith Hill"],
     "a": 0,
     "lyric": "No one else on earth could ever hurt me",
     "lyricSong": "No One Else on Earth",
@@ -404,12 +279,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-25",
     "q": "Who sings “Ten Thousand Angels”?",
-    "choices": [
-      "Lee Ann Womack",
-      "Mindy McCready",
-      "Terri Clark",
-      "Chely Wright"
-    ],
+    "choices": ["Lee Ann Womack", "Mindy McCready", "Terri Clark", "Chely Wright"],
     "a": 1,
     "lyric": "I need ten thousand angels watching over me tonight",
     "lyricSong": "Ten Thousand Angels",
@@ -420,12 +290,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-26",
     "q": "Who recorded “Next to You, Next to Me” in 1990?",
-    "choices": [
-      "Shenandoah",
-      "Diamond Rio",
-      "BlackHawk",
-      "Little Texas"
-    ],
+    "choices": ["Shenandoah", "Diamond Rio", "BlackHawk", "Little Texas"],
     "a": 0,
     "lyric": "Next to you, next to me",
     "lyricSong": "Next to You, Next to Me",
@@ -436,12 +301,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-27",
     "q": "Who sings “A Thousand Miles from Nowhere”?",
-    "choices": [
-      "Dwight Yoakam",
-      "Vince Gill",
-      "Travis Tritt",
-      "Clint Black"
-    ],
+    "choices": ["Dwight Yoakam", "Vince Gill", "Travis Tritt", "Clint Black"],
     "a": 0,
     "lyric": "A thousand miles from nowhere",
     "lyricSong": "A Thousand Miles from Nowhere",
@@ -452,12 +312,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-28",
     "q": "Who recorded the 90s hit “One Boy, One Girl”?",
-    "choices": [
-      "Doug Stone",
-      "Collin Raye",
-      "Neal McCoy",
-      "Clay Walker"
-    ],
+    "choices": ["Doug Stone", "Collin Raye", "Neal McCoy", "Clay Walker"],
     "a": 1,
     "lyric": "one boy, one girl",
     "lyricSong": "One Boy, One Girl",
@@ -468,12 +323,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-29",
     "q": "Who recorded “How Do You Like Me Now?!” at the end of the 90s?",
-    "choices": [
-      "Kenny Chesney",
-      "Toby Keith",
-      "Tim McGraw",
-      "Tracy Lawrence"
-    ],
+    "choices": ["Kenny Chesney", "Toby Keith", "Tim McGraw", "Tracy Lawrence"],
     "a": 1,
     "lyric": "How do you like me now",
     "lyricSong": "How Do You Like Me Now?!",
@@ -484,12 +334,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-30",
     "q": "Who sings “Nothin’ but the Taillights”?",
-    "choices": [
-      "Clint Black",
-      "Mark Chesnutt",
-      "Tracy Byrd",
-      "Alan Jackson"
-    ],
+    "choices": ["Clint Black", "Mark Chesnutt", "Tracy Byrd", "Alan Jackson"],
     "a": 0,
     "lyric": "Seein' nothin' but the taillights",
     "lyricSong": "Nothin’ but the Taillights",
@@ -500,12 +345,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-31",
     "q": "Who recorded “Go Rest High on That Mountain”?",
-    "choices": [
-      "Garth Brooks",
-      "George Strait",
-      "Randy Travis",
-      "Vince Gill"
-    ],
+    "choices": ["Garth Brooks", "George Strait", "Randy Travis", "Vince Gill"],
     "a": 3,
     "lyric": "Go rest high on that mountain",
     "lyricSong": "Go Rest High on That Mountain",
@@ -516,12 +356,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-32",
     "q": "Which duo had a hit with “My Maria” in 1996?",
-    "choices": [
-      "Montgomery Gentry",
-      "Brooks & Dunn",
-      "The Bellamy Brothers",
-      "The Judds"
-    ],
+    "choices": ["Montgomery Gentry", "Brooks & Dunn", "The Bellamy Brothers", "The Judds"],
     "a": 1,
     "lyric": "My Maria, don't you know I have come",
     "lyricSong": "My Maria",
@@ -532,12 +367,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-33",
     "q": "Who sings “Bye Bye” (1998)?",
-    "choices": [
-      "Shania Twain",
-      "Faith Hill",
-      "Jo Dee Messina",
-      "Deana Carter"
-    ],
+    "choices": ["Shania Twain", "Faith Hill", "Jo Dee Messina", "Deana Carter"],
     "a": 2,
     "lyric": "Bye-bye, love, I'll catch you later",
     "lyricSong": "Bye Bye",
@@ -548,12 +378,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-34",
     "q": "Who sings “Independence Day”?",
-    "choices": [
-      "Trisha Yearwood",
-      "Lee Ann Womack",
-      "Patty Loveless",
-      "Martina McBride"
-    ],
+    "choices": ["Trisha Yearwood", "Lee Ann Womack", "Patty Loveless", "Martina McBride"],
     "a": 3,
     "lyric": "Let freedom ring, let the white dove sing",
     "lyricSong": "Independence Day",
@@ -564,12 +389,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-35",
     "q": "Who had a hit with “I Still Believe in You” in 1992?",
-    "choices": [
-      "Randy Travis",
-      "George Strait",
-      "Vince Gill",
-      "Alan Jackson"
-    ],
+    "choices": ["Randy Travis", "George Strait", "Vince Gill", "Alan Jackson"],
     "a": 2,
     "lyric": "I still believe in you",
     "lyricSong": "I Still Believe in You",
@@ -580,12 +400,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-36",
     "q": "Who recorded “She’s Got the Rhythm (And I Got the Blues)”?",
-    "choices": [
-      "Alan Jackson",
-      "Tracy Byrd",
-      "Joe Diffie",
-      "Tracy Lawrence"
-    ],
+    "choices": ["Alan Jackson", "Tracy Byrd", "Joe Diffie", "Tracy Lawrence"],
     "a": 0,
     "lyric": "She's got the rhythm and I got the blues",
     "lyricSong": "She’s Got the Rhythm (And I Got the Blues)",
@@ -596,12 +411,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-37",
     "q": "Who sings “The Heart Won’t Lie” with Reba McEntire?",
-    "choices": [
-      "Garth Brooks",
-      "Vince Gill",
-      "Randy Travis",
-      "Clint Black"
-    ],
+    "choices": ["Garth Brooks", "Vince Gill", "Randy Travis", "Clint Black"],
     "a": 1,
     "lyric": "The heart won't lie",
     "lyricSong": "The Heart Won’t Lie",
@@ -612,12 +422,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-38",
     "q": "Who recorded “Little Rock” in 1994?",
-    "choices": [
-      "Tracy Lawrence",
-      "Clay Walker",
-      "Doug Stone",
-      "Collin Raye"
-    ],
+    "choices": ["Tracy Lawrence", "Clay Walker", "Doug Stone", "Collin Raye"],
     "a": 3,
     "lyric": "Here in Little Rock",
     "lyricSong": "Little Rock",
@@ -628,12 +433,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-39",
     "q": "Who had the 1995 hit “I Like It, I Love It”?",
-    "choices": [
-      "Joe Diffie",
-      "Toby Keith",
-      "Tim McGraw",
-      "Kenny Chesney"
-    ],
+    "choices": ["Joe Diffie", "Toby Keith", "Tim McGraw", "Kenny Chesney"],
     "a": 2,
     "lyric": "I like it, I love it",
     "lyricSong": "I Like It, I Love It",
@@ -644,12 +444,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-40",
     "q": "Who sings “Whose Bed Have Your Boots Been Under?”",
-    "choices": [
-      "Terri Clark",
-      "Shania Twain",
-      "Deana Carter",
-      "Faith Hill"
-    ],
+    "choices": ["Terri Clark", "Shania Twain", "Deana Carter", "Faith Hill"],
     "a": 1,
     "lyric": "Whose bed have your boots been under?",
     "lyricSong": "Whose Bed Have Your Boots Been Under?",
@@ -660,12 +455,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-41",
     "q": "Who sings “She’s in Love with the Boy”?",
-    "choices": [
-      "Patty Loveless",
-      "Trisha Yearwood",
-      "Reba McEntire",
-      "Pam Tillis"
-    ],
+    "choices": ["Patty Loveless", "Trisha Yearwood", "Reba McEntire", "Pam Tillis"],
     "a": 1,
     "lyric": "She's in love with the boy",
     "lyricSong": "She’s in Love with the Boy",
@@ -676,12 +466,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-42",
     "q": "Who recorded “Heads Carolina, Tails California”?",
-    "choices": [
-      "Jo Dee Messina",
-      "Terri Clark",
-      "Shania Twain",
-      "Faith Hill"
-    ],
+    "choices": ["Jo Dee Messina", "Terri Clark", "Shania Twain", "Faith Hill"],
     "a": 0,
     "lyric": "Heads Carolina, tails California",
     "lyricSong": "Heads Carolina, Tails California",
@@ -692,12 +477,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-43",
     "q": "Who sings “Pickup Man”?",
-    "choices": [
-      "Joe Diffie",
-      "Tracy Byrd",
-      "Mark Chesnutt",
-      "David Lee Murphy"
-    ],
+    "choices": ["Joe Diffie", "Tracy Byrd", "Mark Chesnutt", "David Lee Murphy"],
     "a": 0,
     "lyric": "there's something women like about a pickup man",
     "lyricSong": "Pickup Man",
@@ -708,12 +488,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-44",
     "q": "Who recorded “Amazed” in 1999?",
-    "choices": [
-      "Lonestar",
-      "Diamond Rio",
-      "Little Texas",
-      "BlackHawk"
-    ],
+    "choices": ["Lonestar", "Diamond Rio", "Little Texas", "BlackHawk"],
     "a": 0,
     "lyric": "I'm amazed by you",
     "lyricSong": "Amazed",
@@ -724,12 +499,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-45",
     "q": "Who sings “Blue” (1996)?",
-    "choices": [
-      "Deana Carter",
-      "Lorrie Morgan",
-      "LeAnn Rimes",
-      "Faith Hill"
-    ],
+    "choices": ["Deana Carter", "Lorrie Morgan", "LeAnn Rimes", "Faith Hill"],
     "a": 2,
     "lyric": "Blue, oh, so lonesome for you",
     "lyricSong": "Blue",
@@ -740,12 +510,7 @@
     "category": "WHO SINGS IT?",
     "topic": "other-46",
     "q": "Who recorded “Wide Open Spaces” in 1998?",
-    "choices": [
-      "The Forester Sisters",
-      "Sweethearts of the Rodeo",
-      "SHeDAISY",
-      "Dixie Chicks"
-    ],
+    "choices": ["The Forester Sisters", "Sweethearts of the Rodeo", "SHeDAISY", "Dixie Chicks"],
     "a": 3,
     "lyric": "She needs wide open spaces",
     "lyricSong": "Wide Open Spaces",
@@ -756,12 +521,7 @@
     "category": "ALBUMS & COLLABS",
     "topic": "other-47",
     "q": "Tim McGraw and Faith Hill duet on which 1997 song?",
-    "choices": [
-      "Whenever You Come Around",
-      "From This Moment On",
-      "I Swear",
-      "It’s Your Love"
-    ],
+    "choices": ["Whenever You Come Around", "From This Moment On", "I Swear", "It’s Your Love"],
     "a": 3,
     "lyric": "It's your love, it just does something to me",
     "lyricSong": "It’s Your Love",
@@ -772,12 +532,7 @@
     "category": "ALBUMS & COLLABS",
     "topic": "other-48",
     "q": "Which 90s country star recorded “How Do I Live” in 1997, as did Trisha Yearwood?",
-    "choices": [
-      "Shania Twain",
-      "Deana Carter",
-      "Faith Hill",
-      "LeAnn Rimes"
-    ],
+    "choices": ["Shania Twain", "Deana Carter", "Faith Hill", "LeAnn Rimes"],
     "a": 3,
     "lyric": "How do I live without you",
     "lyricSong": "How Do I Live",
@@ -788,12 +543,7 @@
     "category": "ALBUMS & COLLABS",
     "topic": "other-49",
     "q": "Which duo’s 1991 debut single was “Brand New Man”?",
-    "choices": [
-      "The Kinleys",
-      "The Judds",
-      "Brooks & Dunn",
-      "The Bellamy Brothers"
-    ],
+    "choices": ["The Kinleys", "The Judds", "Brooks & Dunn", "The Bellamy Brothers"],
     "a": 2,
     "lyric": "I'm a brand new man",
     "lyricSong": "Brand New Man",
@@ -804,12 +554,7 @@
     "category": "ALBUMS & COLLABS",
     "topic": "other-50",
     "q": "Which artist’s 1993 album was titled “Honky Tonk Attitude”?",
-    "choices": [
-      "Mark Chesnutt",
-      "Tracy Lawrence",
-      "Alan Jackson",
-      "Joe Diffie"
-    ],
+    "choices": ["Mark Chesnutt", "Tracy Lawrence", "Alan Jackson", "Joe Diffie"],
     "a": 3,
     "lyric": "Friday night, get right, honky tonk attitude",
     "lyricSong": "Honky Tonk Attitude",
@@ -820,12 +565,7 @@
     "category": "ALBUMS & COLLABS",
     "topic": "other-51",
     "q": "Which singer released the 1996 album “Did I Shave My Legs for This?”",
-    "choices": [
-      "Jo Dee Messina",
-      "Pam Tillis",
-      "Terri Clark",
-      "Deana Carter"
-    ],
+    "choices": ["Jo Dee Messina", "Pam Tillis", "Terri Clark", "Deana Carter"],
     "a": 3,
     "lyric": "Did I shave my legs for this?",
     "lyricSong": "Did I Shave My Legs for This?",
@@ -836,12 +576,7 @@
     "category": "ALBUMS & COLLABS",
     "topic": "other-52",
     "q": "Which group released the 1999 album “Fly”?",
-    "choices": [
-      "Dixie Chicks",
-      "Lonestar",
-      "SHeDAISY",
-      "The Kinleys"
-    ],
+    "choices": ["Dixie Chicks", "Lonestar", "SHeDAISY", "The Kinleys"],
     "a": 0,
     "lyric": "Cowboy take me away",
     "lyricSong": "Cowboy Take Me Away (from Fly)",

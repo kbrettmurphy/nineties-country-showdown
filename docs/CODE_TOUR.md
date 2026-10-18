@@ -11,6 +11,7 @@
 │   └── country/                # Honky Tonk Showdown UI
 │       ├── index.html          # Page and script links
 │       ├── app.js              # Buttons, answers, screen changes
+│       ├── picker.js           # Picks each game's questions (shared with the server)
 │       ├── styles.css          # Fonts, colors, layout and breakpoints
 │       └── questions.js       # Generated solo question bank
 ├── src/                        # Server-side code running on Cloudflare

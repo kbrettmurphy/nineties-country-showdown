@@ -535,7 +535,10 @@
     p.winner = winner;
     p.earned = 0;
     if (winner !== null) {
-      p.earned = p.choicesShown && !p.choicesFirst ? PARTY_POINTS_WITH_CHOICES : PARTY_POINTS;
+      p.earned =
+        p.choicesShown && !p.choicesFirst && q.category !== 'PICK THE HIT'
+          ? PARTY_POINTS_WITH_CHOICES
+          : PARTY_POINTS;
       p.players[winner].score += p.earned;
       p.players[winner].correct++;
     }
@@ -879,7 +882,9 @@
       if (action === 'party-start') return startParty();
       if (action === 'party-go' && party?.phase === 'pass') {
         party.phase = 'question';
-        party.choicesShown = party.choicesFirst;
+        // “Which of these…” questions only make sense with their choices, at full points.
+        party.choicesShown =
+          party.choicesFirst || qs[party.order[party.index]].category === 'PICK THE HIT';
         party.endsAt = Date.now() + 30000;
       }
       if (action === 'party-choices' && party?.phase === 'question') party.choicesShown = true;

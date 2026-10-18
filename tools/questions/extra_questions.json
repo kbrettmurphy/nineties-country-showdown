@@ -1,0 +1,3912 @@
+[
+  {
+    "topic": "hit-johndeeregreen",
+    "song": "John Deere Green",
+    "artist": "Joe Diffie",
+    "type": "who",
+    "q": "Whose 1990s country single is “John Deere Green”?",
+    "correct": "Joe Diffie",
+    "wrong": ["Ty Herndon", "Tracy Byrd", "Daryle Singletary"],
+    "lyric": "Stood on the rail and painted a ten-foot heart in John Deere green"
+  },
+  {
+    "topic": "hit-watermeloncrawl",
+    "song": "Watermelon Crawl",
+    "artist": "Tracy Byrd",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “Watermelon Crawl”?",
+    "correct": "Tracy Byrd",
+    "wrong": ["Kevin Sharp", "Ty Herndon", "John Berry"],
+    "lyric": "We got a hundred gallons of sweet red wine / Made from the biggest watermelons on the vine"
+  },
+  {
+    "topic": "hit-timemarcheson",
+    "song": "Time Marches On",
+    "artist": "Tracy Lawrence",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “Time Marches On”?",
+    "correct": "Tracy Lawrence",
+    "wrong": ["David Lee Murphy", "Doug Stone", "Andy Griggs"],
+    "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol"
+  },
+  {
+    "topic": "hit-soldthegrundycountyauctionincident",
+    "song": "Sold (The Grundy County Auction Incident)",
+    "artist": "John Michael Montgomery",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Sold (The Grundy County Auction Incident)”?",
+    "correct": "John Michael Montgomery",
+    "wrong": ["Trace Adkins", "Travis Tritt", "Billy Dean"],
+    "lyric": "I’m sold on the lady in the second row, she’s an eight, she’s a nine, she’s a ten, I know"
+  },
+  {
+    "topic": "hit-donttakethegirl",
+    "song": "Don’t Take the Girl",
+    "artist": "Tim McGraw",
+    "type": "who",
+    "q": "Whose 1990s country single is “Don’t Take the Girl”?",
+    "correct": "Tim McGraw",
+    "wrong": ["Michael Peterson", "Chris LeDoux", "Steve Wariner"],
+    "lyric": "Johnny’s daddy was takin’ him fishin’ when he was eight years old"
+  },
+  {
+    "topic": "hit-strawberrywine",
+    "song": "Strawberry Wine",
+    "artist": "Deana Carter",
+    "type": "who",
+    "q": "Whose 1990s country single is “Strawberry Wine”?",
+    "correct": "Deana Carter",
+    "wrong": ["K.T. Oslin", "Chely Wright", "Reba McEntire"],
+    "lyric": "Like strawberry wine and seventeen / The hot July moon saw everything"
+  },
+  {
+    "topic": "hit-itsyourlove",
+    "song": "It’s Your Love",
+    "artist": "Tim McGraw & Faith Hill",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “It’s Your Love”?",
+    "correct": "Tim McGraw & Faith Hill",
+    "wrong": [
+      "Marty Stuart & Travis Tritt",
+      "Reba McEntire with Linda Davis",
+      "Anita Cochran with Steve Wariner"
+    ],
+    "lyric": "It’s your love, it just does somethin’ to me / It sends a shock right through me, I can’t get enough"
+  },
+  {
+    "topic": "hit-howdoilive",
+    "song": "How Do I Live",
+    "artist": "LeAnn Rimes",
+    "type": "who",
+    "q": "Whose 1990s country single is “How Do I Live”?",
+    "correct": "LeAnn Rimes",
+    "wrong": ["Jo Dee Messina", "Reba McEntire", "Lee Ann Womack"],
+    "lyric": "How do I live without you? I want to know / How do I breathe without you if you ever go?"
+  },
+  {
+    "topic": "hit-brandnewman",
+    "song": "Brand New Man",
+    "artist": "Brooks & Dunn",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Brand New Man”?",
+    "correct": "Brooks & Dunn",
+    "wrong": ["Montgomery Gentry", "Diamond Rio", "SHeDAISY"],
+    "lyric": "By the fire in your touch and the flame in your eyes / I’m born to love again, I’m a brand new man"
+  },
+  {
+    "topic": "hit-cowboytakemeaway",
+    "song": "Cowboy Take Me Away",
+    "artist": "Dixie Chicks",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Cowboy Take Me Away”?",
+    "correct": "Dixie Chicks",
+    "wrong": ["Little Texas", "Confederate Railroad", "Lonestar"],
+    "lyric": "Cowboy, take me away / Fly this girl as high as you can into the wild blue"
+  },
+  {
+    "topic": "hit-foreversasfarasillgo",
+    "song": "Forever’s as Far as I’ll Go",
+    "artist": "Alabama",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Forever’s as Far as I’ll Go”?",
+    "correct": "Alabama",
+    "wrong": ["The Bellamy Brothers", "McBride & the Ride", "Ricochet"],
+    "lyric": "And it’s only fair that you know / Forever’s as far as I’ll go"
+  },
+  {
+    "topic": "hit-downhome",
+    "song": "Down Home",
+    "artist": "Alabama",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “Down Home”?",
+    "correct": "Alabama",
+    "wrong": ["The Bellamy Brothers", "Little Texas", "Shenandoah"],
+    "lyric": "Down home / A man’s good word and a handshake are all you need"
+  },
+  {
+    "topic": "hit-iminahurryanddontknowwhy",
+    "song": "I’m in a Hurry (And Don’t Know Why)",
+    "artist": "Alabama",
+    "type": "who",
+    "q": "Whose 1990s country single is “I’m in a Hurry (And Don’t Know Why)”?",
+    "correct": "Alabama",
+    "wrong": ["Sawyer Brown", "Diamond Rio", "The Mavericks"],
+    "lyric": "I’m in a hurry to get things done / Oh, I rush and rush until life’s no fun"
+  },
+  {
+    "topic": "hit-whispermyname",
+    "song": "Whisper My Name",
+    "artist": "Randy Travis",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Whisper My Name”?",
+    "correct": "Randy Travis",
+    "wrong": ["Dwight Yoakam", "Toby Keith", "Rhett Akins"],
+    "lyric": "I heard a freight train out across the way / I heard a woman sing Amazing Grace"
+  },
+  {
+    "topic": "hit-tryintogetoveryou",
+    "song": "Tryin’ to Get Over You",
+    "artist": "Vince Gill",
+    "type": "who",
+    "q": "Whose 1990s country single is “Tryin’ to Get Over You”?",
+    "correct": "Vince Gill",
+    "wrong": ["John Berry", "Billy Dean", "Keith Whitley"],
+    "lyric": "I’ve been tryin’ to get over you / But it’ll take dyin’ to get it done"
+  },
+  {
+    "topic": "hit-whenicallyourname",
+    "song": "When I Call Your Name",
+    "artist": "Vince Gill",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “When I Call Your Name”?",
+    "correct": "Vince Gill",
+    "wrong": ["Ricky Van Shelton", "George Ducas", "Hal Ketchum"],
+    "lyric": "And just like rain, the tears keep fallin’ / But nobody answers when I call your name"
+  },
+  {
+    "topic": "hit-formybrokenheart",
+    "song": "For My Broken Heart",
+    "artist": "Reba McEntire",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “For My Broken Heart”?",
+    "correct": "Reba McEntire",
+    "wrong": ["Mary Chapin Carpenter", "K.T. Oslin", "Martina McBride"],
+    "lyric": "Last night I prayed the Lord my soul to keep / Then I cried myself to sleep"
+  },
+  {
+    "topic": "hit-chains",
+    "song": "Chains",
+    "artist": "Patty Loveless",
+    "type": "who",
+    "q": "Whose 1990s country single is “Chains”?",
+    "correct": "Patty Loveless",
+    "wrong": ["Shania Twain", "Lorrie Morgan", "Deana Carter"],
+    "lyric": "Chains, chains, shackles and chains / No matter what it takes, someday I’m gonna break these"
+  },
+  {
+    "topic": "hit-theregoesmybaby",
+    "song": "There Goes My Baby",
+    "artist": "Trisha Yearwood",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “There Goes My Baby”?",
+    "correct": "Trisha Yearwood",
+    "wrong": ["Lorrie Morgan", "Jo Dee Messina", "K.T. Oslin"],
+    "lyric": "There goes my baby, like the sun fallin’ out of the clear blue sky"
+  },
+  {
+    "topic": "hit-trashywomen",
+    "song": "Trashy Women",
+    "artist": "Confederate Railroad",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “Trashy Women”?",
+    "correct": "Confederate Railroad",
+    "wrong": ["Sawyer Brown", "Alabama", "The Forester Sisters"],
+    "lyric": "That’s a cocktail waitress in a Dolly Parton wig"
+  },
+  {
+    "topic": "hit-ifthedevildancedinemptypockets",
+    "song": "If the Devil Danced (In Empty Pockets)",
+    "artist": "Joe Diffie",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “If the Devil Danced (In Empty Pockets)”?",
+    "correct": "Joe Diffie",
+    "wrong": ["Rick Trevino", "Lee Roy Parnell", "Sammy Kershaw"],
+    "lyric": "If the devil danced in empty pockets, he’d have a ball in mine"
+  },
+  {
+    "topic": "hit-gonnagetalife",
+    "song": "Gonna Get a Life",
+    "artist": "Mark Chesnutt",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “Gonna Get a Life”?",
+    "correct": "Mark Chesnutt",
+    "wrong": ["Randy Travis", "Alan Jackson", "Andy Griggs"],
+    "lyric": "I’m gonna get a life, that’s what I’m gonna do / So startin’ now you can find one too"
+  },
+  {
+    "topic": "hit-howyourlovemakesmefeel",
+    "song": "How Your Love Makes Me Feel",
+    "artist": "Diamond Rio",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “How Your Love Makes Me Feel”?",
+    "correct": "Diamond Rio",
+    "wrong": ["Dixie Chicks", "Sons of the Desert", "Montgomery Gentry"],
+    "lyric": "Buy an ice cream and see how far / We can drive before it melts kinda feelin’"
+  },
+  {
+    "topic": "hit-shesnotthecheatinkind",
+    "song": "She’s Not the Cheatin’ Kind",
+    "artist": "Brooks & Dunn",
+    "type": "who",
+    "q": "Whose 1990s country single is “She’s Not the Cheatin’ Kind”?",
+    "correct": "Brooks & Dunn",
+    "wrong": ["Diamond Rio", "Sons of the Desert", "The Bellamy Brothers"],
+    "lyric": "She’s not the cheatin’ kind / She’s been cheated one too many times"
+  },
+  {
+    "topic": "hit-idloveyoualloveragain",
+    "song": "I’d Love You All Over Again",
+    "artist": "Alan Jackson",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “I’d Love You All Over Again”?",
+    "correct": "Alan Jackson",
+    "wrong": ["Mark Chesnutt", "Billy Dean", "Aaron Tippin"],
+    "lyric": "Has it been ten years since we said “I do”?"
+  },
+  {
+    "topic": "hit-dallas",
+    "song": "Dallas",
+    "artist": "Alan Jackson",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “Dallas”?",
+    "correct": "Alan Jackson",
+    "wrong": ["Jeff Carson", "Mark Chesnutt", "Lee Roy Parnell"],
+    "lyric": "Then nothin’ else would come between the two of us / If Dallas was in Tennessee"
+  },
+  {
+    "topic": "hit-tomakeyoufeelmylove",
+    "song": "To Make You Feel My Love",
+    "artist": "Garth Brooks",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “To Make You Feel My Love”?",
+    "correct": "Garth Brooks",
+    "wrong": ["John Anderson", "Tracy Byrd", "Clint Black"],
+    "lyric": "I could hold you for a million years / To make you feel my love"
+  },
+  {
+    "topic": "hit-ifiknowme",
+    "song": "If I Know Me",
+    "artist": "George Strait",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “If I Know Me”?",
+    "correct": "George Strait",
+    "wrong": ["Tim McGraw", "Mark Chesnutt", "Ty Herndon"],
+    "lyric": "But if I know me / I’ll turn this car around"
+  },
+  {
+    "topic": "hit-ivecometoexpectitfromyou",
+    "song": "I’ve Come to Expect It from You",
+    "artist": "George Strait",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “I’ve Come to Expect It from You”?",
+    "correct": "George Strait",
+    "wrong": ["Andy Griggs", "Radney Foster", "Billy Dean"],
+    "lyric": "I wouldn’t treat a dog the way you treated me / but that’s what I get"
+  },
+  {
+    "topic": "hit-fromthismomenton",
+    "song": "From This Moment On",
+    "artist": "Shania Twain",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “From This Moment On”?",
+    "correct": "Shania Twain",
+    "wrong": ["Kathy Mattea", "Wynonna", "Jo Dee Messina"],
+    "lyric": "From this moment, life has begun / from this moment, you are the one"
+  },
+  {
+    "topic": "hit-shethinksmytractorssexy",
+    "song": "She Thinks My Tractor’s Sexy",
+    "artist": "Kenny Chesney",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “She Thinks My Tractor’s Sexy”?",
+    "correct": "Kenny Chesney",
+    "wrong": ["Chad Brock", "Mark Wills", "Kevin Sharp"],
+    "lyric": "She thinks my tractor’s sexy, it really turns her on / she’s always starin’ at me while I’m chuggin’ along"
+  },
+  {
+    "topic": "hit-iloveyou",
+    "song": "I Love You",
+    "artist": "Martina McBride",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “I Love You”?",
+    "correct": "Martina McBride",
+    "wrong": ["LeAnn Rimes", "Suzy Bogguss", "Terri Clark"],
+    "lyric": "Sure as the sky is blue / Baby, I love you"
+  },
+  {
+    "topic": "hit-goodbyeearl",
+    "song": "Goodbye Earl",
+    "artist": "Dixie Chicks",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “Goodbye Earl”?",
+    "correct": "Dixie Chicks",
+    "wrong": ["SHeDAISY", "Little Texas", "Sons of the Desert"],
+    "lyric": "Goodbye, Earl / Those black-eyed peas, they tasted all right to me, Earl"
+  },
+  {
+    "topic": "hit-hedidnthavetobe",
+    "song": "He Didn’t Have to Be",
+    "artist": "Brad Paisley",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “He Didn’t Have to Be”?",
+    "correct": "Brad Paisley",
+    "wrong": ["Ty Herndon", "Daryle Singletary", "Bryan White"],
+    "lyric": "I met the man I call my dad when I was five years old"
+  },
+  {
+    "topic": "hit-doesheloveyou",
+    "song": "Does He Love You",
+    "artist": "Reba McEntire with Linda Davis",
+    "type": "who",
+    "q": "Whose 1990s country single is “Does He Love You”?",
+    "correct": "Reba McEntire with Linda Davis",
+    "wrong": [
+      "Anita Cochran with Steve Wariner",
+      "Travis Tritt & Marty Stuart",
+      "Trisha Yearwood & Garth Brooks"
+    ],
+    "lyric": "Does he love you like he loves me / Does he think of you when he’s holding me"
+  },
+  {
+    "topic": "hit-thedance",
+    "song": "The Dance",
+    "artist": "Garth Brooks",
+    "type": "who",
+    "q": "Whose 1990s country single is “The Dance”?",
+    "correct": "Garth Brooks",
+    "wrong": ["Kenny Chesney", "David Kersh", "John Michael Montgomery"],
+    "lyric": "The Dance"
+  },
+  {
+    "topic": "hit-iswear",
+    "song": "I Swear",
+    "artist": "John Michael Montgomery",
+    "type": "who",
+    "q": "Whose 1990s country single is “I Swear”?",
+    "correct": "John Michael Montgomery",
+    "wrong": ["Vince Gill", "Chris LeDoux", "Andy Griggs"],
+    "lyric": "I Swear"
+  },
+  {
+    "topic": "hit-whoslonelynow",
+    "song": "Who’s Lonely Now",
+    "artist": "Highway 101",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Who’s Lonely Now”?",
+    "correct": "Highway 101",
+    "wrong": ["Little Texas", "The Judds", "Diamond Rio"],
+    "lyric": "Who’s Lonely Now"
+  },
+  {
+    "topic": "hit-itaintnothin",
+    "song": "It Ain’t Nothin’",
+    "artist": "Keith Whitley",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “It Ain’t Nothin’”?",
+    "correct": "Keith Whitley",
+    "wrong": ["Ty England", "Hal Ketchum", "Trace Adkins"],
+    "lyric": "It Ain’t Nothin’"
+  },
+  {
+    "topic": "hit-nobodyshome",
+    "song": "Nobody’s Home",
+    "artist": "Clint Black",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “Nobody’s Home”?",
+    "correct": "Clint Black",
+    "wrong": ["Bryan White", "Ty England", "Rhett Akins"],
+    "lyric": "Nobody’s Home"
+  },
+  {
+    "topic": "hit-southernstar",
+    "song": "Southern Star",
+    "artist": "Alabama",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “Southern Star”?",
+    "correct": "Alabama",
+    "wrong": ["Sawyer Brown", "The Bellamy Brothers", "Shenandoah"],
+    "lyric": "Southern Star"
+  },
+  {
+    "topic": "hit-onsecondthought",
+    "song": "On Second Thought",
+    "artist": "Eddie Rabbitt",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “On Second Thought”?",
+    "correct": "Eddie Rabbitt",
+    "wrong": ["Chris LeDoux", "Lee Roy Parnell", "Chad Brock"],
+    "lyric": "On Second Thought"
+  },
+  {
+    "topic": "hit-nomatterhowhigh",
+    "song": "No Matter How High",
+    "artist": "The Oak Ridge Boys",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “No Matter How High”?",
+    "correct": "The Oak Ridge Boys",
+    "wrong": ["Montgomery Gentry", "Sawyer Brown", "The Kentucky Headhunters"],
+    "lyric": "No Matter How High"
+  },
+  {
+    "topic": "hit-loveonarrival",
+    "song": "Love on Arrival",
+    "artist": "Dan Seals",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Love on Arrival”?",
+    "correct": "Dan Seals",
+    "wrong": ["Ty England", "Randy Travis", "Doug Supernaw"],
+    "lyric": "Love on Arrival"
+  },
+  {
+    "topic": "hit-goodtimes",
+    "song": "Good Times",
+    "artist": "Dan Seals",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “Good Times”?",
+    "correct": "Dan Seals",
+    "wrong": ["Mark Chesnutt", "Radney Foster", "Joe Diffie"],
+    "lyric": "Good Times"
+  },
+  {
+    "topic": "hit-youlie",
+    "song": "You Lie",
+    "artist": "Reba McEntire",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “You Lie”?",
+    "correct": "Reba McEntire",
+    "wrong": ["Lee Ann Womack", "Lorrie Morgan", "Martina McBride"],
+    "lyric": "You Lie"
+  },
+  {
+    "topic": "hit-youreallyhadmegoing",
+    "song": "You Really Had Me Going",
+    "artist": "Holly Dunn",
+    "type": "who",
+    "q": "Who recorded the 90s country hit “You Really Had Me Going”?",
+    "correct": "Holly Dunn",
+    "wrong": ["Sara Evans", "Lorrie Morgan", "Kathy Mattea"],
+    "lyric": "You Really Had Me Going"
+  },
+  {
+    "topic": "hit-daddyscomearound",
+    "song": "Daddy’s Come Around",
+    "artist": "Paul Overstreet",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Daddy’s Come Around”?",
+    "correct": "Paul Overstreet",
+    "wrong": ["George Ducas", "John Michael Montgomery", "Jeff Carson"],
+    "lyric": "Daddy’s Come Around"
+  },
+  {
+    "topic": "hit-walkonfaith",
+    "song": "Walk on Faith",
+    "artist": "Mike Reid",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Walk on Faith”?",
+    "correct": "Mike Reid",
+    "wrong": ["Chris LeDoux", "Clint Black", "Mark Collie"],
+    "lyric": "Walk on Faith"
+  },
+  {
+    "topic": "hit-rockinyears",
+    "song": "Rockin’ Years",
+    "artist": "Dolly Parton with Ricky Van Shelton",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Rockin’ Years”?",
+    "correct": "Dolly Parton with Ricky Van Shelton",
+    "wrong": [
+      "Reba McEntire & Vince Gill",
+      "Tim McGraw & Faith Hill",
+      "Steve Wariner with Garth Brooks"
+    ],
+    "lyric": "Rockin’ Years"
+  },
+  {
+    "topic": "hit-leapoffaith",
+    "song": "Leap of Faith",
+    "artist": "Lionel Cartwright",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “Leap of Faith”?",
+    "correct": "Lionel Cartwright",
+    "wrong": ["Rick Trevino", "George Ducas", "Garth Brooks"],
+    "lyric": "Leap of Faith"
+  },
+  {
+    "topic": "hit-forevertogether",
+    "song": "Forever Together",
+    "artist": "Randy Travis",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “Forever Together”?",
+    "correct": "Randy Travis",
+    "wrong": ["Doug Stone", "Steve Wariner", "Alan Jackson"],
+    "lyric": "Forever Together"
+  },
+  {
+    "topic": "hit-ifididnthaveyou",
+    "song": "If I Didn’t Have You",
+    "artist": "Randy Travis",
+    "type": "who",
+    "q": "Which artist had a 1990s country hit with “If I Didn’t Have You”?",
+    "correct": "Randy Travis",
+    "wrong": ["Tracy Byrd", "Radney Foster", "Andy Griggs"],
+    "lyric": "If I Didn’t Have You"
+  },
+  {
+    "topic": "hit-illtry",
+    "song": "I’ll Try",
+    "artist": "Alan Jackson",
+    "type": "who",
+    "q": "Whose 1990s country single is “I’ll Try”?",
+    "correct": "Alan Jackson",
+    "wrong": ["Tracy Lawrence", "Steve Wariner", "John Michael Montgomery"],
+    "lyric": "I’ll Try"
+  },
+  {
+    "topic": "hit-icanstillfeelyou",
+    "song": "I Can Still Feel You",
+    "artist": "Collin Raye",
+    "type": "who",
+    "q": "Whose 1990s country single is “I Can Still Feel You”?",
+    "correct": "Collin Raye",
+    "wrong": ["Jeff Carson", "Clint Black", "Rhett Akins"],
+    "lyric": "I Can Still Feel You"
+  },
+  {
+    "topic": "hit-whenisaidido",
+    "song": "When I Said I Do",
+    "artist": "Clint Black with Lisa Hartman Black",
+    "type": "who",
+    "q": "Who sings the 90s country favorite “When I Said I Do”?",
+    "correct": "Clint Black with Lisa Hartman Black",
+    "wrong": [
+      "Reba McEntire with Linda Davis",
+      "Marty Stuart & Travis Tritt",
+      "Trisha Yearwood & Garth Brooks"
+    ],
+    "lyric": "When I Said I Do"
+  },
+  {
+    "topic": "hit-johndeeregreen",
+    "song": "John Deere Green",
+    "artist": "Joe Diffie",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Joe Diffie?",
+    "correct": "John Deere Green",
+    "wrong": ["You Better Think Twice", "Write This Down", "Lonely Won’t Leave Me Alone"],
+    "lyric": "Stood on the rail and painted a ten-foot heart in John Deere green"
+  },
+  {
+    "topic": "hit-watermeloncrawl",
+    "song": "Watermelon Crawl",
+    "artist": "Tracy Byrd",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tracy Byrd?",
+    "correct": "Watermelon Crawl",
+    "wrong": ["Down on the Farm", "All I Need to Know", "Home"],
+    "lyric": "We got a hundred gallons of sweet red wine / Made from the biggest watermelons on the vine"
+  },
+  {
+    "topic": "hit-timemarcheson",
+    "song": "Time Marches On",
+    "artist": "Tracy Lawrence",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tracy Lawrence?",
+    "correct": "Time Marches On",
+    "wrong": ["Chattahoochee", "I Just Want to Dance with You", "Old Flames Have New Names"],
+    "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol"
+  },
+  {
+    "topic": "hit-soldthegrundycountyauctionincident",
+    "song": "Sold (The Grundy County Auction Incident)",
+    "artist": "John Michael Montgomery",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Michael Montgomery?",
+    "correct": "Sold (The Grundy County Auction Incident)",
+    "wrong": ["For a Change", "Too Cold at Home", "I’ve Cried My Last Tear for You"],
+    "lyric": "I’m sold on the lady in the second row, she’s an eight, she’s a nine, she’s a ten, I know"
+  },
+  {
+    "topic": "hit-donttakethegirl",
+    "song": "Don’t Take the Girl",
+    "artist": "Tim McGraw",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tim McGraw?",
+    "correct": "Don’t Take the Girl",
+    "wrong": [
+      "If the Devil Danced (In Empty Pockets)",
+      "Almost Goodbye",
+      "I’ll Think of Something"
+    ],
+    "lyric": "Johnny’s daddy was takin’ him fishin’ when he was eight years old"
+  },
+  {
+    "topic": "hit-strawberrywine",
+    "song": "Strawberry Wine",
+    "artist": "Deana Carter",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Deana Carter?",
+    "correct": "Strawberry Wine",
+    "wrong": ["Piece of My Heart", "That Don’t Impress Me Much", "Here I Am"],
+    "lyric": "Like strawberry wine and seventeen / The hot July moon saw everything"
+  },
+  {
+    "topic": "hit-howdoyoulikemenow",
+    "song": "How Do You Like Me Now?!",
+    "artist": "Toby Keith",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Toby Keith?",
+    "correct": "How Do You Like Me Now?!",
+    "wrong": ["One of These Days", "Stay Forever", "Everywhere"],
+    "lyric": "I couldn’t make you love me, but I always dreamed about livin’ in your radio / How do you like me now?"
+  },
+  {
+    "topic": "hit-goresthighonthatmountain",
+    "song": "Go Rest High on That Mountain",
+    "artist": "Vince Gill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Vince Gill?",
+    "correct": "Go Rest High on That Mountain",
+    "wrong": ["I Love the Way You Love Me", "Blame It on Texas", "The First Step"],
+    "lyric": "So go rest high on that mountain / Son, your work on earth is done"
+  },
+  {
+    "topic": "hit-mymaria",
+    "song": "My Maria",
+    "artist": "Brooks & Dunn",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brooks & Dunn?",
+    "correct": "My Maria",
+    "wrong": ["Some Girls Do", "Thank God for You", "Daddy’s Money"],
+    "lyric": "My Maria, don’t you know I’ve come a long, long way"
+  },
+  {
+    "topic": "hit-independenceday",
+    "song": "Independence Day",
+    "artist": "Martina McBride",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Martina McBride?",
+    "correct": "Independence Day",
+    "wrong": ["You’re Easy on the Eyes", "No One Else on Earth", "Cleopatra, Queen of Denial"],
+    "lyric": "Let freedom ring, let the white dove sing / let the whole world know that today is a day of reckoning"
+  },
+  {
+    "topic": "hit-ilikeitiloveit",
+    "song": "I Like It, I Love It",
+    "artist": "Tim McGraw",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tim McGraw?",
+    "correct": "I Like It, I Love It",
+    "wrong": ["You’ve Got to Stand for Something", "One More Last Chance", "Me and You"],
+    "lyric": "But I like it, I love it, I want some more of it / I try so hard, I can’t rise above it"
+  },
+  {
+    "topic": "hit-shesinlovewiththeboy",
+    "song": "She’s in Love with the Boy",
+    "artist": "Trisha Yearwood",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Trisha Yearwood?",
+    "correct": "She’s in Love with the Boy",
+    "wrong": ["You’re Easy on the Eyes", "Soon", "Down at the Twist and Shout"],
+    "lyric": "She’s in love with the boy / And even if they have to run away, she’s gonna marry that boy someday"
+  },
+  {
+    "topic": "hit-headscarolinatailscalifornia",
+    "song": "Heads Carolina, Tails California",
+    "artist": "Jo Dee Messina",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Jo Dee Messina?",
+    "correct": "Heads Carolina, Tails California",
+    "wrong": ["I’m That Kind of Girl", "Lonely Too Long", "The Light in Your Eyes"],
+    "lyric": "Heads Carolina, tails California, somewhere greener, somewhere warmer / Up in the mountains, down by the ocean"
+  },
+  {
+    "topic": "hit-pickupman",
+    "song": "Pickup Man",
+    "artist": "Joe Diffie",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Joe Diffie?",
+    "correct": "Pickup Man",
+    "wrong": ["Cowboy Love", "He Didn’t Have to Be", "Love of My Life"],
+    "lyric": "And I began to understand, there’s just something women like about a pickup man"
+  },
+  {
+    "topic": "hit-amazed",
+    "song": "Amazed",
+    "artist": "Lonestar",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Lonestar?",
+    "correct": "Amazed",
+    "wrong": ["Down Home", "Thank God for You", "A Man This Lonely"],
+    "lyric": "Every little thing that you do / baby, I’m amazed by you"
+  },
+  {
+    "topic": "hit-blue",
+    "song": "Blue",
+    "artist": "LeAnn Rimes",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for LeAnn Rimes?",
+    "correct": "Blue",
+    "wrong": ["Soon", "Walkaway Joe", "We Danced Anyway"],
+    "lyric": "Blue, oh, so lonesome for you / Why can’t you be blue over me?"
+  },
+  {
+    "topic": "hit-wideopenspaces",
+    "song": "Wide Open Spaces",
+    "artist": "Dixie Chicks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Dixie Chicks?",
+    "correct": "Wide Open Spaces",
+    "wrong": ["No News", "Neon Moon", "Unbelievable"],
+    "lyric": "She needs wide open spaces / Room to make her big mistakes"
+  },
+  {
+    "topic": "hit-itsyourlove",
+    "song": "It’s Your Love",
+    "artist": "Tim McGraw & Faith Hill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tim McGraw & Faith Hill?",
+    "correct": "It’s Your Love",
+    "wrong": [
+      "Somewhere in the Vicinity of the Heart",
+      "This One’s Gonna Hurt You (For a Long, Long Time)",
+      "The Heart Won’t Lie"
+    ],
+    "lyric": "It’s your love, it just does somethin’ to me / It sends a shock right through me, I can’t get enough"
+  },
+  {
+    "topic": "hit-howdoilive",
+    "song": "How Do I Live",
+    "artist": "LeAnn Rimes",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for LeAnn Rimes?",
+    "correct": "How Do I Live",
+    "wrong": ["Any Man of Mine", "I Love You", "He Talks to Me"],
+    "lyric": "How do I live without you? I want to know / How do I breathe without you if you ever go?"
+  },
+  {
+    "topic": "hit-brandnewman",
+    "song": "Brand New Man",
+    "artist": "Brooks & Dunn",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brooks & Dunn?",
+    "correct": "Brand New Man",
+    "wrong": ["I Want to Be Loved Like That", "In Pictures", "Say When"],
+    "lyric": "By the fire in your touch and the flame in your eyes / I’m born to love again, I’m a brand new man"
+  },
+  {
+    "topic": "hit-cowboytakemeaway",
+    "song": "Cowboy Take Me Away",
+    "artist": "Dixie Chicks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Dixie Chicks?",
+    "correct": "Cowboy Take Me Away",
+    "wrong": ["Smile", "Amy’s Back in Austin", "Meet in the Middle"],
+    "lyric": "Cowboy, take me away / Fly this girl as high as you can into the wild blue"
+  },
+  {
+    "topic": "hit-friendsinlowplaces",
+    "song": "Friends in Low Places",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Friends in Low Places",
+    "wrong": ["Past the Point of Rescue", "Write This Down", "Carrying Your Love with Me"],
+    "lyric": "’Cause I’ve got friends in low places, where the whiskey drowns and the beer chases my blues away"
+  },
+  {
+    "topic": "hit-thethunderrolls",
+    "song": "The Thunder Rolls",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "The Thunder Rolls",
+    "wrong": [
+      "If You’ve Got Love",
+      "You’ve Got to Stand for Something",
+      "You’re Beginning to Get to Me"
+    ],
+    "lyric": "The thunder rolls and the lightnin’ strikes / Another love grows cold on a sleepless night"
+  },
+  {
+    "topic": "hit-unansweredprayers",
+    "song": "Unanswered Prayers",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Unanswered Prayers",
+    "wrong": ["I Left Something Turned On at Home", "Two Teardrops", "I Like It, I Love It"],
+    "lyric": "Sometimes I thank God for unanswered prayers / Remember when you’re talkin’ to the man upstairs"
+  },
+  {
+    "topic": "hit-twoofakindworkinonafullhouse",
+    "song": "Two of a Kind, Workin’ on a Full House",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Two of a Kind, Workin’ on a Full House",
+    "wrong": ["I Cross My Heart", "Every Time I Get Around You", "What’s in It for Me"],
+    "lyric": "Hey, she’s my little Queen of the South / Yeah, we’re two of a kind, workin’ on a full house"
+  },
+  {
+    "topic": "hit-rodeo",
+    "song": "Rodeo",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Rodeo",
+    "wrong": ["Summertime Blues", "Write This Down", "Cover You in Kisses"],
+    "lyric": "Well, it’s bulls and blood, it’s dust and mud, it’s the roar of a Sunday crowd"
+  },
+  {
+    "topic": "hit-shameless",
+    "song": "Shameless",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Shameless",
+    "wrong": ["Should’ve Been a Cowboy", "Lovesick Blues", "The First Step"],
+    "lyric": "I’m shameless when it comes to loving you, I’ll do anything you want me to"
+  },
+  {
+    "topic": "hit-theriver",
+    "song": "The River",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "The River",
+    "wrong": ["Sure Love", "Angel in My Eyes", "I See It Now"],
+    "lyric": "And I will sail my vessel ’til the river runs dry / Like a bird upon the wind, these waters are my sky"
+  },
+  {
+    "topic": "hit-thatsummer",
+    "song": "That Summer",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "That Summer",
+    "wrong": ["I’ve Cried My Last Tear for You", "Life’s a Dance", "Put Yourself in My Shoes"],
+    "lyric": "She had a need to feel the thunder, to chase the lightning from the sky"
+  },
+  {
+    "topic": "hit-aintgoingdowntilthesuncomesup",
+    "song": "Ain’t Goin’ Down (’Til the Sun Comes Up)",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Ain’t Goin’ Down (’Til the Sun Comes Up)",
+    "wrong": [
+      "Standing on the Edge of Goodbye",
+      "Don’t Let Our Love Start Slippin’ Away",
+      "Too Cold at Home"
+    ],
+    "lyric": "Ain’t goin’ down ’til the sun comes up, ain’t givin’ in ’til they get enough"
+  },
+  {
+    "topic": "hit-standingoutsidethefire",
+    "song": "Standing Outside the Fire",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Standing Outside the Fire",
+    "wrong": ["I Can’t Reach Her Anymore", "Money in the Bank", "Love, Me"],
+    "lyric": "Life is not tried, it is merely survived if you’re standing outside the fire"
+  },
+  {
+    "topic": "hit-callinbatonrouge",
+    "song": "Callin’ Baton Rouge",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Callin’ Baton Rouge",
+    "wrong": ["Small Town Saturday Night", "A Little More Love", "Point of Light"],
+    "lyric": "Operator, won’t you put me on through? I gotta send my love down to Baton Rouge"
+  },
+  {
+    "topic": "hit-thebeachesofcheyenne",
+    "song": "The Beaches of Cheyenne",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "The Beaches of Cheyenne",
+    "wrong": ["Fall in Love", "The First Step", "You’re Beginning to Get to Me"],
+    "lyric": "You’ll see her footprints in the sand / ’Cause every night she walks the beaches of Cheyenne"
+  },
+  {
+    "topic": "hit-twopinacoladas",
+    "song": "Two Piña Coladas",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "Two Piña Coladas",
+    "wrong": ["Where Are You Now", "Liza Jane", "When My Ship Comes In"],
+    "lyric": "So bring me two piña coladas, one for each hand / Let’s set sail with Captain Morgan"
+  },
+  {
+    "topic": "hit-chasinthatneonrainbow",
+    "song": "Chasin’ That Neon Rainbow",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Chasin’ That Neon Rainbow",
+    "wrong": ["Live, Laugh, Love", "It’s a Little Too Late", "Today’s Lonely Fool"],
+    "lyric": "Chasin’ that neon rainbow, livin’ that honky-tonk dream / ’Cause all I’ve ever wanted is to pick this guitar and sing"
+  },
+  {
+    "topic": "hit-dontrockthejukebox",
+    "song": "Don’t Rock the Jukebox",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Don’t Rock the Jukebox",
+    "wrong": [
+      "This Is Me",
+      "Standing on the Edge of Goodbye",
+      "There Ain’t Nothin’ Wrong with the Radio"
+    ],
+    "lyric": "Don’t rock the jukebox, I wanna hear some Jones / ’Cause my heart ain’t ready for the Rolling Stones"
+  },
+  {
+    "topic": "hit-chattahoochee",
+    "song": "Chattahoochee",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Chattahoochee",
+    "wrong": ["We Tell Ourselves", "Don’t Laugh at Me", "Your Love Amazes Me"],
+    "lyric": "Way down yonder on the Chattahoochee / It gets hotter than a hoochie coochie"
+  },
+  {
+    "topic": "hit-mercuryblues",
+    "song": "Mercury Blues",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Mercury Blues",
+    "wrong": ["Who Needs You Baby", "You Gotta Love That", "Seminole Wind"],
+    "lyric": "Crazy ’bout a Mercury / I’m gonna buy me a Mercury and cruise it up and down the road"
+  },
+  {
+    "topic": "hit-gonecountry",
+    "song": "Gone Country",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Gone Country",
+    "wrong": ["Be My Baby Tonight", "Adalida", "Carried Away"],
+    "lyric": "She’s gone country, look at them boots / She’s gone country, back to her roots"
+  },
+  {
+    "topic": "hit-littlebitty",
+    "song": "Little Bitty",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Little Bitty",
+    "wrong": ["Worlds Apart", "John Deere Green", "Only on Days That End in \"Y\""],
+    "lyric": "Well, it’s alright to be little bitty / A little hometown or a big old city"
+  },
+  {
+    "topic": "hit-lovewithoutendamen",
+    "song": "Love Without End, Amen",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "Love Without End, Amen",
+    "wrong": ["Sticks and Stones", "Pocket Full of Gold", "Midnight in Montgomery"],
+    "lyric": "He said daddies don’t just love their children every now and then / It’s a love without end, amen"
+  },
+  {
+    "topic": "hit-icrossmyheart",
+    "song": "I Cross My Heart",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "I Cross My Heart",
+    "wrong": [
+      "Don’t Let Our Love Start Slippin’ Away",
+      "It’s Midnight Cinderella",
+      "What the Cowgirls Do"
+    ],
+    "lyric": "I cross my heart and promise to give all I’ve got to give to make all your dreams come true"
+  },
+  {
+    "topic": "hit-checkyesorno",
+    "song": "Check Yes or No",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "Check Yes or No",
+    "wrong": ["State of Mind", "Cadillac Style", "What She’s Doing Now"],
+    "lyric": "Do you love me, do you wanna be my friend? / And if you do, well then don’t be afraid"
+  },
+  {
+    "topic": "hit-carryingyourlovewithme",
+    "song": "Carrying Your Love with Me",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "Carrying Your Love with Me",
+    "wrong": ["A Little More Love", "John Deere Green", "Live, Laugh, Love"],
+    "lyric": "’Cause I’m carrying your love with me, West Virginia down to Tennessee"
+  },
+  {
+    "topic": "hit-writethisdown",
+    "song": "Write This Down",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "Write This Down",
+    "wrong": ["Party Crowd", "If You Want Me To", "She Never Lets It Go to Her Heart"],
+    "lyric": "Baby, write this down, take a little note to remind you in case you didn’t know"
+  },
+  {
+    "topic": "hit-bootscootinboogie",
+    "song": "Boot Scootin’ Boogie",
+    "artist": "Brooks & Dunn",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brooks & Dunn?",
+    "correct": "Boot Scootin’ Boogie",
+    "wrong": ["I’m Not Strong Enough to Say No", "Fast Movin’ Train", "When She Cries"],
+    "lyric": "Get down, turn around, go to town, boot scootin’ boogie"
+  },
+  {
+    "topic": "hit-neonmoon",
+    "song": "Neon Moon",
+    "artist": "Brooks & Dunn",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brooks & Dunn?",
+    "correct": "Neon Moon",
+    "wrong": ["I Want to Be Loved Like That", "Give Me One More Shot", "Wide Open Spaces"],
+    "lyric": "To watch your broken dreams / Dance in and out of the beams of a neon moon"
+  },
+  {
+    "topic": "hit-fancy",
+    "song": "Fancy",
+    "artist": "Reba McEntire",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Reba McEntire?",
+    "correct": "Fancy",
+    "wrong": [
+      "No One Else on Earth",
+      "One Way Ticket (Because I Can)",
+      "Heads Carolina, Tails California"
+    ],
+    "lyric": "She said, here’s your one chance, Fancy, don’t let me down"
+  },
+  {
+    "topic": "hit-thenightthelightswentoutingeorgia",
+    "song": "The Night the Lights Went Out in Georgia",
+    "artist": "Reba McEntire",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Reba McEntire?",
+    "correct": "The Night the Lights Went Out in Georgia",
+    "wrong": ["Happy Girl", "No One Needs to Know", "The Woman in Me (Needs the Man in You)"],
+    "lyric": "That’s the night that the lights went out in Georgia / that’s the night that they hung an innocent man"
+  },
+  {
+    "topic": "hit-heresaquartercallsomeonewhocares",
+    "song": "Here’s a Quarter (Call Someone Who Cares)",
+    "artist": "Travis Tritt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Travis Tritt?",
+    "correct": "Here’s a Quarter (Call Someone Who Cares)",
+    "wrong": ["Easy Come, Easy Go", "In This Life", "Don’t Take the Girl"],
+    "lyric": "But don’t you come around here handin’ me none of your lies / Here’s a quarter, call someone who cares"
+  },
+  {
+    "topic": "hit-indianoutlaw",
+    "song": "Indian Outlaw",
+    "artist": "Tim McGraw",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tim McGraw?",
+    "correct": "Indian Outlaw",
+    "wrong": [
+      "Check Yes or No",
+      "Can’t Break It to My Heart",
+      "Here’s a Quarter (Call Someone Who Cares)"
+    ],
+    "lyric": "’Cause I’m an Indian outlaw, half Cherokee and Choctaw / My baby, she’s a Chippewa"
+  },
+  {
+    "topic": "hit-everywhere",
+    "song": "Everywhere",
+    "artist": "Tim McGraw",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tim McGraw?",
+    "correct": "Everywhere",
+    "wrong": [
+      "National Working Woman’s Holiday",
+      "You Gotta Love That",
+      "Standing Outside the Fire"
+    ],
+    "lyric": "No matter where you choose to be / In my heart I’ll always see you everywhere"
+  },
+  {
+    "topic": "hit-somethinglikethat",
+    "song": "Something Like That",
+    "artist": "Tim McGraw",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tim McGraw?",
+    "correct": "Something Like That",
+    "wrong": ["Wink", "Standing on the Edge of Goodbye", "The Thunder Rolls"],
+    "lyric": "I had a barbecue stain on my white T-shirt / She was killing me in that miniskirt"
+  },
+  {
+    "topic": "hit-anymanofmine",
+    "song": "Any Man of Mine",
+    "artist": "Shania Twain",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shania Twain?",
+    "correct": "Any Man of Mine",
+    "wrong": ["Shake the Sugar Tree", "Thinkin’ About You", "Happy Girl"],
+    "lyric": "Any man of mine better walk the line / better show me a teasin’, squeezin’, pleasin’ kinda time"
+  },
+  {
+    "topic": "hit-yourestilltheone",
+    "song": "You’re Still the One",
+    "artist": "Shania Twain",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shania Twain?",
+    "correct": "You’re Still the One",
+    "wrong": ["Tender When I Want to Be", "Bye Bye", "Down to My Last Teardrop"],
+    "lyric": "You’re still the one I run to, the one that I belong to / You’re still the one I want for life"
+  },
+  {
+    "topic": "hit-thatdontimpressmemuch",
+    "song": "That Don’t Impress Me Much",
+    "artist": "Shania Twain",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shania Twain?",
+    "correct": "That Don’t Impress Me Much",
+    "wrong": ["Blame It on Your Heart", "Ten Thousand Angels", "Believe Me Baby (I Lied)"],
+    "lyric": "OK, so you’re a rocket scientist / that don’t impress me much"
+  },
+  {
+    "topic": "hit-manifeellikeawoman",
+    "song": "Man! I Feel Like a Woman!",
+    "artist": "Shania Twain",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shania Twain?",
+    "correct": "Man! I Feel Like a Woman!",
+    "wrong": [
+      "She Came from Fort Worth",
+      "She Is His Only Need",
+      "Hurt Me Bad (In a Real Good Way)"
+    ],
+    "lyric": "Oh, oh, oh, I wanna be free, yeah, to feel the way I feel / man! I feel like a woman!"
+  },
+  {
+    "topic": "hit-theresyourtrouble",
+    "song": "There’s Your Trouble",
+    "artist": "Dixie Chicks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Dixie Chicks?",
+    "correct": "There’s Your Trouble",
+    "wrong": ["That’s Just About Right", "Kick a Little", "Walkin’ Away"],
+    "lyric": "There’s your trouble, there’s your trouble / You keep seein’ double with the wrong one"
+  },
+  {
+    "topic": "hit-thiskiss",
+    "song": "This Kiss",
+    "artist": "Faith Hill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Faith Hill?",
+    "correct": "This Kiss",
+    "wrong": ["Lesson in Leavin’", "The Woman in Me (Needs the Man in You)", "Drive South"],
+    "lyric": "It’s centrifugal motion, it’s perpetual bliss, it’s that pivotal moment, it’s, ah, impossible / This kiss, this kiss"
+  },
+  {
+    "topic": "hit-breathe",
+    "song": "Breathe",
+    "artist": "Faith Hill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Faith Hill?",
+    "correct": "Breathe",
+    "wrong": [
+      "She Thinks His Name Was John",
+      "I’ll Think of a Reason Later",
+      "Down at the Twist and Shout"
+    ],
+    "lyric": "’Cause I can feel you breathe, it’s washing over me / Suddenly I’m melting into you"
+  },
+  {
+    "topic": "hit-shutupandkissme",
+    "song": "Shut Up and Kiss Me",
+    "artist": "Mary Chapin Carpenter",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mary Chapin Carpenter?",
+    "correct": "Shut Up and Kiss Me",
+    "wrong": ["Poor Poor Pitiful Me", "Hey Cinderella", "Wild Angels"],
+    "lyric": "It’s been so long since somebody whispered / shut up and kiss me"
+  },
+  {
+    "topic": "hit-wildangels",
+    "song": "Wild Angels",
+    "artist": "Martina McBride",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Martina McBride?",
+    "correct": "Wild Angels",
+    "wrong": ["Walk On", "Big Deal", "Where’ve You Been"],
+    "lyric": "Must’ve been wild angels, wild angels / watching over you and me"
+  },
+  {
+    "topic": "hit-abrokenwing",
+    "song": "A Broken Wing",
+    "artist": "Martina McBride",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Martina McBride?",
+    "correct": "A Broken Wing",
+    "wrong": ["Chains", "Go Away", "Any Man of Mine"],
+    "lyric": "And with a broken wing she still sings / she keeps an eye on the sky"
+  },
+  {
+    "topic": "hit-sheishisonlyneed",
+    "song": "She Is His Only Need",
+    "artist": "Wynonna",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Wynonna?",
+    "correct": "She Is His Only Need",
+    "wrong": ["When You Walk in the Room", "You’ve Got to Talk to Me", "When Boy Meets Girl"],
+    "lyric": "’Cause without her, where would he be? / See, it’s not for him, she is his only need"
+  },
+  {
+    "topic": "hit-isawthelight",
+    "song": "I Saw the Light",
+    "artist": "Wynonna",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Wynonna?",
+    "correct": "I Saw the Light",
+    "wrong": ["She Thinks His Name Was John", "Take It Back", "Fancy"],
+    "lyric": "I saw the light in your window tonight / I saw two shadows holdin’ each other tight"
+  },
+  {
+    "topic": "hit-tobelovedbyyou",
+    "song": "To Be Loved by You",
+    "artist": "Wynonna",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Wynonna?",
+    "correct": "To Be Loved by You",
+    "wrong": [
+      "The Night the Lights Went Out in Georgia",
+      "Lonely Too Long",
+      "Just Like the Weather"
+    ],
+    "lyric": "Baby, come what may, I’ll find a way to get through / There’s nothing that I won’t do to be loved by you"
+  },
+  {
+    "topic": "hit-imalright",
+    "song": "I’m Alright",
+    "artist": "Jo Dee Messina",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Jo Dee Messina?",
+    "correct": "I’m Alright",
+    "wrong": ["Shut Up and Kiss Me", "When You Walk in the Room", "Till You Love Me"],
+    "lyric": "It’s a beautiful day, not a cloud in sight, so I guess I’m doing alright"
+  },
+  {
+    "topic": "hit-standbesideme",
+    "song": "Stand Beside Me",
+    "artist": "Jo Dee Messina",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Jo Dee Messina?",
+    "correct": "Stand Beside Me",
+    "wrong": ["I’m That Kind of Girl", "Wild Angels", "Don’t Tell Me What to Do"],
+    "lyric": "I want a man who stands beside me, not in front of or behind me"
+  },
+  {
+    "topic": "hit-wedancedanyway",
+    "song": "We Danced Anyway",
+    "artist": "Deana Carter",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Deana Carter?",
+    "correct": "We Danced Anyway",
+    "wrong": ["Wild One", "Letting Go", "Safe in the Arms of Love"],
+    "lyric": "And the band played songs that we had never heard / But we danced anyway"
+  },
+  {
+    "topic": "hit-howdoigetthere",
+    "song": "How Do I Get There",
+    "artist": "Deana Carter",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Deana Carter?",
+    "correct": "How Do I Get There",
+    "wrong": ["Man! I Feel Like a Woman!", "A Little Past Little Rock", "Everytime I Cry"],
+    "lyric": "How do I get there from here? / How do I make you see?"
+  },
+  {
+    "topic": "hit-noplacethatfar",
+    "song": "No Place That Far",
+    "artist": "Sara Evans",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Sara Evans?",
+    "correct": "No Place That Far",
+    "wrong": ["Blue", "Halfway Down", "Single White Female"],
+    "lyric": "Always know that I would find a way to get to where you are / there’s no place that far"
+  },
+  {
+    "topic": "hit-singlewhitefemale",
+    "song": "Single White Female",
+    "artist": "Chely Wright",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Chely Wright?",
+    "correct": "Single White Female",
+    "wrong": ["Come On Over", "We Danced Anyway", "What Part of No"],
+    "lyric": "A single white female is looking for a man like you"
+  },
+  {
+    "topic": "hit-guysdoitallthetime",
+    "song": "Guys Do It All the Time",
+    "artist": "Mindy McCready",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mindy McCready?",
+    "correct": "Guys Do It All the Time",
+    "wrong": ["Whose Bed Have Your Boots Been Under?", "Better Things to Do", "What Part of No"],
+    "lyric": "Guys do it all the time, and you expect us to understand"
+  },
+  {
+    "topic": "hit-onewayticketbecauseican",
+    "song": "One Way Ticket (Because I Can)",
+    "artist": "LeAnn Rimes",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for LeAnn Rimes?",
+    "correct": "One Way Ticket (Because I Can)",
+    "wrong": ["Take It Back", "A Little Past Little Rock", "Something in Red"],
+    "lyric": "I’ll buy a one-way ticket on a westbound train to see how far I can go"
+  },
+  {
+    "topic": "hit-ilovethewayyouloveme",
+    "song": "I Love the Way You Love Me",
+    "artist": "John Michael Montgomery",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Michael Montgomery?",
+    "correct": "I Love the Way You Love Me",
+    "wrong": ["Point of Light", "Fall in Love", "I Don’t Even Know Your Name"],
+    "lyric": "But I love the way you love me, strong and wild, slow and easy"
+  },
+  {
+    "topic": "hit-bemybabytonight",
+    "song": "Be My Baby Tonight",
+    "artist": "John Michael Montgomery",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Michael Montgomery?",
+    "correct": "Be My Baby Tonight",
+    "wrong": ["Liza Jane", "Live Until I Die", "National Working Woman’s Holiday"],
+    "lyric": "Could ya, would ya, ain’t ya gonna if I asked you / Would ya wanna be my baby tonight"
+  },
+  {
+    "topic": "hit-icanloveyoulikethat",
+    "song": "I Can Love You Like That",
+    "artist": "John Michael Montgomery",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Michael Montgomery?",
+    "correct": "I Can Love You Like That",
+    "wrong": ["Crazy Little Thing Called Love", "Someone Else’s Star", "Help Me Hold On"],
+    "lyric": "I can love you like that, I would make you my world / Move heaven and earth if you were my girl"
+  },
+  {
+    "topic": "hit-holdontome",
+    "song": "Hold On to Me",
+    "artist": "John Michael Montgomery",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Michael Montgomery?",
+    "correct": "Hold On to Me",
+    "wrong": ["Adalida", "Watermelon Crawl", "Love Without End, Amen"],
+    "lyric": "Hold on to me when your world’s turnin’ cold / When it feels like your life’s spinnin’ out of control"
+  },
+  {
+    "topic": "hit-shesgotitall",
+    "song": "She’s Got It All",
+    "artist": "Kenny Chesney",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Kenny Chesney?",
+    "correct": "She’s Got It All",
+    "wrong": ["Watermelon Crawl", "(Who Says) You Can’t Have It All", "Wanted"],
+    "lyric": "She’s got it all, my heart, my soul, my wishes, all of my love, my hugs, my kisses"
+  },
+  {
+    "topic": "hit-howforeverfeels",
+    "song": "How Forever Feels",
+    "artist": "Kenny Chesney",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Kenny Chesney?",
+    "correct": "How Forever Feels",
+    "wrong": ["Put Yourself in My Shoes", "Rope the Moon", "The Change"],
+    "lyric": "Man, I’m gonna die if she really says yes / I wanna know how forever feels"
+  },
+  {
+    "topic": "hit-youhadmefromhello",
+    "song": "You Had Me from Hello",
+    "artist": "Kenny Chesney",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Kenny Chesney?",
+    "correct": "You Had Me from Hello",
+    "wrong": [
+      "A Little Less Talk and a Lot More Action",
+      "You Can’t Make a Heart Love Somebody",
+      "Love Lessons"
+    ],
+    "lyric": "You had me from hello, I felt love start to grow the moment that I looked into your eyes"
+  },
+  {
+    "topic": "hit-meetinthemiddle",
+    "song": "Meet in the Middle",
+    "artist": "Diamond Rio",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Diamond Rio?",
+    "correct": "Meet in the Middle",
+    "wrong": ["Kick a Little", "Dance the Night Away", "Love Can Build a Bridge"],
+    "lyric": "I’d start walkin’ your way, you’d start walkin’ mine / We’d meet in the middle, ’neath that old Georgia pine"
+  },
+  {
+    "topic": "hit-mylove",
+    "song": "My Love",
+    "artist": "Little Texas",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Little Texas?",
+    "correct": "My Love",
+    "wrong": ["Say When", "Next to You, Next to Me", "We’ll Burn That Bridge"],
+    "lyric": "Are you ready for my love, my love / my love, my love is ready for you"
+  },
+  {
+    "topic": "hit-sundayinthesouth",
+    "song": "Sunday in the South",
+    "artist": "Shenandoah",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shenandoah?",
+    "correct": "Sunday in the South",
+    "wrong": ["Smile", "How Do You Fall in Love", "A Man This Lonely"],
+    "lyric": "Oh Lord, forgive us when we doubt / Another sacred Sunday in the South"
+  },
+  {
+    "topic": "hit-ifbubbacandanceicantoo",
+    "song": "If Bubba Can Dance (I Can Too)",
+    "artist": "Shenandoah",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shenandoah?",
+    "correct": "If Bubba Can Dance (I Can Too)",
+    "wrong": ["Dance the Night Away", "I Can Love You Better", "How Do You Fall in Love"],
+    "lyric": "Well, everybody in the place stand back and give me some room / ’Cause if Bubba can dance I can too"
+  },
+  {
+    "topic": "hit-shedontknowshesbeautiful",
+    "song": "She Don’t Know She’s Beautiful",
+    "artist": "Sammy Kershaw",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Sammy Kershaw?",
+    "correct": "She Don’t Know She’s Beautiful",
+    "wrong": ["Love Without End, Amen", "Small Town Saturday Night", "Pickup Man"],
+    "lyric": "She don’t know she’s beautiful, never crossed her mind / she don’t know she’s beautiful, no, she’s not that kind"
+  },
+  {
+    "topic": "hit-brotherjukebox",
+    "song": "Brother Jukebox",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "Brother Jukebox",
+    "wrong": ["Little Man", "Unanswered Prayers", "Liza Jane"],
+    "lyric": "Brother jukebox, sister wine, mother freedom, father time / since she left me by myself"
+  },
+  {
+    "topic": "hit-itsureismonday",
+    "song": "It Sure Is Monday",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "It Sure Is Monday",
+    "wrong": ["Worlds Apart", "The Tips of My Fingers", "A Chance"],
+    "lyric": "I had a ball Friday, Saturday and Sunday / but it’s all over now and it sure is Monday"
+  },
+  {
+    "topic": "hit-ijustwantedyoutoknow",
+    "song": "I Just Wanted You to Know",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "I Just Wanted You to Know",
+    "wrong": ["Anymore", "Could’ve Been Me", "Smoke Rings in the Dark"],
+    "lyric": "I just wanted you to know / sometimes drivin’ home at night I let your memory take control"
+  },
+  {
+    "topic": "hit-almostgoodbye",
+    "song": "Almost Goodbye",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "Almost Goodbye",
+    "wrong": ["Dust on the Bottle", "Worlds Apart", "American Honky-Tonk Bar Association"],
+    "lyric": "But to walk away from love was more than we could do / it was almost goodbye"
+  },
+  {
+    "topic": "hit-itsalittletoolate",
+    "song": "It’s a Little Too Late",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "It’s a Little Too Late",
+    "wrong": ["Home to You", "Ain’t Goin’ Down (’Til the Sun Comes Up)", "No Man’s Land"],
+    "lyric": "But it’s a little too late, she’s a little too gone / she’s a little too right, I’m a little too wrong"
+  },
+  {
+    "topic": "hit-holdinheaven",
+    "song": "Holdin’ Heaven",
+    "artist": "Tracy Byrd",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tracy Byrd?",
+    "correct": "Holdin’ Heaven",
+    "wrong": ["What the Cowgirls Do", "Love of My Life", "It Sure Is Monday"],
+    "lyric": "I’m holdin’ heaven in my arms tonight / Everything about you is so perfectly right"
+  },
+  {
+    "topic": "hit-thekeeperofthestars",
+    "song": "The Keeper of the Stars",
+    "artist": "Tracy Byrd",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Tracy Byrd?",
+    "correct": "The Keeper of the Stars",
+    "wrong": ["She’s Every Woman", "So Help Me Girl", "One of These Days"],
+    "lyric": "I tip my hat to the keeper of the stars / He sure knew what he was doin’"
+  },
+  {
+    "topic": "hit-thirdrockfromthesun",
+    "song": "Third Rock from the Sun",
+    "artist": "Joe Diffie",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Joe Diffie?",
+    "correct": "Third Rock from the Sun",
+    "wrong": ["Old Flames Have New Names", "What’s in It for Me", "Cover You in Kisses"],
+    "lyric": "When you’re spinnin’ ’round, things come undone / Welcome to Earth, third rock from the sun"
+  },
+  {
+    "topic": "hit-biggerthanthebeatles",
+    "song": "Bigger Than the Beatles",
+    "artist": "Joe Diffie",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Joe Diffie?",
+    "correct": "Bigger Than the Beatles",
+    "wrong": ["There Goes", "How Do You Like Me Now?!", "I Miss You a Little"],
+    "lyric": "They got a love bigger than the Beatles, wild and free like a Rollin’ Stone"
+  },
+  {
+    "topic": "hit-home",
+    "song": "Home",
+    "artist": "Joe Diffie",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Joe Diffie?",
+    "correct": "Home",
+    "wrong": ["I’d Love You All Over Again", "Foolish Pride", "Callin’ Baton Rouge"],
+    "lyric": "My footsteps carry me away, but in my mind I’m always going home"
+  },
+  {
+    "topic": "hit-shouldvebeenacowboy",
+    "song": "Should’ve Been a Cowboy",
+    "artist": "Toby Keith",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Toby Keith?",
+    "correct": "Should’ve Been a Cowboy",
+    "wrong": ["Love Without End, Amen", "Blue Clear Sky", "Achy Breaky Heart"],
+    "lyric": "I should’ve been a cowboy, I should’ve learned to rope and ride"
+  },
+  {
+    "topic": "hit-whosthatman",
+    "song": "Who’s That Man",
+    "artist": "Toby Keith",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Toby Keith?",
+    "correct": "Who’s That Man",
+    "wrong": ["Big Love", "Standing on the Edge of Goodbye", "Before You Kill Us All"],
+    "lyric": "There’s my kids and that’s my wife / But who’s that man runnin’ my life?"
+  },
+  {
+    "topic": "hit-metoo",
+    "song": "Me Too",
+    "artist": "Toby Keith",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Toby Keith?",
+    "correct": "Me Too",
+    "wrong": ["Put Yourself in My Shoes", "Not a Moment Too Soon", "That Ain’t My Truck"],
+    "lyric": "When those three little words come so easy to you / I hope you know what I mean when I say me too"
+  },
+  {
+    "topic": "hit-whatsittoyou",
+    "song": "What’s It to You",
+    "artist": "Clay Walker",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clay Walker?",
+    "correct": "What’s It to You",
+    "wrong": ["Standing on the Edge of Goodbye", "My Kind of Girl", "Bubba Shot the Jukebox"],
+    "lyric": "Talk to me, baby, tell me what you’re feelin’ / I know what love is, what’s it to you?"
+  },
+  {
+    "topic": "hit-liveuntilidie",
+    "song": "Live Until I Die",
+    "artist": "Clay Walker",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clay Walker?",
+    "correct": "Live Until I Die",
+    "wrong": ["Rodeo", "Third Rate Romance", "Nobody Knows"],
+    "lyric": "I don’t have to beg, steal, or borrow / I just wanna live until I die"
+  },
+  {
+    "topic": "hit-dreamingwithmyeyesopen",
+    "song": "Dreaming with My Eyes Open",
+    "artist": "Clay Walker",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clay Walker?",
+    "correct": "Dreaming with My Eyes Open",
+    "wrong": ["Queen of My Double Wide Trailer", "Something Like That", "Hearts Are Gonna Roll"],
+    "lyric": "Gonna do my dreaming with my eyes wide open / I’ll do my looking back with my eyes closed"
+  },
+  {
+    "topic": "hit-thiswomanandthisman",
+    "song": "This Woman and This Man",
+    "artist": "Clay Walker",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clay Walker?",
+    "correct": "This Woman and This Man",
+    "wrong": ["Sticks and Stones", "Check Yes or No", "Put Yourself in My Shoes"],
+    "lyric": "There was this woman and there was this man / There was this moment they had a chance"
+  },
+  {
+    "topic": "hit-ificouldmakealiving",
+    "song": "If I Could Make a Living",
+    "artist": "Clay Walker",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clay Walker?",
+    "correct": "If I Could Make a Living",
+    "wrong": ["Brother Jukebox", "Longneck Bottle", "One More Last Chance"],
+    "lyric": "If I could make a livin’ out of lovin’ you / I’d be a millionaire in a week or two"
+  },
+  {
+    "topic": "hit-rumorhasit",
+    "song": "Rumor Has It",
+    "artist": "Clay Walker",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clay Walker?",
+    "correct": "Rumor Has It",
+    "wrong": ["Callin’ Baton Rouge", "One Boy, One Girl", "On the Verge"],
+    "lyric": "They say where there’s smoke there’s fire, well I hope it’s true / ’Cause rumor has it you love me too"
+  },
+  {
+    "topic": "hit-loveme",
+    "song": "Love, Me",
+    "artist": "Collin Raye",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Collin Raye?",
+    "correct": "Love, Me",
+    "wrong": ["Cadillac Style", "Someone Else’s Star", "Dreaming with My Eyes Open"],
+    "lyric": "And between now and then, till I see you again / I’ll be loving you, Love, me"
+  },
+  {
+    "topic": "hit-inthislife",
+    "song": "In This Life",
+    "artist": "Collin Raye",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Collin Raye?",
+    "correct": "In This Life",
+    "wrong": ["Midnight in Montgomery", "Alibis", "Rebecca Lynn"],
+    "lyric": "The only dream that mattered had come true / In this life I was loved by you"
+  },
+  {
+    "topic": "hit-mykindofgirl",
+    "song": "My Kind of Girl",
+    "artist": "Collin Raye",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Collin Raye?",
+    "correct": "My Kind of Girl",
+    "wrong": ["It Must Be Love", "I Still Believe in You", "A Woman’s Touch"],
+    "lyric": "I said how ’bout some music, you said, you got any Merle? / That’s when I knew you were my kind of girl"
+  },
+  {
+    "topic": "hit-ithinkaboutyou",
+    "song": "I Think About You",
+    "artist": "Collin Raye",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Collin Raye?",
+    "correct": "I Think About You",
+    "wrong": ["I Don’t Want to Miss a Thing", "Tall, Tall Trees", "How Do You Like Me Now?!"],
+    "lyric": "I think about you, eight years old / Big blue eyes and a heart of gold"
+  },
+  {
+    "topic": "hit-nodoubtaboutit",
+    "song": "No Doubt About It",
+    "artist": "Neal McCoy",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Neal McCoy?",
+    "correct": "No Doubt About It",
+    "wrong": [
+      "Sometimes She Forgets",
+      "Prop Me Up Beside the Jukebox (If I Die)",
+      "Take Your Memory with You"
+    ],
+    "lyric": "We were meant to be together, no doubt about it"
+  },
+  {
+    "topic": "hit-wink",
+    "song": "Wink",
+    "artist": "Neal McCoy",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Neal McCoy?",
+    "correct": "Wink",
+    "wrong": ["Chattahoochee", "Then What?", "Not That Different"],
+    "lyric": "Don’t need to psychoanalyze or have a stiff drink / all she’s gotta do is just give me that wink"
+  },
+  {
+    "topic": "hit-ivecriedmylasttearforyou",
+    "song": "I’ve Cried My Last Tear for You",
+    "artist": "Ricky Van Shelton",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Ricky Van Shelton?",
+    "correct": "I’ve Cried My Last Tear for You",
+    "wrong": ["Round About Way", "I Just Wanted You to Know", "Tryin’ to Get Over You"],
+    "lyric": "I’ve cried my last tear for you, wasted my last year on you"
+  },
+  {
+    "topic": "hit-keepitbetweenthelines",
+    "song": "Keep It Between the Lines",
+    "artist": "Ricky Van Shelton",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Ricky Van Shelton?",
+    "correct": "Keep It Between the Lines",
+    "wrong": ["Party Crowd", "Wish You Were Here", "Don’t Let Our Love Start Slippin’ Away"],
+    "lyric": "Keep your hands on the wheel, believe in the things that are real / take your time and keep it between the lines"
+  },
+  {
+    "topic": "hit-achybreakyheart",
+    "song": "Achy Breaky Heart",
+    "artist": "Billy Ray Cyrus",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Billy Ray Cyrus?",
+    "correct": "Achy Breaky Heart",
+    "wrong": ["Then You Can Tell Me Goodbye", "Longneck Bottle", "She’s Every Woman"],
+    "lyric": "But don’t tell my heart, my achy breaky heart / I just don’t think he’d understand"
+  },
+  {
+    "topic": "hit-thankgodforyou",
+    "song": "Thank God for You",
+    "artist": "Sawyer Brown",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Sawyer Brown?",
+    "correct": "Thank God for You",
+    "wrong": ["Here We Are", "Once Upon a Lifetime", "That Ain’t No Way to Go"],
+    "lyric": "I got to give credit when credit is due / I thank the bank for the money, thank God for you"
+  },
+  {
+    "topic": "hit-fastmovintrain",
+    "song": "Fast Movin’ Train",
+    "artist": "Restless Heart",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Restless Heart?",
+    "correct": "Fast Movin’ Train",
+    "wrong": ["Jesus and Mama", "Take a Little Trip", "I’m in a Hurry (And Don’t Know Why)"],
+    "lyric": "And I’ve been hit by another fast movin’ train"
+  },
+  {
+    "topic": "hit-ajukeboxwithacountrysong",
+    "song": "A Jukebox with a Country Song",
+    "artist": "Doug Stone",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Doug Stone?",
+    "correct": "A Jukebox with a Country Song",
+    "wrong": [
+      "On a Good Night",
+      "Smoke Rings in the Dark",
+      "If the Devil Danced (In Empty Pockets)"
+    ],
+    "lyric": "I guess I’m somewhere that I don’t belong / I need a jukebox with a country song"
+  },
+  {
+    "topic": "hit-whydidntithinkofthat",
+    "song": "Why Didn’t I Think of That",
+    "artist": "Doug Stone",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Doug Stone?",
+    "correct": "Why Didn’t I Think of That",
+    "wrong": ["Goodnight Sweetheart", "Gonna Get a Life", "She’s Every Woman"],
+    "lyric": "He says he needs her, tells her he loves her / Why didn’t I think of that?"
+  },
+  {
+    "topic": "hit-inadifferentlight",
+    "song": "In a Different Light",
+    "artist": "Doug Stone",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Doug Stone?",
+    "correct": "In a Different Light",
+    "wrong": [
+      "Then You Can Tell Me Goodbye",
+      "I’m Not Supposed to Love You Anymore",
+      "I’ll Go On Loving You"
+    ],
+    "lyric": "I see you in a different light, just the way I saw you last night"
+  },
+  {
+    "topic": "hit-someoneelsesstar",
+    "song": "Someone Else’s Star",
+    "artist": "Bryan White",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Bryan White?",
+    "correct": "Someone Else’s Star",
+    "wrong": ["There’s a Girl in Texas", "Party Crowd", "Love Without End, Amen"],
+    "lyric": "I guess I must be wishing on someone else’s star"
+  },
+  {
+    "topic": "hit-rebeccalynn",
+    "song": "Rebecca Lynn",
+    "artist": "Bryan White",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Bryan White?",
+    "correct": "Rebecca Lynn",
+    "wrong": ["National Working Woman’s Holiday", "Rumor Has It", "That Summer"],
+    "lyric": "Ring around the rosie, pocket full of dreams and posies"
+  },
+  {
+    "topic": "hit-somuchforpretending",
+    "song": "So Much for Pretending",
+    "artist": "Bryan White",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Bryan White?",
+    "correct": "So Much for Pretending",
+    "wrong": [
+      "A Little Less Talk and a Lot More Action",
+      "I’ve Cried My Last Tear for You",
+      "I Can’t Reach Her Anymore"
+    ],
+    "lyric": "And I was looking forward to a happy ending / So much for pretending"
+  },
+  {
+    "topic": "hit-hardrockbottomofyourheart",
+    "song": "Hard Rock Bottom of Your Heart",
+    "artist": "Randy Travis",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Randy Travis?",
+    "correct": "Hard Rock Bottom of Your Heart",
+    "wrong": ["Dreaming with My Eyes Open", "Gonna Get a Life", "Keep It Between the Lines"],
+    "lyric": "And I feel like a stone you have picked up and thrown / to the hard rock bottom of your heart"
+  },
+  {
+    "topic": "hit-lookheartnohands",
+    "song": "Look Heart, No Hands",
+    "artist": "Randy Travis",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Randy Travis?",
+    "correct": "Look Heart, No Hands",
+    "wrong": ["Every Time I Get Around You", "Something Like That", "One More Last Chance"],
+    "lyric": "No chains, no strings, no fences, no wall / no net, just you to catch me when I fall / look heart, no hands"
+  },
+  {
+    "topic": "hit-dontletourlovestartslippinaway",
+    "song": "Don’t Let Our Love Start Slippin’ Away",
+    "artist": "Vince Gill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Vince Gill?",
+    "correct": "Don’t Let Our Love Start Slippin’ Away",
+    "wrong": ["Before You Kill Us All", "Fast as You", "True"],
+    "lyric": "Don’t let our love start slippin’, love start slippin’ away"
+  },
+  {
+    "topic": "hit-onemorelastchance",
+    "song": "One More Last Chance",
+    "artist": "Vince Gill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Vince Gill?",
+    "correct": "One More Last Chance",
+    "wrong": ["Someday", "T-R-O-U-B-L-E", "Where the Green Grass Grows"],
+    "lyric": "Give me just one more last chance before you say we’re through"
+  },
+  {
+    "topic": "hit-thereaintnothinwrongwiththeradio",
+    "song": "There Ain’t Nothin’ Wrong with the Radio",
+    "artist": "Aaron Tippin",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Aaron Tippin?",
+    "correct": "There Ain’t Nothin’ Wrong with the Radio",
+    "wrong": ["Two Teardrops", "The Rest of Mine", "Adalida"],
+    "lyric": "She ain’t a Cadillac and she ain’t a Rolls / But there ain’t nothin’ wrong with the radio"
+  },
+  {
+    "topic": "hit-thatsascloseasillgettolovingyou",
+    "song": "That’s as Close as I’ll Get to Loving You",
+    "artist": "Aaron Tippin",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Aaron Tippin?",
+    "correct": "That’s as Close as I’ll Get to Loving You",
+    "wrong": ["Where Are You Now", "Look Heart, No Hands", "Rodeo"],
+    "lyric": "That’s as close as I’ll get to loving you / Even though there’s nothing else I’d rather do"
+  },
+  {
+    "topic": "hit-straighttequilanight",
+    "song": "Straight Tequila Night",
+    "artist": "John Anderson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Anderson?",
+    "correct": "Straight Tequila Night",
+    "wrong": ["Party Crowd", "Rumor Has It", "Round About Way"],
+    "lyric": "But don’t ask her on a straight tequila night / She’ll start thinking about him, then she’s ready to fight"
+  },
+  {
+    "topic": "hit-seminolewind",
+    "song": "Seminole Wind",
+    "artist": "John Anderson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Anderson?",
+    "correct": "Seminole Wind",
+    "wrong": ["State of Mind", "Live, Laugh, Love", "I Like It, I Love It"],
+    "lyric": "So blow, blow, Seminole wind, blow like you’re never gonna blow again"
+  },
+  {
+    "topic": "hit-moneyinthebank",
+    "song": "Money in the Bank",
+    "artist": "John Anderson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for John Anderson?",
+    "correct": "Money in the Bank",
+    "wrong": ["Bigger Than the Beatles", "I Do (Cherish You)", "Live, Laugh, Love"],
+    "lyric": "Got my paycheck in my pocket and gas in the tank / Honey, your love’s better than money in the bank"
+  },
+  {
+    "topic": "hit-jukeboxinmymind",
+    "song": "Jukebox in My Mind",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "Jukebox in My Mind",
+    "wrong": ["Amy’s Back in Austin", "Dumas Walker", "How Your Love Makes Me Feel"],
+    "lyric": "In the corner of my mind stands a jukebox / It’s playin’ all my favorite memories"
+  },
+  {
+    "topic": "hit-foreversasfarasillgo",
+    "song": "Forever’s as Far as I’ll Go",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "Forever’s as Far as I’ll Go",
+    "wrong": ["Hard Workin’ Man", "Say When", "What Do I Know"],
+    "lyric": "And it’s only fair that you know / Forever’s as far as I’ll go"
+  },
+  {
+    "topic": "hit-downhome",
+    "song": "Down Home",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "Down Home",
+    "wrong": ["No News", "Mama Don’t Forget to Pray for Me", "Jesus and Mama"],
+    "lyric": "Down home / A man’s good word and a handshake are all you need"
+  },
+  {
+    "topic": "hit-borncountry",
+    "song": "Born Country",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "Born Country",
+    "wrong": ["Norma Jean Riley", "Rock My World (Little Country Girl)", "You’re Gone"],
+    "lyric": "I was born country, and that’s what I’ll always be / Like the rivers and the woodlands, wild and free"
+  },
+  {
+    "topic": "hit-iminahurryanddontknowwhy",
+    "song": "I’m in a Hurry (And Don’t Know Why)",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "I’m in a Hurry (And Don’t Know Why)",
+    "wrong": ["There’s Your Trouble", "I Can Love You Better", "The Walk"],
+    "lyric": "I’m in a hurry to get things done / Oh, I rush and rush until life’s no fun"
+  },
+  {
+    "topic": "hit-reckless",
+    "song": "Reckless",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "Reckless",
+    "wrong": ["What a Crying Shame", "I Can Love You Better", "Hillbilly Shoes"],
+    "lyric": "I could care less where it leads us / Love is reckless, let’s get reckless tonight"
+  },
+  {
+    "topic": "hit-sheaintyourordinarygirl",
+    "song": "She Ain’t Your Ordinary Girl",
+    "artist": "Alabama",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alabama?",
+    "correct": "She Ain’t Your Ordinary Girl",
+    "wrong": ["No News", "God Blessed Texas", "Some Girls Do"],
+    "lyric": "She ain’t your ordinary, no she’s not / She ain’t your ordinary girl"
+  },
+  {
+    "topic": "hit-whispermyname",
+    "song": "Whisper My Name",
+    "artist": "Randy Travis",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Randy Travis?",
+    "correct": "Whisper My Name",
+    "wrong": ["Down on the Farm", "Love’s Got a Hold on You", "No Doubt About It"],
+    "lyric": "I heard a freight train out across the way / I heard a woman sing Amazing Grace"
+  },
+  {
+    "topic": "hit-tryintogetoveryou",
+    "song": "Tryin’ to Get Over You",
+    "artist": "Vince Gill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Vince Gill?",
+    "correct": "Tryin’ to Get Over You",
+    "wrong": [
+      "National Working Woman’s Holiday",
+      "I’d Be Better Off (In a Pine Box)",
+      "Ain’t Got Nothin’ on Us"
+    ],
+    "lyric": "I’ve been tryin’ to get over you / But it’ll take dyin’ to get it done"
+  },
+  {
+    "topic": "hit-whenicallyourname",
+    "song": "When I Call Your Name",
+    "artist": "Vince Gill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Vince Gill?",
+    "correct": "When I Call Your Name",
+    "wrong": ["I’m Not Supposed to Love You Anymore", "Wish I Didn’t Know Now", "Meanwhile"],
+    "lyric": "And just like rain, the tears keep fallin’ / But nobody answers when I call your name"
+  },
+  {
+    "topic": "hit-formybrokenheart",
+    "song": "For My Broken Heart",
+    "artist": "Reba McEntire",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Reba McEntire?",
+    "correct": "For My Broken Heart",
+    "wrong": ["Happy Girl", "Walking Away a Winner", "One Way Ticket (Because I Can)"],
+    "lyric": "Last night I prayed the Lord my soul to keep / Then I cried myself to sleep"
+  },
+  {
+    "topic": "hit-theheartisalonelyhunter",
+    "song": "The Heart Is a Lonely Hunter",
+    "artist": "Reba McEntire",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Reba McEntire?",
+    "correct": "The Heart Is a Lonely Hunter",
+    "wrong": ["Something in Red", "She’s in Love with the Boy", "Safe in the Arms of Love"],
+    "lyric": "And the heart is a lonely hunter / With only one desire"
+  },
+  {
+    "topic": "hit-chains",
+    "song": "Chains",
+    "artist": "Patty Loveless",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Patty Loveless?",
+    "correct": "Chains",
+    "wrong": ["Life #9", "The Night the Lights Went Out in Georgia", "We Both Walk"],
+    "lyric": "Chains, chains, shackles and chains / No matter what it takes, someday I’m gonna break these"
+  },
+  {
+    "topic": "hit-theregoesmybaby",
+    "song": "There Goes My Baby",
+    "artist": "Trisha Yearwood",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Trisha Yearwood?",
+    "correct": "There Goes My Baby",
+    "wrong": ["Wrong Night", "A Broken Wing", "Fancy"],
+    "lyric": "There goes my baby, like the sun fallin’ out of the clear blue sky"
+  },
+  {
+    "topic": "hit-trashywomen",
+    "song": "Trashy Women",
+    "artist": "Confederate Railroad",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Confederate Railroad?",
+    "correct": "Trashy Women",
+    "wrong": ["He’s Got You", "First Time for Everything", "Walkin’ Away"],
+    "lyric": "That’s a cocktail waitress in a Dolly Parton wig"
+  },
+  {
+    "topic": "hit-ifthedevildancedinemptypockets",
+    "song": "If the Devil Danced (In Empty Pockets)",
+    "artist": "Joe Diffie",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Joe Diffie?",
+    "correct": "If the Devil Danced (In Empty Pockets)",
+    "wrong": ["Brother Jukebox", "The Keeper of the Stars", "It’s a Little Too Late"],
+    "lyric": "If the devil danced in empty pockets, he’d have a ball in mine"
+  },
+  {
+    "topic": "hit-illthinkofsomething",
+    "song": "I’ll Think of Something",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "I’ll Think of Something",
+    "wrong": ["This Woman and This Man", "Tall, Tall Trees", "Sometimes She Forgets"],
+    "lyric": "I don’t know how I’ll get her off my mind / But give me time and I’ll think of something"
+  },
+  {
+    "topic": "hit-gonnagetalife",
+    "song": "Gonna Get a Life",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "Gonna Get a Life",
+    "wrong": ["Holdin’ Heaven", "Her Man", "Callin’ Baton Rouge"],
+    "lyric": "I’m gonna get a life, that’s what I’m gonna do / So startin’ now you can find one too"
+  },
+  {
+    "topic": "hit-idontwanttomissathing",
+    "song": "I Don’t Want to Miss a Thing",
+    "artist": "Mark Chesnutt",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Mark Chesnutt?",
+    "correct": "I Don’t Want to Miss a Thing",
+    "wrong": ["The Tin Man", "If I Know Me", "Sometimes She Forgets"],
+    "lyric": "I don’t wanna close my eyes, I don’t wanna fall asleep"
+  },
+  {
+    "topic": "hit-lovingblind",
+    "song": "Loving Blind",
+    "artist": "Clint Black",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Clint Black?",
+    "correct": "Loving Blind",
+    "wrong": ["I Never Knew Love", "One Night at a Time", "Big Ol’ Truck"],
+    "lyric": "And I’ve been loving blind / Loving every heart I could call mine"
+  },
+  {
+    "topic": "hit-howyourlovemakesmefeel",
+    "song": "How Your Love Makes Me Feel",
+    "artist": "Diamond Rio",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Diamond Rio?",
+    "correct": "How Your Love Makes Me Feel",
+    "wrong": [
+      "Love Can Build a Bridge",
+      "She Ain’t Your Ordinary Girl",
+      "You’re Gonna Miss Me When I’m Gone"
+    ],
+    "lyric": "Buy an ice cream and see how far / We can drive before it melts kinda feelin’"
+  },
+  {
+    "topic": "hit-mynextbrokenheart",
+    "song": "My Next Broken Heart",
+    "artist": "Brooks & Dunn",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brooks & Dunn?",
+    "correct": "My Next Broken Heart",
+    "wrong": ["What Do I Know", "Everything’s Changed", "How Your Love Makes Me Feel"],
+    "lyric": "I’m headed down that road again / I’m working on my next broken heart"
+  },
+  {
+    "topic": "hit-shesnotthecheatinkind",
+    "song": "She’s Not the Cheatin’ Kind",
+    "artist": "Brooks & Dunn",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brooks & Dunn?",
+    "correct": "She’s Not the Cheatin’ Kind",
+    "wrong": ["What a Crying Shame", "Next to You, Next to Me", "Fast Movin’ Train"],
+    "lyric": "She’s not the cheatin’ kind / She’s been cheated one too many times"
+  },
+  {
+    "topic": "hit-idloveyoualloveragain",
+    "song": "I’d Love You All Over Again",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "I’d Love You All Over Again",
+    "wrong": ["I Left Something Turned On at Home", "My Best Friend", "Whenever You Come Around"],
+    "lyric": "Has it been ten years since we said “I do”?"
+  },
+  {
+    "topic": "hit-dallas",
+    "song": "Dallas",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Dallas",
+    "wrong": [
+      "Lifestyles of the Not So Rich and Famous",
+      "Bigger Than the Beatles",
+      "Watermelon Crawl"
+    ],
+    "lyric": "Then nothin’ else would come between the two of us / If Dallas was in Tennessee"
+  },
+  {
+    "topic": "hit-lovesgotaholdonyou",
+    "song": "Love’s Got a Hold on You",
+    "artist": "Alan Jackson",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Alan Jackson?",
+    "correct": "Love’s Got a Hold on You",
+    "wrong": [
+      "A Little Less Talk and a Lot More Action",
+      "It’s a Little Too Late",
+      "Rope the Moon"
+    ],
+    "lyric": "It’s turning me every way but loose / He said it sounds like love’s got a hold on you"
+  },
+  {
+    "topic": "hit-tomakeyoufeelmylove",
+    "song": "To Make You Feel My Love",
+    "artist": "Garth Brooks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Garth Brooks?",
+    "correct": "To Make You Feel My Love",
+    "wrong": ["So Much for Pretending", "Fast as You", "It Only Hurts When I Cry"],
+    "lyric": "I could hold you for a million years / To make you feel my love"
+  },
+  {
+    "topic": "hit-ifiknowme",
+    "song": "If I Know Me",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "If I Know Me",
+    "wrong": ["Tall, Tall Trees", "Rumor Has It", "Maybe We Should Just Sleep on It"],
+    "lyric": "But if I know me / I’ll turn this car around"
+  },
+  {
+    "topic": "hit-roundaboutway",
+    "song": "Round About Way",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "Round About Way",
+    "wrong": ["Watermelon Crawl", "Live Until I Die", "The River"],
+    "lyric": "For the most part I’m okay / but I still miss her in a round about way"
+  },
+  {
+    "topic": "hit-ivecometoexpectitfromyou",
+    "song": "I’ve Come to Expect It from You",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "I’ve Come to Expect It from You",
+    "wrong": ["Standing on the Edge of Goodbye", "Take Your Memory with You", "Brother Jukebox"],
+    "lyric": "I wouldn’t treat a dog the way you treated me / but that’s what I get"
+  },
+  {
+    "topic": "hit-icanstillmakecheyenne",
+    "song": "I Can Still Make Cheyenne",
+    "artist": "George Strait",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for George Strait?",
+    "correct": "I Can Still Make Cheyenne",
+    "wrong": ["Put Yourself in My Shoes", "Keep It Between the Lines", "Jacob’s Ladder"],
+    "lyric": "But it’s all right baby, if I hurry I can still make Cheyenne"
+  },
+  {
+    "topic": "hit-itmatterstome",
+    "song": "It Matters to Me",
+    "artist": "Faith Hill",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Faith Hill?",
+    "correct": "It Matters to Me",
+    "wrong": ["One Honest Heart", "Cleopatra, Queen of Denial", "Shake the Sugar Tree"],
+    "lyric": "When it doesn’t feel like we’re even in love / it matters to me"
+  },
+  {
+    "topic": "hit-fromthismomenton",
+    "song": "From This Moment On",
+    "artist": "Shania Twain",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Shania Twain?",
+    "correct": "From This Moment On",
+    "wrong": ["You’ve Got to Talk to Me", "Down at the Twist and Shout", "The Fool"],
+    "lyric": "From this moment, life has begun / from this moment, you are the one"
+  },
+  {
+    "topic": "hit-shethinksmytractorssexy",
+    "song": "She Thinks My Tractor’s Sexy",
+    "artist": "Kenny Chesney",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Kenny Chesney?",
+    "correct": "She Thinks My Tractor’s Sexy",
+    "wrong": ["They’re Playin’ Our Song", "Too Cold at Home", "Bigger Than the Beatles"],
+    "lyric": "She thinks my tractor’s sexy, it really turns her on / she’s always starin’ at me while I’m chuggin’ along"
+  },
+  {
+    "topic": "hit-iloveyou",
+    "song": "I Love You",
+    "artist": "Martina McBride",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Martina McBride?",
+    "correct": "I Love You",
+    "wrong": ["When Boy Meets Girl", "Walking Away a Winner", "She’s in Love with the Boy"],
+    "lyric": "Sure as the sky is blue / Baby, I love you"
+  },
+  {
+    "topic": "hit-goodbyeearl",
+    "song": "Goodbye Earl",
+    "artist": "Dixie Chicks",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Dixie Chicks?",
+    "correct": "Goodbye Earl",
+    "wrong": ["This Time", "Sunday in the South", "Once Upon a Lifetime"],
+    "lyric": "Goodbye, Earl / Those black-eyed peas, they tasted all right to me, Earl"
+  },
+  {
+    "topic": "hit-hedidnthavetobe",
+    "song": "He Didn’t Have to Be",
+    "artist": "Brad Paisley",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Brad Paisley?",
+    "correct": "He Didn’t Have to Be",
+    "wrong": ["Mercury Blues", "She Don’t Know She’s Beautiful", "Seminole Wind"],
+    "lyric": "I met the man I call my dad when I was five years old"
+  },
+  {
+    "topic": "hit-doesheloveyou",
+    "song": "Does He Love You",
+    "artist": "Reba McEntire with Linda Davis",
+    "type": "pick",
+    "q": "Which of these was a 1990s hit for Reba McEntire with Linda Davis?",
+    "correct": "Does He Love You",
+    "wrong": ["A Bad Goodbye", "The Whiskey Ain’t Workin’", "What If I Said"],
+    "lyric": "Does he love you like he loves me / Does he think of you when he’s holding me"
+  },
+  {
+    "topic": "hit-johndeeregreen",
+    "song": "John Deere Green",
+    "artist": "Joe Diffie",
+    "type": "title",
+    "q": "Fill in the title of this Joe Diffie hit: “John Deere ___”",
+    "correct": "Green",
+    "wrong": ["Yellow", "Red", "Gold"],
+    "lyric": "Stood on the rail and painted a ten-foot heart in John Deere green"
+  },
+  {
+    "topic": "hit-watermeloncrawl",
+    "song": "Watermelon Crawl",
+    "artist": "Tracy Byrd",
+    "type": "title",
+    "q": "Fill in the title of this Tracy Byrd hit: “Watermelon ___”",
+    "correct": "Crawl",
+    "wrong": ["Stomp", "Shuffle", "Swing"],
+    "lyric": "We got a hundred gallons of sweet red wine / Made from the biggest watermelons on the vine"
+  },
+  {
+    "topic": "hit-timemarcheson",
+    "song": "Time Marches On",
+    "artist": "Tracy Lawrence",
+    "type": "title",
+    "q": "Fill in the title of this Tracy Lawrence hit: “Time ___ On”",
+    "correct": "Marches",
+    "wrong": ["Rolls", "Moves", "Passes"],
+    "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol"
+  },
+  {
+    "topic": "hit-donttakethegirl",
+    "song": "Don’t Take the Girl",
+    "artist": "Tim McGraw",
+    "type": "title",
+    "q": "Fill in the title of this Tim McGraw hit: “Don’t Take the ___”",
+    "correct": "Girl",
+    "wrong": ["Road", "Keys", "Heart"],
+    "lyric": "Johnny’s daddy was takin’ him fishin’ when he was eight years old"
+  },
+  {
+    "topic": "hit-strawberrywine",
+    "song": "Strawberry Wine",
+    "artist": "Deana Carter",
+    "type": "title",
+    "q": "Fill in the title of this Deana Carter hit: “Strawberry ___”",
+    "correct": "Wine",
+    "wrong": ["Moon", "Kiss", "Lane"],
+    "lyric": "Like strawberry wine and seventeen / The hot July moon saw everything"
+  },
+  {
+    "topic": "hit-howdoyoulikemenow",
+    "song": "How Do You Like Me Now?!",
+    "artist": "Toby Keith",
+    "type": "title",
+    "q": "Fill in the title of this Toby Keith hit: “How Do You ___ Me Now?!”",
+    "correct": "Like",
+    "wrong": ["Love", "Want", "Miss"],
+    "lyric": "I couldn’t make you love me, but I always dreamed about livin’ in your radio / How do you like me now?"
+  },
+  {
+    "topic": "hit-goresthighonthatmountain",
+    "song": "Go Rest High on That Mountain",
+    "artist": "Vince Gill",
+    "type": "title",
+    "q": "Fill in the title of this Vince Gill hit: “Go Rest High on That ___”",
+    "correct": "Mountain",
+    "wrong": ["Hill", "Ridge", "Shore"],
+    "lyric": "So go rest high on that mountain / Son, your work on earth is done"
+  },
+  {
+    "topic": "hit-mymaria",
+    "song": "My Maria",
+    "artist": "Brooks & Dunn",
+    "type": "title",
+    "q": "Fill in the title of this Brooks & Dunn hit: “My ___”",
+    "correct": "Maria",
+    "wrong": ["Angela", "Sophia", "Rosa"],
+    "lyric": "My Maria, don’t you know I’ve come a long, long way"
+  },
+  {
+    "topic": "hit-independenceday",
+    "song": "Independence Day",
+    "artist": "Martina McBride",
+    "type": "title",
+    "q": "Fill in the title of this Martina McBride hit: “___ Day”",
+    "correct": "Independence",
+    "wrong": ["Judgment", "Freedom", "Memorial"],
+    "lyric": "Let freedom ring, let the white dove sing / let the whole world know that today is a day of reckoning"
+  },
+  {
+    "topic": "hit-ilikeitiloveit",
+    "song": "I Like It, I Love It",
+    "artist": "Tim McGraw",
+    "type": "title",
+    "q": "Fill in the title of this Tim McGraw hit: “I Like It, I ___ It”",
+    "correct": "Love",
+    "wrong": ["Want", "Need", "Feel"],
+    "lyric": "But I like it, I love it, I want some more of it / I try so hard, I can’t rise above it"
+  },
+  {
+    "topic": "hit-shesinlovewiththeboy",
+    "song": "She’s in Love with the Boy",
+    "artist": "Trisha Yearwood",
+    "type": "title",
+    "q": "Fill in the title of this Trisha Yearwood hit: “She’s in Love with the ___”",
+    "correct": "Boy",
+    "wrong": ["Man", "Cowboy", "Drummer"],
+    "lyric": "She’s in love with the boy / And even if they have to run away, she’s gonna marry that boy someday"
+  },
+  {
+    "topic": "hit-headscarolinatailscalifornia",
+    "song": "Heads Carolina, Tails California",
+    "artist": "Jo Dee Messina",
+    "type": "title",
+    "q": "Fill in the title of this Jo Dee Messina hit: “Heads Carolina, Tails ___”",
+    "correct": "California",
+    "wrong": ["Montana", "Arizona", "Nevada"],
+    "lyric": "Heads Carolina, tails California, somewhere greener, somewhere warmer / Up in the mountains, down by the ocean"
+  },
+  {
+    "topic": "hit-pickupman",
+    "song": "Pickup Man",
+    "artist": "Joe Diffie",
+    "type": "title",
+    "q": "Fill in the title of this Joe Diffie hit: “___ Man”",
+    "correct": "Pickup",
+    "wrong": ["Tractor", "Rodeo", "Delivery"],
+    "lyric": "And I began to understand, there’s just something women like about a pickup man"
+  },
+  {
+    "topic": "hit-wideopenspaces",
+    "song": "Wide Open Spaces",
+    "artist": "Dixie Chicks",
+    "type": "title",
+    "q": "Fill in the title of this Dixie Chicks hit: “Wide Open ___”",
+    "correct": "Spaces",
+    "wrong": ["Roads", "Skies", "Fields"],
+    "lyric": "She needs wide open spaces / Room to make her big mistakes"
+  },
+  {
+    "topic": "hit-itsyourlove",
+    "song": "It’s Your Love",
+    "artist": "Tim McGraw & Faith Hill",
+    "type": "title",
+    "q": "Fill in the title of this Tim McGraw & Faith Hill hit: “It’s Your ___”",
+    "correct": "Love",
+    "wrong": ["Heart", "Kiss", "Touch"],
+    "lyric": "It’s your love, it just does somethin’ to me / It sends a shock right through me, I can’t get enough"
+  },
+  {
+    "topic": "hit-howdoilive",
+    "song": "How Do I Live",
+    "artist": "LeAnn Rimes",
+    "type": "title",
+    "q": "Fill in the title of this LeAnn Rimes hit: “How Do I ___”",
+    "correct": "Live",
+    "wrong": ["Breathe", "Love", "Feel"],
+    "lyric": "How do I live without you? I want to know / How do I breathe without you if you ever go?"
+  },
+  {
+    "topic": "hit-brandnewman",
+    "song": "Brand New Man",
+    "artist": "Brooks & Dunn",
+    "type": "title",
+    "q": "Fill in the title of this Brooks & Dunn hit: “Brand New ___”",
+    "correct": "Man",
+    "wrong": ["Heart", "Life", "Start"],
+    "lyric": "By the fire in your touch and the flame in your eyes / I’m born to love again, I’m a brand new man"
+  },
+  {
+    "topic": "hit-cowboytakemeaway",
+    "song": "Cowboy Take Me Away",
+    "artist": "Dixie Chicks",
+    "type": "title",
+    "q": "Fill in the title of this Dixie Chicks hit: “___ Take Me Away”",
+    "correct": "Cowboy",
+    "wrong": ["Angel", "Darlin’", "Mister"],
+    "lyric": "Cowboy, take me away / Fly this girl as high as you can into the wild blue"
+  },
+  {
+    "topic": "hit-friendsinlowplaces",
+    "song": "Friends in Low Places",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “Friends in ___ Places”",
+    "correct": "Low",
+    "wrong": ["High", "Dark", "Strange"],
+    "lyric": "’Cause I’ve got friends in low places, where the whiskey drowns and the beer chases my blues away"
+  },
+  {
+    "topic": "hit-thethunderrolls",
+    "song": "The Thunder Rolls",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “The ___ Rolls”",
+    "correct": "Thunder",
+    "wrong": ["Rain", "River", "Wind"],
+    "lyric": "The thunder rolls and the lightnin’ strikes / Another love grows cold on a sleepless night"
+  },
+  {
+    "topic": "hit-unansweredprayers",
+    "song": "Unanswered Prayers",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “Unanswered ___”",
+    "correct": "Prayers",
+    "wrong": ["Letters", "Questions", "Calls"],
+    "lyric": "Sometimes I thank God for unanswered prayers / Remember when you’re talkin’ to the man upstairs"
+  },
+  {
+    "topic": "hit-twoofakindworkinonafullhouse",
+    "song": "Two of a Kind, Workin’ on a Full House",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “Two of a Kind, Workin’ on a Full ___”",
+    "correct": "House",
+    "wrong": ["Tank", "Moon", "Load"],
+    "lyric": "Hey, she’s my little Queen of the South / Yeah, we’re two of a kind, workin’ on a full house"
+  },
+  {
+    "topic": "hit-theriver",
+    "song": "The River",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “The ___”",
+    "correct": "River",
+    "wrong": ["Highway", "Ocean", "Storm"],
+    "lyric": "And I will sail my vessel ’til the river runs dry / Like a bird upon the wind, these waters are my sky"
+  },
+  {
+    "topic": "hit-thatsummer",
+    "song": "That Summer",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “That ___”",
+    "correct": "Summer",
+    "wrong": ["Night", "Winter", "Morning"],
+    "lyric": "She had a need to feel the thunder, to chase the lightning from the sky"
+  },
+  {
+    "topic": "hit-aintgoingdowntilthesuncomesup",
+    "song": "Ain’t Goin’ Down (’Til the Sun Comes Up)",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “Ain’t Goin’ ___ (’Til the Sun Comes Up)”",
+    "correct": "Down",
+    "wrong": ["Home", "Out", "Back"],
+    "lyric": "Ain’t goin’ down ’til the sun comes up, ain’t givin’ in ’til they get enough"
+  },
+  {
+    "topic": "hit-standingoutsidethefire",
+    "song": "Standing Outside the Fire",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “Standing Outside the ___”",
+    "correct": "Fire",
+    "wrong": ["Rain", "Storm", "Light"],
+    "lyric": "Life is not tried, it is merely survived if you’re standing outside the fire"
+  },
+  {
+    "topic": "hit-callinbatonrouge",
+    "song": "Callin’ Baton Rouge",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “___ Baton Rouge”",
+    "correct": "Callin’",
+    "wrong": ["Leavin’", "Missin’", "Drivin’"],
+    "lyric": "Operator, won’t you put me on through? I gotta send my love down to Baton Rouge"
+  },
+  {
+    "topic": "hit-thebeachesofcheyenne",
+    "song": "The Beaches of Cheyenne",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “The Beaches of ___”",
+    "correct": "Cheyenne",
+    "wrong": ["Galveston", "Laredo", "Abilene"],
+    "lyric": "You’ll see her footprints in the sand / ’Cause every night she walks the beaches of Cheyenne"
+  },
+  {
+    "topic": "hit-twopinacoladas",
+    "song": "Two Piña Coladas",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “___ Piña Coladas”",
+    "correct": "Two",
+    "wrong": ["Three", "Four", "Six"],
+    "lyric": "So bring me two piña coladas, one for each hand / Let’s set sail with Captain Morgan"
+  },
+  {
+    "topic": "hit-chasinthatneonrainbow",
+    "song": "Chasin’ That Neon Rainbow",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “Chasin’ That Neon ___”",
+    "correct": "Rainbow",
+    "wrong": ["Highway", "Cowboy", "Sunset"],
+    "lyric": "Chasin’ that neon rainbow, livin’ that honky-tonk dream / ’Cause all I’ve ever wanted is to pick this guitar and sing"
+  },
+  {
+    "topic": "hit-dontrockthejukebox",
+    "song": "Don’t Rock the Jukebox",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “Don’t Rock the ___”",
+    "correct": "Jukebox",
+    "wrong": ["Radio", "Cradle", "Boat"],
+    "lyric": "Don’t rock the jukebox, I wanna hear some Jones / ’Cause my heart ain’t ready for the Rolling Stones"
+  },
+  {
+    "topic": "hit-mercuryblues",
+    "song": "Mercury Blues",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “___ Blues”",
+    "correct": "Mercury",
+    "wrong": ["Memphis", "Highway", "Midnight"],
+    "lyric": "Crazy ’bout a Mercury / I’m gonna buy me a Mercury and cruise it up and down the road"
+  },
+  {
+    "topic": "hit-gonecountry",
+    "song": "Gone Country",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “Gone ___”",
+    "correct": "Country",
+    "wrong": ["Western", "Southern", "Hollywood"],
+    "lyric": "She’s gone country, look at them boots / She’s gone country, back to her roots"
+  },
+  {
+    "topic": "hit-littlebitty",
+    "song": "Little Bitty",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “___ Bitty”",
+    "correct": "Little",
+    "wrong": ["Itty", "Teeny", "Big"],
+    "lyric": "Well, it’s alright to be little bitty / A little hometown or a big old city"
+  },
+  {
+    "topic": "hit-lovewithoutendamen",
+    "song": "Love Without End, Amen",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “Love Without ___, Amen”",
+    "correct": "End",
+    "wrong": ["Fear", "Words", "Doubt"],
+    "lyric": "He said daddies don’t just love their children every now and then / It’s a love without end, amen"
+  },
+  {
+    "topic": "hit-icrossmyheart",
+    "song": "I Cross My Heart",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “I ___ My Heart”",
+    "correct": "Cross",
+    "wrong": ["Give", "Lose", "Bet"],
+    "lyric": "I cross my heart and promise to give all I’ve got to give to make all your dreams come true"
+  },
+  {
+    "topic": "hit-checkyesorno",
+    "song": "Check Yes or No",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “___ Yes or No”",
+    "correct": "Check",
+    "wrong": ["Answer", "Say", "Circle"],
+    "lyric": "Do you love me, do you wanna be my friend? / And if you do, well then don’t be afraid"
+  },
+  {
+    "topic": "hit-carryingyourlovewithme",
+    "song": "Carrying Your Love with Me",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “___ Your Love with Me”",
+    "correct": "Carrying",
+    "wrong": ["Taking", "Keeping", "Bringing"],
+    "lyric": "’Cause I’m carrying your love with me, West Virginia down to Tennessee"
+  },
+  {
+    "topic": "hit-writethisdown",
+    "song": "Write This Down",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “___ This Down”",
+    "correct": "Write",
+    "wrong": ["Take", "Put", "Lay"],
+    "lyric": "Baby, write this down, take a little note to remind you in case you didn’t know"
+  },
+  {
+    "topic": "hit-bootscootinboogie",
+    "song": "Boot Scootin’ Boogie",
+    "artist": "Brooks & Dunn",
+    "type": "title",
+    "q": "Fill in the title of this Brooks & Dunn hit: “Boot Scootin’ ___”",
+    "correct": "Boogie",
+    "wrong": ["Shuffle", "Stomp", "Swing"],
+    "lyric": "Get down, turn around, go to town, boot scootin’ boogie"
+  },
+  {
+    "topic": "hit-neonmoon",
+    "song": "Neon Moon",
+    "artist": "Brooks & Dunn",
+    "type": "title",
+    "q": "Fill in the title of this Brooks & Dunn hit: “Neon ___”",
+    "correct": "Moon",
+    "wrong": ["Light", "Sign", "Sky"],
+    "lyric": "To watch your broken dreams / Dance in and out of the beams of a neon moon"
+  },
+  {
+    "topic": "hit-thenightthelightswentoutingeorgia",
+    "song": "The Night the Lights Went Out in Georgia",
+    "artist": "Reba McEntire",
+    "type": "title",
+    "q": "Fill in the title of this Reba McEntire hit: “The Night the Lights Went Out in ___”",
+    "correct": "Georgia",
+    "wrong": ["Alabama", "Tennessee", "Dallas"],
+    "lyric": "That’s the night that the lights went out in Georgia / that’s the night that they hung an innocent man"
+  },
+  {
+    "topic": "hit-heresaquartercallsomeonewhocares",
+    "song": "Here’s a Quarter (Call Someone Who Cares)",
+    "artist": "Travis Tritt",
+    "type": "title",
+    "q": "Fill in the title of this Travis Tritt hit: “Here’s a ___ (Call Someone Who Cares)”",
+    "correct": "Quarter",
+    "wrong": ["Dollar", "Nickel", "Dime"],
+    "lyric": "But don’t you come around here handin’ me none of your lies / Here’s a quarter, call someone who cares"
+  },
+  {
+    "topic": "hit-indianoutlaw",
+    "song": "Indian Outlaw",
+    "artist": "Tim McGraw",
+    "type": "title",
+    "q": "Fill in the title of this Tim McGraw hit: “Indian ___”",
+    "correct": "Outlaw",
+    "wrong": ["Warrior", "Rider", "Runner"],
+    "lyric": "’Cause I’m an Indian outlaw, half Cherokee and Choctaw / My baby, she’s a Chippewa"
+  },
+  {
+    "topic": "hit-somethinglikethat",
+    "song": "Something Like That",
+    "artist": "Tim McGraw",
+    "type": "title",
+    "q": "Fill in the title of this Tim McGraw hit: “___ Like That”",
+    "correct": "Something",
+    "wrong": ["Anything", "Nothing", "Somebody"],
+    "lyric": "I had a barbecue stain on my white T-shirt / She was killing me in that miniskirt"
+  },
+  {
+    "topic": "hit-anymanofmine",
+    "song": "Any Man of Mine",
+    "artist": "Shania Twain",
+    "type": "title",
+    "q": "Fill in the title of this Shania Twain hit: “Any ___ of Mine”",
+    "correct": "Man",
+    "wrong": ["Friend", "Boy", "Love"],
+    "lyric": "Any man of mine better walk the line / better show me a teasin’, squeezin’, pleasin’ kinda time"
+  },
+  {
+    "topic": "hit-yourestilltheone",
+    "song": "You’re Still the One",
+    "artist": "Shania Twain",
+    "type": "title",
+    "q": "Fill in the title of this Shania Twain hit: “You’re ___ the One”",
+    "correct": "Still",
+    "wrong": ["Always", "Really", "Truly"],
+    "lyric": "You’re still the one I run to, the one that I belong to / You’re still the one I want for life"
+  },
+  {
+    "topic": "hit-thatdontimpressmemuch",
+    "song": "That Don’t Impress Me Much",
+    "artist": "Shania Twain",
+    "type": "title",
+    "q": "Fill in the title of this Shania Twain hit: “That Don’t ___ Me Much”",
+    "correct": "Impress",
+    "wrong": ["Bother", "Surprise", "Excite"],
+    "lyric": "OK, so you’re a rocket scientist / that don’t impress me much"
+  },
+  {
+    "topic": "hit-manifeellikeawoman",
+    "song": "Man! I Feel Like a Woman!",
+    "artist": "Shania Twain",
+    "type": "title",
+    "q": "Fill in the title of this Shania Twain hit: “Man! I Feel Like a ___!”",
+    "correct": "Woman",
+    "wrong": ["Lady", "Queen", "Star"],
+    "lyric": "Oh, oh, oh, I wanna be free, yeah, to feel the way I feel / man! I feel like a woman!"
+  },
+  {
+    "topic": "hit-theresyourtrouble",
+    "song": "There’s Your Trouble",
+    "artist": "Dixie Chicks",
+    "type": "title",
+    "q": "Fill in the title of this Dixie Chicks hit: “There’s Your ___”",
+    "correct": "Trouble",
+    "wrong": ["Problem", "Answer", "Reason"],
+    "lyric": "There’s your trouble, there’s your trouble / You keep seein’ double with the wrong one"
+  },
+  {
+    "topic": "hit-thiskiss",
+    "song": "This Kiss",
+    "artist": "Faith Hill",
+    "type": "title",
+    "q": "Fill in the title of this Faith Hill hit: “This ___”",
+    "correct": "Kiss",
+    "wrong": ["Love", "Night", "Time"],
+    "lyric": "It’s centrifugal motion, it’s perpetual bliss, it’s that pivotal moment, it’s, ah, impossible / This kiss, this kiss"
+  },
+  {
+    "topic": "hit-shutupandkissme",
+    "song": "Shut Up and Kiss Me",
+    "artist": "Mary Chapin Carpenter",
+    "type": "title",
+    "q": "Fill in the title of this Mary Chapin Carpenter hit: “Shut Up and ___ Me”",
+    "correct": "Kiss",
+    "wrong": ["Hold", "Love", "Hug"],
+    "lyric": "It’s been so long since somebody whispered / shut up and kiss me"
+  },
+  {
+    "topic": "hit-wildangels",
+    "song": "Wild Angels",
+    "artist": "Martina McBride",
+    "type": "title",
+    "q": "Fill in the title of this Martina McBride hit: “___ Angels”",
+    "correct": "Wild",
+    "wrong": ["Fallen", "Little", "Guardian"],
+    "lyric": "Must’ve been wild angels, wild angels / watching over you and me"
+  },
+  {
+    "topic": "hit-abrokenwing",
+    "song": "A Broken Wing",
+    "artist": "Martina McBride",
+    "type": "title",
+    "q": "Fill in the title of this Martina McBride hit: “A Broken ___”",
+    "correct": "Wing",
+    "wrong": ["Heart", "Promise", "Arrow"],
+    "lyric": "And with a broken wing she still sings / she keeps an eye on the sky"
+  },
+  {
+    "topic": "hit-sheishisonlyneed",
+    "song": "She Is His Only Need",
+    "artist": "Wynonna",
+    "type": "title",
+    "q": "Fill in the title of this Wynonna hit: “She Is His Only ___”",
+    "correct": "Need",
+    "wrong": ["Love", "Dream", "Hope"],
+    "lyric": "’Cause without her, where would he be? / See, it’s not for him, she is his only need"
+  },
+  {
+    "topic": "hit-isawthelight",
+    "song": "I Saw the Light",
+    "artist": "Wynonna",
+    "type": "title",
+    "q": "Fill in the title of this Wynonna hit: “I Saw the ___”",
+    "correct": "Light",
+    "wrong": ["Sign", "Fire", "Truth"],
+    "lyric": "I saw the light in your window tonight / I saw two shadows holdin’ each other tight"
+  },
+  {
+    "topic": "hit-tobelovedbyyou",
+    "song": "To Be Loved by You",
+    "artist": "Wynonna",
+    "type": "title",
+    "q": "Fill in the title of this Wynonna hit: “To Be ___ by You”",
+    "correct": "Loved",
+    "wrong": ["Held", "Wanted", "Kissed"],
+    "lyric": "Baby, come what may, I’ll find a way to get through / There’s nothing that I won’t do to be loved by you"
+  },
+  {
+    "topic": "hit-imalright",
+    "song": "I’m Alright",
+    "artist": "Jo Dee Messina",
+    "type": "title",
+    "q": "Fill in the title of this Jo Dee Messina hit: “I’m ___”",
+    "correct": "Alright",
+    "wrong": ["Ready", "Free", "Lonely"],
+    "lyric": "It’s a beautiful day, not a cloud in sight, so I guess I’m doing alright"
+  },
+  {
+    "topic": "hit-standbesideme",
+    "song": "Stand Beside Me",
+    "artist": "Jo Dee Messina",
+    "type": "title",
+    "q": "Fill in the title of this Jo Dee Messina hit: “___ Beside Me”",
+    "correct": "Stand",
+    "wrong": ["Stay", "Walk", "Dance"],
+    "lyric": "I want a man who stands beside me, not in front of or behind me"
+  },
+  {
+    "topic": "hit-wedancedanyway",
+    "song": "We Danced Anyway",
+    "artist": "Deana Carter",
+    "type": "title",
+    "q": "Fill in the title of this Deana Carter hit: “We ___ Anyway”",
+    "correct": "Danced",
+    "wrong": ["Kissed", "Tried", "Laughed"],
+    "lyric": "And the band played songs that we had never heard / But we danced anyway"
+  },
+  {
+    "topic": "hit-howdoigetthere",
+    "song": "How Do I Get There",
+    "artist": "Deana Carter",
+    "type": "title",
+    "q": "Fill in the title of this Deana Carter hit: “How Do I ___ There”",
+    "correct": "Get",
+    "wrong": ["Stay", "Live", "Go"],
+    "lyric": "How do I get there from here? / How do I make you see?"
+  },
+  {
+    "topic": "hit-noplacethatfar",
+    "song": "No Place That Far",
+    "artist": "Sara Evans",
+    "type": "title",
+    "q": "Fill in the title of this Sara Evans hit: “No ___ That Far”",
+    "correct": "Place",
+    "wrong": ["Road", "Town", "Heart"],
+    "lyric": "Always know that I would find a way to get to where you are / there’s no place that far"
+  },
+  {
+    "topic": "hit-singlewhitefemale",
+    "song": "Single White Female",
+    "artist": "Chely Wright",
+    "type": "title",
+    "q": "Fill in the title of this Chely Wright hit: “Single ___ Female”",
+    "correct": "White",
+    "wrong": ["Southern", "Country", "Lonely"],
+    "lyric": "A single white female is looking for a man like you"
+  },
+  {
+    "topic": "hit-guysdoitallthetime",
+    "song": "Guys Do It All the Time",
+    "artist": "Mindy McCready",
+    "type": "title",
+    "q": "Fill in the title of this Mindy McCready hit: “___ Do It All the Time”",
+    "correct": "Guys",
+    "wrong": ["Girls", "Cowboys", "Lovers"],
+    "lyric": "Guys do it all the time, and you expect us to understand"
+  },
+  {
+    "topic": "hit-onewayticketbecauseican",
+    "song": "One Way Ticket (Because I Can)",
+    "artist": "LeAnn Rimes",
+    "type": "title",
+    "q": "Fill in the title of this LeAnn Rimes hit: “One Way ___ (Because I Can)”",
+    "correct": "Ticket",
+    "wrong": ["Street", "Road", "Trip"],
+    "lyric": "I’ll buy a one-way ticket on a westbound train to see how far I can go"
+  },
+  {
+    "topic": "hit-ilovethewayyouloveme",
+    "song": "I Love the Way You Love Me",
+    "artist": "John Michael Montgomery",
+    "type": "title",
+    "q": "Fill in the title of this John Michael Montgomery hit: “I Love the Way You ___ Me”",
+    "correct": "Love",
+    "wrong": ["Hold", "Kiss", "Need"],
+    "lyric": "But I love the way you love me, strong and wild, slow and easy"
+  },
+  {
+    "topic": "hit-bemybabytonight",
+    "song": "Be My Baby Tonight",
+    "artist": "John Michael Montgomery",
+    "type": "title",
+    "q": "Fill in the title of this John Michael Montgomery hit: “Be My ___ Tonight”",
+    "correct": "Baby",
+    "wrong": ["Lover", "Angel", "Woman"],
+    "lyric": "Could ya, would ya, ain’t ya gonna if I asked you / Would ya wanna be my baby tonight"
+  },
+  {
+    "topic": "hit-icanloveyoulikethat",
+    "song": "I Can Love You Like That",
+    "artist": "John Michael Montgomery",
+    "type": "title",
+    "q": "Fill in the title of this John Michael Montgomery hit: “I Can ___ You Like That”",
+    "correct": "Love",
+    "wrong": ["Hold", "Need", "Want"],
+    "lyric": "I can love you like that, I would make you my world / Move heaven and earth if you were my girl"
+  },
+  {
+    "topic": "hit-holdontome",
+    "song": "Hold On to Me",
+    "artist": "John Michael Montgomery",
+    "type": "title",
+    "q": "Fill in the title of this John Michael Montgomery hit: “___ On to Me”",
+    "correct": "Hold",
+    "wrong": ["Hang", "Reach", "Cling"],
+    "lyric": "Hold on to me when your world’s turnin’ cold / When it feels like your life’s spinnin’ out of control"
+  },
+  {
+    "topic": "hit-shesgotitall",
+    "song": "She’s Got It All",
+    "artist": "Kenny Chesney",
+    "type": "title",
+    "q": "Fill in the title of this Kenny Chesney hit: “She’s ___ It All”",
+    "correct": "Got",
+    "wrong": ["Lost", "Had", "Seen"],
+    "lyric": "She’s got it all, my heart, my soul, my wishes, all of my love, my hugs, my kisses"
+  },
+  {
+    "topic": "hit-howforeverfeels",
+    "song": "How Forever Feels",
+    "artist": "Kenny Chesney",
+    "type": "title",
+    "q": "Fill in the title of this Kenny Chesney hit: “How ___ Feels”",
+    "correct": "Forever",
+    "wrong": ["Heaven", "Freedom", "Love"],
+    "lyric": "Man, I’m gonna die if she really says yes / I wanna know how forever feels"
+  },
+  {
+    "topic": "hit-youhadmefromhello",
+    "song": "You Had Me from Hello",
+    "artist": "Kenny Chesney",
+    "type": "title",
+    "q": "Fill in the title of this Kenny Chesney hit: “You Had Me from ___”",
+    "correct": "Hello",
+    "wrong": ["Goodbye", "Midnight", "Sunrise"],
+    "lyric": "You had me from hello, I felt love start to grow the moment that I looked into your eyes"
+  },
+  {
+    "topic": "hit-meetinthemiddle",
+    "song": "Meet in the Middle",
+    "artist": "Diamond Rio",
+    "type": "title",
+    "q": "Fill in the title of this Diamond Rio hit: “Meet in the ___”",
+    "correct": "Middle",
+    "wrong": ["Morning", "Moonlight", "Valley"],
+    "lyric": "I’d start walkin’ your way, you’d start walkin’ mine / We’d meet in the middle, ’neath that old Georgia pine"
+  },
+  {
+    "topic": "hit-mylove",
+    "song": "My Love",
+    "artist": "Little Texas",
+    "type": "title",
+    "q": "Fill in the title of this Little Texas hit: “My ___”",
+    "correct": "Love",
+    "wrong": ["Heart", "Girl", "Baby"],
+    "lyric": "Are you ready for my love, my love / my love, my love is ready for you"
+  },
+  {
+    "topic": "hit-sundayinthesouth",
+    "song": "Sunday in the South",
+    "artist": "Shenandoah",
+    "type": "title",
+    "q": "Fill in the title of this Shenandoah hit: “___ in the South”",
+    "correct": "Sunday",
+    "wrong": ["Summer", "Saturday", "Christmas"],
+    "lyric": "Oh Lord, forgive us when we doubt / Another sacred Sunday in the South"
+  },
+  {
+    "topic": "hit-ifbubbacandanceicantoo",
+    "song": "If Bubba Can Dance (I Can Too)",
+    "artist": "Shenandoah",
+    "type": "title",
+    "q": "Fill in the title of this Shenandoah hit: “If ___ Can Dance (I Can Too)”",
+    "correct": "Bubba",
+    "wrong": ["Grandma", "Daddy", "Billy"],
+    "lyric": "Well, everybody in the place stand back and give me some room / ’Cause if Bubba can dance I can too"
+  },
+  {
+    "topic": "hit-shedontknowshesbeautiful",
+    "song": "She Don’t Know She’s Beautiful",
+    "artist": "Sammy Kershaw",
+    "type": "title",
+    "q": "Fill in the title of this Sammy Kershaw hit: “She Don’t Know She’s ___”",
+    "correct": "Beautiful",
+    "wrong": ["Lonely", "Special", "Perfect"],
+    "lyric": "She don’t know she’s beautiful, never crossed her mind / she don’t know she’s beautiful, no, she’s not that kind"
+  },
+  {
+    "topic": "hit-brotherjukebox",
+    "song": "Brother Jukebox",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “Brother ___”",
+    "correct": "Jukebox",
+    "wrong": ["Whiskey", "Bottle", "Bartender"],
+    "lyric": "Brother jukebox, sister wine, mother freedom, father time / since she left me by myself"
+  },
+  {
+    "topic": "hit-itsureismonday",
+    "song": "It Sure Is Monday",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “It Sure Is ___”",
+    "correct": "Monday",
+    "wrong": ["Friday", "Saturday", "Tuesday"],
+    "lyric": "I had a ball Friday, Saturday and Sunday / but it’s all over now and it sure is Monday"
+  },
+  {
+    "topic": "hit-ijustwantedyoutoknow",
+    "song": "I Just Wanted You to Know",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “I Just ___ You to Know”",
+    "correct": "Wanted",
+    "wrong": ["Needed", "Called", "Wrote"],
+    "lyric": "I just wanted you to know / sometimes drivin’ home at night I let your memory take control"
+  },
+  {
+    "topic": "hit-almostgoodbye",
+    "song": "Almost Goodbye",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “Almost ___”",
+    "correct": "Goodbye",
+    "wrong": ["Heaven", "Midnight", "Forever"],
+    "lyric": "But to walk away from love was more than we could do / it was almost goodbye"
+  },
+  {
+    "topic": "hit-itsalittletoolate",
+    "song": "It’s a Little Too Late",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “It’s a Little Too ___”",
+    "correct": "Late",
+    "wrong": ["Soon", "Much", "Far"],
+    "lyric": "But it’s a little too late, she’s a little too gone / she’s a little too right, I’m a little too wrong"
+  },
+  {
+    "topic": "hit-holdinheaven",
+    "song": "Holdin’ Heaven",
+    "artist": "Tracy Byrd",
+    "type": "title",
+    "q": "Fill in the title of this Tracy Byrd hit: “Holdin’ ___”",
+    "correct": "Heaven",
+    "wrong": ["Hands", "Forever", "Diamonds"],
+    "lyric": "I’m holdin’ heaven in my arms tonight / Everything about you is so perfectly right"
+  },
+  {
+    "topic": "hit-thekeeperofthestars",
+    "song": "The Keeper of the Stars",
+    "artist": "Tracy Byrd",
+    "type": "title",
+    "q": "Fill in the title of this Tracy Byrd hit: “The ___ of the Stars”",
+    "correct": "Keeper",
+    "wrong": ["Maker", "Painter", "Counter"],
+    "lyric": "I tip my hat to the keeper of the stars / He sure knew what he was doin’"
+  },
+  {
+    "topic": "hit-thirdrockfromthesun",
+    "song": "Third Rock from the Sun",
+    "artist": "Joe Diffie",
+    "type": "title",
+    "q": "Fill in the title of this Joe Diffie hit: “Third ___ from the Sun”",
+    "correct": "Rock",
+    "wrong": ["Mile", "Planet", "Star"],
+    "lyric": "When you’re spinnin’ ’round, things come undone / Welcome to Earth, third rock from the sun"
+  },
+  {
+    "topic": "hit-biggerthanthebeatles",
+    "song": "Bigger Than the Beatles",
+    "artist": "Joe Diffie",
+    "type": "title",
+    "q": "Fill in the title of this Joe Diffie hit: “Bigger Than the ___”",
+    "correct": "Beatles",
+    "wrong": ["Stones", "Eagles", "Monkees"],
+    "lyric": "They got a love bigger than the Beatles, wild and free like a Rollin’ Stone"
+  },
+  {
+    "topic": "hit-shouldvebeenacowboy",
+    "song": "Should’ve Been a Cowboy",
+    "artist": "Toby Keith",
+    "type": "title",
+    "q": "Fill in the title of this Toby Keith hit: “Should’ve Been a ___”",
+    "correct": "Cowboy",
+    "wrong": ["Soldier", "Trucker", "Rambler"],
+    "lyric": "I should’ve been a cowboy, I should’ve learned to rope and ride"
+  },
+  {
+    "topic": "hit-whosthatman",
+    "song": "Who’s That Man",
+    "artist": "Toby Keith",
+    "type": "title",
+    "q": "Fill in the title of this Toby Keith hit: “Who’s That ___”",
+    "correct": "Man",
+    "wrong": ["Stranger", "Cowboy", "Fool"],
+    "lyric": "There’s my kids and that’s my wife / But who’s that man runnin’ my life?"
+  },
+  {
+    "topic": "hit-metoo",
+    "song": "Me Too",
+    "artist": "Toby Keith",
+    "type": "title",
+    "q": "Fill in the title of this Toby Keith hit: “Me ___”",
+    "correct": "Too",
+    "wrong": ["Either", "First", "Alone"],
+    "lyric": "When those three little words come so easy to you / I hope you know what I mean when I say me too"
+  },
+  {
+    "topic": "hit-liveuntilidie",
+    "song": "Live Until I Die",
+    "artist": "Clay Walker",
+    "type": "title",
+    "q": "Fill in the title of this Clay Walker hit: “Live Until I ___”",
+    "correct": "Die",
+    "wrong": ["Fall", "Leave", "Drop"],
+    "lyric": "I don’t have to beg, steal, or borrow / I just wanna live until I die"
+  },
+  {
+    "topic": "hit-dreamingwithmyeyesopen",
+    "song": "Dreaming with My Eyes Open",
+    "artist": "Clay Walker",
+    "type": "title",
+    "q": "Fill in the title of this Clay Walker hit: “Dreaming with My Eyes ___”",
+    "correct": "Open",
+    "wrong": ["Closed", "Shut", "Wide"],
+    "lyric": "Gonna do my dreaming with my eyes wide open / I’ll do my looking back with my eyes closed"
+  },
+  {
+    "topic": "hit-thiswomanandthisman",
+    "song": "This Woman and This Man",
+    "artist": "Clay Walker",
+    "type": "title",
+    "q": "Fill in the title of this Clay Walker hit: “This ___ and This Man”",
+    "correct": "Woman",
+    "wrong": ["Girl", "Angel", "Dreamer"],
+    "lyric": "There was this woman and there was this man / There was this moment they had a chance"
+  },
+  {
+    "topic": "hit-ificouldmakealiving",
+    "song": "If I Could Make a Living",
+    "artist": "Clay Walker",
+    "type": "title",
+    "q": "Fill in the title of this Clay Walker hit: “If I Could Make a ___”",
+    "correct": "Living",
+    "wrong": ["Fortune", "Killing", "Difference"],
+    "lyric": "If I could make a livin’ out of lovin’ you / I’d be a millionaire in a week or two"
+  },
+  {
+    "topic": "hit-rumorhasit",
+    "song": "Rumor Has It",
+    "artist": "Clay Walker",
+    "type": "title",
+    "q": "Fill in the title of this Clay Walker hit: “___ Has It”",
+    "correct": "Rumor",
+    "wrong": ["Legend", "Gossip", "Fate"],
+    "lyric": "They say where there’s smoke there’s fire, well I hope it’s true / ’Cause rumor has it you love me too"
+  },
+  {
+    "topic": "hit-loveme",
+    "song": "Love, Me",
+    "artist": "Collin Raye",
+    "type": "title",
+    "q": "Fill in the title of this Collin Raye hit: “___, Me”",
+    "correct": "Love",
+    "wrong": ["Always", "Signed", "Truly"],
+    "lyric": "And between now and then, till I see you again / I’ll be loving you, Love, me"
+  },
+  {
+    "topic": "hit-inthislife",
+    "song": "In This Life",
+    "artist": "Collin Raye",
+    "type": "title",
+    "q": "Fill in the title of this Collin Raye hit: “In This ___”",
+    "correct": "Life",
+    "wrong": ["Time", "World", "Town"],
+    "lyric": "The only dream that mattered had come true / In this life I was loved by you"
+  },
+  {
+    "topic": "hit-mykindofgirl",
+    "song": "My Kind of Girl",
+    "artist": "Collin Raye",
+    "type": "title",
+    "q": "Fill in the title of this Collin Raye hit: “My Kind of ___”",
+    "correct": "Girl",
+    "wrong": ["Town", "Love", "Life"],
+    "lyric": "I said how ’bout some music, you said, you got any Merle? / That’s when I knew you were my kind of girl"
+  },
+  {
+    "topic": "hit-ithinkaboutyou",
+    "song": "I Think About You",
+    "artist": "Collin Raye",
+    "type": "title",
+    "q": "Fill in the title of this Collin Raye hit: “I ___ About You”",
+    "correct": "Think",
+    "wrong": ["Dream", "Worry", "Wonder"],
+    "lyric": "I think about you, eight years old / Big blue eyes and a heart of gold"
+  },
+  {
+    "topic": "hit-nodoubtaboutit",
+    "song": "No Doubt About It",
+    "artist": "Neal McCoy",
+    "type": "title",
+    "q": "Fill in the title of this Neal McCoy hit: “No ___ About It”",
+    "correct": "Doubt",
+    "wrong": ["Shame", "Secret", "Lie"],
+    "lyric": "We were meant to be together, no doubt about it"
+  },
+  {
+    "topic": "hit-ivecriedmylasttearforyou",
+    "song": "I’ve Cried My Last Tear for You",
+    "artist": "Ricky Van Shelton",
+    "type": "title",
+    "q": "Fill in the title of this Ricky Van Shelton hit: “I’ve Cried My Last ___ for You”",
+    "correct": "Tear",
+    "wrong": ["Time", "Song", "Prayer"],
+    "lyric": "I’ve cried my last tear for you, wasted my last year on you"
+  },
+  {
+    "topic": "hit-keepitbetweenthelines",
+    "song": "Keep It Between the Lines",
+    "artist": "Ricky Van Shelton",
+    "type": "title",
+    "q": "Fill in the title of this Ricky Van Shelton hit: “Keep It Between the ___”",
+    "correct": "Lines",
+    "wrong": ["Ditches", "Fences", "Rails"],
+    "lyric": "Keep your hands on the wheel, believe in the things that are real / take your time and keep it between the lines"
+  },
+  {
+    "topic": "hit-achybreakyheart",
+    "song": "Achy Breaky Heart",
+    "artist": "Billy Ray Cyrus",
+    "type": "title",
+    "q": "Fill in the title of this Billy Ray Cyrus hit: “Achy ___ Heart”",
+    "correct": "Breaky",
+    "wrong": ["Shaky", "Flaky", "Creaky"],
+    "lyric": "But don’t tell my heart, my achy breaky heart / I just don’t think he’d understand"
+  },
+  {
+    "topic": "hit-thankgodforyou",
+    "song": "Thank God for You",
+    "artist": "Sawyer Brown",
+    "type": "title",
+    "q": "Fill in the title of this Sawyer Brown hit: “Thank ___ for You”",
+    "correct": "God",
+    "wrong": ["Heaven", "Goodness", "Stars"],
+    "lyric": "I got to give credit when credit is due / I thank the bank for the money, thank God for you"
+  },
+  {
+    "topic": "hit-fastmovintrain",
+    "song": "Fast Movin’ Train",
+    "artist": "Restless Heart",
+    "type": "title",
+    "q": "Fill in the title of this Restless Heart hit: “Fast Movin’ ___”",
+    "correct": "Train",
+    "wrong": ["Truck", "River", "Storm"],
+    "lyric": "And I’ve been hit by another fast movin’ train"
+  },
+  {
+    "topic": "hit-ajukeboxwithacountrysong",
+    "song": "A Jukebox with a Country Song",
+    "artist": "Doug Stone",
+    "type": "title",
+    "q": "Fill in the title of this Doug Stone hit: “A ___ with a Country Song”",
+    "correct": "Jukebox",
+    "wrong": ["Radio", "Barstool", "Fiddle"],
+    "lyric": "I guess I’m somewhere that I don’t belong / I need a jukebox with a country song"
+  },
+  {
+    "topic": "hit-whydidntithinkofthat",
+    "song": "Why Didn’t I Think of That",
+    "artist": "Doug Stone",
+    "type": "title",
+    "q": "Fill in the title of this Doug Stone hit: “Why Didn’t I ___ of That”",
+    "correct": "Think",
+    "wrong": ["Dream", "Hear", "Know"],
+    "lyric": "He says he needs her, tells her he loves her / Why didn’t I think of that?"
+  },
+  {
+    "topic": "hit-inadifferentlight",
+    "song": "In a Different Light",
+    "artist": "Doug Stone",
+    "type": "title",
+    "q": "Fill in the title of this Doug Stone hit: “In a ___ Light”",
+    "correct": "Different",
+    "wrong": ["Better", "Softer", "Golden"],
+    "lyric": "I see you in a different light, just the way I saw you last night"
+  },
+  {
+    "topic": "hit-someoneelsesstar",
+    "song": "Someone Else’s Star",
+    "artist": "Bryan White",
+    "type": "title",
+    "q": "Fill in the title of this Bryan White hit: “Someone Else’s ___”",
+    "correct": "Star",
+    "wrong": ["Dream", "Heart", "Moon"],
+    "lyric": "I guess I must be wishing on someone else’s star"
+  },
+  {
+    "topic": "hit-rebeccalynn",
+    "song": "Rebecca Lynn",
+    "artist": "Bryan White",
+    "type": "title",
+    "q": "Fill in the title of this Bryan White hit: “Rebecca ___”",
+    "correct": "Lynn",
+    "wrong": ["Lee", "Ann", "Jean"],
+    "lyric": "Ring around the rosie, pocket full of dreams and posies"
+  },
+  {
+    "topic": "hit-somuchforpretending",
+    "song": "So Much for Pretending",
+    "artist": "Bryan White",
+    "type": "title",
+    "q": "Fill in the title of this Bryan White hit: “So Much for ___”",
+    "correct": "Pretending",
+    "wrong": ["Leaving", "Forgetting", "Dreaming"],
+    "lyric": "And I was looking forward to a happy ending / So much for pretending"
+  },
+  {
+    "topic": "hit-hardrockbottomofyourheart",
+    "song": "Hard Rock Bottom of Your Heart",
+    "artist": "Randy Travis",
+    "type": "title",
+    "q": "Fill in the title of this Randy Travis hit: “Hard Rock ___ of Your Heart”",
+    "correct": "Bottom",
+    "wrong": ["Middle", "Edge", "Corner"],
+    "lyric": "And I feel like a stone you have picked up and thrown / to the hard rock bottom of your heart"
+  },
+  {
+    "topic": "hit-lookheartnohands",
+    "song": "Look Heart, No Hands",
+    "artist": "Randy Travis",
+    "type": "title",
+    "q": "Fill in the title of this Randy Travis hit: “Look Heart, No ___”",
+    "correct": "Hands",
+    "wrong": ["Feet", "Strings", "Brakes"],
+    "lyric": "No chains, no strings, no fences, no wall / no net, just you to catch me when I fall / look heart, no hands"
+  },
+  {
+    "topic": "hit-dontletourlovestartslippinaway",
+    "song": "Don’t Let Our Love Start Slippin’ Away",
+    "artist": "Vince Gill",
+    "type": "title",
+    "q": "Fill in the title of this Vince Gill hit: “Don’t Let Our Love Start ___ Away”",
+    "correct": "Slippin’",
+    "wrong": ["Driftin’", "Fadin’", "Fallin’"],
+    "lyric": "Don’t let our love start slippin’, love start slippin’ away"
+  },
+  {
+    "topic": "hit-onemorelastchance",
+    "song": "One More Last Chance",
+    "artist": "Vince Gill",
+    "type": "title",
+    "q": "Fill in the title of this Vince Gill hit: “One More ___ Chance”",
+    "correct": "Last",
+    "wrong": ["Second", "Lucky", "Fair"],
+    "lyric": "Give me just one more last chance before you say we’re through"
+  },
+  {
+    "topic": "hit-thereaintnothinwrongwiththeradio",
+    "song": "There Ain’t Nothin’ Wrong with the Radio",
+    "artist": "Aaron Tippin",
+    "type": "title",
+    "q": "Fill in the title of this Aaron Tippin hit: “There Ain’t Nothin’ Wrong with the ___”",
+    "correct": "Radio",
+    "wrong": ["Engine", "Jukebox", "Truck"],
+    "lyric": "She ain’t a Cadillac and she ain’t a Rolls / But there ain’t nothin’ wrong with the radio"
+  },
+  {
+    "topic": "hit-thatsascloseasillgettolovingyou",
+    "song": "That’s as Close as I’ll Get to Loving You",
+    "artist": "Aaron Tippin",
+    "type": "title",
+    "q": "Fill in the title of this Aaron Tippin hit: “That’s as Close as I’ll Get to ___ You”",
+    "correct": "Loving",
+    "wrong": ["Holding", "Kissing", "Leaving"],
+    "lyric": "That’s as close as I’ll get to loving you / Even though there’s nothing else I’d rather do"
+  },
+  {
+    "topic": "hit-straighttequilanight",
+    "song": "Straight Tequila Night",
+    "artist": "John Anderson",
+    "type": "title",
+    "q": "Fill in the title of this John Anderson hit: “Straight ___ Night”",
+    "correct": "Tequila",
+    "wrong": ["Whiskey", "Bourbon", "Vodka"],
+    "lyric": "But don’t ask her on a straight tequila night / She’ll start thinking about him, then she’s ready to fight"
+  },
+  {
+    "topic": "hit-seminolewind",
+    "song": "Seminole Wind",
+    "artist": "John Anderson",
+    "type": "title",
+    "q": "Fill in the title of this John Anderson hit: “Seminole ___”",
+    "correct": "Wind",
+    "wrong": ["River", "Moon", "Rain"],
+    "lyric": "So blow, blow, Seminole wind, blow like you’re never gonna blow again"
+  },
+  {
+    "topic": "hit-moneyinthebank",
+    "song": "Money in the Bank",
+    "artist": "John Anderson",
+    "type": "title",
+    "q": "Fill in the title of this John Anderson hit: “Money in the ___”",
+    "correct": "Bank",
+    "wrong": ["Pocket", "Mattress", "Jar"],
+    "lyric": "Got my paycheck in my pocket and gas in the tank / Honey, your love’s better than money in the bank"
+  },
+  {
+    "topic": "hit-jukeboxinmymind",
+    "song": "Jukebox in My Mind",
+    "artist": "Alabama",
+    "type": "title",
+    "q": "Fill in the title of this Alabama hit: “Jukebox in My ___”",
+    "correct": "Mind",
+    "wrong": ["Heart", "Soul", "Dreams"],
+    "lyric": "In the corner of my mind stands a jukebox / It’s playin’ all my favorite memories"
+  },
+  {
+    "topic": "hit-foreversasfarasillgo",
+    "song": "Forever’s as Far as I’ll Go",
+    "artist": "Alabama",
+    "type": "title",
+    "q": "Fill in the title of this Alabama hit: “Forever’s as ___ as I’ll Go”",
+    "correct": "Far",
+    "wrong": ["Long", "High", "Deep"],
+    "lyric": "And it’s only fair that you know / Forever’s as far as I’ll go"
+  },
+  {
+    "topic": "hit-downhome",
+    "song": "Down Home",
+    "artist": "Alabama",
+    "type": "title",
+    "q": "Fill in the title of this Alabama hit: “Down ___”",
+    "correct": "Home",
+    "wrong": ["South", "Low", "Yonder"],
+    "lyric": "Down home / A man’s good word and a handshake are all you need"
+  },
+  {
+    "topic": "hit-borncountry",
+    "song": "Born Country",
+    "artist": "Alabama",
+    "type": "title",
+    "q": "Fill in the title of this Alabama hit: “Born ___”",
+    "correct": "Country",
+    "wrong": ["Southern", "Wild", "Free"],
+    "lyric": "I was born country, and that’s what I’ll always be / Like the rivers and the woodlands, wild and free"
+  },
+  {
+    "topic": "hit-iminahurryanddontknowwhy",
+    "song": "I’m in a Hurry (And Don’t Know Why)",
+    "artist": "Alabama",
+    "type": "title",
+    "q": "Fill in the title of this Alabama hit: “I’m in a ___ (And Don’t Know Why)”",
+    "correct": "Hurry",
+    "wrong": ["Mood", "Rut", "Fog"],
+    "lyric": "I’m in a hurry to get things done / Oh, I rush and rush until life’s no fun"
+  },
+  {
+    "topic": "hit-sheaintyourordinarygirl",
+    "song": "She Ain’t Your Ordinary Girl",
+    "artist": "Alabama",
+    "type": "title",
+    "q": "Fill in the title of this Alabama hit: “She Ain’t Your ___ Girl”",
+    "correct": "Ordinary",
+    "wrong": ["Country", "Little", "Hometown"],
+    "lyric": "She ain’t your ordinary, no she’s not / She ain’t your ordinary girl"
+  },
+  {
+    "topic": "hit-whispermyname",
+    "song": "Whisper My Name",
+    "artist": "Randy Travis",
+    "type": "title",
+    "q": "Fill in the title of this Randy Travis hit: “Whisper My ___”",
+    "correct": "Name",
+    "wrong": ["Prayer", "Secret", "Song"],
+    "lyric": "I heard a freight train out across the way / I heard a woman sing Amazing Grace"
+  },
+  {
+    "topic": "hit-tryintogetoveryou",
+    "song": "Tryin’ to Get Over You",
+    "artist": "Vince Gill",
+    "type": "title",
+    "q": "Fill in the title of this Vince Gill hit: “___ to Get Over You”",
+    "correct": "Tryin’",
+    "wrong": ["Fixin’", "Learnin’", "Hopin’"],
+    "lyric": "I’ve been tryin’ to get over you / But it’ll take dyin’ to get it done"
+  },
+  {
+    "topic": "hit-whenicallyourname",
+    "song": "When I Call Your Name",
+    "artist": "Vince Gill",
+    "type": "title",
+    "q": "Fill in the title of this Vince Gill hit: “When I ___ Your Name”",
+    "correct": "Call",
+    "wrong": ["Hear", "Whisper", "Write"],
+    "lyric": "And just like rain, the tears keep fallin’ / But nobody answers when I call your name"
+  },
+  {
+    "topic": "hit-formybrokenheart",
+    "song": "For My Broken Heart",
+    "artist": "Reba McEntire",
+    "type": "title",
+    "q": "Fill in the title of this Reba McEntire hit: “For My ___ Heart”",
+    "correct": "Broken",
+    "wrong": ["Lonely", "Aching", "Restless"],
+    "lyric": "Last night I prayed the Lord my soul to keep / Then I cried myself to sleep"
+  },
+  {
+    "topic": "hit-theheartisalonelyhunter",
+    "song": "The Heart Is a Lonely Hunter",
+    "artist": "Reba McEntire",
+    "type": "title",
+    "q": "Fill in the title of this Reba McEntire hit: “The Heart Is a Lonely ___”",
+    "correct": "Hunter",
+    "wrong": ["Highway", "Rider", "Soldier"],
+    "lyric": "And the heart is a lonely hunter / With only one desire"
+  },
+  {
+    "topic": "hit-theregoesmybaby",
+    "song": "There Goes My Baby",
+    "artist": "Trisha Yearwood",
+    "type": "title",
+    "q": "Fill in the title of this Trisha Yearwood hit: “There Goes My ___”",
+    "correct": "Baby",
+    "wrong": ["Heart", "Life", "Cowboy"],
+    "lyric": "There goes my baby, like the sun fallin’ out of the clear blue sky"
+  },
+  {
+    "topic": "hit-trashywomen",
+    "song": "Trashy Women",
+    "artist": "Confederate Railroad",
+    "type": "title",
+    "q": "Fill in the title of this Confederate Railroad hit: “___ Women”",
+    "correct": "Trashy",
+    "wrong": ["Classy", "Flashy", "Fancy"],
+    "lyric": "That’s a cocktail waitress in a Dolly Parton wig"
+  },
+  {
+    "topic": "hit-ifthedevildancedinemptypockets",
+    "song": "If the Devil Danced (In Empty Pockets)",
+    "artist": "Joe Diffie",
+    "type": "title",
+    "q": "Fill in the title of this Joe Diffie hit: “If the ___ Danced (In Empty Pockets)”",
+    "correct": "Devil",
+    "wrong": ["Angel", "Preacher", "Gambler"],
+    "lyric": "If the devil danced in empty pockets, he’d have a ball in mine"
+  },
+  {
+    "topic": "hit-illthinkofsomething",
+    "song": "I’ll Think of Something",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “I’ll Think of ___”",
+    "correct": "Something",
+    "wrong": ["Someone", "Nothing", "Tomorrow"],
+    "lyric": "I don’t know how I’ll get her off my mind / But give me time and I’ll think of something"
+  },
+  {
+    "topic": "hit-gonnagetalife",
+    "song": "Gonna Get a Life",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “Gonna Get a ___”",
+    "correct": "Life",
+    "wrong": ["Job", "Clue", "Dog"],
+    "lyric": "I’m gonna get a life, that’s what I’m gonna do / So startin’ now you can find one too"
+  },
+  {
+    "topic": "hit-idontwanttomissathing",
+    "song": "I Don’t Want to Miss a Thing",
+    "artist": "Mark Chesnutt",
+    "type": "title",
+    "q": "Fill in the title of this Mark Chesnutt hit: “I Don’t Want to ___ a Thing”",
+    "correct": "Miss",
+    "wrong": ["Lose", "Waste", "Change"],
+    "lyric": "I don’t wanna close my eyes, I don’t wanna fall asleep"
+  },
+  {
+    "topic": "hit-lovingblind",
+    "song": "Loving Blind",
+    "artist": "Clint Black",
+    "type": "title",
+    "q": "Fill in the title of this Clint Black hit: “Loving ___”",
+    "correct": "Blind",
+    "wrong": ["Free", "Hard", "Wild"],
+    "lyric": "And I’ve been loving blind / Loving every heart I could call mine"
+  },
+  {
+    "topic": "hit-howyourlovemakesmefeel",
+    "song": "How Your Love Makes Me Feel",
+    "artist": "Diamond Rio",
+    "type": "title",
+    "q": "Fill in the title of this Diamond Rio hit: “How Your Love Makes Me ___”",
+    "correct": "Feel",
+    "wrong": ["Fly", "Dance", "Sing"],
+    "lyric": "Buy an ice cream and see how far / We can drive before it melts kinda feelin’"
+  },
+  {
+    "topic": "hit-mynextbrokenheart",
+    "song": "My Next Broken Heart",
+    "artist": "Brooks & Dunn",
+    "type": "title",
+    "q": "Fill in the title of this Brooks & Dunn hit: “My ___ Broken Heart”",
+    "correct": "Next",
+    "wrong": ["First", "Last", "Only"],
+    "lyric": "I’m headed down that road again / I’m working on my next broken heart"
+  },
+  {
+    "topic": "hit-shesnotthecheatinkind",
+    "song": "She’s Not the Cheatin’ Kind",
+    "artist": "Brooks & Dunn",
+    "type": "title",
+    "q": "Fill in the title of this Brooks & Dunn hit: “She’s Not the ___ Kind”",
+    "correct": "Cheatin’",
+    "wrong": ["Leavin’", "Lyin’", "Lovin’"],
+    "lyric": "She’s not the cheatin’ kind / She’s been cheated one too many times"
+  },
+  {
+    "topic": "hit-idloveyoualloveragain",
+    "song": "I’d Love You All Over Again",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “I’d ___ You All Over Again”",
+    "correct": "Love",
+    "wrong": ["Marry", "Choose", "Kiss"],
+    "lyric": "Has it been ten years since we said “I do”?"
+  },
+  {
+    "topic": "hit-lovesgotaholdonyou",
+    "song": "Love’s Got a Hold on You",
+    "artist": "Alan Jackson",
+    "type": "title",
+    "q": "Fill in the title of this Alan Jackson hit: “Love’s Got a ___ on You”",
+    "correct": "Hold",
+    "wrong": ["Spell", "Claim", "Price"],
+    "lyric": "It’s turning me every way but loose / He said it sounds like love’s got a hold on you"
+  },
+  {
+    "topic": "hit-tomakeyoufeelmylove",
+    "song": "To Make You Feel My Love",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “To Make You ___ My Love”",
+    "correct": "Feel",
+    "wrong": ["See", "Know", "Need"],
+    "lyric": "I could hold you for a million years / To make you feel my love"
+  },
+  {
+    "topic": "hit-ifiknowme",
+    "song": "If I Know Me",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “If I ___ Me”",
+    "correct": "Know",
+    "wrong": ["Trust", "Love", "Lose"],
+    "lyric": "But if I know me / I’ll turn this car around"
+  },
+  {
+    "topic": "hit-roundaboutway",
+    "song": "Round About Way",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “Round About ___”",
+    "correct": "Way",
+    "wrong": ["Time", "Ride", "Day"],
+    "lyric": "For the most part I’m okay / but I still miss her in a round about way"
+  },
+  {
+    "topic": "hit-ivecometoexpectitfromyou",
+    "song": "I’ve Come to Expect It from You",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “I’ve Come to ___ It from You”",
+    "correct": "Expect",
+    "wrong": ["Hear", "Need", "Accept"],
+    "lyric": "I wouldn’t treat a dog the way you treated me / but that’s what I get"
+  },
+  {
+    "topic": "hit-icanstillmakecheyenne",
+    "song": "I Can Still Make Cheyenne",
+    "artist": "George Strait",
+    "type": "title",
+    "q": "Fill in the title of this George Strait hit: “I Can Still Make ___”",
+    "correct": "Cheyenne",
+    "wrong": ["Laramie", "Tulsa", "Abilene"],
+    "lyric": "But it’s all right baby, if I hurry I can still make Cheyenne"
+  },
+  {
+    "topic": "hit-itmatterstome",
+    "song": "It Matters to Me",
+    "artist": "Faith Hill",
+    "type": "title",
+    "q": "Fill in the title of this Faith Hill hit: “It ___ to Me”",
+    "correct": "Matters",
+    "wrong": ["Happens", "Belongs", "Speaks"],
+    "lyric": "When it doesn’t feel like we’re even in love / it matters to me"
+  },
+  {
+    "topic": "hit-fromthismomenton",
+    "song": "From This Moment On",
+    "artist": "Shania Twain",
+    "type": "title",
+    "q": "Fill in the title of this Shania Twain hit: “From This ___ On”",
+    "correct": "Moment",
+    "wrong": ["Day", "Night", "Time"],
+    "lyric": "From this moment, life has begun / from this moment, you are the one"
+  },
+  {
+    "topic": "hit-shethinksmytractorssexy",
+    "song": "She Thinks My Tractor’s Sexy",
+    "artist": "Kenny Chesney",
+    "type": "title",
+    "q": "Fill in the title of this Kenny Chesney hit: “She Thinks My ___ Sexy”",
+    "correct": "Tractor’s",
+    "wrong": ["Truck’s", "Pickup’s", "Combine’s"],
+    "lyric": "She thinks my tractor’s sexy, it really turns her on / she’s always starin’ at me while I’m chuggin’ along"
+  },
+  {
+    "topic": "hit-iloveyou",
+    "song": "I Love You",
+    "artist": "Martina McBride",
+    "type": "title",
+    "q": "Fill in the title of this Martina McBride hit: “I ___ You”",
+    "correct": "Love",
+    "wrong": ["Need", "Want", "Miss"],
+    "lyric": "Sure as the sky is blue / Baby, I love you"
+  },
+  {
+    "topic": "hit-goodbyeearl",
+    "song": "Goodbye Earl",
+    "artist": "Dixie Chicks",
+    "type": "title",
+    "q": "Fill in the title of this Dixie Chicks hit: “Goodbye ___”",
+    "correct": "Earl",
+    "wrong": ["Vern", "Lyle", "Darrell"],
+    "lyric": "Goodbye, Earl / Those black-eyed peas, they tasted all right to me, Earl"
+  },
+  {
+    "topic": "hit-hedidnthavetobe",
+    "song": "He Didn’t Have to Be",
+    "artist": "Brad Paisley",
+    "type": "title",
+    "q": "Fill in the title of this Brad Paisley hit: “He Didn’t ___ to Be”",
+    "correct": "Have",
+    "wrong": ["Want", "Mean", "Try"],
+    "lyric": "I met the man I call my dad when I was five years old"
+  },
+  {
+    "topic": "hit-doesheloveyou",
+    "song": "Does He Love You",
+    "artist": "Reba McEntire with Linda Davis",
+    "type": "title",
+    "q": "Fill in the title of this Reba McEntire with Linda Davis hit: “Does He ___ You”",
+    "correct": "Love",
+    "wrong": ["Need", "Know", "Miss"],
+    "lyric": "Does he love you like he loves me / Does he think of you when he’s holding me"
+  },
+  {
+    "topic": "hit-thedance",
+    "song": "The Dance",
+    "artist": "Garth Brooks",
+    "type": "title",
+    "q": "Fill in the title of this Garth Brooks hit: “The ___”",
+    "correct": "Dance",
+    "wrong": ["Chance", "Ride", "Song"],
+    "lyric": "The Dance"
+  },
+  {
+    "topic": "hit-iswear",
+    "song": "I Swear",
+    "artist": "John Michael Montgomery",
+    "type": "title",
+    "q": "Fill in the title of this John Michael Montgomery hit: “I ___”",
+    "correct": "Swear",
+    "wrong": ["Pray", "Try", "Believe"],
+    "lyric": "I Swear"
+  }
+]
