@@ -415,7 +415,7 @@
   ${local ? button('Play Again →', 'restart', 'block') : s.isHost ? button('Rematch →', 'rematch', 'block') : '<div class="wait">Waiting for the host to call a rematch…</div>'}
   ${soloOnly ? '' : button('View leaderboard →', 'leaderboard', 'block secondary')}
 
-  <div id="soft-error" class="notice">${notice()}</div><p class="muted">${local ? (soloOnly ? 'Offline solo round complete.' : 'Challenge your buddy using Host a Showdown on the home screen.') : 'New questions are picked for every rematch.'}</p></section>`;
+  <div id="soft-error" class="notice">${notice()}</div><p class="muted">${local ? (soloOnly ? 'Offline solo round complete.' : 'Challenge your buddy using Host a Showdown on the home screen.') : 'New questions are picked for every rematch.'}</p>${soloOnly ? '' : '<a class="tip-link" href="/tip/">Enjoying the Showdown? Tip the jukebox →</a>'}</section>`;
   }
   function drawLeaderboard() {
     const rows = leaderboard?.rows || [];

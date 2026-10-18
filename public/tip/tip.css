@@ -1,0 +1,116 @@
+.home {
+  text-decoration: none;
+}
+.back {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: #bcc9d3;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.back:hover {
+  color: var(--cream);
+}
+.tips {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.tip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 28px 22px;
+  border: 1px solid #ffffff38;
+  border-radius: 22px;
+  background: #ffffff0b;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    transform 0.15s,
+    border-color 0.15s;
+}
+.tip:hover,
+.tip:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--cream);
+  outline: none;
+}
+.tip .brand {
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 999px;
+  color: white;
+}
+.venmo .brand {
+  background: #3d95ce;
+}
+.cashapp .brand {
+  background: #00b843;
+}
+.paypal .brand {
+  background: #1d3d8f;
+}
+.tip .handle {
+  font-size: 1.15rem;
+  font-weight: 750;
+  margin-top: 6px;
+  overflow-wrap: anywhere;
+}
+.tip .qr {
+  width: 170px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  margin: 14px 0 8px;
+  padding: 10px;
+  border-radius: 14px;
+  background: #f5f1e9;
+}
+.note {
+  margin: 28px 0 0;
+  color: #becad0;
+  line-height: 1.55;
+}
+.qr-hint {
+  display: block;
+}
+@media (max-width: 760px) {
+  .tips {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .tip {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'brand go'
+      'handle handle';
+    align-items: center;
+    text-align: left;
+    padding: 18px 20px;
+  }
+  .tip .brand {
+    grid-area: brand;
+    justify-self: start;
+  }
+  .tip .handle {
+    grid-area: handle;
+    margin-top: 4px;
+  }
+  .tip .go {
+    grid-area: go;
+    justify-self: end;
+  }
+  /* Phones tap the button; a QR code can't be scanned on the screen showing it. */
+  .tip .qr,
+  .qr-hint {
+    display: none;
+  }
+}

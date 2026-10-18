@@ -617,6 +617,17 @@ button:disabled {
 .results .button + .button {
   margin-top: 10px;
 }
+.tip-link {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.tip-link:hover {
+  text-decoration: underline;
+}
 .podiumrow {
   display: flex;
   align-items: center;

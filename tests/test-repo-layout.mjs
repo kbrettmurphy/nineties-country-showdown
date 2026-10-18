@@ -4,6 +4,8 @@ import { QUESTIONS } from '../src/country/questions.js';
 for (const path of [
   'public/index.html',
   'public/hub.css',
+  'public/tip/index.html',
+  'public/tip/tip.css',
   'public/numbers/index.html',
   'public/numbers/styles.css',
   'public/country/index.html',

@@ -1,4 +1,4 @@
-# MurphsMitts Games
+# Murph’s Games
 
 The source for **games.murphsmitts.com**. One Cloudflare Worker serves the hub and
 Honky Tonk Showdown. Number Match is still embedded from its original ChatGPT Sites

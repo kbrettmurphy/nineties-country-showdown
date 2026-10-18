@@ -8,10 +8,10 @@ export { CountryLeaderboard } from './country/leaderboard.js';
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    // MurphsMitts games hub: / (launcher), /numbers/ (original game embedded),
+    // Murph’s Games hub: / (launcher), /numbers/ (original game embedded),
     // and /country/ (Cloudflare-backed multiplayer trivia).
     // Keep the country API at /country/api/...; the client uses that prefix.
-    if (url.pathname === '/country' || url.pathname === '/numbers') {
+    if (['/country', '/numbers', '/tip'].includes(url.pathname)) {
       return Response.redirect(url.origin + url.pathname + '/' + url.search, 308);
     }
     // Let Cloudflare's static-asset handler serve folder index pages directly.
