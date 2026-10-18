@@ -29,6 +29,16 @@
   let refreshing = null;
   let reportTarget = null;
   let leaderboard = null;
+  // Party mode: one phone passed around the table. Runs entirely on this device and never
+  // touches the leaderboard, but still marks songs as played so they don't repeat here.
+  let party = null;
+  const partyDraft = (() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem('country-showdown-party') || 'null');
+      if (saved && Array.isArray(saved.names)) return saved;
+    } catch {}
+    return { names: [name, ''], style: 'buzz', choices: 'hidden', turns: 3 };
+  })();
   // Lobby arrivals: when each player was first seen, so a new chip can pop for a few seconds.
   const arrivals = new Map();
   function justJoined(roomCode, p) {
@@ -350,8 +360,13 @@
     soloOnly
       ? ''
       : `<button class="action" data-action="open-host"><span><b>Host a showdown</b><small>Face up to 7 friends live, anywhere</small></span><span class="arrow">→</span></button>
-  <button class="action" data-action="open-join"><span><b>Join a showdown</b><small>Got a room code? Get in there.</small></span><span class="arrow">→</span></button>
-  <button class="action" data-action="leaderboard"><span><b>Leaderboard</b><small>See who's playing and the all-time high scores</small></span><span class="arrow">→</span></button>`
+  <button class="action" data-action="open-join"><span><b>Join a showdown</b><small>Got a room code? Get in there.</small></span><span class="arrow">→</span></button>`
+  }
+  <button class="action" data-action="open-party"><span><b>Party mode</b><small>One phone, the whole table. Pass it around.</small></span><span class="arrow">→</span></button>
+  ${
+    soloOnly
+      ? ''
+      : `<button class="action" data-action="leaderboard"><span><b>Leaderboard</b><small>See who's playing and the all-time high scores</small></span><span class="arrow">→</span></button>`
   }
   </div></section>${gameShelf()}${soloOnly ? '<p class="muted" style="text-align:center">Offline solo mode. Scores are not uploaded from this version.</p>' : ''}`;
   }
@@ -428,6 +443,185 @@
   ${soloOnly ? '' : button('View leaderboard →', 'leaderboard', 'block secondary')}
 
   <div id="soft-error" class="notice">${notice()}</div><p class="muted">${local ? (soloOnly ? 'Offline solo round complete.' : 'Challenge your friends with Host a Showdown on the home screen.') : 'New questions are picked for every rematch.'}</p>${soloOnly ? '' : '<a class="tip-link" href="/tip/">Enjoying the Showdown? Tip the jukebox →</a>'}</section>`;
+  }
+  const PARTY_POINTS = 100;
+  const PARTY_POINTS_WITH_CHOICES = 50;
+  const seg = (field, value, options) =>
+    `<div class="seg" role="group">${options
+      .map(
+        ([v, label]) =>
+          `<button type="button" data-action="party-set" data-field="${field}" data-value="${v}" aria-pressed="${String(v) === String(value)}">${label}</button>`,
+      )
+      .join('')}</div>`;
+  function syncPartyDraft() {
+    const inputs = app.querySelectorAll('.party-name');
+    if (inputs.length) partyDraft.names = [...inputs].map((el) => el.value);
+    savePartyDraft();
+  }
+  function savePartyDraft() {
+    try {
+      localStorage.setItem('country-showdown-party', JSON.stringify(partyDraft));
+    } catch {}
+  }
+  function drawPartySetup() {
+    const d = partyDraft;
+    const filled = d.names.filter((n) => n.trim()).length || d.names.length;
+    return `${logo()}${back()}<section class="panel"><div class="eyebrow">One phone, the whole table</div><h2 class="section-title">Party mode</h2>
+  <p class="section-sub">Pass the phone around. Whoever has it reads the question, and the table answers out loud. Party games don't count toward the leaderboard.</p>
+  <div class="field"><span>Players</span><div class="party-names">${d.names
+    .map(
+      (n, i) =>
+        `<div class="party-row"><input class="textinput party-name" maxlength="24" placeholder="Player ${i + 1}" value="${escapeHtml(n)}">${d.names.length > 2 ? `<button type="button" class="party-remove" data-action="party-remove" data-index="${i}" aria-label="Remove player ${i + 1}">✕</button>` : ''}</div>`,
+    )
+    .join(
+      '',
+    )}</div>${d.names.length < 8 ? button('+ Add player', 'party-add', 'small secondary') : ''}</div>
+  <div class="field"><span>How to play</span>${seg('style', d.style, [
+    ['buzz', 'Buzz in'],
+    ['hot', 'Hot seat'],
+  ])}<small class="seg-help">${d.style === 'buzz' ? 'The reader asks the whole table. First right answer gets the points.' : 'The reader asks one player. Everyone gets a turn in the hot seat.'}</small></div>
+  <div class="field"><span>Multiple choice</span>${seg('choices', d.choices, [
+    ['hidden', 'Only if stuck'],
+    ['shown', 'From the start'],
+  ])}<small class="seg-help">${d.choices === 'hidden' ? `Answer cold for ${PARTY_POINTS}. If nobody knows, the reader can read the choices, then it's worth ${PARTY_POINTS_WITH_CHOICES}.` : `The reader reads all four choices every time. ${PARTY_POINTS} points per right answer.`}</small></div>
+  <div class="field"><span>Turns to read</span>${seg('turns', d.turns, [
+    [2, '2 each'],
+    [3, '3 each'],
+    [5, '5 each'],
+  ])}<small class="seg-help">${filled * d.turns} questions with ${filled} players.</small></div>
+  ${button("Let's Party →", 'party-start', 'block')}
+  <div class="notice">${notice()}</div></section>`;
+  }
+  function startParty() {
+    syncPartyDraft();
+    const names = [];
+    for (const raw of partyDraft.names) {
+      const n = raw.trim().replace(/\s+/g, ' ').slice(0, 24);
+      if (!n) continue;
+      let unique = n;
+      for (let k = 2; names.includes(unique); k++) unique = `${n} ${k}`;
+      names.push(unique);
+    }
+    if (names.length < 2) {
+      error = 'Party mode needs at least two players.';
+      render();
+      return;
+    }
+    error = '';
+    party = {
+      players: names.map((n) => ({ name: n, score: 0, correct: 0 })),
+      style: partyDraft.style,
+      choicesFirst: partyDraft.choices === 'shown',
+      order: makeOrder(names.length * partyDraft.turns),
+      index: 0,
+      phase: 'pass',
+      choicesShown: false,
+      endsAt: 0,
+      winner: null,
+      earned: 0,
+    };
+    view = 'party';
+    render();
+  }
+  const partyReader = (p) => p.index % p.players.length;
+  // Hot seat: the guesser rotates through everyone but the reader, so pairings vary.
+  const partyGuesser = (p) => {
+    const n = p.players.length;
+    const step = 1 + (Math.floor(p.index / n) % (n - 1));
+    return (partyReader(p) + step) % n;
+  };
+  function scoreParty(winner) {
+    const p = party;
+    const q = qs[p.order[p.index]];
+    p.winner = winner;
+    p.earned = 0;
+    if (winner !== null) {
+      p.earned = p.choicesShown && !p.choicesFirst ? PARTY_POINTS_WITH_CHOICES : PARTY_POINTS;
+      p.players[winner].score += p.earned;
+      p.players[winner].correct++;
+    }
+    rememberTopic(q.topic);
+    p.phase = 'reveal';
+    render();
+  }
+  function partyScoreboard(p, highlight) {
+    return `<div class="scoreboard">${p.players
+      .map(
+        (pl, i) =>
+          `<div class="score ${i === highlight ? 'right' : ''}"><div class="name"><span>${escapeHtml(pl.name)}</span><span>${i === partyReader(p) && p.phase !== 'reveal' ? '📣' : ''}</span></div><b>${pl.score}</b><small>${pl.correct} right</small></div>`,
+      )
+      .join('')}</div>`;
+  }
+  function drawParty() {
+    const p = party;
+    const q = qs[p.order[p.index]];
+    const reader = p.players[partyReader(p)];
+    const guesser = p.style === 'hot' ? p.players[partyGuesser(p)] : null;
+    const total = p.order.length;
+    if (p.phase === 'pass') {
+      return `${logo()}${back()}<section class="panel pass-panel"><div class="eyebrow">Question ${p.index + 1} of ${total}</div>
+  <div class="pass-label">Pass the phone to</div><div class="pass-name">${escapeHtml(reader.name)}</div>
+  <p class="section-sub">${guesser ? `${escapeHtml(reader.name)} reads to <b>${escapeHtml(guesser.name)}</b>. No peeking, everybody else.` : `${escapeHtml(reader.name)} reads to the table. No peeking, everybody else.`}</p>
+  ${button("I've got the phone →", 'party-go', 'block')}
+  ${partyScoreboard(p, null)}</section>`;
+    }
+    if (p.phase === 'question') {
+      const choices = p.choicesShown
+        ? `<ol class="party-choices">${q.choices.map((c, i) => `<li class="${i === q.a ? 'good' : ''}"><span class="letter">${letters[i]}</span>${escapeHtml(c)}</li>`).join('')}</ol>`
+        : `<div class="party-answer"><span>Answer · just for the reader</span><b>${escapeHtml(q.choices[q.a])}</b></div>${button('Nobody knows? Show the choices', 'party-choices', 'block secondary')}`;
+      const award = guesser
+        ? `<div class="award-label">Did ${escapeHtml(guesser.name)} get it?</div><div class="award-row">${button('✓ Got it', 'party-award', 'award-yes', `data-player="${partyGuesser(p)}"`)}${button('✕ Missed', 'party-award', 'award-no', 'data-player="none"')}</div>`
+        : `<div class="award-label">Who got it first?</div><div class="award-grid">${p.players
+            .map((pl, i) =>
+              i === partyReader(p)
+                ? ''
+                : button(escapeHtml(pl.name), 'party-award', 'secondary', `data-player="${i}"`),
+            )
+            .join(
+              '',
+            )}${button('Nobody got it', 'party-award', 'award-no', 'data-player="none"')}</div>`;
+      return `${logo()}${back()}<section class="panel round-panel party-panel">
+  ${clockBlock(q.category, p.index + 1, total)}
+  <div class="reader-line">📣 ${escapeHtml(reader.name)} reads${guesser ? ` to ${escapeHtml(guesser.name)}` : ' to the table'}</div>
+  <h2 class="question">${escapeHtml(q.q)}</h2>
+  ${choices}
+  ${award}
+  </section>`;
+    }
+    const lyricSong = q.lyricSong;
+    const lyricArtist = q.lyricArtist;
+    reportTarget = { id: q.id, song: lyricSong, artist: lyricArtist, live: false };
+    const searchLyrics = `https://www.google.com/search?q=${encodeURIComponent(lyricArtist + ' ' + lyricSong + ' lyrics')}`;
+    const won = p.winner !== null;
+    const last = p.index + 1 >= total;
+    const nextReader = p.players[(p.index + 1) % p.players.length];
+    return `${logo()}${back()}<section class="panel round-panel party-panel">
+  <div class="answer-note ${won ? 'right' : 'wrong'}">
+    <div class="answer-result">${won ? `✓ ${escapeHtml(p.players[p.winner].name)} got it · +${p.earned}` : guesser ? `✕ ${escapeHtml(guesser.name)} missed it` : '✕ Nobody got it'}</div>
+    <strong>RIGHT ANSWER: ${escapeHtml(q.choices[q.a])}</strong>
+    <div class="lyric-label">${String(q.lyric).trim().split(/\s+/).length <= 3 ? 'THE SONG HOOK' : 'FROM THE LYRICS'}</div>
+    <blockquote class="lyric-quote">“${escapeHtml(q.lyric).replaceAll(' / ', '<br>')}”</blockquote>
+    <div class="lyric-credit">${escapeHtml(lyricSong)} · ${escapeHtml(lyricArtist)} <a class="full-lyrics" href="${escapeHtml(searchLyrics)}" target="_blank" rel="noopener noreferrer">Full lyrics ↗</a></div>
+    ${soloOnly ? '' : '<span class="gain"><span></span><button class="report-link" data-action="report">Report a question error</button></span>'}
+  </div>
+  ${button(last ? 'See Final Scores →' : `Pass to ${escapeHtml(nextReader.name)} →`, 'party-next', 'block')}
+  ${partyScoreboard(p, won ? p.winner : null)}
+  </section>`;
+  }
+  function drawPartyFinish() {
+    const players = [...party.players].sort((a, b) => b.score - a.score);
+    const winners = players.filter((pl) => pl.score === players[0].score);
+    const line =
+      players[0].score === 0
+        ? 'Nobody scored. Rough night at the honky tonk.'
+        : winners.length > 1
+          ? `It’s a tie between ${winners.map((w) => escapeHtml(w.name)).join(' and ')}. Run it back.`
+          : `${escapeHtml(winners[0].name)} owns the jukebox.`;
+    return `${logo()}${back()}<section class="panel results"><div class="eyebrow">That's a wrap</div><div class="trophy" aria-hidden="true"><svg viewBox="0 0 100 100" width="64" height="64" focusable="false"><polygon points="50,5 61.8,36 95,36 68,56 79,89 50,69 21,89 32,56 5,36 38.2,36" fill="currentColor"/></svg></div><h2 class="section-title">Party's over</h2><p class="section-sub" style="margin-top:12px">${line}</p>
+  <div class="podium">${players.map((pl, i) => `<div class="podiumrow"><span>${i + 1}. ${escapeHtml(pl.name)}<small style="display:block;color:#aeb9af;font-size:11px">${pl.correct} right</small></span><b>${pl.score}</b></div>`).join('')}</div>
+  ${button('Play Again →', 'party-start', 'block')}
+  ${button('Change Players or Rules', 'open-party', 'block secondary')}
+  <p class="muted">Party games don't count toward the leaderboard.</p>${soloOnly ? '' : '<a class="tip-link" href="/tip/">Enjoying the Showdown? Tip the jukebox →</a>'}</section>`;
   }
   function drawLeaderboard() {
     const rows = leaderboard?.rows || [];
@@ -514,21 +708,28 @@
     let html = '';
     document.body?.classList?.toggle('in-leaderboard', view === 'leaderboard');
     document.body?.classList?.toggle('in-menu', view === 'menu');
-    document.body?.classList?.toggle('in-setup', view === 'setup');
+    document.body?.classList?.toggle('in-setup', view === 'setup' || view === 'partySetup');
     document.body?.classList?.toggle('in-lobby', view === 'room' && serverState?.phase === 'lobby');
     document.body?.classList?.toggle(
       'in-round',
-      view === 'solo' || (view === 'room' && ['question', 'reveal'].includes(serverState?.phase)),
+      view === 'solo' ||
+        (view === 'party' && party?.phase !== 'pass') ||
+        (view === 'room' && ['question', 'reveal'].includes(serverState?.phase)),
     );
     document.body?.classList?.toggle(
       'in-results',
-      view === 'soloDone' || (view === 'room' && serverState?.phase === 'finished'),
+      view === 'soloDone' ||
+        view === 'partyDone' ||
+        (view === 'room' && serverState?.phase === 'finished'),
     );
     if (view === 'menu') html = drawMenu();
     if (view === 'leaderboard') html = drawLeaderboard();
     if (view === 'setup') html = drawSetup();
     if (view === 'solo') html = drawQuestion('solo', solo);
     if (view === 'soloDone') html = drawFinish(solo, true);
+    if (view === 'partySetup') html = drawPartySetup();
+    if (view === 'party') html = drawParty();
+    if (view === 'partyDone') html = drawPartyFinish();
     if (view === 'room' && serverState) {
       const phase = serverState.phase;
       html =
@@ -545,6 +746,16 @@
     const timer = $('#clock');
     const fill = $('#time-fill');
     if (!timer || !fill) return;
+    if (view === 'party') {
+      // Party clock is just pressure: the reader still decides who got it after time runs out.
+      if (party?.phase !== 'question') return;
+      const left = Math.max(0, party.endsAt - Date.now());
+      const secs = Math.ceil(left / 1000);
+      timer.textContent = left > 0 ? secs + 's' : "TIME'S UP";
+      timer.classList.toggle('warn', secs <= 5);
+      fill.style.width = (100 * left) / 30000 + '%';
+      return;
+    }
     const local = view === 'solo';
     const s = local ? solo : serverState;
     if (!s) return;
@@ -628,6 +839,45 @@
         await runAction('answer', { choice });
         pendingChoice = false;
       }
+      return;
+    }
+    if (action === 'open-party') {
+      view = 'partySetup';
+      error = '';
+      render();
+      return;
+    }
+    if (action.startsWith('party-')) {
+      if (view === 'partySetup') syncPartyDraft();
+      if (action === 'party-add' && partyDraft.names.length < 8) partyDraft.names.push('');
+      if (action === 'party-remove' && partyDraft.names.length > 2)
+        partyDraft.names.splice(Number(element.dataset.index), 1);
+      if (action === 'party-set') {
+        const v = element.dataset.value;
+        partyDraft[element.dataset.field] = element.dataset.field === 'turns' ? Number(v) : v;
+      }
+      if (action === 'party-start') return startParty();
+      if (action === 'party-go' && party?.phase === 'pass') {
+        party.phase = 'question';
+        party.choicesShown = party.choicesFirst;
+        party.endsAt = Date.now() + 30000;
+      }
+      if (action === 'party-choices' && party?.phase === 'question') party.choicesShown = true;
+      if (action === 'party-award' && party?.phase === 'question') {
+        const who = element.dataset.player;
+        return scoreParty(who === 'none' ? null : Number(who));
+      }
+      if (action === 'party-next' && party?.phase === 'reveal') {
+        if (party.index + 1 >= party.order.length) view = 'partyDone';
+        else {
+          party.index++;
+          party.phase = 'pass';
+          party.winner = null;
+          party.earned = 0;
+        }
+      }
+      if (view === 'partySetup') savePartyDraft();
+      render();
       return;
     }
     if (action === 'report') {
