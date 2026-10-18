@@ -179,12 +179,17 @@ for x in json.loads((DATA_DIR/'extra_questions.json').read_text()):
 # 1 huge, 2 solid hit, 3 deep cut) and the question type. Real answer rates take over in-game
 # once a question has enough plays, so this only has to be a sensible first guess.
 FAME=json.loads((DATA_DIR/'song_fame.json').read_text())
+# Songs that hit No. 1 on Billboard's Hot Country chart, from Wikipedia's 1990-99 lists.
+NUMBER_ONES=set(json.loads((DATA_DIR/'number_ones.json').read_text()))
 # Lyric questions run harder than the song's fame suggests: players got them right about 35% of the
 # time even on huge hits, versus 70% for who-sings-it on the same songs.
 TIER_BY_TYPE={'who':(1,2,3),'lyric':(2,3,3),'detail':(2,3,3)}
 for q in items:
     kind='who' if q['category'] in ('WHO SINGS IT?','PICK THE HIT','FILL IN THE TITLE') else 'lyric' if q['category'] in ('FINISH THE LYRIC','NAME THAT SONG') else 'detail'
     q['tier']=q.get('tier') or TIER_BY_TYPE[kind][FAME.get(q['topic'],2)-1]
+    # Artist and title questions on a No. 1 hit start easy: players got who-sings-it right 57% of
+    # the time on No. 1s rated "solid", close to the 65% on huge hits and well above other songs.
+    if kind=='who' and q['topic'] in NUMBER_ONES: q['tier']=1
 
 # Validate answer parity, unique ids, 1 unambiguous key per question, and lyric cap.
 assert len({q['id'] for q in items})==len(items)

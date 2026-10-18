@@ -38,6 +38,7 @@ lyrics source; song titles and paraphrases are not a substitute.
 Each question gets a starting tier (1 easy, 2 medium, 3 hard) from its song's fame and its
 type: artist and title questions follow the fame, and lyric and story-detail questions start
 one step harder (players got lyric questions right only ~35% of the time even on huge hits).
+Artist and title questions on any No. 1 hit (`number_ones.json`, from Wikipedia) start easy.
 
 Real answers adjust tiers from the first one (`public/country/picker.js`): the starting tier
 counts as six imaginary answers at its typical rate (80% / 50% / 25%), and each real answer
