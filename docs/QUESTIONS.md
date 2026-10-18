@@ -26,3 +26,7 @@ Keep songs strictly to 1990–1999 singles and check artist, credit and year. Th
 lyric should be the line people sing along to — the full line, as sung, so reading it plays
 the song in your head — and at most two short lines (25 words). Verify wording against a
 lyrics source; song titles and paraphrases are not a substitute.
+
+Finish the Lyric and Name That Song reveals must show the line the question quotes. The build
+enforces this: if the snippet doesn't contain the quoted line (plus the answer, for Finish the
+Lyric), the reveal becomes that completed line.
