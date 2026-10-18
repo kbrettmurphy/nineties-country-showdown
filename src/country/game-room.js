@@ -6,10 +6,18 @@ import {
   fail,
   shortName,
   isToken,
-  TOPIC_HISTORY_LIMIT,
+  HISTORY_LIMIT,
+  cleanLevel,
   cleanHistory,
+  fromLegacyTopics,
   pickQuestions,
 } from './shared.js';
+
+// A browser's local play history: question ids from current clients, songs from older ones.
+const browserHistory = (data) =>
+  Array.isArray(data?.recentQuestions)
+    ? cleanHistory(data.recentQuestions)
+    : fromLegacyTopics(data?.recentTopics);
 
 export class GameRoom {
   constructor(ctx, env) {
@@ -24,22 +32,26 @@ export class GameRoom {
     );
   }
 
-  // Every song any player in the room has been asked under their nickname, on any device.
+  // Every question any player in the room has been asked under their nickname, on any device,
+  // plus difficulty tiers measured from real answers.
   async nameHistory(token, data) {
     const room = await this.ctx.storage.get('room');
-    if (!room) return [];
+    if (!room) return { history: [], tiers: [] };
     try {
       const response = await this.leaderboard('/history/merge', {
         players: room.players.map((p) => ({
           name: p.name,
-          topics: p.token === token ? data.recentTopics : room.recentByPlayer?.[p.token],
+          questions: p.token === token ? browserHistory(data) : room.recentByPlayer?.[p.token],
         })),
       });
-      const { histories } = await response.json();
-      return Array.isArray(histories) ? cleanHistory(histories.flat()) : [];
+      const { histories, tiers } = await response.json();
+      return {
+        history: Array.isArray(histories) ? histories.flat() : [],
+        tiers: Array.isArray(tiers) ? tiers : [],
+      };
     } catch (e) {
       console.error('Could not load player history:', e);
-      return [];
+      return { history: [], tiers: [] };
     }
   }
 
@@ -98,6 +110,7 @@ export class GameRoom {
       phase: room.phase,
       isHost: room.host === token,
       rounds: room.rounds,
+      level: room.level || 'mixed',
       index: room.index,
       total: room.order?.length || room.rounds,
       endsAt: room.endsAt || null,
@@ -152,7 +165,9 @@ export class GameRoom {
     // Fetched before the room is read: awaiting another object here would let other requests
     // change the room underneath us.
     const nameHistory =
-      action === 'start' || action === 'rematch' ? await this.nameHistory(token, data) : [];
+      action === 'start' || action === 'rematch'
+        ? await this.nameHistory(token, data)
+        : { history: [], tiers: [] };
     let room = await this.ctx.storage.get('room');
     const now = Date.now();
     if (action === 'create') {
@@ -167,11 +182,12 @@ export class GameRoom {
         index: 0,
         matchNumber: 0,
         rounds: data.rounds === 20 ? 20 : 10,
+        level: cleanLevel(data.level),
         order: [],
         answers: {},
         players: [{ token, name, score: 0, correct: 0 }],
-        recentByPlayer: { [token]: cleanHistory(data.recentTopics) },
-        playedTopics: [],
+        recentByPlayer: { [token]: browserHistory(data) },
+        playedQuestions: [],
       };
       await this.ctx.storage.put('room', room);
       return this.state(room, token);
@@ -190,7 +206,7 @@ export class GameRoom {
           return fail('That name is taken in this room.');
         room.players.push({ token, name, score: 0, correct: 0 });
         room.recentByPlayer ||= {};
-        room.recentByPlayer[token] = cleanHistory(data.recentTopics);
+        room.recentByPlayer[token] = browserHistory(data);
         await this.ctx.storage.put('room', room);
       }
       return this.state(room, token);
@@ -206,17 +222,20 @@ export class GameRoom {
       if (action === 'rematch' && room.phase !== 'finished')
         return fail('Finish this game before a rematch.');
       room.recentByPlayer ||= {};
-      room.recentByPlayer[token] = cleanHistory(data.recentTopics);
+      room.recentByPlayer[token] = browserHistory(data);
       const allRecent = [
-        ...nameHistory,
+        ...nameHistory.history,
         ...Object.values(room.recentByPlayer).flat(),
-        ...(room.playedTopics || []),
+        ...(room.playedQuestions || []),
       ];
-      room.order = pickQuestions(room.rounds, allRecent);
-      room.playedTopics = [
-        ...(room.playedTopics || []),
-        ...room.order.map((i) => QUESTIONS[i].topic),
-      ].slice(-TOPIC_HISTORY_LIMIT);
+      room.order = pickQuestions(room.rounds, allRecent, {
+        level: room.level,
+        tiers: new Map(nameHistory.tiers),
+      });
+      room.playedQuestions = [
+        ...(room.playedQuestions || []),
+        ...room.order.map((i) => QUESTIONS[i].id),
+      ].slice(-HISTORY_LIMIT);
       room.index = 0;
       room.phase = 'question';
       room.answers = {};
@@ -249,7 +268,6 @@ export class GameRoom {
         const askedAt = room.endsAt - DURATION_MS;
         await this.leaderboard('/round', {
           names: room.players.map((p) => p.name),
-          topic: question.topic,
           questionId: question.id,
           answers: room.players.map((p) => {
             const a = room.answers[p.token];
@@ -266,6 +284,7 @@ export class GameRoom {
         const result = await this.leaderboard('/record', {
           matchId: `room-${room.code}-${room.createdAt}-${room.matchNumber || 1}`,
           rounds: room.rounds,
+          level: room.level || 'mixed',
           mode: 'multiplayer',
           players: room.players.map((p) => ({
             name: p.name,

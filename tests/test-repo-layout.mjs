@@ -10,6 +10,7 @@ for (const path of [
   'public/numbers/styles.css',
   'public/country/index.html',
   'public/country/app.js',
+  'public/country/picker.js',
   'public/country/styles.css',
   'public/country/questions.js',
   'src/worker.js',

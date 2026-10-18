@@ -163,6 +163,15 @@ for x in new_songs:
     items.append(dict(id=len(items)+1,category=LABEL[x['type']],topic=topic,q=q,choices=choices,
         a=choices.index(correct),lyric=x['snippet'],lyricSong=x['song'],lyricArtist=x['artist']))
 
+# Starting difficulty tier (1 easy, 2 medium, 3 hard) from how big the song was (song_fame.json:
+# 1 huge, 2 solid hit, 3 deep cut) and the question type. Real answer rates take over in-game
+# once a question has enough plays, so this only has to be a sensible first guess.
+FAME=json.loads((DATA_DIR/'song_fame.json').read_text())
+TIER_BY_TYPE={'who':(1,2,3),'lyric':(1,2,3),'detail':(2,3,3)}
+for q in items:
+    kind='who' if q['category']=='WHO SINGS IT?' else 'lyric' if q['category'] in ('FINISH THE LYRIC','NAME THAT SONG') else 'detail'
+    q['tier']=q.get('tier') or TIER_BY_TYPE[kind][FAME.get(q['topic'],2)-1]
+
 # Validate answer parity, unique ids, 1 unambiguous key per question, and lyric cap.
 assert len({q['id'] for q in items})==len(items)
 assert len({q['topic'] for q in items[len(base):len(base)+len(all_hits)]})==len(all_hits)

@@ -1404,7 +1404,8 @@ body.in-round .footnote {
 /* Hall of Fame */
 .board-tabs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
   gap: 8px;
   margin: 14px 0;
 }

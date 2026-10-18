@@ -55,8 +55,18 @@ const freshToken = () => String(++device).padStart(32, 'd');
 const seenBy = new Map();
 const playSolo = async (name) => {
   const token = freshToken();
-  const start = await post(board, '/solo/start', { name, token, rounds: 10, recentTopics: [] });
-  const topics = [];
+  const start = await post(board, '/solo/start', {
+    name,
+    token,
+    rounds: 10,
+    recentQuestions: [],
+  });
+  assert.equal(
+    new Set(start.questionIds.map((id) => byId.get(id).topic)).size,
+    10,
+    'one song once',
+  );
+  const ids = [];
   for (const [i, id] of start.questionIds.entries()) {
     await post(board, '/solo/answer', {
       token,
@@ -64,16 +74,21 @@ const playSolo = async (name) => {
       questionId: id,
       choice: 0,
     });
-    topics.push(byId.get(id).topic);
+    ids.push(id);
     if (i < 9) await post(board, '/solo/next', { token, sessionId: start.sessionId });
   }
-  return topics;
+  return ids;
 };
 
 // Solo on one device, then a different device with the same nickname (any capitalization).
 const first = await playSolo('Brett');
 const second = await playSolo('brett');
-assert.equal(new Set([...first, ...second]).size, 20, 'second device must not repeat songs');
+assert.equal(new Set([...first, ...second]).size, 20, 'second device must not repeat questions');
+assert.equal(
+  new Set([...first, ...second].map((id) => byId.get(id).topic)).size,
+  20,
+  'fresh songs come before new questions on songs already heard',
+);
 seenBy.set('brett', new Set([...first, ...second]));
 
 // Multiplayer with brand-new browsers: the room still avoids everything Brett has played.
@@ -91,11 +106,11 @@ const host = freshToken(),
   guest = freshToken();
 await post(room, '/create', { token: host, name: 'Brett', rounds: 10, code: 'HIST22' });
 await post(room, '/join', { token: guest, name: 'Russ' });
-let state = await post(room, '/start', { token: host, recentTopics: [] });
-const roomTopics = store.get('room').order.map((i) => QUESTIONS[i].topic);
+let state = await post(room, '/start', { token: host, recentQuestions: [] });
+const roomIds = store.get('room').order.map((i) => QUESTIONS[i].id);
 assert.ok(
-  roomTopics.every((t) => !seenBy.get('brett').has(t)),
-  'room must skip songs from Brett’s solo games on other devices',
+  roomIds.every((id) => !seenBy.get('brett').has(id)),
+  'room must skip questions from Brett’s solo games on other devices',
 );
 await post(room, '/answer', { token: host, choice: 0 });
 state = await post(room, '/answer', { token: guest, choice: 1 });
@@ -109,22 +124,22 @@ assert.equal(roomStats.picks[roomQ.choices[0]], 1);
 assert.equal(roomStats.picks[roomQ.choices[1]], 1);
 assert.ok(roomStats.avg_ms >= 0 && roomStats.avg_ms <= 30000);
 assert.equal(state.phase, 'reveal');
-const russ = await post(board, '/history/merge', { players: [{ name: 'Russ', topics: [] }] });
+const russ = await post(board, '/history/merge', { players: [{ name: 'Russ', questions: [] }] });
 assert.deepEqual(
   russ.histories[0],
-  [roomTopics[0]],
-  'revealed song is remembered for every player',
+  [roomIds[0]],
+  'revealed question is remembered for every player',
 );
 
-// Keep playing solo on fresh devices: no song repeats until the whole bank has been asked.
-const total = new Set(QUESTIONS.map((q) => q.topic)).size;
+// Keep playing solo on fresh devices: no question repeats until the whole bank has been asked.
+const total = QUESTIONS.length;
 const all = seenBy.get('brett');
-all.add(roomTopics[0]);
+all.add(roomIds[0]);
 while (all.size + 10 <= total) {
-  const topics = await playSolo('Brett');
-  for (const t of topics) {
-    assert.ok(!all.has(t), `repeat after ${all.size} of ${total} songs`);
-    all.add(t);
+  const ids = await playSolo('Brett');
+  for (const id of ids) {
+    assert.ok(!all.has(id), `repeat after ${all.size} of ${total} questions`);
+    all.add(id);
   }
 }
 // Every solo answer was recorded too, once per question asked.
@@ -137,5 +152,5 @@ assert.ok(
   'stats carry the question text',
 );
 console.log(
-  `PASS: song history follows the nickname across devices and solo/multiplayer, answer stats recorded; ${all.size} of ${total} songs before any repeat.`,
+  `PASS: question history follows the nickname across devices and solo/multiplayer, answer stats recorded; ${all.size} of ${total} questions before any repeat.`,
 );

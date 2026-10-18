@@ -13,7 +13,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Stood on the rail and painted a ten-foot heart in John Deere green",
     "lyricSong": "John Deere Green",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "He wrote Billy Bob loves Charlene in letters three foot high",
     "lyricSong": "John Deere Green",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "They settled down on eighty acres, raising sweet corn, kids and tomatoes",
     "lyricSong": "John Deere Green",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "We got a hundred gallons of sweet red wine / Made from the biggest watermelons on the vine",
     "lyricSong": "Watermelon Crawl",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I was drivin’ through Georgia in late July / On a day hot enough to make the devil sigh",
     "lyricSong": "Watermelon Crawl",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Creal Williams lived down a dirt road / He made homemade wine like nobody I know",
     "lyricSong": "Dust on the Bottle",
-    "lyricArtist": "David Lee Murphy"
+    "lyricArtist": "David Lee Murphy",
+    "tier": 3
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "He said I got what you need, son / As we stepped down in the cellar",
     "lyricSong": "Dust on the Bottle",
-    "lyricArtist": "David Lee Murphy"
+    "lyricArtist": "David Lee Murphy",
+    "tier": 3
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol",
     "lyricSong": "Time Marches On",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Now sister calls herself a sexy grandma / Brother’s on a diet for high cholesterol",
     "lyricSong": "Time Marches On",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m sold on the lady in the second row, she’s an eight, she’s a nine, she’s a ten, I know",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 11,
@@ -173,7 +183,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She’s got ruby red lips, blond hair, blue eyes, and I’m about to bid my heart goodbye",
     "lyricSong": "Sold (The Grundy County Auction Incident)",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 12,
@@ -189,7 +200,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Johnny’s daddy was takin’ him fishin’ when he was eight years old",
     "lyricSong": "Don’t Take the Girl",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 13,
@@ -205,7 +217,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Here’s the watch that my grandpa gave me / Here’s the key to my car",
     "lyricSong": "Don’t Take the Girl",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 14,
@@ -221,7 +234,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Like strawberry wine and seventeen / The hot July moon saw everything",
     "lyricSong": "Strawberry Wine",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 2
   },
   {
     "id": 15,
@@ -237,7 +251,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "He was working through college on my grandpa’s farm / I was thirsting for knowledge and he had a car",
     "lyricSong": "Strawberry Wine",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 2
   },
   {
     "id": 16,
@@ -253,7 +268,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I still remember when thirty was old / My biggest fear was September when he had to go",
     "lyricSong": "Strawberry Wine",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 2
   },
   {
     "id": 17,
@@ -269,7 +285,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "So I made her the queen of my double-wide trailer / with the polyester curtains and the redwood deck",
     "lyricSong": "Queen of My Double Wide Trailer",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 18,
@@ -285,7 +302,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Bubba shot the jukebox last night / said it played a sad song, it made him cry",
     "lyricSong": "Bubba Shot the Jukebox",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 2
   },
   {
     "id": 19,
@@ -301,7 +319,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Every light in the house is on / The backyard’s bright as the crack of dawn",
     "lyricSong": "Every Light in the House",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 20,
@@ -317,7 +336,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Some girls don’t like boys like me / aww, but some girls do",
     "lyricSong": "Some Girls Do",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 2
   },
   {
     "id": 21,
@@ -333,7 +353,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Try not to think about what might have been / ’cause that was then and we have taken different roads",
     "lyricSong": "What Might Have Been",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 2
   },
   {
     "id": 22,
@@ -349,7 +370,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Maybe it was Memphis, maybe it was southern summer nights",
     "lyricSong": "Maybe It Was Memphis",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 23,
@@ -365,7 +387,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m old enough to know better, but I’m still too young to care",
     "lyricSong": "Old Enough to Know Better",
-    "lyricArtist": "Wade Hayes"
+    "lyricArtist": "Wade Hayes",
+    "tier": 2
   },
   {
     "id": 24,
@@ -381,7 +404,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s got her daddy’s money, her mama’s good looks / more laughs than a stack of comic books",
     "lyricSong": "Daddy’s Money",
-    "lyricArtist": "Ricochet"
+    "lyricArtist": "Ricochet",
+    "tier": 2
   },
   {
     "id": 25,
@@ -397,7 +421,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "No one else on Earth could ever hurt me / Break my heart the way you do",
     "lyricSong": "No One Else on Earth",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 2
   },
   {
     "id": 26,
@@ -413,7 +438,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Guide my feet and hold me tight / I need ten thousand angels watchin’ over me tonight",
     "lyricSong": "Ten Thousand Angels",
-    "lyricArtist": "Mindy McCready"
+    "lyricArtist": "Mindy McCready",
+    "tier": 2
   },
   {
     "id": 27,
@@ -429,7 +455,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "There ain’t no place that I’d rather be / Next to you, sittin’ next to me",
     "lyricSong": "Next to You, Next to Me",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 2
   },
   {
     "id": 28,
@@ -445,7 +472,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m a thousand miles from nowhere, time don’t matter to me",
     "lyricSong": "A Thousand Miles from Nowhere",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 2
   },
   {
     "id": 29,
@@ -461,7 +489,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "One boy, one girl, two hearts beating wildly / To put it mildly, it was love at first sight",
     "lyricSong": "One Boy, One Girl",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 30,
@@ -477,7 +506,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I couldn’t make you love me, but I always dreamed about livin’ in your radio / How do you like me now?",
     "lyricSong": "How Do You Like Me Now?!",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 1
   },
   {
     "id": 31,
@@ -493,7 +523,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Now I’m walkin’ in the moonlight / Seein’ nothin’ but the taillights",
     "lyricSong": "Nothin’ but the Taillights",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 32,
@@ -509,7 +540,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "So go rest high on that mountain / Son, your work on earth is done",
     "lyricSong": "Go Rest High on That Mountain",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 1
   },
   {
     "id": 33,
@@ -525,7 +557,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "My Maria, don’t you know I’ve come a long, long way",
     "lyricSong": "My Maria",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 1
   },
   {
     "id": 34,
@@ -541,7 +574,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Bye-bye, love, I’ll catch you later, got a lead foot down on my accelerator",
     "lyricSong": "Bye Bye",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 2
   },
   {
     "id": 35,
@@ -557,7 +591,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Let freedom ring, let the white dove sing / let the whole world know that today is a day of reckoning",
     "lyricSong": "Independence Day",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 1
   },
   {
     "id": 36,
@@ -573,7 +608,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I still believe in you / With a love that will always be standin’ so strong and true",
     "lyricSong": "I Still Believe in You",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 37,
@@ -589,7 +625,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’s got the rhythm and I got the blues / And she’s showing me how much I had to lose",
     "lyricSong": "She’s Got the Rhythm (And I Got the Blues)",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 38,
@@ -605,7 +642,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause the heart won’t lie / sometimes life gets in the way, but there’s one thing that won’t change",
     "lyricSong": "The Heart Won’t Lie",
-    "lyricArtist": "Reba McEntire & Vince Gill"
+    "lyricArtist": "Reba McEntire & Vince Gill",
+    "tier": 2
   },
   {
     "id": 39,
@@ -621,7 +659,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I think I’m on a roll here in Little Rock / I’m solid as a stone, baby, wait and see",
     "lyricSong": "Little Rock",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 40,
@@ -637,7 +676,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But I like it, I love it, I want some more of it / I try so hard, I can’t rise above it",
     "lyricSong": "I Like It, I Love It",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 1
   },
   {
     "id": 41,
@@ -653,7 +693,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Whose bed have your boots been under? / And whose heart did you steal I wonder?",
     "lyricSong": "Whose Bed Have Your Boots Been Under?",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 42,
@@ -669,7 +710,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She’s in love with the boy / And even if they have to run away, she’s gonna marry that boy someday",
     "lyricSong": "She’s in Love with the Boy",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 1
   },
   {
     "id": 43,
@@ -685,7 +727,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Heads Carolina, tails California, somewhere greener, somewhere warmer / Up in the mountains, down by the ocean",
     "lyricSong": "Heads Carolina, Tails California",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 1
   },
   {
     "id": 44,
@@ -701,7 +744,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And I began to understand, there’s just something women like about a pickup man",
     "lyricSong": "Pickup Man",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 1
   },
   {
     "id": 45,
@@ -717,7 +761,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Every little thing that you do / baby, I’m amazed by you",
     "lyricSong": "Amazed",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 1
   },
   {
     "id": 46,
@@ -733,7 +778,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Blue, oh, so lonesome for you / Why can’t you be blue over me?",
     "lyricSong": "Blue",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 1
   },
   {
     "id": 47,
@@ -749,7 +795,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She needs wide open spaces / Room to make her big mistakes",
     "lyricSong": "Wide Open Spaces",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 1
   },
   {
     "id": 48,
@@ -765,7 +812,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It’s your love, it just does somethin’ to me / It sends a shock right through me, I can’t get enough",
     "lyricSong": "It’s Your Love",
-    "lyricArtist": "Tim McGraw & Faith Hill"
+    "lyricArtist": "Tim McGraw & Faith Hill",
+    "tier": 2
   },
   {
     "id": 49,
@@ -781,7 +829,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "How do I live without you? I want to know / How do I breathe without you if you ever go?",
     "lyricSong": "How Do I Live",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 2
   },
   {
     "id": 50,
@@ -797,7 +846,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "By the fire in your touch and the flame in your eyes / I’m born to love again, I’m a brand new man",
     "lyricSong": "Brand New Man",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 51,
@@ -813,7 +863,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Tight pants, line dance, Stetson hats and cowboy boots / They got a Friday night, get right honky tonk attitude",
     "lyricSong": "Honky Tonk Attitude",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 3
   },
   {
     "id": 52,
@@ -829,7 +880,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "As I head for the door, I turn around to be sure / Did I shave my legs for this?",
     "lyricSong": "Did I Shave My Legs for This?",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 3
   },
   {
     "id": 53,
@@ -845,7 +897,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Cowboy, take me away / Fly this girl as high as you can into the wild blue",
     "lyricSong": "Cowboy Take Me Away (from Fly)",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 54,
@@ -861,7 +914,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "’Cause I’ve got friends in low places, where the whiskey drowns and the beer chases my blues away",
     "lyricSong": "Friends in Low Places",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 55,
@@ -877,7 +931,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "The thunder rolls and the lightnin’ strikes / Another love grows cold on a sleepless night",
     "lyricSong": "The Thunder Rolls",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 56,
@@ -893,7 +948,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Sometimes I thank God for unanswered prayers / Remember when you’re talkin’ to the man upstairs",
     "lyricSong": "Unanswered Prayers",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 57,
@@ -909,7 +965,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Hey, she’s my little Queen of the South / Yeah, we’re two of a kind, workin’ on a full house",
     "lyricSong": "Two of a Kind, Workin’ on a Full House",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 58,
@@ -925,7 +982,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Well, it’s bulls and blood, it’s dust and mud, it’s the roar of a Sunday crowd",
     "lyricSong": "Rodeo",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 59,
@@ -941,7 +999,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m shameless when it comes to loving you, I’ll do anything you want me to",
     "lyricSong": "Shameless",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 60,
@@ -957,7 +1016,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Papa loved Mama, Mama loved men / Mama’s in the graveyard, Papa’s in the pen",
     "lyricSong": "Papa Loved Mama",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 61,
@@ -973,7 +1033,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And I will sail my vessel ’til the river runs dry / Like a bird upon the wind, these waters are my sky",
     "lyricSong": "The River",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 62,
@@ -989,7 +1050,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause what she’s doin’ now is tearin’ me apart, fillin’ up my mind and emptying my heart",
     "lyricSong": "What She’s Doing Now",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 63,
@@ -1005,7 +1067,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Somewhere other than the night, she needs to hear I love you",
     "lyricSong": "Somewhere Other Than the Night",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 3
   },
   {
     "id": 64,
@@ -1021,7 +1084,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She had a need to feel the thunder, to chase the lightning from the sky",
     "lyricSong": "That Summer",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 65,
@@ -1037,7 +1101,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Ain’t goin’ down ’til the sun comes up, ain’t givin’ in ’til they get enough",
     "lyricSong": "Ain’t Goin’ Down (’Til the Sun Comes Up)",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 66,
@@ -1053,7 +1118,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Life is not tried, it is merely survived if you’re standing outside the fire",
     "lyricSong": "Standing Outside the Fire",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 67,
@@ -1069,7 +1135,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Operator, won’t you put me on through? I gotta send my love down to Baton Rouge",
     "lyricSong": "Callin’ Baton Rouge",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 68,
@@ -1085,7 +1152,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’ll see her footprints in the sand / ’Cause every night she walks the beaches of Cheyenne",
     "lyricSong": "The Beaches of Cheyenne",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 69,
@@ -1101,7 +1169,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause she’ll rage just like a river, then she’ll beg you to forgive her / She’s every woman that I’ve ever known",
     "lyricSong": "She’s Every Woman",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 70,
@@ -1117,7 +1186,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I do this so this world will know that it will not change me",
     "lyricSong": "The Change",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 71,
@@ -1133,7 +1203,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Longneck bottle, let go of my hand / Hey, jukebox, don’t start playin’ that song again",
     "lyricSong": "Longneck Bottle",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 72,
@@ -1149,7 +1220,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "So bring me two piña coladas, one for each hand / Let’s set sail with Captain Morgan",
     "lyricSong": "Two Piña Coladas",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 73,
@@ -1165,7 +1237,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Chasin’ that neon rainbow, livin’ that honky-tonk dream / ’Cause all I’ve ever wanted is to pick this guitar and sing",
     "lyricSong": "Chasin’ That Neon Rainbow",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 74,
@@ -1181,7 +1254,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But here in the real world, it’s not that easy at all / ’Cause when hearts get broken, it’s real tears that fall",
     "lyricSong": "Here in the Real World",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 75,
@@ -1197,7 +1271,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Don’t rock the jukebox, I wanna hear some Jones / ’Cause my heart ain’t ready for the Rolling Stones",
     "lyricSong": "Don’t Rock the Jukebox",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 76,
@@ -1213,7 +1288,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And I told her someday, she said I can’t wait / ’Cause sometimes someday just never comes",
     "lyricSong": "Someday",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 77,
@@ -1229,7 +1305,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "’Cause it’s midnight in Montgomery / Just hear that whippoorwill",
     "lyricSong": "Midnight in Montgomery",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 78,
@@ -1245,7 +1322,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Way down yonder on the Chattahoochee / It gets hotter than a hoochie coochie",
     "lyricSong": "Chattahoochee",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 79,
@@ -1261,7 +1339,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Crazy ’bout a Mercury / I’m gonna buy me a Mercury and cruise it up and down the road",
     "lyricSong": "Mercury Blues",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 80,
@@ -1277,7 +1356,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s gone country, look at them boots / She’s gone country, back to her roots",
     "lyricSong": "Gone Country",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 81,
@@ -1293,7 +1373,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Livin’ on love, buyin’ on time / Without somebody nothing ain’t worth a dime",
     "lyricSong": "Livin’ on Love",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 82,
@@ -1309,7 +1390,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Sometimes I wonder what I’m gonna do / ’Cause there ain’t no cure for the summertime blues",
     "lyricSong": "Summertime Blues",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 83,
@@ -1325,7 +1407,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m in love with you, baby, and I don’t even know your name",
     "lyricSong": "I Don’t Even Know Your Name",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 84,
@@ -1341,7 +1424,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’ll buy you tall, tall trees and all the waters in the seas / I’m a fool, fool, fool for you",
     "lyricSong": "Tall, Tall Trees",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 85,
@@ -1357,7 +1441,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Well, it’s alright to be little bitty / A little hometown or a big old city",
     "lyricSong": "Little Bitty",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 86,
@@ -1373,7 +1458,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And there go your paralyzin’ eyes / There goes your tantalizin’ smile",
     "lyricSong": "There Goes",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 87,
@@ -1389,7 +1475,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’s right on the money / She goes direct to my heart",
     "lyricSong": "Right on the Money",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 88,
@@ -1405,7 +1492,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Pop a top again / I just got time for one more round / Set ’em up, my friend",
     "lyricSong": "Pop a Top",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 89,
@@ -1421,7 +1509,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "He said daddies don’t just love their children every now and then / It’s a love without end, amen",
     "lyricSong": "Love Without End, Amen",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 90,
@@ -1437,7 +1526,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But you know me better than that, you know the me that gets lazy and fat",
     "lyricSong": "You Know Me Better Than That",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 91,
@@ -1453,7 +1543,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Will blow like a cold winter squall / And I’ll begin to feel the chill of an early fall",
     "lyricSong": "The Chill of an Early Fall",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 3
   },
   {
     "id": 92,
@@ -1469,7 +1560,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I cross my heart and promise to give all I’ve got to give to make all your dreams come true",
     "lyricSong": "I Cross My Heart",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 93,
@@ -1485,7 +1577,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Sing a song about the heartland, the only place I feel at home",
     "lyricSong": "Heartland",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 94,
@@ -1501,7 +1594,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Goodbye, farewell, so long, vaya con Dios / Good luck, wish you well, take it slow",
     "lyricSong": "Easy Come, Easy Go",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 95,
@@ -1517,7 +1611,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’d like to have that one back, never known someone so true",
     "lyricSong": "I’d Like to Have That One Back",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 3
   },
   {
     "id": 96,
@@ -1533,7 +1628,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "On the Richter scale of romance you hit twelve and you don’t stand a chance / This is the big one",
     "lyricSong": "The Big One",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 97,
@@ -1549,7 +1645,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You can’t make a heart love somebody / You can lead a heart to love, but you can’t make it fall",
     "lyricSong": "You Can’t Make a Heart Love Somebody",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 98,
@@ -1565,7 +1662,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Do you love me, do you wanna be my friend? / And if you do, well then don’t be afraid",
     "lyricSong": "Check Yes or No",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 99,
@@ -1581,7 +1679,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I know she still loves me, but I don’t think she likes me anymore",
     "lyricSong": "I Know She Still Loves Me",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 3
   },
   {
     "id": 100,
@@ -1597,7 +1696,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Surprise, your new love has arrived out of the blue clear sky",
     "lyricSong": "Blue Clear Sky",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 101,
@@ -1613,7 +1713,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I get carried away by the look, by the light in your eyes",
     "lyricSong": "Carried Away",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 102,
@@ -1629,7 +1730,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "All night, love all night, practice makes perfect, gonna get it right / Gonna get it right, one night at a time",
     "lyricSong": "One Night at a Time",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 103,
@@ -1645,7 +1747,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause I’m carrying your love with me, West Virginia down to Tennessee",
     "lyricSong": "Carrying Your Love with Me",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 104,
@@ -1661,7 +1764,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause today my world slipped away, we buried the plans that we made",
     "lyricSong": "Today My World Slipped Away",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 105,
@@ -1677,7 +1781,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I want to dance with you, twirl you all around the floor / That’s what they intended dancing for",
     "lyricSong": "I Just Want to Dance with You",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 106,
@@ -1693,7 +1798,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "True like the sun comin’ up each morning, bright as a light in a baby’s smile",
     "lyricSong": "True",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 107,
@@ -1709,7 +1815,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Baby, write this down, take a little note to remind you in case you didn’t know",
     "lyricSong": "Write This Down",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 108,
@@ -1725,7 +1832,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Get down, turn around, go to town, boot scootin’ boogie",
     "lyricSong": "Boot Scootin’ Boogie",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 1
   },
   {
     "id": 109,
@@ -1741,7 +1849,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "To watch your broken dreams / Dance in and out of the beams of a neon moon",
     "lyricSong": "Neon Moon",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 1
   },
   {
     "id": 110,
@@ -1757,7 +1866,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It’s kinda like a lost and found in a border town",
     "lyricSong": "Lost and Found",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 111,
@@ -1773,7 +1883,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m a hard, hard-workin’ man / I got it all on the line for a piece of the promised land",
     "lyricSong": "Hard Workin’ Man",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 112,
@@ -1789,7 +1900,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She walked out on me and tore my world apart / She used to be mine",
     "lyricSong": "She Used to Be Mine",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 113,
@@ -1805,7 +1917,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Acts like Madonna but she listens to Merle / Rock my world, little country girl",
     "lyricSong": "Rock My World (Little Country Girl)",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 114,
@@ -1821,7 +1934,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "That ain’t no way to go, girl, it just ain’t right / Don’t you think that I deserve to hear you say goodbye",
     "lyricSong": "That Ain’t No Way to Go",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 115,
@@ -1837,7 +1951,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’d better kiss me / ’Cause you’re gonna miss me when I’m gone",
     "lyricSong": "You’re Gonna Miss Me When I’m Gone",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 116,
@@ -1853,7 +1968,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m her big cat daddy, she’s my little Miss Honky Tonk",
     "lyricSong": "Little Miss Honky Tonk",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 117,
@@ -1869,7 +1985,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Needs somebody with a heart that’s true / A man this lonely needs a woman like you",
     "lyricSong": "A Man This Lonely",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 118,
@@ -1885,7 +2002,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "That’s the honky tonk truth, cross my broken heart",
     "lyricSong": "Honky Tonk Truth",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 3
   },
   {
     "id": 119,
@@ -1901,7 +2019,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Finally found the love of my life / Why would I say goodbye?",
     "lyricSong": "Why Would I Say Goodbye",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 3
   },
   {
     "id": 120,
@@ -1917,7 +2036,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It’s my belief pride is the chief cause in the decline / In the number of husbands and wives",
     "lyricSong": "Husbands and Wives",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 121,
@@ -1933,7 +2053,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "If you’re ever gonna come back home to me / Tell me, please, how long gone are you gonna be?",
     "lyricSong": "How Long Gone",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 122,
@@ -1949,7 +2070,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "My heart just can’t leave you alone, my mind won’t believe you’re gone / I can’t get over you",
     "lyricSong": "I Can’t Get Over You",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 3
   },
   {
     "id": 123,
@@ -1965,7 +2087,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She said, here’s your one chance, Fancy, don’t let me down",
     "lyricSong": "Fancy",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 1
   },
   {
     "id": 124,
@@ -1981,7 +2104,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Is there life out there, so much she hasn’t done / is there life beyond her family and her home?",
     "lyricSong": "Is There Life Out There",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 125,
@@ -1997,7 +2121,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "That’s the night that the lights went out in Georgia / that’s the night that they hung an innocent man",
     "lyricSong": "The Night the Lights Went Out in Georgia",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 1
   },
   {
     "id": 126,
@@ -2013,7 +2138,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "If this is how you act when you give your heart away / well, take it back",
     "lyricSong": "Take It Back",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 127,
@@ -2029,7 +2155,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "The greatest man I never knew lived just down the hall / and every day we said hello but never touched at all",
     "lyricSong": "The Greatest Man I Never Knew",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 128,
@@ -2045,7 +2172,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It’s your call, it’s up to you / and I won’t try to stop you if you go",
     "lyricSong": "It’s Your Call",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 129,
@@ -2061,7 +2189,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "So tell me why haven’t I heard from you / darlin’, honey, what is your excuse?",
     "lyricSong": "Why Haven’t I Heard from You",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 130,
@@ -2077,7 +2206,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Then I’m strong enough to offer my heart and never give up ’til you love me",
     "lyricSong": "Till You Love Me",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 131,
@@ -2093,7 +2223,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "You may think you do but you don’t / it’s just the fear of being alone",
     "lyricSong": "The Fear of Being Alone",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 3
   },
   {
     "id": 132,
@@ -2109,7 +2240,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "How was I to know that I’d be OK? / Thought I’d lose it all when you walked away",
     "lyricSong": "How Was I to Know",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 133,
@@ -2125,7 +2257,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I love her like a sister, baby, but to tell the truth / I’d rather ride around with you",
     "lyricSong": "I’d Rather Ride Around with You",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 3
   },
   {
     "id": 134,
@@ -2141,7 +2274,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "What if it’s you? / What if our hearts were meant to be one?",
     "lyricSong": "What If It’s You",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 3
   },
   {
     "id": 135,
@@ -2157,7 +2291,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I swear that you’ll always be my forever love / I promise you someday we’ll be together",
     "lyricSong": "Forever Love",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 3
   },
   {
     "id": 136,
@@ -2173,7 +2308,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Help me hold on to what we had / Once our love was strong, it can be again",
     "lyricSong": "Help Me Hold On",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 137,
@@ -2189,7 +2325,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m gonna be somebody, one of these days I’m gonna break these chains",
     "lyricSong": "I’m Gonna Be Somebody",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 138,
@@ -2205,7 +2342,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "My mind keeps recreating a life with you alone / And I’m tired of pretending I don’t love you anymore",
     "lyricSong": "Anymore",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 139,
@@ -2221,7 +2359,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But don’t you come around here handin’ me none of your lies / Here’s a quarter, call someone who cares",
     "lyricSong": "Here’s a Quarter (Call Someone Who Cares)",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 1
   },
   {
     "id": 140,
@@ -2237,7 +2376,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Hey, good L double O-K-I-N-G / Well, I smell T-R-O-U-B-L-E",
     "lyricSong": "T-R-O-U-B-L-E",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 141,
@@ -2253,7 +2393,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So before we go much further, girl, can I trust you with my heart?",
     "lyricSong": "Can I Trust You with My Heart",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 142,
@@ -2269,7 +2410,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Turn out the lights, the competition’s over / The stubborn souls are the losers here tonight",
     "lyricSong": "Foolish Pride",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 143,
@@ -2285,7 +2427,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Tell me I was dreamin’ that you didn’t leave me here to cry",
     "lyricSong": "Tell Me I Was Dreaming",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 144,
@@ -2301,7 +2444,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "More than life, more than I’ve ever loved before / It’s absurd and beyond words, I couldn’t want you more",
     "lyricSong": "More Than You’ll Ever Know",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 145,
@@ -2317,7 +2461,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But if I lost you, there’d be no sunshine shinin’ through / I don’t know what in the world I would do",
     "lyricSong": "If I Lost You",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 146,
@@ -2333,7 +2478,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Put yourself in my shoes, walk a mile for me / I’ll put myself in your shoes, maybe then we’d see",
     "lyricSong": "Put Yourself in My Shoes",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 147,
@@ -2349,7 +2495,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Well I may not get ahead but now I won’t be far behind / I’ve got one more payment and it’s mine",
     "lyricSong": "One More Payment",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 148,
@@ -2365,7 +2512,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You always had the answers to the ones I couldn’t find / So all I’m asking is, where are you now?",
     "lyricSong": "Where Are You Now",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 149,
@@ -2381,7 +2529,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "So we tell ourselves / That what we found is what we meant to find",
     "lyricSong": "We Tell Ourselves",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 150,
@@ -2397,7 +2546,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It won’t be long before my ship comes in / Gonna sail right out of Colorado",
     "lyricSong": "When My Ship Comes In",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 151,
@@ -2413,7 +2563,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Ain’t it funny how a melody can bring back the memory / Take you to another place in time",
     "lyricSong": "State of Mind",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 152,
@@ -2429,7 +2580,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’d bet it all on a good run of bad luck / Seven come eleven and she could be mine",
     "lyricSong": "A Good Run of Bad Luck",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 153,
@@ -2445,7 +2597,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And every night is a Saturday night / And everything’s right with the summer comin’",
     "lyricSong": "Summer’s Comin’",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 154,
@@ -2461,7 +2614,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I never liked the rain until I walked through it with you",
     "lyricSong": "Like the Rain",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 155,
@@ -2477,7 +2631,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But it isn’t somethin’ that we find / It’s somethin’ that we do",
     "lyricSong": "Something That We Do",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 2
   },
   {
     "id": 156,
@@ -2493,7 +2648,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "These sticks and stones may break me / But the words you said just tore my heart in two",
     "lyricSong": "Sticks and Stones",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 157,
@@ -2509,7 +2665,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Alibis and lying eyes and all the best lines / Lord knows she’s heard ’em all",
     "lyricSong": "Alibis",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 158,
@@ -2525,7 +2682,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’ve got it through my head, I just can’t break it to my heart",
     "lyricSong": "Can’t Break It to My Heart",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 159,
@@ -2541,7 +2699,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I might die from a broken heart, but I’ll never die of thirst / Now that my second home has become my first",
     "lyricSong": "My Second Home",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 160,
@@ -2557,7 +2716,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Mama’s little boy gonna have a lot of fun / ’Cause he’s gonna live forever if the good die young",
     "lyricSong": "If the Good Die Young",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 161,
@@ -2573,7 +2733,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "My little Texas tornado, blowin’ me away again / I swore it wouldn’t happen again",
     "lyricSong": "Texas Tornado",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 162,
@@ -2589,7 +2750,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "If the world had a front porch like we did back then / We’d still have our problems, but we’d all be friends",
     "lyricSong": "If the World Had a Front Porch",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 163,
@@ -2605,7 +2767,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And as long as there’s stars over Texas / Darling, I’ll hang the moon for you",
     "lyricSong": "Stars over Texas",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 164,
@@ -2621,7 +2784,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I know when the hurting stops, I’ll be a better man, better off",
     "lyricSong": "Better Man, Better Off",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 165,
@@ -2637,7 +2801,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause I’m an Indian outlaw, half Cherokee and Choctaw / My baby, she’s a Chippewa",
     "lyricSong": "Indian Outlaw",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 1
   },
   {
     "id": 166,
@@ -2653,7 +2818,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Ain’t no closing time, ain’t no cover charge / Just country boys and girls gettin’ down on the farm",
     "lyricSong": "Down on the Farm",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 167,
@@ -2669,7 +2835,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And not a moment too soon, without a minute to spare / You touched my heart when I didn’t have a prayer",
     "lyricSong": "Not a Moment Too Soon",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 168,
@@ -2685,7 +2852,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Down to my last dime and comin’ apart at the seams / I’m messed up in Mexico, livin’ on refried dreams",
     "lyricSong": "Refried Dreams",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 3
   },
   {
     "id": 169,
@@ -2701,7 +2869,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m sick of the crumbs, I want a piece of that pie / All I want is a life",
     "lyricSong": "All I Want Is a Life",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 3
   },
   {
     "id": 170,
@@ -2717,7 +2886,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause she never lets it go to her heart / She never lets it go that far",
     "lyricSong": "She Never Lets It Go to Her Heart",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 171,
@@ -2733,7 +2903,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "No matter where you choose to be / In my heart I’ll always see you everywhere",
     "lyricSong": "Everywhere",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 1
   },
   {
     "id": 172,
@@ -2749,7 +2920,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Just to see you smile / I’d do anything that you wanted me to",
     "lyricSong": "Just to See You Smile",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 173,
@@ -2765,7 +2937,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m gonna live where the green grass grows / Watch my corn pop up in rows",
     "lyricSong": "Where the Green Grass Grows",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 174,
@@ -2781,7 +2954,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’s gone but she left with a smile / ’Cause she was mine for a little while",
     "lyricSong": "For a Little While",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 3
   },
   {
     "id": 175,
@@ -2797,7 +2971,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Deep as the river runs, warm as the morning sun / Please remember me",
     "lyricSong": "Please Remember Me",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 176,
@@ -2813,7 +2988,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I had a barbecue stain on my white T-shirt / She was killing me in that miniskirt",
     "lyricSong": "Something Like That",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 1
   },
   {
     "id": 177,
@@ -2829,7 +3005,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I don’t know where I’d be without you here with me / Life with you makes perfect sense, you’re my best friend",
     "lyricSong": "My Best Friend",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 178,
@@ -2845,7 +3022,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Any man of mine better walk the line / better show me a teasin’, squeezin’, pleasin’ kinda time",
     "lyricSong": "Any Man of Mine",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 1
   },
   {
     "id": 179,
@@ -2861,7 +3039,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause I’m a woman in love and it’s you I run to / Yeah, the woman in me needs the man in you",
     "lyricSong": "The Woman in Me (Needs the Man in You)",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 180,
@@ -2877,7 +3056,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Let me make it clear to you, my dear / if you’re not in it for love, I’m outta here",
     "lyricSong": "If You’re Not in It for Love (I’m Outta Here!)",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 181,
@@ -2893,7 +3073,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You win my love, you make my motor run / You win my love, yeah, you’re number one",
     "lyricSong": "You Win My Love",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 182,
@@ -2909,7 +3090,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And no one needs to know right now / I’ll tell him someday, some way, somehow",
     "lyricSong": "No One Needs to Know",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 183,
@@ -2925,7 +3107,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Love gets me every time, my heart changed my mind / I gol’ darn gone and done it",
     "lyricSong": "Love Gets Me Every Time",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 184,
@@ -2941,7 +3124,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Don’t be stupid, you know I love you / don’t be ridiculous, you know I need you",
     "lyricSong": "Don’t Be Stupid (You Know I Love You)",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 185,
@@ -2957,7 +3141,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’re still the one I run to, the one that I belong to / You’re still the one I want for life",
     "lyricSong": "You’re Still the One",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 1
   },
   {
     "id": 186,
@@ -2973,7 +3158,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Honey, I’m home and I had a hard day / pour me a cold one and, oh, by the way",
     "lyricSong": "Honey, I’m Home",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 187,
@@ -2989,7 +3175,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "OK, so you’re a rocket scientist / that don’t impress me much",
     "lyricSong": "That Don’t Impress Me Much",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 1
   },
   {
     "id": 188,
@@ -3005,7 +3192,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Oh, oh, oh, I wanna be free, yeah, to feel the way I feel / man! I feel like a woman!",
     "lyricSong": "Man! I Feel Like a Woman!",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 1
   },
   {
     "id": 189,
@@ -3021,7 +3209,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Come on over, come on in / pull up a seat, take a load off your feet",
     "lyricSong": "Come On Over",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 190,
@@ -3037,7 +3226,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There’s your trouble, there’s your trouble / You keep seein’ double with the wrong one",
     "lyricSong": "There’s Your Trouble",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 1
   },
   {
     "id": 191,
@@ -3053,7 +3243,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Let ’er rip, let it fly / Come on, baby, say it, do you think I’m gonna cry?",
     "lyricSong": "Let ’Er Rip",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 192,
@@ -3069,7 +3260,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "What right does she have to take your heart away / When for so long you were mine?",
     "lyricSong": "You Were Mine",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 193,
@@ -3085,7 +3277,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "So tonight the heartache’s on me / Let’s drink a toast to the fool who couldn’t see",
     "lyricSong": "Tonight the Heartache’s on Me",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 194,
@@ -3101,7 +3294,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Ready, ready, ready, ready, ready to run / All I’m ready to do is have some fun",
     "lyricSong": "Ready to Run",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 195,
@@ -3117,7 +3311,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So blame it on your lyin’, cheatin’, cold dead-beatin’, two-timin’, double-dealin’, mean mistreatin’, lovin’ heart",
     "lyricSong": "Blame It on Your Heart",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 2
   },
   {
     "id": 196,
@@ -3133,7 +3328,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You can feel bad if it makes you feel better / picture me cryin’ reading all your love letters",
     "lyricSong": "You Can Feel Bad",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 2
   },
   {
     "id": 197,
@@ -3149,7 +3345,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I try to think about Elvis, Memphis, Oprah in the afternoon",
     "lyricSong": "I Try to Think About Elvis",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 198,
@@ -3165,7 +3362,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "How can I help you to say goodbye? / It’s OK to hurt, and it’s OK to cry",
     "lyricSong": "How Can I Help You Say Goodbye",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 2
   },
   {
     "id": 199,
@@ -3181,7 +3379,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It said, you don’t even know who I am / you left me a long time ago",
     "lyricSong": "You Don’t Even Know Who I Am",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 200,
@@ -3197,7 +3396,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "We ain’t done nothin’ wrong / we’ve just been lonely too long",
     "lyricSong": "Lonely Too Long",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 2
   },
   {
     "id": 201,
@@ -3213,7 +3413,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’ve got five minutes to tell me what I’ve needed to hear",
     "lyricSong": "Five Minutes",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 2
   },
   {
     "id": 202,
@@ -3229,7 +3430,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "What part of no don’t you understand? / To put it plain and simple, I’m not into one-night stands",
     "lyricSong": "What Part of No",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 2
   },
   {
     "id": 203,
@@ -3245,7 +3447,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Except for Monday, which was never good anyway / Tuesday, I get a little sideways",
     "lyricSong": "Except for Monday",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 204,
@@ -3261,7 +3464,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "If you think I won’t go, watch me / whoa, watch me prove you wrong today",
     "lyricSong": "Watch Me",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 205,
@@ -3277,7 +3481,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I didn’t know my own strength ’til I had to pick myself up",
     "lyricSong": "I Didn’t Know My Own Strength",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 206,
@@ -3293,7 +3498,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Good as I was to you, is this the thanks I get?",
     "lyricSong": "Good as I Was to You",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 207,
@@ -3309,7 +3515,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Don’t tell me what to do / you’ve already said we are through",
     "lyricSong": "Don’t Tell Me What to Do",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 208,
@@ -3325,7 +3532,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’ll shake the sugar tree ’til I feel your love falling all around me",
     "lyricSong": "Shake the Sugar Tree",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 209,
@@ -3341,7 +3549,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Mi vida loca, over and over / destiny turns on a dime",
     "lyricSong": "Mi Vida Loca (My Crazy Life)",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 210,
@@ -3357,7 +3566,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Right now you hate yourself ’cause you knew better / but there’s no use crying over spilled perfume",
     "lyricSong": "Spilled Perfume",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 3
   },
   {
     "id": 211,
@@ -3373,7 +3583,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But don’t be mistaking my smile / I’m only in between dances, sitting it out for a while",
     "lyricSong": "In Between Dances",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 3
   },
   {
     "id": 212,
@@ -3389,7 +3600,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "There’ll be guys and there’ll be come-ons, she’ll probably get hit on / but she thinks all the good ones are gone",
     "lyricSong": "All the Good Ones Are Gone",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 3
   },
   {
     "id": 213,
@@ -3405,7 +3617,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I don’t need to waste my time crying over you / I got better things to do",
     "lyricSong": "Better Things to Do",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 2
   },
   {
     "id": 214,
@@ -3421,7 +3634,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If I were you, I’d run back home tonight / Tell him everything’s all right",
     "lyricSong": "If I Were You",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 3
   },
   {
     "id": 215,
@@ -3437,7 +3651,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Poor, poor pitiful me / Oh, these boys won’t let me be, Lord, have mercy on me",
     "lyricSong": "Poor Poor Pitiful Me",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 2
   },
   {
     "id": 216,
@@ -3453,7 +3668,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m an emotional girl, I can’t help myself / Sometimes I laugh, sometimes I cry",
     "lyricSong": "Emotional Girl",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 3
   },
   {
     "id": 217,
@@ -3469,7 +3685,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause now I realize you’re easy on the eyes, hard on the heart",
     "lyricSong": "You’re Easy on the Eyes",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 2
   },
   {
     "id": 218,
@@ -3485,7 +3702,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I see the heavens open, a heart that once was broken / Is holding nothing back now that I found you",
     "lyricSong": "Now That I Found You",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 3
   },
   {
     "id": 219,
@@ -3501,7 +3719,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s a wild one with an angel’s face, she’s a woman-child in a state of grace",
     "lyricSong": "Wild One",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 2
   },
   {
     "id": 220,
@@ -3517,7 +3736,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Come on, come on, come on and take it / Take another little piece of my heart now, baby",
     "lyricSong": "Piece of My Heart",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 2
   },
   {
     "id": 221,
@@ -3533,7 +3753,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "From someone with a strong heart, a gentle hand, who’ll take me as I am",
     "lyricSong": "Take Me as I Am",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 222,
@@ -3549,7 +3770,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Hey, baby, let’s go to Vegas, kiss the single life goodbye",
     "lyricSong": "Let’s Go to Vegas",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 223,
@@ -3565,7 +3787,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "All my life I’ve been pleasin’ everyone but me / Wakin’ up in someone else’s dream",
     "lyricSong": "Someone Else’s Dream",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 224,
@@ -3581,7 +3804,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It’s centrifugal motion, it’s perpetual bliss, it’s that pivotal moment, it’s, ah, impossible / This kiss, this kiss",
     "lyricSong": "This Kiss",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 1
   },
   {
     "id": 225,
@@ -3597,7 +3821,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause I can feel you breathe, it’s washing over me / Suddenly I’m melting into you",
     "lyricSong": "Breathe",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 1
   },
   {
     "id": 226,
@@ -3613,7 +3838,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "The secret of life is a good cup of coffee / The secret of life is keep your eye on the ball",
     "lyricSong": "The Secret of Life",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 227,
@@ -3629,7 +3855,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And that boy’s just a walkaway Joe / Born to be a leaver, tell you from the word go",
     "lyricSong": "Walkaway Joe",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 228,
@@ -3645,7 +3872,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’ve been livin’ on the wrong side of Memphis / I’m really breaking away this time",
     "lyricSong": "Wrong Side of Memphis",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 3
   },
   {
     "id": 229,
@@ -3661,7 +3889,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "After I’d forgotten all about us / The song remembers when",
     "lyricSong": "The Song Remembers When",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 3
   },
   {
     "id": 230,
@@ -3677,7 +3906,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She used to tie her hair up in ribbons and bows / Sign her letters with X’s and O’s",
     "lyricSong": "XXX’s and OOO’s (An American Girl)",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 231,
@@ -3693,7 +3923,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "The sound of your voice sayin’ my name / I’ve been thinkin’ about you, just keep thinkin’ about you",
     "lyricSong": "Thinkin’ About You",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 232,
@@ -3709,7 +3940,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When I said I didn’t want your love and you were no one I was thinking of / Believe me baby, I lied",
     "lyricSong": "Believe Me Baby (I Lied)",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 233,
@@ -3725,7 +3957,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Everybody knows what to do about my misery / Everybody but me",
     "lyricSong": "Everybody Knows",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 3
   },
   {
     "id": 234,
@@ -3741,7 +3974,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Yeah, this is a perfect love / We’re doin’ nothin’ but what a perfect love does",
     "lyricSong": "Perfect Love",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 235,
@@ -3757,7 +3991,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Saturday night and the moon is out / I wanna head on over to the Twist and Shout",
     "lyricSong": "Down at the Twist and Shout",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 236,
@@ -3773,7 +4008,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I feel lucky, I feel lucky, yeah / no Professor Doom gonna stand in my way",
     "lyricSong": "I Feel Lucky",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 237,
@@ -3789,7 +4025,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Everything runs right on time, years of practice and design / spit and polish till it shines, he thinks he’ll keep her",
     "lyricSong": "He Thinks He’ll Keep Her",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 238,
@@ -3805,7 +4042,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It’s been so long since somebody whispered / shut up and kiss me",
     "lyricSong": "Shut Up and Kiss Me",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 1
   },
   {
     "id": 239,
@@ -3821,7 +4059,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Shouldn’t I have this, shouldn’t I have all of this, and passionate kisses",
     "lyricSong": "Passionate Kisses",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 240,
@@ -3837,7 +4076,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "You can’t deal me the aces and think I wouldn’t play / Don’t let this be the reason you would walk away",
     "lyricSong": "Aces",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 2
   },
   {
     "id": 241,
@@ -3853,7 +4093,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Now if you’re feelin’ down and out / Come on baby, drive South with the one you love",
     "lyricSong": "Drive South",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 2
   },
   {
     "id": 242,
@@ -3869,7 +4110,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Hey, hey Cinderella, what’s the story all about? / I’ve got a funny feeling we missed a page or two somehow",
     "lyricSong": "Hey Cinderella",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 2
   },
   {
     "id": 243,
@@ -3885,7 +4127,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "’Cause if love won’t fly on its own free will / It’s gonna catch that outbound plane",
     "lyricSong": "Outbound Plane",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 2
   },
   {
     "id": 244,
@@ -3901,7 +4144,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "High heels or sneakers, he don’t give a damn / my baby loves me just the way that I am",
     "lyricSong": "My Baby Loves Me",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 2
   },
   {
     "id": 245,
@@ -3917,7 +4161,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’re stealing love, living on Life #9 / breaking my heart, living on borrowed time",
     "lyricSong": "Life #9",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 2
   },
   {
     "id": 246,
@@ -3933,7 +4178,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Must’ve been wild angels, wild angels / watching over you and me",
     "lyricSong": "Wild Angels",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 1
   },
   {
     "id": 247,
@@ -3949,7 +4195,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And with a broken wing she still sings / she keeps an eye on the sky",
     "lyricSong": "A Broken Wing",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 1
   },
   {
     "id": 248,
@@ -3965,7 +4212,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "The sweetest thing you’ll ever see in the whole wide world is a happy girl",
     "lyricSong": "Happy Girl",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 2
   },
   {
     "id": 249,
@@ -3981,7 +4229,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And even though I want to, I don’t hear I love you / in whatever you say",
     "lyricSong": "Whatever You Say",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 2
   },
   {
     "id": 250,
@@ -3997,7 +4246,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause without her, where would he be? / See, it’s not for him, she is his only need",
     "lyricSong": "She Is His Only Need",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 1
   },
   {
     "id": 251,
@@ -4013,7 +4263,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I saw the light in your window tonight / I saw two shadows holdin’ each other tight",
     "lyricSong": "I Saw the Light",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 1
   },
   {
     "id": 252,
@@ -4029,7 +4280,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "A fool in love with a fool that never cared / So won’t you tell me why I can’t say goodbye?",
     "lyricSong": "Tell Me Why",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 2
   },
   {
     "id": 253,
@@ -4045,7 +4297,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Only love sails straight from the harbor / And only love will lead us to the other shore",
     "lyricSong": "Only Love",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 2
   },
   {
     "id": 254,
@@ -4061,7 +4314,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Now she’s down in the cellar with the amp turned up / Girls with guitars",
     "lyricSong": "Girls with Guitars",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 3
   },
   {
     "id": 255,
@@ -4077,7 +4331,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Baby, come what may, I’ll find a way to get through / There’s nothing that I won’t do to be loved by you",
     "lyricSong": "To Be Loved by You",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 1
   },
   {
     "id": 256,
@@ -4093,7 +4348,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "It’s a beautiful day, not a cloud in sight, so I guess I’m doing alright",
     "lyricSong": "I’m Alright",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 1
   },
   {
     "id": 257,
@@ -4109,7 +4365,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I want a man who stands beside me, not in front of or behind me",
     "lyricSong": "Stand Beside Me",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 1
   },
   {
     "id": 258,
@@ -4125,7 +4382,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I only know that I’m alive because you love me",
     "lyricSong": "Because You Love Me",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 3
   },
   {
     "id": 259,
@@ -4141,7 +4399,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Somebody’s gonna give you a lesson in leavin’ / Somebody’s gonna give you back what you’ve been givin’",
     "lyricSong": "Lesson in Leavin’",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 2
   },
   {
     "id": 260,
@@ -4157,7 +4416,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Then just like it’s always been, I’ll say never again, again",
     "lyricSong": "Never Again, Again",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 3
   },
   {
     "id": 261,
@@ -4173,7 +4433,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m the fool in love with the fool who’s still in love with you",
     "lyricSong": "The Fool",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 2
   },
   {
     "id": 262,
@@ -4189,7 +4450,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m a little past Little Rock, but a long way from over you",
     "lyricSong": "A Little Past Little Rock",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 2
   },
   {
     "id": 263,
@@ -4205,7 +4467,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "A regular Nobel Peace Prize winner / But I really hate her, I’ll think of a reason later",
     "lyricSong": "I’ll Think of a Reason Later",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 2
   },
   {
     "id": 264,
@@ -4221,7 +4484,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Now you see me, now you don’t / first you do but then you won’t",
     "lyricSong": "(Now You See Me) Now You Don’t",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 3
   },
   {
     "id": 265,
@@ -4237,7 +4501,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And the band played songs that we had never heard / But we danced anyway",
     "lyricSong": "We Danced Anyway",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 1
   },
   {
     "id": 266,
@@ -4253,7 +4518,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "How do I get there from here? / How do I make you see?",
     "lyricSong": "How Do I Get There",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 1
   },
   {
     "id": 267,
@@ -4269,7 +4535,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But every time we kiss there’s an emptiness / An absence of the heart",
     "lyricSong": "Absence of the Heart",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 3
   },
   {
     "id": 268,
@@ -4285,7 +4552,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Always know that I would find a way to get to where you are / there’s no place that far",
     "lyricSong": "No Place That Far",
-    "lyricArtist": "Sara Evans"
+    "lyricArtist": "Sara Evans",
+    "tier": 1
   },
   {
     "id": 269,
@@ -4301,7 +4569,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Well, fool, I’m a woman and I’m bound to change my mind",
     "lyricSong": "Fool, I’m a Woman",
-    "lyricArtist": "Sara Evans"
+    "lyricArtist": "Sara Evans",
+    "tier": 3
   },
   {
     "id": 270,
@@ -4317,7 +4586,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "A single white female is looking for a man like you",
     "lyricSong": "Single White Female",
-    "lyricArtist": "Chely Wright"
+    "lyricArtist": "Chely Wright",
+    "tier": 1
   },
   {
     "id": 271,
@@ -4333,7 +4603,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Shut up and drive / You don’t know what you’re talking about",
     "lyricSong": "Shut Up and Drive",
-    "lyricArtist": "Chely Wright"
+    "lyricArtist": "Chely Wright",
+    "tier": 3
   },
   {
     "id": 272,
@@ -4349,7 +4620,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Guys do it all the time, and you expect us to understand",
     "lyricSong": "Guys Do It All the Time",
-    "lyricArtist": "Mindy McCready"
+    "lyricArtist": "Mindy McCready",
+    "tier": 1
   },
   {
     "id": 273,
@@ -4365,7 +4637,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "A girl’s gotta do what a girl’s gotta do / and now I gotta get to gettin’ over you",
     "lyricSong": "A Girl’s Gotta Do (What a Girl’s Gotta Do)",
-    "lyricArtist": "Mindy McCready"
+    "lyricArtist": "Mindy McCready",
+    "tier": 2
   },
   {
     "id": 274,
@@ -4381,7 +4654,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’ll buy a one-way ticket on a westbound train to see how far I can go",
     "lyricSong": "One Way Ticket (Because I Can)",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 1
   },
   {
     "id": 275,
@@ -4397,7 +4671,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Life resembles one big compromise / But don’t ever lose that light in your eyes",
     "lyricSong": "The Light in Your Eyes",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 2
   },
   {
     "id": 276,
@@ -4413,7 +4688,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Commitment, someone who’ll go the distance / I need somebody with stayin’ power that can make me go weak in the knees",
     "lyricSong": "Commitment",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 3
   },
   {
     "id": 277,
@@ -4429,7 +4705,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "There was nothin’ new under the moon, same old dance, same old tune",
     "lyricSong": "Nothin’ New Under the Moon",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 3
   },
   {
     "id": 278,
@@ -4445,7 +4722,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And love just took me by surprise, looking through your eyes",
     "lyricSong": "Looking Through Your Eyes",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 3
   },
   {
     "id": 279,
@@ -4461,7 +4739,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Big deal, so what, who cares, you just got lucky, that’s all",
     "lyricSong": "Big Deal",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 2
   },
   {
     "id": 280,
@@ -4477,7 +4756,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But I love the way you love me, strong and wild, slow and easy",
     "lyricSong": "I Love the Way You Love Me",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 1
   },
   {
     "id": 281,
@@ -4493,7 +4773,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Life’s a dance, you learn as you go / Sometimes you lead, sometimes you follow",
     "lyricSong": "Life’s a Dance",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 282,
@@ -4509,7 +4790,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Could ya, would ya, ain’t ya gonna if I asked you / Would ya wanna be my baby tonight",
     "lyricSong": "Be My Baby Tonight",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 1
   },
   {
     "id": 283,
@@ -4525,7 +4807,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I can love you like that, I would make you my world / Move heaven and earth if you were my girl",
     "lyricSong": "I Can Love You Like That",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 1
   },
   {
     "id": 284,
@@ -4541,7 +4824,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’d cover you in kisses, hold you in my arms / That’s all that I can think of",
     "lyricSong": "Cover You in Kisses",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 285,
@@ -4557,7 +4841,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Hold on to me when your world’s turnin’ cold / When it feels like your life’s spinnin’ out of control",
     "lyricSong": "Hold On to Me",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 1
   },
   {
     "id": 286,
@@ -4573,7 +4858,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Don’t that make you wanna fall in love? / Don’t that look like a picture of us",
     "lyricSong": "Fall in Love",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 287,
@@ -4589,7 +4875,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But rain or shine, you’ll be mine tonight / That’s all I need to know",
     "lyricSong": "All I Need to Know",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 288,
@@ -4605,7 +4892,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "When I close my eyes, you’re all I see / In the dark of night, you’re in my dreams",
     "lyricSong": "When I Close My Eyes",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 289,
@@ -4621,7 +4909,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She’s got it all, my heart, my soul, my wishes, all of my love, my hugs, my kisses",
     "lyricSong": "She’s Got It All",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 1
   },
   {
     "id": 290,
@@ -4637,7 +4926,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Have another shot, just one more beer / Yeah, I’ve been there, that’s why I’m here",
     "lyricSong": "That’s Why I’m Here",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 291,
@@ -4653,7 +4943,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Man, I’m gonna die if she really says yes / I wanna know how forever feels",
     "lyricSong": "How Forever Feels",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 1
   },
   {
     "id": 292,
@@ -4669,7 +4960,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You had me from hello, I felt love start to grow the moment that I looked into your eyes",
     "lyricSong": "You Had Me from Hello",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 1
   },
   {
     "id": 293,
@@ -4685,7 +4977,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’d start walkin’ your way, you’d start walkin’ mine / We’d meet in the middle, ’neath that old Georgia pine",
     "lyricSong": "Meet in the Middle",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 1
   },
   {
     "id": 294,
@@ -4701,7 +4994,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I say watch and see / Norma Jean Riley’s gonna notice me",
     "lyricSong": "Norma Jean Riley",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 295,
@@ -4717,7 +5011,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "In a week or two, I was gonna bring you diamonds / In a week or two, a long, long string of pearls",
     "lyricSong": "In a Week or Two",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 296,
@@ -4733,7 +5028,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Love a little stronger, dig a little deeper / Go a little farther, anything to please you girl",
     "lyricSong": "Love a Little Stronger",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 297,
@@ -4749,7 +5045,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Baby, don’t go there, love don’t get nowhere walkin’ away",
     "lyricSong": "Walkin’ Away",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 298,
@@ -4765,7 +5062,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s so kissable, huggable, lovable, unbelievable / She’s a mouthful of anything and everything a man could want",
     "lyricSong": "Unbelievable",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 299,
@@ -4781,7 +5079,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "God blessed Texas with his own hand / brought down angels from the promised land",
     "lyricSong": "God Blessed Texas",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 2
   },
   {
     "id": 300,
@@ -4797,7 +5096,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You got to kick a little, cause a stir / sometimes you’ve gotta make some noise to be heard",
     "lyricSong": "Kick a Little",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 2
   },
   {
     "id": 301,
@@ -4813,7 +5113,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Are you ready for my love, my love / my love, my love is ready for you",
     "lyricSong": "My Love",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 1
   },
   {
     "id": 302,
@@ -4829,7 +5130,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause if I’ve learned anything, there’s a first time for everything",
     "lyricSong": "First Time for Everything",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 2
   },
   {
     "id": 303,
@@ -4845,7 +5147,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I bet Amy’s back in Austin and I’m missin’ her tonight",
     "lyricSong": "Amy’s Back in Austin",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 2
   },
   {
     "id": 304,
@@ -4861,7 +5164,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Just a big red goodbye in lipstick on the wall / Goodbye says it all",
     "lyricSong": "Goodbye Says It All",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 3
   },
   {
     "id": 305,
@@ -4877,7 +5181,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Just ask her if she ever still thinks about me / She’ll say every once in a while",
     "lyricSong": "Every Once in a While",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 2
   },
   {
     "id": 306,
@@ -4893,7 +5198,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I can’t see a single storm cloud in the sky / But I sure can smell the rain",
     "lyricSong": "I Sure Can Smell the Rain",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 2
   },
   {
     "id": 307,
@@ -4909,7 +5215,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And your shiniest day might come in the middle of the night / It’s just about right",
     "lyricSong": "That’s Just About Right",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 2
   },
   {
     "id": 308,
@@ -4925,7 +5232,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So please, please, please go / I’m not strong enough to say no",
     "lyricSong": "I’m Not Strong Enough to Say No",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 2
   },
   {
     "id": 309,
@@ -4941,7 +5249,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Oh Lord, forgive us when we doubt / Another sacred Sunday in the South",
     "lyricSong": "Sunday in the South",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 1
   },
   {
     "id": 310,
@@ -4957,7 +5266,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "A promise you can’t take back / If you’re gonna love me, I want to be loved like that",
     "lyricSong": "I Want to Be Loved Like That",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 2
   },
   {
     "id": 311,
@@ -4973,7 +5283,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Well, everybody in the place stand back and give me some room / ’Cause if Bubba can dance I can too",
     "lyricSong": "If Bubba Can Dance (I Can Too)",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 1
   },
   {
     "id": 312,
@@ -4989,7 +5300,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She don’t know she’s beautiful, never crossed her mind / she don’t know she’s beautiful, no, she’s not that kind",
     "lyricSong": "She Don’t Know She’s Beautiful",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 1
   },
   {
     "id": 313,
@@ -5005,7 +5317,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She said, you don’t look like my type, but I guess you’ll do / third-rate romance, low-rent rendezvous",
     "lyricSong": "Third Rate Romance",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 314,
@@ -5021,7 +5334,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Tell ’em you’re taking off this Friday / for the National Working Woman’s Holiday",
     "lyricSong": "National Working Woman’s Holiday",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 315,
@@ -5037,7 +5351,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I get Chevrolet pay but I’ve got a big smile / ’cause my little baby loves me Cadillac style",
     "lyricSong": "Cadillac Style",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 316,
@@ -5053,7 +5368,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Well, my haunted heart can’t rest in peace / it’s buried with her memory",
     "lyricSong": "Haunted Heart",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 317,
@@ -5069,7 +5385,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Vidalia, Vidalia, girl, won’t you tell me why / sweet Vidalia, you always got to make me cry",
     "lyricSong": "Vidalia",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 318,
@@ -5085,7 +5402,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It’s too hot to fish, too hot for golf / and too cold at home",
     "lyricSong": "Too Cold at Home",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 2
   },
   {
     "id": 319,
@@ -5101,7 +5419,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Brother jukebox, sister wine, mother freedom, father time / since she left me by myself",
     "lyricSong": "Brother Jukebox",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 320,
@@ -5117,7 +5436,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "All my old flames have new names / there’s a lot of girls in town who tied the knot and settled down",
     "lyricSong": "Old Flames Have New Names",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 2
   },
   {
     "id": 321,
@@ -5133,7 +5453,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I had a ball Friday, Saturday and Sunday / but it’s all over now and it sure is Monday",
     "lyricSong": "It Sure Is Monday",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 322,
@@ -5149,7 +5470,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I just wanted you to know / sometimes drivin’ home at night I let your memory take control",
     "lyricSong": "I Just Wanted You to Know",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 323,
@@ -5165,7 +5487,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But to walk away from love was more than we could do / it was almost goodbye",
     "lyricSong": "Almost Goodbye",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 324,
@@ -5181,7 +5504,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m goin’ through the big D, and don’t mean Dallas / I can’t believe what the judge had to tell us",
     "lyricSong": "Goin’ Through the Big D",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 2
   },
   {
     "id": 325,
@@ -5197,7 +5521,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But it’s a little too late, she’s a little too gone / she’s a little too right, I’m a little too wrong",
     "lyricSong": "It’s a Little Too Late",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 326,
@@ -5213,7 +5538,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m holdin’ heaven in my arms tonight / Everything about you is so perfectly right",
     "lyricSong": "Holdin’ Heaven",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 1
   },
   {
     "id": 327,
@@ -5229,7 +5555,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I tip my hat to the keeper of the stars / He sure knew what he was doin’",
     "lyricSong": "The Keeper of the Stars",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 1
   },
   {
     "id": 328,
@@ -5245,7 +5572,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She said the first step is the two-step, I’m here to dance and nothing more",
     "lyricSong": "The First Step",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 329,
@@ -5261,7 +5589,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "They’re gonna put us on Lifestyles of the Not So Rich and Famous",
     "lyricSong": "Lifestyles of the Not So Rich and Famous",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 330,
@@ -5277,7 +5606,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Yeah, we know how to work and we know how to play / We’re from the country and we like it that way",
     "lyricSong": "I’m from the Country",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 331,
@@ -5293,7 +5623,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Prop me up beside the jukebox if I die / Lord, I wanna go to heaven, but I don’t wanna go tonight",
     "lyricSong": "Prop Me Up Beside the Jukebox (If I Die)",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 332,
@@ -5309,7 +5640,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When you’re spinnin’ ’round, things come undone / Welcome to Earth, third rock from the sun",
     "lyricSong": "Third Rock from the Sun",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 1
   },
   {
     "id": 333,
@@ -5325,7 +5657,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "They got a love bigger than the Beatles, wild and free like a Rollin’ Stone",
     "lyricSong": "Bigger Than the Beatles",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 1
   },
   {
     "id": 334,
@@ -5341,7 +5674,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And those who wait forever for ships that don’t come in",
     "lyricSong": "Ships That Don’t Come In",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 335,
@@ -5357,7 +5691,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Or did the temperature just drop a notch or two? / Is it cold in here or is it just you?",
     "lyricSong": "Is It Cold in Here",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 3
   },
   {
     "id": 336,
@@ -5373,7 +5708,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "My footsteps carry me away, but in my mind I’m always going home",
     "lyricSong": "Home",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 1
   },
   {
     "id": 337,
@@ -5389,7 +5725,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So help me, girl, you’ve gone too far, it’s way too late to save my heart",
     "lyricSong": "So Help Me Girl",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 338,
@@ -5405,7 +5742,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I should’ve been a cowboy, I should’ve learned to rope and ride",
     "lyricSong": "Should’ve Been a Cowboy",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 1
   },
   {
     "id": 339,
@@ -5421,7 +5759,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Oh, he ain’t worth missing, oh, we should be kissing / Stop all this foolish wishing, that boy ain’t worth missing",
     "lyricSong": "He Ain’t Worth Missing",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 340,
@@ -5437,7 +5776,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I wish I didn’t know now what I didn’t know then / I wish I could start this whole thing over again",
     "lyricSong": "Wish I Didn’t Know Now",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 341,
@@ -5453,7 +5793,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "There’s my kids and that’s my wife / But who’s that man runnin’ my life?",
     "lyricSong": "Who’s That Man",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 1
   },
   {
     "id": 342,
@@ -5469,7 +5810,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I sobered up and I got to thinkin’ / You ain’t much fun since I quit drinkin’",
     "lyricSong": "You Ain’t Much Fun",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 343,
@@ -5485,7 +5827,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "When those three little words come so easy to you / I hope you know what I mean when I say me too",
     "lyricSong": "Me Too",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 1
   },
   {
     "id": 344,
@@ -5501,7 +5844,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When I was all yours and you were all mine / And we were in love, yeah, we were in love",
     "lyricSong": "We Were in Love",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 345,
@@ -5517,7 +5861,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Dream walkin’, pillow talkin’, she’s callin’ my name again / Day’s breakin’, I ain’t wakin’ up, I’m sleepin’ in",
     "lyricSong": "Dream Walkin’",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 346,
@@ -5533,7 +5878,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Ooh, gotta getcha some, gotta getcha some, gotta getcha some",
     "lyricSong": "Getcha Some",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 3
   },
   {
     "id": 347,
@@ -5549,7 +5895,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Talk to me, baby, tell me what you’re feelin’ / I know what love is, what’s it to you?",
     "lyricSong": "What’s It to You",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 1
   },
   {
     "id": 348,
@@ -5565,7 +5912,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I don’t have to beg, steal, or borrow / I just wanna live until I die",
     "lyricSong": "Live Until I Die",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 1
   },
   {
     "id": 349,
@@ -5581,7 +5929,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Gonna do my dreaming with my eyes wide open / I’ll do my looking back with my eyes closed",
     "lyricSong": "Dreaming with My Eyes Open",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 1
   },
   {
     "id": 350,
@@ -5597,7 +5946,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There was this woman and there was this man / There was this moment they had a chance",
     "lyricSong": "This Woman and This Man",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 1
   },
   {
     "id": 351,
@@ -5613,7 +5963,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "If I could make a livin’ out of lovin’ you / I’d be a millionaire in a week or two",
     "lyricSong": "If I Could Make a Living",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 1
   },
   {
     "id": 352,
@@ -5629,7 +5980,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She shines like a diamond when she walks into a room / She could charm the stars, hypnotize the moon",
     "lyricSong": "Hypnotize the Moon",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 2
   },
   {
     "id": 353,
@@ -5645,7 +5997,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "They say where there’s smoke there’s fire, well I hope it’s true / ’Cause rumor has it you love me too",
     "lyricSong": "Rumor Has It",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 1
   },
   {
     "id": 354,
@@ -5661,7 +6014,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And between now and then, till I see you again / I’ll be loving you, Love, me",
     "lyricSong": "Love, Me",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 1
   },
   {
     "id": 355,
@@ -5677,7 +6031,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "The only dream that mattered had come true / In this life I was loved by you",
     "lyricSong": "In This Life",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 1
   },
   {
     "id": 356,
@@ -5693,7 +6048,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Well, I ain’t got a witness, and I can’t prove it / But that’s my story and I’m stickin’ to it",
     "lyricSong": "That’s My Story",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 357,
@@ -5709,7 +6065,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I said how ’bout some music, you said, you got any Merle? / That’s when I knew you were my kind of girl",
     "lyricSong": "My Kind of Girl",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 1
   },
   {
     "id": 358,
@@ -5725,7 +6082,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I laugh, I love, I hope, I try / I hurt, I need, I fear, I cry",
     "lyricSong": "Not That Different",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 359,
@@ -5741,7 +6099,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I think about you, eight years old / Big blue eyes and a heart of gold",
     "lyricSong": "I Think About You",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 1
   },
   {
     "id": 360,
@@ -5757,7 +6116,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I got no chance, if I’m not in love, I’m on the verge",
     "lyricSong": "On the Verge",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 361,
@@ -5773,7 +6133,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Oh, how fast can I go, gotta catch that little red Rodeo",
     "lyricSong": "Little Red Rodeo",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 362,
@@ -5789,7 +6150,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "We were meant to be together, no doubt about it",
     "lyricSong": "No Doubt About It",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 1
   },
   {
     "id": 363,
@@ -5805,7 +6167,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Don’t need to psychoanalyze or have a stiff drink / all she’s gotta do is just give me that wink",
     "lyricSong": "Wink",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 1
   },
   {
     "id": 364,
@@ -5821,7 +6184,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I think I found what paradise might be / the city put the country back in me",
     "lyricSong": "The City Put the Country Back in Me",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 2
   },
   {
     "id": 365,
@@ -5837,7 +6201,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "For a change, I can see a little sunlight shinin’ through the pourin’ rain",
     "lyricSong": "For a Change",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 2
   },
   {
     "id": 366,
@@ -5853,7 +6218,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "A million watts of love power comin’ on strong / dance with me, darlin’, they’re playin’ our song",
     "lyricSong": "They’re Playin’ Our Song",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 2
   },
   {
     "id": 367,
@@ -5869,7 +6235,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Maybe I’ll be fast as you, maybe I’ll break hearts too",
     "lyricSong": "Fast as You",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 2
   },
   {
     "id": 368,
@@ -5885,7 +6252,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Inside the pocket of a clown is a sad place to hang around",
     "lyricSong": "Pocket of a Clown",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 369,
@@ -5901,7 +6269,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Nothing but sorrow, nothing but pain, nothing but memories that whisper your name",
     "lyricSong": "Nothing",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 370,
@@ -5917,7 +6286,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You’ll be sorry you asked me the reason that she’s not here with me tonight",
     "lyricSong": "Sorry You Asked?",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 371,
@@ -5933,7 +6303,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I tell the truth ’cept when I lie / It only hurts me when I cry",
     "lyricSong": "It Only Hurts When I Cry",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 2
   },
   {
     "id": 372,
@@ -5949,7 +6320,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "We’re gonna howl at the moon, shoot out the light / It’s a small town Saturday night",
     "lyricSong": "Small Town Saturday Night",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 2
   },
   {
     "id": 373,
@@ -5965,7 +6337,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But I do, and I wonder if I’m past the point of rescue",
     "lyricSong": "Past the Point of Rescue",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 2
   },
   {
     "id": 374,
@@ -5981,7 +6354,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Every heartache I was given / Tip my hat and walk through fire to find sure love",
     "lyricSong": "Sure Love",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 2
   },
   {
     "id": 375,
@@ -5997,7 +6371,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Hearts are gonna roll, heads are gonna turn, tears are gonna fall, a bridge is gonna burn",
     "lyricSong": "Hearts Are Gonna Roll",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 2
   },
   {
     "id": 376,
@@ -6013,7 +6388,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If you could only see how much you matter to me / Maybe you would stay forever",
     "lyricSong": "Stay Forever",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 2
   },
   {
     "id": 377,
@@ -6029,7 +6405,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’ve cried my last tear for you, wasted my last year on you",
     "lyricSong": "I’ve Cried My Last Tear for You",
-    "lyricArtist": "Ricky Van Shelton"
+    "lyricArtist": "Ricky Van Shelton",
+    "tier": 1
   },
   {
     "id": 378,
@@ -6045,7 +6422,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Keep your hands on the wheel, believe in the things that are real / take your time and keep it between the lines",
     "lyricSong": "Keep It Between the Lines",
-    "lyricArtist": "Ricky Van Shelton"
+    "lyricArtist": "Ricky Van Shelton",
+    "tier": 1
   },
   {
     "id": 379,
@@ -6061,7 +6439,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But don’t tell my heart, my achy breaky heart / I just don’t think he’d understand",
     "lyricSong": "Achy Breaky Heart",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 1
   },
   {
     "id": 380,
@@ -6077,7 +6456,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It could’ve been me standing there with you / It could’ve been me and my dreams coming true",
     "lyricSong": "Could’ve Been Me",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 2
   },
   {
     "id": 381,
@@ -6093,7 +6473,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "All gave some and some gave all / Some stood through for the red, white, and blue",
     "lyricSong": "Some Gave All",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 2
   },
   {
     "id": 382,
@@ -6109,7 +6490,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "The secret to the treasures of heaven in the heart of a woman",
     "lyricSong": "In the Heart of a Woman",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 3
   },
   {
     "id": 383,
@@ -6125,7 +6507,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s not cryin’ anymore / And she ain’t lonely any longer",
     "lyricSong": "She’s Not Cryin’ Anymore",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 3
   },
   {
     "id": 384,
@@ -6141,7 +6524,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause I took this walk you’re walking now / boy, I’ve been in your shoes",
     "lyricSong": "The Walk",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 2
   },
   {
     "id": 385,
@@ -6157,7 +6541,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I got to give credit when credit is due / I thank the bank for the money, thank God for you",
     "lyricSong": "Thank God for You",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 1
   },
   {
     "id": 386,
@@ -6173,7 +6558,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But this time I’m gonna see you comin’, ain’t gonna be surprised",
     "lyricSong": "This Time",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 2
   },
   {
     "id": 387,
@@ -6189,7 +6575,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "At the cafe down on the corner with a lost look on his face",
     "lyricSong": "Cafe on the Corner",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 2
   },
   {
     "id": 388,
@@ -6205,7 +6592,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And I’ve been hit by another fast movin’ train",
     "lyricSong": "Fast Movin’ Train",
-    "lyricArtist": "Restless Heart"
+    "lyricArtist": "Restless Heart",
+    "tier": 1
   },
   {
     "id": 389,
@@ -6221,7 +6609,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When she cries at night and she doesn’t think that I can hear her",
     "lyricSong": "When She Cries",
-    "lyricArtist": "Restless Heart"
+    "lyricArtist": "Restless Heart",
+    "tier": 2
   },
   {
     "id": 390,
@@ -6237,7 +6626,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Tell me what you dream at night while you’re sleeping / tell me what you see at night in your dreams",
     "lyricSong": "Tell Me What You Dream",
-    "lyricArtist": "Restless Heart"
+    "lyricArtist": "Restless Heart",
+    "tier": 3
   },
   {
     "id": 391,
@@ -6253,7 +6643,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I guess I’m somewhere that I don’t belong / I need a jukebox with a country song",
     "lyricSong": "A Jukebox with a Country Song",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 1
   },
   {
     "id": 392,
@@ -6269,7 +6660,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’d be better off in a pine box on a slow train back to Georgia",
     "lyricSong": "I’d Be Better Off (In a Pine Box)",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 2
   },
   {
     "id": 393,
@@ -6285,7 +6677,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "My only excuse for not doing enough / I was too busy being in love",
     "lyricSong": "Too Busy Being in Love",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 2
   },
   {
     "id": 394,
@@ -6301,7 +6694,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "He says he needs her, tells her he loves her / Why didn’t I think of that?",
     "lyricSong": "Why Didn’t I Think of That",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 1
   },
   {
     "id": 395,
@@ -6317,7 +6711,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I see you in a different light, just the way I saw you last night",
     "lyricSong": "In a Different Light",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 1
   },
   {
     "id": 396,
@@ -6333,7 +6728,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause I’m still dancin’ with you / I know we said we were through, but I keep holdin’ on",
     "lyricSong": "I’m Still Dancin’ with You",
-    "lyricArtist": "Wade Hayes"
+    "lyricArtist": "Wade Hayes",
+    "tier": 2
   },
   {
     "id": 397,
@@ -6349,7 +6745,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "In a Chevy, in a hurry, in the pourin’ down rain / With the caution lights flashin’ in the passin’ lane",
     "lyricSong": "The Day That She Left Tulsa (In a Chevy)",
-    "lyricArtist": "Wade Hayes"
+    "lyricArtist": "Wade Hayes",
+    "tier": 2
   },
   {
     "id": 398,
@@ -6365,7 +6762,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But on a real good night I meet a woman like you",
     "lyricSong": "On a Good Night",
-    "lyricArtist": "Wade Hayes"
+    "lyricArtist": "Wade Hayes",
+    "tier": 2
   },
   {
     "id": 399,
@@ -6381,7 +6779,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Tonight, I’m lookin’ for a party crowd / Slammin’ ’em back and laughing out loud",
     "lyricSong": "Party Crowd",
-    "lyricArtist": "David Lee Murphy"
+    "lyricArtist": "David Lee Murphy",
+    "tier": 2
   },
   {
     "id": 400,
@@ -6397,7 +6796,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I forget about everything every time I get around you",
     "lyricSong": "Every Time I Get Around You",
-    "lyricArtist": "David Lee Murphy"
+    "lyricArtist": "David Lee Murphy",
+    "tier": 2
   },
   {
     "id": 401,
@@ -6413,7 +6813,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You see the road you leave behind you / Is another road you’re gonna have to come back down",
     "lyricSong": "The Road You Leave Behind",
-    "lyricArtist": "David Lee Murphy"
+    "lyricArtist": "David Lee Murphy",
+    "tier": 3
   },
   {
     "id": 402,
@@ -6429,7 +6830,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I guess I must be wishing on someone else’s star",
     "lyricSong": "Someone Else’s Star",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 1
   },
   {
     "id": 403,
@@ -6445,7 +6847,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Ring around the rosie, pocket full of dreams and posies",
     "lyricSong": "Rebecca Lynn",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 1
   },
   {
     "id": 404,
@@ -6461,7 +6864,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And I was looking forward to a happy ending / So much for pretending",
     "lyricSong": "So Much for Pretending",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 1
   },
   {
     "id": 405,
@@ -6477,7 +6881,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Ooh, baby, come and get me / My heart’s sittin’ on go",
     "lyricSong": "Sittin’ on Go",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 2
   },
   {
     "id": 406,
@@ -6493,7 +6898,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And I feel like a stone you have picked up and thrown / to the hard rock bottom of your heart",
     "lyricSong": "Hard Rock Bottom of Your Heart",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 1
   },
   {
     "id": 407,
@@ -6509,7 +6915,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "No chains, no strings, no fences, no wall / no net, just you to catch me when I fall / look heart, no hands",
     "lyricSong": "Look Heart, No Hands",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 1
   },
   {
     "id": 408,
@@ -6525,7 +6932,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You’ve got my number, you’ve got my name / So why don’t you call me little Liza Jane",
     "lyricSong": "Liza Jane",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 409,
@@ -6541,7 +6949,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Look at us, after all these years together / Look at us, after all that we’ve been through",
     "lyricSong": "Look at Us",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 410,
@@ -6557,7 +6966,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Don’t let our love start slippin’, love start slippin’ away",
     "lyricSong": "Don’t Let Our Love Start Slippin’ Away",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 1
   },
   {
     "id": 411,
@@ -6573,7 +6983,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Give me just one more last chance before you say we’re through",
     "lyricSong": "One More Last Chance",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 1
   },
   {
     "id": 412,
@@ -6589,7 +7000,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And when you smile that smile, the world turns upside down / Whenever you come around",
     "lyricSong": "Whenever You Come Around",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 413,
@@ -6605,7 +7017,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You know I’m a sucker, baby, for what the cowgirls do",
     "lyricSong": "What the Cowgirls Do",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 414,
@@ -6621,7 +7034,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I wanna hear that high lonesome sound / ’Cause my sweet baby ain’t around",
     "lyricSong": "High Lonesome Sound",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 3
   },
   {
     "id": 415,
@@ -6637,7 +7051,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Oh, my pretty little Adriana / Are you lonesome tonight?",
     "lyricSong": "Pretty Little Adriana",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 416,
@@ -6653,7 +7068,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Just call me lonesome, heartbroke and then some / ’cause I ain’t got no one since you’ve been gone",
     "lyricSong": "Just Call Me Lonesome",
-    "lyricArtist": "Radney Foster"
+    "lyricArtist": "Radney Foster",
+    "tier": 3
   },
   {
     "id": 417,
@@ -6669,7 +7085,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause nobody wins, we both lose / hearts get broken and love gets bruised",
     "lyricSong": "Nobody Wins",
-    "lyricArtist": "Radney Foster"
+    "lyricArtist": "Radney Foster",
+    "tier": 2
   },
   {
     "id": 418,
@@ -6685,7 +7102,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You see it’s easier said than done / words can’t rebuild all the trust my lies killed",
     "lyricSong": "Easier Said Than Done",
-    "lyricArtist": "Radney Foster"
+    "lyricArtist": "Radney Foster",
+    "tier": 3
   },
   {
     "id": 419,
@@ -6701,7 +7119,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She ain’t a Cadillac and she ain’t a Rolls / But there ain’t nothin’ wrong with the radio",
     "lyricSong": "There Ain’t Nothin’ Wrong with the Radio",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 1
   },
   {
     "id": 420,
@@ -6717,7 +7136,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "If you see my blue angel / Tell her that heaven without her feels like hell tonight",
     "lyricSong": "My Blue Angel",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 2
   },
   {
     "id": 421,
@@ -6733,7 +7153,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And if you want a cram course in reality / You get yourself a working man’s Ph.D.",
     "lyricSong": "Working Man’s Ph.D.",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 2
   },
   {
     "id": 422,
@@ -6749,7 +7170,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "That’s as close as I’ll get to loving you / Even though there’s nothing else I’d rather do",
     "lyricSong": "That’s as Close as I’ll Get to Loving You",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 1
   },
   {
     "id": 423,
@@ -6765,7 +7187,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But don’t ask her on a straight tequila night / She’ll start thinking about him, then she’s ready to fight",
     "lyricSong": "Straight Tequila Night",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 1
   },
   {
     "id": 424,
@@ -6781,7 +7204,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "So blow, blow, Seminole wind, blow like you’re never gonna blow again",
     "lyricSong": "Seminole Wind",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 1
   },
   {
     "id": 425,
@@ -6797,7 +7221,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Got my paycheck in my pocket and gas in the tank / Honey, your love’s better than money in the bank",
     "lyricSong": "Money in the Bank",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 1
   },
   {
     "id": 426,
@@ -6813,7 +7238,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It was a happy day, but kinda sad / I wish I could’ve been there",
     "lyricSong": "I Wish I Could Have Been There",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 2
   },
   {
     "id": 427,
@@ -6829,7 +7255,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "How much more can this poor heart take? You bend it until it breaks",
     "lyricSong": "Bend It Until It Breaks",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 2
   },
   {
     "id": 428,
@@ -6845,7 +7272,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Ooh baby, ooh what a crying shame / To let it all slip away and call it yesterday",
     "lyricSong": "What a Crying Shame",
-    "lyricArtist": "The Mavericks"
+    "lyricArtist": "The Mavericks",
+    "tier": 2
   },
   {
     "id": 429,
@@ -6861,7 +7289,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "All you ever do is bring me down / Making me a fool all over town",
     "lyricSong": "All You Ever Do Is Bring Me Down",
-    "lyricArtist": "The Mavericks"
+    "lyricArtist": "The Mavericks",
+    "tier": 3
   },
   {
     "id": 430,
@@ -6877,7 +7306,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "There goes my heart, breaking in two / There go my eyes, crying over you",
     "lyricSong": "There Goes My Heart",
-    "lyricArtist": "The Mavericks"
+    "lyricArtist": "The Mavericks",
+    "tier": 3
   },
   {
     "id": 431,
@@ -6893,7 +7323,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But hey, hey, what do I know? / I’m just a lonely fool that let you go",
     "lyricSong": "What Do I Know",
-    "lyricArtist": "Ricochet"
+    "lyricArtist": "Ricochet",
+    "tier": 2
   },
   {
     "id": 432,
@@ -6909,7 +7340,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If I’ve gotta beg and plead to make you see I need you in my life / well, love is stronger than pride",
     "lyricSong": "Love Is Stronger Than Pride",
-    "lyricArtist": "Ricochet"
+    "lyricArtist": "Ricochet",
+    "tier": 3
   },
   {
     "id": 433,
@@ -6925,7 +7357,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If we can fix what’s wrong and just go on in love forever / Baby, I’ll be beggin’ please",
     "lyricSong": "Please",
-    "lyricArtist": "The Kinleys"
+    "lyricArtist": "The Kinleys",
+    "tier": 3
   },
   {
     "id": 434,
@@ -6941,7 +7374,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And when we touch, it’s too much, it’s electricity / Just between you and me",
     "lyricSong": "Just Between You and Me",
-    "lyricArtist": "The Kinleys"
+    "lyricArtist": "The Kinleys",
+    "tier": 3
   },
   {
     "id": 435,
@@ -6957,7 +7391,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Goodnight, sweetheart, sleep tight, wherever you are / God hold you in his arms while we’re apart",
     "lyricSong": "Goodnight Sweetheart",
-    "lyricArtist": "David Kersh"
+    "lyricArtist": "David Kersh",
+    "tier": 2
   },
   {
     "id": 436,
@@ -6973,7 +7408,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’ll find another love / But there will never be another you",
     "lyricSong": "Another You",
-    "lyricArtist": "David Kersh"
+    "lyricArtist": "David Kersh",
+    "tier": 2
   },
   {
     "id": 437,
@@ -6989,7 +7425,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Blame it all on my roots, I showed up in boots and ruined your black-tie affair",
     "lyricSong": "Friends in Low Places",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 438,
@@ -7005,7 +7442,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Three thirty in the mornin’, not a soul in sight, the city’s lookin’ like a ghost town",
     "lyricSong": "The Thunder Rolls",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 439,
@@ -7021,7 +7459,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Just the other night at a hometown football game, my wife and I ran into my old high school flame",
     "lyricSong": "Unanswered Prayers",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 440,
@@ -7037,7 +7476,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Papa drove a truck nearly all his life, you know it drove Mama crazy being a trucker’s wife",
     "lyricSong": "Papa Loved Mama",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 3
   },
   {
     "id": 441,
@@ -7053,7 +7493,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And every time I pass a wheat field and watch it dancing with the wind",
     "lyricSong": "That Summer",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 442,
@@ -7069,7 +7510,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Don’t rock the jukebox, I wanna hear George Jones / ’Cause my heart ain’t ready for the Rolling Stones",
     "lyricSong": "Don’t Rock the Jukebox",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 443,
@@ -7085,7 +7527,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It started way back in third grade, I used to sit beside Emmylou Hayes",
     "lyricSong": "Check Yes or No",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 444,
@@ -7101,7 +7544,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There’s a rundown bar ’cross the railroad tracks / I’ve got a table for two, way in the back",
     "lyricSong": "Neon Moon",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 445,
@@ -7117,7 +7561,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Then I stepped into a satin dancin’ dress that had a split on the side clean up to my hip",
     "lyricSong": "Fancy",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 446,
@@ -7133,7 +7578,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She married when she was twenty, she thought she was ready, now she’s not so sure",
     "lyricSong": "Is There Life Out There",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 3
   },
   {
     "id": 447,
@@ -7149,7 +7595,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m an Indian outlaw, half Cherokee and Choctaw / My baby, she’s a Chippewa",
     "lyricSong": "Indian Outlaw",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 448,
@@ -7165,7 +7612,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "OK, so you’re Brad Pitt / that don’t impress me much",
     "lyricSong": "That Don’t Impress Me Much",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 449,
@@ -7181,7 +7629,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I had a barbecue stain on my white T-shirt / She was killing me in that miniskirt",
     "lyricSong": "Something Like That",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 450,
@@ -7197,7 +7646,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Katie’s sittin’ on the old front porch / Watchin’ the chickens peck the ground",
     "lyricSong": "She’s in Love with the Boy",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 451,
@@ -7213,7 +7663,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "He says, my high school ring will have to do ’til I can buy a weddin’ band",
     "lyricSong": "She’s in Love with the Boy",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 452,
@@ -7229,7 +7680,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So bring me two piña coladas, one for each hand / Let’s set sail with Captain Morgan",
     "lyricSong": "Two Piña Coladas",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 453,
@@ -7245,7 +7697,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So I made her the queen of my double-wide trailer / with the polyester curtains and the redwood deck",
     "lyricSong": "Queen of My Double Wide Trailer",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 454,
@@ -7261,7 +7714,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Lucy’s got her lipstick on a little too bright, Bobby’s gettin’ drunk and lookin’ for a fight",
     "lyricSong": "Small Town Saturday Night",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 3
   },
   {
     "id": 455,
@@ -7277,7 +7731,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "In the corner of my mind stands a jukebox / It’s playin’ all my favorite memories",
     "lyricSong": "Jukebox in My Mind",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 1
   },
   {
     "id": 456,
@@ -7293,7 +7748,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And it’s only fair that you know / Forever’s as far as I’ll go",
     "lyricSong": "Forever’s as Far as I’ll Go",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 1
   },
   {
     "id": 457,
@@ -7309,7 +7765,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Down home / A man’s good word and a handshake are all you need",
     "lyricSong": "Down Home",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 458,
@@ -7325,7 +7782,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Here we are, once again / Stronger now than we have ever been",
     "lyricSong": "Here We Are",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 459,
@@ -7341,7 +7799,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I was born country, and that’s what I’ll always be / Like the rivers and the woodlands, wild and free",
     "lyricSong": "Born Country",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 1
   },
   {
     "id": 460,
@@ -7357,7 +7816,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Take a little trip, take a little trip / Take a little trip up to heaven tonight",
     "lyricSong": "Take a Little Trip",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 461,
@@ -7373,7 +7833,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m in a hurry to get things done / Oh, I rush and rush until life’s no fun",
     "lyricSong": "I’m in a Hurry (And Don’t Know Why)",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 1
   },
   {
     "id": 462,
@@ -7389,7 +7850,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And once upon a lifetime you hold the Queen of Hearts",
     "lyricSong": "Once Upon a Lifetime",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 3
   },
   {
     "id": 463,
@@ -7405,7 +7867,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I could care less where it leads us / Love is reckless, let’s get reckless tonight",
     "lyricSong": "Reckless",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 1
   },
   {
     "id": 464,
@@ -7421,7 +7884,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "A little T.L.C. A.S.A.P. / A little R&R for you and me",
     "lyricSong": "T.L.C. A.S.A.P.",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 3
   },
   {
     "id": 465,
@@ -7437,7 +7901,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And I can’t unlock the door / And we can’t love like this anymore",
     "lyricSong": "We Can’t Love Like This Anymore",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 466,
@@ -7453,7 +7918,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So give me one more shot, I’ll give it all I’ve got",
     "lyricSong": "Give Me One More Shot",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 467,
@@ -7469,7 +7935,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She ain’t your ordinary, no she’s not / She ain’t your ordinary girl",
     "lyricSong": "She Ain’t Your Ordinary Girl",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 1
   },
   {
     "id": 468,
@@ -7485,7 +7952,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I missed her first steps, her first words / “I love you, Daddy” is something I seldom hear",
     "lyricSong": "In Pictures",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 3
   },
   {
     "id": 469,
@@ -7501,7 +7969,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Now there’s a sad lookin’ moon shinin’ down on me / There’s a sad lookin’ sky as far as I can see",
     "lyricSong": "Sad Lookin’ Moon",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 470,
@@ -7517,7 +7986,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "They’re dancin’, shaggin’ on the boulevard / Dancin’, shaggin’ on the boulevard",
     "lyricSong": "Dancin’, Shaggin’ on the Boulevard",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 471,
@@ -7533,7 +8003,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "How do you fall in love / And when do you say “I do",
     "lyricSong": "How Do You Fall in Love",
-    "lyricArtist": "Alabama"
+    "lyricArtist": "Alabama",
+    "tier": 2
   },
   {
     "id": 472,
@@ -7549,7 +8020,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "All it takes is a point of light / A ray of hope in the darkest night",
     "lyricSong": "Point of Light",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 2
   },
   {
     "id": 473,
@@ -7565,7 +8037,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You think it’s disgraceful that they drink three dollar wine / But a better class of losers suits me fine",
     "lyricSong": "Better Class of Losers",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 3
   },
   {
     "id": 474,
@@ -7581,7 +8054,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I heard a freight train out across the way / I heard a woman sing Amazing Grace",
     "lyricSong": "Whisper My Name",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 2
   },
   {
     "id": 475,
@@ -7597,7 +8071,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "This is me you’re not talking to / This is me, the one who knows you inside out",
     "lyricSong": "This Is Me",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 2
   },
   {
     "id": 476,
@@ -7613,7 +8088,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "We all thought his heart was made of solid rock / But that was long before we found the box",
     "lyricSong": "The Box",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 3
   },
   {
     "id": 477,
@@ -7629,7 +8105,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And I know I had it coming, and it’s all my fault / But baby, come back before you kill us all",
     "lyricSong": "Before You Kill Us All",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 2
   },
   {
     "id": 478,
@@ -7645,7 +8122,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And I was falling, and I fell for you and how / Darling, are we in trouble now?",
     "lyricSong": "Are We in Trouble Now",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 3
   },
   {
     "id": 479,
@@ -7661,7 +8139,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Bury your jacket in my backyard / Carry your picture in my shoe",
     "lyricSong": "Out of My Bones",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 3
   },
   {
     "id": 480,
@@ -7677,7 +8156,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "With so much riding on the choice at hand / The spirit of a boy or the wisdom of a man",
     "lyricSong": "Spirit of a Boy, Wisdom of a Man",
-    "lyricArtist": "Randy Travis"
+    "lyricArtist": "Randy Travis",
+    "tier": 2
   },
   {
     "id": 481,
@@ -7693,7 +8173,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Never knew lonely could be so blue / Never knew lonely could tear you in two",
     "lyricSong": "Never Knew Lonely",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 482,
@@ -7709,7 +8190,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "How many lies you must have told / You think you’re a rich man with your pocket full of gold",
     "lyricSong": "Pocket Full of Gold",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 483,
@@ -7725,7 +8207,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Someone to hold me when the cold wind blows / Take your memory with you when you go",
     "lyricSong": "Take Your Memory with You",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 484,
@@ -7741,7 +8224,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’ve been tryin’ to get over you / But it’ll take dyin’ to get it done",
     "lyricSong": "Tryin’ to Get Over You",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 1
   },
   {
     "id": 485,
@@ -7757,7 +8241,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’ll find out it’s true / Baby, someday when love finds you",
     "lyricSong": "When Love Finds You",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 486,
@@ -7773,7 +8258,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m standing at the crossroads with just one concern / Which bridge to cross and which bridge to burn",
     "lyricSong": "Which Bridge to Cross (Which Bridge to Burn)",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 487,
@@ -7789,7 +8275,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "So you better think twice before you roll the dice / You better think twice before you give your heart away",
     "lyricSong": "You Better Think Twice",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 488,
@@ -7805,7 +8292,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "We need a little more love to get us through the night / Just a little more love",
     "lyricSong": "A Little More Love",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 489,
@@ -7821,7 +8309,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If you ever have forever in mind / I’ll be here and easy to find",
     "lyricSong": "If You Ever Have Forever in Mind",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 490,
@@ -7837,7 +8326,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Love is still the answer, it’s the only place to start / Why do you and me have to be worlds apart?",
     "lyricSong": "Worlds Apart",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 2
   },
   {
     "id": 491,
@@ -7853,7 +8343,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And just like rain, the tears keep fallin’ / But nobody answers when I call your name",
     "lyricSong": "When I Call Your Name",
-    "lyricArtist": "Vince Gill"
+    "lyricArtist": "Vince Gill",
+    "tier": 1
   },
   {
     "id": 492,
@@ -7869,7 +8360,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Walk on, walk on / Nothing ever stays wrong that long",
     "lyricSong": "Walk On",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 493,
@@ -7885,7 +8377,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Last night I prayed the Lord my soul to keep / Then I cried myself to sleep",
     "lyricSong": "For My Broken Heart",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 1
   },
   {
     "id": 494,
@@ -7901,7 +8394,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But too much wine and she left his bed at dawn / And she thinks his name was John",
     "lyricSong": "She Thinks His Name Was John",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 495,
@@ -7917,7 +8411,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And the heart is a lonely hunter / With only one desire",
     "lyricSong": "The Heart Is a Lonely Hunter",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 1
   },
   {
     "id": 496,
@@ -7933,7 +8428,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And all I could feel was this aching in my heart / Saying I loved him still",
     "lyricSong": "And Still",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 497,
@@ -7949,7 +8445,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Stuck at a red light outside an adult bookstore / His son said, “Daddy, what are all those X’s for?",
     "lyricSong": "What Do You Say",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 3
   },
   {
     "id": 498,
@@ -7965,7 +8462,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "One honest heart that I can believe in / Two loving arms that will never let me go",
     "lyricSong": "One Honest Heart",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 499,
@@ -7981,7 +8479,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Looks like I picked the wrong night not to fall in love with you",
     "lyricSong": "Wrong Night",
-    "lyricArtist": "Reba McEntire"
+    "lyricArtist": "Reba McEntire",
+    "tier": 2
   },
   {
     "id": 500,
@@ -7997,7 +8496,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Where’ve you been? / I’ve looked for you forever and a day",
     "lyricSong": "Where’ve You Been",
-    "lyricArtist": "Kathy Mattea"
+    "lyricArtist": "Kathy Mattea",
+    "tier": 3
   },
   {
     "id": 501,
@@ -8013,7 +8513,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She came from Fort Worth, Fort Worth couldn’t hold her / Her dreams were bigger than the Texas sky",
     "lyricSong": "She Came from Fort Worth",
-    "lyricArtist": "Kathy Mattea"
+    "lyricArtist": "Kathy Mattea",
+    "tier": 3
   },
   {
     "id": 502,
@@ -8029,7 +8530,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Let’s do what we dare, do what we like / And love while we’re here before time passes by",
     "lyricSong": "Time Passes By",
-    "lyricArtist": "Kathy Mattea"
+    "lyricArtist": "Kathy Mattea",
+    "tier": 3
   },
   {
     "id": 503,
@@ -8045,7 +8547,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You don’t need a watch to tell you you’re on lonesome standard time",
     "lyricSong": "Lonesome Standard Time",
-    "lyricArtist": "Kathy Mattea"
+    "lyricArtist": "Kathy Mattea",
+    "tier": 3
   },
   {
     "id": 504,
@@ -8061,7 +8564,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m walking away a winner / I’m walking away from a losing game",
     "lyricSong": "Walking Away a Winner",
-    "lyricArtist": "Kathy Mattea"
+    "lyricArtist": "Kathy Mattea",
+    "tier": 2
   },
   {
     "id": 505,
@@ -8077,7 +8581,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I ain’t gonna be the clown in your rodeo / I ain’t gonna be the freak in your fair",
     "lyricSong": "Clown in Your Rodeo",
-    "lyricArtist": "Kathy Mattea"
+    "lyricArtist": "Kathy Mattea",
+    "tier": 3
   },
   {
     "id": 506,
@@ -8093,7 +8598,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I take my chances / I take my chances every chance I get",
     "lyricSong": "I Take My Chances",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 507,
@@ -8109,7 +8615,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Sometimes you’re the windshield / Sometimes you’re the bug",
     "lyricSong": "The Bug",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 3
   },
   {
     "id": 508,
@@ -8125,7 +8632,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m going out tonight to find myself a friend",
     "lyricSong": "Going Out Tonight",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 3
   },
   {
     "id": 509,
@@ -8141,7 +8649,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And though we should be at an end / It’s so hard admittin’ when it’s quittin’ time",
     "lyricSong": "Quittin’ Time",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 510,
@@ -8157,7 +8666,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You said everyone can be a rock and / Roll like a river too",
     "lyricSong": "Tender When I Want to Be",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 2
   },
   {
     "id": 511,
@@ -8173,7 +8683,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I would not need even one more drop / If you’d just let me into your heart",
     "lyricSong": "Let Me into Your Heart",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 3
   },
   {
     "id": 512,
@@ -8189,7 +8700,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m just resting in the arms of the great wide open / Gonna pull my soul in",
     "lyricSong": "Almost Home",
-    "lyricArtist": "Mary Chapin Carpenter"
+    "lyricArtist": "Mary Chapin Carpenter",
+    "tier": 3
   },
   {
     "id": 513,
@@ -8205,7 +8717,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Chains, chains, shackles and chains / No matter what it takes, someday I’m gonna break these",
     "lyricSong": "Chains",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 1
   },
   {
     "id": 514,
@@ -8221,7 +8734,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I ain’t the woman in red, I ain’t the girl next door",
     "lyricSong": "I’m That Kind of Girl",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 515,
@@ -8237,7 +8751,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Leaving all I know back there, rushing through the cold night air / And holding on to nothin’ but the wheel",
     "lyricSong": "Nothin’ but the Wheel",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 516,
@@ -8253,7 +8768,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When she lies, and she will / When all is said and done",
     "lyricSong": "You Will",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 517,
@@ -8269,7 +8785,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Halfway down, just a-gettin’ started / Yes, I’m beginnin’ on my journey now",
     "lyricSong": "Halfway Down",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 2
   },
   {
     "id": 518,
@@ -8285,7 +8802,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause honey, I’m right there waitin’ on you / At the bottom of your glass",
     "lyricSong": "Here I Am",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 519,
@@ -8301,7 +8819,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Torn right down the middle in a red jagged line / She drew a broken heart and put your name inside",
     "lyricSong": "She Drew a Broken Heart",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 520,
@@ -8317,7 +8836,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Forgetting you is not that hard to do / I’ve done it a thousand times a day",
     "lyricSong": "A Thousand Times a Day",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 521,
@@ -8333,7 +8853,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Oh, the trouble with the truth / Is it’s always the same ol’ thing",
     "lyricSong": "The Trouble with the Truth",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 522,
@@ -8349,7 +8870,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’d stand in the rain, no place to hide / Drown in my shame, swallow my pride",
     "lyricSong": "To Have You Back Again",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 523,
@@ -8365,7 +8887,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I would’ve never found you if he had wanted to stay / Oh, he hurt me bad in a real good way",
     "lyricSong": "Hurt Me Bad (In a Real Good Way)",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 2
   },
   {
     "id": 524,
@@ -8381,7 +8904,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But oh, you make me lose control / I was born with a jealous bone",
     "lyricSong": "Jealous Bone",
-    "lyricArtist": "Patty Loveless"
+    "lyricArtist": "Patty Loveless",
+    "tier": 3
   },
   {
     "id": 525,
@@ -8397,7 +8921,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Make love to me tonight and leave him out of this",
     "lyricSong": "Leave Him Out of This",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 3
   },
   {
     "id": 526,
@@ -8413,7 +8938,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I held your love on the tips of my fingers / But that was as close as I came",
     "lyricSong": "The Tips of My Fingers",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 2
   },
   {
     "id": 527,
@@ -8429,7 +8955,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "A woman loves beyond her questions / And dreams beyond her doubts",
     "lyricSong": "A Woman Loves",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 3
   },
   {
     "id": 528,
@@ -8445,7 +8972,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Just like a mighty river runs to the sea / My love for you keeps growing",
     "lyricSong": "Like a River to the Sea",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 3
   },
   {
     "id": 529,
@@ -8461,7 +8989,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I gotta drive, keep on rolling / I gotta cover some ground tonight",
     "lyricSong": "Drive",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 3
   },
   {
     "id": 530,
@@ -8477,7 +9006,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause there’s holes in the floor of heaven / And her tears are pourin’ down",
     "lyricSong": "Holes in the Floor of Heaven",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 3
   },
   {
     "id": 531,
@@ -8493,7 +9023,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Oh, the ocean’s a little bit bigger tonight / Two more teardrops somebody cried",
     "lyricSong": "Two Teardrops",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 3
   },
   {
     "id": 532,
@@ -8509,7 +9040,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m already taken, you spoke up too late / I love somebody else, so you’ll just have to wait",
     "lyricSong": "I’m Already Taken",
-    "lyricArtist": "Steve Wariner"
+    "lyricArtist": "Steve Wariner",
+    "tier": 2
   },
   {
     "id": 533,
@@ -8525,7 +9057,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "What if I said that I love you / How would you feel, what would you think, what would we do?",
     "lyricSong": "What If I Said",
-    "lyricArtist": "Anita Cochran with Steve Wariner"
+    "lyricArtist": "Anita Cochran with Steve Wariner",
+    "tier": 2
   },
   {
     "id": 534,
@@ -8541,7 +9074,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m gonna put on my walking shoes tonight / Well, I’m a-leavin’ here ’cause you don’t treat me right",
     "lyricSong": "Walking Shoes",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 2
   },
   {
     "id": 535,
@@ -8557,7 +9091,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Somebody oughta tell that girl she’s livin’ in a dreamer’s world",
     "lyricSong": "It Won’t Be Me",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 536,
@@ -8573,7 +9108,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Oh, but baby, I’m down to my last teardrop this time",
     "lyricSong": "Down to My Last Teardrop",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 2
   },
   {
     "id": 537,
@@ -8589,7 +9125,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’ve been asking myself, is this how it’s gonna be? / Without you, what do I do with me?",
     "lyricSong": "(Without You) What Do I Do with Me",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 2
   },
   {
     "id": 538,
@@ -8605,7 +9142,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Late one night, I heard a knock on my door / To no surprise, it was my landlord",
     "lyricSong": "Some Kind of Trouble",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 539,
@@ -8621,7 +9159,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If your heart ain’t busy tonight / Maybe it would like to get with mine",
     "lyricSong": "If Your Heart Ain’t Busy Tonight",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 540,
@@ -8637,7 +9176,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Like two sparrows in a hurricane / Trying to find their way",
     "lyricSong": "Two Sparrows in a Hurricane",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 2
   },
   {
     "id": 541,
@@ -8653,7 +9193,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She believed when she heard him say / Soon, I’ll be free to be with you",
     "lyricSong": "Soon",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 2
   },
   {
     "id": 542,
@@ -8669,7 +9210,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "We don’t have to do this / We don’t have to say goodbye",
     "lyricSong": "We Don’t Have to Do This",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 543,
@@ -8685,7 +9227,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It’s lonely, but I’m hangin’ in / Hangin’ out till I’m with you again",
     "lyricSong": "Hangin’ In",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 544,
@@ -8701,7 +9244,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Today I braved the graveyard rain / And placed a rose between their names",
     "lyricSong": "Between the Two of Them",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 545,
@@ -8717,7 +9261,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "If you don’t find out what’s happenin’ / You’re gonna find out that I’m gone",
     "lyricSong": "Find Out What’s Happenin’",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 546,
@@ -8733,7 +9278,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Rub my back, make me laugh / Hold me while I dream",
     "lyricSong": "Little Things",
-    "lyricArtist": "Tanya Tucker"
+    "lyricArtist": "Tanya Tucker",
+    "tier": 3
   },
   {
     "id": 547,
@@ -8749,7 +9295,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "He talks to me / It does my heart good to hear him talk to me",
     "lyricSong": "He Talks to Me",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 2
   },
   {
     "id": 548,
@@ -8765,7 +9312,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When you go, we both walk / You walk away and I walk the floor",
     "lyricSong": "We Both Walk",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 2
   },
   {
     "id": 549,
@@ -8781,7 +9329,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m looking for something in red / Something that’s shocking to turn someone’s head",
     "lyricSong": "Something in Red",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 2
   },
   {
     "id": 550,
@@ -8797,7 +9346,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Well, I guess you had to be there / You really had to be there",
     "lyricSong": "I Guess You Had to Be There",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 551,
@@ -8813,7 +9363,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And I could try for the rest of my life / But that wouldn’t be half enough",
     "lyricSong": "Half Enough",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 552,
@@ -8829,7 +9380,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m gonna dress up, gonna let my hair down / Like a wildcat on the prowl",
     "lyricSong": "My Night to Howl",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 553,
@@ -8845,7 +9397,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Oh baby, if I could be back in your arms again",
     "lyricSong": "Back in Your Arms Again",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 3
   },
   {
     "id": 554,
@@ -8861,7 +9414,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Go away, no, wait a minute / I want out, then I want in it",
     "lyricSong": "Go Away",
-    "lyricArtist": "Lorrie Morgan"
+    "lyricArtist": "Lorrie Morgan",
+    "tier": 2
   },
   {
     "id": 555,
@@ -8877,7 +9431,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Someday soon, goin’ with him someday soon",
     "lyricSong": "Someday Soon",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 3
   },
   {
     "id": 556,
@@ -8893,7 +9448,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’s had eighteen years to get ready for this day / She should be past the tears",
     "lyricSong": "Letting Go",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 3
   },
   {
     "id": 557,
@@ -8909,7 +9465,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You change just like the weather / But the weather, you know, will always change",
     "lyricSong": "Just Like the Weather",
-    "lyricArtist": "Suzy Bogguss"
+    "lyricArtist": "Suzy Bogguss",
+    "tier": 2
   },
   {
     "id": 558,
@@ -8925,7 +9482,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Let’s make love tonight like we never had a broken heart",
     "lyricSong": "Like We Never Had a Broken Heart",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 559,
@@ -8941,7 +9499,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I like a man who’s crazy about me / I like a man who can live without me too",
     "lyricSong": "That’s What I Like About You",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 560,
@@ -8957,7 +9516,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "The woman before me must have been hard on you",
     "lyricSong": "The Woman Before Me",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 2
   },
   {
     "id": 561,
@@ -8973,7 +9533,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "In another’s eyes I can do no wrong / He believes in me and his faith is strong",
     "lyricSong": "In Another’s Eyes",
-    "lyricArtist": "Trisha Yearwood & Garth Brooks"
+    "lyricArtist": "Trisha Yearwood & Garth Brooks",
+    "tier": 2
   },
   {
     "id": 562,
@@ -8989,7 +9550,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "There goes my baby, like the sun fallin’ out of the clear blue sky",
     "lyricSong": "There Goes My Baby",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 1
   },
   {
     "id": 563,
@@ -9005,7 +9567,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "It’s a powerful thing / More than three words and a diamond ring",
     "lyricSong": "Powerful Thing",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 3
   },
   {
     "id": 564,
@@ -9021,7 +9584,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Where your road leads, I will follow / When your heart bleeds, I’ll be there for you",
     "lyricSong": "Where Your Road Leads",
-    "lyricArtist": "Trisha Yearwood & Garth Brooks"
+    "lyricArtist": "Trisha Yearwood & Garth Brooks",
+    "tier": 3
   },
   {
     "id": 565,
@@ -9037,7 +9601,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "As much as you love me, baby, I’ll still love you more",
     "lyricSong": "I’ll Still Love You More",
-    "lyricArtist": "Trisha Yearwood"
+    "lyricArtist": "Trisha Yearwood",
+    "tier": 3
   },
   {
     "id": 566,
@@ -9053,7 +9618,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "He was my strongest weakness / I surrendered heart and soul",
     "lyricSong": "My Strongest Weakness",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 2
   },
   {
     "id": 567,
@@ -9069,7 +9635,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But I’m not up to being strong, so I’ll wait until you’re gone / Is it over yet?",
     "lyricSong": "Is It Over Yet",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 3
   },
   {
     "id": 568,
@@ -9085,7 +9652,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I was born naked but I’m glory bound / And a dead end street is just a place to turn around",
     "lyricSong": "Rock Bottom",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 2
   },
   {
     "id": 569,
@@ -9101,7 +9669,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Can’t nobody love you like I do / Can’t nobody hold you quite this close",
     "lyricSong": "Can’t Nobody Love You (Like I Do)",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 3
   },
   {
     "id": 570,
@@ -9117,7 +9686,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "When love starts talkin’, you got no choice but to shut up and listen",
     "lyricSong": "When Love Starts Talkin’",
-    "lyricArtist": "Wynonna"
+    "lyricArtist": "Wynonna",
+    "tier": 3
   },
   {
     "id": 571,
@@ -9133,7 +9703,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Love can build a bridge between your heart and mine / Don’t you think it’s time?",
     "lyricSong": "Love Can Build a Bridge",
-    "lyricArtist": "The Judds"
+    "lyricArtist": "The Judds",
+    "tier": 2
   },
   {
     "id": 572,
@@ -9149,7 +9720,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Maybe it’s true, I was just born to be blue",
     "lyricSong": "Born to Be Blue",
-    "lyricArtist": "The Judds"
+    "lyricArtist": "The Judds",
+    "tier": 3
   },
   {
     "id": 573,
@@ -9165,7 +9737,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "They’ll be shootin’ marbles in the back of the store",
     "lyricSong": "Dumas Walker",
-    "lyricArtist": "The Kentucky Headhunters"
+    "lyricArtist": "The Kentucky Headhunters",
+    "tier": 3
   },
   {
     "id": 574,
@@ -9181,7 +9754,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Everybody’s goin’ out and havin’ fun / I’m just a fool for stayin’ home and havin’ none",
     "lyricSong": "Oh Lonesome Me",
-    "lyricArtist": "The Kentucky Headhunters"
+    "lyricArtist": "The Kentucky Headhunters",
+    "tier": 3
   },
   {
     "id": 575,
@@ -9197,7 +9771,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But Jesus and Mama always loved me / Even when the Devil took control",
     "lyricSong": "Jesus and Mama",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 2
   },
   {
     "id": 576,
@@ -9213,7 +9788,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I saw stars dancing on the water / I heard Elvis singing Blue Suede Shoes",
     "lyricSong": "Queen of Memphis",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 3
   },
   {
     "id": 577,
@@ -9229,7 +9805,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "That’s a cocktail waitress in a Dolly Parton wig",
     "lyricSong": "Trashy Women",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 2
   },
   {
     "id": 578,
@@ -9245,7 +9822,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When you leave that way you can never go back / A train won’t run on a torn-up track",
     "lyricSong": "When You Leave That Way You Can Never Go Back",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 3
   },
   {
     "id": 579,
@@ -9261,7 +9839,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Daddy never was the Cadillac kind / He said some things just glitter and shine",
     "lyricSong": "Daddy Never Was the Cadillac Kind",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 3
   },
   {
     "id": 580,
@@ -9277,7 +9856,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’s the number one fan of both Graceland and Mayberry RFD",
     "lyricSong": "Elvis and Andy",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 3
   },
   {
     "id": 581,
@@ -9293,7 +9873,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Summer in Dixie, sure been cold",
     "lyricSong": "Summer in Dixie",
-    "lyricArtist": "Confederate Railroad"
+    "lyricArtist": "Confederate Railroad",
+    "tier": 3
   },
   {
     "id": 582,
@@ -9309,7 +9890,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "There’s nothin’ I wouldn’t do if you want me to",
     "lyricSong": "If You Want Me To",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 583,
@@ -9325,7 +9907,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If the devil danced in empty pockets, he’d have a ball in mine",
     "lyricSong": "If the Devil Danced (In Empty Pockets)",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 1
   },
   {
     "id": 584,
@@ -9341,7 +9924,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m gonna find me a new way to light up an old flame",
     "lyricSong": "New Way (To Light Up an Old Flame)",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 2
   },
   {
     "id": 585,
@@ -9357,7 +9941,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Yesterday I missed my exit on my way to Sears",
     "lyricSong": "That Road Not Taken",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 3
   },
   {
     "id": 586,
@@ -9373,7 +9958,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I ain’t never hauled hay in the trunk of my car / But I drunk a little shine from a mason jar",
     "lyricSong": "C-O-U-N-T-R-Y",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 3
   },
   {
     "id": 587,
@@ -9389,7 +9975,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "The night she left me in Amarillo, I cried crocodile tears in my pillow",
     "lyricSong": "Texas Size Heartache",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 3
   },
   {
     "id": 588,
@@ -9405,7 +9992,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Dim the lights, lock the door, spread your pictures on the floor",
     "lyricSong": "A Night to Remember",
-    "lyricArtist": "Joe Diffie"
+    "lyricArtist": "Joe Diffie",
+    "tier": 3
   },
   {
     "id": 589,
@@ -9421,7 +10009,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’ll be living proof that yesterday’s jealous man is today’s lonely fool",
     "lyricSong": "Today’s Lonely Fool",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 590,
@@ -9437,7 +10026,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Work, work, work day after day / Fifty hour week, forty hour pay",
     "lyricSong": "Runnin’ Behind",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 591,
@@ -9453,7 +10043,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Renegades, rebels and rogues / Eyes of fire, hearts of gold",
     "lyricSong": "Renegades, Rebels and Rogues",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 592,
@@ -9469,7 +10060,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Oh, I never saw that look in your eyes / And I never had you hold me that tight",
     "lyricSong": "I See It Now",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 593,
@@ -9485,7 +10077,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’s gonna cross that line, she’s got leavin’ on her mind",
     "lyricSong": "As Any Fool Can See",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 594,
@@ -9501,7 +10094,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I swear I’ll never let forever end / If you loved me, if you loved me again",
     "lyricSong": "If You Loved Me",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 595,
@@ -9517,7 +10111,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Something makes me wonder, is she happy with her choice / Or is that a tear I hear in her voice",
     "lyricSong": "Is That a Tear",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 596,
@@ -9533,7 +10128,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But in the arms of love we stayed safe and warm / One step ahead of the storm",
     "lyricSong": "One Step Ahead of the Storm",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 3
   },
   {
     "id": 597,
@@ -9549,7 +10145,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She didn’t even stop to cry / That’s how a cowgirl says goodbye",
     "lyricSong": "How a Cowgirl Says Goodbye",
-    "lyricArtist": "Tracy Lawrence"
+    "lyricArtist": "Tracy Lawrence",
+    "tier": 2
   },
   {
     "id": 598,
@@ -9565,7 +10162,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Blame it on Texas, don’t blame it on me / I am what I am and that’s what I’m gonna be",
     "lyricSong": "Blame It on Texas",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 2
   },
   {
     "id": 599,
@@ -9581,7 +10179,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Your love is a miracle, it’s visible / Even to a heart that’s blind like mine",
     "lyricSong": "Your Love Is a Miracle",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 3
   },
   {
     "id": 600,
@@ -9597,7 +10196,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I don’t know how I’ll get her off my mind / But give me time and I’ll think of something",
     "lyricSong": "I’ll Think of Something",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 601,
@@ -9613,7 +10213,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She’d never really been loved at all / Not until ol’ country came to town",
     "lyricSong": "Ol’ Country",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 3
   },
   {
     "id": 602,
@@ -9629,7 +10230,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Woman, sensuous woman / You control the world I’m living in",
     "lyricSong": "Woman, Sensuous Woman",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 3
   },
   {
     "id": 603,
@@ -9645,7 +10247,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m gonna get a life, that’s what I’m gonna do / So startin’ now you can find one too",
     "lyricSong": "Gonna Get a Life",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 604,
@@ -9661,7 +10264,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But it wouldn’t hurt to have wings / To lift me above all the pain of the past",
     "lyricSong": "It Wouldn’t Hurt to Have Wings",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 3
   },
   {
     "id": 605,
@@ -9677,7 +10281,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Let it rain / Let your love come down, all around, let it fill my heart",
     "lyricSong": "Let It Rain",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 3
   },
   {
     "id": 606,
@@ -9693,7 +10298,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But she just wiped her tears away and put some coffee on",
     "lyricSong": "Thank God for Believers",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 3
   },
   {
     "id": 607,
@@ -9709,7 +10315,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I don’t wanna close my eyes, I don’t wanna fall asleep",
     "lyricSong": "I Don’t Want to Miss a Thing",
-    "lyricArtist": "Mark Chesnutt"
+    "lyricArtist": "Mark Chesnutt",
+    "tier": 1
   },
   {
     "id": 608,
@@ -9725,7 +10332,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I can still hear your mama calling, don’t go near the water",
     "lyricSong": "Don’t Go Near the Water",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 609,
@@ -9741,7 +10349,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Cardboard sign says yard sale, real estate sign says sold",
     "lyricSong": "Yard Sale",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 610,
@@ -9757,7 +10366,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Oh, I hear it’s cold up in Saskatoon / But it couldn’t be colder than our bedroom",
     "lyricSong": "Anywhere but Here",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 611,
@@ -9773,7 +10383,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I still got her number but I can’t reach her anymore",
     "lyricSong": "I Can’t Reach Her Anymore",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 612,
@@ -9789,7 +10400,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It’s just a picture of a girl in her birthday suit / With her cowboy hat and her cowboy boots",
     "lyricSong": "Your Tattoo",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 613,
@@ -9805,7 +10417,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You are the love of my life / And you are the reason I’m alive",
     "lyricSong": "Love of My Life",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 2
   },
   {
     "id": 614,
@@ -9821,7 +10434,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "We met at the Broken Spoke Restaurant and Lounge / I lit your cigarette, then you wrote your number down",
     "lyricSong": "Matches",
-    "lyricArtist": "Sammy Kershaw"
+    "lyricArtist": "Sammy Kershaw",
+    "tier": 3
   },
   {
     "id": 615,
@@ -9837,7 +10451,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "You’ve got to stand for something or you’ll fall for anything",
     "lyricSong": "You’ve Got to Stand for Something",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 2
   },
   {
     "id": 616,
@@ -9853,7 +10468,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I wonder just how far it is over you / Is there no place I go that you don’t come too",
     "lyricSong": "I Wonder How Far It Is Over You",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 3
   },
   {
     "id": 617,
@@ -9869,7 +10485,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I was born with a broken heart / Born to lose right from the start",
     "lyricSong": "I Was Born with a Broken Heart",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 3
   },
   {
     "id": 618,
@@ -9885,7 +10502,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause buddy if I didn’t earn it, I don’t want it / That way I can always say, I got it honest",
     "lyricSong": "I Got It Honest",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 3
   },
   {
     "id": 619,
@@ -9901,7 +10519,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause there’s a whole lotta love on the line / And all I need is a chance to change your mind",
     "lyricSong": "Whole Lotta Love on the Line",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 3
   },
   {
     "id": 620,
@@ -9917,7 +10536,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "All I have is one true heart that beats for you and you alone / You can have everything I own",
     "lyricSong": "Everything I Own",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 3
   },
   {
     "id": 621,
@@ -9933,7 +10553,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And I don’t wish on falling stars or easily give away my heart / But girl, for you I will",
     "lyricSong": "For You I Will",
-    "lyricArtist": "Aaron Tippin"
+    "lyricArtist": "Aaron Tippin",
+    "tier": 3
   },
   {
     "id": 622,
@@ -9949,7 +10570,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Let’s hold hands on the porch swing under the moon / While the wind through the willows plays us a tune",
     "lyricSong": "Drift Off to Dream",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 623,
@@ -9965,7 +10587,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause there ain’t nothin’ short of dyin’ / That’s worse than bein’ left alone",
     "lyricSong": "Nothing Short of Dying",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 624,
@@ -9981,7 +10604,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Why’s the rich man busy dancin’ while the poor man pays the band",
     "lyricSong": "Lord Have Mercy on the Working Man",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 625,
@@ -9997,7 +10621,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "So here’s a message you can give your mama / Starting now, I’m looking out for number one",
     "lyricSong": "Looking Out for Number One",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 626,
@@ -10013,7 +10638,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But just between you and me, darlin’, it was worth every mile",
     "lyricSong": "Worth Every Mile",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 627,
@@ -10029,7 +10655,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Well, I start to feel like Superman, then I pick a fight / Only to find that my opponent’s holding kryptonite",
     "lyricSong": "Ten Feet Tall and Bulletproof",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 628,
@@ -10045,7 +10672,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "That’s what she says, but sometimes she forgets",
     "lyricSong": "Sometimes She Forgets",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 2
   },
   {
     "id": 629,
@@ -10061,7 +10689,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Hard times are real, there’s dusty fields no matter where you go",
     "lyricSong": "Where Corn Don’t Grow",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 630,
@@ -10077,7 +10706,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Yeah, put some drive in your country / Keep country drivin’ on",
     "lyricSong": "Put Some Drive in Your Country",
-    "lyricArtist": "Travis Tritt"
+    "lyricArtist": "Travis Tritt",
+    "tier": 3
   },
   {
     "id": 631,
@@ -10093,7 +10723,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It’s the hillbilly rock, beat it with a drum / Playin’ them guitars like shootin’ from a gun",
     "lyricSong": "Hillbilly Rock",
-    "lyricArtist": "Marty Stuart"
+    "lyricArtist": "Marty Stuart",
+    "tier": 2
   },
   {
     "id": 632,
@@ -10109,7 +10740,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There’s a girl trying to steal my heart and I’m tempted",
     "lyricSong": "Tempted",
-    "lyricArtist": "Marty Stuart"
+    "lyricArtist": "Marty Stuart",
+    "tier": 2
   },
   {
     "id": 633,
@@ -10125,7 +10757,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Your kind of love could burn a town / Touch me, turn me on, and burn me down",
     "lyricSong": "Burn Me Down",
-    "lyricArtist": "Marty Stuart"
+    "lyricArtist": "Marty Stuart",
+    "tier": 3
   },
   {
     "id": 634,
@@ -10141,7 +10774,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Oh, this one’s gonna hurt you for a long, long time",
     "lyricSong": "This One’s Gonna Hurt You (For a Long, Long Time)",
-    "lyricArtist": "Marty Stuart & Travis Tritt"
+    "lyricArtist": "Marty Stuart & Travis Tritt",
+    "tier": 2
   },
   {
     "id": 635,
@@ -10157,7 +10791,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Down at Ernie’s icehouse liftin’ longnecks to that good old country sound",
     "lyricSong": "Nothing’s News",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 636,
@@ -10173,7 +10808,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And I’ve been loving blind / Loving every heart I could call mine",
     "lyricSong": "Loving Blind",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 1
   },
   {
     "id": 637,
@@ -10189,7 +10825,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "When you find another friend who’ll light your candle up again / You can burn one down for me",
     "lyricSong": "Burn One Down",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 638,
@@ -10205,7 +10842,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Goodbye, easier said than done / Goodbye, there’s no good when you’re the one",
     "lyricSong": "A Bad Goodbye",
-    "lyricArtist": "Clint Black with Wynonna"
+    "lyricArtist": "Clint Black with Wynonna",
+    "tier": 2
   },
   {
     "id": 639,
@@ -10221,7 +10859,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "There’s no time to kill between the cradle and the grave",
     "lyricSong": "No Time to Kill",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 640,
@@ -10237,7 +10876,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Tell ’em I won’t be ridin’, I’ll be walkin’ / ’Cause I don’t think a crazy man should drive",
     "lyricSong": "Untanglin’ My Mind",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 641,
@@ -10253,7 +10893,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "One emotion wrapped around me / One emotion I can hold on to",
     "lyricSong": "One Emotion",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 642,
@@ -10269,7 +10910,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Wherever you go, there you are / You can run from yourself but you won’t get far",
     "lyricSong": "Wherever You Go",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 643,
@@ -10285,7 +10927,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "No matter how hard we try / Life gets away from us all",
     "lyricSong": "Life Gets Away",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 644,
@@ -10301,7 +10944,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Two ways you can go, you can ask anybody around / One man’s half way up is another man’s half way down",
     "lyricSong": "Half Way Up",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 645,
@@ -10317,7 +10961,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "No matter what kind of shoes he’s wearing / The shoes he’s wearing, they don’t make the man",
     "lyricSong": "The Shoes You’re Wearing",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 646,
@@ -10333,7 +10978,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Someday I’ll need you the way you don’t need me now",
     "lyricSong": "You Don’t Need Me Now",
-    "lyricArtist": "Clint Black"
+    "lyricArtist": "Clint Black",
+    "tier": 3
   },
   {
     "id": 647,
@@ -10349,7 +10995,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "There’s still some coffee in her cup, and it’s not even cold / And her memory’s only fourteen minutes old",
     "lyricSong": "Fourteen Minutes Old",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 648,
@@ -10365,7 +11012,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "For these lips don’t know how to say goodbye / And my heart doesn’t even wanna try",
     "lyricSong": "These Lips Don’t Know How to Say Goodbye",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 649,
@@ -10381,7 +11029,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Come in out of the pain, let me dry your tears / He’s been gone for days and I’ve loved you for years",
     "lyricSong": "Come In Out of the Pain",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 650,
@@ -10397,7 +11046,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "There’s nothing harder on my heart than ol’ Haggard and Jones",
     "lyricSong": "Warning Labels",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 651,
@@ -10413,7 +11063,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I never knew love, no, I mean real love",
     "lyricSong": "I Never Knew Love",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 2
   },
   {
     "id": 652,
@@ -10429,7 +11080,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m addicted to a dollar that ain’t worth a dime",
     "lyricSong": "Addicted to a Dollar",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 653,
@@ -10445,7 +11097,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Became a home for Bill and Sue / Two newlyweds who did the best that they could do",
     "lyricSong": "Little Houses",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 654,
@@ -10461,7 +11114,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And on her way to work, she drops ’em off at school / And tells them, faith in me, faith in you",
     "lyricSong": "Faith in Me, Faith in You",
-    "lyricArtist": "Doug Stone"
+    "lyricArtist": "Doug Stone",
+    "tier": 3
   },
   {
     "id": 655,
@@ -10477,7 +11131,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "All I can be is a sweet memory",
     "lyricSong": "All I Can Be (Is a Sweet Memory)",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 656,
@@ -10493,7 +11148,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause every second you’re not here with me I think of you",
     "lyricSong": "Every Second",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 657,
@@ -10509,7 +11165,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Darlin’ if I could / But I want you bad and that ain’t good",
     "lyricSong": "I Want You Bad (And That Ain’t Good)",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 658,
@@ -10525,7 +11182,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "That was a river, this is the ocean",
     "lyricSong": "That Was a River",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 2
   },
   {
     "id": 659,
@@ -10541,7 +11199,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m a man of my word / I mean what I say",
     "lyricSong": "Man of My Word",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 660,
@@ -10557,7 +11216,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Hey, what if Jesus comes back like that",
     "lyricSong": "What If Jesus Comes Back Like That",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 661,
@@ -10573,7 +11233,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "’Cause I still need you so / But to you I’m just someone you used to know",
     "lyricSong": "Someone You Used to Know",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 662,
@@ -10589,7 +11250,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "When anyone else would’ve been long gone / Packed it up and headed back home",
     "lyricSong": "Anyone Else",
-    "lyricArtist": "Collin Raye"
+    "lyricArtist": "Collin Raye",
+    "tier": 3
   },
   {
     "id": 663,
@@ -10605,7 +11267,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Mirror, mirror, on my wall / Tell me, who is the loneliest fool of them all",
     "lyricSong": "Mirror, Mirror",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 664,
@@ -10621,7 +11284,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Sometimes I think the devil has got me by the sleeve / Oh, Mama, don’t forget to pray for me",
     "lyricSong": "Mama Don’t Forget to Pray for Me",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 665,
@@ -10637,7 +11301,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Oh me, oh my, sweet baby said goodbye",
     "lyricSong": "Oh Me, Oh My, Sweet Baby",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 3
   },
   {
     "id": 666,
@@ -10653,7 +11318,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Now we’re far apart / Night is fallin’ in my heart",
     "lyricSong": "Night Is Fallin’ in My Heart",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 3
   },
   {
     "id": 667,
@@ -10669,7 +11335,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You ought to see him metamorphosize / From Barney Jekyll into Bubba Hyde",
     "lyricSong": "Bubba Hyde",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 3
   },
   {
     "id": 668,
@@ -10685,7 +11352,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "That’s what I get for lovin’ you / Heaven’s right here in my hands",
     "lyricSong": "That’s What I Get for Lovin’ You",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 3
   },
   {
     "id": 669,
@@ -10701,7 +11369,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Imagine that / A love that lasts forever",
     "lyricSong": "Imagine That",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 3
   },
   {
     "id": 670,
@@ -10717,7 +11386,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Buy an ice cream and see how far / We can drive before it melts kinda feelin’",
     "lyricSong": "How Your Love Makes Me Feel",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 671,
@@ -10733,7 +11403,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "They’re holdin’, dreamin’, goin’, knowin’, believin’ / Nothing matters like this love they’re holdin’",
     "lyricSong": "Holdin’",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 3
   },
   {
     "id": 672,
@@ -10749,7 +11420,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And the good news is I’m better for the time we spent together / And the bad news is you’re gone",
     "lyricSong": "You’re Gone",
-    "lyricArtist": "Diamond Rio"
+    "lyricArtist": "Diamond Rio",
+    "tier": 2
   },
   {
     "id": 673,
@@ -10765,7 +11437,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m headed down that road again / I’m working on my next broken heart",
     "lyricSong": "My Next Broken Heart",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 1
   },
   {
     "id": 674,
@@ -10781,7 +11454,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And you think you still care / We’ll burn that bridge when we get there",
     "lyricSong": "We’ll Burn That Bridge",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 675,
@@ -10797,7 +11471,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She’s not the cheatin’ kind / She’s been cheated one too many times",
     "lyricSong": "She’s Not the Cheatin’ Kind",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 1
   },
   {
     "id": 676,
@@ -10813,7 +11488,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I can’t blame love, but I’ll never forgive my heart",
     "lyricSong": "I’ll Never Forgive My Heart",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 677,
@@ -10829,7 +11505,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Ain’t no big deal / It’s just whiskey under the bridge",
     "lyricSong": "Whiskey Under the Bridge",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 3
   },
   {
     "id": 678,
@@ -10845,7 +11522,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I am that man you’re trying to find / I am that man you had in mind",
     "lyricSong": "I Am That Man",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 3
   },
   {
     "id": 679,
@@ -10861,7 +11539,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "The one thing I thought I’d never lose / He’s got you",
     "lyricSong": "He’s Got You",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 2
   },
   {
     "id": 680,
@@ -10877,7 +11556,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I ain’t missing you / No matter what I might say",
     "lyricSong": "Missing You",
-    "lyricArtist": "Brooks & Dunn"
+    "lyricArtist": "Brooks & Dunn",
+    "tier": 3
   },
   {
     "id": 681,
@@ -10893,7 +11573,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Wanted: one good-hearted woman / To forgive imperfections in the man that she loves",
     "lyricSong": "Wanted",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 3
   },
   {
     "id": 682,
@@ -10909,7 +11590,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Has it been ten years since we said “I do”?",
     "lyricSong": "I’d Love You All Over Again",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 683,
@@ -10925,7 +11607,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Then nothin’ else would come between the two of us / If Dallas was in Tennessee",
     "lyricSong": "Dallas",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 684,
@@ -10941,7 +11624,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "It’s turning me every way but loose / He said it sounds like love’s got a hold on you",
     "lyricSong": "Love’s Got a Hold on You",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 1
   },
   {
     "id": 685,
@@ -10957,7 +11641,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’ve got a ceiling, a floor and four walls / Who says you can’t have it all",
     "lyricSong": "(Who Says) You Can’t Have It All",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 686,
@@ -10973,7 +11658,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But still you wonder / Who’s cheatin’ who",
     "lyricSong": "Who’s Cheatin’ Who",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 687,
@@ -10989,7 +11675,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "The flesh is weak, but love is strong / And she’s all I see between the devil and me",
     "lyricSong": "Between the Devil and Me",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 688,
@@ -11005,7 +11692,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Long after the pleasures of the flesh / An’ I’ll go on loving you",
     "lyricSong": "I’ll Go On Loving You",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 2
   },
   {
     "id": 689,
@@ -11021,7 +11709,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Before the big money shut ’em down / And killed the little man",
     "lyricSong": "Little Man",
-    "lyricArtist": "Alan Jackson"
+    "lyricArtist": "Alan Jackson",
+    "tier": 3
   },
   {
     "id": 690,
@@ -11037,7 +11726,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’ve never lost at love, not counting you",
     "lyricSong": "Not Counting You",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 691,
@@ -11053,7 +11743,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "When the last thing we notice is the color of skin",
     "lyricSong": "We Shall Be Free",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 692,
@@ -11069,7 +11760,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Look into her eyes and pray that she don’t see / This learning to live again is killing me",
     "lyricSong": "Learning to Live Again",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 693,
@@ -11085,7 +11777,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Contact your American Honky-Tonk Bar Association",
     "lyricSong": "American Honky-Tonk Bar Association",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 2
   },
   {
     "id": 694,
@@ -11101,7 +11794,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Oh, the red strokes / Passions uncaged",
     "lyricSong": "The Red Strokes",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 3
   },
   {
     "id": 695,
@@ -11117,7 +11811,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "It’s midnight, Cinderella, but don’t you worry none / ’Cause I’m Peter Peter the Pumpkin Eater and the party’s just begun",
     "lyricSong": "It’s Midnight Cinderella",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 3
   },
   {
     "id": 696,
@@ -11133,7 +11828,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I could hold you for a million years / To make you feel my love",
     "lyricSong": "To Make You Feel My Love",
-    "lyricArtist": "Garth Brooks"
+    "lyricArtist": "Garth Brooks",
+    "tier": 1
   },
   {
     "id": 697,
@@ -11149,7 +11845,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But if I know me / I’ll turn this car around",
     "lyricSong": "If I Know Me",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 698,
@@ -11165,7 +11862,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I got a feeling called the blues, oh Lord, since my baby said goodbye",
     "lyricSong": "Lovesick Blues",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 699,
@@ -11181,7 +11879,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But I’d say she’s about as gone as a girl can get",
     "lyricSong": "Gone as a Girl Can Get",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 700,
@@ -11197,7 +11896,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So tell me word for word what he said that always made you stay",
     "lyricSong": "So Much Like My Dad",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 701,
@@ -11213,7 +11913,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Why don’t we take this matter somewhere else / and get to know this feelin’ that’s so strong, lead on",
     "lyricSong": "Lead On",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 702,
@@ -11229,7 +11930,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "For the most part I’m okay / but I still miss her in a round about way",
     "lyricSong": "Round About Way",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 703,
@@ -11245,7 +11947,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "We really shouldn’t be doing this and we both know why",
     "lyricSong": "We Really Shouldn’t Be Doing This",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 704,
@@ -11261,7 +11964,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Meanwhile, back in the back of my mem’ry / you’re still dancing with me",
     "lyricSong": "Meanwhile",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 705,
@@ -11277,7 +11981,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’ve fallen for you and that’s a fact / what do you say to that?",
     "lyricSong": "What Do You Say to That",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 2
   },
   {
     "id": 706,
@@ -11293,7 +11998,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I wouldn’t treat a dog the way you treated me / but that’s what I get",
     "lyricSong": "I’ve Come to Expect It from You",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 707,
@@ -11309,7 +12015,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Adalida, pretty little Cajun queen / sweet Dixie flower, the Belle of the Bayou",
     "lyricSong": "Adalida",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 3
   },
   {
     "id": 708,
@@ -11325,7 +12032,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I thought I was king of the mountain / but I was only a fool on the hill",
     "lyricSong": "King of the Mountain",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 3
   },
   {
     "id": 709,
@@ -11341,7 +12049,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But it’s all right baby, if I hurry I can still make Cheyenne",
     "lyricSong": "I Can Still Make Cheyenne",
-    "lyricArtist": "George Strait"
+    "lyricArtist": "George Strait",
+    "tier": 1
   },
   {
     "id": 710,
@@ -11357,7 +12066,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It looked like a place to find some satisfaction / with a little less talk and a lot more action",
     "lyricSong": "A Little Less Talk and a Lot More Action",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 711,
@@ -11373,7 +12083,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Moving upstairs, downtown / life’s too short to be hanging around",
     "lyricSong": "Upstairs Downtown",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 3
   },
   {
     "id": 712,
@@ -11389,7 +12100,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Someday soon I’m gonna climb right up / and take a little ride in her big ol’ truck",
     "lyricSong": "Big Ol’ Truck",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 713,
@@ -11405,7 +12117,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m finding I’m still missing you, and I just got to know / does that blue moon ever shine on you",
     "lyricSong": "Does That Blue Moon Ever Shine on You",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 714,
@@ -11421,7 +12134,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "A badly broken heart that’s forgotten how to love / what my heart needs is a woman’s touch",
     "lyricSong": "A Woman’s Touch",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 715,
@@ -11437,7 +12151,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Who’ll be the one to say goodbye / and who’ll be the one to stay when love fades",
     "lyricSong": "When Love Fades",
-    "lyricArtist": "Toby Keith"
+    "lyricArtist": "Toby Keith",
+    "tier": 2
   },
   {
     "id": 716,
@@ -11453,7 +12168,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’re just one of many broken hearted / wonderin’ what went wrong / welcome to the club",
     "lyricSong": "Welcome to the Club",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 717,
@@ -11469,7 +12185,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Her hat is hanging by the door / the one she bought in Mexico",
     "lyricSong": "Can’t Be Really Gone",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 3
   },
   {
     "id": 718,
@@ -11485,7 +12202,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Baby, maybe we should just sleep on it tonight",
     "lyricSong": "Maybe We Should Just Sleep on It",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 719,
@@ -11501,7 +12219,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "One of these days you’re gonna love me / you’ll sit down by yourself and think",
     "lyricSong": "One of These Days",
-    "lyricArtist": "Tim McGraw"
+    "lyricArtist": "Tim McGraw",
+    "tier": 2
   },
   {
     "id": 720,
@@ -11517,7 +12236,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I don’t want to stop lovin’ you, but I will",
     "lyricSong": "But I Will",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 721,
@@ -11533,7 +12253,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You’re gonna lose the race from time to time / but you’re always gonna find / you can’t lose me",
     "lyricSong": "You Can’t Lose Me",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 722,
@@ -11549,7 +12270,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "When it doesn’t feel like we’re even in love / it matters to me",
     "lyricSong": "It Matters to Me",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 1
   },
   {
     "id": 723,
@@ -11565,7 +12287,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Let me let go, baby / let me let go",
     "lyricSong": "Let Me Let Go",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 2
   },
   {
     "id": 724,
@@ -11581,7 +12304,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’d go and capture the moon, that’s what I would do / just to hear you say that you love me",
     "lyricSong": "Just to Hear You Say That You Love Me",
-    "lyricArtist": "Faith Hill with Tim McGraw"
+    "lyricArtist": "Faith Hill with Tim McGraw",
+    "tier": 3
   },
   {
     "id": 725,
@@ -11597,7 +12321,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You can’t buy it at the store, try it on for size / bring it back if it don’t feel right",
     "lyricSong": "Love Ain’t Like That",
-    "lyricArtist": "Faith Hill"
+    "lyricArtist": "Faith Hill",
+    "tier": 3
   },
   {
     "id": 726,
@@ -11613,7 +12338,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "The one I finally choose is simply ‘I love you’ / as the words came out I heard a voice inside me say",
     "lyricSong": "What Made You Say That",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 3
   },
   {
     "id": 727,
@@ -11629,7 +12355,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You got to dance with the one that brought you / stay with the one that wants you",
     "lyricSong": "Dance with the One That Brought You",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 3
   },
   {
     "id": 728,
@@ -11645,7 +12372,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "God bless the child who suffers / hallelujah, hallelujah / God bless the young without mothers",
     "lyricSong": "God Bless the Child",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 3
   },
   {
     "id": 729,
@@ -11661,7 +12389,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "From this moment, life has begun / from this moment, you are the one",
     "lyricSong": "From This Moment On",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 1
   },
   {
     "id": 730,
@@ -11677,7 +12406,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You’ve got a way with me / somehow you got me to believe",
     "lyricSong": "You’ve Got a Way",
-    "lyricArtist": "Shania Twain"
+    "lyricArtist": "Shania Twain",
+    "tier": 2
   },
   {
     "id": 731,
@@ -11693,7 +12423,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It’s times like these / I wish I were a tin man",
     "lyricSong": "The Tin Man",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 732,
@@ -11709,7 +12440,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Common destiny / we were meant to be / me and you",
     "lyricSong": "Me and You",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 733,
@@ -11725,7 +12457,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "A chance to tell you how I feel about you",
     "lyricSong": "A Chance",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 2
   },
   {
     "id": 734,
@@ -11741,7 +12474,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She thinks my tractor’s sexy, it really turns her on / she’s always starin’ at me while I’m chuggin’ along",
     "lyricSong": "She Thinks My Tractor’s Sexy",
-    "lyricArtist": "Kenny Chesney"
+    "lyricArtist": "Kenny Chesney",
+    "tier": 1
   },
   {
     "id": 735,
@@ -11757,7 +12491,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Honey since I lost you, I ain’t ate a bite",
     "lyricSong": "Beer and Bones",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 3
   },
   {
     "id": 736,
@@ -11773,7 +12508,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And there are times I thought that might be true / but she thinks I could rope the moon",
     "lyricSong": "Rope the Moon",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 737,
@@ -11789,7 +12525,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "If you’ve got love, you can move a mountain, little bit further down the line",
     "lyricSong": "If You’ve Got Love",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 738,
@@ -11805,7 +12542,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s gonna be okay, gonna find a way / livin’ in no man’s land",
     "lyricSong": "No Man’s Land",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 739,
@@ -11821,7 +12559,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "But I ain’t givin’ up / I’m gonna show you darlin’ a little cowboy love",
     "lyricSong": "Cowboy Love",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 740,
@@ -11837,7 +12576,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Well they say the Grand Canyon is a sight to see / but it’s just a big ditch next to you and me",
     "lyricSong": "Ain’t Got Nothin’ on Us",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 3
   },
   {
     "id": 741,
@@ -11853,7 +12593,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I miss you a little, I guess you could say / a little too much, a little too often",
     "lyricSong": "I Miss You a Little",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 742,
@@ -11869,7 +12610,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s the closest to heaven I’ll ever see / she’ll always be an angel in my eyes",
     "lyricSong": "Angel in My Eyes",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 743,
@@ -11885,7 +12627,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It might rain but that’s okay / I get to come home to you",
     "lyricSong": "Home to You",
-    "lyricArtist": "John Michael Montgomery"
+    "lyricArtist": "John Michael Montgomery",
+    "tier": 2
   },
   {
     "id": 744,
@@ -11901,7 +12644,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Who needs a woman to make him blue / who needs you baby, I do",
     "lyricSong": "Who Needs You Baby",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 2
   },
   {
     "id": 745,
@@ -11917,7 +12661,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Only when I laugh, only when I cry / And only on days that end in “Y",
     "lyricSong": "Only on Days That End in \"Y\"",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 2
   },
   {
     "id": 746,
@@ -11933,7 +12678,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "One, two, I love you / Three, four, let’s have one more",
     "lyricSong": "One, Two, I Love You",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 3
   },
   {
     "id": 747,
@@ -11949,7 +12695,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Then what, what you gonna do / When the new wears off and the old shines through",
     "lyricSong": "Then What?",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 2
   },
   {
     "id": 748,
@@ -11965,7 +12712,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I’m just saying I believe / You’re beginning to get to me",
     "lyricSong": "You’re Beginning to Get to Me",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 2
   },
   {
     "id": 749,
@@ -11981,7 +12729,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Gonna drink every drop of happiness till they cover me up / I’m gonna live, gonna laugh, gonna love",
     "lyricSong": "Live, Laugh, Love",
-    "lyricArtist": "Clay Walker"
+    "lyricArtist": "Clay Walker",
+    "tier": 2
   },
   {
     "id": 750,
@@ -11997,7 +12746,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "She rolled into town, dreams in a sack / Old guitar in a blue Pontiac",
     "lyricSong": "You Gotta Love That",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 3
   },
   {
     "id": 751,
@@ -12013,7 +12763,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Tell me you love me for a million years / Then if it don’t work out, then you can tell me goodbye",
     "lyricSong": "Then You Can Tell Me Goodbye",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 2
   },
   {
     "id": 752,
@@ -12029,7 +12780,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Before I knew what was going on / I was going, going, gone",
     "lyricSong": "Going, Going, Gone",
-    "lyricArtist": "Neal McCoy"
+    "lyricArtist": "Neal McCoy",
+    "tier": 3
   },
   {
     "id": 753,
@@ -12045,7 +12797,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "And let them soar like eagles / Across the Trail of Tears",
     "lyricSong": "Trail of Tears",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 3
   },
   {
     "id": 754,
@@ -12061,7 +12814,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Run for shelter if you can / There’s a storm in the heartland",
     "lyricSong": "Storm in the Heartland",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 3
   },
   {
     "id": 755,
@@ -12077,7 +12831,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "And when you say that time’s a-wasting / You don’t know how right you are",
     "lyricSong": "Busy Man",
-    "lyricArtist": "Billy Ray Cyrus"
+    "lyricArtist": "Billy Ray Cyrus",
+    "tier": 3
   },
   {
     "id": 756,
@@ -12093,7 +12848,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I wanna take love lessons, baby, from you / Whatever it is you want, I want to please you",
     "lyricSong": "Love Lessons",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 757,
@@ -12109,7 +12865,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Life on earth would sure be hell without the heaven in my woman’s eyes",
     "lyricSong": "Heaven in My Woman’s Eyes",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 758,
@@ -12125,7 +12882,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’ve got a big love, wild and free / Room to grow, as big as your dreams",
     "lyricSong": "Big Love",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 2
   },
   {
     "id": 759,
@@ -12141,7 +12899,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Tommy and Janey, hardly eighteen / Holdin’ hands at the jewelry store",
     "lyricSong": "Don’t Love Make a Diamond Shine",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 3
   },
   {
     "id": 760,
@@ -12157,7 +12916,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Then he handed me a tracing of his hand / On the back of a piece of paper",
     "lyricSong": "Put Your Hand in Mine",
-    "lyricArtist": "Tracy Byrd"
+    "lyricArtist": "Tracy Byrd",
+    "tier": 3
   },
   {
     "id": 761,
@@ -12173,7 +12933,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It’s just one of those things that I can’t do nothing about",
     "lyricSong": "One of Those Things",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 762,
@@ -12189,7 +12950,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Mary moved to West Virginia after the shock wore off / She got a divorce and a chestnut horse",
     "lyricSong": "Let That Pony Run",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 3
   },
   {
     "id": 763,
@@ -12205,7 +12967,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Just call me Cleopatra, everybody, ’cause I’m the queen of denial",
     "lyricSong": "Cleopatra, Queen of Denial",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 764,
@@ -12221,7 +12984,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I can hear the guitars playing lovely tunes / Every time that you walk in the room",
     "lyricSong": "When You Walk in the Room",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 765,
@@ -12237,7 +13001,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I got the bleeding stopped but there’s gonna be a scar",
     "lyricSong": "Deep Down",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 766,
@@ -12253,7 +13018,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "The world is turning in the land of the living / Take a deep breath, life goes on",
     "lyricSong": "Land of the Living",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 2
   },
   {
     "id": 767,
@@ -12269,7 +13035,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Go on and get your share / But believe me, baby, it’s lonely out there",
     "lyricSong": "It’s Lonely Out There",
-    "lyricArtist": "Pam Tillis"
+    "lyricArtist": "Pam Tillis",
+    "tier": 3
   },
   {
     "id": 768,
@@ -12285,7 +13052,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "The time has come to let you go / My tears will run and they’ll keep me afloat",
     "lyricSong": "The Time Has Come",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 3
   },
   {
     "id": 769,
@@ -12301,7 +13069,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I want arms that know how to rock me / Safe in the arms of love",
     "lyricSong": "Safe in the Arms of Love",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 2
   },
   {
     "id": 770,
@@ -12317,7 +13086,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You would still have my heart until the end of time / You’re all I need, my love, my Valentine",
     "lyricSong": "Valentine",
-    "lyricArtist": "Jim Brickman with Martina McBride"
+    "lyricArtist": "Jim Brickman with Martina McBride",
+    "tier": 2
   },
   {
     "id": 771,
@@ -12333,7 +13103,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I knew that it was safe with you / And what we had would never end, wrong again",
     "lyricSong": "Wrong Again",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 2
   },
   {
     "id": 772,
@@ -12349,7 +13120,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Sure as the sky is blue / Baby, I love you",
     "lyricSong": "I Love You",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 1
   },
   {
     "id": 773,
@@ -12365,7 +13137,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I was standing in the grocery store line / The one they marked express",
     "lyricSong": "Love’s the Only House",
-    "lyricArtist": "Martina McBride"
+    "lyricArtist": "Martina McBride",
+    "tier": 3
   },
   {
     "id": 774,
@@ -12381,7 +13154,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I can love you better than that / I know how to make you forget her",
     "lyricSong": "I Can Love You Better",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 775,
@@ -12397,7 +13171,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Goodbye, Earl / Those black-eyed peas, they tasted all right to me, Earl",
     "lyricSong": "Goodbye Earl",
-    "lyricArtist": "Dixie Chicks"
+    "lyricArtist": "Dixie Chicks",
+    "tier": 2
   },
   {
     "id": 776,
@@ -12413,7 +13188,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Hurt me, why in the world did you hurt me",
     "lyricSong": "Hurt Me",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 3
   },
   {
     "id": 777,
@@ -12429,7 +13205,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Lonely rivers flow to the sea, to the sea / To the open arms of the sea",
     "lyricSong": "Unchained Melody",
-    "lyricArtist": "LeAnn Rimes"
+    "lyricArtist": "LeAnn Rimes",
+    "tier": 3
   },
   {
     "id": 778,
@@ -12445,7 +13222,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But if you’re talking about a game I can win / You can count me in",
     "lyricSong": "Count Me In",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 2
   },
   {
     "id": 779,
@@ -12461,7 +13239,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I ain’t your chick, I ain’t your squeeze / I ain’t the girl I used to be",
     "lyricSong": "You Still Shake Me",
-    "lyricArtist": "Deana Carter"
+    "lyricArtist": "Deana Carter",
+    "tier": 3
   },
   {
     "id": 780,
@@ -12477,7 +13256,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I feel just like that painting, collecting dust on the wall",
     "lyricSong": "Maybe He’ll Notice Her Now",
-    "lyricArtist": "Mindy McCready with Richie McDonald"
+    "lyricArtist": "Mindy McCready with Richie McDonald",
+    "tier": 3
   },
   {
     "id": 781,
@@ -12493,7 +13273,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "What if I do, will he love me more / What if I don’t, will he walk out the door",
     "lyricSong": "What If I Do",
-    "lyricArtist": "Mindy McCready"
+    "lyricArtist": "Mindy McCready",
+    "tier": 3
   },
   {
     "id": 782,
@@ -12509,7 +13290,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I grew up near Wichita in a Mayberry kind of town",
     "lyricSong": "You’re Not in Kansas Anymore",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 3
   },
   {
     "id": 783,
@@ -12525,7 +13307,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There’s a little bitty flame burnin’ deep in my heart / You wanna make something of it?",
     "lyricSong": "Do You Wanna Make Something of It",
-    "lyricArtist": "Jo Dee Messina"
+    "lyricArtist": "Jo Dee Messina",
+    "tier": 3
   },
   {
     "id": 784,
@@ -12541,7 +13324,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Have a little faith in me / Baby, can’t you see, you’ve got to talk to me",
     "lyricSong": "You’ve Got to Talk to Me",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 2
   },
   {
     "id": 785,
@@ -12557,7 +13341,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I need a man who can tame a wild mustang",
     "lyricSong": "Buckaroo",
-    "lyricArtist": "Lee Ann Womack"
+    "lyricArtist": "Lee Ann Womack",
+    "tier": 3
   },
   {
     "id": 786,
@@ -12573,7 +13358,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "And he’ll be living in a different world / When boy meets girl",
     "lyricSong": "When Boy Meets Girl",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 2
   },
   {
     "id": 787,
@@ -12589,7 +13375,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I would’ve found you, I would’ve found you just the same",
     "lyricSong": "Just the Same",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 2
   },
   {
     "id": 788,
@@ -12605,7 +13392,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Every time I do, every time you lie, every time I cry",
     "lyricSong": "Everytime I Cry",
-    "lyricArtist": "Terri Clark"
+    "lyricArtist": "Terri Clark",
+    "tier": 2
   },
   {
     "id": 789,
@@ -12621,7 +13409,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "But with his songs he turned my life and this old car around",
     "lyricSong": "Three Chords and the Truth",
-    "lyricArtist": "Sara Evans"
+    "lyricArtist": "Sara Evans",
+    "tier": 3
   },
   {
     "id": 790,
@@ -12637,7 +13426,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So don’t bother knockin’ on my door / ’Cause I wouldn’t touch you with a ten foot pole",
     "lyricSong": "Shame About That",
-    "lyricArtist": "Sara Evans"
+    "lyricArtist": "Sara Evans",
+    "tier": 3
   },
   {
     "id": 791,
@@ -12653,7 +13443,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I know where to find the door / Ain’t gonna play the cryin’ game no more",
     "lyricSong": "Cryin’ Game",
-    "lyricArtist": "Sara Evans"
+    "lyricArtist": "Sara Evans",
+    "tier": 3
   },
   {
     "id": 792,
@@ -12669,7 +13460,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "It was real, it was magic, it was calm, it was savage",
     "lyricSong": "It Was",
-    "lyricArtist": "Chely Wright"
+    "lyricArtist": "Chely Wright",
+    "tier": 3
   },
   {
     "id": 793,
@@ -12685,7 +13477,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "If I said I’m still in love with you / It was just the tequila talkin’",
     "lyricSong": "Tequila Talkin’",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 2
   },
   {
     "id": 794,
@@ -12701,7 +13494,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She could telephone, tell a friend / Tell a lie ’bout where she’s been",
     "lyricSong": "No News",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 2
   },
   {
     "id": 795,
@@ -12717,7 +13511,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "When you’re tired of it all and tears need to fall / Your back’s to the wall, come cryin’ to me",
     "lyricSong": "Come Cryin’ to Me",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 2
   },
   {
     "id": 796,
@@ -12733,7 +13528,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "You walked in with legs up to your neck / You walked in, I’m a physical wreck",
     "lyricSong": "You Walked In",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 2
   },
   {
     "id": 797,
@@ -12749,7 +13545,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Say when, I’ll be there by your side / For a day, for a year, for the rest of my life",
     "lyricSong": "Say When",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 2
   },
   {
     "id": 798,
@@ -12765,7 +13562,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "They put up a plant where we used to park / That old drive-in’s a new Wal-Mart",
     "lyricSong": "Everything’s Changed",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 3
   },
   {
     "id": 799,
@@ -12781,7 +13579,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m gonna smile ’cause I want to make you happy / Laugh so you can’t see me cry",
     "lyricSong": "Smile",
-    "lyricArtist": "Lonestar"
+    "lyricArtist": "Lonestar",
+    "tier": 2
   },
   {
     "id": 800,
@@ -12797,7 +13596,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Not sure I know who I am anymore, but / There’s a girl in Texas that does",
     "lyricSong": "There’s a Girl in Texas",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 801,
@@ -12813,7 +13613,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "It ain’t the stove, it ain’t the heater / She’s hotter and a whole lot sweeter",
     "lyricSong": "I Left Something Turned On at Home",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 802,
@@ -12829,7 +13630,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "This ain’t no thinkin’ thing, right brain, left brain / It goes a little deeper than that",
     "lyricSong": "(This Ain’t) No Thinkin’ Thing",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 803,
@@ -12845,7 +13647,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Blue-eyed gypsy, you’re still with me everywhere I go / Lonely won’t leave me alone",
     "lyricSong": "Lonely Won’t Leave Me Alone",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 804,
@@ -12861,7 +13664,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Big time, we’re gonna have one / Big time, we’re gonna grab some",
     "lyricSong": "Big Time",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 805,
@@ -12877,7 +13681,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But I swear I’ll love you for the rest of mine",
     "lyricSong": "The Rest of Mine",
-    "lyricArtist": "Trace Adkins"
+    "lyricArtist": "Trace Adkins",
+    "tier": 2
   },
   {
     "id": 806,
@@ -12893,7 +13698,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "So late one night by the harvest moon / Jacob climbed a ladder up to Rachel’s room",
     "lyricSong": "Jacob’s Ladder",
-    "lyricArtist": "Mark Wills"
+    "lyricArtist": "Mark Wills",
+    "tier": 3
   },
   {
     "id": 807,
@@ -12909,7 +13715,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "’Cause you take me places I’ve never been / I travel the world in your arms and back again",
     "lyricSong": "Places I’ve Never Been",
-    "lyricArtist": "Mark Wills"
+    "lyricArtist": "Mark Wills",
+    "tier": 2
   },
   {
     "id": 808,
@@ -12925,7 +13732,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I do cherish you / For the rest of my life, you don’t have to think twice",
     "lyricSong": "I Do (Cherish You)",
-    "lyricArtist": "Mark Wills"
+    "lyricArtist": "Mark Wills",
+    "tier": 2
   },
   {
     "id": 809,
@@ -12941,7 +13749,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "A little girl who never smiles / ’Cause I’ve got braces on my teeth",
     "lyricSong": "Don’t Laugh at Me",
-    "lyricArtist": "Mark Wills"
+    "lyricArtist": "Mark Wills",
+    "tier": 3
   },
   {
     "id": 810,
@@ -12957,7 +13766,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "He bought a postcard, on the front it just said “Heaven” / With a picture of the ocean and beach",
     "lyricSong": "Wish You Were Here",
-    "lyricArtist": "Mark Wills"
+    "lyricArtist": "Mark Wills",
+    "tier": 3
   },
   {
     "id": 811,
@@ -12973,7 +13783,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "She’s in love, she’s got that fire in her eyes",
     "lyricSong": "She’s in Love",
-    "lyricArtist": "Mark Wills"
+    "lyricArtist": "Mark Wills",
+    "tier": 3
   },
   {
     "id": 812,
@@ -12989,7 +13800,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Till you walk a while, a country mile / In my hillbilly shoes",
     "lyricSong": "Hillbilly Shoes",
-    "lyricArtist": "Montgomery Gentry"
+    "lyricArtist": "Montgomery Gentry",
+    "tier": 2
   },
   {
     "id": 813,
@@ -13005,7 +13817,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Coulda heard a teardrop, coulda heard a heartbreak / Never saw the flood come, even though I felt the rain",
     "lyricSong": "Lonely and Gone",
-    "lyricArtist": "Montgomery Gentry"
+    "lyricArtist": "Montgomery Gentry",
+    "tier": 2
   },
   {
     "id": 814,
@@ -13021,7 +13834,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "There’s an old Kodak camera in my dresser drawer / I ran across it just this afternoon",
     "lyricSong": "Who Needs Pictures",
-    "lyricArtist": "Brad Paisley"
+    "lyricArtist": "Brad Paisley",
+    "tier": 3
   },
   {
     "id": 815,
@@ -13037,7 +13851,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I met the man I call my dad when I was five years old",
     "lyricSong": "He Didn’t Have to Be",
-    "lyricArtist": "Brad Paisley"
+    "lyricArtist": "Brad Paisley",
+    "tier": 2
   },
   {
     "id": 816,
@@ -13053,7 +13868,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause I’ve been a wildcatter and a go-go getter / Been an S.O.B. right down to the letter",
     "lyricSong": "Her Man",
-    "lyricArtist": "Gary Allan"
+    "lyricArtist": "Gary Allan",
+    "tier": 2
   },
   {
     "id": 817,
@@ -13069,7 +13885,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Love is pourin’ through the windows, comin’ through the door",
     "lyricSong": "Living in a House of Love",
-    "lyricArtist": "Gary Allan"
+    "lyricArtist": "Gary Allan",
+    "tier": 3
   },
   {
     "id": 818,
@@ -13085,7 +13902,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "If it was a color, it would be a deep, deep blue",
     "lyricSong": "It Would Be You",
-    "lyricArtist": "Gary Allan"
+    "lyricArtist": "Gary Allan",
+    "tier": 3
   },
   {
     "id": 819,
@@ -13101,7 +13919,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "As I sit here on the front steps / Blowing smoke rings in the dark",
     "lyricSong": "Smoke Rings in the Dark",
-    "lyricArtist": "Gary Allan"
+    "lyricArtist": "Gary Allan",
+    "tier": 2
   },
   {
     "id": 820,
@@ -13117,7 +13936,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And I promise you now / You won’t ever be lonely",
     "lyricSong": "You Won’t Ever Be Lonely",
-    "lyricArtist": "Andy Griggs"
+    "lyricArtist": "Andy Griggs",
+    "tier": 2
   },
   {
     "id": 821,
@@ -13133,7 +13953,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’ll go quietly, I’ll go silently / But I’ll go crazy without you",
     "lyricSong": "I’ll Go Crazy",
-    "lyricArtist": "Andy Griggs"
+    "lyricArtist": "Andy Griggs",
+    "tier": 3
   },
   {
     "id": 822,
@@ -13149,7 +13970,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "The nights are lonely, the days are so sad / And I just keep thinkin’ about the love that we had",
     "lyricSong": "Nobody Knows",
-    "lyricArtist": "Kevin Sharp"
+    "lyricArtist": "Kevin Sharp",
+    "tier": 2
   },
   {
     "id": 823,
@@ -13165,7 +13987,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "My heart’s breaking and she’s sure taking it well",
     "lyricSong": "She’s Sure Taking It Well",
-    "lyricArtist": "Kevin Sharp"
+    "lyricArtist": "Kevin Sharp",
+    "tier": 3
   },
   {
     "id": 824,
@@ -13181,7 +14004,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Mount Everest, I’ll climb it, no problem, just say when / Mississippi, I’ll swim it",
     "lyricSong": "If You Love Somebody",
-    "lyricArtist": "Kevin Sharp"
+    "lyricArtist": "Kevin Sharp",
+    "tier": 3
   },
   {
     "id": 825,
@@ -13197,7 +14021,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I knew her books, her car, her clothes / But I paid no attention to what mattered most",
     "lyricSong": "What Mattered Most",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 2
   },
   {
     "id": 826,
@@ -13213,7 +14038,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I had a momentary, temporary lack of self control",
     "lyricSong": "I Want My Goodbye Back",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 3
   },
   {
     "id": 827,
@@ -13229,7 +14055,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Who could ask for more / Than to be living in a moment you would die for",
     "lyricSong": "Living in a Moment",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 2
   },
   {
     "id": 828,
@@ -13245,7 +14072,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Oh, I don’t know but something tells me / It must be love",
     "lyricSong": "It Must Be Love",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 2
   },
   {
     "id": 829,
@@ -13261,7 +14089,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I need to be loved too much / I need to be held too tight",
     "lyricSong": "Loved Too Much",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 3
   },
   {
     "id": 830,
@@ -13277,7 +14106,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "For twenty-two years he’s watched her grow / A man holdin’ on to a woman lettin’ go",
     "lyricSong": "A Man Holdin’ On (To a Woman Lettin’ Go)",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 3
   },
   {
     "id": 831,
@@ -13293,7 +14123,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Bank sign says a hundred and two / But that ain’t nothin’ when I’m next to you",
     "lyricSong": "Steam",
-    "lyricArtist": "Ty Herndon"
+    "lyricArtist": "Ty Herndon",
+    "tier": 3
   },
   {
     "id": 832,
@@ -13309,7 +14140,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Look at me now / Nothing but a whole lot of time on my hands",
     "lyricSong": "Look at Me Now",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 3
   },
   {
     "id": 833,
@@ -13325,7 +14157,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Put your picture in the shoebox and my gold ring in the drawer / I’m not supposed to love you anymore",
     "lyricSong": "I’m Not Supposed to Love You Anymore",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 3
   },
   {
     "id": 834,
@@ -13341,7 +14174,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Please don’t you have a miracle just lying around / One small miracle nobody needs, send it on down",
     "lyricSong": "One Small Miracle",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 3
   },
   {
     "id": 835,
@@ -13357,7 +14191,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And every day of my life I realize love is the right place",
     "lyricSong": "Love Is the Right Place",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 3
   },
   {
     "id": 836,
@@ -13373,7 +14208,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "God gave me you to show me what’s real / There’s more to life than just how I feel",
     "lyricSong": "God Gave Me You",
-    "lyricArtist": "Bryan White"
+    "lyricArtist": "Bryan White",
+    "tier": 3
   },
   {
     "id": 837,
@@ -13389,7 +14225,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "But they mean nothing, baby / Your love amazes me",
     "lyricSong": "Your Love Amazes Me",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 2
   },
   {
     "id": 838,
@@ -13405,7 +14242,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "What’s in it for me, I’ve got to ask / If it’s only more tears, then I’ll have to pass",
     "lyricSong": "What’s in It for Me",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 2
   },
   {
     "id": 839,
@@ -13421,7 +14259,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "The way you look me in the eye / I think about it all the time",
     "lyricSong": "I Think About It All the Time",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 3
   },
   {
     "id": 840,
@@ -13437,7 +14276,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You and only you can make these broken dreams come true",
     "lyricSong": "You and Only You",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 3
   },
   {
     "id": 841,
@@ -13453,7 +14293,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I can’t sleep and I can’t eat / Sometimes I find it hard to breathe",
     "lyricSong": "Standing on the Edge of Goodbye",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 2
   },
   {
     "id": 842,
@@ -13469,7 +14310,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Change my mind, say you couldn’t live without me / Say you’re crazy about me",
     "lyricSong": "Change My Mind",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 3
   },
   {
     "id": 843,
@@ -13485,7 +14327,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Since that Jesse’s been comin’ to the diner / Folks are sayin’ that she’s never looked finer",
     "lyricSong": "She’s Taken a Shine",
-    "lyricArtist": "John Berry"
+    "lyricArtist": "John Berry",
+    "tier": 3
   },
   {
     "id": 844,
@@ -13501,7 +14344,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "That Chevy four-by-four says it all, sittin’ in my place",
     "lyricSong": "That Ain’t My Truck",
-    "lyricArtist": "Rhett Akins"
+    "lyricArtist": "Rhett Akins",
+    "tier": 3
   },
   {
     "id": 845,
@@ -13517,7 +14361,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "They lit a flame with the match God had made when she said yes",
     "lyricSong": "She Said Yes",
-    "lyricArtist": "Rhett Akins"
+    "lyricArtist": "Rhett Akins",
+    "tier": 3
   },
   {
     "id": 846,
@@ -13533,7 +14378,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Hey darlin’ if you don’t wanna hear how the waters parted / Then don’t get me started",
     "lyricSong": "Don’t Get Me Started",
-    "lyricArtist": "Rhett Akins"
+    "lyricArtist": "Rhett Akins",
+    "tier": 2
   },
   {
     "id": 847,
@@ -13549,7 +14395,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Seventeen, Kara Leigh Baker was settin’ my dreams on fire",
     "lyricSong": "Love You Back",
-    "lyricArtist": "Rhett Akins"
+    "lyricArtist": "Rhett Akins",
+    "tier": 3
   },
   {
     "id": 848,
@@ -13565,7 +14412,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m living up to her low expectations / I’m becoming everything she said I’d be",
     "lyricSong": "I’m Living Up to Her Low Expectations",
-    "lyricArtist": "Daryle Singletary"
+    "lyricArtist": "Daryle Singletary",
+    "tier": 3
   },
   {
     "id": 849,
@@ -13581,7 +14429,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Too much fun, what’s that mean? / It’s like too much money, there’s no such thing",
     "lyricSong": "Too Much Fun",
-    "lyricArtist": "Daryle Singletary"
+    "lyricArtist": "Daryle Singletary",
+    "tier": 2
   },
   {
     "id": 850,
@@ -13597,7 +14446,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I found an amen kind of love / The kind that makes you fall down on your knees",
     "lyricSong": "Amen Kind of Love",
-    "lyricArtist": "Daryle Singletary"
+    "lyricArtist": "Daryle Singletary",
+    "tier": 3
   },
   {
     "id": 851,
@@ -13613,7 +14463,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "By the hand that held the pen / That wrote the words that broke the heart",
     "lyricSong": "The Note",
-    "lyricArtist": "Daryle Singletary"
+    "lyricArtist": "Daryle Singletary",
+    "tier": 3
   },
   {
     "id": 852,
@@ -13629,7 +14480,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’m just an ole jukebox junkie / Spendin’ my time, spendin’ my money",
     "lyricSong": "Jukebox Junkie",
-    "lyricArtist": "Ken Mellons"
+    "lyricArtist": "Ken Mellons",
+    "tier": 3
   },
   {
     "id": 853,
@@ -13645,7 +14497,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "If I never stop loving you / Will you never start wantin’ me to",
     "lyricSong": "If I Never Stop Loving You",
-    "lyricArtist": "David Kersh"
+    "lyricArtist": "David Kersh",
+    "tier": 3
   },
   {
     "id": 854,
@@ -13661,7 +14514,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "While other loves are growin’ strong / My heart has a history of lettin’ go",
     "lyricSong": "My Heart Has a History",
-    "lyricArtist": "Paul Brandt"
+    "lyricArtist": "Paul Brandt",
+    "tier": 3
   },
   {
     "id": 855,
@@ -13677,7 +14531,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I wanna fall in love, I wanna feel that rush / Running into my heart, shaking up my soul",
     "lyricSong": "I Wanna Fall in Love",
-    "lyricArtist": "Lila McCann"
+    "lyricArtist": "Lila McCann",
+    "tier": 3
   },
   {
     "id": 856,
@@ -13693,7 +14548,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I would go anywhere, do anything, no, I don’t care / Long as I know I’ll always go with you",
     "lyricSong": "With You",
-    "lyricArtist": "Lila McCann"
+    "lyricArtist": "Lila McCann",
+    "tier": 3
   },
   {
     "id": 857,
@@ -13709,7 +14565,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Unpaid bills by the kitchen phone / I took the Beatles, left Billy Joel",
     "lyricSong": "Little Good-Byes",
-    "lyricArtist": "SHeDAISY"
+    "lyricArtist": "SHeDAISY",
+    "tier": 3
   },
   {
     "id": 858,
@@ -13725,7 +14582,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I’m ready for a change of any kind for / Better or worse, I’ll take whatever comes first",
     "lyricSong": "Whatever Comes First",
-    "lyricArtist": "Sons of the Desert"
+    "lyricArtist": "Sons of the Desert",
+    "tier": 3
   },
   {
     "id": 859,
@@ -13741,7 +14599,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "That I’ve got you and that’s enough / Some guys have all the love",
     "lyricSong": "Some Guys Have All the Love",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 3
   },
   {
     "id": 860,
@@ -13757,7 +14616,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And ooh, it was a restless kinda free / When it was you and forever and me",
     "lyricSong": "You and Forever and Me",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 3
   },
   {
     "id": 861,
@@ -13773,7 +14633,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She cut her teeth on the Rollin’ Stones / ‘It’s Only Rock ’n’ Roll’ was her favorite song",
     "lyricSong": "Country Crazy",
-    "lyricArtist": "Little Texas"
+    "lyricArtist": "Little Texas",
+    "tier": 3
   },
   {
     "id": 862,
@@ -13789,7 +14650,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "They say love this hot can be a dangerous thing / Come on darlin’, let’s go down in flames",
     "lyricSong": "Down in Flames",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 3
   },
   {
     "id": 863,
@@ -13805,7 +14667,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Gonna find someone and love her / Like there ain’t no yesterday",
     "lyricSong": "Like There Ain’t No Yesterday",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 3
   },
   {
     "id": 864,
@@ -13821,7 +14684,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "There I’ve done it and there I’ve said it / There you have it, I don’t regret it",
     "lyricSong": "There You Have It",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 3
   },
   {
     "id": 865,
@@ -13837,7 +14701,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I feel so alone and she’s not even gone / She’s almost a memory now",
     "lyricSong": "Almost a Memory Now",
-    "lyricArtist": "BlackHawk"
+    "lyricArtist": "BlackHawk",
+    "tier": 3
   },
   {
     "id": 866,
@@ -13853,7 +14718,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’m just a ghost in this house / I’m just a shadow upon these walls",
     "lyricSong": "Ghost in This House",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 3
   },
   {
     "id": 867,
@@ -13869,7 +14735,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You could’ve had that boy you used to know / He’s a millionaire from Ohio",
     "lyricSong": "I Got You",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 3
   },
   {
     "id": 868,
@@ -13885,7 +14752,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "She took the moon over Georgia / When it came down to his world or mine",
     "lyricSong": "The Moon Over Georgia",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 3
   },
   {
     "id": 869,
@@ -13901,7 +14769,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "After work, me and the boys / Go down to Killey’s and we make some noise",
     "lyricSong": "Rock My Baby",
-    "lyricArtist": "Shenandoah"
+    "lyricArtist": "Shenandoah",
+    "tier": 3
   },
   {
     "id": 870,
@@ -13917,7 +14786,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Somewhere in the vicinity of the heart / I feel somethin’ hittin’ me awful hard",
     "lyricSong": "Somewhere in the Vicinity of the Heart",
-    "lyricArtist": "Shenandoah with Alison Krauss"
+    "lyricArtist": "Shenandoah with Alison Krauss",
+    "tier": 2
   },
   {
     "id": 871,
@@ -13933,7 +14803,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I’ll take the dirt road, it’s all I know / I’ve been a-walkin’ it for years",
     "lyricSong": "The Dirt Road",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 2
   },
   {
     "id": 872,
@@ -13949,7 +14820,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Me and the boys that I knew in school / Are thirty years old and stubborn as a herd of mules",
     "lyricSong": "The Boys and Me",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 3
   },
   {
     "id": 873,
@@ -13965,7 +14837,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "’Cause I don’t believe in goodbye / And I believe it takes time",
     "lyricSong": "I Don’t Believe in Goodbye",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 3
   },
   {
     "id": 874,
@@ -13981,7 +14854,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Is this bad luck or just bad timin’ / Or is it the lies I told? It’s hard to say",
     "lyricSong": "Hard to Say",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 3
   },
   {
     "id": 875,
@@ -13997,7 +14871,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "You’ve got to treat her right, understand / That she’s your woman and you’re her man",
     "lyricSong": "Treat Her Right",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 3
   },
   {
     "id": 876,
@@ -14013,7 +14888,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "You pull over and I jump in / To your little red Mercedes-Benz",
     "lyricSong": "Drive Me Wild",
-    "lyricArtist": "Sawyer Brown"
+    "lyricArtist": "Sawyer Brown",
+    "tier": 3
   },
   {
     "id": 877,
@@ -14029,7 +14905,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "But it’s a five o’clock world when the whistle blows / No one owns a piece of my time",
     "lyricSong": "Five O’Clock World",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 3
   },
   {
     "id": 878,
@@ -14045,7 +14922,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Mama knows the highway now by heart / She can see the rain before it starts",
     "lyricSong": "Mama Knows the Highway",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 3
   },
   {
     "id": 879,
@@ -14061,7 +14939,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She’s sitting on the back step in the evening air / Sea green eyes and her chestnut hair",
     "lyricSong": "I Know Where Love Lives",
-    "lyricArtist": "Hal Ketchum"
+    "lyricArtist": "Hal Ketchum",
+    "tier": 3
   },
   {
     "id": 880,
@@ -14077,7 +14956,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "So turn it on, turn it up, turn me loose / From her memory that’s driving me lonely, crazy and blue",
     "lyricSong": "Turn It On, Turn It Up, Turn Me Loose",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 881,
@@ -14093,7 +14973,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "No, I ain’t that lonely yet / After what you put me through",
     "lyricSong": "Ain’t That Lonely Yet",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 2
   },
   {
     "id": 882,
@@ -14109,7 +14990,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Try not to look so pretty / And I’ll try not to be your fool",
     "lyricSong": "Try Not to Look So Pretty",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 883,
@@ -14125,7 +15007,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "She said, baby things change / I said, but I feel the same",
     "lyricSong": "Things Change",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 884,
@@ -14141,7 +15024,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "That’ll be me you’ll see walking away / That’ll be me you’ll see for the last time today",
     "lyricSong": "Gone (That’ll Be Me)",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 3
   },
   {
     "id": 885,
@@ -14157,7 +15041,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "This thing called love, I just can’t handle it / This thing called love, I must get ’round to it",
     "lyricSong": "Crazy Little Thing Called Love",
-    "lyricArtist": "Dwight Yoakam"
+    "lyricArtist": "Dwight Yoakam",
+    "tier": 2
   },
   {
     "id": 886,
@@ -14173,7 +15058,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "How come I always get a hard time / Honey, when it comes to you",
     "lyricSong": "When It Comes to You",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 3
   },
   {
     "id": 887,
@@ -14189,7 +15075,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I got the moon and stars above, yeah, I’ve got it made",
     "lyricSong": "I’ve Got It Made",
-    "lyricArtist": "John Anderson"
+    "lyricArtist": "John Anderson",
+    "tier": 3
   },
   {
     "id": 888,
@@ -14205,7 +15092,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I’ve got the radio blastin’ / I’ve got the windows rolled down",
     "lyricSong": "Backroads",
-    "lyricArtist": "Ricky Van Shelton"
+    "lyricArtist": "Ricky Van Shelton",
+    "tier": 3
   },
   {
     "id": 889,
@@ -14221,7 +15109,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I am a simple man / I want a job and a piece of land",
     "lyricSong": "I Am a Simple Man",
-    "lyricArtist": "Ricky Van Shelton"
+    "lyricArtist": "Ricky Van Shelton",
+    "tier": 3
   },
   {
     "id": 890,
@@ -14237,7 +15126,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Now don’t stop, don’t stop / Don’t stop doing what you’re doing to me",
     "lyricSong": "Don’t Stop",
-    "lyricArtist": "Wade Hayes"
+    "lyricArtist": "Wade Hayes",
+    "tier": 3
   },
   {
     "id": 891,
@@ -14253,7 +15143,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "What I meant to say was I love you / What’s been killin’ me is I hurt you",
     "lyricSong": "What I Meant to Say",
-    "lyricArtist": "Wade Hayes"
+    "lyricArtist": "Wade Hayes",
+    "tier": 3
   },
   {
     "id": 892,
@@ -14269,7 +15160,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Out with a bang, kickin’ up dust / Honey, tonight I’m all wound up",
     "lyricSong": "Out with a Bang",
-    "lyricArtist": "David Lee Murphy"
+    "lyricArtist": "David Lee Murphy",
+    "tier": 3
   },
   {
     "id": 893,
@@ -14285,7 +15177,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Here comes the rain falling down on me / I’m showered in pain",
     "lyricSong": "Here Comes the Rain",
-    "lyricArtist": "The Mavericks"
+    "lyricArtist": "The Mavericks",
+    "tier": 3
   },
   {
     "id": 894,
@@ -14301,7 +15194,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "I just want to dance the night away / With señoritas who can sway",
     "lyricSong": "Dance the Night Away",
-    "lyricArtist": "The Mavericks"
+    "lyricArtist": "The Mavericks",
+    "tier": 2
   },
   {
     "id": 895,
@@ -14317,7 +15211,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I walked her to the plane in Phoenix / I said say hello to your mama",
     "lyricSong": "Even the Man in the Moon Is Cryin’",
-    "lyricArtist": "Mark Collie"
+    "lyricArtist": "Mark Collie",
+    "tier": 3
   },
   {
     "id": 896,
@@ -14333,7 +15228,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I was born to love you / Till the day I die",
     "lyricSong": "Born to Love You",
-    "lyricArtist": "Mark Collie"
+    "lyricArtist": "Mark Collie",
+    "tier": 3
   },
   {
     "id": 897,
@@ -14349,7 +15245,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "Shame, shame, shame, shame / You’re stirring up that old flame",
     "lyricSong": "Shame Shame Shame Shame",
-    "lyricArtist": "Mark Collie"
+    "lyricArtist": "Mark Collie",
+    "tier": 3
   },
   {
     "id": 898,
@@ -14365,7 +15262,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Pray what needs prayin’, say what needs sayin’ / ’Cause we’re only here for a little while",
     "lyricSong": "Only Here for a Little While",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 3
   },
   {
     "id": 899,
@@ -14381,7 +15279,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "And I, I will keep my love unspoken / Somewhere in my broken heart",
     "lyricSong": "Somewhere in My Broken Heart",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 2
   },
   {
     "id": 900,
@@ -14397,7 +15296,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "It doesn’t really matter what is gained or what is lost / When it comes to love, no you don’t count the cost",
     "lyricSong": "You Don’t Count the Cost",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 3
   },
   {
     "id": 901,
@@ -14413,7 +15313,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Strapped on my holster low across my hips / Two Colt .45s with white plastic grips",
     "lyricSong": "Billy the Kid",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 3
   },
   {
     "id": 902,
@@ -14429,7 +15330,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "If there hadn’t been you, where would I be / If there hadn’t been you here for me",
     "lyricSong": "If There Hadn’t Been You",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 3
   },
   {
     "id": 903,
@@ -14445,7 +15347,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "It’s like tryin’ to hide a fire in the dark / Carryin’ around this torch in my heart",
     "lyricSong": "Tryin’ to Hide a Fire in the Dark",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 3
   },
   {
     "id": 904,
@@ -14461,7 +15364,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There ain’t no good guys, there ain’t no bad guys / There’s only you and me and we just disagree",
     "lyricSong": "We Just Disagree",
-    "lyricArtist": "Billy Dean"
+    "lyricArtist": "Billy Dean",
+    "tier": 3
   },
   {
     "id": 905,
@@ -14477,7 +15381,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "You know the lady’s a lot like Reno / She ain’t got a heart",
     "lyricSong": "Reno",
-    "lyricArtist": "Doug Supernaw"
+    "lyricArtist": "Doug Supernaw",
+    "tier": 3
   },
   {
     "id": 906,
@@ -14493,7 +15398,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "When you pick me up on Friday, are you gonna bring me anything?",
     "lyricSong": "I Don’t Call Him Daddy",
-    "lyricArtist": "Doug Supernaw"
+    "lyricArtist": "Doug Supernaw",
+    "tier": 3
   },
   {
     "id": 907,
@@ -14509,7 +15415,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "There’s not enough hours in the night / Not enough time to hold you tight",
     "lyricSong": "Not Enough Hours in the Night",
-    "lyricArtist": "Doug Supernaw"
+    "lyricArtist": "Doug Supernaw",
+    "tier": 3
   },
   {
     "id": 908,
@@ -14525,7 +15432,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Took me by surprise, put me on the floor / Right between the eyes with a two by four",
     "lyricSong": "I Fell in Love",
-    "lyricArtist": "Carlene Carter"
+    "lyricArtist": "Carlene Carter",
+    "tier": 3
   },
   {
     "id": 909,
@@ -14541,7 +15449,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Every little dream I dream about you / Every little thought I think about you",
     "lyricSong": "Every Little Thing",
-    "lyricArtist": "Carlene Carter"
+    "lyricArtist": "Carlene Carter",
+    "tier": 3
   },
   {
     "id": 910,
@@ -14557,7 +15466,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "That’s my diamond in the rough / But I can make him shine with my sweet love",
     "lyricSong": "That’s My Baby",
-    "lyricArtist": "Lari White"
+    "lyricArtist": "Lari White",
+    "tier": 3
   },
   {
     "id": 911,
@@ -14573,7 +15483,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I always wondered how I’d live without you / Now I know",
     "lyricSong": "Now I Know",
-    "lyricArtist": "Lari White"
+    "lyricArtist": "Lari White",
+    "tier": 3
   },
   {
     "id": 912,
@@ -14589,7 +15500,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "Can take it like a man, steady and strong / Not a lot of fuss and carrying on",
     "lyricSong": "Take It Like a Man",
-    "lyricArtist": "Michelle Wright"
+    "lyricArtist": "Michelle Wright",
+    "tier": 3
   },
   {
     "id": 913,
@@ -14605,7 +15517,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "They’re parking cars in the old bean patch / There’s a bar in the barn and the place stays packed",
     "lyricSong": "Cadillac Ranch",
-    "lyricArtist": "Chris LeDoux"
+    "lyricArtist": "Chris LeDoux",
+    "tier": 3
   },
   {
     "id": 914,
@@ -14621,7 +15534,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "In a little dance hall just outside of Dallas / I dropped my drink when she came walking by",
     "lyricSong": "Should’ve Asked Her Faster",
-    "lyricArtist": "Ty England"
+    "lyricArtist": "Ty England",
+    "tier": 3
   },
   {
     "id": 915,
@@ -14637,7 +15551,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "If I die before I wake, feed Jake, he’s been a good dog",
     "lyricSong": "Feed Jake",
-    "lyricArtist": "Pirates of the Mississippi"
+    "lyricArtist": "Pirates of the Mississippi",
+    "tier": 3
   },
   {
     "id": 916,
@@ -14653,7 +15568,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Why don’t you leave her alone / You’re treadin’ on sacred ground",
     "lyricSong": "Sacred Ground",
-    "lyricArtist": "McBride & the Ride"
+    "lyricArtist": "McBride & the Ride",
+    "tier": 3
   },
   {
     "id": 917,
@@ -14669,7 +15585,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I can’t stand the thought of you / Going out of my mind",
     "lyricSong": "Going Out of My Mind",
-    "lyricArtist": "McBride & the Ride"
+    "lyricArtist": "McBride & the Ride",
+    "tier": 3
   },
   {
     "id": 918,
@@ -14685,7 +15602,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Like a fast movin’ train or a slow settin’ sun / She’s a love on the loose with a heart on the run",
     "lyricSong": "Love on the Loose, Heart on the Run",
-    "lyricArtist": "McBride & the Ride"
+    "lyricArtist": "McBride & the Ride",
+    "tier": 3
   },
   {
     "id": 919,
@@ -14701,7 +15619,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "What kind of fool do you think I am / I ain’t fallin’ for you all over again",
     "lyricSong": "What Kind of Fool Do You Think I Am",
-    "lyricArtist": "Lee Roy Parnell"
+    "lyricArtist": "Lee Roy Parnell",
+    "tier": 3
   },
   {
     "id": 920,
@@ -14717,7 +15636,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "All it takes is a tender moment / A loving word or the touch of your hand",
     "lyricSong": "Tender Moment",
-    "lyricArtist": "Lee Roy Parnell"
+    "lyricArtist": "Lee Roy Parnell",
+    "tier": 3
   },
   {
     "id": 921,
@@ -14733,7 +15653,8 @@ window.QBANK = [
     "a": 3,
     "lyric": "On the road where the night is black / On the road where you don’t look back",
     "lyricSong": "On the Road",
-    "lyricArtist": "Lee Roy Parnell"
+    "lyricArtist": "Lee Roy Parnell",
+    "tier": 3
   },
   {
     "id": 922,
@@ -14749,7 +15670,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "No matter what the problem, you know how to solve ’em / Ain’t nothin’ that a little bit of you can’t cure",
     "lyricSong": "A Little Bit of You",
-    "lyricArtist": "Lee Roy Parnell"
+    "lyricArtist": "Lee Roy Parnell",
+    "tier": 3
   },
   {
     "id": 923,
@@ -14765,7 +15687,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "You’re my heart’s desire, always thinking of you / Heart’s desire, girl I want you so bad",
     "lyricSong": "Heart’s Desire",
-    "lyricArtist": "Lee Roy Parnell"
+    "lyricArtist": "Lee Roy Parnell",
+    "tier": 3
   },
   {
     "id": 924,
@@ -14781,7 +15704,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "I can’t believe you’re mine / Guess we all get lucky sometimes",
     "lyricSong": "We All Get Lucky Sometimes",
-    "lyricArtist": "Lee Roy Parnell"
+    "lyricArtist": "Lee Roy Parnell",
+    "tier": 3
   },
   {
     "id": 925,
@@ -14797,7 +15721,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "You say it best when you say nothing at all",
     "lyricSong": "When You Say Nothing at All",
-    "lyricArtist": "Alison Krauss & Union Station"
+    "lyricArtist": "Alison Krauss & Union Station",
+    "tier": 2
   },
   {
     "id": 926,
@@ -14813,7 +15738,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Shelly’s at the kitchen table, cup of coffee, the morning paper",
     "lyricSong": "Ordinary Life",
-    "lyricArtist": "Chad Brock"
+    "lyricArtist": "Chad Brock",
+    "tier": 3
   },
   {
     "id": 927,
@@ -14829,7 +15755,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Darlin’ you’re the reason why / I drink, swear, steal and lie",
     "lyricSong": "Drink, Swear, Steal & Lie",
-    "lyricArtist": "Michael Peterson"
+    "lyricArtist": "Michael Peterson",
+    "tier": 3
   },
   {
     "id": 928,
@@ -14845,7 +15772,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I saved a year for this ring, I can’t wait to see / How it looks on your hand",
     "lyricSong": "From Here to Eternity",
-    "lyricArtist": "Michael Peterson"
+    "lyricArtist": "Michael Peterson",
+    "tier": 3
   },
   {
     "id": 929,
@@ -14861,7 +15789,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Not on your love, not in this life / Could I ever leave, I wouldn’t think twice",
     "lyricSong": "Not on Your Love",
-    "lyricArtist": "Jeff Carson"
+    "lyricArtist": "Jeff Carson",
+    "tier": 3
   },
   {
     "id": 930,
@@ -14877,7 +15806,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "I opened up the note and found a set of keys / Here’s your car, son, I hope it flies",
     "lyricSong": "The Car",
-    "lyricArtist": "Jeff Carson"
+    "lyricArtist": "Jeff Carson",
+    "tier": 3
   },
   {
     "id": 931,
@@ -14893,7 +15823,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "Every single word you said, every drop dead shade of red / Were just lipstick promises",
     "lyricSong": "Lipstick Promises",
-    "lyricArtist": "George Ducas"
+    "lyricArtist": "George Ducas",
+    "tier": 3
   },
   {
     "id": 932,
@@ -14909,7 +15840,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "I don’t need your rockin’ chair / Your Geritol or your Medicare",
     "lyricSong": "I Don’t Need Your Rockin’ Chair",
-    "lyricArtist": "George Jones"
+    "lyricArtist": "George Jones",
+    "tier": 3
   },
   {
     "id": 933,
@@ -14925,7 +15857,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Come next Monday, I’m gonna give up on you",
     "lyricSong": "Come Next Monday",
-    "lyricArtist": "K.T. Oslin"
+    "lyricArtist": "K.T. Oslin",
+    "tier": 3
   },
   {
     "id": 934,
@@ -14941,7 +15874,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "When you hold me, I feel no need to chase that setting sun / I’m runnin’ out of reasons to run",
     "lyricSong": "Running Out of Reasons to Run",
-    "lyricArtist": "Rick Trevino"
+    "lyricArtist": "Rick Trevino",
+    "tier": 3
   },
   {
     "id": 935,
@@ -14957,7 +15891,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "How was I gonna get an education / Sittin’ right in back of Bobbie Ann Mason",
     "lyricSong": "Bobbie Ann Mason",
-    "lyricArtist": "Rick Trevino"
+    "lyricArtist": "Rick Trevino",
+    "tier": 3
   },
   {
     "id": 936,
@@ -14973,7 +15908,8 @@ window.QBANK = [
     "a": 2,
     "lyric": "Does he love you like he loves me / Does he think of you when he’s holding me",
     "lyricSong": "Does He Love You",
-    "lyricArtist": "Reba McEntire with Linda Davis"
+    "lyricArtist": "Reba McEntire with Linda Davis",
+    "tier": 1
   },
   {
     "id": 937,
@@ -14989,7 +15925,8 @@ window.QBANK = [
     "a": 0,
     "lyric": "A woman warm and willin’, that’s what I’m lookin’ for / ’Cause the whiskey ain’t workin’ anymore",
     "lyricSong": "The Whiskey Ain’t Workin’",
-    "lyricArtist": "Travis Tritt & Marty Stuart"
+    "lyricArtist": "Travis Tritt & Marty Stuart",
+    "tier": 2
   },
   {
     "id": 938,
@@ -15005,7 +15942,8 @@ window.QBANK = [
     "a": 1,
     "lyric": "’Cause whatcha gonna do with a cowboy / When that old rooster crows at dawn",
     "lyricSong": "Whatcha Gonna Do with a Cowboy",
-    "lyricArtist": "Chris LeDoux with Garth Brooks"
+    "lyricArtist": "Chris LeDoux with Garth Brooks",
+    "tier": 3
   },
   {
     "id": 939,
@@ -15021,6 +15959,7 @@ window.QBANK = [
     "a": 2,
     "lyric": "One spark from that fiddle bow could set this place on fire",
     "lyricSong": "Burnin’ the Roadhouse Down",
-    "lyricArtist": "Steve Wariner with Garth Brooks"
+    "lyricArtist": "Steve Wariner with Garth Brooks",
+    "tier": 3
   }
 ];

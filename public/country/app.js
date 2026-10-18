@@ -9,6 +9,9 @@
       (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch],
     );
   const qs = window.QBANK || [];
+  const picker = window.HonkyPicker.create(qs);
+  const LEVEL_LABELS = { beginner: 'Beginner', mixed: 'Mixed', expert: 'Expert' };
+  let level = picker.cleanLevel(localStorage.getItem('country-showdown-level'));
   const soloOnly = Boolean(window.ONLY_SOLO);
   const qparams = new URLSearchParams(location.search);
   const inviteCode = (qparams.get('room') || '')
@@ -37,7 +40,7 @@
       const saved = JSON.parse(localStorage.getItem('country-showdown-party') || 'null');
       if (saved && Array.isArray(saved.names)) return saved;
     } catch {}
-    return { names: [name, ''], style: 'buzz', choices: 'hidden', turns: 3 };
+    return { names: [name, ''], style: 'buzz', choices: 'hidden', turns: 3, level: 'mixed' };
   })();
   // Lobby arrivals: when each player was first seen, so a new chip can pop for a few seconds.
   const arrivals = new Map();
@@ -52,29 +55,32 @@
     return Date.now() - arrivals.get(key) < 4000;
   }
   let boardRounds = 10;
+  let boardLevel = level;
   let boardLoading = false;
   const countryPrefix =
     location.pathname === '/country' || location.pathname.startsWith('/country/') ? '/country' : '';
-  const HISTORY_KEY = 'honky-tonk-played-topics-v3';
-  const validTopics = new Set(qs.map((q) => q.topic));
-  const HISTORY_LIMIT = validTopics.size;
+  // Questions played on this device, oldest first. Older versions kept songs instead; those
+  // carry over once.
+  const HISTORY_KEY = 'honky-tonk-played-questions-v1';
+  const LEGACY_HISTORY_KEY = 'honky-tonk-played-topics-v3';
   function readHistory() {
     try {
-      const saved = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
-      if (!Array.isArray(saved)) return [];
-      return [...new Set(saved.filter((t) => typeof t === 'string' && validTopics.has(t)))].slice(
-        -HISTORY_LIMIT,
+      const saved = localStorage.getItem(HISTORY_KEY);
+      if (saved) return picker.cleanHistory(JSON.parse(saved));
+      const legacy = picker.fromLegacyTopics(
+        JSON.parse(localStorage.getItem(LEGACY_HISTORY_KEY) || '[]'),
       );
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(legacy));
+      return legacy;
     } catch {
       return [];
     }
   }
-  function rememberTopic(topic) {
-    if (!validTopics.has(topic)) return;
-    const previous = readHistory().filter((t) => t !== topic);
-    previous.push(topic);
+  function rememberQuestion(id) {
+    const previous = readHistory().filter((x) => x !== id);
+    previous.push(id);
     try {
-      localStorage.setItem(HISTORY_KEY, JSON.stringify(previous.slice(-HISTORY_LIMIT)));
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(picker.cleanHistory(previous)));
     } catch {}
   }
   const token = (() => {
@@ -101,32 +107,9 @@
     }
     return copy;
   };
-  // Prefer fresh recordings across games. Only recycle a recently played recording
-  // when the remaining fresh pool cannot fill a complete round.
-  const makeOrder = (n) => {
-    const past = readHistory();
-    const seen = new Set(past);
-    const pool = shuffle(qs.map((q, i) => ({ q, i })));
-    const fresh = pool.filter((x) => !seen.has(x.q.topic));
-    const older = pool
-      .filter((x) => seen.has(x.q.topic))
-      .sort((a, b) => past.indexOf(a.q.topic) - past.indexOf(b.q.topic));
-    const chosen = [],
-      used = new Set();
-    const add = (list, limit, filter) => {
-      for (const entry of list) {
-        if (chosen.length >= limit) break;
-        if (used.has(entry.q.topic) || !filter(entry.q)) continue;
-        chosen.push(entry.i);
-        used.add(entry.q.topic);
-      }
-    };
-    const isDetail = (q) => q.category !== 'WHO SINGS IT?';
-    add(fresh, Math.ceil(n * 0.4), isDetail);
-    add(fresh, n, () => true);
-    if (chosen.length < n) add(older, n, () => true);
-    return shuffle(chosen);
-  };
+  // Offline and party games pick on this device, the same way the server does.
+  const makeOrder = (n, gameLevel = level) =>
+    picker.pickQuestions(n, readHistory(), { level: gameLevel });
   const saveName = () => {
     const inp = $('#player-name');
     if (inp) {
@@ -148,7 +131,8 @@
         const response = await api('/api/solo/start', {
           name,
           rounds,
-          recentTopics: readHistory(),
+          level,
+          recentQuestions: readHistory(),
         });
         const indexById = new Map(qs.map((q, i) => [q.id, i]));
         order = response.questionIds.map((id) => indexById.get(id));
@@ -173,6 +157,7 @@
       earned: 0,
       endsAt,
       sessionId,
+      level,
       submitting: false,
       rankingError: '',
     };
@@ -188,7 +173,7 @@
       solo.score += solo.earned;
       solo.correct++;
     } else solo.earned = 0;
-    rememberTopic(question.topic);
+    rememberQuestion(question.id);
     solo.phase = 'reveal';
     if (solo.sessionId) {
       solo.submitting = true;
@@ -244,20 +229,25 @@
     if (!rsp.ok) throw new Error(data.error || 'Something went wrong.');
     return data;
   }
-  async function loadLeaderboard(length = 10) {
+  async function loadLeaderboard(length = boardRounds, lvl = boardLevel) {
     boardRounds = length;
+    boardLevel = lvl;
     view = 'leaderboard';
     leaderboard = null;
     boardLoading = true;
     error = '';
     render();
     try {
-      const res = await fetch(countryPrefix + '/api/leaderboard?rounds=' + length, {
-        cache: 'no-store',
-      });
+      const res = await fetch(
+        countryPrefix + '/api/leaderboard?rounds=' + length + '&level=' + lvl,
+        {
+          cache: 'no-store',
+        },
+      );
       const data = await res.json();
       if (!res.ok) throw Error(data.error || 'Leaderboard unavailable');
-      if (view === 'leaderboard' && boardRounds === length) leaderboard = data;
+      if (view === 'leaderboard' && boardRounds === length && boardLevel === lvl)
+        leaderboard = data;
     } catch (e) {
       error = e.message || 'Could not load standings.';
     } finally {
@@ -277,13 +267,13 @@
       const result = await api(
         action === 'create' ? '/api/create' : '/api/room/' + code + '/' + action,
         ['create', 'join', 'rematch'].includes(action)
-          ? { ...payload, recentTopics: readHistory() }
+          ? { ...payload, recentQuestions: readHistory() }
           : payload,
       );
       serverState = result;
       code = result.code;
       view = 'room';
-      if (result.reveal?.topic) rememberTopic(result.reveal.topic);
+      if (result.reveal && result.question) rememberQuestion(result.question.id);
       previousState = JSON.stringify(result);
       history.replaceState(null, '', location.pathname + '?room=' + code);
       render();
@@ -307,7 +297,7 @@
       if (str !== previousState) {
         serverState = result;
         previousState = str;
-        if (result.reveal?.topic) rememberTopic(result.reveal.topic);
+        if (result.reveal && result.question) rememberQuestion(result.question.id);
         render();
       }
     } catch (e) {
@@ -376,7 +366,7 @@
     return `${logo()}${back()}<section class="panel"><div class="eyebrow">${isJoin ? 'You got an invite' : 'Pick your poison'}</div><h2 class="section-title">${isJoin ? 'Join the competition' : isHost ? 'Start your own room' : 'Solo soundcheck'}</h2>
   <p class="section-sub">${isJoin ? 'Enter your name and the six-character room code.' : 'Choose your name and how many songs worth of punishment you want.'}</p>
   <label class="field"><span>Your name</span><input class="textinput" id="player-name" placeholder="Your nickname" maxlength="24" value="${escapeHtml(name)}" autocomplete="nickname"></label>
-  ${isJoin ? `<label class="field"><span>Room code</span><input class="textinput" id="room-code" placeholder="ABC123" maxlength="6" value="${escapeHtml(inviteCode)}" autocapitalize="characters" style="text-transform:uppercase;letter-spacing:.22em;font-weight:800"></label>` : `<label class="field"><span>Round length</span><select class="select" id="rounds"><option value="10" ${rounds === 10 ? 'selected' : ''}>10 questions — Quick Draw</option><option value="20" ${rounds === 20 ? 'selected' : ''}>20 questions — Full Set</option></select></label>`}
+  ${isJoin ? `<label class="field"><span>Room code</span><input class="textinput" id="room-code" placeholder="ABC123" maxlength="6" value="${escapeHtml(inviteCode)}" autocapitalize="characters" style="text-transform:uppercase;letter-spacing:.22em;font-weight:800"></label>` : `<label class="field"><span>Round length</span><select class="select" id="rounds"><option value="10" ${rounds === 10 ? 'selected' : ''}>10 questions — Quick Draw</option><option value="20" ${rounds === 20 ? 'selected' : ''}>20 questions — Full Set</option></select></label>${levelField(level, 'set-level')}`}
   ${button(isJoin ? 'Join Room →' : isHost ? 'Create Room →' : 'Play Solo →', isJoin ? 'join' : isHost ? 'create' : 'solo', 'block')}
   <div class="notice">${notice()}</div><p class="muted">${isJoin ? 'The host starts the game once everyone’s in.' : isHost ? 'Share the code with up to 7 friends, then hit Start Game.' : 'All the questions are about country music released in the 1990s.'}</p></section>`;
   }
@@ -386,7 +376,7 @@
   <div class="invite"><div class="joinlabel">Share this code</div><div class="roomcode">${escapeHtml(s.code)}</div><div class="roomline">${button('Copy Invite Link', 'copy-link', 'small')}${button('Share', 'share', 'small secondary')}</div></div>
   <div class="eyebrow">Players (${s.players.length}/8)</div><div class="players">${s.players.map((p) => `<span class="chip ${p.isYou && s.isHost ? 'host' : ''} ${justJoined(s.code, p) ? 'new' : ''}">${escapeHtml(p.name)}${p.isYou ? ' (you)' : ''}</span>`).join('')}</div>
   ${s.isHost ? button(s.players.length >= 2 ? `Start Game · ${s.players.length} players →` : 'Waiting for players to join…', 'start', 'block', s.players.length < 2 ? 'disabled' : '') : '<div class="wait"><span class="spinner"></span> Waiting for the host to start…</div>'}
-  <div id="soft-error" class="notice">${notice()}</div><p class="muted" style="margin-bottom:0">${s.rounds} questions · 30 seconds per question · +100 for correct plus a speed bonus</p></section>`;
+  <div id="soft-error" class="notice">${notice()}</div><p class="muted" style="margin-bottom:0">${LEVEL_LABELS[s.level] || 'Mixed'} · ${s.rounds} questions · 30 seconds per question · +100 for correct plus a speed bonus</p></section>`;
   }
   function drawQuestion(kind, s) {
     const local = kind === 'solo';
@@ -437,7 +427,7 @@
       : winners.length > 1
         ? 'It’s a tie. Settle it with a rematch.'
         : `${escapeHtml(winners[0].name)} owns the jukebox.`;
-    return `${logo()}${back()}<section class="panel results"><div class="eyebrow">That's a wrap</div><div class="trophy" aria-hidden="true"><svg viewBox="0 0 100 100" width="64" height="64" focusable="false"><polygon points="50,5 61.8,36 95,36 68,56 79,89 50,69 21,89 32,56 5,36 38.2,36" fill="currentColor"/></svg></div><h2 class="section-title">${local ? 'Soundcheck complete' : 'Showdown complete'}</h2><p class="section-sub" style="margin-top:12px">${winnerLine}</p>
+    return `${logo()}${back()}<section class="panel results"><div class="eyebrow">That's a wrap · ${LEVEL_LABELS[s.level] || 'Mixed'}</div><div class="trophy" aria-hidden="true"><svg viewBox="0 0 100 100" width="64" height="64" focusable="false"><polygon points="50,5 61.8,36 95,36 68,56 79,89 50,69 21,89 32,56 5,36 38.2,36" fill="currentColor"/></svg></div><h2 class="section-title">${local ? 'Soundcheck complete' : 'Showdown complete'}</h2><p class="section-sub" style="margin-top:12px">${winnerLine}</p>
   <div class="podium">${players.map((p, i) => `<div class="podiumrow"><span>${local ? '' : i + 1 + '. '}${escapeHtml(p.name)}${p.isYou && !local ? ' (you)' : ''}<small style="display:block;color:#aeb9af;font-size:11px">${p.correct} correct</small></span><b>${p.score}</b></div>`).join('')}</div>
   ${local ? button('Play Again →', 'restart', 'block') : s.isHost ? button('Rematch →', 'rematch', 'block') : '<div class="wait">Waiting for the host to call a rematch…</div>'}
   ${soloOnly ? '' : button('View leaderboard →', 'leaderboard', 'block secondary')}
@@ -446,13 +436,20 @@
   }
   const PARTY_POINTS = 100;
   const PARTY_POINTS_WITH_CHOICES = 50;
-  const seg = (field, value, options) =>
+  const seg = (field, value, options, action = 'party-set') =>
     `<div class="seg" role="group">${options
       .map(
         ([v, label]) =>
-          `<button type="button" data-action="party-set" data-field="${field}" data-value="${v}" aria-pressed="${String(v) === String(value)}">${label}</button>`,
+          `<button type="button" data-action="${action}" data-field="${field}" data-value="${v}" aria-pressed="${String(v) === String(value)}">${label}</button>`,
       )
       .join('')}</div>`;
+  const LEVEL_HELP = {
+    beginner: 'Mostly easy. The big radio hits.',
+    mixed: 'Starts with the hits and builds to deep cuts.',
+    expert: 'Mostly hard. Deep cuts and verse details.',
+  };
+  const levelField = (value, action) =>
+    `<div class="field"><span>Difficulty</span>${seg('level', value, Object.entries(LEVEL_LABELS), action)}<small class="seg-help">${LEVEL_HELP[value]}</small></div>`;
   function syncPartyDraft() {
     const inputs = app.querySelectorAll('.party-name');
     if (inputs.length) partyDraft.names = [...inputs].map((el) => el.value);
@@ -484,6 +481,7 @@
     ['hidden', 'Only if stuck'],
     ['shown', 'From the start'],
   ])}<small class="seg-help">${d.choices === 'hidden' ? `Answer cold for ${PARTY_POINTS}. If nobody knows, the reader can read the choices, then it's worth ${PARTY_POINTS_WITH_CHOICES}.` : `The reader reads all four choices every time. ${PARTY_POINTS} points per right answer.`}</small></div>
+  ${levelField(picker.cleanLevel(d.level), 'party-set')}
   <div class="field"><span>Turns to read</span>${seg('turns', d.turns, [
     [2, '2 each'],
     [3, '3 each'],
@@ -512,7 +510,8 @@
       players: names.map((n) => ({ name: n, score: 0, correct: 0 })),
       style: partyDraft.style,
       choicesFirst: partyDraft.choices === 'shown',
-      order: makeOrder(names.length * partyDraft.turns),
+      level: picker.cleanLevel(partyDraft.level),
+      order: makeOrder(names.length * partyDraft.turns, partyDraft.level),
       index: 0,
       phase: 'pass',
       choicesShown: false,
@@ -540,7 +539,7 @@
       p.players[winner].score += p.earned;
       p.players[winner].correct++;
     }
-    rememberTopic(q.topic);
+    rememberQuestion(q.id);
     p.phase = 'reveal';
     render();
   }
@@ -617,7 +616,7 @@
         : winners.length > 1
           ? `It’s a tie between ${winners.map((w) => escapeHtml(w.name)).join(' and ')}. Run it back.`
           : `${escapeHtml(winners[0].name)} owns the jukebox.`;
-    return `${logo()}${back()}<section class="panel results"><div class="eyebrow">That's a wrap</div><div class="trophy" aria-hidden="true"><svg viewBox="0 0 100 100" width="64" height="64" focusable="false"><polygon points="50,5 61.8,36 95,36 68,56 79,89 50,69 21,89 32,56 5,36 38.2,36" fill="currentColor"/></svg></div><h2 class="section-title">Party's over</h2><p class="section-sub" style="margin-top:12px">${line}</p>
+    return `${logo()}${back()}<section class="panel results"><div class="eyebrow">That's a wrap · ${LEVEL_LABELS[party.level]}</div><div class="trophy" aria-hidden="true"><svg viewBox="0 0 100 100" width="64" height="64" focusable="false"><polygon points="50,5 61.8,36 95,36 68,56 79,89 50,69 21,89 32,56 5,36 38.2,36" fill="currentColor"/></svg></div><h2 class="section-title">Party's over</h2><p class="section-sub" style="margin-top:12px">${line}</p>
   <div class="podium">${players.map((pl, i) => `<div class="podiumrow"><span>${i + 1}. ${escapeHtml(pl.name)}<small style="display:block;color:#aeb9af;font-size:11px">${pl.correct} right</small></span><b>${pl.score}</b></div>`).join('')}</div>
   ${button('Play Again →', 'party-start', 'block')}
   ${button('Change Players or Rules', 'open-party', 'block secondary')}
@@ -629,6 +628,12 @@
     return `${logo()}${back()}<section class="panel leaderboard-panel">
     <div class="eyebrow">The all-time jukebox</div><h2 class="section-title">High Score Hall of Fame</h2>
     <p class="section-sub">Highest completed score per name. Solo and multiplayer both count.</p>
+    <div class="board-tabs">${Object.entries(LEVEL_LABELS)
+      .map(
+        ([key, label]) =>
+          `<button data-action="board-level" data-level="${key}" class="${boardLevel === key ? 'active' : ''}" aria-pressed="${boardLevel === key}">${label}</button>`,
+      )
+      .join('')}</div>
     <div class="board-tabs"><button data-action="board10" class="${boardRounds === 10 ? 'active' : ''}" aria-pressed="${boardRounds === 10}">10 questions</button><button data-action="board20" class="${boardRounds === 20 ? 'active' : ''}" aria-pressed="${boardRounds === 20}">20 questions</button></div>
     ${
       boardLoading
@@ -777,11 +782,26 @@
     if (!element) return;
     const action = element.dataset.action;
     if (action === 'leaderboard') {
-      await loadLeaderboard(10);
+      await loadLeaderboard(10, level);
       return;
     }
     if (action === 'board10' || action === 'board20') {
       await loadLeaderboard(action === 'board20' ? 20 : 10);
+      return;
+    }
+    if (action === 'board-level') {
+      await loadLeaderboard(boardRounds, picker.cleanLevel(element.dataset.level));
+      return;
+    }
+    if (action === 'set-level') {
+      // Keep what's typed: the setup screen redraws.
+      name = ($('#player-name')?.value ?? name).trim().replace(/\s+/g, ' ').slice(0, 24);
+      pickRounds();
+      level = picker.cleanLevel(element.dataset.value);
+      try {
+        localStorage.setItem('country-showdown-level', level);
+      } catch {}
+      render();
       return;
     }
     if (action === 'menu') {
@@ -813,7 +833,7 @@
         await startSolo();
         return;
       }
-      if (action === 'create') await runAction('create', { name, rounds });
+      if (action === 'create') await runAction('create', { name, rounds, level });
       else {
         code = ($('#room-code')?.value || '').toUpperCase().replace(/[^A-Z2-9]/g, '');
         if (code.length !== 6) {

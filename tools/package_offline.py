@@ -7,6 +7,7 @@ out = root.parent
 css = (root / 'public/country/styles.css').read_text()
 questions = (root / 'public/country/questions.js').read_text()
 app = (root / 'public/country/app.js').read_text()
+picker = (root / 'public/country/picker.js').read_text()
 solo = '''<!doctype html>
 <html lang="en">
 <head>
@@ -25,7 +26,7 @@ solo = '''<!doctype html>
 <footer class="footnote">BUILT FOR FOLKS WHO KNOW EVERY WORD &nbsp; · &nbsp; STRICTLY 1990–1999 COUNTRY</footer>
 <script>
 window.ONLY_SOLO = true;
-''' + questions + '\n' + app + '''
+''' + questions + '\n' + picker + '\n' + app + '''
 </script>
 </body>
 </html>

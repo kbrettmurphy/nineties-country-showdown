@@ -50,7 +50,9 @@ const ctx = {
   navigator: {},
   console,
 };
-vm.runInNewContext(fs.readFileSync('./public/country/app.js', 'utf8'), vm.createContext(ctx));
+const context = vm.createContext(ctx);
+vm.runInContext(fs.readFileSync('./public/country/picker.js', 'utf8'), context);
+vm.runInContext(fs.readFileSync('./public/country/app.js', 'utf8'), context);
 assert.match(app.innerHTML, /Solo soundcheck/);
 assert.doesNotMatch(app.innerHTML, /Host a showdown/);
 const click = async (action, choice = 0) => {

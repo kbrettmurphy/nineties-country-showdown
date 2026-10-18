@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "test": "node tests/test-server.mjs && node tests/test-ui.mjs && node tests/test-ui-answer-race.mjs && node tests/test-routing.mjs && node tests/test-history.mjs && node tests/test-name-history.mjs && node tests/test-canonical-redirects.mjs && node tests/test-leaderboard.mjs && node tests/test-reports.mjs && node tests/test-repo-layout.mjs",
+    "test": "node tests/test-server.mjs && node tests/test-ui.mjs && node tests/test-ui-answer-race.mjs && node tests/test-routing.mjs && node tests/test-history.mjs && node tests/test-name-history.mjs && node tests/test-canonical-redirects.mjs && node tests/test-leaderboard.mjs && node tests/test-reports.mjs && node tests/test-difficulty.mjs && node tests/test-repo-layout.mjs",
     "deploy": "wrangler deploy",
     "questions:build": "python3 tools/questions/build_questions.py",
     "format": "prettier --write \"public/**/*.{html,css,js}\" \"src/**/*.js\" \"tests/**/*.mjs\" \"*.json\" \"*.jsonc\" \"docs/**/*.md\" README.md",

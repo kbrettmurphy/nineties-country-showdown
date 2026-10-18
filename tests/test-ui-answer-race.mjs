@@ -81,7 +81,9 @@ const ctx = {
   navigator: {},
   console,
 };
-vm.runInNewContext(fs.readFileSync('./public/country/app.js', 'utf8'), vm.createContext(ctx));
+const context = vm.createContext(ctx);
+vm.runInContext(fs.readFileSync('./public/country/picker.js', 'utf8'), context);
+vm.runInContext(fs.readFileSync('./public/country/app.js', 'utf8'), context);
 const click = (action, choice = 0) =>
   app.handlers.click({
     target: { closest: () => ({ dataset: { action, choice: String(choice) } }) },

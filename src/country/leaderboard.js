@@ -6,7 +6,10 @@ import {
   fail,
   shortName,
   isToken,
+  cleanLevel,
+  measuredTiers,
   cleanHistory,
+  fromLegacyTopics,
   pickQuestions,
 } from './shared.js';
 
@@ -19,17 +22,19 @@ export class CountryLeaderboard {
     this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS matches (
       match_id TEXT PRIMARY KEY, finished_at INTEGER NOT NULL
     )`);
+    // Best score per nickname, difficulty level and game length.
     this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS scores (
-      name_key TEXT NOT NULL, rounds INTEGER NOT NULL, display_name TEXT NOT NULL,
-      best_score INTEGER NOT NULL, best_correct INTEGER NOT NULL, games INTEGER NOT NULL,
-      first_seen INTEGER NOT NULL, last_seen INTEGER NOT NULL,
-      PRIMARY KEY(name_key, rounds)
+      name_key TEXT NOT NULL, level TEXT NOT NULL DEFAULT 'mixed', rounds INTEGER NOT NULL,
+      display_name TEXT NOT NULL, best_score INTEGER NOT NULL, best_correct INTEGER NOT NULL,
+      games INTEGER NOT NULL, first_seen INTEGER NOT NULL, last_seen INTEGER NOT NULL,
+      PRIMARY KEY(name_key, level, rounds)
     )`);
-    // Songs each nickname has already been asked, so repeats are avoided across devices and browsers.
-    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS seen (
-      name_key TEXT NOT NULL, topic TEXT NOT NULL, seen_at INTEGER NOT NULL,
-      PRIMARY KEY(name_key, topic)
+    // Questions each nickname has already been asked, so repeats are avoided across devices.
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS seen_questions (
+      name_key TEXT NOT NULL, question_id INTEGER NOT NULL, seen_at INTEGER NOT NULL,
+      PRIMARY KEY(name_key, question_id)
     )`);
+    this.migrate();
     // Players' reports of wrong lyrics, titles, artists or answers, reviewed on the reports page.
     this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS reports (
       id INTEGER PRIMARY KEY AUTOINCREMENT, question_id INTEGER NOT NULL, reason TEXT NOT NULL,
@@ -50,6 +55,49 @@ export class CountryLeaderboard {
     )`);
     this.renamePlayer('gay', 'Russ');
   }
+  // One-time upgrades of data saved by earlier versions. Each checks whether it already ran.
+  migrate() {
+    const sql = this.ctx.storage.sql;
+    const tables = new Set(
+      [...sql.exec("SELECT name FROM sqlite_master WHERE type='table'")].map((r) => r.name),
+    );
+    this.ctx.storage.transactionSync(() => {
+      // Scores from before difficulty levels were all full-range games: they become Mixed.
+      const columns = [...sql.exec('PRAGMA table_info(scores)')].map((c) => c.name);
+      if (!columns.includes('level')) {
+        sql.exec(`CREATE TABLE scores_new (
+          name_key TEXT NOT NULL, level TEXT NOT NULL DEFAULT 'mixed', rounds INTEGER NOT NULL,
+          display_name TEXT NOT NULL, best_score INTEGER NOT NULL, best_correct INTEGER NOT NULL,
+          games INTEGER NOT NULL, first_seen INTEGER NOT NULL, last_seen INTEGER NOT NULL,
+          PRIMARY KEY(name_key, level, rounds)
+        )`);
+        sql.exec(`INSERT INTO scores_new (name_key,level,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
+          SELECT name_key,'mixed',rounds,display_name,best_score,best_correct,games,first_seen,last_seen FROM scores`);
+        sql.exec('DROP TABLE scores');
+        sql.exec('ALTER TABLE scores_new RENAME TO scores');
+      }
+      // Song history becomes question history; the old table is emptied once copied.
+      if (tables.has('seen')) {
+        for (const row of [...sql.exec('SELECT name_key,topic,seen_at FROM seen')])
+          for (const id of fromLegacyTopics([row.topic]))
+            sql.exec(
+              'INSERT OR IGNORE INTO seen_questions (name_key,question_id,seen_at) VALUES (?,?,?)',
+              row.name_key,
+              id,
+              row.seen_at,
+            );
+        sql.exec('DROP TABLE seen');
+      }
+    });
+  }
+  // Difficulty tiers measured from real answers, as [questionId, tier] pairs.
+  tiers() {
+    return [
+      ...measuredTiers([
+        ...this.ctx.storage.sql.exec('SELECT question_id,answered,correct FROM question_stats'),
+      ]),
+    ];
+  }
   // One-off moderation rename; merges into an existing entry for the new name if there is one.
   renamePlayer(from, to) {
     const sql = this.ctx.storage.sql;
@@ -58,12 +106,13 @@ export class CountryLeaderboard {
     this.ctx.storage.transactionSync(() => {
       for (const old of [...sql.exec('SELECT * FROM scores WHERE name_key=?', fromKey)]) {
         sql.exec(
-          `INSERT INTO scores (name_key,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
-          VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(name_key,rounds) DO UPDATE SET
+          `INSERT INTO scores (name_key,level,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
+          VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(name_key,level,rounds) DO UPDATE SET
           best_correct=CASE WHEN excluded.best_score>scores.best_score THEN excluded.best_correct ELSE scores.best_correct END,
           best_score=MAX(scores.best_score,excluded.best_score), games=scores.games+excluded.games,
           first_seen=MIN(scores.first_seen,excluded.first_seen), last_seen=MAX(scores.last_seen,excluded.last_seen)`,
           toKey,
+          old.level,
           old.rounds,
           to,
           old.best_score,
@@ -72,44 +121,54 @@ export class CountryLeaderboard {
           old.first_seen,
           old.last_seen,
         );
-        sql.exec('DELETE FROM scores WHERE name_key=? AND rounds=?', fromKey, old.rounds);
+        sql.exec(
+          'DELETE FROM scores WHERE name_key=? AND level=? AND rounds=?',
+          fromKey,
+          old.level,
+          old.rounds,
+        );
       }
     });
   }
-  // Adds a browser's local history (older than anything recorded here) and returns the
-  // nickname's full history, oldest first.
-  mergeHistory(name, topics) {
+  // Adds a browser's local history of question ids (older than anything recorded here) and
+  // returns the nickname's full history, oldest first.
+  mergeHistory(name, questions) {
+    const local = cleanHistory(questions);
     const display = shortName(name);
-    if (!display) return cleanHistory(topics);
+    if (!display) return local;
     const key = display.toLocaleLowerCase('en-US');
     const sql = this.ctx.storage.sql;
-    const local = cleanHistory(topics);
     this.ctx.storage.transactionSync(() => {
-      local.forEach((topic, i) =>
+      local.forEach((id, i) =>
         sql.exec(
-          'INSERT OR IGNORE INTO seen (name_key,topic,seen_at) VALUES (?,?,?)',
+          'INSERT OR IGNORE INTO seen_questions (name_key,question_id,seen_at) VALUES (?,?,?)',
           key,
-          topic,
+          id,
           i,
         ),
       );
     });
-    return [...sql.exec('SELECT topic FROM seen WHERE name_key=? ORDER BY seen_at ASC', key)].map(
-      (r) => r.topic,
+    return cleanHistory(
+      [
+        ...sql.exec(
+          'SELECT question_id FROM seen_questions WHERE name_key=? ORDER BY seen_at ASC',
+          key,
+        ),
+      ].map((r) => r.question_id),
     );
   }
-  markSeen(names, topic) {
-    if (!Array.isArray(names) || !cleanHistory([topic]).length) return;
+  markSeen(names, questionId) {
+    if (!Array.isArray(names) || !cleanHistory([questionId]).length) return;
     const sql = this.ctx.storage.sql;
     const now = Date.now();
     for (const name of names.slice(0, 8)) {
       const display = shortName(name);
       if (!display) continue;
       sql.exec(
-        `INSERT INTO seen (name_key,topic,seen_at) VALUES (?,?,?)
-        ON CONFLICT(name_key,topic) DO UPDATE SET seen_at=excluded.seen_at`,
+        `INSERT INTO seen_questions (name_key,question_id,seen_at) VALUES (?,?,?)
+        ON CONFLICT(name_key,question_id) DO UPDATE SET seen_at=excluded.seen_at`,
         display.toLocaleLowerCase('en-US'),
-        topic,
+        questionId,
         now,
       );
     }
@@ -218,6 +277,7 @@ export class CountryLeaderboard {
   }
   recordMatch(match) {
     const { matchId, rounds, players } = match;
+    const level = cleanLevel(match.level);
     if (
       typeof matchId !== 'string' ||
       matchId.length > 120 ||
@@ -248,18 +308,20 @@ export class CountryLeaderboard {
         const key = display.toLocaleLowerCase('en-US');
         const current = [
           ...sql.exec(
-            'SELECT best_score,best_correct FROM scores WHERE name_key=? AND rounds=?',
+            'SELECT best_score,best_correct FROM scores WHERE name_key=? AND level=? AND rounds=?',
             key,
+            level,
             rounds,
           ),
         ][0];
         const better = !current || player.score > current.best_score;
         sql.exec(
-          `INSERT INTO scores (name_key,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
-          VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(name_key,rounds) DO UPDATE SET
+          `INSERT INTO scores (name_key,level,rounds,display_name,best_score,best_correct,games,first_seen,last_seen)
+          VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(name_key,level,rounds) DO UPDATE SET
           display_name=excluded.display_name, best_score=excluded.best_score,
           best_correct=excluded.best_correct, games=scores.games+1, last_seen=excluded.last_seen`,
           key,
+          level,
           rounds,
           display,
           better ? player.score : current.best_score,
@@ -277,19 +339,22 @@ export class CountryLeaderboard {
     const action = url.pathname;
     if (action === '/list') {
       const rounds = url.searchParams.get('rounds') === '20' ? 20 : 10;
+      const level = cleanLevel(url.searchParams.get('level'));
       const rows = [
         ...this.ctx.storage.sql.exec(
-          'SELECT display_name,best_score,best_correct,games,last_seen FROM scores WHERE rounds=? ORDER BY best_score DESC,best_correct DESC,last_seen ASC LIMIT 100',
+          'SELECT display_name,best_score,best_correct,games,last_seen FROM scores WHERE level=? AND rounds=? ORDER BY best_score DESC,best_correct DESC,last_seen ASC LIMIT 100',
+          level,
           rounds,
         ),
       ];
       const stats = [
         ...this.ctx.storage.sql.exec(
-          'SELECT COUNT(*) AS players,COALESCE(SUM(games),0) AS games FROM scores WHERE rounds=?',
+          'SELECT COUNT(*) AS players,COALESCE(SUM(games),0) AS games FROM scores WHERE level=? AND rounds=?',
+          level,
           rounds,
         ),
       ][0];
-      return asJson({ rounds, rows, stats });
+      return asJson({ level, rounds, rows, stats });
     }
     if (request.method !== 'POST') return fail('Use POST', 405);
     let d;
@@ -302,7 +367,10 @@ export class CountryLeaderboard {
       return this.recordMatch(d) ? asJson({ ok: true }) : fail('Invalid result');
     if (action === '/history/merge') {
       const players = Array.isArray(d.players) ? d.players.slice(0, 8) : [];
-      return asJson({ histories: players.map((p) => this.mergeHistory(p?.name, p?.topics)) });
+      return asJson({
+        histories: players.map((p) => this.mergeHistory(p?.name, p?.questions)),
+        tiers: this.tiers(),
+      });
     }
     if (action === '/report') {
       if (!isToken(d.token)) return fail('Player session missing', 401);
@@ -321,25 +389,31 @@ export class CountryLeaderboard {
     if (action === '/reports/stats') return asJson({ stats: this.listStats() });
     // Called by a GameRoom when a multiplayer question is revealed.
     if (action === '/round') {
-      this.markSeen(d.names, d.topic);
+      this.markSeen(d.names, d.questionId);
       this.recordAnswers(d.questionId, d.answers);
       return asJson({ ok: true });
     }
     if (action === '/history/seen') {
-      this.markSeen(d.names, d.topic);
+      this.markSeen(d.names, d.questionId);
       return asJson({ ok: true });
     }
     if (!action.startsWith('/solo/')) return fail('Unknown action', 404);
     if (!isToken(d.token)) return fail('Player session missing', 401);
     if (action === '/solo/start') {
       const nick = shortName(d.name);
-      // Current clients let the server pick from the nickname's history; older cached clients send ids.
+      // The server picks from the nickname's history. Older cached clients send their own picks,
+      // or a song history instead of question ids.
+      const level = cleanLevel(d.level);
+      const local = Array.isArray(d.recentQuestions)
+        ? d.recentQuestions
+        : fromLegacyTopics(d.recentTopics);
       const ids = Array.isArray(d.questionIds)
         ? d.questionIds
         : [10, 20].includes(d.rounds)
-          ? pickQuestions(d.rounds, this.mergeHistory(nick, d.recentTopics)).map(
-              (i) => QUESTIONS[i].id,
-            )
+          ? pickQuestions(d.rounds, this.mergeHistory(nick, local), {
+              level,
+              tiers: new Map(this.tiers()),
+            }).map((i) => QUESTIONS[i].id)
           : null;
       if (
         !nick ||
@@ -360,6 +434,7 @@ export class CountryLeaderboard {
         id,
         token: d.token,
         name: nick,
+        level,
         ids,
         index: 0,
         score: 0,
@@ -395,7 +470,7 @@ export class CountryLeaderboard {
       session.score += points;
       if (correct) session.correct++;
       session.answered = true;
-      this.markSeen([session.name], question.topic);
+      this.markSeen([session.name], question.id);
       // A late answer scored as a miss counts as no answer.
       const onTime = d.choice !== null && now <= session.endsAt + 1200;
       this.recordAnswers(question.id, [
@@ -412,6 +487,7 @@ export class CountryLeaderboard {
         this.recordMatch({
           matchId: 'solo-' + session.id,
           rounds: session.ids.length,
+          level: session.level,
           mode: 'solo',
           players: [{ name: session.name, score: session.score, correct: session.correct }],
         });
