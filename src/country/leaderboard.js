@@ -41,6 +41,12 @@ export class CountryLeaderboard {
       note TEXT NOT NULL, name TEXT NOT NULL, token TEXT NOT NULL, created_at INTEGER NOT NULL,
       status TEXT NOT NULL DEFAULT 'open', UNIQUE(token, question_id)
     )`);
+    // Songs the owner heard and wants added, sent from the song check page (public/country/songs/).
+    this.ctx.storage.sql.exec(`CREATE TABLE IF NOT EXISTS song_requests (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL, artist TEXT NOT NULL,
+      title_key TEXT NOT NULL UNIQUE, created_at INTEGER NOT NULL,
+      status TEXT NOT NULL DEFAULT 'open'
+    )`);
     // How each question plays in real games: times asked, answered, right, time taken, and
     // which choices people pick. Totals only, no player names. Picks are keyed by choice text so
     // they stay correct even if a rebuild reorders a question's choices.
@@ -254,6 +260,33 @@ export class CountryLeaderboard {
       };
     });
   }
+  requestSong(d) {
+    const title = typeof d.title === 'string' ? d.title.trim().slice(0, 120) : '';
+    const artist = typeof d.artist === 'string' ? d.artist.trim().slice(0, 120) : '';
+    const key = title.toLocaleLowerCase('en-US').replace(/\s+/g, ' ');
+    if (!key) return fail('Enter a song title.');
+    // Asking again for the same title updates the artist and reopens it.
+    this.ctx.storage.sql.exec(
+      `INSERT INTO song_requests (title,artist,title_key,created_at) VALUES (?,?,?,?)
+      ON CONFLICT(title_key) DO UPDATE SET title=excluded.title,
+      artist=CASE WHEN excluded.artist='' THEN artist ELSE excluded.artist END,
+      created_at=excluded.created_at, status='open'`,
+      title,
+      artist,
+      key,
+      Date.now(),
+    );
+    return asJson({ ok: true });
+  }
+  listSongRequests(status) {
+    return [
+      ...this.ctx.storage.sql.exec(
+        `SELECT id,title,artist,created_at,status FROM song_requests
+        WHERE status=? ORDER BY created_at DESC LIMIT 500`,
+        ['added', 'skipped'].includes(status) ? status : 'open',
+      ),
+    ];
+  }
   listReports(status) {
     const rows = [
       ...this.ctx.storage.sql.exec(
@@ -387,6 +420,18 @@ export class CountryLeaderboard {
       return asJson({ ok: true });
     }
     if (action === '/reports/stats') return asJson({ stats: this.listStats() });
+    if (action === '/reports/song-request') return this.requestSong(d);
+    if (action === '/reports/song-requests')
+      return asJson({ requests: this.listSongRequests(d.status) });
+    if (action === '/reports/song-request-status') {
+      if (!Number.isInteger(d.id)) return fail('Missing request id.');
+      this.ctx.storage.sql.exec(
+        'UPDATE song_requests SET status=? WHERE id=?',
+        ['added', 'skipped'].includes(d.status) ? d.status : 'open',
+        d.id,
+      );
+      return asJson({ ok: true });
+    }
     // Called by a GameRoom when a multiplayer question is revealed.
     if (action === '/round') {
       this.markSeen(d.names, d.questionId);

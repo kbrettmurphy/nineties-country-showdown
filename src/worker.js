@@ -60,9 +60,17 @@ export default {
         });
       }
       // Reports page (public/country/reports/): reading and resolving needs the REPORTS_KEY secret.
+      // So do song requests from the song check page (public/country/songs/).
       if (
         path[1] === 'reports' &&
-        ['list', 'resolve', 'stats'].includes(path[2]) &&
+        [
+          'list',
+          'resolve',
+          'stats',
+          'song-request',
+          'song-requests',
+          'song-request-status',
+        ].includes(path[2]) &&
         path.length === 3
       ) {
         if (!env.REPORTS_KEY) return fail('Reports key is not configured.', 503);

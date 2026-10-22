@@ -99,4 +99,29 @@ const res = await worker.fetch(
   noKeyEnv,
 );
 assert.equal(res.status, 503, 'reports stay locked when no key is configured');
-console.log('PASS: players can report questions; only the reports key can read or resolve them.');
+// Song requests from the song check page.
+r = await post('reports/song-request', { title: 'Fancy', artist: 'Reba McEntire' });
+assert.equal(r.status, 403, 'song requests need the reports key');
+r = await post('reports/song-request', { key: 'test-key', title: '  ' });
+assert.equal(r.status, 400, 'a title is required');
+r = await post('reports/song-request', { key: 'test-key', title: 'Fancy', artist: 'Reba' });
+assert.equal(r.status, 200, JSON.stringify(r.data));
+// Asking again for the same title updates it instead of adding a second row.
+await post('reports/song-request', { key: 'test-key', title: 'fancy', artist: '' });
+r = await post('reports/song-requests', { key: 'test-key' });
+assert.equal(r.data.requests.length, 1);
+assert.equal(r.data.requests[0].artist, 'Reba', 'a blank artist keeps the earlier one');
+r = await post('reports/song-request-status', {
+  key: 'test-key',
+  id: r.data.requests[0].id,
+  status: 'added',
+});
+assert.equal(r.status, 200);
+assert.equal((await post('reports/song-requests', { key: 'test-key' })).data.requests.length, 0);
+assert.equal(
+  (await post('reports/song-requests', { key: 'test-key', status: 'added' })).data.requests.length,
+  1,
+);
+console.log(
+  'PASS: players can report questions; only the reports key can read or resolve them or request songs.',
+);

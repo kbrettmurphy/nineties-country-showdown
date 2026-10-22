@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Song Check</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=DM+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #0f1a1e;
+        --card: #16262b;
+        --line: #33463f;
+        --paper: #f3ead3;
+        --muted: #a7b6b0;
+        --gold: #eabf6d;
+        --green: #87c498;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--paper);
+        font:
+          15px/1.45 'DM Sans',
+          system-ui,
+          sans-serif;
+        padding: 24px 16px 48px;
+      }
+      main {
+        max-width: 560px;
+        margin: 0 auto;
+      }
+      h1 {
+        font:
+          700 30px/1.1 Oswald,
+          sans-serif;
+        letter-spacing: 0.02em;
+        margin: 0 0 4px;
+      }
+      .sub {
+        color: var(--muted);
+        margin: 0 0 18px;
+      }
+      input {
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: #0b1417;
+        color: var(--paper);
+        font: inherit;
+        font-size: 17px;
+      }
+      input:focus {
+        outline: 2px solid var(--gold);
+        outline-offset: 1px;
+      }
+      .status {
+        color: var(--muted);
+        min-height: 22px;
+        margin: 14px 0 8px;
+      }
+      .hit {
+        display: flex;
+        gap: 12px;
+        align-items: baseline;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 12px 14px;
+        margin-bottom: 8px;
+      }
+      .hit b {
+        color: var(--green);
+        font-size: 18px;
+      }
+      .hit span {
+        color: var(--muted);
+      }
+      .no {
+        font:
+          700 20px Oswald,
+          sans-serif;
+        color: var(--gold);
+      }
+      form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 4px;
+      }
+      form input {
+        flex: 1 1 200px;
+        width: auto;
+        font-size: 15px;
+        padding: 10px 12px;
+      }
+      button {
+        padding: 10px 14px;
+        border-radius: 10px;
+        border: 1px solid var(--gold);
+        background: var(--gold);
+        color: #1a1408;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      button.quiet {
+        border-color: var(--line);
+        background: none;
+        color: var(--muted);
+        padding: 2px 9px;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 13px;
+        min-height: 18px;
+        margin: 6px 0 0;
+      }
+      h2 {
+        font:
+          700 18px Oswald,
+          sans-serif;
+        letter-spacing: 0.04em;
+        margin: 32px 0 8px;
+      }
+      .req {
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+        padding: 8px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .req span {
+        flex: 1;
+        color: var(--muted);
+      }
+      .req b {
+        color: var(--paper);
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Is it in the game?</h1>
+      <p class="sub">Type a song title. You’ll only see songs that match — never the questions.</p>
+      <input id="q" type="search" placeholder="Song title" autocomplete="off" autofocus />
+      <div class="status" id="status" role="status">Loading songs…</div>
+      <div id="list"></div>
+      <section id="ask" hidden>
+        <p class="sub">Want it in the game? Request it and Claude will add it.</p>
+        <form id="askform">
+          <input id="artist" placeholder="Artist (optional)" autocomplete="off" />
+          <input
+            id="key"
+            type="password"
+            placeholder="Reports key"
+            autocomplete="current-password"
+            hidden
+          />
+          <button type="submit">Request “<span id="asktitle"></span>”</button>
+        </form>
+        <p class="note" id="asknote" role="status"></p>
+      </section>
+      <section id="mine" hidden>
+        <h2>Waiting to be added</h2>
+        <div id="requests"></div>
+      </section>
+    </main>
+    <script src="../questions.js"></script>
+    <script>
+      (() => {
+        const $ = (s) => document.querySelector(s);
+        const esc = (s) =>
+          String(s ?? '').replace(
+            /[&<>"']/g,
+            (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
+          );
+        // "Ain’t Goin’ Down ('Til the Sun Comes Up)" and "aint going down til the sun comes up"
+        // should meet in the middle.
+        const norm = (s) =>
+          s
+            .normalize('NFD')
+            .replace(/[̀-ͯ]/g, '')
+            .toLowerCase()
+            .replace(/&/g, ' and ')
+            .replace(/ing\b|in['’]/g, 'in')
+            .replace(/[^a-z0-9 ]+/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+        const MIN = 3;
+        const MAX = 5;
+        // One entry per song, keeping only the title and artist.
+        const bySong = new Map();
+        for (const q of window.QBANK || []) {
+          const title = q.lyricSong.replace(/\s*\(from .*\)$/i, '');
+          const prev = bySong.get(q.topic);
+          if (!prev || title.length < prev.title.length)
+            bySong.set(q.topic, { title, artist: q.lyricArtist, key: norm(title) });
+        }
+        const songs = [...bySong.values()];
+        window.QBANK = undefined;
+        // Allow a typo or two on a whole title.
+        function close(a, b) {
+          if (Math.abs(a.length - b.length) > 2) return false;
+          let row = Array.from({ length: b.length + 1 }, (_, i) => i);
+          for (let i = 1; i <= a.length; i++) {
+            const next = [i];
+            for (let j = 1; j <= b.length; j++)
+              next[j] = Math.min(
+                row[j] + 1,
+                next[j - 1] + 1,
+                row[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+              );
+            row = next;
+          }
+          return row[b.length] <= (b.length > 8 ? 2 : 1);
+        }
+        function search() {
+          const q = norm($('#q').value);
+          if (q.length < MIN) {
+            $('#ask').hidden = true;
+            $('#status').textContent = songs.length ? 'Keep typing…' : 'Couldn’t load the songs.';
+            return ($('#list').innerHTML = '');
+          }
+          const exact = songs.filter((s) => s.key === q);
+          const found = exact.length
+            ? exact
+            : songs.filter((s) => s.key.includes(q) || close(q, s.key));
+          // Offer a request whenever the title isn't an exact match (a near match may be another song).
+          $('#ask').hidden = exact.length > 0 || found.length > MAX;
+          $('#asktitle').textContent = $('#q').value.trim();
+          $('#asknote').textContent = '';
+          if (!found.length) {
+            $('#status').textContent = '';
+            return ($('#list').innerHTML = '<p class="no">Not in the game yet.</p>');
+          }
+          if (found.length > MAX) {
+            $('#status').textContent = 'Lots of titles match — keep typing.';
+            return ($('#list').innerHTML = '');
+          }
+          $('#status').textContent = exact.length ? 'In the game:' : 'Closest matches in the game:';
+          $('#list').innerHTML = found
+            .map(
+              (s) => `<div class="hit"><b>✓ ${esc(s.title)}</b><span>${esc(s.artist)}</span></div>`,
+            )
+            .join('');
+        }
+        // Requests use the same key as the reports page, which saves it on this device.
+        const KEY = 'country-reports-key';
+        let key = '';
+        try {
+          key = localStorage.getItem(KEY) || '';
+        } catch {}
+        $('#key').hidden = !!key;
+        const call = async (path, body) => {
+          const res = await fetch('/country/api/reports/' + path, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ ...body, key }),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok)
+            throw Object.assign(new Error(data.error || 'Request failed.'), { status: res.status });
+          return data;
+        };
+        async function loadRequests() {
+          if (!key) return;
+          try {
+            const { requests } = await call('song-requests', {});
+            $('#mine').hidden = !requests.length;
+            $('#requests').innerHTML = requests
+              .map(
+                (r) =>
+                  `<div class="req"><span><b>${esc(r.title)}</b>${r.artist ? ' — ' + esc(r.artist) : ''}</span><button class="quiet" data-id="${r.id}" aria-label="Remove">×</button></div>`,
+              )
+              .join('');
+          } catch {}
+        }
+        $('#askform').addEventListener('submit', async (e) => {
+          e.preventDefault();
+          if (!key) key = $('#key').value.trim();
+          if (!key) return ($('#asknote').textContent = 'Enter the reports key first.');
+          $('#asknote').textContent = 'Sending…';
+          try {
+            await call('song-request', { title: $('#q').value, artist: $('#artist').value });
+            try {
+              localStorage.setItem(KEY, key);
+            } catch {}
+            $('#key').hidden = true;
+            $('#artist').value = '';
+            $('#asknote').textContent = 'Requested ✓';
+            loadRequests();
+          } catch (err) {
+            if (err.status === 403) {
+              key = '';
+              $('#key').hidden = false;
+            }
+            $('#asknote').textContent = err.message;
+          }
+        });
+        $('#requests').addEventListener('click', async (e) => {
+          const b = e.target.closest('[data-id]');
+          if (!b) return;
+          b.disabled = true;
+          try {
+            await call('song-request-status', { id: Number(b.dataset.id), status: 'skipped' });
+          } catch {}
+          loadRequests();
+        });
+        $('#q').addEventListener('input', search);
+        search();
+        loadRequests();
+      })();
+    </script>
+  </body>
+</html>
