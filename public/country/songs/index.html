@@ -62,6 +62,31 @@
         outline: 2px solid var(--gold);
         outline-offset: 1px;
       }
+      /* Our own clear button, since iPhone Safari has no built-in one. */
+      .searchbox {
+        position: relative;
+      }
+      .searchbox input {
+        padding-right: 48px;
+      }
+      input::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+      }
+      #clear {
+        position: absolute;
+        top: 50%;
+        right: 6px;
+        transform: translateY(-50%);
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        background: none;
+        color: var(--muted);
+        font-size: 22px;
+        line-height: 1;
+      }
       .status {
         color: var(--muted);
         min-height: 22px;
@@ -152,7 +177,10 @@
     <main>
       <h1>Is it in the game?</h1>
       <p class="sub">Type a song title. You’ll only see songs that match — never the questions.</p>
-      <input id="q" type="search" placeholder="Song title" autocomplete="off" autofocus />
+      <div class="searchbox">
+        <input id="q" type="search" placeholder="Song title" autocomplete="off" autofocus />
+        <button id="clear" type="button" aria-label="Clear search" hidden>×</button>
+      </div>
       <div class="status" id="status" role="status">Loading songs…</div>
       <div id="list"></div>
       <section id="ask" hidden>
@@ -225,6 +253,7 @@
           return row[b.length] <= (b.length > 8 ? 2 : 1);
         }
         function search() {
+          $('#clear').hidden = !$('#q').value;
           const q = norm($('#q').value);
           if (q.length < MIN) {
             $('#ask').hidden = true;
@@ -317,6 +346,11 @@
           loadRequests();
         });
         $('#q').addEventListener('input', search);
+        $('#clear').addEventListener('click', () => {
+          $('#q').value = '';
+          search();
+          $('#q').focus();
+        });
         search();
         loadRequests();
       })();
