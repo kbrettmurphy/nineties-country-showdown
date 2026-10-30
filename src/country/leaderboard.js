@@ -60,6 +60,7 @@ export class CountryLeaderboard {
       PRIMARY KEY(question_id, choice)
     )`);
     this.renamePlayer('gay', 'Russ');
+    this.removeScore('Zack West', 'beginner', 20, 2565);
   }
   // One-time upgrades of data saved by earlier versions. Each checks whether it already ran.
   migrate() {
@@ -135,6 +136,17 @@ export class CountryLeaderboard {
         );
       }
     });
+  }
+  // One-off moderation removal of a single leaderboard entry. Matching the exact score and one
+  // game keeps it from deleting a later real score under the same name.
+  removeScore(name, level, rounds, score) {
+    this.ctx.storage.sql.exec(
+      'DELETE FROM scores WHERE name_key=? AND level=? AND rounds=? AND best_score=? AND games=1',
+      name.toLocaleLowerCase('en-US'),
+      level,
+      rounds,
+      score,
+    );
   }
   // Adds a browser's local history of question ids (older than anything recorded here) and
   // returns the nickname's full history, oldest first.
